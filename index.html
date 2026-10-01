@@ -43,9 +43,22 @@ main {
   background: #191b20;
   border: 1px solid #292c33;
   border-radius: 14px;
-  padding: 18px;
+  padding: 15px;
   margin-bottom: 12px;
   cursor: pointer;
+}
+
+.channel-content {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.channel-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .channel-name {
@@ -78,6 +91,17 @@ button {
   background: #292c33;
   color: white;
   margin-bottom: 20px;
+}
+
+.channel-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.channel-header h2 {
+  margin: 0;
 }
 
 .section {
@@ -137,24 +161,44 @@ button {
 
 <main id="channels">
 
-  <div class="channel" onclick="openChannel('TVN')">
-    <div class="channel-name">TVN</div>
-    <div class="channel-id">TVN.cl</div>
+  <div class="channel" onclick="openChannel('TVN', 'https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png')">
+    <div class="channel-content">
+      <img class="channel-logo" src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png" alt="TVN">
+      <div>
+        <div class="channel-name">TVN</div>
+        <div class="channel-id">TVN.cl</div>
+      </div>
+    </div>
   </div>
 
-  <div class="channel" onclick="openChannel('Mega')">
-    <div class="channel-name">Mega</div>
-    <div class="channel-id">Mega.cl</div>
+  <div class="channel" onclick="openChannel('Mega', 'https://cdn.m3u.cl/logo/455_Mega.png')">
+    <div class="channel-content">
+      <img class="channel-logo" src="https://cdn.m3u.cl/logo/455_Mega.png" alt="Mega">
+      <div>
+        <div class="channel-name">Mega</div>
+        <div class="channel-id">Mega.cl</div>
+      </div>
+    </div>
   </div>
 
-  <div class="channel" onclick="openChannel('Chilevisión')">
-    <div class="channel-name">Chilevisión</div>
-    <div class="channel-id">Chilevision.cl</div>
+  <div class="channel" onclick="openChannel('Chilevisión', 'https://cdn.m3u.cl/logo/1569_CHV.png')">
+    <div class="channel-content">
+      <img class="channel-logo" src="https://cdn.m3u.cl/logo/1569_CHV.png" alt="Chilevisión">
+      <div>
+        <div class="channel-name">Chilevisión</div>
+        <div class="channel-id">Chilevision.cl</div>
+      </div>
+    </div>
   </div>
 
-  <div class="channel" onclick="openChannel('Canal 13')">
-    <div class="channel-name">Canal 13</div>
-    <div class="channel-id">Canal13.cl</div>
+  <div class="channel" onclick="openChannel('Canal 13', 'https://cdn.m3u.cl/logo/1733_Canal_13.png')">
+    <div class="channel-content">
+      <img class="channel-logo" src="https://cdn.m3u.cl/logo/1733_Canal_13.png" alt="Canal 13">
+      <div>
+        <div class="channel-name">Canal 13</div>
+        <div class="channel-id">Canal13.cl</div>
+      </div>
+    </div>
   </div>
 
   <button>＋ Agregar canal</button>
@@ -166,7 +210,10 @@ button {
 
   <button class="back" onclick="goBack()">← Volver a canales</button>
 
-  <h2 id="channelTitle">TVN</h2>
+  <div class="channel-header">
+    <img id="channelLogo" class="channel-logo" src="" alt="">
+    <h2 id="channelTitle">TVN</h2>
+  </div>
 
   <div class="section">
     <h2>📋 Programación</h2>
@@ -237,10 +284,14 @@ button {
 
 <script>
 
-function openChannel(channel) {
+function openChannel(channel, logo) {
   document.getElementById("channels").style.display = "none";
   document.getElementById("editor").style.display = "block";
+
   document.getElementById("channelTitle").textContent = channel;
+
+  document.getElementById("channelLogo").src = logo;
+  document.getElementById("channelLogo").alt = channel;
 }
 
 function goBack() {
