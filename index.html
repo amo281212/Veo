@@ -196,6 +196,12 @@ button {
   margin-top: 15px;
 }
 
+.xml-button {
+  margin-top: 10px;
+  background: #292c33;
+  color: white;
+}
+
 /* EDITORES */
 
 .program-editor {
@@ -283,6 +289,7 @@ button {
   <div class="channel" onclick="openChannel('TVN', 'https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png')">
     <div class="channel-content">
       <img class="channel-logo" src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png" alt="TVN">
+
       <div>
         <div class="channel-name">TVN</div>
         <div class="channel-id">TVN.cl</div>
@@ -290,9 +297,11 @@ button {
     </div>
   </div>
 
+
   <div class="channel" onclick="openChannel('Mega', 'https://cdn.m3u.cl/logo/455_Mega.png')">
     <div class="channel-content">
       <img class="channel-logo" src="https://cdn.m3u.cl/logo/455_Mega.png" alt="Mega">
+
       <div>
         <div class="channel-name">Mega</div>
         <div class="channel-id">Mega.cl</div>
@@ -300,9 +309,11 @@ button {
     </div>
   </div>
 
+
   <div class="channel" onclick="openChannel('Chilevisión', 'https://cdn.m3u.cl/logo/1569_CHV.png')">
     <div class="channel-content">
       <img class="channel-logo" src="https://cdn.m3u.cl/logo/1569_CHV.png" alt="Chilevisión">
+
       <div>
         <div class="channel-name">Chilevisión</div>
         <div class="channel-id">Chilevision.cl</div>
@@ -310,9 +321,11 @@ button {
     </div>
   </div>
 
+
   <div class="channel" onclick="openChannel('Canal 13', 'https://cdn.m3u.cl/logo/1733_Canal_13.png')">
     <div class="channel-content">
       <img class="channel-logo" src="https://cdn.m3u.cl/logo/1733_Canal_13.png" alt="Canal 13">
+
       <div>
         <div class="channel-name">Canal 13</div>
         <div class="channel-id">Canal13.cl</div>
@@ -320,27 +333,45 @@ button {
     </div>
   </div>
 
-  <button class="add-channel" onclick="agregarCanal()">＋ Agregar canal</button>
+
+  <button class="add-channel" onclick="agregarCanal()">
+    ＋ Agregar canal
+  </button>
 
 </main>
 
+
 <main id="editor">
 
-  <button class="back" onclick="goBack()">← Volver a canales</button>
+  <button class="back" onclick="goBack()">
+    ← Volver a canales
+  </button>
+
 
   <div class="channel-header">
+
     <img id="channelLogo" class="channel-logo" src="" alt="">
+
     <h2 id="channelTitle"></h2>
+
   </div>
 
+
   <div class="section">
+
     <h2>📋 Programación</h2>
 
     <div id="week"></div>
 
+
+    <button class="xml-button" onclick="generarXMLTV()">
+      ⬇ Generar XMLTV
+    </button>
+
   </div>
 
 </main>
+
 
 <script>
 
@@ -354,10 +385,13 @@ const dias = [
   "Domingo"
 ];
 
+
 let canalActual = "";
 let diaActual = "";
 
+
 function obtenerDiaActual() {
+
   const dia = new Date().getDay();
 
   const conversion = {
@@ -373,7 +407,9 @@ function obtenerDiaActual() {
   return conversion[dia];
 }
 
+
 function datosIniciales() {
+
   const datos = {};
 
   dias.forEach(dia => {
@@ -383,28 +419,38 @@ function datosIniciales() {
   return datos;
 }
 
+
 function crearTarjetaCanal(nombre, id, logo) {
+
   const channels = document.getElementById("channels");
 
   const card = document.createElement("div");
+
   card.className = "channel";
 
+
   const content = document.createElement("div");
+
   content.className = "channel-content";
+
 
   content.innerHTML = `
     <img class="channel-logo" src="${logo}" alt="${nombre}">
+
     <div>
       <div class="channel-name">${nombre}</div>
       <div class="channel-id">${id}</div>
     </div>
   `;
 
+
   card.appendChild(content);
+
 
   card.onclick = function() {
     openChannel(id, logo);
   };
+
 
   channels.insertBefore(
     card,
@@ -412,23 +458,35 @@ function crearTarjetaCanal(nombre, id, logo) {
   );
 }
 
+
 function openChannel(channel, logo) {
+
   document.getElementById("channels").style.display = "none";
+
   document.getElementById("editor").style.display = "block";
+
 
   canalActual = channel;
 
+
   document.getElementById("channelTitle").textContent = channel;
+
   document.getElementById("channelLogo").src = logo;
+
   document.getElementById("channelLogo").alt = channel;
+
 
   cargarProgramacion(channel);
 }
 
+
 function goBack() {
+
   document.getElementById("editor").style.display = "none";
+
   document.getElementById("channels").style.display = "block";
 }
+
 
 function agregarCanal() {
 
@@ -436,53 +494,80 @@ function agregarCanal() {
 
   editor.className = "program-editor";
 
+
   editor.innerHTML = `
+
     <div class="program-editor-box">
 
       <h2>Agregar canal</h2>
 
+
       <label>Nombre del canal</label>
+
       <input class="editor-nombre" type="text">
 
+
       <label>ID del canal</label>
+
       <input class="editor-id" type="text">
 
+
       <label>URL del logo</label>
+
       <input class="editor-logo" type="text">
 
+
       <div class="editor-buttons">
-        <button class="cancel-editor">Cancelar</button>
-        <button class="save-editor">Guardar</button>
+
+        <button class="cancel-editor">
+          Cancelar
+        </button>
+
+        <button class="save-editor">
+          Guardar
+        </button>
+
       </div>
 
     </div>
+
   `;
 
+
   document.body.appendChild(editor);
+
 
   editor.querySelector(".cancel-editor").onclick = function() {
     editor.remove();
   };
+
 
   editor.querySelector(".save-editor").onclick = function() {
 
     const nombre =
       editor.querySelector(".editor-nombre").value.trim();
 
+
     const id =
       editor.querySelector(".editor-id").value.trim();
+
 
     const logo =
       editor.querySelector(".editor-logo").value.trim();
 
+
     if (!nombre || !id || !logo) {
+
       alert("Completa todos los campos.");
+
       return;
     }
+
 
     const canales = JSON.parse(
       localStorage.getItem("veo_canales") || "[]"
     );
+
 
     canales.push({
       nombre: nombre,
@@ -490,10 +575,12 @@ function agregarCanal() {
       logo: logo
     });
 
+
     localStorage.setItem(
       "veo_canales",
       JSON.stringify(canales)
     );
+
 
     crearTarjetaCanal(
       nombre,
@@ -501,9 +588,11 @@ function agregarCanal() {
       logo
     );
 
+
     editor.remove();
   };
 }
+
 
 function cargarProgramacion(canal) {
 
@@ -511,75 +600,106 @@ function cargarProgramacion(canal) {
     "veo_programacion_v3_" + canal
   );
 
+
   let datos;
 
+
   if (guardada) {
+
     datos = JSON.parse(guardada);
+
   } else {
+
     datos = datosIniciales();
 
+
     if (canal === "TVN") {
+
       datos["Lunes"] = [
+
         {
           nombre: "Buenos días",
           inicio: "06:00",
           fin: "09:00"
         },
+
         {
           nombre: "Noticias",
           inicio: "09:00",
           fin: "13:00"
         },
+
         {
           nombre: "24 Horas",
           inicio: "13:00",
           fin: "14:00"
         }
+
       ];
 
+
       datos["Jueves"] = [
+
         {
           nombre: "Buenos días",
           inicio: "06:00",
           fin: "09:00"
         },
+
         {
           nombre: "Noticias",
           inicio: "09:00",
           fin: "13:00"
         },
+
         {
           nombre: "24 Horas",
           inicio: "13:00",
           fin: "14:00"
         }
+
       ];
+
     }
+
   }
+
 
   renderizarSemana(datos);
 }
+
 
 function guardarProgramacion() {
 
   const datos = {};
 
+
   document.querySelectorAll(".day").forEach(dia => {
 
     const nombreDia = dia.dataset.day;
+
     datos[nombreDia] = [];
+
 
     dia.querySelectorAll(".program").forEach(programa => {
 
       datos[nombreDia].push({
-        nombre: programa.querySelector(".program-name").textContent,
-        inicio: programa.dataset.start,
-        fin: programa.dataset.end
+
+        nombre:
+          programa.querySelector(".program-name").textContent,
+
+        inicio:
+          programa.dataset.start,
+
+        fin:
+          programa.dataset.end
+
       });
 
     });
 
   });
+
 
   localStorage.setItem(
     "veo_programacion_v3_" + canalActual,
@@ -587,13 +707,17 @@ function guardarProgramacion() {
   );
 }
 
+
 function renderizarSemana(datos) {
 
   const contenedor = document.getElementById("week");
 
+
   contenedor.innerHTML = "";
 
+
   diaActual = obtenerDiaActual();
+
 
   dias.forEach(dia => {
 
@@ -603,55 +727,72 @@ function renderizarSemana(datos) {
 
     bloque.dataset.day = dia;
 
+
     if (dia === diaActual) {
       bloque.classList.add("open");
     }
 
+
     const boton = document.createElement("button");
 
     boton.className = "day-title";
+
     boton.textContent = dia;
+
 
     boton.onclick = function() {
       toggleDay(boton);
     };
 
+
     const contenido = document.createElement("div");
 
     contenido.className = "day-content";
 
+
     const programas = datos[dia] || [];
+
 
     programas.forEach(programa => {
 
       contenido.appendChild(
+
         crearPrograma(
           programa.nombre,
           programa.inicio,
           programa.fin
         )
+
       );
 
     });
 
+
     const botonAgregar = document.createElement("button");
 
     botonAgregar.className = "add";
+
     botonAgregar.textContent = "＋ Agregar programa";
+
 
     botonAgregar.onclick = function() {
       agregarPrograma(dia);
     };
 
+
     contenido.appendChild(botonAgregar);
 
+
     bloque.appendChild(boton);
+
     bloque.appendChild(contenido);
+
 
     contenedor.appendChild(bloque);
 
   });
 }
+
 
 function crearPrograma(nombre, inicio, fin) {
 
@@ -659,38 +800,53 @@ function crearPrograma(nombre, inicio, fin) {
 
   programa.className = "program";
 
+
   programa.dataset.start = inicio;
+
   programa.dataset.end = fin;
+
 
   const tiempo = document.createElement("div");
 
   tiempo.className = "time";
+
   tiempo.textContent = inicio + " - " + fin;
+
 
   const nombrePrograma = document.createElement("div");
 
   nombrePrograma.className = "program-name";
+
   nombrePrograma.textContent = nombre;
+
 
   const editar = document.createElement("button");
 
   editar.className = "edit";
+
   editar.textContent = "Editar";
+
 
   editar.onclick = function() {
     editarPrograma(editar);
   };
 
+
   programa.appendChild(tiempo);
+
   programa.appendChild(nombrePrograma);
+
   programa.appendChild(editar);
+
 
   return programa;
 }
 
+
 function toggleDay(boton) {
 
   const dia = boton.parentElement;
+
 
   document.querySelectorAll(".day").forEach(otro => {
 
@@ -700,87 +856,152 @@ function toggleDay(boton) {
 
   });
 
+
   dia.classList.toggle("open");
+
 
   if (dia.classList.contains("open")) {
     diaActual = dia.dataset.day;
   }
 }
 
+
 function editarPrograma(boton) {
 
   const programa = boton.closest(".program");
 
-  const nombre = programa.querySelector(".program-name").textContent;
-  const horaInicio = programa.dataset.start;
-  const horaFin = programa.dataset.end;
+
+  const nombre =
+    programa.querySelector(".program-name").textContent;
+
+
+  const horaInicio =
+    programa.dataset.start;
+
+
+  const horaFin =
+    programa.dataset.end;
+
 
   const editor = document.createElement("div");
 
   editor.className = "program-editor";
 
+
   editor.innerHTML = `
+
     <div class="program-editor-box">
 
       <h2>Editar programa</h2>
 
+
       <label>Nombre del programa</label>
+
       <input class="editor-nombre" type="text">
 
+
       <label>Hora de inicio</label>
-      <input class="editor-inicio" type="text" inputmode="numeric" placeholder="HH:MM">
+
+      <input
+        class="editor-inicio"
+        type="text"
+        inputmode="numeric"
+        placeholder="HH:MM"
+      >
+
 
       <label>Hora de término</label>
-      <input class="editor-fin" type="text" inputmode="numeric" placeholder="HH:MM">
+
+      <input
+        class="editor-fin"
+        type="text"
+        inputmode="numeric"
+        placeholder="HH:MM"
+      >
+
 
       <div class="editor-buttons">
-        <button class="cancel-editor">Cancelar</button>
-        <button class="save-editor">Guardar</button>
+
+        <button class="cancel-editor">
+          Cancelar
+        </button>
+
+        <button class="save-editor">
+          Guardar
+        </button>
+
       </div>
 
     </div>
+
   `;
+
 
   document.body.appendChild(editor);
 
-  editor.querySelector(".editor-nombre").value = nombre;
-  editor.querySelector(".editor-inicio").value = horaInicio;
-  editor.querySelector(".editor-fin").value = horaFin;
+
+  editor.querySelector(".editor-nombre").value =
+    nombre;
+
+
+  editor.querySelector(".editor-inicio").value =
+    horaInicio;
+
+
+  editor.querySelector(".editor-fin").value =
+    horaFin;
+
 
   editor.querySelector(".cancel-editor").onclick = function() {
     editor.remove();
   };
+
 
   editor.querySelector(".save-editor").onclick = function() {
 
     const nuevoNombre =
       editor.querySelector(".editor-nombre").value.trim();
 
+
     const nuevaHoraInicio =
       editor.querySelector(".editor-inicio").value;
+
 
     const nuevaHoraFin =
       editor.querySelector(".editor-fin").value;
 
+
     if (!nuevoNombre || !nuevaHoraInicio || !nuevaHoraFin) {
+
       alert("Completa todos los campos.");
+
       return;
     }
+
 
     programa.querySelector(".program-name").textContent =
       nuevoNombre;
 
+
     programa.querySelector(".time").textContent =
       nuevaHoraInicio + " - " + nuevaHoraFin;
 
-    programa.dataset.start = nuevaHoraInicio;
-    programa.dataset.end = nuevaHoraFin;
+
+    programa.dataset.start =
+      nuevaHoraInicio;
+
+
+    programa.dataset.end =
+      nuevaHoraFin;
+
 
     guardarProgramacion();
+
 
     editor.remove();
   };
 }
+
 
 function agregarPrograma(dia) {
 
@@ -788,55 +1009,94 @@ function agregarPrograma(dia) {
 
   editor.className = "program-editor";
 
+
   editor.innerHTML = `
+
     <div class="program-editor-box">
 
       <h2>Agregar programa</h2>
 
+
       <label>Nombre del programa</label>
+
       <input class="editor-nombre" type="text">
 
+
       <label>Hora de inicio</label>
-      <input class="editor-inicio" type="text" inputmode="numeric" placeholder="HH:MM">
+
+      <input
+        class="editor-inicio"
+        type="text"
+        inputmode="numeric"
+        placeholder="HH:MM"
+      >
+
 
       <label>Hora de término</label>
-      <input class="editor-fin" type="text" inputmode="numeric" placeholder="HH:MM">
+
+      <input
+        class="editor-fin"
+        type="text"
+        inputmode="numeric"
+        placeholder="HH:MM"
+      >
+
 
       <div class="editor-buttons">
-        <button class="cancel-editor">Cancelar</button>
-        <button class="save-editor">Guardar</button>
+
+        <button class="cancel-editor">
+          Cancelar
+        </button>
+
+        <button class="save-editor">
+          Guardar
+        </button>
+
       </div>
 
     </div>
+
   `;
 
+
   document.body.appendChild(editor);
+
 
   editor.querySelector(".cancel-editor").onclick = function() {
     editor.remove();
   };
+
 
   editor.querySelector(".save-editor").onclick = function() {
 
     const nuevoNombre =
       editor.querySelector(".editor-nombre").value.trim();
 
+
     const nuevaHoraInicio =
       editor.querySelector(".editor-inicio").value.trim();
+
 
     const nuevaHoraFin =
       editor.querySelector(".editor-fin").value.trim();
 
+
     if (!nuevoNombre || !nuevaHoraInicio || !nuevaHoraFin) {
+
       alert("Completa todos los campos.");
+
       return;
     }
+
 
     const bloqueDia = document.querySelector(
       '.day[data-day="' + dia + '"]'
     );
 
-    const botonAgregar = bloqueDia.querySelector(".add");
+
+    const botonAgregar =
+      bloqueDia.querySelector(".add");
+
 
     const nuevoPrograma = crearPrograma(
       nuevoNombre,
@@ -844,27 +1104,423 @@ function agregarPrograma(dia) {
       nuevaHoraFin
     );
 
+
     botonAgregar.parentElement.insertBefore(
       nuevoPrograma,
       botonAgregar
     );
 
+
     guardarProgramacion();
+
 
     editor.remove();
   };
 }
 
-const canalesGuardados = JSON.parse(
-  localStorage.getItem("veo_canales") || "[]"
-);
+
+/* =====================================================
+   XMLTV
+===================================================== */
+
+
+function escaparXML(texto) {
+
+  return String(texto)
+
+    .replace(/&/g, "&amp;")
+
+    .replace(/</g, "&lt;")
+
+    .replace(/>/g, "&gt;")
+
+    .replace(/"/g, "&quot;")
+
+    .replace(/'/g, "&apos;");
+}
+
+
+function obtenerCanales() {
+
+  const canales = [
+
+    {
+      nombre: "TVN",
+      id: "TVN.cl",
+      logo: "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png"
+    },
+
+    {
+      nombre: "Mega",
+      id: "Mega.cl",
+      logo: "https://cdn.m3u.cl/logo/455_Mega.png"
+    },
+
+    {
+      nombre: "Chilevisión",
+      id: "Chilevision.cl",
+      logo: "https://cdn.m3u.cl/logo/1569_CHV.png"
+    },
+
+    {
+      nombre: "Canal 13",
+      id: "Canal13.cl",
+      logo: "https://cdn.m3u.cl/logo/1733_Canal_13.png"
+    }
+
+  ];
+
+
+  const guardados = JSON.parse(
+    localStorage.getItem("veo_canales") || "[]"
+  );
+
+
+  guardados.forEach(canal => {
+
+    const existente = canales.find(
+      item => item.id === canal.id
+    );
+
+
+    if (!existente) {
+
+      canales.push({
+
+        nombre: canal.nombre,
+
+        id: canal.id,
+
+        logo: canal.logo
+
+      });
+
+    }
+
+  });
+
+
+  return canales;
+}
+
+
+function obtenerProgramacionCanal(canal) {
+
+  const guardada = localStorage.getItem(
+    "veo_programacion_v3_" + canal
+  );
+
+
+  if (guardada) {
+    return JSON.parse(guardada);
+  }
+
+
+  return datosIniciales();
+}
+
+
+function formatoFechaXML(fecha) {
+
+  const año =
+    fecha.getFullYear();
+
+
+  const mes =
+    String(fecha.getMonth() + 1).padStart(2, "0");
+
+
+  const dia =
+    String(fecha.getDate()).padStart(2, "0");
+
+
+  const horas =
+    String(fecha.getHours()).padStart(2, "0");
+
+
+  const minutos =
+    String(fecha.getMinutes()).padStart(2, "0");
+
+
+  const offset =
+    -fecha.getTimezoneOffset();
+
+
+  const signo =
+    offset >= 0 ? "+" : "-";
+
+
+  const offsetAbs =
+    Math.abs(offset);
+
+
+  const offsetHoras =
+    String(
+      Math.floor(offsetAbs / 60)
+    ).padStart(2, "0");
+
+
+  const offsetMinutos =
+    String(
+      offsetAbs % 60
+    ).padStart(2, "0");
+
+
+  return (
+    año +
+    mes +
+    dia +
+    horas +
+    minutos +
+    "00 " +
+    signo +
+    offsetHoras +
+    offsetMinutos
+  );
+}
+
+
+function crearFechaPrograma(fechaBase, hora) {
+
+  const partes =
+    hora.split(":");
+
+
+  const horas =
+    parseInt(partes[0], 10);
+
+
+  const minutos =
+    parseInt(partes[1], 10);
+
+
+  const fecha =
+    new Date(fechaBase);
+
+
+  fecha.setHours(horas);
+
+  fecha.setMinutes(minutos);
+
+  fecha.setSeconds(0);
+
+  fecha.setMilliseconds(0);
+
+
+  return fecha;
+}
+
+
+function generarXMLTV() {
+
+  guardarProgramacion();
+
+
+  const canales =
+    obtenerCanales();
+
+
+  let xml = "";
+
+
+  xml +=
+    '<?xml version="1.0" encoding="UTF-8"?>\n';
+
+
+  xml +=
+    '<tv generator-info-name="Veo" generator-info-url="https://amo281212.github.io/Veo/">\n';
+
+
+  /* CANALES */
+
+  canales.forEach(canal => {
+
+    xml +=
+      '  <channel id="' +
+      escaparXML(canal.id) +
+      '">\n';
+
+
+    xml +=
+      '    <display-name>' +
+      escaparXML(canal.nombre) +
+      '</display-name>\n';
+
+
+    if (canal.logo) {
+
+      xml +=
+        '    <icon src="' +
+        escaparXML(canal.logo) +
+        '"/>\n';
+
+    }
+
+
+    xml +=
+      '  </channel>\n';
+
+  });
+
+
+  /* PROGRAMACIÓN */
+
+  const fechaInicio =
+    new Date();
+
+
+  fechaInicio.setHours(0);
+
+  fechaInicio.setMinutes(0);
+
+  fechaInicio.setSeconds(0);
+
+  fechaInicio.setMilliseconds(0);
+
+
+  for (let i = 0; i < 14; i++) {
+
+    const fecha =
+      new Date(fechaInicio);
+
+
+    fecha.setDate(
+      fechaInicio.getDate() + i
+    );
+
+
+    const diaSemana =
+      dias[
+        (fecha.getDay() + 6) % 7
+      ];
+
+
+    canales.forEach(canal => {
+
+      const datos =
+        obtenerProgramacionCanal(
+          canal.id
+        );
+
+
+      const programas =
+        datos[diaSemana] || [];
+
+
+      programas.forEach(programa => {
+
+        const inicio =
+          crearFechaPrograma(
+            fecha,
+            programa.inicio
+          );
+
+
+        const fin =
+          crearFechaPrograma(
+            fecha,
+            programa.fin
+          );
+
+
+        if (fin <= inicio) {
+
+          fin.setDate(
+            fin.getDate() + 1
+          );
+
+        }
+
+
+        xml +=
+          '  <programme channel="' +
+          escaparXML(canal.id) +
+          '" start="' +
+          formatoFechaXML(inicio) +
+          '" stop="' +
+          formatoFechaXML(fin) +
+          '">\n';
+
+
+        xml +=
+          '    <title lang="es">' +
+          escaparXML(programa.nombre) +
+          '</title>\n';
+
+
+        xml +=
+          '  </programme>\n';
+
+      });
+
+    });
+
+  }
+
+
+  xml += "</tv>";
+
+
+  const archivo =
+    new Blob(
+      [xml],
+      {
+        type:
+          "application/xml;charset=utf-8"
+      }
+    );
+
+
+  const url =
+    URL.createObjectURL(archivo);
+
+
+  const enlace =
+    document.createElement("a");
+
+
+  enlace.href =
+    url;
+
+
+  enlace.download =
+    "epg.xml";
+
+
+  document.body.appendChild(
+    enlace
+  );
+
+
+  enlace.click();
+
+
+  enlace.remove();
+
+
+  URL.revokeObjectURL(url);
+}
+
+
+/* =====================================================
+   CANALES GUARDADOS
+===================================================== */
+
+
+const canalesGuardados =
+  JSON.parse(
+    localStorage.getItem("veo_canales") || "[]"
+  );
+
 
 canalesGuardados.forEach(canal => {
+
   crearTarjetaCanal(
     canal.nombre,
     canal.id,
     canal.logo
   );
+
 });
 
 </script>
