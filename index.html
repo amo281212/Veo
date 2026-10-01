@@ -196,7 +196,7 @@ button {
   margin-top: 15px;
 }
 
-/* EDITOR DE PROGRAMA */
+/* EDITORES */
 
 .program-editor {
   position: fixed;
@@ -431,40 +431,78 @@ function goBack() {
 }
 
 function agregarCanal() {
-  const nombre = prompt("Nombre del canal:");
 
-  if (!nombre) return;
+  const editor = document.createElement("div");
 
-  const id = prompt("ID del canal:");
+  editor.className = "program-editor";
 
-  if (!id) return;
+  editor.innerHTML = `
+    <div class="program-editor-box">
 
-  const logo = prompt("URL del logo:");
+      <h2>Agregar canal</h2>
 
-  if (!logo) return;
+      <label>Nombre del canal</label>
+      <input class="editor-nombre" type="text">
 
-  const canales = JSON.parse(
-    localStorage.getItem("veo_canales") || "[]"
-  );
+      <label>ID del canal</label>
+      <input class="editor-id" type="text">
 
-  canales.push({
-    nombre: nombre,
-    id: id,
-    logo: logo
-  });
+      <label>URL del logo</label>
+      <input class="editor-logo" type="text">
 
-  localStorage.setItem(
-    "veo_canales",
-    JSON.stringify(canales)
-  );
+      <div class="editor-buttons">
+        <button class="cancel-editor">Cancelar</button>
+        <button class="save-editor">Guardar</button>
+      </div>
 
-  crearTarjetaCanal(
-    nombre,
-    id,
-    logo
-  );
+    </div>
+  `;
 
-  alert("Canal agregado: " + nombre);
+  document.body.appendChild(editor);
+
+  editor.querySelector(".cancel-editor").onclick = function() {
+    editor.remove();
+  };
+
+  editor.querySelector(".save-editor").onclick = function() {
+
+    const nombre =
+      editor.querySelector(".editor-nombre").value.trim();
+
+    const id =
+      editor.querySelector(".editor-id").value.trim();
+
+    const logo =
+      editor.querySelector(".editor-logo").value.trim();
+
+    if (!nombre || !id || !logo) {
+      alert("Completa todos los campos.");
+      return;
+    }
+
+    const canales = JSON.parse(
+      localStorage.getItem("veo_canales") || "[]"
+    );
+
+    canales.push({
+      nombre: nombre,
+      id: id,
+      logo: logo
+    });
+
+    localStorage.setItem(
+      "veo_canales",
+      JSON.stringify(canales)
+    );
+
+    crearTarjetaCanal(
+      nombre,
+      id,
+      logo
+    );
+
+    editor.remove();
+  };
 }
 
 function cargarProgramacion(canal) {
