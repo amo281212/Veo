@@ -304,7 +304,9 @@ function goBack() {
 function editarPrograma(boton) {
   const programa = boton.parentElement;
   const nombre = programa.querySelector(".program-name").textContent;
-  const horaInicio = programa.querySelector(".time").textContent;
+  const horarios = programa.querySelector(".time").textContent.split(" - ");
+const horaInicio = horarios[0];
+const horaFin = horarios[1] || "";
 
   const nuevoNombre = prompt("Nombre del programa:", nombre);
   if (nuevoNombre === null) return;
@@ -312,7 +314,7 @@ function editarPrograma(boton) {
   const nuevaHoraInicio = prompt("Hora de inicio:", horaInicio);
   if (nuevaHoraInicio === null) return;
 
-  const nuevaHoraFin = prompt("Hora de término:", "");
+  const nuevaHoraFin = prompt("Hora de término:", horaFin);
   if (nuevaHoraFin === null) return;
 
   programa.querySelector(".program-name").textContent = nuevoNombre;
