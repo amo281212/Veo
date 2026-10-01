@@ -690,10 +690,10 @@ function editarPrograma(boton) {
       <input class="editor-nombre" type="text">
 
       <label>Hora de inicio</label>
-      <input class="editor-inicio" type="time">
+      <input class="editor-inicio" type="text" inputmode="numeric" placeholder="HH:MM">
 
       <label>Hora de término</label>
-      <input class="editor-fin" type="time">
+      <input class="editor-fin" type="text" inputmode="numeric" placeholder="HH:MM">
 
       <div class="editor-buttons">
         <button class="cancel-editor">Cancelar</button>
@@ -746,57 +746,75 @@ function editarPrograma(boton) {
 
 function agregarPrograma(dia) {
 
-  const nombre = prompt(
-    "Nombre del programa:"
-  );
+  const editor = document.createElement("div");
 
-  if (
-    nombre === null ||
-    nombre.trim() === ""
-  ) {
-    return;
-  }
+  editor.className = "program-editor";
 
-  const horaInicio = prompt(
-    "Hora de inicio:"
-  );
+  editor.innerHTML = `
+    <div class="program-editor-box">
 
-  if (
-    horaInicio === null ||
-    horaInicio.trim() === ""
-  ) {
-    return;
-  }
+      <h2>Agregar programa</h2>
 
-  const horaFin = prompt(
-    "Hora de término:"
-  );
+      <label>Nombre del programa</label>
+      <input class="editor-nombre" type="text">
 
-  if (
-    horaFin === null ||
-    horaFin.trim() === ""
-  ) {
-    return;
-  }
+      <label>Hora de inicio</label>
+      <input class="editor-inicio" type="text" inputmode="numeric" placeholder="HH:MM">
 
-  const bloqueDia = document.querySelector(
-    '.day[data-day="' + dia + '"]'
-  );
+      <label>Hora de término</label>
+      <input class="editor-fin" type="text" inputmode="numeric" placeholder="HH:MM">
 
-  const botonAgregar = bloqueDia.querySelector(".add");
+      <div class="editor-buttons">
+        <button class="cancel-editor">Cancelar</button>
+        <button class="save-editor">Guardar</button>
+      </div>
 
-  const nuevoPrograma = crearPrograma(
-    nombre,
-    horaInicio,
-    horaFin
-  );
+    </div>
+  `;
 
-  botonAgregar.parentElement.insertBefore(
-    nuevoPrograma,
-    botonAgregar
-  );
+  document.body.appendChild(editor);
 
-  guardarProgramacion();
+  editor.querySelector(".cancel-editor").onclick = function() {
+    editor.remove();
+  };
+
+  editor.querySelector(".save-editor").onclick = function() {
+
+    const nuevoNombre =
+      editor.querySelector(".editor-nombre").value.trim();
+
+    const nuevaHoraInicio =
+      editor.querySelector(".editor-inicio").value.trim();
+
+    const nuevaHoraFin =
+      editor.querySelector(".editor-fin").value.trim();
+
+    if (!nuevoNombre || !nuevaHoraInicio || !nuevaHoraFin) {
+      alert("Completa todos los campos.");
+      return;
+    }
+
+    const bloqueDia = document.querySelector(
+      '.day[data-day="' + dia + '"]'
+    );
+
+    const botonAgregar = bloqueDia.querySelector(".add");
+
+    const nuevoPrograma = crearPrograma(
+      nuevoNombre,
+      nuevaHoraInicio,
+      nuevaHoraFin
+    );
+
+    botonAgregar.parentElement.insertBefore(
+      nuevoPrograma,
+      botonAgregar
+    );
+
+    guardarProgramacion();
+
+    editor.remove();
+  };
 }
 
 const canalesGuardados = JSON.parse(
