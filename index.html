@@ -238,7 +238,7 @@ button {
       <button class="edit" onclick="editarPrograma(this)">Editar</button>
     </div>
 
-    <button class="add">＋ Agregar programa</button>
+    <button class="add" onclick="agregarPrograma()">＋ Agregar programa</button>
   </div>
 
 
@@ -320,6 +320,28 @@ function editarPrograma(boton) {
     nuevaHoraInicio + " - " + nuevaHoraFin;
 }
   
+ function agregarPrograma() {
+  const nombre = prompt("Nombre del programa:");
+  if (nombre === null || nombre.trim() === "") return;
+
+  const horaInicio = prompt("Hora de inicio:");
+  if (horaInicio === null || horaInicio.trim() === "") return;
+
+  const horaFin = prompt("Hora de término:");
+  if (horaFin === null || horaFin.trim() === "") return;
+
+  const nuevoPrograma = document.createElement("div");
+  nuevoPrograma.className = "program";
+
+  nuevoPrograma.innerHTML = `
+    <div class="time">${horaInicio} - ${horaFin}</div>
+    <div class="program-name">${nombre}</div>
+    <button class="edit" onclick="editarPrograma(this)">Editar</button>
+  `;
+
+  const botonAgregar = document.querySelector(".add");
+  botonAgregar.parentElement.insertBefore(nuevoPrograma, botonAgregar);
+} 
 </script>
 
 </body>
