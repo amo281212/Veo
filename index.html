@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veo</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101114;
+      color: white;
+    }
+
+    header {
+      padding: 25px;
+      background: #181a1f;
+      border-bottom: 1px solid #292c33;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 30px;
+    }
+
+    header p {
+      margin: 6px 0 0;
+      color: #999;
+    }
+
+    main {
+      padding: 25px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .channel {
+      background: #191b20;
+      border: 1px solid #292c33;
+      border-radius: 12px;
+      padding: 18px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .channel:hover {
+      background: #22252b;
+      transform: translateY(-1px);
+    }
+
+    .channel-name {
+      font-size: 19px;
+      font-weight: bold;
+    }
+
+    .channel-id {
+      color: #888;
+      font-size: 13px;
+      margin-top: 5px;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 10px;
+      padding: 15px;
+      border: 0;
+      border-radius: 10px;
+      background: #ffffff;
+      color: #111;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Veo</h1>
+    <p>Editor de programación televisiva</p>
+  </header>
+
+  <main>
+
+    <div class="channel">
+      <div class="channel-name">TVN</div>
+      <div class="channel-id">TVN.cl</div>
+    </div>
+
+    <div class="channel">
+      <div class="channel-name">Mega</div>
+      <div class="channel-id">Mega.cl</div>
+    </div>
+
+    <div class="channel">
+      <div class="channel-name">Chilevisión</div>
+      <div class="channel-id">Chilevision.cl</div>
+    </div>
+
+    <div class="channel">
+      <div class="channel-name">Canal 13</div>
+      <div class="channel-id">Canal13.cl</div>
+    </div>
+
+    <button>＋ Agregar canal</button>
+
+  </main>
+
+</body>
+</html>
