@@ -84,6 +84,28 @@ button {
   cursor: pointer;
 }
 
+  .days {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  margin-bottom: 18px;
+  padding-bottom: 4px;
+}
+
+.days button {
+  width: auto;
+  flex-shrink: 0;
+  padding: 9px 14px;
+  background: #292c33;
+  color: white;
+  border-radius: 10px;
+}
+
+.days button.active {
+  background: white;
+  color: #111;
+}
+
 #editor {
   display: none;
 }
@@ -219,6 +241,16 @@ button {
 
   <div class="section">
     <h2>📋 Programación</h2>
+    
+    <div class="days">
+  <button class="active">Lunes</button>
+  <button>Martes</button>
+  <button>Miércoles</button>
+  <button>Jueves</button>
+  <button>Viernes</button>
+  <button>Sábado</button>
+  <button>Domingo</button>
+</div>
 
     <div class="program">
       <div class="time">06:00 - 09:00</div>
