@@ -84,28 +84,6 @@ button {
   cursor: pointer;
 }
 
-  .days {
-  display: flex;
-  gap: 8px;
-  overflow-x: auto;
-  margin-bottom: 18px;
-  padding-bottom: 4px;
-}
-
-.days button {
-  width: auto;
-  flex-shrink: 0;
-  padding: 9px 14px;
-  background: #292c33;
-  color: white;
-  border-radius: 10px;
-}
-
-.days button.active {
-  background: white;
-  color: #111;
-}
-
 #editor {
   display: none;
 }
@@ -140,15 +118,59 @@ button {
   font-size: 18px;
 }
 
+.day {
+  border-bottom: 1px solid #292c33;
+}
+
+.day:last-child {
+  border-bottom: 0;
+}
+
+.day-title {
+  width: 100%;
+  padding: 16px 4px;
+  background: transparent;
+  color: white;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 0;
+  position: relative;
+}
+
+.day-title::after {
+  content: "›";
+  position: absolute;
+  right: 5px;
+  font-size: 22px;
+  color: #888;
+  transform: rotate(0deg);
+  transition: transform 0.2s;
+}
+
+.day.open .day-title::after {
+  transform: rotate(90deg);
+}
+
+.day-content {
+  display: none;
+  padding-bottom: 8px;
+}
+
+.day.open .day-content {
+  display: block;
+}
+
 .program {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
   padding: 13px 0;
   border-bottom: 1px solid #292c33;
 }
 
-.program:last-child {
+.program:last-of-type {
   border-bottom: 0;
 }
 
@@ -229,148 +251,72 @@ button {
 
 </main>
 
-
 <main id="editor">
 
   <button class="back" onclick="goBack()">← Volver a canales</button>
 
   <div class="channel-header">
     <img id="channelLogo" class="channel-logo" src="" alt="">
-    <h2 id="channelTitle">TVN</h2>
+    <h2 id="channelTitle"></h2>
   </div>
 
   <div class="section">
     <h2>📋 Programación</h2>
 
-<div class="week">
+    <div id="week"></div>
 
-  <div class="day">
-    <button class="day-title" onclick="toggleDay(this)">Lunes</button>
-    <div class="day-content">
-      <div class="program">
-        <div class="time">06:00 - 09:00</div>
-        <div class="program-name">Buenos días</div>
-        <button class="edit" onclick="editarPrograma(this)">Editar</button>
-      </div>
-
-      <div class="program">
-        <div class="time">09:00 - 13:00</div>
-        <div class="program-name">Noticias</div>
-        <button class="edit" onclick="editarPrograma(this)">Editar</button>
-      </div>
-
-      <div class="program">
-        <div class="time">13:00 - 14:00</div>
-        <div class="program-name">24 Horas</div>
-        <button class="edit" onclick="editarPrograma(this)">Editar</button>
-      </div>
-
-      <button class="add" onclick="agregarPrograma()">＋ Agregar programa</button>
-    </div>
-  </div>
-
-  <div class="day">
-    <button class="day-title" onclick="toggleDay(this)">Martes</button>
-    <div class="day-content"></div>
-  </div>
-
-  <div class="day">
-    <button class="day-title" onclick="toggleDay(this)">Miércoles</button>
-    <div class="day-content"></div>
-  </div>
-
-  <div class="day open">
-    <button class="day-title" onclick="toggleDay(this)">Jueves</button>
-    <div class="day-content">
-      <div class="program">
-        <div class="time">06:00 - 09:00</div>
-        <div class="program-name">Buenos días</div>
-        <button class="edit" onclick="editarPrograma(this)">Editar</button>
-      </div>
-
-      <div class="program">
-        <div class="time">09:00 - 13:00</div>
-        <div class="program-name">Noticias</div>
-        <button class="edit" onclick="editarPrograma(this)">Editar</button>
-      </div>
-
-      <div class="program">
-        <div class="time">13:00 - 14:00</div>
-        <div class="program-name">24 Horas</div>
-        <button class="edit" onclick="editarPrograma(this)">Editar</button>
-      </div>
-
-      <button class="add" onclick="agregarPrograma()">＋ Agregar programa</button>
-    </div>
-  </div>
-
-  <div class="day">
-    <button class="day-title" onclick="toggleDay(this)">Viernes</button>
-    <div class="day-content"></div>
-  </div>
-
-  <div class="day">
-    <button class="day-title" onclick="toggleDay(this)">Sábado</button>
-    <div class="day-content"></div>
-  </div>
-
-  <div class="day">
-    <button class="day-title" onclick="toggleDay(this)">Domingo</button>
-    <div class="day-content"></div>
-  </div>
-
-</div>
-
-<div class="section">
-  <h2>🕐 Horarios</h2>
-
-    <div class="program">
-      <div class="program-name">Lunes</div>
-      <button class="edit">Editar</button>
-    </div>
-
-    <div class="program">
-      <div class="program-name">Martes</div>
-      <button class="edit">Editar</button>
-    </div>
-
-    <div class="program">
-      <div class="program-name">Miércoles</div>
-      <button class="edit">Editar</button>
-    </div>
-
-    <div class="program">
-      <div class="program-name">Jueves</div>
-      <button class="edit">Editar</button>
-    </div>
-
-    <div class="program">
-      <div class="program-name">Viernes</div>
-      <button class="edit">Editar</button>
-    </div>
-
-    <div class="program">
-      <div class="program-name">Sábado</div>
-      <button class="edit">Editar</button>
-    </div>
-
-    <div class="program">
-      <div class="program-name">Domingo</div>
-      <button class="edit">Editar</button>
-    </div>
   </div>
 
 </main>
 
-
 <script>
+
+const dias = [
+  "Lunes",
+  "Martes",
+  "Miércoles",
+  "Jueves",
+  "Viernes",
+  "Sábado",
+  "Domingo"
+];
+
+let canalActual = "";
+let diaActual = "";
+
+function obtenerDiaActual() {
+  const dia = new Date().getDay();
+
+  const conversion = {
+    0: "Domingo",
+    1: "Lunes",
+    2: "Martes",
+    3: "Miércoles",
+    4: "Jueves",
+    5: "Viernes",
+    6: "Sábado"
+  };
+
+  return conversion[dia];
+}
+
+function datosIniciales() {
+  const datos = {};
+
+  dias.forEach(dia => {
+    datos[dia] = [];
+  });
+
+  return datos;
+}
 
 function openChannel(channel, logo) {
   document.getElementById("channels").style.display = "none";
   document.getElementById("editor").style.display = "block";
 
-  document.getElementById("channelTitle").textContent = channel;
+  canalActual = channel;
 
+  document.getElementById("channelTitle").textContent = channel;
   document.getElementById("channelLogo").src = logo;
   document.getElementById("channelLogo").alt = channel;
 
@@ -382,96 +328,302 @@ function goBack() {
   document.getElementById("channels").style.display = "block";
 }
 
+function cargarProgramacion(canal) {
+
+  const guardada = localStorage.getItem(
+    "veo_programacion_v3_" + canal
+  );
+
+  let datos;
+
+  if (guardada) {
+    datos = JSON.parse(guardada);
+  } else {
+    datos = datosIniciales();
+
+    datos["Lunes"] = [
+      {
+        nombre: "Buenos días",
+        inicio: "06:00",
+        fin: "09:00"
+      },
+      {
+        nombre: "Noticias",
+        inicio: "09:00",
+        fin: "13:00"
+      },
+      {
+        nombre: "24 Horas",
+        inicio: "13:00",
+        fin: "14:00"
+      }
+    ];
+
+    datos["Jueves"] = [
+      {
+        nombre: "Buenos días",
+        inicio: "06:00",
+        fin: "09:00"
+      },
+      {
+        nombre: "Noticias",
+        inicio: "09:00",
+        fin: "13:00"
+      },
+      {
+        nombre: "24 Horas",
+        inicio: "13:00",
+        fin: "14:00"
+      }
+    ];
+  }
+
+  renderizarSemana(datos);
+}
+
+function guardarProgramacion() {
+
+  const datos = {};
+
+  document.querySelectorAll(".day").forEach(dia => {
+
+    const nombreDia = dia.dataset.day;
+    datos[nombreDia] = [];
+
+    dia.querySelectorAll(".program").forEach(programa => {
+
+      datos[nombreDia].push({
+        nombre: programa.querySelector(".program-name").textContent,
+        inicio: programa.dataset.start,
+        fin: programa.dataset.end
+      });
+
+    });
+
+  });
+
+  localStorage.setItem(
+    "veo_programacion_v3_" + canalActual,
+    JSON.stringify(datos)
+  );
+}
+
+function renderizarSemana(datos) {
+
+  const contenedor = document.getElementById("week");
+
+  contenedor.innerHTML = "";
+
+  diaActual = obtenerDiaActual();
+
+  dias.forEach(dia => {
+
+    const bloque = document.createElement("div");
+
+    bloque.className = "day";
+
+    bloque.dataset.day = dia;
+
+    if (dia === diaActual) {
+      bloque.classList.add("open");
+    }
+
+    const boton = document.createElement("button");
+
+    boton.className = "day-title";
+    boton.textContent = dia;
+
+    boton.onclick = function() {
+      toggleDay(boton);
+    };
+
+    const contenido = document.createElement("div");
+
+    contenido.className = "day-content";
+
+    const programas = datos[dia] || [];
+
+    programas.forEach(programa => {
+
+      contenido.appendChild(
+        crearPrograma(
+          programa.nombre,
+          programa.inicio,
+          programa.fin
+        )
+      );
+
+    });
+
+    const botonAgregar = document.createElement("button");
+
+    botonAgregar.className = "add";
+    botonAgregar.textContent = "＋ Agregar programa";
+
+    botonAgregar.onclick = function() {
+      agregarPrograma(dia);
+    };
+
+    contenido.appendChild(botonAgregar);
+
+    bloque.appendChild(boton);
+    bloque.appendChild(contenido);
+
+    contenedor.appendChild(bloque);
+
+  });
+}
+
+function crearPrograma(nombre, inicio, fin) {
+
+  const programa = document.createElement("div");
+
+  programa.className = "program";
+
+  programa.dataset.start = inicio;
+  programa.dataset.end = fin;
+
+  const tiempo = document.createElement("div");
+
+  tiempo.className = "time";
+  tiempo.textContent = inicio + " - " + fin;
+
+  const nombrePrograma = document.createElement("div");
+
+  nombrePrograma.className = "program-name";
+  nombrePrograma.textContent = nombre;
+
+  const editar = document.createElement("button");
+
+  editar.className = "edit";
+  editar.textContent = "Editar";
+
+  editar.onclick = function() {
+    editarPrograma(editar);
+  };
+
+  programa.appendChild(tiempo);
+  programa.appendChild(nombrePrograma);
+  programa.appendChild(editar);
+
+  return programa;
+}
+
+function toggleDay(boton) {
+
+  const dia = boton.parentElement;
+
+  document.querySelectorAll(".day").forEach(otro => {
+
+    if (otro !== dia) {
+      otro.classList.remove("open");
+    }
+
+  });
+
+  dia.classList.toggle("open");
+
+  if (dia.classList.contains("open")) {
+    diaActual = dia.dataset.day;
+  }
+}
+
 function editarPrograma(boton) {
+
   const programa = boton.parentElement;
 
   const nombre = programa.querySelector(".program-name").textContent;
 
-  const horarios = programa.querySelector(".time").textContent.split(" - ");
-  const horaInicio = horarios[0];
-  const horaFin = horarios[1] || "";
+  const horaInicio = programa.dataset.start;
+  const horaFin = programa.dataset.end;
 
-  const nuevoNombre = prompt("Nombre del programa:", nombre);
+  const nuevoNombre = prompt(
+    "Nombre del programa:",
+    nombre
+  );
+
   if (nuevoNombre === null) return;
 
-  const nuevaHoraInicio = prompt("Hora de inicio:", horaInicio);
+  const nuevaHoraInicio = prompt(
+    "Hora de inicio:",
+    horaInicio
+  );
+
   if (nuevaHoraInicio === null) return;
 
-  const nuevaHoraFin = prompt("Hora de término:", horaFin);
+  const nuevaHoraFin = prompt(
+    "Hora de término:",
+    horaFin
+  );
+
   if (nuevaHoraFin === null) return;
 
-  programa.querySelector(".program-name").textContent = nuevoNombre;
+  programa.querySelector(".program-name").textContent =
+    nuevoNombre;
+
   programa.querySelector(".time").textContent =
     nuevaHoraInicio + " - " + nuevaHoraFin;
 
-  guardarProgramacion();
-}
-
-function agregarPrograma() {
-  const nombre = prompt("Nombre del programa:");
-  if (nombre === null || nombre.trim() === "") return;
-
-  const horaInicio = prompt("Hora de inicio:");
-  if (horaInicio === null || horaInicio.trim() === "") return;
-
-  const horaFin = prompt("Hora de término:");
-  if (horaFin === null || horaFin.trim() === "") return;
-
-  const nuevoPrograma = document.createElement("div");
-  nuevoPrograma.className = "program";
-
-  nuevoPrograma.innerHTML = `
-    <div class="time">${horaInicio} - ${horaFin}</div>
-    <div class="program-name">${nombre}</div>
-    <button class="edit" onclick="editarPrograma(this)">Editar</button>
-  `;
-
-  const botonAgregar = document.querySelector(".add");
-  botonAgregar.parentElement.insertBefore(nuevoPrograma, botonAgregar);
+  programa.dataset.start = nuevaHoraInicio;
+  programa.dataset.end = nuevaHoraFin;
 
   guardarProgramacion();
 }
 
-function guardarProgramacion() {
-  const canal = document.getElementById("channelTitle").textContent;
-  const seccion = document.querySelector("#editor .section");
+function agregarPrograma(dia) {
 
-  localStorage.setItem(
-    "veo_programacion_v2_" + canal,
-    seccion.innerHTML
-  );
-}
-
-function cargarProgramacion(canal) {
-  const guardada = localStorage.getItem(
-    "veo_programacion_v2_" + canal
+  const nombre = prompt(
+    "Nombre del programa:"
   );
 
-  if (guardada) {
-    const seccion = document.querySelector("#editor .section");
-    seccion.innerHTML = guardada;
+  if (
+    nombre === null ||
+    nombre.trim() === ""
+  ) {
+    return;
   }
-}
-function cargarProgramacion(canal) {
-  const guardada = localStorage.getItem(
-    "veo_programacion_" + canal
+
+  const horaInicio = prompt(
+    "Hora de inicio:"
   );
 
-  if (guardada) {
-    const seccion = document.querySelector("#editor .section");
-    seccion.innerHTML = guardada;
+  if (
+    horaInicio === null ||
+    horaInicio.trim() === ""
+  ) {
+    return;
   }
+
+  const horaFin = prompt(
+    "Hora de término:"
+  );
+
+  if (
+    horaFin === null ||
+    horaFin.trim() === ""
+  ) {
+    return;
+  }
+
+  const bloqueDia = document.querySelector(
+    '.day[data-day="' + dia + '"]'
+  );
+
+  const botonAgregar = bloqueDia.querySelector(".add");
+
+  const nuevoPrograma = crearPrograma(
+    nombre,
+    horaInicio,
+    horaFin
+  );
+
+  botonAgregar.parentElement.insertBefore(
+    nuevoPrograma,
+    botonAgregar
+  );
+
+  guardarProgramacion();
 }
-
-document.querySelectorAll('.days button').forEach(boton => {
-  boton.addEventListener('click', () => {
-    document.querySelectorAll('.days button').forEach(b => {
-      b.classList.remove('active');
-    });
-
-    boton.classList.add('active');
-  });
-});
 
 </script>
 
