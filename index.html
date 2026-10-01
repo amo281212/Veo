@@ -300,6 +300,21 @@ function goBack() {
   document.getElementById("channels").style.display = "block";
 }
 
+function editarPrograma(boton) {
+  const programa = boton.parentElement;
+  const nombre = programa.querySelector(".program-name").textContent;
+  const hora = programa.querySelector(".time").textContent;
+
+  const nuevoNombre = prompt("Nombre del programa:", nombre);
+  if (nuevoNombre === null) return;
+
+  const nuevaHora = prompt("Hora de inicio:", hora);
+  if (nuevaHora === null) return;
+
+  programa.querySelector(".program-name").textContent = nuevoNombre;
+  programa.querySelector(".time").textContent = nuevaHora;
+}
+  
 </script>
 
 </body>
