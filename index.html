@@ -405,6 +405,26 @@ function cargarProgramacion(canal) {
     seccion.innerHTML = guardada;
   }
 }
+function cargarProgramacion(canal) {
+  const guardada = localStorage.getItem(
+    "veo_programacion_" + canal
+  );
+
+  if (guardada) {
+    const seccion = document.querySelector("#editor .section");
+    seccion.innerHTML = guardada;
+  }
+}
+
+document.querySelectorAll('.days button').forEach(boton => {
+  boton.addEventListener('click', () => {
+    document.querySelectorAll('.days button').forEach(b => {
+      b.classList.remove('active');
+    });
+
+    boton.classList.add('active');
+  });
+});
 
 </script>
 
