@@ -601,41 +601,70 @@ function editarPrograma(boton) {
   const programa = boton.parentElement;
 
   const nombre = programa.querySelector(".program-name").textContent;
-
   const horaInicio = programa.dataset.start;
   const horaFin = programa.dataset.end;
 
-  const nuevoNombre = prompt(
-    "Nombre del programa:",
-    nombre
-  );
+  const editor = document.createElement("div");
 
-  if (nuevoNombre === null) return;
+  editor.className = "program-editor";
 
-  const nuevaHoraInicio = prompt(
-    "Hora de inicio:",
-    horaInicio
-  );
+  editor.innerHTML = `
+    <div class="program-editor-box">
 
-  if (nuevaHoraInicio === null) return;
+      <h2>Editar programa</h2>
 
-  const nuevaHoraFin = prompt(
-    "Hora de término:",
-    horaFin
-  );
+      <label>Nombre del programa</label>
+      <input type="text" id="editorNombre" value="${nombre}">
 
-  if (nuevaHoraFin === null) return;
+      <label>Hora de inicio</label>
+      <input type="time" id="editorInicio" value="${horaInicio}">
 
-  programa.querySelector(".program-name").textContent =
-    nuevoNombre;
+      <label>Hora de término</label>
+      <input type="time" id="editorFin" value="${horaFin}">
 
-  programa.querySelector(".time").textContent =
-    nuevaHoraInicio + " - " + nuevaHoraFin;
+      <div class="editor-buttons">
+        <button class="cancel-editor">Cancelar</button>
+        <button class="save-editor">Guardar</button>
+      </div>
 
-  programa.dataset.start = nuevaHoraInicio;
-  programa.dataset.end = nuevaHoraFin;
+    </div>
+  `;
 
-  guardarProgramacion();
+  document.body.appendChild(editor);
+
+  editor.querySelector(".cancel-editor").onclick = function() {
+    editor.remove();
+  };
+
+  editor.querySelector(".save-editor").onclick = function() {
+
+    const nuevoNombre =
+      editor.querySelector("#editorNombre").value.trim();
+
+    const nuevaHoraInicio =
+      editor.querySelector("#editorInicio").value;
+
+    const nuevaHoraFin =
+      editor.querySelector("#editorFin").value;
+
+    if (!nuevoNombre || !nuevaHoraInicio || !nuevaHoraFin) {
+      alert("Completa todos los campos.");
+      return;
+    }
+
+    programa.querySelector(".program-name").textContent =
+      nuevoNombre;
+
+    programa.querySelector(".time").textContent =
+      nuevaHoraInicio + " - " + nuevaHoraFin;
+
+    programa.dataset.start = nuevaHoraInicio;
+    programa.dataset.end = nuevaHoraFin;
+
+    guardarProgramacion();
+
+    editor.remove();
+  };
 }
 
 function agregarPrograma(dia) {
