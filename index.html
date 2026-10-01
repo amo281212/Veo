@@ -314,15 +314,20 @@ function crearTarjetaCanal(nombre, id, logo) {
   const channels = document.getElementById("channels");
 
   const card = document.createElement("div");
-  card.className = "channel-card";
+  card.className = "channel";
 
-  card.innerHTML = `
+  const content = document.createElement("div");
+  content.className = "channel-content";
+
+  content.innerHTML = `
     <img class="channel-logo" src="${logo}" alt="${nombre}">
     <div>
-      <h3>${nombre}</h3>
-      <p>${id}</p>
+      <div class="channel-name">${nombre}</div>
+      <div class="channel-id">${id}</div>
     </div>
   `;
+
+  card.appendChild(content);
 
   card.onclick = function() {
     openChannel(id, logo);
@@ -334,8 +339,6 @@ function crearTarjetaCanal(nombre, id, logo) {
   );
 }
 
-function openChannel(channel, logo) {
-  
 function openChannel(channel, logo) {
   document.getElementById("channels").style.display = "none";
   document.getElementById("editor").style.display = "block";
@@ -356,15 +359,20 @@ function goBack() {
 
 function agregarCanal() {
   const nombre = prompt("Nombre del canal:");
+
   if (!nombre) return;
 
   const id = prompt("ID del canal:");
+
   if (!id) return;
 
   const logo = prompt("URL del logo:");
+
   if (!logo) return;
 
-  const canales = JSON.parse(localStorage.getItem("veo_canales") || "[]");
+  const canales = JSON.parse(
+    localStorage.getItem("veo_canales") || "[]"
+  );
 
   canales.push({
     nombre: nombre,
@@ -372,9 +380,16 @@ function agregarCanal() {
     logo: logo
   });
 
-  localStorage.setItem("veo_canales", JSON.stringify(canales));
+  localStorage.setItem(
+    "veo_canales",
+    JSON.stringify(canales)
+  );
 
-  crearTarjetaCanal(nombre, id, logo);
+  crearTarjetaCanal(
+    nombre,
+    id,
+    logo
+  );
 
   alert("Canal agregado: " + nombre);
 }
@@ -681,9 +696,13 @@ const canalesGuardados = JSON.parse(
 );
 
 canalesGuardados.forEach(canal => {
-  crearTarjetaCanal(canal.nombre, canal.id, canal.logo);
+  crearTarjetaCanal(
+    canal.nombre,
+    canal.id,
+    canal.logo
+  );
 });
-  
+
 </script>
 
 </body>
