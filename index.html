@@ -195,6 +195,79 @@ button {
 .add {
   margin-top: 15px;
 }
+
+/* EDITOR DE PROGRAMA */
+
+.program-editor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.program-editor-box {
+  width: 100%;
+  max-width: 500px;
+  background: #191b20;
+  border: 1px solid #292c33;
+  border-radius: 16px;
+  padding: 22px;
+}
+
+.program-editor-box h2 {
+  margin: 0 0 22px;
+  font-size: 21px;
+}
+
+.program-editor-box label {
+  display: block;
+  margin-bottom: 7px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.program-editor-box input {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 17px;
+  border: 1px solid #353941;
+  border-radius: 9px;
+  background: #101114;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.program-editor-box input:focus {
+  border-color: #666;
+}
+
+.editor-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.editor-buttons button {
+  flex: 1;
+}
+
+.cancel-editor {
+  background: #292c33;
+  color: white;
+}
+
+.save-editor {
+  background: white;
+  color: #111;
+}
 </style>
 </head>
 
@@ -598,7 +671,7 @@ function toggleDay(boton) {
 
 function editarPrograma(boton) {
 
-  const programa = boton.parentElement;
+  const programa = boton.closest(".program");
 
   const nombre = programa.querySelector(".program-name").textContent;
   const horaInicio = programa.dataset.start;
@@ -614,13 +687,13 @@ function editarPrograma(boton) {
       <h2>Editar programa</h2>
 
       <label>Nombre del programa</label>
-      <input type="text" id="editorNombre" value="${nombre}">
+      <input class="editor-nombre" type="text">
 
       <label>Hora de inicio</label>
-      <input type="time" id="editorInicio" value="${horaInicio}">
+      <input class="editor-inicio" type="time">
 
       <label>Hora de término</label>
-      <input type="time" id="editorFin" value="${horaFin}">
+      <input class="editor-fin" type="time">
 
       <div class="editor-buttons">
         <button class="cancel-editor">Cancelar</button>
@@ -632,6 +705,10 @@ function editarPrograma(boton) {
 
   document.body.appendChild(editor);
 
+  editor.querySelector(".editor-nombre").value = nombre;
+  editor.querySelector(".editor-inicio").value = horaInicio;
+  editor.querySelector(".editor-fin").value = horaFin;
+
   editor.querySelector(".cancel-editor").onclick = function() {
     editor.remove();
   };
@@ -639,13 +716,13 @@ function editarPrograma(boton) {
   editor.querySelector(".save-editor").onclick = function() {
 
     const nuevoNombre =
-      editor.querySelector("#editorNombre").value.trim();
+      editor.querySelector(".editor-nombre").value.trim();
 
     const nuevaHoraInicio =
-      editor.querySelector("#editorInicio").value;
+      editor.querySelector(".editor-inicio").value;
 
     const nuevaHoraFin =
-      editor.querySelector("#editorFin").value;
+      editor.querySelector(".editor-fin").value;
 
     if (!nuevoNombre || !nuevaHoraInicio || !nuevaHoraFin) {
       alert("Completa todos los campos.");
