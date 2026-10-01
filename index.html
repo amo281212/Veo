@@ -437,14 +437,14 @@ function guardarProgramacion() {
   const seccion = document.querySelector("#editor .section");
 
   localStorage.setItem(
-    "veo_programacion_" + canal,
+    "veo_programacion_v2_" + canal,
     seccion.innerHTML
   );
 }
 
 function cargarProgramacion(canal) {
   const guardada = localStorage.getItem(
-    "veo_programacion_" + canal
+    "veo_programacion_v2_" + canal
   );
 
   if (guardada) {
