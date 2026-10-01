@@ -247,7 +247,7 @@ button {
     </div>
   </div>
 
-  <button>＋ Agregar canal</button>
+  <button onclick="agregarCanal()">＋ Agregar canal</button>
 
 </main>
 
@@ -326,6 +326,22 @@ function openChannel(channel, logo) {
 function goBack() {
   document.getElementById("editor").style.display = "none";
   document.getElementById("channels").style.display = "block";
+}
+
+function agregarCanal() {
+  const nombre = prompt("Nombre del canal:");
+
+  if (!nombre) return;
+
+  const id = prompt("ID del canal:");
+
+  if (!id) return;
+
+  const logo = prompt("URL del logo:");
+
+  if (!logo) return;
+
+  alert("Canal agregado: " + nombre);
 }
 
 function cargarProgramacion(canal) {
