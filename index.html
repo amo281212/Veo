@@ -294,6 +294,8 @@ function openChannel(channel, logo) {
 
   document.getElementById("channelLogo").src = logo;
   document.getElementById("channelLogo").alt = channel;
+
+  cargarProgramacion(channel);
 }
 
 function goBack() {
@@ -303,10 +305,12 @@ function goBack() {
 
 function editarPrograma(boton) {
   const programa = boton.parentElement;
+
   const nombre = programa.querySelector(".program-name").textContent;
+
   const horarios = programa.querySelector(".time").textContent.split(" - ");
-const horaInicio = horarios[0];
-const horaFin = horarios[1] || "";
+  const horaInicio = horarios[0];
+  const horaFin = horarios[1] || "";
 
   const nuevoNombre = prompt("Nombre del programa:", nombre);
   if (nuevoNombre === null) return;
@@ -320,9 +324,11 @@ const horaFin = horarios[1] || "";
   programa.querySelector(".program-name").textContent = nuevoNombre;
   programa.querySelector(".time").textContent =
     nuevaHoraInicio + " - " + nuevaHoraFin;
+
+  guardarProgramacion();
 }
-  
- function agregarPrograma() {
+
+function agregarPrograma() {
   const nombre = prompt("Nombre del programa:");
   if (nombre === null || nombre.trim() === "") return;
 
@@ -343,7 +349,31 @@ const horaFin = horarios[1] || "";
 
   const botonAgregar = document.querySelector(".add");
   botonAgregar.parentElement.insertBefore(nuevoPrograma, botonAgregar);
-} 
+
+  guardarProgramacion();
+}
+
+function guardarProgramacion() {
+  const canal = document.getElementById("channelTitle").textContent;
+  const seccion = document.querySelector("#editor .section");
+
+  localStorage.setItem(
+    "veo_programacion_" + canal,
+    seccion.innerHTML
+  );
+}
+
+function cargarProgramacion(canal) {
+  const guardada = localStorage.getItem(
+    "veo_programacion_" + canal
+  );
+
+  if (guardada) {
+    const seccion = document.querySelector("#editor .section");
+    seccion.innerHTML = guardada;
+  }
+}
+
 </script>
 
 </body>
