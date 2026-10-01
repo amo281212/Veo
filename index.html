@@ -241,41 +241,88 @@ button {
 
   <div class="section">
     <h2>📋 Programación</h2>
-    
-    <div class="days">
-  <button class="active">Lunes</button>
-  <button>Martes</button>
-  <button>Miércoles</button>
-  <button>Jueves</button>
-  <button>Viernes</button>
-  <button>Sábado</button>
-  <button>Domingo</button>
-</div>
 
-    <div class="program">
-      <div class="time">06:00 - 09:00</div>
-      <div class="program-name">Buenos días</div>
-      <button class="edit" onclick="editarPrograma(this)">Editar</button>
+<div class="week">
+
+  <div class="day">
+    <button class="day-title" onclick="toggleDay(this)">Lunes</button>
+    <div class="day-content">
+      <div class="program">
+        <div class="time">06:00 - 09:00</div>
+        <div class="program-name">Buenos días</div>
+        <button class="edit" onclick="editarPrograma(this)">Editar</button>
+      </div>
+
+      <div class="program">
+        <div class="time">09:00 - 13:00</div>
+        <div class="program-name">Noticias</div>
+        <button class="edit" onclick="editarPrograma(this)">Editar</button>
+      </div>
+
+      <div class="program">
+        <div class="time">13:00 - 14:00</div>
+        <div class="program-name">24 Horas</div>
+        <button class="edit" onclick="editarPrograma(this)">Editar</button>
+      </div>
+
+      <button class="add" onclick="agregarPrograma()">＋ Agregar programa</button>
     </div>
-
-    <div class="program">
-      <div class="time">09:00 - 13:00</div>
-      <div class="program-name">Noticias</div>
-      <button class="edit" onclick="editarPrograma(this)">Editar</button>
-    </div>
-
-    <div class="program">
-      <div class="time">13:00 - 14:00</div>
-      <div class="program-name">24 Horas</div>
-      <button class="edit" onclick="editarPrograma(this)">Editar</button>
-    </div>
-
-    <button class="add" onclick="agregarPrograma()">＋ Agregar programa</button>
   </div>
 
+  <div class="day">
+    <button class="day-title" onclick="toggleDay(this)">Martes</button>
+    <div class="day-content"></div>
+  </div>
 
-  <div class="section">
-    <h2>🕐 Horarios</h2>
+  <div class="day">
+    <button class="day-title" onclick="toggleDay(this)">Miércoles</button>
+    <div class="day-content"></div>
+  </div>
+
+  <div class="day open">
+    <button class="day-title" onclick="toggleDay(this)">Jueves</button>
+    <div class="day-content">
+      <div class="program">
+        <div class="time">06:00 - 09:00</div>
+        <div class="program-name">Buenos días</div>
+        <button class="edit" onclick="editarPrograma(this)">Editar</button>
+      </div>
+
+      <div class="program">
+        <div class="time">09:00 - 13:00</div>
+        <div class="program-name">Noticias</div>
+        <button class="edit" onclick="editarPrograma(this)">Editar</button>
+      </div>
+
+      <div class="program">
+        <div class="time">13:00 - 14:00</div>
+        <div class="program-name">24 Horas</div>
+        <button class="edit" onclick="editarPrograma(this)">Editar</button>
+      </div>
+
+      <button class="add" onclick="agregarPrograma()">＋ Agregar programa</button>
+    </div>
+  </div>
+
+  <div class="day">
+    <button class="day-title" onclick="toggleDay(this)">Viernes</button>
+    <div class="day-content"></div>
+  </div>
+
+  <div class="day">
+    <button class="day-title" onclick="toggleDay(this)">Sábado</button>
+    <div class="day-content"></div>
+  </div>
+
+  <div class="day">
+    <button class="day-title" onclick="toggleDay(this)">Domingo</button>
+    <div class="day-content"></div>
+  </div>
+
+</div>
+
+<div class="section">
+  <h2>🕐 Horarios</h2>
 
     <div class="program">
       <div class="program-name">Lunes</div>
