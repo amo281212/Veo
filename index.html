@@ -310,6 +310,32 @@ function datosIniciales() {
   return datos;
 }
 
+function crearTarjetaCanal(nombre, id, logo) {
+  const channels = document.getElementById("channels");
+
+  const card = document.createElement("div");
+  card.className = "channel-card";
+
+  card.innerHTML = `
+    <img class="channel-logo" src="${logo}" alt="${nombre}">
+    <div>
+      <h3>${nombre}</h3>
+      <p>${id}</p>
+    </div>
+  `;
+
+  card.onclick = function() {
+    openChannel(id, logo);
+  };
+
+  channels.insertBefore(
+    card,
+    channels.querySelector(".add-channel")
+  );
+}
+
+function openChannel(channel, logo) {
+  
 function openChannel(channel, logo) {
   document.getElementById("channels").style.display = "none";
   document.getElementById("editor").style.display = "block";
@@ -330,16 +356,25 @@ function goBack() {
 
 function agregarCanal() {
   const nombre = prompt("Nombre del canal:");
-
   if (!nombre) return;
 
   const id = prompt("ID del canal:");
-
   if (!id) return;
 
   const logo = prompt("URL del logo:");
-
   if (!logo) return;
+
+  const canales = JSON.parse(localStorage.getItem("veo_canales") || "[]");
+
+  canales.push({
+    nombre: nombre,
+    id: id,
+    logo: logo
+  });
+
+  localStorage.setItem("veo_canales", JSON.stringify(canales));
+
+  crearTarjetaCanal(nombre, id, logo);
 
   alert("Canal agregado: " + nombre);
 }
@@ -641,6 +676,14 @@ function agregarPrograma(dia) {
   guardarProgramacion();
 }
 
+const canalesGuardados = JSON.parse(
+  localStorage.getItem("veo_canales") || "[]"
+);
+
+canalesGuardados.forEach(canal => {
+  crearTarjetaCanal(canal.nombre, canal.id, canal.logo);
+});
+  
 </script>
 
 </body>
