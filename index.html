@@ -1,116 +1,254 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Veo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veo</title>
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #101114;
-      color: white;
-    }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101114;
+  color: white;
+}
 
-    header {
-      padding: 25px;
-      background: #181a1f;
-      border-bottom: 1px solid #292c33;
-    }
+header {
+  padding: 25px 20px;
+  background: #181a1f;
+  border-bottom: 1px solid #292c33;
+}
 
-    header h1 {
-      margin: 0;
-      font-size: 30px;
-    }
+header h1 {
+  margin: 0;
+  font-size: 30px;
+}
 
-    header p {
-      margin: 6px 0 0;
-      color: #999;
-    }
+header p {
+  margin: 6px 0 0;
+  color: #999;
+}
 
-    main {
-      padding: 25px;
-      max-width: 900px;
-      margin: auto;
-    }
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
 
-    .channel {
-      background: #191b20;
-      border: 1px solid #292c33;
-      border-radius: 12px;
-      padding: 18px;
-      margin-bottom: 12px;
-      cursor: pointer;
-      transition: 0.2s;
-    }
+.channel {
+  background: #191b20;
+  border: 1px solid #292c33;
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
 
-    .channel:hover {
-      background: #22252b;
-      transform: translateY(-1px);
-    }
+.channel-name {
+  font-size: 19px;
+  font-weight: bold;
+}
 
-    .channel-name {
-      font-size: 19px;
-      font-weight: bold;
-    }
+.channel-id {
+  color: #888;
+  font-size: 13px;
+  margin-top: 5px;
+}
 
-    .channel-id {
-      color: #888;
-      font-size: 13px;
-      margin-top: 5px;
-    }
+button {
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  border-radius: 10px;
+  background: white;
+  color: #111;
+  font-size: 16px;
+  cursor: pointer;
+}
 
-    button {
-      width: 100%;
-      margin-top: 10px;
-      padding: 15px;
-      border: 0;
-      border-radius: 10px;
-      background: #ffffff;
-      color: #111;
-      font-size: 16px;
-      cursor: pointer;
-    }
-  </style>
+#editor {
+  display: none;
+}
+
+.back {
+  background: #292c33;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.section {
+  background: #191b20;
+  border: 1px solid #292c33;
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 15px;
+}
+
+.section h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.program {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0;
+  border-bottom: 1px solid #292c33;
+}
+
+.program:last-child {
+  border-bottom: 0;
+}
+
+.time {
+  color: #aaa;
+  width: 70px;
+}
+
+.program-name {
+  flex: 1;
+}
+
+.edit {
+  width: auto;
+  padding: 8px 12px;
+  background: #292c33;
+  color: white;
+  font-size: 13px;
+}
+
+.add {
+  margin-top: 15px;
+}
+</style>
 </head>
 
 <body>
 
-  <header>
-    <h1>Veo</h1>
-    <p>Editor de programación televisiva</p>
-  </header>
+<header>
+  <h1>Veo</h1>
+  <p>Editor de programación televisiva</p>
+</header>
 
-  <main>
+<main id="channels">
 
-    <div class="channel">
-      <div class="channel-name">TVN</div>
-      <div class="channel-id">TVN.cl</div>
+  <div class="channel" onclick="openChannel('TVN')">
+    <div class="channel-name">TVN</div>
+    <div class="channel-id">TVN.cl</div>
+  </div>
+
+  <div class="channel" onclick="openChannel('Mega')">
+    <div class="channel-name">Mega</div>
+    <div class="channel-id">Mega.cl</div>
+  </div>
+
+  <div class="channel" onclick="openChannel('Chilevisión')">
+    <div class="channel-name">Chilevisión</div>
+    <div class="channel-id">Chilevision.cl</div>
+  </div>
+
+  <div class="channel" onclick="openChannel('Canal 13')">
+    <div class="channel-name">Canal 13</div>
+    <div class="channel-id">Canal13.cl</div>
+  </div>
+
+  <button>＋ Agregar canal</button>
+
+</main>
+
+
+<main id="editor">
+
+  <button class="back" onclick="goBack()">← Volver a canales</button>
+
+  <h2 id="channelTitle">TVN</h2>
+
+  <div class="section">
+    <h2>📋 Programación</h2>
+
+    <div class="program">
+      <div class="time">06:00</div>
+      <div class="program-name">Buenos días</div>
+      <button class="edit">Editar</button>
     </div>
 
-    <div class="channel">
-      <div class="channel-name">Mega</div>
-      <div class="channel-id">Mega.cl</div>
+    <div class="program">
+      <div class="time">09:00</div>
+      <div class="program-name">Noticias</div>
+      <button class="edit">Editar</button>
     </div>
 
-    <div class="channel">
-      <div class="channel-name">Chilevisión</div>
-      <div class="channel-id">Chilevision.cl</div>
+    <div class="program">
+      <div class="time">13:00</div>
+      <div class="program-name">24 Horas</div>
+      <button class="edit">Editar</button>
     </div>
 
-    <div class="channel">
-      <div class="channel-name">Canal 13</div>
-      <div class="channel-id">Canal13.cl</div>
+    <button class="add">＋ Agregar programa</button>
+  </div>
+
+
+  <div class="section">
+    <h2>🕐 Horarios</h2>
+
+    <div class="program">
+      <div class="program-name">Lunes</div>
+      <button class="edit">Editar</button>
     </div>
 
-    <button>＋ Agregar canal</button>
+    <div class="program">
+      <div class="program-name">Martes</div>
+      <button class="edit">Editar</button>
+    </div>
 
-  </main>
+    <div class="program">
+      <div class="program-name">Miércoles</div>
+      <button class="edit">Editar</button>
+    </div>
+
+    <div class="program">
+      <div class="program-name">Jueves</div>
+      <button class="edit">Editar</button>
+    </div>
+
+    <div class="program">
+      <div class="program-name">Viernes</div>
+      <button class="edit">Editar</button>
+    </div>
+
+    <div class="program">
+      <div class="program-name">Sábado</div>
+      <button class="edit">Editar</button>
+    </div>
+
+    <div class="program">
+      <div class="program-name">Domingo</div>
+      <button class="edit">Editar</button>
+    </div>
+  </div>
+
+</main>
+
+
+<script>
+
+function openChannel(channel) {
+  document.getElementById("channels").style.display = "none";
+  document.getElementById("editor").style.display = "block";
+  document.getElementById("channelTitle").textContent = channel;
+}
+
+function goBack() {
+  document.getElementById("editor").style.display = "none";
+  document.getElementById("channels").style.display = "block";
+}
+
+</script>
 
 </body>
 </html>
