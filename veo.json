@@ -226,6 +226,11 @@
           "nombre": "Aquí",
           "inicio": "16:05",
           "fin": "17:55"
+        },
+        {
+          "nombre": "El Diario de Bridget Jones",
+          "inicio": "17:55",
+          "fin": "19:45"
         }
       ],
       "Domingo": []
