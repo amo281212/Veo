@@ -189,6 +189,11 @@
           "nombre": "Chappie",
           "inicio": "18:10",
           "fin": "20:20"
+        },
+        {
+          "nombre": "Apuesta Máxima",
+          "inicio": "20:20",
+          "fin": "22:00"
         }
       ],
       "Sábado": [],
