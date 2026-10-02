@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="Veo" generator-info-url="https://amo281212.github.io/Veo/">
+  <channel id="TVN.cl">
+    <display-name>TVN</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png"/>
+  </channel>
+  <channel id="Mega.cl">
+    <display-name>Mega</display-name>
+    <icon src="https://cdn.m3u.cl/logo/455_Mega.png"/>
+  </channel>
+  <channel id="Chilevision.cl">
+    <display-name>Chilevisión</display-name>
+    <icon src="https://cdn.m3u.cl/logo/1569_CHV.png"/>
+  </channel>
+  <channel id="Canal13.cl">
+    <display-name>Canal 13</display-name>
+    <icon src="https://cdn.m3u.cl/logo/1733_Canal_13.png"/>
+  </channel>
+</tv>
