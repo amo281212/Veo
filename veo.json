@@ -119,6 +119,12 @@
       "nombre": "Space",
       "id": "Space.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/SPACE.png"
+    },
+    {
+      "clave": "TNT.cl",
+      "nombre": "TNT",
+      "id": "TNT.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TNT.png"
     }
   ],
   "eliminados": [],
@@ -328,6 +334,15 @@
       "Domingo": []
     },
     "Space.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "TNT.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
