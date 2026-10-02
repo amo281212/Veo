@@ -77,6 +77,12 @@
       "nombre": "HBO Pop",
       "id": "HBOPop.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%20POP.png"
+    },
+    {
+      "clave": "HBOXtreme.cl",
+      "nombre": "HBO Xtreme",
+      "id": "HBOXtreme.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%20XTREME.png"
     }
   ],
   "eliminados": [],
@@ -223,6 +229,15 @@
       "Domingo": []
     },
     "HBOPop.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "HBOXtreme.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
