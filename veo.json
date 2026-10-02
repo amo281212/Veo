@@ -201,7 +201,13 @@
           "fin": "01:00"
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Riddick",
+          "inicio": "01:00",
+          "fin": "10:00"
+        }
+      ],
       "Domingo": []
     },
     "Cinecanal.cl": {
