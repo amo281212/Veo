@@ -53,6 +53,12 @@
       "nombre": "Golden Edge",
       "id": "GoldenEdge.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/GOLDEN%20EDGE.png"
+    },
+    {
+      "clave": "HBO.cl",
+      "nombre": "HBO",
+      "id": "HBO.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO.png"
     }
   ],
   "eliminados": [],
@@ -163,6 +169,15 @@
       "Domingo": []
     },
     "GoldenEdge.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "HBO.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
