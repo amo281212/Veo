@@ -493,6 +493,11 @@
           "nombre": "Escuela de Miedo",
           "inicio": "09:02",
           "fin": "10:33"
+        },
+        {
+          "nombre": "Las Aventuras de Robinson Crusoe",
+          "inicio": "10:33",
+          "fin": "12:12"
         }
       ]
     },
