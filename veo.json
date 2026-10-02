@@ -463,7 +463,13 @@
           "fin": "00:37"
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Los Picapiedra",
+          "inicio": "00:37",
+          "fin": "02:16"
+        }
+      ]
     },
     "GoldenEdge.cl": {
       "Lunes": [],
