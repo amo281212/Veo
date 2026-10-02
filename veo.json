@@ -125,6 +125,12 @@
       "nombre": "TNT",
       "id": "TNT.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TNT.png"
+    },
+    {
+      "clave": "FX.cl",
+      "nombre": "FX",
+      "id": "FX.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/FX.png"
     }
   ],
   "eliminados": [],
@@ -343,6 +349,15 @@
       "Domingo": []
     },
     "TNT.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "FX.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
