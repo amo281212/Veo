@@ -71,6 +71,7 @@ margin-top:4px
 .back,
 .edit-channel,
 .edit,
+.delete-program,
 .cancel-editor,
 .delete-confirm{
 background:#292c33;
@@ -194,10 +195,18 @@ flex-shrink:0
 flex:1
 }
 
-.edit{
+.edit,
+.delete-program{
 width:auto;
 padding:8px 12px;
-font-size:13px
+font-size:13px;
+flex-shrink:0
+}
+
+.program-actions{
+display:flex;
+gap:7px;
+flex-shrink:0
 }
 
 .add{
@@ -450,12 +459,6 @@ let canalActual="";
 let canalActualClave="";
 let diaActual="";
 
-/*
-   Cola de sincronización.
-
-   Esto evita que dos guardados simultáneos
-   intenten escribir veo.json al mismo tiempo.
-*/
 let colaSincronizacion=Promise.resolve();
 
 
@@ -927,23 +930,8 @@ return respuesta;
 
 }
 
-
-/*
-   Primer intento.
-*/
-
 let respuesta=
 await intentarSubir();
-
-
-/*
-   Si GitHub responde 409,
-   significa que el SHA cambió entre
-   la lectura y el guardado.
-
-   Volvemos a obtener el SHA actual
-   y reintentamos una sola vez.
-*/
 
 if(
 respuesta.status===
@@ -962,7 +950,6 @@ respuesta=
 await intentarSubir();
 
 }
-
 
 if(!respuesta.ok){
 
@@ -1118,14 +1105,6 @@ remoto.programacion
 ===================================================== */
 
 function sincronizarEstado(){
-
-/*
-   Capturamos exactamente el estado existente
-   en el momento de pulsar Guardar.
-
-   Luego lo ponemos en una cola para que
-   los guardados se ejecuten uno después de otro.
-*/
 
 const contenido=
 JSON.stringify(
@@ -1723,6 +1702,19 @@ nombrePrograma.className=
 nombrePrograma.textContent=
 nombre;
 
+
+/* =====================================================
+   BOTONES DEL PROGRAMA
+===================================================== */
+
+const acciones=
+document.createElement(
+"div"
+);
+
+acciones.className=
+"program-actions";
+
 const editar=
 document.createElement(
 "button"
@@ -1743,6 +1735,34 @@ editar
 
 };
 
+const borrar=
+document.createElement(
+"button"
+);
+
+borrar.className=
+"delete-program";
+
+borrar.textContent=
+"Borrar";
+
+borrar.onclick=
+function(){
+
+eliminarPrograma(
+borrar
+);
+
+};
+
+acciones.appendChild(
+editar
+);
+
+acciones.appendChild(
+borrar
+);
+
 programa.appendChild(
 tiempo
 );
@@ -1752,7 +1772,7 @@ nombrePrograma
 );
 
 programa.appendChild(
-editar
+acciones
 );
 
 return programa;
@@ -1799,6 +1819,98 @@ dia.classList.contains(
 
 diaActual=
 dia.dataset.day;
+
+}
+
+}
+
+
+/* =====================================================
+   BORRAR PROGRAMA
+===================================================== */
+
+async function eliminarPrograma(
+boton
+){
+
+const programa=
+boton.closest(
+".program"
+);
+
+if(!programa){
+
+return;
+
+}
+
+const nombre=
+programa
+.querySelector(
+".program-name"
+)
+.textContent;
+
+if(
+!confirm(
+'¿Eliminar el programa "'+
+nombre+
+'"?'
+)
+){
+
+return;
+
+}
+
+const estadoAnterior=
+JSON.parse(
+JSON.stringify(
+estado
+)
+);
+
+const botonBorrar=
+boton;
+
+botonBorrar.disabled=
+true;
+
+botonBorrar.textContent=
+"Eliminando...";
+
+programa.remove();
+
+const guardado=
+await guardarProgramacionDesdeDOM();
+
+if(
+guardado
+){
+
+return;
+
+}
+
+/*
+   Si GitHub no acepta el cambio,
+   recuperamos el estado anterior
+   y volvemos a dibujar la programación.
+*/
+
+estado=
+estadoAnterior;
+
+const canal=
+obtenerCanalPorClave(
+canalActualClave
+);
+
+if(canal){
+
+cargarProgramacion(
+canal
+);
 
 }
 
