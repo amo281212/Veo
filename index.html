@@ -366,6 +366,34 @@ button {
   color: white;
 }
 
+/* ACTUALIZAR EPG */
+
+.epg-status {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+
+.epg-token-input {
+  margin-bottom: 10px !important;
+}
+
+.epg-token-note {
+  color: #777;
+  font-size: 12px;
+  line-height: 1.4;
+  margin: -5px 0 18px;
+}
+
+.epg-progress {
+  display: none;
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
 </style>
 </head>
 
@@ -399,7 +427,6 @@ button {
     ← Volver a canales
   </button>
 
-
   <div class="channel-header">
 
     <img id="channelLogo" class="channel-logo" src="" alt="">
@@ -411,7 +438,6 @@ button {
     </button>
 
   </div>
-
 
   <div class="section">
 
@@ -1499,21 +1525,11 @@ function eliminarCanalPorClave(
   canal
 ) {
 
-  /*
-    Elimina la programación
-    asociada al ID actual.
-  */
-
   localStorage.removeItem(
     "veo_programacion_v3_" +
     canal.id
   );
 
-
-  /*
-    Compatibilidad con la
-    antigua clave de TVN.
-  */
 
   if (
     canal.clave ===
@@ -1526,12 +1542,6 @@ function eliminarCanalPorClave(
 
   }
 
-
-  /*
-    Si es un canal agregado
-    manualmente, lo quitamos
-    de veo_canales.
-  */
 
   const canales =
     JSON.parse(
@@ -1557,12 +1567,6 @@ function eliminarCanalPorClave(
     )
   );
 
-
-  /*
-    Si es uno de los 4 canales
-    originales, guardamos su
-    clave como eliminado.
-  */
 
   const esBase =
     canalesBase.some(
@@ -1603,12 +1607,6 @@ function eliminarCanalPorClave(
     );
 
 
-    /*
-      También eliminamos
-      cualquier edición guardada
-      de ese canal.
-    */
-
     const ediciones =
       JSON.parse(
         localStorage.getItem(
@@ -1634,12 +1632,6 @@ function eliminarCanalPorClave(
 
   }
 
-
-  /*
-    Si el canal eliminado
-    era el que estaba abierto,
-    volvemos a la lista.
-  */
 
   if (
     canalActualClave ===
@@ -1679,11 +1671,6 @@ function cargarProgramacion(
       canal.id
     );
 
-
-  /*
-    Compatibilidad con la versión anterior,
-    donde TVN usaba "TVN" como clave.
-  */
 
   if (
     !guardada &&
@@ -2782,6 +2769,11 @@ function crearFechaPrograma(
 }
 
 
+/*
+  Genera el XMLTV y lo devuelve
+  como texto. Ya no lo descarga.
+*/
+
 function generarXMLTV() {
 
   guardarProgramacion();
@@ -2977,65 +2969,514 @@ function generarXMLTV() {
     "</tv>";
 
 
-  const archivo =
-    new Blob(
-      [xml],
-      {
-        type:
-          "application/xml;charset=utf-8"
-      }
-    );
+  return xml;
+}
 
 
-  const url =
-    URL.createObjectURL(
-      archivo
-    );
+/* =====================================================
+   GITHUB
+===================================================== */
+
+const GITHUB_OWNER =
+  "amo281212";
+
+const GITHUB_REPO =
+  "Veo";
+
+const GITHUB_FILE =
+  "epg.xml";
+
+const GITHUB_BRANCH =
+  "main";
 
 
-  const enlace =
-    document.createElement(
-      "a"
-    );
+function obtenerTokenGitHub() {
 
-
-  enlace.href =
-    url;
-
-
-  enlace.download =
-    "epg.xml";
-
-
-  document.body.appendChild(
-    enlace
-  );
-
-
-  enlace.click();
-
-
-  enlace.remove();
-
-
-  URL.revokeObjectURL(
-    url
+  return localStorage.getItem(
+    "veo_github_token"
   );
 
 }
 
 
-function actualizarEPG() {
+function mostrarEditorToken() {
 
-  /*
-    Por ahora este botón genera el XML
-    para probar el sistema.
+  return new Promise(
+    resolve => {
 
-    Más adelante aquí conectaremos
-    la actualización real de GitHub.
-  */
+      const editor =
+        document.createElement(
+          "div"
+        );
 
-  generarXMLTV();
+
+      editor.className =
+        "program-editor";
+
+
+      editor.innerHTML = `
+
+        <div class="program-editor-box">
+
+          <h2>Conectar GitHub</h2>
+
+          <div class="epg-status">
+
+            Veo necesita tu token de GitHub
+            para poder actualizar
+            <strong>epg.xml</strong>.
+
+          </div>
+
+          <label>Token de GitHub</label>
+
+          <input
+            class="epg-token-input"
+            type="password"
+            autocomplete="off"
+            placeholder="github_pat_..."
+          >
+
+          <div class="epg-token-note">
+
+            El token se guardará solamente
+            en este navegador.
+            No se añadirá al código de Veo.
+
+          </div>
+
+          <div class="editor-buttons">
+
+            <button class="cancel-editor">
+              Cancelar
+            </button>
+
+            <button class="save-editor">
+              Guardar
+            </button>
+
+          </div>
+
+        </div>
+
+      `;
+
+
+      document.body.appendChild(
+        editor
+      );
+
+
+      const input =
+        editor.querySelector(
+          ".epg-token-input"
+        );
+
+
+      setTimeout(
+        () => input.focus(),
+        50
+      );
+
+
+      editor.querySelector(
+        ".cancel-editor"
+      ).onclick =
+        function() {
+
+          editor.remove();
+
+          resolve(
+            null
+          );
+
+        };
+
+
+      editor.querySelector(
+        ".save-editor"
+      ).onclick =
+        function() {
+
+          const token =
+            input.value.trim();
+
+
+          if (!token) {
+
+            alert(
+              "Ingresa el token de GitHub."
+            );
+
+            return;
+          }
+
+
+          localStorage.setItem(
+            "veo_github_token",
+            token
+          );
+
+
+          editor.remove();
+
+
+          resolve(
+            token
+          );
+
+        };
+
+    }
+  );
+
+}
+
+
+async function obtenerTokenParaGitHub() {
+
+  let token =
+    obtenerTokenGitHub();
+
+
+  if (token) {
+    return token;
+  }
+
+
+  token =
+    await mostrarEditorToken();
+
+
+  return token;
+}
+
+
+async function obtenerSHAArchivo(
+  token
+) {
+
+  const respuesta =
+    await fetch(
+      "https://api.github.com/repos/" +
+      GITHUB_OWNER +
+      "/" +
+      GITHUB_REPO +
+      "/contents/" +
+      GITHUB_FILE +
+      "?ref=" +
+      GITHUB_BRANCH,
+      {
+        method:
+          "GET",
+
+        headers: {
+          "Accept":
+            "application/vnd.github+json",
+
+          "Authorization":
+            "Bearer " +
+            token,
+
+          "X-GitHub-Api-Version":
+            "2026-03-10"
+        }
+      }
+    );
+
+
+  if (
+    respuesta.status ===
+    404
+  ) {
+
+    return null;
+
+  }
+
+
+  if (
+    !respuesta.ok
+  ) {
+
+    const texto =
+      await respuesta.text();
+
+
+    throw new Error(
+      "GitHub respondió " +
+      respuesta.status +
+      ": " +
+      texto
+    );
+
+  }
+
+
+  const datos =
+    await respuesta.json();
+
+
+  return datos.sha;
+}
+
+
+function convertirBase64(texto) {
+
+  const bytes =
+    new TextEncoder().encode(
+      texto
+    );
+
+
+  let binario = "";
+
+
+  const tamaño =
+    0x8000;
+
+
+  for (
+    let i = 0;
+    i < bytes.length;
+    i += tamaño
+  ) {
+
+    const bloque =
+      bytes.subarray(
+        i,
+        i + tamaño
+      );
+
+
+    binario +=
+      String.fromCharCode(
+        ...bloque
+      );
+
+  }
+
+
+  return btoa(
+    binario
+  );
+}
+
+
+async function subirEPGaGitHub(
+  xml,
+  token
+) {
+
+  const sha =
+    await obtenerSHAArchivo(
+      token
+    );
+
+
+  const cuerpo = {
+
+    message:
+      "Actualizar EPG desde Veo",
+
+    content:
+      convertirBase64(
+        xml
+      ),
+
+    branch:
+      GITHUB_BRANCH
+
+  };
+
+
+  if (sha) {
+
+    cuerpo.sha =
+      sha;
+
+  }
+
+
+  const respuesta =
+    await fetch(
+      "https://api.github.com/repos/" +
+      GITHUB_OWNER +
+      "/" +
+      GITHUB_REPO +
+      "/contents/" +
+      GITHUB_FILE,
+      {
+        method:
+          "PUT",
+
+        headers: {
+          "Accept":
+            "application/vnd.github+json",
+
+          "Authorization":
+            "Bearer " +
+            token,
+
+          "X-GitHub-Api-Version":
+            "2026-03-10",
+
+          "Content-Type":
+            "application/json"
+        },
+
+        body:
+          JSON.stringify(
+            cuerpo
+          )
+      }
+    );
+
+
+  if (
+    !respuesta.ok
+  ) {
+
+    const texto =
+      await respuesta.text();
+
+
+    throw new Error(
+      "GitHub respondió " +
+      respuesta.status +
+      ": " +
+      texto
+    );
+
+  }
+
+
+  return await respuesta.json();
+}
+
+
+/* =====================================================
+   ACTUALIZAR EPG
+===================================================== */
+
+
+async function actualizarEPG() {
+
+  const boton =
+    document.querySelector(
+      ".update-epg"
+    );
+
+
+  const textoOriginal =
+    boton.textContent;
+
+
+  try {
+
+    boton.disabled =
+      true;
+
+    boton.textContent =
+      "Actualizando...";
+
+
+    const token =
+      await obtenerTokenParaGitHub();
+
+
+    if (!token) {
+
+      boton.disabled =
+        false;
+
+      boton.textContent =
+        textoOriginal;
+
+      return;
+    }
+
+
+    boton.textContent =
+      "Generando EPG...";
+
+
+    const xml =
+      generarXMLTV();
+
+
+    boton.textContent =
+      "Subiendo a GitHub...";
+
+
+    await subirEPGaGitHub(
+      xml,
+      token
+    );
+
+
+    boton.textContent =
+      "EPG actualizado";
+
+
+    setTimeout(
+      () => {
+
+        boton.disabled =
+          false;
+
+        boton.textContent =
+          textoOriginal;
+
+      },
+      2500
+    );
+
+
+    alert(
+      "EPG actualizado correctamente en GitHub."
+    );
+
+
+  } catch (error) {
+
+    console.error(
+      error
+    );
+
+
+    /*
+      Si el token dejó de ser válido,
+      lo eliminamos para que Veo
+      vuelva a pedirlo.
+    */
+
+    if (
+      error.message.includes(
+        "401"
+      )
+    ) {
+
+      localStorage.removeItem(
+        "veo_github_token"
+      );
+
+    }
+
+
+    boton.disabled =
+      false;
+
+    boton.textContent =
+      textoOriginal;
+
+
+    alert(
+      "No se pudo actualizar el EPG.\n\n" +
+      error.message
+    );
+
+  }
 
 }
 
