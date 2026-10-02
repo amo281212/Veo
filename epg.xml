@@ -104,10 +104,490 @@
     <display-name>USA Network</display-name>
     <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/USA.png"/>
   </channel>
-  <programme channel="Cinecanal.cl" start="NaNNaNNaNNaNNaN00 -NaNNaN" stop="NaNNaNNaNNaNNaN00 -NaNNaN">
+  <programme channel="Cinecanal.cl" start="20261002022500 -0300" stop="20261002044200 -0300">
     <title lang="es">1917</title>
   </programme>
-  <programme channel="Cinecanal.cl" start="NaNNaNNaNNaNNaN00 -NaNNaN" stop="NaNNaNNaNNaNNaN00 -NaNNaN">
+  <programme channel="Cinecanal.cl" start="20261002044200 -0300" stop="20261002064700 -0300">
+    <title lang="es">Terremoto 8.5</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261002064700 -0300" stop="20261002090000 -0300">
+    <title lang="es">Across the River and Into the Trees</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261002090000 -0300" stop="20261002115700 -0300">
+    <title lang="es">Reefa</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261002115700 -0300" stop="20261002134700 -0300">
+    <title lang="es">La gran aventura de los Lunnis y el libro mágico</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261002134700 -0300" stop="20261002170500 -0300">
+    <title lang="es">Amor sin barreras</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261002170500 -0300" stop="20261002192800 -0300">
+    <title lang="es">High Strung</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261002192800 -0300" stop="20261002215400 -0300">
+    <title lang="es">Música, glamour y fama</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261002215400 -0300" stop="20261003000000 -0300">
+    <title lang="es">Plan de vuelo</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261002104400 -0300" stop="20261002123100 -0300">
+    <title lang="es">Malvada</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261002123100 -0300" stop="20261002141600 -0300">
+    <title lang="es">El Roomie</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261002141600 -0300" stop="20261002155300 -0300">
+    <title lang="es">Mirreyes contra godínez: Las Vegas</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261002155300 -0300" stop="20261002173600 -0300">
+    <title lang="es">Desastre en familia</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261002173600 -0300" stop="20261002192100 -0300">
+    <title lang="es">¡Qué despadre!</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261002192100 -0300" stop="20261002211400 -0300">
+    <title lang="es">No Manches Frida 2</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261002211400 -0300" stop="20261002230000 -0300">
+    <title lang="es">Dolittle</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261002230000 -0300" stop="20261003010800 -0300">
+    <title lang="es">Una Esposa de Mentira</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261003000000 -0300" stop="20261003023600 -0300">
+    <title lang="es">Joy: El nombre del éxito</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261003023600 -0300" stop="20261003041900 -0300">
+    <title lang="es">Un equipo milagroso</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261003041900 -0300" stop="20261003060600 -0300">
+    <title lang="es">Irene, yo y mi otro yo</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261003060600 -0300" stop="20261003074100 -0300">
+    <title lang="es">La boda de Rosa</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261003074100 -0300" stop="20261003090000 -0300">
+    <title lang="es">Henry y Klauss: Maestros de la Magia</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261003090000 -0300" stop="20261003105200 -0300">
+    <title lang="es">Mesa 19</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261003105200 -0300" stop="20261003121900 -0300">
+    <title lang="es">Henry y Klauss: Maestros de la Magia</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261003121900 -0300" stop="20261003145500 -0300">
+    <title lang="es">Toys</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261003145500 -0300" stop="20261003172300 -0300">
+    <title lang="es">Splash</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261003172300 -0300" stop="20261003194600 -0300">
+    <title lang="es">High Strung</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261003194600 -0300" stop="20261003221000 -0300">
+    <title lang="es">Más Allá de la Montaña</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261003221000 -0300" stop="20261004000000 -0300">
+    <title lang="es">Madagascar</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261003010800 -0300" stop="20261003030900 -0300">
+    <title lang="es">Mamma Mia!</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261003030900 -0300" stop="20261003050700 -0300">
+    <title lang="es">Cásese quién pueda</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261003050700 -0300" stop="20261003063300 -0300">
+    <title lang="es">Juega conmigo</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261003063300 -0300" stop="20261003075600 -0300">
+    <title lang="es">La Leyenda de la Llorona</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261003075600 -0300" stop="20261003095200 -0300">
+    <title lang="es">Divina Confusión</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261003095200 -0300" stop="20261003115800 -0300">
+    <title lang="es">Cuando sea joven</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261003115800 -0300" stop="20261003133500 -0300">
+    <title lang="es">Guerra de Novias</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261003133500 -0300" stop="20261003153400 -0300">
+    <title lang="es">Mamma Mia!</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261003153400 -0300" stop="20261003174000 -0300">
+    <title lang="es">Una Esposa de Mentira</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261003174000 -0300" stop="20261003192400 -0300">
+    <title lang="es">Dolittle</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261003192400 -0300" stop="20261003205500 -0300">
+    <title lang="es">La Vida Secreta de tus Mascotas 2</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261003205500 -0300" stop="20261003230000 -0300">
+    <title lang="es">Sing 2: ¡Ven y canta de nuevo!</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261003230000 -0300" stop="20261004003700 -0300">
+    <title lang="es">Minions: Nace un villano</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261003131700 -0300" stop="20261003145600 -0300">
+    <title lang="es">Infierno</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261003145600 -0300" stop="20261003164400 -0300">
+    <title lang="es">Fuego contra fuego</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261003164400 -0300" stop="20261003184000 -0300">
+    <title lang="es">La Última Oportunidad</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261003184000 -0300" stop="20261003205800 -0300">
+    <title lang="es">Dobles de Acción</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261003205800 -0300" stop="20261003231100 -0300">
+    <title lang="es">No se aceptan devoluciones</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261003231100 -0300" stop="20261004011700 -0300">
+    <title lang="es">No Manches Frida</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261004000000 -0300" stop="20261004023800 -0300">
+    <title lang="es">Blanca Nieves y el Cazador</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261004023800 -0300" stop="20261004044100 -0300">
+    <title lang="es">La Entrega</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261004044100 -0300" stop="20261004061500 -0300">
+    <title lang="es">Reefa</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261004061500 -0300" stop="20261004090000 -0300">
+    <title lang="es">Al mejor postor</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261004090000 -0300" stop="20261004120200 -0300">
+    <title lang="es">Henry y Klauss: Maestros de la Magia</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261004120200 -0300" stop="20261004141500 -0300">
+    <title lang="es">Una familia numerosa</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261004141500 -0300" stop="20261004162600 -0300">
+    <title lang="es">Nueve Meses</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261004162600 -0300" stop="20261004190400 -0300">
+    <title lang="es">Blanca Nieves y el Cazador</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261004190400 -0300" stop="20261004220400 -0300">
+    <title lang="es">Un viaje de diez metros</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261004220400 -0300" stop="20261005000000 -0300">
+    <title lang="es">Un equipo milagroso</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261004003700 -0300" stop="20261004021600 -0300">
+    <title lang="es">Los Picapiedra</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261004021600 -0300" stop="20261004035200 -0300">
+    <title lang="es">Guardianes</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261004035200 -0300" stop="20261004053200 -0300">
+    <title lang="es">Contrarreloj</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261004053200 -0300" stop="20261004071900 -0300">
+    <title lang="es">Zapatero a tus zapatos</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261004071900 -0300" stop="20261004090200 -0300">
+    <title lang="es">El Candidato Honesto</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261004090200 -0300" stop="20261004103300 -0300">
+    <title lang="es">Escuela de Miedo</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261004103300 -0300" stop="20261004121200 -0300">
+    <title lang="es">Las Aventuras de Robinson Crusoe</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261004121200 -0300" stop="20261004141600 -0300">
+    <title lang="es">Sing 2: ¡Ven y canta de nuevo!</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261004141600 -0300" stop="20261004155100 -0300">
+    <title lang="es">Minions: Nace un Villano</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261004155100 -0300" stop="20261004172200 -0300">
+    <title lang="es">La Vida Secreta de tus Mascotas 2</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261004172200 -0300" stop="20261004185900 -0300">
+    <title lang="es">Los Picapiedra</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261004185900 -0300" stop="20261004205100 -0300">
+    <title lang="es">Pixeles</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261004205100 -0300" stop="20261004230000 -0300">
+    <title lang="es">Luna de Miel en Familia</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261004011700 -0300" stop="20261004030000 -0300">
+    <title lang="es">Fantasmas de Guerra</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261004030000 -0300" stop="20261004045100 -0300">
+    <title lang="es">Consumed by desire</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261004045100 -0300" stop="20261004103000 -0300">
+    <title lang="es">El Poderoso Zeus</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261004103000 -0300" stop="20261004120900 -0300">
+    <title lang="es">Primera Llegada</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261004120900 -0300" stop="20261004135200 -0300">
+    <title lang="es">Fantasmas de Guerra</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261004135200 -0300" stop="20261004160500 -0300">
+    <title lang="es">No se aceptan devoluciones</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261004160500 -0300" stop="20261004181100 -0300">
+    <title lang="es">No Manches Frida</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261004181100 -0300" stop="20261004200400 -0300">
+    <title lang="es">No Manches Frida 2</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261004200400 -0300" stop="20261004220800 -0300">
+    <title lang="es">Tornado</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261004220800 -0300" stop="20261005005800 -0300">
+    <title lang="es">2012</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261009022500 -0300" stop="20261009044200 -0300">
     <title lang="es">1917</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261009044200 -0300" stop="20261009064700 -0300">
+    <title lang="es">Terremoto 8.5</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261009064700 -0300" stop="20261009090000 -0300">
+    <title lang="es">Across the River and Into the Trees</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261009090000 -0300" stop="20261009115700 -0300">
+    <title lang="es">Reefa</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261009115700 -0300" stop="20261009134700 -0300">
+    <title lang="es">La gran aventura de los Lunnis y el libro mágico</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261009134700 -0300" stop="20261009170500 -0300">
+    <title lang="es">Amor sin barreras</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261009170500 -0300" stop="20261009192800 -0300">
+    <title lang="es">High Strung</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261009192800 -0300" stop="20261009215400 -0300">
+    <title lang="es">Música, glamour y fama</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261009215400 -0300" stop="20261010000000 -0300">
+    <title lang="es">Plan de vuelo</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261009104400 -0300" stop="20261009123100 -0300">
+    <title lang="es">Malvada</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261009123100 -0300" stop="20261009141600 -0300">
+    <title lang="es">El Roomie</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261009141600 -0300" stop="20261009155300 -0300">
+    <title lang="es">Mirreyes contra godínez: Las Vegas</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261009155300 -0300" stop="20261009173600 -0300">
+    <title lang="es">Desastre en familia</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261009173600 -0300" stop="20261009192100 -0300">
+    <title lang="es">¡Qué despadre!</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261009192100 -0300" stop="20261009211400 -0300">
+    <title lang="es">No Manches Frida 2</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261009211400 -0300" stop="20261009230000 -0300">
+    <title lang="es">Dolittle</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261009230000 -0300" stop="20261010010800 -0300">
+    <title lang="es">Una Esposa de Mentira</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261010000000 -0300" stop="20261010023600 -0300">
+    <title lang="es">Joy: El nombre del éxito</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261010023600 -0300" stop="20261010041900 -0300">
+    <title lang="es">Un equipo milagroso</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261010041900 -0300" stop="20261010060600 -0300">
+    <title lang="es">Irene, yo y mi otro yo</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261010060600 -0300" stop="20261010074100 -0300">
+    <title lang="es">La boda de Rosa</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261010074100 -0300" stop="20261010090000 -0300">
+    <title lang="es">Henry y Klauss: Maestros de la Magia</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261010090000 -0300" stop="20261010105200 -0300">
+    <title lang="es">Mesa 19</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261010105200 -0300" stop="20261010121900 -0300">
+    <title lang="es">Henry y Klauss: Maestros de la Magia</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261010121900 -0300" stop="20261010145500 -0300">
+    <title lang="es">Toys</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261010145500 -0300" stop="20261010172300 -0300">
+    <title lang="es">Splash</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261010172300 -0300" stop="20261010194600 -0300">
+    <title lang="es">High Strung</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261010194600 -0300" stop="20261010221000 -0300">
+    <title lang="es">Más Allá de la Montaña</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261010221000 -0300" stop="20261011000000 -0300">
+    <title lang="es">Madagascar</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261010010800 -0300" stop="20261010030900 -0300">
+    <title lang="es">Mamma Mia!</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261010030900 -0300" stop="20261010050700 -0300">
+    <title lang="es">Cásese quién pueda</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261010050700 -0300" stop="20261010063300 -0300">
+    <title lang="es">Juega conmigo</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261010063300 -0300" stop="20261010075600 -0300">
+    <title lang="es">La Leyenda de la Llorona</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261010075600 -0300" stop="20261010095200 -0300">
+    <title lang="es">Divina Confusión</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261010095200 -0300" stop="20261010115800 -0300">
+    <title lang="es">Cuando sea joven</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261010115800 -0300" stop="20261010133500 -0300">
+    <title lang="es">Guerra de Novias</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261010133500 -0300" stop="20261010153400 -0300">
+    <title lang="es">Mamma Mia!</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261010153400 -0300" stop="20261010174000 -0300">
+    <title lang="es">Una Esposa de Mentira</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261010174000 -0300" stop="20261010192400 -0300">
+    <title lang="es">Dolittle</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261010192400 -0300" stop="20261010205500 -0300">
+    <title lang="es">La Vida Secreta de tus Mascotas 2</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261010205500 -0300" stop="20261010230000 -0300">
+    <title lang="es">Sing 2: ¡Ven y canta de nuevo!</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261010230000 -0300" stop="20261011003700 -0300">
+    <title lang="es">Minions: Nace un villano</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261010131700 -0300" stop="20261010145600 -0300">
+    <title lang="es">Infierno</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261010145600 -0300" stop="20261010164400 -0300">
+    <title lang="es">Fuego contra fuego</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261010164400 -0300" stop="20261010184000 -0300">
+    <title lang="es">La Última Oportunidad</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261010184000 -0300" stop="20261010205800 -0300">
+    <title lang="es">Dobles de Acción</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261010205800 -0300" stop="20261010231100 -0300">
+    <title lang="es">No se aceptan devoluciones</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261010231100 -0300" stop="20261011011700 -0300">
+    <title lang="es">No Manches Frida</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261011000000 -0300" stop="20261011023800 -0300">
+    <title lang="es">Blanca Nieves y el Cazador</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261011023800 -0300" stop="20261011044100 -0300">
+    <title lang="es">La Entrega</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261011044100 -0300" stop="20261011061500 -0300">
+    <title lang="es">Reefa</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261011061500 -0300" stop="20261011090000 -0300">
+    <title lang="es">Al mejor postor</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261011090000 -0300" stop="20261011120200 -0300">
+    <title lang="es">Henry y Klauss: Maestros de la Magia</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261011120200 -0300" stop="20261011141500 -0300">
+    <title lang="es">Una familia numerosa</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261011141500 -0300" stop="20261011162600 -0300">
+    <title lang="es">Nueve Meses</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261011162600 -0300" stop="20261011190400 -0300">
+    <title lang="es">Blanca Nieves y el Cazador</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261011190400 -0300" stop="20261011220400 -0300">
+    <title lang="es">Un viaje de diez metros</title>
+  </programme>
+  <programme channel="Cinecanal.cl" start="20261011220400 -0300" stop="20261012000000 -0300">
+    <title lang="es">Un equipo milagroso</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261011003700 -0300" stop="20261011021600 -0300">
+    <title lang="es">Los Picapiedra</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261011021600 -0300" stop="20261011035200 -0300">
+    <title lang="es">Guardianes</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261011035200 -0300" stop="20261011053200 -0300">
+    <title lang="es">Contrarreloj</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261011053200 -0300" stop="20261011071900 -0300">
+    <title lang="es">Zapatero a tus zapatos</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261011071900 -0300" stop="20261011090200 -0300">
+    <title lang="es">El Candidato Honesto</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261011090200 -0300" stop="20261011103300 -0300">
+    <title lang="es">Escuela de Miedo</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261011103300 -0300" stop="20261011121200 -0300">
+    <title lang="es">Las Aventuras de Robinson Crusoe</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261011121200 -0300" stop="20261011141600 -0300">
+    <title lang="es">Sing 2: ¡Ven y canta de nuevo!</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261011141600 -0300" stop="20261011155100 -0300">
+    <title lang="es">Minions: Nace un Villano</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261011155100 -0300" stop="20261011172200 -0300">
+    <title lang="es">La Vida Secreta de tus Mascotas 2</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261011172200 -0300" stop="20261011185900 -0300">
+    <title lang="es">Los Picapiedra</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261011185900 -0300" stop="20261011205100 -0300">
+    <title lang="es">Pixeles</title>
+  </programme>
+  <programme channel="Golden.cl" start="20261011205100 -0300" stop="20261011230000 -0300">
+    <title lang="es">Luna de Miel en Familia</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261011011700 -0300" stop="20261011030000 -0300">
+    <title lang="es">Fantasmas de Guerra</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261011030000 -0300" stop="20261011045100 -0300">
+    <title lang="es">Consumed by desire</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261011045100 -0300" stop="20261011103000 -0300">
+    <title lang="es">El Poderoso Zeus</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261011103000 -0300" stop="20261011120900 -0300">
+    <title lang="es">Primera Llegada</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261011120900 -0300" stop="20261011135200 -0300">
+    <title lang="es">Fantasmas de Guerra</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261011135200 -0300" stop="20261011160500 -0300">
+    <title lang="es">No se aceptan devoluciones</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261011160500 -0300" stop="20261011181100 -0300">
+    <title lang="es">No Manches Frida</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261011181100 -0300" stop="20261011200400 -0300">
+    <title lang="es">No Manches Frida 2</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261011200400 -0300" stop="20261011220800 -0300">
+    <title lang="es">Tornado</title>
+  </programme>
+  <programme channel="GoldenEdge.cl" start="20261011220800 -0300" stop="20261012005800 -0300">
+    <title lang="es">2012</title>
   </programme>
 </tv>
