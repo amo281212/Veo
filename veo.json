@@ -354,7 +354,13 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Malvada",
+          "inicio": "10:44",
+          "fin": "12:31"
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
