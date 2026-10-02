@@ -505,6 +505,11 @@
           "nombre": "Volver al Futuro",
           "inicio": "10:09",
           "fin": "12:15"
+        },
+        {
+          "nombre": "Shrek",
+          "inicio": "12:15",
+          "fin": "13:49"
         }
       ],
       "Domingo": []
