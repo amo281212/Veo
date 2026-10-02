@@ -178,7 +178,13 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "1917",
+          "inicio": "0225",
+          "fin": "0442"
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
