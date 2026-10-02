@@ -149,6 +149,12 @@
       "nombre": "Universal TV",
       "id": "UniversalTV.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/UNIVERSAL.png"
+    },
+    {
+      "clave": "AXN.cl",
+      "nombre": "AXN",
+      "id": "AXN.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/AXN.png"
     }
   ],
   "eliminados": [],
@@ -403,6 +409,15 @@
       "Domingo": []
     },
     "UniversalTV.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "AXN.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
