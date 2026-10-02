@@ -169,7 +169,13 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "La Provocación",
+          "inicio": "11:30",
+          "fin": "13:50"
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
