@@ -287,7 +287,13 @@
           "fin": "00:00"
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Blanca Nieves y el Cazador",
+          "inicio": "00:00",
+          "fin": "02:38"
+        }
+      ]
     },
     "Cinemax.cl": {
       "Lunes": [],
