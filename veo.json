@@ -155,6 +155,12 @@
       "nombre": "AXN",
       "id": "AXN.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/AXN.png"
+    },
+    {
+      "clave": "AE.cl",
+      "nombre": "A&E",
+      "id": "AE.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/A%26E.png"
     }
   ],
   "eliminados": [],
@@ -418,6 +424,15 @@
       "Domingo": []
     },
     "AXN.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "AE.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
