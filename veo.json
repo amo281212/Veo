@@ -396,7 +396,13 @@
           "fin": "01:08"
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Mamma Mia!",
+          "inicio": "01:08",
+          "fin": "03:09"
+        }
+      ],
       "Domingo": []
     },
     "GoldenEdge.cl": {
