@@ -101,6 +101,12 @@
       "nombre": "Sony Movies",
       "id": "SONYMOVIES.uy",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/SONY%20MOVIES.png"
+    },
+    {
+      "clave": "Sony.cl",
+      "nombre": "Sony Channel",
+      "id": "Sony.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/SONY.png"
     }
   ],
   "eliminados": [],
@@ -283,6 +289,15 @@
       "Domingo": []
     },
     "SONYMOVIES.uy": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "Sony.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
