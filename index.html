@@ -682,7 +682,6 @@ resolve(token);
 }
 );
 
-
 }
 
 
@@ -754,9 +753,13 @@ GITHUB_REPO+
 "/contents/"+
 archivo+
 "?ref="+
-GITHUB_BRANCH,
+GITHUB_BRANCH+
+"&t="+
+Date.now(),
 
 {
+method:"GET",
+cache:"no-store",
 headers:{
 
 "Accept":
@@ -766,7 +769,10 @@ headers:{
 "Bearer "+token,
 
 "X-GitHub-Api-Version":
-"2026-03-10"
+"2026-03-10",
+
+"Cache-Control":
+"no-cache"
 
 }
 
@@ -800,12 +806,18 @@ return datos.sha;
 }
 
 
+/* =====================================================
+   SUBIR ARCHIVO
+===================================================== */
+
 async function subirArchivo(
 archivo,
 contenido,
 mensaje,
 token
 ){
+
+async function intentarSubir(){
 
 const sha=
 await obtenerSHA(
@@ -848,6 +860,8 @@ archivo,
 
 method:"PUT",
 
+cache:"no-store",
+
 headers:{
 
 "Accept":
@@ -860,7 +874,10 @@ headers:{
 "2026-03-10",
 
 "Content-Type":
-"application/json"
+"application/json",
+
+"Cache-Control":
+"no-cache"
 
 },
 
@@ -872,6 +889,47 @@ cuerpo
 }
 
 );
+
+return respuesta;
+
+}
+
+
+/*
+   Primer intento.
+*/
+
+let respuesta=
+await intentarSubir();
+
+
+/*
+   Si GitHub responde 409,
+   significa que el SHA cambió entre
+   la lectura y el guardado.
+
+   Volvemos a obtener el SHA actual
+   y reintentamos una sola vez.
+*/
+
+if(
+respuesta.status===
+409
+){
+
+await new Promise(
+resolve=>
+setTimeout(
+resolve,
+500
+)
+);
+
+respuesta=
+await intentarSubir();
+
+}
+
 
 if(!respuesta.ok){
 
@@ -906,6 +964,7 @@ REMOTE_URL+
 Date.now(),
 
 {
+method:"GET",
 cache:"no-store"
 }
 
@@ -2114,8 +2173,8 @@ return;
 
 }
 
-const claveAnterior=
-canalActualClave;
+const clave=
+canal.clave;
 
 const idAnterior=
 canal.id;
@@ -2135,27 +2194,20 @@ nuevoId
 ){
 
 estado.programacion[
-nuevoId
+clave
 ]=
 estado.programacion[
-claveAnterior
+clave
 ]||
 datosIniciales();
-
-delete estado.programacion[
-claveAnterior
-];
-
-canal.clave=
-nuevoId;
-
-canalActualClave=
-nuevoId;
 
 }
 
 canalActual=
 nuevoId;
+
+canalActualClave=
+clave;
 
 document.getElementById(
 "channelTitle"
