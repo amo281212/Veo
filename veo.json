@@ -1,0 +1,99 @@
+{
+  "canales": [
+    {
+      "clave": "TVN.cl",
+      "nombre": "TVN",
+      "id": "TVN.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png"
+    },
+    {
+      "clave": "Mega.cl",
+      "nombre": "Mega",
+      "id": "Mega.cl",
+      "logo": "https://cdn.m3u.cl/logo/455_Mega.png"
+    },
+    {
+      "clave": "Chilevision.cl",
+      "nombre": "Chilevisión",
+      "id": "Chilevision.cl",
+      "logo": "https://cdn.m3u.cl/logo/1569_CHV.png"
+    },
+    {
+      "clave": "Canal13.cl",
+      "nombre": "Canal 13",
+      "id": "Canal13.cl",
+      "logo": "https://cdn.m3u.cl/logo/1733_Canal_13.png"
+    }
+  ],
+  "eliminados": [],
+  "programacion": {
+    "TVN.cl": {
+      "Lunes": [
+        {
+          "nombre": "Buenos días",
+          "inicio": "06:00",
+          "fin": "09:00"
+        },
+        {
+          "nombre": "Noticias",
+          "inicio": "09:00",
+          "fin": "13:00"
+        },
+        {
+          "nombre": "24 Horas",
+          "inicio": "13:00",
+          "fin": "14:00"
+        }
+      ],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [
+        {
+          "nombre": "Buenos días PRUEBA BETA",
+          "inicio": "06:32",
+          "fin": "09:00"
+        },
+        {
+          "nombre": "Noticias",
+          "inicio": "09:00",
+          "fin": "13:00"
+        },
+        {
+          "nombre": "24 Horas",
+          "inicio": "13:00",
+          "fin": "14:00"
+        }
+      ],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "Mega.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "Chilevision.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "Canal13.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    }
+  }
+}
