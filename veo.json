@@ -113,6 +113,12 @@
       "nombre": "Universal Cinema",
       "id": "UniversalCinema.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/UNIVERSAL%20CINEMA.png"
+    },
+    {
+      "clave": "Space.cl",
+      "nombre": "Space",
+      "id": "Space.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/SPACE.png"
     }
   ],
   "eliminados": [],
@@ -313,6 +319,15 @@
       "Domingo": []
     },
     "UniversalCinema.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "Space.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
