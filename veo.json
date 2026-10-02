@@ -29,6 +29,12 @@
       "nombre": "AMC",
       "id": "AMC.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/AMC.png"
+    },
+    {
+      "clave": "Cinecanal.cl",
+      "nombre": "Cinecanal",
+      "id": "Cinecanal.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/CINECANAL.png"
     }
   ],
   "eliminados": [],
@@ -103,6 +109,15 @@
       "Domingo": []
     },
     "AMC.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "Cinecanal.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
