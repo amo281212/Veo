@@ -194,6 +194,11 @@
           "nombre": "Apuesta Máxima",
           "inicio": "20:20",
           "fin": "22:00"
+        },
+        {
+          "nombre": "Érase una vez en... Hollywood",
+          "inicio": "22:00",
+          "fin": "01:00"
         }
       ],
       "Sábado": [],
