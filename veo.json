@@ -83,6 +83,12 @@
       "nombre": "HBO Xtreme",
       "id": "HBOXtreme.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%20XTREME.png"
+    },
+    {
+      "clave": "HBO.Plus.cl",
+      "nombre": "HBO+",
+      "id": "HBO.Plus.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%2B.png"
     }
   ],
   "eliminados": [],
@@ -238,6 +244,15 @@
       "Domingo": []
     },
     "HBOXtreme.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "HBO.Plus.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
