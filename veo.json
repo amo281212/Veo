@@ -181,8 +181,13 @@
       "Viernes": [
         {
           "nombre": "1917",
-          "inicio": "0225",
-          "fin": "0442"
+          "inicio": "02:25",
+          "fin": "04:42"
+        },
+        {
+          "nombre": "Terremoto 8.5",
+          "inicio": "04:42",
+          "fin": "06:47"
         }
       ],
       "Sábado": [],
