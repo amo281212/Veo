@@ -73,7 +73,13 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Programa prueba",
+          "inicio": "15:00",
+          "fin": "16:00"
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
