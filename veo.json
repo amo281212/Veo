@@ -95,6 +95,12 @@
       "nombre": "Studio Universal",
       "id": "StudioUniversal.ar",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/STUDIO%20UNIVERSAL.png"
+    },
+    {
+      "clave": "SONYMOVIES.uy",
+      "nombre": "Sony Movies",
+      "id": "SONYMOVIES.uy",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/SONY%20MOVIES.png"
     }
   ],
   "eliminados": [],
@@ -268,6 +274,15 @@
       "Domingo": []
     },
     "StudioUniversal.ar": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "SONYMOVIES.uy": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
