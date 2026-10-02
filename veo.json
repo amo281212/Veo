@@ -57,11 +57,6 @@
           "nombre": "Noticias TEST 3",
           "inicio": "09:00",
           "fin": "13:00"
-        },
-        {
-          "nombre": "24 Horas",
-          "inicio": "13:00",
-          "fin": "14:00"
         }
       ],
       "Viernes": [],
