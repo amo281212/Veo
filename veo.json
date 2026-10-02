@@ -458,7 +458,13 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Cómo entrenar a tu dragón",
+          "inicio": "11:32",
+          "fin": "13:19"
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
