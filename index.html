@@ -514,7 +514,8 @@ JSON.stringify(programas)
 
 datos.Jueves=
 JSON.parse(
-JSON.stringify(programas)
+JSON.stringify(programas
+)
 );
 
 return datos;
@@ -551,6 +552,124 @@ eliminados:[],
 programacion:programacion
 
 };
+
+}
+
+
+/* =====================================================
+   HORARIOS
+===================================================== */
+
+function normalizarHora(valor){
+
+const texto=
+String(
+valor||
+""
+)
+.trim();
+
+const numeros=
+texto.replace(
+/\D/g,
+""
+);
+
+if(
+numeros.length!==4
+){
+
+return null;
+
+}
+
+const horas=
+parseInt(
+numeros.substring(
+0,
+2
+),
+10
+);
+
+const minutos=
+parseInt(
+numeros.substring(
+2,
+4
+),
+10
+);
+
+if(
+horas<0||
+horas>23||
+minutos<0||
+minutos>59
+){
+
+return null;
+
+}
+
+return(
+String(
+horas
+)
+.padStart(
+2,
+"0"
+)+
+":"+
+String(
+minutos
+)
+.padStart(
+2,
+"0"
+)
+);
+
+}
+
+
+function horaParaEntrada(
+hora
+){
+
+return String(
+hora||
+""
+)
+.replace(
+":",
+""
+);
+
+}
+
+
+function prepararCampoHora(
+input
+){
+
+input.addEventListener(
+"input",
+function(){
+
+this.value=
+this.value
+.replace(
+/\D/g,
+""
+)
+.slice(
+0,
+4
+);
+
+}
+);
 
 }
 
@@ -1093,9 +1212,98 @@ remoto.eliminados
 [],
 
 programacion:
+normalizarProgramacionRemota(
 remoto.programacion
+)
 
 };
+
+}
+
+
+/* =====================================================
+   NORMALIZAR PROGRAMACIÓN EXISTENTE
+===================================================== */
+
+function normalizarProgramacionRemota(
+programacion
+){
+
+const resultado={};
+
+Object.keys(
+programacion||{}
+)
+.forEach(
+clave=>{
+
+const datosCanal=
+programacion[clave]||
+{};
+
+resultado[clave]={};
+
+dias.forEach(
+dia=>{
+
+const programas=
+Array.isArray(
+datosCanal[dia]
+)
+?
+datosCanal[dia]
+:
+[];
+
+resultado[clave][dia]=
+programas
+.map(
+programa=>{
+
+const inicio=
+normalizarHora(
+programa.inicio
+);
+
+const fin=
+normalizarHora(
+programa.fin
+);
+
+return{
+
+nombre:
+String(
+programa.nombre||
+""
+),
+
+inicio:
+inicio||
+String(
+programa.inicio||
+""
+),
+
+fin:
+fin||
+String(
+programa.fin||
+""
+)
+
+};
+
+}
+);
+
+}
+);
+
+}
+);
+
+return resultado;
 
 }
 
@@ -1505,16 +1713,45 @@ programa
 .textContent,
 
 inicio:
-programa.dataset.start,
+normalizarHora(
+programa.dataset.start
+),
 
 fin:
+normalizarHora(
 programa.dataset.end
+)
 
 })
 );
 
 }
 );
+
+for(
+const dia of dias
+){
+
+for(
+const programa of datos[dia]
+){
+
+if(
+!programa.inicio||
+!programa.fin
+){
+
+alert(
+"Hay un horario inválido. Usa 4 números, por ejemplo 0200."
+);
+
+return false;
+
+}
+
+}
+
+}
 
 estado.programacion[
 canalActualClave
@@ -1601,12 +1838,24 @@ datos[dia]||
 programas.forEach(
 programa=>{
 
+const inicio=
+normalizarHora(
+programa.inicio
+);
+
+const fin=
+normalizarHora(
+programa.fin
+);
+
 contenido.appendChild(
 
 crearPrograma(
 
 programa.nombre,
+inicio||
 programa.inicio,
+fin||
 programa.fin
 
 )
@@ -1664,6 +1913,16 @@ inicio,
 fin
 ){
 
+const inicioNormalizado=
+normalizarHora(
+inicio
+);
+
+const finNormalizado=
+normalizarHora(
+fin
+);
+
 const programa=
 document.createElement(
 "div"
@@ -1673,9 +1932,11 @@ programa.className=
 "program";
 
 programa.dataset.start=
+inicioNormalizado||
 inicio;
 
 programa.dataset.end=
+finNormalizado||
 fin;
 
 const tiempo=
@@ -1687,9 +1948,9 @@ tiempo.className=
 "time";
 
 tiempo.textContent=
-inicio+
+(programa.dataset.start)+
 " - "+
-fin;
+(programa.dataset.end);
 
 const nombrePrograma=
 document.createElement(
@@ -1892,12 +2153,6 @@ return;
 
 }
 
-/*
-   Si GitHub no acepta el cambio,
-   recuperamos el estado anterior
-   y volvemos a dibujar la programación.
-*/
-
 estado=
 estadoAnterior;
 
@@ -1970,7 +2225,9 @@ type="text"
 class="editor-inicio"
 type="text"
 inputmode="numeric"
-placeholder="HH:MM"
+maxlength="4"
+pattern="[0-9]{4}"
+placeholder="0200"
 >
 
 <label>Hora de término</label>
@@ -1979,7 +2236,9 @@ placeholder="HH:MM"
 class="editor-fin"
 type="text"
 inputmode="numeric"
-placeholder="HH:MM"
+maxlength="4"
+pattern="[0-9]{4}"
+placeholder="0420"
 >
 
 <div class="editor-buttons">
@@ -2006,19 +2265,29 @@ editor.querySelector(
 ".editor-nombre"
 )
 .value=
-nombre;
-
-editor.querySelector(
-".editor-inicio"
-)
-.value=
-horaInicio;
+horaParaEntrada(
+horaInicio
+);
 
 editor.querySelector(
 ".editor-fin"
 )
 .value=
-horaFin;
+horaParaEntrada(
+horaFin
+);
+
+prepararCampoHora(
+editor.querySelector(
+".editor-inicio"
+)
+);
+
+prepararCampoHora(
+editor.querySelector(
+".editor-fin"
+)
+);
 
 editor.querySelector(
 ".cancel-editor"
@@ -2050,20 +2319,22 @@ editor
 .trim();
 
 const nuevaHoraInicio=
+normalizarHora(
 editor
 .querySelector(
 ".editor-inicio"
 )
 .value
-.trim();
+);
 
 const nuevaHoraFin=
+normalizarHora(
 editor
 .querySelector(
 ".editor-fin"
 )
 .value
-.trim();
+);
 
 if(
 !nuevoNombre||
@@ -2072,15 +2343,18 @@ if(
 ){
 
 alert(
-"Completa todos los campos."
+"Ingresa las horas con 4 números. Ejemplo: 0200."
 );
 
 return;
 
 }
 
-botonGuardar.disabled=true;
-botonGuardar.textContent="Guardando...";
+botonGuardar.disabled=
+true;
+
+botonGuardar.textContent=
+"Guardando...";
 
 programa
 .querySelector(
@@ -2115,8 +2389,11 @@ editor.remove();
 
 }else{
 
-botonGuardar.disabled=false;
-botonGuardar.textContent="Guardar";
+botonGuardar.disabled=
+false;
+
+botonGuardar.textContent=
+"Guardar";
 
 }
 
@@ -2160,7 +2437,9 @@ type="text"
 class="editor-inicio"
 type="text"
 inputmode="numeric"
-placeholder="HH:MM"
+maxlength="4"
+pattern="[0-9]{4}"
+placeholder="0200"
 >
 
 <label>Hora de término</label>
@@ -2169,7 +2448,9 @@ placeholder="HH:MM"
 class="editor-fin"
 type="text"
 inputmode="numeric"
-placeholder="HH:MM"
+maxlength="4"
+pattern="[0-9]{4}"
+placeholder="0420"
 >
 
 <div class="editor-buttons">
@@ -2190,6 +2471,18 @@ Guardar
 
 document.body.appendChild(
 editor
+);
+
+prepararCampoHora(
+editor.querySelector(
+".editor-inicio"
+)
+);
+
+prepararCampoHora(
+editor.querySelector(
+".editor-fin"
+)
 );
 
 editor.querySelector(
@@ -2222,20 +2515,22 @@ editor
 .trim();
 
 const nuevaHoraInicio=
+normalizarHora(
 editor
 .querySelector(
 ".editor-inicio"
 )
 .value
-.trim();
+);
 
 const nuevaHoraFin=
+normalizarHora(
 editor
 .querySelector(
 ".editor-fin"
 )
 .value
-.trim();
+);
 
 if(
 !nuevoNombre||
@@ -2244,15 +2539,18 @@ if(
 ){
 
 alert(
-"Completa todos los campos."
+"Ingresa las horas con 4 números. Ejemplo: 0200."
 );
 
 return;
 
 }
 
-botonGuardar.disabled=true;
-botonGuardar.textContent="Guardando...";
+botonGuardar.disabled=
+true;
+
+botonGuardar.textContent=
+"Guardando...";
 
 const bloqueDia=
 document.querySelector(
@@ -2295,8 +2593,11 @@ editor.remove();
 
 nuevoPrograma.remove();
 
-botonGuardar.disabled=false;
-botonGuardar.textContent="Guardar";
+botonGuardar.disabled=
+false;
+
+botonGuardar.textContent=
+"Guardar";
 
 }
 
@@ -2454,8 +2755,11 @@ return;
 
 }
 
-botonGuardar.disabled=true;
-botonGuardar.textContent="Guardando...";
+botonGuardar.disabled=
+true;
+
+botonGuardar.textContent=
+"Guardando...";
 
 const clave=
 canal.clave;
@@ -2524,8 +2828,11 @@ editor.remove();
 
 }else{
 
-botonGuardar.disabled=false;
-botonGuardar.textContent="Guardar";
+botonGuardar.disabled=
+false;
+
+botonGuardar.textContent=
+"Guardar";
 
 }
 
@@ -2670,8 +2977,11 @@ return;
 
 }
 
-botonGuardar.disabled=true;
-botonGuardar.textContent="Guardando...";
+botonGuardar.disabled=
+true;
+
+botonGuardar.textContent=
+"Guardando...";
 
 estado.canales.push({
 
@@ -2709,8 +3019,11 @@ delete estado.programacion[id];
 
 renderizarCanales();
 
-botonGuardar.disabled=false;
-botonGuardar.textContent="Guardar";
+botonGuardar.disabled=
+false;
+
+botonGuardar.textContent=
+"Guardar";
 
 }
 
@@ -2875,8 +3188,11 @@ return;
 
 }
 
-botonEliminar.disabled=true;
-botonEliminar.textContent="Eliminando...";
+botonEliminar.disabled=
+true;
+
+botonEliminar.textContent=
+"Eliminando...";
 
 const esBase=
 canalesBase.some(
@@ -2934,8 +3250,11 @@ estadoAnterior;
 
 renderizarCanales();
 
-botonEliminar.disabled=false;
-botonEliminar.textContent="Eliminar";
+botonEliminar.disabled=
+false;
+
+botonEliminar.textContent=
+"Eliminar";
 
 }
 
@@ -3089,8 +3408,24 @@ fechaBase,
 hora
 ){
 
+const horaNormalizada=
+normalizarHora(
+hora
+);
+
+if(
+!horaNormalizada
+){
+
+throw new Error(
+"Horario inválido: "+
+hora
+);
+
+}
+
 const partes=
-hora.split(":");
+horaNormalizada.split(":");
 
 const horas=
 parseInt(
