@@ -495,7 +495,13 @@
           "fin": "00:00"
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Definitivamente, tal vez",
+          "inicio": "00:00",
+          "fin": "10:09"
+        }
+      ],
       "Domingo": []
     },
     "Golden.cl": {
