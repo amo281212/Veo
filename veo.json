@@ -41,6 +41,12 @@
       "nombre": "Cinemax",
       "id": "Cinemax.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/CINEMAX.png"
+    },
+    {
+      "clave": "Golden.cl",
+      "nombre": "Golden",
+      "id": "Golden.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/GOLDEN.png"
     }
   ],
   "eliminados": [],
@@ -133,6 +139,15 @@
       "Domingo": []
     },
     "Cinemax.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "Golden.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
