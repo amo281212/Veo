@@ -1,12 +1,6 @@
 {
   "canales": [
     {
-      "clave": "Mega.cl",
-      "nombre": "Mega",
-      "id": "Mega.cl",
-      "logo": "https://cdn.m3u.cl/logo/455_Mega.png"
-    },
-    {
       "clave": "Chilevision.cl",
       "nombre": "Chilevisión",
       "id": "Chilevision.cl",
@@ -176,24 +170,10 @@
     }
   ],
   "eliminados": [
-    "TVN.cl"
+    "TVN.cl",
+    "Mega.cl"
   ],
   "programacion": {
-    "Mega.cl": {
-      "Lunes": [],
-      "Martes": [],
-      "Miércoles": [],
-      "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Programa prueba 701",
-          "inicio": "15:00",
-          "fin": "16:00"
-        }
-      ],
-      "Sábado": [],
-      "Domingo": []
-    },
     "Chilevision.cl": {
       "Lunes": [],
       "Martes": [],
