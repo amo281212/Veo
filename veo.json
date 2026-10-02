@@ -173,6 +173,12 @@
       "nombre": "TNT Series",
       "id": "TNTSeries.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TNT%20SERIES.png"
+    },
+    {
+      "clave": "USANetwork.bo",
+      "nombre": "USA Network",
+      "id": "USANetwork.bo",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/USA.png"
     }
   ],
   "eliminados": [],
@@ -463,6 +469,15 @@
       "Domingo": []
     },
     "TNTSeries.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "USANetwork.bo": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
