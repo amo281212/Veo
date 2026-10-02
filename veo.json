@@ -1,12 +1,6 @@
 {
   "canales": [
     {
-      "clave": "Canal13.cl",
-      "nombre": "Canal 13",
-      "id": "Canal13.cl",
-      "logo": "https://cdn.m3u.cl/logo/1733_Canal_13.png"
-    },
-    {
       "clave": "AMC.cl",
       "nombre": "AMC",
       "id": "AMC.cl",
@@ -166,18 +160,10 @@
   "eliminados": [
     "TVN.cl",
     "Mega.cl",
-    "Chilevision.cl"
+    "Chilevision.cl",
+    "Canal13.cl"
   ],
   "programacion": {
-    "Canal13.cl": {
-      "Lunes": [],
-      "Martes": [],
-      "Miércoles": [],
-      "Jueves": [],
-      "Viernes": [],
-      "Sábado": [],
-      "Domingo": []
-    },
     "AMC.cl": {
       "Lunes": [],
       "Martes": [],
