@@ -71,6 +71,12 @@
       "nombre": "HBO Family",
       "id": "HBOFamily.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%20FAMILY.png"
+    },
+    {
+      "clave": "HBOPop.cl",
+      "nombre": "HBO Pop",
+      "id": "HBOPop.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%20POP.png"
     }
   ],
   "eliminados": [],
@@ -208,6 +214,15 @@
       "Domingo": []
     },
     "HBOFamily.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "HBOPop.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
