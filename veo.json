@@ -47,6 +47,12 @@
       "nombre": "Golden",
       "id": "Golden.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/GOLDEN.png"
+    },
+    {
+      "clave": "GoldenEdge.cl",
+      "nombre": "Golden Edge",
+      "id": "GoldenEdge.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/GOLDEN%20EDGE.png"
     }
   ],
   "eliminados": [],
@@ -148,6 +154,15 @@
       "Domingo": []
     },
     "Golden.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "GoldenEdge.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
