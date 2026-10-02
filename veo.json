@@ -137,6 +137,12 @@
       "nombre": "Warner Channel",
       "id": "WarnerChannel.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/WARNER.png"
+    },
+    {
+      "clave": "StarChannel.cl",
+      "nombre": "STAR Channel",
+      "id": "StarChannel.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/STAR%20CHANNEL.png"
     }
   ],
   "eliminados": [],
@@ -373,6 +379,15 @@
       "Domingo": []
     },
     "WarnerChannel.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "StarChannel.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
