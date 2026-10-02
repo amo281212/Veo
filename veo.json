@@ -225,7 +225,13 @@
           "fin": "00:00"
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Joy: El nombre del éxito",
+          "inicio": "00:00",
+          "fin": "02:36"
+        }
+      ],
       "Domingo": []
     },
     "Cinemax.cl": {
