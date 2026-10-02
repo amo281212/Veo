@@ -234,8 +234,6 @@ button {
   color: white;
 }
 
-/* EDITORES */
-
 .program-editor {
   position: fixed;
   top: 0;
@@ -307,8 +305,6 @@ button {
   color: #111;
 }
 
-/* ELIMINAR CANAL */
-
 .delete-channel-list {
   max-height: 55vh;
   overflow-y: auto;
@@ -366,8 +362,6 @@ button {
   color: white;
 }
 
-/* ACTUALIZAR EPG */
-
 .epg-status {
   color: #aaa;
   font-size: 14px;
@@ -393,7 +387,6 @@ button {
   font-size: 14px;
   margin-top: 15px;
 }
-
 </style>
 </head>
 
@@ -419,7 +412,6 @@ button {
   </button>
 
 </main>
-
 
 <main id="editor">
 
@@ -449,7 +441,6 @@ button {
 
 </main>
 
-
 <script>
 
 const dias = [
@@ -461,7 +452,6 @@ const dias = [
   "Sábado",
   "Domingo"
 ];
-
 
 const canalesBase = [
 
@@ -495,11 +485,9 @@ const canalesBase = [
 
 ];
 
-
 let canalActual = "";
 let canalActualClave = "";
 let diaActual = "";
-
 
 function obtenerDiaActual() {
 
@@ -518,7 +506,6 @@ function obtenerDiaActual() {
   return conversion[dia];
 }
 
-
 function datosIniciales() {
 
   const datos = {};
@@ -530,11 +517,9 @@ function datosIniciales() {
   return datos;
 }
 
-
 /* =====================================================
    CANALES
 ===================================================== */
-
 
 function obtenerCanales() {
 
@@ -544,27 +529,22 @@ function obtenerCanales() {
     ) || "[]"
   );
 
-
   const canales = canalesBase
-
     .filter(
       canal =>
         !eliminados.includes(
           canal.clave
         )
     )
-
     .map(canal => ({
       ...canal
     }));
-
 
   const ediciones = JSON.parse(
     localStorage.getItem(
       "veo_ediciones_canales"
     ) || "[]"
   );
-
 
   ediciones.forEach(edicion => {
 
@@ -573,7 +553,6 @@ function obtenerCanales() {
         item.clave ===
         edicion.clave
     );
-
 
     if (canal) {
 
@@ -590,13 +569,11 @@ function obtenerCanales() {
 
   });
 
-
   const guardados = JSON.parse(
     localStorage.getItem(
       "veo_canales"
     ) || "[]"
   );
-
 
   guardados.forEach(canalGuardado => {
 
@@ -604,14 +581,12 @@ function obtenerCanales() {
       canalGuardado.clave ||
       canalGuardado.id;
 
-
     const existente =
       canales.find(
         item =>
           item.clave ===
           clave
       );
-
 
     if (!existente) {
 
@@ -635,16 +610,13 @@ function obtenerCanales() {
 
   });
 
-
   return canales;
 }
-
 
 function obtenerCanalPorClave(clave) {
 
   const canales =
     obtenerCanales();
-
 
   return canales.find(
     canal =>
@@ -652,7 +624,6 @@ function obtenerCanalPorClave(clave) {
       clave
   );
 }
-
 
 function crearTarjetaCanal(
   nombre,
@@ -666,30 +637,24 @@ function crearTarjetaCanal(
       "channels"
     );
 
-
   const card =
     document.createElement(
       "div"
     );
 
-
   card.className =
     "channel";
 
-
   card.dataset.channelKey =
     clave;
-
 
   const content =
     document.createElement(
       "div"
     );
 
-
   content.className =
     "channel-content";
-
 
   content.innerHTML = `
 
@@ -713,11 +678,9 @@ function crearTarjetaCanal(
 
   `;
 
-
   card.appendChild(
     content
   );
-
 
   card.onclick =
     function() {
@@ -728,7 +691,6 @@ function crearTarjetaCanal(
 
     };
 
-
   channels.insertBefore(
     card,
     channels.querySelector(
@@ -737,14 +699,12 @@ function crearTarjetaCanal(
   );
 }
 
-
 function renderizarCanales() {
 
   const channels =
     document.getElementById(
       "channels"
     );
-
 
   channels
     .querySelectorAll(
@@ -756,10 +716,8 @@ function renderizarCanales() {
 
     });
 
-
   const canales =
     obtenerCanales();
-
 
   canales.forEach(canal => {
 
@@ -774,7 +732,6 @@ function renderizarCanales() {
 
 }
 
-
 function openChannelByKey(clave) {
 
   const canal =
@@ -782,55 +739,45 @@ function openChannelByKey(clave) {
       clave
     );
 
-
   if (!canal) {
     return;
   }
-
 
   document.getElementById(
     "channels"
   ).style.display =
     "none";
 
-
   document.getElementById(
     "editor"
   ).style.display =
     "block";
 
-
   canalActual =
     canal.id;
 
-
   canalActualClave =
     canal.clave;
-
 
   document.getElementById(
     "channelTitle"
   ).textContent =
     canal.nombre;
 
-
   document.getElementById(
     "channelLogo"
   ).src =
     canal.logo;
-
 
   document.getElementById(
     "channelLogo"
   ).alt =
     canal.nombre;
 
-
   cargarProgramacion(
     canal
   );
 }
-
 
 function goBack() {
 
@@ -839,21 +786,17 @@ function goBack() {
   ).style.display =
     "none";
 
-
   document.getElementById(
     "channels"
   ).style.display =
     "block";
 
-
   renderizarCanales();
 }
-
 
 /* =====================================================
    AGREGAR CANAL
 ===================================================== */
-
 
 function agregarCanal() {
 
@@ -862,10 +805,8 @@ function agregarCanal() {
       "div"
     );
 
-
   editor.className =
     "program-editor";
-
 
   editor.innerHTML = `
 
@@ -910,11 +851,9 @@ function agregarCanal() {
 
   `;
 
-
   document.body.appendChild(
     editor
   );
-
 
   editor.querySelector(
     ".cancel-editor"
@@ -924,7 +863,6 @@ function agregarCanal() {
       editor.remove();
 
     };
-
 
   editor.querySelector(
     ".save-editor"
@@ -936,18 +874,15 @@ function agregarCanal() {
           ".editor-nombre"
         ).value.trim();
 
-
       const id =
         editor.querySelector(
           ".editor-id"
         ).value.trim();
 
-
       const logo =
         editor.querySelector(
           ".editor-logo"
         ).value.trim();
-
 
       if (
         !nombre ||
@@ -962,14 +897,12 @@ function agregarCanal() {
         return;
       }
 
-
       const canales =
         JSON.parse(
           localStorage.getItem(
             "veo_canales"
           ) || "[]"
         );
-
 
       canales.push({
 
@@ -987,7 +920,6 @@ function agregarCanal() {
 
       });
 
-
       localStorage.setItem(
         "veo_canales",
         JSON.stringify(
@@ -995,9 +927,7 @@ function agregarCanal() {
         )
       );
 
-
       renderizarCanales();
-
 
       editor.remove();
 
@@ -1005,11 +935,9 @@ function agregarCanal() {
 
 }
 
-
 /* =====================================================
    EDITAR CANAL
 ===================================================== */
-
 
 function editarCanal() {
 
@@ -1018,21 +946,17 @@ function editarCanal() {
       canalActualClave
     );
 
-
   if (!canal) {
     return;
   }
-
 
   const editor =
     document.createElement(
       "div"
     );
 
-
   editor.className =
     "program-editor";
-
 
   editor.innerHTML = `
 
@@ -1077,29 +1001,24 @@ function editarCanal() {
 
   `;
 
-
   document.body.appendChild(
     editor
   );
-
 
   editor.querySelector(
     ".editor-nombre"
   ).value =
     canal.nombre;
 
-
   editor.querySelector(
     ".editor-id"
   ).value =
     canal.id;
 
-
   editor.querySelector(
     ".editor-logo"
   ).value =
     canal.logo;
-
 
   editor.querySelector(
     ".cancel-editor"
@@ -1109,7 +1028,6 @@ function editarCanal() {
       editor.remove();
 
     };
-
 
   editor.querySelector(
     ".save-editor"
@@ -1121,18 +1039,15 @@ function editarCanal() {
           ".editor-nombre"
         ).value.trim();
 
-
       const nuevoId =
         editor.querySelector(
           ".editor-id"
         ).value.trim();
 
-
       const nuevoLogo =
         editor.querySelector(
           ".editor-logo"
         ).value.trim();
-
 
       if (
         !nuevoNombre ||
@@ -1147,10 +1062,8 @@ function editarCanal() {
         return;
       }
 
-
       const idAnterior =
         canal.id;
-
 
       if (
         idAnterior !==
@@ -1163,7 +1076,6 @@ function editarCanal() {
             idAnterior
           );
 
-
         if (programacionAnterior) {
 
           localStorage.setItem(
@@ -1171,7 +1083,6 @@ function editarCanal() {
             nuevoId,
             programacionAnterior
           );
-
 
           localStorage.removeItem(
             "veo_programacion_v3_" +
@@ -1182,14 +1093,12 @@ function editarCanal() {
 
       }
 
-
       const canales =
         JSON.parse(
           localStorage.getItem(
             "veo_canales"
           ) || "[]"
         );
-
 
       const canalGuardado =
         canales.find(
@@ -1198,7 +1107,6 @@ function editarCanal() {
               item.id) ===
             canalActualClave
         );
-
 
       if (canalGuardado) {
 
@@ -1210,7 +1118,6 @@ function editarCanal() {
 
         canalGuardado.logo =
           nuevoLogo;
-
 
         localStorage.setItem(
           "veo_canales",
@@ -1228,14 +1135,12 @@ function editarCanal() {
             ) || "[]"
           );
 
-
         const edicionExistente =
           ediciones.find(
             item =>
               item.clave ===
               canalActualClave
           );
-
 
         if (
           edicionExistente
@@ -1270,7 +1175,6 @@ function editarCanal() {
 
         }
 
-
         localStorage.setItem(
           "veo_ediciones_canales",
           JSON.stringify(
@@ -1280,34 +1184,27 @@ function editarCanal() {
 
       }
 
-
       canalActual =
         nuevoId;
-
 
       document.getElementById(
         "channelTitle"
       ).textContent =
         nuevoNombre;
 
-
       document.getElementById(
         "channelLogo"
       ).src =
         nuevoLogo;
-
 
       document.getElementById(
         "channelLogo"
       ).alt =
         nuevoNombre;
 
-
       renderizarCanales();
 
-
       editor.remove();
-
 
       cargarProgramacion({
 
@@ -1329,17 +1226,14 @@ function editarCanal() {
 
 }
 
-
 /* =====================================================
    ELIMINAR CANAL
 ===================================================== */
-
 
 function eliminarCanal() {
 
   const canales =
     obtenerCanales();
-
 
   if (!canales.length) {
 
@@ -1350,19 +1244,15 @@ function eliminarCanal() {
     return;
   }
 
-
   const editor =
     document.createElement(
       "div"
     );
 
-
   editor.className =
     "program-editor";
 
-
   let opciones = "";
-
 
   canales.forEach(
     canal => {
@@ -1409,7 +1299,6 @@ function eliminarCanal() {
     }
   );
 
-
   editor.innerHTML = `
 
     <div class="program-editor-box">
@@ -1438,11 +1327,9 @@ function eliminarCanal() {
 
   `;
 
-
   document.body.appendChild(
     editor
   );
-
 
   editor.querySelector(
     ".cancel-editor"
@@ -1452,7 +1339,6 @@ function eliminarCanal() {
       editor.remove();
 
     };
-
 
   editor.querySelector(
     ".delete-confirm"
@@ -1464,7 +1350,6 @@ function eliminarCanal() {
           'input[name="canalEliminar"]:checked'
         );
 
-
       if (!seleccion) {
 
         alert(
@@ -1474,16 +1359,13 @@ function eliminarCanal() {
         return;
       }
 
-
       const clave =
         seleccion.value;
-
 
       const canal =
         obtenerCanalPorClave(
           clave
         );
-
 
       if (!canal) {
 
@@ -1492,7 +1374,6 @@ function eliminarCanal() {
         return;
       }
 
-
       const confirmar =
         confirm(
           '¿Eliminar el canal "' +
@@ -1500,26 +1381,21 @@ function eliminarCanal() {
           '"?'
         );
 
-
       if (!confirmar) {
         return;
       }
-
 
       eliminarCanalPorClave(
         canal
       );
 
-
       editor.remove();
-
 
       renderizarCanales();
 
     };
 
 }
-
 
 function eliminarCanalPorClave(
   canal
@@ -1529,7 +1405,6 @@ function eliminarCanalPorClave(
     "veo_programacion_v3_" +
     canal.id
   );
-
 
   if (
     canal.clave ===
@@ -1542,14 +1417,12 @@ function eliminarCanalPorClave(
 
   }
 
-
   const canales =
     JSON.parse(
       localStorage.getItem(
         "veo_canales"
       ) || "[]"
     );
-
 
   const nuevosCanales =
     canales.filter(
@@ -1559,7 +1432,6 @@ function eliminarCanalPorClave(
         canal.clave
     );
 
-
   localStorage.setItem(
     "veo_canales",
     JSON.stringify(
@@ -1567,14 +1439,12 @@ function eliminarCanalPorClave(
     )
   );
 
-
   const esBase =
     canalesBase.some(
       item =>
         item.clave ===
         canal.clave
     );
-
 
   if (esBase) {
 
@@ -1584,7 +1454,6 @@ function eliminarCanalPorClave(
           "veo_canales_eliminados"
         ) || "[]"
       );
-
 
     if (
       !eliminados.includes(
@@ -1598,14 +1467,12 @@ function eliminarCanalPorClave(
 
     }
 
-
     localStorage.setItem(
       "veo_canales_eliminados",
       JSON.stringify(
         eliminados
       )
     );
-
 
     const ediciones =
       JSON.parse(
@@ -1614,14 +1481,12 @@ function eliminarCanalPorClave(
         ) || "[]"
       );
 
-
     const nuevasEdiciones =
       ediciones.filter(
         item =>
           item.clave !==
           canal.clave
       );
-
 
     localStorage.setItem(
       "veo_ediciones_canales",
@@ -1631,7 +1496,6 @@ function eliminarCanalPorClave(
     );
 
   }
-
 
   if (
     canalActualClave ===
@@ -1655,11 +1519,9 @@ function eliminarCanalPorClave(
 
 }
 
-
 /* =====================================================
    PROGRAMACIÓN
 ===================================================== */
-
 
 function cargarProgramacion(
   canal
@@ -1670,7 +1532,6 @@ function cargarProgramacion(
       "veo_programacion_v3_" +
       canal.id
     );
-
 
   if (
     !guardada &&
@@ -1683,12 +1544,10 @@ function cargarProgramacion(
         "veo_programacion_v3_TVN"
       );
 
-
     if (antigua) {
 
       guardada =
         antigua;
-
 
       localStorage.setItem(
         "veo_programacion_v3_" +
@@ -1700,9 +1559,7 @@ function cargarProgramacion(
 
   }
 
-
   let datos;
-
 
   if (guardada) {
 
@@ -1715,7 +1572,6 @@ function cargarProgramacion(
 
     datos =
       datosIniciales();
-
 
     if (
       canal.clave ===
@@ -1759,7 +1615,6 @@ function cargarProgramacion(
 
       ];
 
-
       datos["Jueves"] = [
 
         {
@@ -1801,29 +1656,31 @@ function cargarProgramacion(
 
   }
 
-
   renderizarSemana(
     datos
   );
 }
 
-
 function guardarProgramacion() {
+
+  const diasDOM =
+    document.querySelectorAll(
+      ".day"
+    );
+
+  if (!diasDOM.length) {
+    return;
+  }
 
   const datos = {};
 
-
-  document.querySelectorAll(
-    ".day"
-  ).forEach(
+  diasDOM.forEach(
     dia => {
 
       const nombreDia =
         dia.dataset.day;
 
-
       datos[nombreDia] = [];
-
 
       dia.querySelectorAll(
         ".program"
@@ -1851,6 +1708,9 @@ function guardarProgramacion() {
     }
   );
 
+  if (!canalActual) {
+    return;
+  }
 
   localStorage.setItem(
     "veo_programacion_v3_" +
@@ -1861,7 +1721,6 @@ function guardarProgramacion() {
   );
 }
 
-
 function renderizarSemana(
   datos
 ) {
@@ -1871,14 +1730,11 @@ function renderizarSemana(
       "week"
     );
 
-
   contenedor.innerHTML =
     "";
 
-
   diaActual =
     obtenerDiaActual();
-
 
   dias.forEach(
     dia => {
@@ -1888,14 +1744,11 @@ function renderizarSemana(
           "div"
         );
 
-
       bloque.className =
         "day";
 
-
       bloque.dataset.day =
         dia;
-
 
       if (
         dia ===
@@ -1908,20 +1761,16 @@ function renderizarSemana(
 
       }
 
-
       const boton =
         document.createElement(
           "button"
         );
 
-
       boton.className =
         "day-title";
 
-
       boton.textContent =
         dia;
-
 
       boton.onclick =
         function() {
@@ -1932,20 +1781,16 @@ function renderizarSemana(
 
         };
 
-
       const contenido =
         document.createElement(
           "div"
         );
 
-
       contenido.className =
         "day-content";
 
-
       const programas =
         datos[dia] || [];
-
 
       programas.forEach(
         programa => {
@@ -1963,20 +1808,16 @@ function renderizarSemana(
         }
       );
 
-
       const botonAgregar =
         document.createElement(
           "button"
         );
 
-
       botonAgregar.className =
         "add";
 
-
       botonAgregar.textContent =
         "＋ Agregar programa";
-
 
       botonAgregar.onclick =
         function() {
@@ -1987,21 +1828,17 @@ function renderizarSemana(
 
         };
 
-
       contenido.appendChild(
         botonAgregar
       );
-
 
       bloque.appendChild(
         boton
       );
 
-
       bloque.appendChild(
         contenido
       );
-
 
       contenedor.appendChild(
         bloque
@@ -2010,7 +1847,6 @@ function renderizarSemana(
     }
   );
 }
-
 
 function crearPrograma(
   nombre,
@@ -2023,62 +1859,49 @@ function crearPrograma(
       "div"
     );
 
-
   programa.className =
     "program";
-
 
   programa.dataset.start =
     inicio;
 
-
   programa.dataset.end =
     fin;
-
 
   const tiempo =
     document.createElement(
       "div"
     );
 
-
   tiempo.className =
     "time";
-
 
   tiempo.textContent =
     inicio +
     " - " +
     fin;
 
-
   const nombrePrograma =
     document.createElement(
       "div"
     );
 
-
   nombrePrograma.className =
     "program-name";
 
-
   nombrePrograma.textContent =
     nombre;
-
 
   const editar =
     document.createElement(
       "button"
     );
 
-
   editar.className =
     "edit";
 
-
   editar.textContent =
     "Editar";
-
 
   editar.onclick =
     function() {
@@ -2089,25 +1912,20 @@ function crearPrograma(
 
     };
 
-
   programa.appendChild(
     tiempo
   );
-
 
   programa.appendChild(
     nombrePrograma
   );
 
-
   programa.appendChild(
     editar
   );
 
-
   return programa;
 }
-
 
 function toggleDay(
   boton
@@ -2115,7 +1933,6 @@ function toggleDay(
 
   const dia =
     boton.parentElement;
-
 
   document.querySelectorAll(
     ".day"
@@ -2136,11 +1953,9 @@ function toggleDay(
     }
   );
 
-
   dia.classList.toggle(
     "open"
   );
-
 
   if (
     dia.classList.contains(
@@ -2155,7 +1970,6 @@ function toggleDay(
 
 }
 
-
 function editarPrograma(
   boton
 ) {
@@ -2165,30 +1979,24 @@ function editarPrograma(
       ".program"
     );
 
-
   const nombre =
     programa.querySelector(
       ".program-name"
     ).textContent;
 
-
   const horaInicio =
     programa.dataset.start;
 
-
   const horaFin =
     programa.dataset.end;
-
 
   const editor =
     document.createElement(
       "div"
     );
 
-
   editor.className =
     "program-editor";
-
 
   editor.innerHTML = `
 
@@ -2237,29 +2045,24 @@ function editarPrograma(
 
   `;
 
-
   document.body.appendChild(
     editor
   );
-
 
   editor.querySelector(
     ".editor-nombre"
   ).value =
     nombre;
 
-
   editor.querySelector(
     ".editor-inicio"
   ).value =
     horaInicio;
 
-
   editor.querySelector(
     ".editor-fin"
   ).value =
     horaFin;
-
 
   editor.querySelector(
     ".cancel-editor"
@@ -2269,7 +2072,6 @@ function editarPrograma(
       editor.remove();
 
     };
-
 
   editor.querySelector(
     ".save-editor"
@@ -2281,18 +2083,15 @@ function editarPrograma(
           ".editor-nombre"
         ).value.trim();
 
-
       const nuevaHoraInicio =
         editor.querySelector(
           ".editor-inicio"
         ).value;
 
-
       const nuevaHoraFin =
         editor.querySelector(
           ".editor-fin"
         ).value;
-
 
       if (
         !nuevoNombre ||
@@ -2307,12 +2106,10 @@ function editarPrograma(
         return;
       }
 
-
       programa.querySelector(
         ".program-name"
       ).textContent =
         nuevoNombre;
-
 
       programa.querySelector(
         ".time"
@@ -2321,24 +2118,19 @@ function editarPrograma(
         " - " +
         nuevaHoraFin;
 
-
       programa.dataset.start =
         nuevaHoraInicio;
-
 
       programa.dataset.end =
         nuevaHoraFin;
 
-
       guardarProgramacion();
-
 
       editor.remove();
 
     };
 
 }
-
 
 function agregarPrograma(
   dia
@@ -2349,10 +2141,8 @@ function agregarPrograma(
       "div"
     );
 
-
   editor.className =
     "program-editor";
-
 
   editor.innerHTML = `
 
@@ -2401,11 +2191,9 @@ function agregarPrograma(
 
   `;
 
-
   document.body.appendChild(
     editor
   );
-
 
   editor.querySelector(
     ".cancel-editor"
@@ -2415,7 +2203,6 @@ function agregarPrograma(
       editor.remove();
 
     };
-
 
   editor.querySelector(
     ".save-editor"
@@ -2427,18 +2214,15 @@ function agregarPrograma(
           ".editor-nombre"
         ).value.trim();
 
-
       const nuevaHoraInicio =
         editor.querySelector(
           ".editor-inicio"
         ).value.trim();
 
-
       const nuevaHoraFin =
         editor.querySelector(
           ".editor-fin"
         ).value.trim();
-
 
       if (
         !nuevoNombre ||
@@ -2453,7 +2237,6 @@ function agregarPrograma(
         return;
       }
 
-
       const bloqueDia =
         document.querySelector(
           '.day[data-day="' +
@@ -2461,12 +2244,10 @@ function agregarPrograma(
           '"]'
         );
 
-
       const botonAgregar =
         bloqueDia.querySelector(
           ".add"
         );
-
 
       const nuevoPrograma =
         crearPrograma(
@@ -2475,15 +2256,12 @@ function agregarPrograma(
           nuevaHoraFin
         );
 
-
       botonAgregar.parentElement.insertBefore(
         nuevoPrograma,
         botonAgregar
       );
 
-
       guardarProgramacion();
-
 
       editor.remove();
 
@@ -2491,11 +2269,9 @@ function agregarPrograma(
 
 }
 
-
 /* =====================================================
    XMLTV
 ===================================================== */
-
 
 function escaparXML(
   texto
@@ -2504,34 +2280,28 @@ function escaparXML(
   return String(
     texto
   )
-
     .replace(
       /&/g,
       "&amp;"
     )
-
     .replace(
       /</g,
       "&lt;"
     )
-
     .replace(
       />/g,
       "&gt;"
     )
-
     .replace(
       /"/g,
       "&quot;"
     )
-
     .replace(
       /'/g,
       "&apos;"
     );
 
 }
-
 
 function escapeHTML(
   texto
@@ -2563,7 +2333,6 @@ function escapeHTML(
 
 }
 
-
 function escapeHTMLAttribute(
   texto
 ) {
@@ -2573,7 +2342,6 @@ function escapeHTMLAttribute(
   );
 
 }
-
 
 function obtenerProgramacionCanalPorId(
   canal
@@ -2585,7 +2353,6 @@ function obtenerProgramacionCanalPorId(
       canal.id
     );
 
-
   if (guardada) {
 
     return JSON.parse(
@@ -2593,7 +2360,6 @@ function obtenerProgramacionCanalPorId(
     );
 
   }
-
 
   if (
     canal.clave ===
@@ -2605,7 +2371,6 @@ function obtenerProgramacionCanalPorId(
         "veo_programacion_v3_TVN"
       );
 
-
     if (antigua) {
 
       return JSON.parse(
@@ -2616,10 +2381,8 @@ function obtenerProgramacionCanalPorId(
 
   }
 
-
   return datosIniciales();
 }
-
 
 function formatoFechaXML(
   fecha
@@ -2627,7 +2390,6 @@ function formatoFechaXML(
 
   const año =
     fecha.getFullYear();
-
 
   const mes =
     String(
@@ -2637,7 +2399,6 @@ function formatoFechaXML(
       "0"
     );
 
-
   const dia =
     String(
       fecha.getDate()
@@ -2645,7 +2406,6 @@ function formatoFechaXML(
       2,
       "0"
     );
-
 
   const horas =
     String(
@@ -2655,7 +2415,6 @@ function formatoFechaXML(
       "0"
     );
 
-
   const minutos =
     String(
       fecha.getMinutes()
@@ -2664,22 +2423,18 @@ function formatoFechaXML(
       "0"
     );
 
-
   const offset =
     -fecha.getTimezoneOffset();
-
 
   const signo =
     offset >= 0
       ? "+"
       : "-";
 
-
   const offsetAbs =
     Math.abs(
       offset
     );
-
 
   const offsetHoras =
     String(
@@ -2691,7 +2446,6 @@ function formatoFechaXML(
       "0"
     );
 
-
   const offsetMinutos =
     String(
       offsetAbs % 60
@@ -2699,7 +2453,6 @@ function formatoFechaXML(
       2,
       "0"
     );
-
 
   return (
     año +
@@ -2715,7 +2468,6 @@ function formatoFechaXML(
 
 }
 
-
 function crearFechaPrograma(
   fechaBase,
   hora
@@ -2724,13 +2476,11 @@ function crearFechaPrograma(
   const partes =
     hora.split(":");
 
-
   const horas =
     parseInt(
       partes[0],
       10
     );
-
 
   const minutos =
     parseInt(
@@ -2738,36 +2488,29 @@ function crearFechaPrograma(
       10
     );
 
-
   const fecha =
     new Date(
       fechaBase
     );
 
-
   fecha.setHours(
     horas
   );
-
 
   fecha.setMinutes(
     minutos
   );
 
-
   fecha.setSeconds(
     0
   );
-
 
   fecha.setMilliseconds(
     0
   );
 
-
   return fecha;
 }
-
 
 /*
   Genera el XMLTV y lo devuelve
@@ -2776,23 +2519,26 @@ function crearFechaPrograma(
 
 function generarXMLTV() {
 
-  guardarProgramacion();
-
+  /*
+    IMPORTANTE:
+    No llamamos a guardarProgramacion()
+    aquí porque al actualizar el EPG
+    estamos en la pantalla principal y
+    no existen los días .day en el DOM.
+    Hacerlo aquí borraría la programación
+    guardada.
+  */
 
   const canales =
     obtenerCanales();
 
-
   let xml = "";
-
 
   xml +=
     '<?xml version="1.0" encoding="UTF-8"?>\n';
 
-
   xml +=
     '<tv generator-info-name="Veo" generator-info-url="https://amo281212.github.io/Veo/">\n';
-
 
   /* CANALES */
 
@@ -2806,14 +2552,12 @@ function generarXMLTV() {
         ) +
         '">\n';
 
-
       xml +=
         '    <display-name>' +
         escaparXML(
           canal.nombre
         ) +
         '</display-name>\n';
-
 
       if (canal.logo) {
 
@@ -2826,39 +2570,32 @@ function generarXMLTV() {
 
       }
 
-
       xml +=
         '  </channel>\n';
 
     }
   );
 
-
   /* PROGRAMACIÓN */
 
   const fechaInicio =
     new Date();
 
-
   fechaInicio.setHours(
     0
   );
-
 
   fechaInicio.setMinutes(
     0
   );
 
-
   fechaInicio.setSeconds(
     0
   );
 
-
   fechaInicio.setMilliseconds(
     0
   );
-
 
   for (
     let i = 0;
@@ -2871,19 +2608,16 @@ function generarXMLTV() {
         fechaInicio
       );
 
-
     fecha.setDate(
       fechaInicio.getDate() +
       i
     );
-
 
     const diaSemana =
       dias[
         (fecha.getDay() + 6) %
         7
       ];
-
 
     canales.forEach(
       canal => {
@@ -2893,12 +2627,10 @@ function generarXMLTV() {
             canal
           );
 
-
         const programas =
           datos[
             diaSemana
           ] || [];
-
 
         programas.forEach(
           programa => {
@@ -2909,13 +2641,11 @@ function generarXMLTV() {
                 programa.inicio
               );
 
-
             const fin =
               crearFechaPrograma(
                 fecha,
                 programa.fin
               );
-
 
             if (
               fin <= inicio
@@ -2927,7 +2657,6 @@ function generarXMLTV() {
               );
 
             }
-
 
             xml +=
               '  <programme channel="' +
@@ -2944,14 +2673,12 @@ function generarXMLTV() {
               ) +
               '">\n';
 
-
             xml +=
               '    <title lang="es">' +
               escaparXML(
                 programa.nombre
               ) +
               '</title>\n';
-
 
             xml +=
               '  </programme>\n';
@@ -2964,14 +2691,11 @@ function generarXMLTV() {
 
   }
 
-
   xml +=
     "</tv>";
 
-
   return xml;
 }
-
 
 /* =====================================================
    GITHUB
@@ -2989,7 +2713,6 @@ const GITHUB_FILE =
 const GITHUB_BRANCH =
   "main";
 
-
 function obtenerTokenGitHub() {
 
   return localStorage.getItem(
@@ -2997,7 +2720,6 @@ function obtenerTokenGitHub() {
   );
 
 }
-
 
 function mostrarEditorToken() {
 
@@ -3009,10 +2731,8 @@ function mostrarEditorToken() {
           "div"
         );
 
-
       editor.className =
         "program-editor";
-
 
       editor.innerHTML = `
 
@@ -3061,23 +2781,19 @@ function mostrarEditorToken() {
 
       `;
 
-
       document.body.appendChild(
         editor
       );
-
 
       const input =
         editor.querySelector(
           ".epg-token-input"
         );
 
-
       setTimeout(
         () => input.focus(),
         50
       );
-
 
       editor.querySelector(
         ".cancel-editor"
@@ -3092,7 +2808,6 @@ function mostrarEditorToken() {
 
         };
 
-
       editor.querySelector(
         ".save-editor"
       ).onclick =
@@ -3100,7 +2815,6 @@ function mostrarEditorToken() {
 
           const token =
             input.value.trim();
-
 
           if (!token) {
 
@@ -3111,15 +2825,12 @@ function mostrarEditorToken() {
             return;
           }
 
-
           localStorage.setItem(
             "veo_github_token",
             token
           );
 
-
           editor.remove();
-
 
           resolve(
             token
@@ -3132,25 +2843,20 @@ function mostrarEditorToken() {
 
 }
 
-
 async function obtenerTokenParaGitHub() {
 
   let token =
     obtenerTokenGitHub();
 
-
   if (token) {
     return token;
   }
 
-
   token =
     await mostrarEditorToken();
 
-
   return token;
 }
-
 
 async function obtenerSHAArchivo(
   token
@@ -3184,7 +2890,6 @@ async function obtenerSHAArchivo(
       }
     );
 
-
   if (
     respuesta.status ===
     404
@@ -3194,14 +2899,12 @@ async function obtenerSHAArchivo(
 
   }
 
-
   if (
     !respuesta.ok
   ) {
 
     const texto =
       await respuesta.text();
-
 
     throw new Error(
       "GitHub respondió " +
@@ -3212,14 +2915,11 @@ async function obtenerSHAArchivo(
 
   }
 
-
   const datos =
     await respuesta.json();
 
-
   return datos.sha;
 }
-
 
 function convertirBase64(texto) {
 
@@ -3228,13 +2928,10 @@ function convertirBase64(texto) {
       texto
     );
 
-
   let binario = "";
-
 
   const tamaño =
     0x8000;
-
 
   for (
     let i = 0;
@@ -3248,7 +2945,6 @@ function convertirBase64(texto) {
         i + tamaño
       );
 
-
     binario +=
       String.fromCharCode(
         ...bloque
@@ -3256,12 +2952,10 @@ function convertirBase64(texto) {
 
   }
 
-
   return btoa(
     binario
   );
 }
-
 
 async function subirEPGaGitHub(
   xml,
@@ -3272,7 +2966,6 @@ async function subirEPGaGitHub(
     await obtenerSHAArchivo(
       token
     );
-
 
   const cuerpo = {
 
@@ -3289,14 +2982,12 @@ async function subirEPGaGitHub(
 
   };
 
-
   if (sha) {
 
     cuerpo.sha =
       sha;
 
   }
-
 
   const respuesta =
     await fetch(
@@ -3332,14 +3023,12 @@ async function subirEPGaGitHub(
       }
     );
 
-
   if (
     !respuesta.ok
   ) {
 
     const texto =
       await respuesta.text();
-
 
     throw new Error(
       "GitHub respondió " +
@@ -3350,15 +3039,12 @@ async function subirEPGaGitHub(
 
   }
 
-
   return await respuesta.json();
 }
-
 
 /* =====================================================
    ACTUALIZAR EPG
 ===================================================== */
-
 
 async function actualizarEPG() {
 
@@ -3367,10 +3053,8 @@ async function actualizarEPG() {
       ".update-epg"
     );
 
-
   const textoOriginal =
     boton.textContent;
-
 
   try {
 
@@ -3380,10 +3064,8 @@ async function actualizarEPG() {
     boton.textContent =
       "Actualizando...";
 
-
     const token =
       await obtenerTokenParaGitHub();
-
 
     if (!token) {
 
@@ -3396,28 +3078,22 @@ async function actualizarEPG() {
       return;
     }
 
-
     boton.textContent =
       "Generando EPG...";
-
 
     const xml =
       generarXMLTV();
 
-
     boton.textContent =
       "Subiendo a GitHub...";
-
 
     await subirEPGaGitHub(
       xml,
       token
     );
 
-
     boton.textContent =
       "EPG actualizado";
-
 
     setTimeout(
       () => {
@@ -3432,24 +3108,15 @@ async function actualizarEPG() {
       2500
     );
 
-
     alert(
       "EPG actualizado correctamente en GitHub."
     );
-
 
   } catch (error) {
 
     console.error(
       error
     );
-
-
-    /*
-      Si el token dejó de ser válido,
-      lo eliminamos para que Veo
-      vuelva a pedirlo.
-    */
 
     if (
       error.message.includes(
@@ -3463,13 +3130,11 @@ async function actualizarEPG() {
 
     }
 
-
     boton.disabled =
       false;
 
     boton.textContent =
       textoOriginal;
-
 
     alert(
       "No se pudo actualizar el EPG.\n\n" +
@@ -3479,7 +3144,6 @@ async function actualizarEPG() {
   }
 
 }
-
 
 /* =====================================================
    INICIO
