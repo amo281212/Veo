@@ -161,6 +161,12 @@
       "nombre": "A&E",
       "id": "AE.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/A%26E.png"
+    },
+    {
+      "clave": "UniversalCrime.cl",
+      "nombre": "Universal Crime",
+      "id": "UniversalCrime.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/UNIVERSAL%20CRIME.png"
     }
   ],
   "eliminados": [],
@@ -433,6 +439,15 @@
       "Domingo": []
     },
     "AE.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "UniversalCrime.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
