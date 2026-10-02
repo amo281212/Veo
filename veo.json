@@ -59,6 +59,12 @@
       "nombre": "HBO",
       "id": "HBO.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO.png"
+    },
+    {
+      "clave": "HBO2.cl",
+      "nombre": "HBO 2",
+      "id": "HBO2.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%202.png"
     }
   ],
   "eliminados": [],
@@ -178,6 +184,15 @@
       "Domingo": []
     },
     "HBO.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "HBO2.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
