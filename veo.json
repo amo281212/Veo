@@ -107,6 +107,12 @@
       "nombre": "Sony Channel",
       "id": "Sony.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/SONY.png"
+    },
+    {
+      "clave": "UniversalCinema.cl",
+      "nombre": "Universal Cinema",
+      "id": "UniversalCinema.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/UNIVERSAL%20CINEMA.png"
     }
   ],
   "eliminados": [],
@@ -298,6 +304,15 @@
       "Domingo": []
     },
     "Sony.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "UniversalCinema.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
