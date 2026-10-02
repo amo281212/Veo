@@ -457,6 +457,14 @@ let canalActual="";
 let canalActualClave="";
 let diaActual="";
 
+/*
+   Cola de sincronización.
+
+   Esto evita que dos guardados simultáneos
+   intenten escribir veo.json al mismo tiempo.
+*/
+let colaSincronizacion=Promise.resolve();
+
 
 /* =====================================================
    DATOS INICIALES
@@ -957,7 +965,10 @@ Date.now(),
 
 {
 method:"GET",
-cache:"no-store"
+cache:"no-store",
+headers:{
+"Accept":"application/json"
+}
 }
 
 );
@@ -1022,7 +1033,27 @@ remoto.programacion
    SINCRONIZACIÓN
 ===================================================== */
 
-async function sincronizarEstado(){
+function sincronizarEstado(){
+
+/*
+   Capturamos exactamente el estado existente
+   en el momento de pulsar Guardar.
+
+   Luego lo ponemos en una cola para que
+   los guardados se ejecuten uno después de otro.
+*/
+
+const contenido=
+JSON.stringify(
+estado,
+null,
+2
+);
+
+colaSincronizacion=
+colaSincronizacion
+.then(
+async function(){
 
 const token=
 await obtenerTokenParaGitHub();
@@ -1039,11 +1070,7 @@ await subirArchivo(
 
 GITHUB_FILE,
 
-JSON.stringify(
-estado,
-null,
-2
-),
+contenido,
 
 "Actualizar datos de Veo",
 
@@ -1078,6 +1105,25 @@ error.message
 return false;
 
 }
+
+}
+)
+.catch(
+function(error){
+
+console.error(error);
+
+alert(
+"No se pudieron guardar los cambios en GitHub.\n\n"+
+error.message
+);
+
+return false;
+
+}
+);
+
+return colaSincronizacion;
 
 }
 
@@ -1354,7 +1400,7 @@ datosIniciales()
 }
 
 
-function guardarProgramacionDesdeDOM(){
+async function guardarProgramacionDesdeDOM(){
 
 const canal=
 obtenerCanalPorClave(
@@ -1363,7 +1409,7 @@ canalActualClave
 
 if(!canal){
 
-return;
+return false;
 
 }
 
@@ -1412,7 +1458,7 @@ canalActualClave
 ]=
 datos;
 
-sincronizarEstado();
+return await sincronizarEstado();
 
 }
 
@@ -1792,7 +1838,12 @@ editor.querySelector(
 ".save-editor"
 )
 .onclick=
-function(){
+async function(){
+
+const botonGuardar=
+editor.querySelector(
+".save-editor"
+);
 
 const nuevoNombre=
 editor
@@ -1832,6 +1883,9 @@ return;
 
 }
 
+botonGuardar.disabled=true;
+botonGuardar.textContent="Guardando...";
+
 programa
 .querySelector(
 ".program-name"
@@ -1854,9 +1908,21 @@ nuevaHoraInicio;
 programa.dataset.end=
 nuevaHoraFin;
 
+const guardado=
+await guardarProgramacionDesdeDOM();
+
+if(
+guardado
+){
+
 editor.remove();
 
-guardarProgramacionDesdeDOM();
+}else{
+
+botonGuardar.disabled=false;
+botonGuardar.textContent="Guardar";
+
+}
 
 };
 
@@ -1944,7 +2010,12 @@ editor.querySelector(
 ".save-editor"
 )
 .onclick=
-function(){
+async function(){
+
+const botonGuardar=
+editor.querySelector(
+".save-editor"
+);
 
 const nuevoNombre=
 editor
@@ -1984,6 +2055,9 @@ return;
 
 }
 
+botonGuardar.disabled=true;
+botonGuardar.textContent="Guardando...";
+
 const bloqueDia=
 document.querySelector(
 '.day[data-day="'+
@@ -2012,9 +2086,23 @@ nuevoPrograma,
 botonAgregar
 );
 
+const guardado=
+await guardarProgramacionDesdeDOM();
+
+if(
+guardado
+){
+
 editor.remove();
 
-guardarProgramacionDesdeDOM();
+}else{
+
+nuevoPrograma.remove();
+
+botonGuardar.disabled=false;
+botonGuardar.textContent="Guardar";
+
+}
 
 };
 
@@ -2125,7 +2213,12 @@ editor.querySelector(
 ".save-editor"
 )
 .onclick=
-function(){
+async function(){
+
+const botonGuardar=
+editor.querySelector(
+".save-editor"
+);
 
 const nuevoNombre=
 editor
@@ -2164,6 +2257,9 @@ alert(
 return;
 
 }
+
+botonGuardar.disabled=true;
+botonGuardar.textContent="Guardando...";
 
 const clave=
 canal.clave;
@@ -2221,9 +2317,21 @@ nuevoNombre;
 
 renderizarCanales();
 
+const guardado=
+await sincronizarEstado();
+
+if(
+guardado
+){
+
 editor.remove();
 
-sincronizarEstado();
+}else{
+
+botonGuardar.disabled=false;
+botonGuardar.textContent="Guardar";
+
+}
 
 };
 
@@ -2305,7 +2413,12 @@ editor.querySelector(
 ".save-editor"
 )
 .onclick=
-function(){
+async function(){
+
+const botonGuardar=
+editor.querySelector(
+".save-editor"
+);
 
 const nombre=
 editor
@@ -2361,6 +2474,9 @@ return;
 
 }
 
+botonGuardar.disabled=true;
+botonGuardar.textContent="Guardando...";
+
 estado.canales.push({
 
 clave:id,
@@ -2375,9 +2491,32 @@ datosIniciales();
 
 renderizarCanales();
 
+const guardado=
+await sincronizarEstado();
+
+if(
+guardado
+){
+
 editor.remove();
 
-sincronizarEstado();
+}else{
+
+estado.canales=
+estado.canales.filter(
+canal=>
+canal.clave!==
+id
+);
+
+delete estado.programacion[id];
+
+renderizarCanales();
+
+botonGuardar.disabled=false;
+botonGuardar.textContent="Guardar";
+
+}
 
 };
 
@@ -2495,7 +2634,12 @@ editor.querySelector(
 ".delete-confirm"
 )
 .onclick=
-function(){
+async function(){
+
+const botonEliminar=
+editor.querySelector(
+".delete-confirm"
+);
 
 const seleccion=
 editor.querySelector(
@@ -2535,11 +2679,21 @@ return;
 
 }
 
+botonEliminar.disabled=true;
+botonEliminar.textContent="Eliminando...";
+
 const esBase=
 canalesBase.some(
 base=>
 base.clave===
 canal.clave
+);
+
+const estadoAnterior=
+JSON.parse(
+JSON.stringify(
+estado
+)
 );
 
 estado.canales=
@@ -2566,11 +2720,28 @@ canal.clave
 
 }
 
+renderizarCanales();
+
+const guardado=
+await sincronizarEstado();
+
+if(
+guardado
+){
+
 editor.remove();
+
+}else{
+
+estado=
+estadoAnterior;
 
 renderizarCanales();
 
-sincronizarEstado();
+botonEliminar.disabled=false;
+botonEliminar.textContent="Eliminar";
+
+}
 
 };
 
