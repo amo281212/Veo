@@ -84,6 +84,16 @@ button {
   cursor: pointer;
 }
 
+.add-channel {
+  margin-top: 4px;
+}
+
+.update-epg {
+  margin-top: 10px;
+  background: #292c33;
+  color: white;
+}
+
 #editor {
   display: none;
 }
@@ -96,13 +106,29 @@ button {
 
 .channel-header {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 14px;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.channel-header .channel-logo {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 10px;
 }
 
 .channel-header h2 {
   margin: 0;
+}
+
+.edit-channel {
+  width: auto;
+  padding: 8px 14px;
+  margin-top: 10px;
+  background: #292c33;
+  color: white;
+  font-size: 13px;
 }
 
 .section {
@@ -286,9 +312,13 @@ button {
 
 <main id="channels">
 
-  <div class="channel" onclick="openChannel('TVN', 'https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png')">
+  <div class="channel" onclick="openChannelByKey('TVN.cl')">
     <div class="channel-content">
-      <img class="channel-logo" src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png" alt="TVN">
+      <img
+        class="channel-logo"
+        src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png"
+        alt="TVN"
+      >
 
       <div>
         <div class="channel-name">TVN</div>
@@ -298,9 +328,13 @@ button {
   </div>
 
 
-  <div class="channel" onclick="openChannel('Mega', 'https://cdn.m3u.cl/logo/455_Mega.png')">
+  <div class="channel" onclick="openChannelByKey('Mega.cl')">
     <div class="channel-content">
-      <img class="channel-logo" src="https://cdn.m3u.cl/logo/455_Mega.png" alt="Mega">
+      <img
+        class="channel-logo"
+        src="https://cdn.m3u.cl/logo/455_Mega.png"
+        alt="Mega"
+      >
 
       <div>
         <div class="channel-name">Mega</div>
@@ -310,9 +344,13 @@ button {
   </div>
 
 
-  <div class="channel" onclick="openChannel('Chilevisión', 'https://cdn.m3u.cl/logo/1569_CHV.png')">
+  <div class="channel" onclick="openChannelByKey('Chilevision.cl')">
     <div class="channel-content">
-      <img class="channel-logo" src="https://cdn.m3u.cl/logo/1569_CHV.png" alt="Chilevisión">
+      <img
+        class="channel-logo"
+        src="https://cdn.m3u.cl/logo/1569_CHV.png"
+        alt="Chilevisión"
+      >
 
       <div>
         <div class="channel-name">Chilevisión</div>
@@ -322,9 +360,13 @@ button {
   </div>
 
 
-  <div class="channel" onclick="openChannel('Canal 13', 'https://cdn.m3u.cl/logo/1733_Canal_13.png')">
+  <div class="channel" onclick="openChannelByKey('Canal13.cl')">
     <div class="channel-content">
-      <img class="channel-logo" src="https://cdn.m3u.cl/logo/1733_Canal_13.png" alt="Canal 13">
+      <img
+        class="channel-logo"
+        src="https://cdn.m3u.cl/logo/1733_Canal_13.png"
+        alt="Canal 13"
+      >
 
       <div>
         <div class="channel-name">Canal 13</div>
@@ -336,6 +378,11 @@ button {
 
   <button class="add-channel" onclick="agregarCanal()">
     ＋ Agregar canal
+  </button>
+
+
+  <button class="update-epg" onclick="actualizarEPG()">
+    Actualizar EPG
   </button>
 
 </main>
@@ -354,6 +401,10 @@ button {
 
     <h2 id="channelTitle"></h2>
 
+    <button class="edit-channel" onclick="editarCanal()">
+      Editar canal
+    </button>
+
   </div>
 
 
@@ -362,11 +413,6 @@ button {
     <h2>📋 Programación</h2>
 
     <div id="week"></div>
-
-
-    <button class="xml-button" onclick="generarXMLTV()">
-      ⬇ Generar XMLTV
-    </button>
 
   </div>
 
@@ -386,7 +432,41 @@ const dias = [
 ];
 
 
+const canalesBase = [
+
+  {
+    clave: "TVN.cl",
+    nombre: "TVN",
+    id: "TVN.cl",
+    logo: "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png"
+  },
+
+  {
+    clave: "Mega.cl",
+    nombre: "Mega",
+    id: "Mega.cl",
+    logo: "https://cdn.m3u.cl/logo/455_Mega.png"
+  },
+
+  {
+    clave: "Chilevision.cl",
+    nombre: "Chilevisión",
+    id: "Chilevision.cl",
+    logo: "https://cdn.m3u.cl/logo/1569_CHV.png"
+  },
+
+  {
+    clave: "Canal13.cl",
+    nombre: "Canal 13",
+    id: "Canal13.cl",
+    logo: "https://cdn.m3u.cl/logo/1733_Canal_13.png"
+  }
+
+];
+
+
 let canalActual = "";
+let canalActualClave = "";
 let diaActual = "";
 
 
@@ -420,27 +500,126 @@ function datosIniciales() {
 }
 
 
-function crearTarjetaCanal(nombre, id, logo) {
+function obtenerCanales() {
 
-  const channels = document.getElementById("channels");
+  const canales = canalesBase.map(canal => ({
+    ...canal
+  }));
 
-  const card = document.createElement("div");
+
+  const ediciones = JSON.parse(
+    localStorage.getItem("veo_ediciones_canales") || "[]"
+  );
+
+
+  ediciones.forEach(edicion => {
+
+    const canal = canales.find(
+      item => item.clave === edicion.clave
+    );
+
+
+    if (canal) {
+
+      canal.nombre = edicion.nombre;
+      canal.id = edicion.id;
+      canal.logo = edicion.logo;
+
+    }
+
+  });
+
+
+  const guardados = JSON.parse(
+    localStorage.getItem("veo_canales") || "[]"
+  );
+
+
+  guardados.forEach(canalGuardado => {
+
+    const clave =
+      canalGuardado.clave || canalGuardado.id;
+
+
+    const existente = canales.find(
+      item => item.clave === clave
+    );
+
+
+    if (!existente) {
+
+      canales.push({
+
+        clave: clave,
+
+        nombre: canalGuardado.nombre,
+
+        id: canalGuardado.id,
+
+        logo: canalGuardado.logo
+
+      });
+
+    }
+
+  });
+
+
+  return canales;
+}
+
+
+function obtenerCanalPorClave(clave) {
+
+  const canales = obtenerCanales();
+
+  return canales.find(
+    canal => canal.clave === clave
+  );
+}
+
+
+function crearTarjetaCanal(nombre, id, logo, clave) {
+
+  const channels =
+    document.getElementById("channels");
+
+
+  const card =
+    document.createElement("div");
+
 
   card.className = "channel";
 
 
-  const content = document.createElement("div");
+  const content =
+    document.createElement("div");
 
-  content.className = "channel-content";
+
+  content.className =
+    "channel-content";
 
 
   content.innerHTML = `
-    <img class="channel-logo" src="${logo}" alt="${nombre}">
+
+    <img
+      class="channel-logo"
+      src="${logo}"
+      alt="${nombre}"
+    >
 
     <div>
-      <div class="channel-name">${nombre}</div>
-      <div class="channel-id">${id}</div>
+
+      <div class="channel-name">
+        ${nombre}
+      </div>
+
+      <div class="channel-id">
+        ${id}
+      </div>
+
     </div>
+
   `;
 
 
@@ -448,7 +627,9 @@ function crearTarjetaCanal(nombre, id, logo) {
 
 
   card.onclick = function() {
-    openChannel(id, logo);
+
+    openChannelByKey(clave);
+
   };
 
 
@@ -459,40 +640,68 @@ function crearTarjetaCanal(nombre, id, logo) {
 }
 
 
-function openChannel(channel, logo) {
+function openChannelByKey(clave) {
 
-  document.getElementById("channels").style.display = "none";
-
-  document.getElementById("editor").style.display = "block";
-
-
-  canalActual = channel;
+  const canal =
+    obtenerCanalPorClave(clave);
 
 
-  document.getElementById("channelTitle").textContent = channel;
-
-  document.getElementById("channelLogo").src = logo;
-
-  document.getElementById("channelLogo").alt = channel;
+  if (!canal) {
+    return;
+  }
 
 
-  cargarProgramacion(channel);
+  document.getElementById("channels").style.display =
+    "none";
+
+
+  document.getElementById("editor").style.display =
+    "block";
+
+
+  canalActual =
+    canal.id;
+
+
+  canalActualClave =
+    canal.clave;
+
+
+  document.getElementById("channelTitle").textContent =
+    canal.nombre;
+
+
+  document.getElementById("channelLogo").src =
+    canal.logo;
+
+
+  document.getElementById("channelLogo").alt =
+    canal.nombre;
+
+
+  cargarProgramacion(canal);
 }
 
 
 function goBack() {
 
-  document.getElementById("editor").style.display = "none";
+  document.getElementById("editor").style.display =
+    "none";
 
-  document.getElementById("channels").style.display = "block";
+
+  document.getElementById("channels").style.display =
+    "block";
 }
 
 
 function agregarCanal() {
 
-  const editor = document.createElement("div");
+  const editor =
+    document.createElement("div");
 
-  editor.className = "program-editor";
+
+  editor.className =
+    "program-editor";
 
 
   editor.innerHTML = `
@@ -501,21 +710,26 @@ function agregarCanal() {
 
       <h2>Agregar canal</h2>
 
-
       <label>Nombre del canal</label>
 
-      <input class="editor-nombre" type="text">
-
+      <input
+        class="editor-nombre"
+        type="text"
+      >
 
       <label>ID del canal</label>
 
-      <input class="editor-id" type="text">
-
+      <input
+        class="editor-id"
+        type="text"
+      >
 
       <label>URL del logo</label>
 
-      <input class="editor-logo" type="text">
-
+      <input
+        class="editor-logo"
+        type="text"
+      >
 
       <div class="editor-buttons">
 
@@ -537,42 +751,65 @@ function agregarCanal() {
   document.body.appendChild(editor);
 
 
-  editor.querySelector(".cancel-editor").onclick = function() {
+  editor.querySelector(
+    ".cancel-editor"
+  ).onclick = function() {
+
     editor.remove();
+
   };
 
 
-  editor.querySelector(".save-editor").onclick = function() {
+  editor.querySelector(
+    ".save-editor"
+  ).onclick = function() {
 
     const nombre =
-      editor.querySelector(".editor-nombre").value.trim();
+      editor.querySelector(
+        ".editor-nombre"
+      ).value.trim();
 
 
     const id =
-      editor.querySelector(".editor-id").value.trim();
+      editor.querySelector(
+        ".editor-id"
+      ).value.trim();
 
 
     const logo =
-      editor.querySelector(".editor-logo").value.trim();
+      editor.querySelector(
+        ".editor-logo"
+      ).value.trim();
 
 
     if (!nombre || !id || !logo) {
 
-      alert("Completa todos los campos.");
+      alert(
+        "Completa todos los campos."
+      );
 
       return;
     }
 
 
-    const canales = JSON.parse(
-      localStorage.getItem("veo_canales") || "[]"
-    );
+    const canales =
+      JSON.parse(
+        localStorage.getItem(
+          "veo_canales"
+        ) || "[]"
+      );
 
 
     canales.push({
+
+      clave: id,
+
       nombre: nombre,
+
       id: id,
+
       logo: logo
+
     });
 
 
@@ -585,20 +822,362 @@ function agregarCanal() {
     crearTarjetaCanal(
       nombre,
       id,
-      logo
+      logo,
+      id
     );
 
 
     editor.remove();
+
   };
+}
+
+
+function editarCanal() {
+
+  const canal =
+    obtenerCanalPorClave(
+      canalActualClave
+    );
+
+
+  if (!canal) {
+    return;
+  }
+
+
+  const editor =
+    document.createElement("div");
+
+
+  editor.className =
+    "program-editor";
+
+
+  editor.innerHTML = `
+
+    <div class="program-editor-box">
+
+      <h2>Editar canal</h2>
+
+      <label>Nombre del canal</label>
+
+      <input
+        class="editor-nombre"
+        type="text"
+      >
+
+      <label>ID del canal</label>
+
+      <input
+        class="editor-id"
+        type="text"
+      >
+
+      <label>URL del logo</label>
+
+      <input
+        class="editor-logo"
+        type="text"
+      >
+
+      <div class="editor-buttons">
+
+        <button class="cancel-editor">
+          Cancelar
+        </button>
+
+        <button class="save-editor">
+          Guardar
+        </button>
+
+      </div>
+
+    </div>
+
+  `;
+
+
+  document.body.appendChild(editor);
+
+
+  editor.querySelector(
+    ".editor-nombre"
+  ).value =
+    canal.nombre;
+
+
+  editor.querySelector(
+    ".editor-id"
+  ).value =
+    canal.id;
+
+
+  editor.querySelector(
+    ".editor-logo"
+  ).value =
+    canal.logo;
+
+
+  editor.querySelector(
+    ".cancel-editor"
+  ).onclick = function() {
+
+    editor.remove();
+
+  };
+
+
+  editor.querySelector(
+    ".save-editor"
+  ).onclick = function() {
+
+    const nuevoNombre =
+      editor.querySelector(
+        ".editor-nombre"
+      ).value.trim();
+
+
+    const nuevoId =
+      editor.querySelector(
+        ".editor-id"
+      ).value.trim();
+
+
+    const nuevoLogo =
+      editor.querySelector(
+        ".editor-logo"
+      ).value.trim();
+
+
+    if (
+      !nuevoNombre ||
+      !nuevoId ||
+      !nuevoLogo
+    ) {
+
+      alert(
+        "Completa todos los campos."
+      );
+
+      return;
+    }
+
+
+    const idAnterior =
+      canal.id;
+
+
+    if (
+      idAnterior !== nuevoId
+    ) {
+
+      const programacionAnterior =
+        localStorage.getItem(
+          "veo_programacion_v3_" +
+          idAnterior
+        );
+
+
+      if (programacionAnterior) {
+
+        localStorage.setItem(
+          "veo_programacion_v3_" +
+          nuevoId,
+          programacionAnterior
+        );
+
+
+        localStorage.removeItem(
+          "veo_programacion_v3_" +
+          idAnterior
+        );
+
+      }
+
+    }
+
+
+    const canales =
+      JSON.parse(
+        localStorage.getItem(
+          "veo_canales"
+        ) || "[]"
+      );
+
+
+    const canalGuardado =
+      canales.find(
+        item =>
+          (item.clave || item.id) ===
+          canalActualClave
+      );
+
+
+    if (canalGuardado) {
+
+      canalGuardado.nombre =
+        nuevoNombre;
+
+      canalGuardado.id =
+        nuevoId;
+
+      canalGuardado.logo =
+        nuevoLogo;
+
+    } else {
+
+      const ediciones =
+        JSON.parse(
+          localStorage.getItem(
+            "veo_ediciones_canales"
+          ) || "[]"
+        );
+
+
+      const edicionExistente =
+        ediciones.find(
+          item =>
+            item.clave ===
+            canalActualClave
+        );
+
+
+      if (edicionExistente) {
+
+        edicionExistente.nombre =
+          nuevoNombre;
+
+        edicionExistente.id =
+          nuevoId;
+
+        edicionExistente.logo =
+          nuevoLogo;
+
+      } else {
+
+        ediciones.push({
+
+          clave:
+            canalActualClave,
+
+          nombre:
+            nuevoNombre,
+
+          id:
+            nuevoId,
+
+          logo:
+            nuevoLogo
+
+        });
+
+      }
+
+
+      localStorage.setItem(
+        "veo_ediciones_canales",
+        JSON.stringify(ediciones)
+      );
+
+    }
+
+
+    if (canalGuardado) {
+
+      localStorage.setItem(
+        "veo_canales",
+        JSON.stringify(canales)
+      );
+
+    }
+
+
+    canalActual =
+      nuevoId;
+
+
+    document.getElementById(
+      "channelTitle"
+    ).textContent =
+      nuevoNombre;
+
+
+    document.getElementById(
+      "channelLogo"
+    ).src =
+      nuevoLogo;
+
+
+    document.getElementById(
+      "channelLogo"
+    ).alt =
+      nuevoNombre;
+
+
+    editor.remove();
+
+
+    cargarProgramacion({
+      clave:
+        canalActualClave,
+
+      nombre:
+        nuevoNombre,
+
+      id:
+        nuevoId,
+
+      logo:
+        nuevoLogo
+
+    });
+
+
+  };
+
 }
 
 
 function cargarProgramacion(canal) {
 
-  const guardada = localStorage.getItem(
-    "veo_programacion_v3_" + canal
-  );
+  let guardada =
+    localStorage.getItem(
+      "veo_programacion_v3_" +
+      canal.id
+    );
+
+
+  /*
+    Compatibilidad con la versión anterior,
+    donde TVN usaba "TVN" como clave.
+  */
+
+  if (
+    !guardada &&
+    canal.clave === "TVN.cl"
+  ) {
+
+    const antigua =
+      localStorage.getItem(
+        "veo_programacion_v3_TVN"
+      );
+
+
+    if (antigua) {
+
+      guardada = antigua;
+
+
+      localStorage.setItem(
+        "veo_programacion_v3_" +
+        canal.id,
+        antigua
+      );
+
+    }
+
+  }
 
 
   let datos;
@@ -606,33 +1185,50 @@ function cargarProgramacion(canal) {
 
   if (guardada) {
 
-    datos = JSON.parse(guardada);
+    datos =
+      JSON.parse(guardada);
 
   } else {
 
-    datos = datosIniciales();
+    datos =
+      datosIniciales();
 
 
-    if (canal === "TVN") {
+    if (canal.clave === "TVN.cl") {
 
       datos["Lunes"] = [
 
         {
-          nombre: "Buenos días",
-          inicio: "06:00",
-          fin: "09:00"
+          nombre:
+            "Buenos días",
+
+          inicio:
+            "06:00",
+
+          fin:
+            "09:00"
         },
 
         {
-          nombre: "Noticias",
-          inicio: "09:00",
-          fin: "13:00"
+          nombre:
+            "Noticias",
+
+          inicio:
+            "09:00",
+
+          fin:
+            "13:00"
         },
 
         {
-          nombre: "24 Horas",
-          inicio: "13:00",
-          fin: "14:00"
+          nombre:
+            "24 Horas",
+
+          inicio:
+            "13:00",
+
+          fin:
+            "14:00"
         }
 
       ];
@@ -641,21 +1237,36 @@ function cargarProgramacion(canal) {
       datos["Jueves"] = [
 
         {
-          nombre: "Buenos días",
-          inicio: "06:00",
-          fin: "09:00"
+          nombre:
+            "Buenos días",
+
+          inicio:
+            "06:00",
+
+          fin:
+            "09:00"
         },
 
         {
-          nombre: "Noticias",
-          inicio: "09:00",
-          fin: "13:00"
+          nombre:
+            "Noticias",
+
+          inicio:
+            "09:00",
+
+          fin:
+            "13:00"
         },
 
         {
-          nombre: "24 Horas",
-          inicio: "13:00",
-          fin: "14:00"
+          nombre:
+            "24 Horas",
+
+          inicio:
+            "13:00",
+
+          fin:
+            "14:00"
         }
 
       ];
@@ -674,19 +1285,27 @@ function guardarProgramacion() {
   const datos = {};
 
 
-  document.querySelectorAll(".day").forEach(dia => {
+  document.querySelectorAll(
+    ".day"
+  ).forEach(dia => {
 
-    const nombreDia = dia.dataset.day;
+    const nombreDia =
+      dia.dataset.day;
+
 
     datos[nombreDia] = [];
 
 
-    dia.querySelectorAll(".program").forEach(programa => {
+    dia.querySelectorAll(
+      ".program"
+    ).forEach(programa => {
 
       datos[nombreDia].push({
 
         nombre:
-          programa.querySelector(".program-name").textContent,
+          programa.querySelector(
+            ".program-name"
+          ).textContent,
 
         inicio:
           programa.dataset.start,
@@ -702,7 +1321,8 @@ function guardarProgramacion() {
 
 
   localStorage.setItem(
-    "veo_programacion_v3_" + canalActual,
+    "veo_programacion_v3_" +
+    canalActual,
     JSON.stringify(datos)
   );
 }
@@ -710,133 +1330,216 @@ function guardarProgramacion() {
 
 function renderizarSemana(datos) {
 
-  const contenedor = document.getElementById("week");
+  const contenedor =
+    document.getElementById("week");
 
 
-  contenedor.innerHTML = "";
+  contenedor.innerHTML =
+    "";
 
 
-  diaActual = obtenerDiaActual();
+  diaActual =
+    obtenerDiaActual();
 
 
   dias.forEach(dia => {
 
-    const bloque = document.createElement("div");
+    const bloque =
+      document.createElement("div");
 
-    bloque.className = "day";
 
-    bloque.dataset.day = dia;
+    bloque.className =
+      "day";
+
+
+    bloque.dataset.day =
+      dia;
 
 
     if (dia === diaActual) {
-      bloque.classList.add("open");
+
+      bloque.classList.add(
+        "open"
+      );
+
     }
 
 
-    const boton = document.createElement("button");
-
-    boton.className = "day-title";
-
-    boton.textContent = dia;
+    const boton =
+      document.createElement("button");
 
 
-    boton.onclick = function() {
-      toggleDay(boton);
-    };
+    boton.className =
+      "day-title";
 
 
-    const contenido = document.createElement("div");
-
-    contenido.className = "day-content";
-
-
-    const programas = datos[dia] || [];
+    boton.textContent =
+      dia;
 
 
-    programas.forEach(programa => {
+    boton.onclick =
+      function() {
 
-      contenido.appendChild(
+        toggleDay(boton);
 
-        crearPrograma(
-          programa.nombre,
-          programa.inicio,
-          programa.fin
-        )
-
-      );
-
-    });
+      };
 
 
-    const botonAgregar = document.createElement("button");
-
-    botonAgregar.className = "add";
-
-    botonAgregar.textContent = "＋ Agregar programa";
+    const contenido =
+      document.createElement("div");
 
 
-    botonAgregar.onclick = function() {
-      agregarPrograma(dia);
-    };
+    contenido.className =
+      "day-content";
 
 
-    contenido.appendChild(botonAgregar);
+    const programas =
+      datos[dia] || [];
 
 
-    bloque.appendChild(boton);
+    programas.forEach(
+      programa => {
 
-    bloque.appendChild(contenido);
+        contenido.appendChild(
+
+          crearPrograma(
+            programa.nombre,
+            programa.inicio,
+            programa.fin
+          )
+
+        );
+
+      }
+    );
 
 
-    contenedor.appendChild(bloque);
+    const botonAgregar =
+      document.createElement("button");
+
+
+    botonAgregar.className =
+      "add";
+
+
+    botonAgregar.textContent =
+      "＋ Agregar programa";
+
+
+    botonAgregar.onclick =
+      function() {
+
+        agregarPrograma(dia);
+
+      };
+
+
+    contenido.appendChild(
+      botonAgregar
+    );
+
+
+    bloque.appendChild(
+      boton
+    );
+
+
+    bloque.appendChild(
+      contenido
+    );
+
+
+    contenedor.appendChild(
+      bloque
+    );
 
   });
 }
 
 
-function crearPrograma(nombre, inicio, fin) {
+function crearPrograma(
+  nombre,
+  inicio,
+  fin
+) {
 
-  const programa = document.createElement("div");
-
-  programa.className = "program";
-
-
-  programa.dataset.start = inicio;
-
-  programa.dataset.end = fin;
+  const programa =
+    document.createElement("div");
 
 
-  const tiempo = document.createElement("div");
-
-  tiempo.className = "time";
-
-  tiempo.textContent = inicio + " - " + fin;
+  programa.className =
+    "program";
 
 
-  const nombrePrograma = document.createElement("div");
-
-  nombrePrograma.className = "program-name";
-
-  nombrePrograma.textContent = nombre;
+  programa.dataset.start =
+    inicio;
 
 
-  const editar = document.createElement("button");
-
-  editar.className = "edit";
-
-  editar.textContent = "Editar";
+  programa.dataset.end =
+    fin;
 
 
-  editar.onclick = function() {
-    editarPrograma(editar);
-  };
+  const tiempo =
+    document.createElement("div");
 
 
-  programa.appendChild(tiempo);
+  tiempo.className =
+    "time";
 
-  programa.appendChild(nombrePrograma);
 
-  programa.appendChild(editar);
+  tiempo.textContent =
+    inicio +
+    " - " +
+    fin;
+
+
+  const nombrePrograma =
+    document.createElement("div");
+
+
+  nombrePrograma.className =
+    "program-name";
+
+
+  nombrePrograma.textContent =
+    nombre;
+
+
+  const editar =
+    document.createElement("button");
+
+
+  editar.className =
+    "edit";
+
+
+  editar.textContent =
+    "Editar";
+
+
+  editar.onclick =
+    function() {
+
+      editarPrograma(
+        editar
+      );
+
+    };
+
+
+  programa.appendChild(
+    tiempo
+  );
+
+
+  programa.appendChild(
+    nombrePrograma
+  );
+
+
+  programa.appendChild(
+    editar
+  );
 
 
   return programa;
@@ -845,34 +1548,55 @@ function crearPrograma(nombre, inicio, fin) {
 
 function toggleDay(boton) {
 
-  const dia = boton.parentElement;
+  const dia =
+    boton.parentElement;
 
 
-  document.querySelectorAll(".day").forEach(otro => {
+  document.querySelectorAll(
+    ".day"
+  ).forEach(otro => {
 
     if (otro !== dia) {
-      otro.classList.remove("open");
+
+      otro.classList.remove(
+        "open"
+      );
+
     }
 
   });
 
 
-  dia.classList.toggle("open");
+  dia.classList.toggle(
+    "open"
+  );
 
 
-  if (dia.classList.contains("open")) {
-    diaActual = dia.dataset.day;
+  if (
+    dia.classList.contains(
+      "open"
+    )
+  ) {
+
+    diaActual =
+      dia.dataset.day;
+
   }
 }
 
 
 function editarPrograma(boton) {
 
-  const programa = boton.closest(".program");
+  const programa =
+    boton.closest(
+      ".program"
+    );
 
 
   const nombre =
-    programa.querySelector(".program-name").textContent;
+    programa.querySelector(
+      ".program-name"
+    ).textContent;
 
 
   const horaInicio =
@@ -883,9 +1607,14 @@ function editarPrograma(boton) {
     programa.dataset.end;
 
 
-  const editor = document.createElement("div");
+  const editor =
+    document.createElement(
+      "div"
+    );
 
-  editor.className = "program-editor";
+
+  editor.className =
+    "program-editor";
 
 
   editor.innerHTML = `
@@ -894,11 +1623,12 @@ function editarPrograma(boton) {
 
       <h2>Editar programa</h2>
 
-
       <label>Nombre del programa</label>
 
-      <input class="editor-nombre" type="text">
-
+      <input
+        class="editor-nombre"
+        type="text"
+      >
 
       <label>Hora de inicio</label>
 
@@ -909,7 +1639,6 @@ function editarPrograma(boton) {
         placeholder="HH:MM"
       >
 
-
       <label>Hora de término</label>
 
       <input
@@ -918,7 +1647,6 @@ function editarPrograma(boton) {
         inputmode="numeric"
         placeholder="HH:MM"
       >
-
 
       <div class="editor-buttons">
 
@@ -937,77 +1665,118 @@ function editarPrograma(boton) {
   `;
 
 
-  document.body.appendChild(editor);
+  document.body.appendChild(
+    editor
+  );
 
 
-  editor.querySelector(".editor-nombre").value =
+  editor.querySelector(
+    ".editor-nombre"
+  ).value =
     nombre;
 
 
-  editor.querySelector(".editor-inicio").value =
+  editor.querySelector(
+    ".editor-inicio"
+  ).value =
     horaInicio;
 
 
-  editor.querySelector(".editor-fin").value =
+  editor.querySelector(
+    ".editor-fin"
+  ).value =
     horaFin;
 
 
-  editor.querySelector(".cancel-editor").onclick = function() {
-    editor.remove();
-  };
+  editor.querySelector(
+    ".cancel-editor"
+  ).onclick =
+    function() {
+
+      editor.remove();
+
+    };
 
 
-  editor.querySelector(".save-editor").onclick = function() {
+  editor.querySelector(
+    ".save-editor"
+  ).onclick =
+    function() {
 
-    const nuevoNombre =
-      editor.querySelector(".editor-nombre").value.trim();
-
-
-    const nuevaHoraInicio =
-      editor.querySelector(".editor-inicio").value;
-
-
-    const nuevaHoraFin =
-      editor.querySelector(".editor-fin").value;
+      const nuevoNombre =
+        editor.querySelector(
+          ".editor-nombre"
+        ).value.trim();
 
 
-    if (!nuevoNombre || !nuevaHoraInicio || !nuevaHoraFin) {
-
-      alert("Completa todos los campos.");
-
-      return;
-    }
+      const nuevaHoraInicio =
+        editor.querySelector(
+          ".editor-inicio"
+        ).value;
 
 
-    programa.querySelector(".program-name").textContent =
-      nuevoNombre;
+      const nuevaHoraFin =
+        editor.querySelector(
+          ".editor-fin"
+        ).value;
 
 
-    programa.querySelector(".time").textContent =
-      nuevaHoraInicio + " - " + nuevaHoraFin;
+      if (
+        !nuevoNombre ||
+        !nuevaHoraInicio ||
+        !nuevaHoraFin
+      ) {
+
+        alert(
+          "Completa todos los campos."
+        );
+
+        return;
+      }
 
 
-    programa.dataset.start =
-      nuevaHoraInicio;
+      programa.querySelector(
+        ".program-name"
+      ).textContent =
+        nuevoNombre;
 
 
-    programa.dataset.end =
-      nuevaHoraFin;
+      programa.querySelector(
+        ".time"
+      ).textContent =
+        nuevaHoraInicio +
+        " - " +
+        nuevaHoraFin;
 
 
-    guardarProgramacion();
+      programa.dataset.start =
+        nuevaHoraInicio;
 
 
-    editor.remove();
-  };
+      programa.dataset.end =
+        nuevaHoraFin;
+
+
+      guardarProgramacion();
+
+
+      editor.remove();
+
+    };
+
 }
 
 
 function agregarPrograma(dia) {
 
-  const editor = document.createElement("div");
+  const editor =
+    document.createElement(
+      "div"
+    );
 
-  editor.className = "program-editor";
+
+  editor.className =
+    "program-editor";
 
 
   editor.innerHTML = `
@@ -1016,11 +1785,12 @@ function agregarPrograma(dia) {
 
       <h2>Agregar programa</h2>
 
-
       <label>Nombre del programa</label>
 
-      <input class="editor-nombre" type="text">
-
+      <input
+        class="editor-nombre"
+        type="text"
+      >
 
       <label>Hora de inicio</label>
 
@@ -1031,7 +1801,6 @@ function agregarPrograma(dia) {
         placeholder="HH:MM"
       >
 
-
       <label>Hora de término</label>
 
       <input
@@ -1040,7 +1809,6 @@ function agregarPrograma(dia) {
         inputmode="numeric"
         placeholder="HH:MM"
       >
-
 
       <div class="editor-buttons">
 
@@ -1059,63 +1827,93 @@ function agregarPrograma(dia) {
   `;
 
 
-  document.body.appendChild(editor);
+  document.body.appendChild(
+    editor
+  );
 
 
-  editor.querySelector(".cancel-editor").onclick = function() {
-    editor.remove();
-  };
+  editor.querySelector(
+    ".cancel-editor"
+  ).onclick =
+    function() {
+
+      editor.remove();
+
+    };
 
 
-  editor.querySelector(".save-editor").onclick = function() {
+  editor.querySelector(
+    ".save-editor"
+  ).onclick =
+    function() {
 
-    const nuevoNombre =
-      editor.querySelector(".editor-nombre").value.trim();
-
-
-    const nuevaHoraInicio =
-      editor.querySelector(".editor-inicio").value.trim();
-
-
-    const nuevaHoraFin =
-      editor.querySelector(".editor-fin").value.trim();
+      const nuevoNombre =
+        editor.querySelector(
+          ".editor-nombre"
+        ).value.trim();
 
 
-    if (!nuevoNombre || !nuevaHoraInicio || !nuevaHoraFin) {
-
-      alert("Completa todos los campos.");
-
-      return;
-    }
+      const nuevaHoraInicio =
+        editor.querySelector(
+          ".editor-inicio"
+        ).value.trim();
 
 
-    const bloqueDia = document.querySelector(
-      '.day[data-day="' + dia + '"]'
-    );
+      const nuevaHoraFin =
+        editor.querySelector(
+          ".editor-fin"
+        ).value.trim();
 
 
-    const botonAgregar =
-      bloqueDia.querySelector(".add");
+      if (
+        !nuevoNombre ||
+        !nuevaHoraInicio ||
+        !nuevaHoraFin
+      ) {
+
+        alert(
+          "Completa todos los campos."
+        );
+
+        return;
+      }
 
 
-    const nuevoPrograma = crearPrograma(
-      nuevoNombre,
-      nuevaHoraInicio,
-      nuevaHoraFin
-    );
+      const bloqueDia =
+        document.querySelector(
+          '.day[data-day="' +
+          dia +
+          '"]'
+        );
 
 
-    botonAgregar.parentElement.insertBefore(
-      nuevoPrograma,
-      botonAgregar
-    );
+      const botonAgregar =
+        bloqueDia.querySelector(
+          ".add"
+        );
 
 
-    guardarProgramacion();
+      const nuevoPrograma =
+        crearPrograma(
+          nuevoNombre,
+          nuevaHoraInicio,
+          nuevaHoraFin
+        );
 
 
-    editor.remove();
-  };
+      botonAgregar.parentElement.insertBefore(
+        nuevoPrograma,
+        botonAgregar
+      );
+
+
+      guardarProgramacion();
+
+
+      editor.remove();
+
+    };
+
 }
 
 
@@ -1128,91 +1926,72 @@ function escaparXML(texto) {
 
   return String(texto)
 
-    .replace(/&/g, "&amp;")
+    .replace(
+      /&/g,
+      "&amp;"
+    )
 
-    .replace(/</g, "&lt;")
+    .replace(
+      /</g,
+      "&lt;"
+    )
 
-    .replace(/>/g, "&gt;")
+    .replace(
+      />/g,
+      "&gt;"
+    )
 
-    .replace(/"/g, "&quot;")
+    .replace(
+      /"/g,
+      "&quot;"
+    )
 
-    .replace(/'/g, "&apos;");
+    .replace(
+      /'/g,
+      "&apos;"
+    );
+
 }
 
 
-function obtenerCanales() {
+function obtenerProgramacionCanalPorId(
+  canal
+) {
 
-  const canales = [
-
-    {
-      nombre: "TVN",
-      id: "TVN.cl",
-      logo: "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png"
-    },
-
-    {
-      nombre: "Mega",
-      id: "Mega.cl",
-      logo: "https://cdn.m3u.cl/logo/455_Mega.png"
-    },
-
-    {
-      nombre: "Chilevisión",
-      id: "Chilevision.cl",
-      logo: "https://cdn.m3u.cl/logo/1569_CHV.png"
-    },
-
-    {
-      nombre: "Canal 13",
-      id: "Canal13.cl",
-      logo: "https://cdn.m3u.cl/logo/1733_Canal_13.png"
-    }
-
-  ];
-
-
-  const guardados = JSON.parse(
-    localStorage.getItem("veo_canales") || "[]"
-  );
-
-
-  guardados.forEach(canal => {
-
-    const existente = canales.find(
-      item => item.id === canal.id
+  const guardada =
+    localStorage.getItem(
+      "veo_programacion_v3_" +
+      canal.id
     );
 
 
-    if (!existente) {
+  if (guardada) {
 
-      canales.push({
+    return JSON.parse(
+      guardada
+    );
 
-        nombre: canal.nombre,
+  }
 
-        id: canal.id,
 
-        logo: canal.logo
+  if (
+    canal.clave === "TVN.cl"
+  ) {
 
-      });
+    const antigua =
+      localStorage.getItem(
+        "veo_programacion_v3_TVN"
+      );
+
+
+    if (antigua) {
+
+      return JSON.parse(
+        antigua
+      );
 
     }
 
-  });
-
-
-  return canales;
-}
-
-
-function obtenerProgramacionCanal(canal) {
-
-  const guardada = localStorage.getItem(
-    "veo_programacion_v3_" + canal
-  );
-
-
-  if (guardada) {
-    return JSON.parse(guardada);
   }
 
 
@@ -1227,19 +2006,27 @@ function formatoFechaXML(fecha) {
 
 
   const mes =
-    String(fecha.getMonth() + 1).padStart(2, "0");
+    String(
+      fecha.getMonth() + 1
+    ).padStart(2, "0");
 
 
   const dia =
-    String(fecha.getDate()).padStart(2, "0");
+    String(
+      fecha.getDate()
+    ).padStart(2, "0");
 
 
   const horas =
-    String(fecha.getHours()).padStart(2, "0");
+    String(
+      fecha.getHours()
+    ).padStart(2, "0");
 
 
   const minutos =
-    String(fecha.getMinutes()).padStart(2, "0");
+    String(
+      fecha.getMinutes()
+    ).padStart(2, "0");
 
 
   const offset =
@@ -1247,7 +2034,9 @@ function formatoFechaXML(fecha) {
 
 
   const signo =
-    offset >= 0 ? "+" : "-";
+    offset >= 0
+      ? "+"
+      : "-";
 
 
   const offsetAbs =
@@ -1256,14 +2045,22 @@ function formatoFechaXML(fecha) {
 
   const offsetHoras =
     String(
-      Math.floor(offsetAbs / 60)
-    ).padStart(2, "0");
+      Math.floor(
+        offsetAbs / 60
+      )
+    ).padStart(
+      2,
+      "0"
+    );
 
 
   const offsetMinutos =
     String(
       offsetAbs % 60
-    ).padStart(2, "0");
+    ).padStart(
+      2,
+      "0"
+    );
 
 
   return (
@@ -1277,34 +2074,57 @@ function formatoFechaXML(fecha) {
     offsetHoras +
     offsetMinutos
   );
+
 }
 
 
-function crearFechaPrograma(fechaBase, hora) {
+function crearFechaPrograma(
+  fechaBase,
+  hora
+) {
 
   const partes =
     hora.split(":");
 
 
   const horas =
-    parseInt(partes[0], 10);
+    parseInt(
+      partes[0],
+      10
+    );
 
 
   const minutos =
-    parseInt(partes[1], 10);
+    parseInt(
+      partes[1],
+      10
+    );
 
 
   const fecha =
-    new Date(fechaBase);
+    new Date(
+      fechaBase
+    );
 
 
-  fecha.setHours(horas);
+  fecha.setHours(
+    horas
+  );
 
-  fecha.setMinutes(minutos);
 
-  fecha.setSeconds(0);
+  fecha.setMinutes(
+    minutos
+  );
 
-  fecha.setMilliseconds(0);
+
+  fecha.setSeconds(
+    0
+  );
+
+
+  fecha.setMilliseconds(
+    0
+  );
 
 
   return fecha;
@@ -1333,34 +2153,42 @@ function generarXMLTV() {
 
   /* CANALES */
 
-  canales.forEach(canal => {
-
-    xml +=
-      '  <channel id="' +
-      escaparXML(canal.id) +
-      '">\n';
-
-
-    xml +=
-      '    <display-name>' +
-      escaparXML(canal.nombre) +
-      '</display-name>\n';
-
-
-    if (canal.logo) {
+  canales.forEach(
+    canal => {
 
       xml +=
-        '    <icon src="' +
-        escaparXML(canal.logo) +
-        '"/>\n';
+        '  <channel id="' +
+        escaparXML(
+          canal.id
+        ) +
+        '">\n';
+
+
+      xml +=
+        '    <display-name>' +
+        escaparXML(
+          canal.nombre
+        ) +
+        '</display-name>\n';
+
+
+      if (canal.logo) {
+
+        xml +=
+          '    <icon src="' +
+          escaparXML(
+            canal.logo
+          ) +
+          '"/>\n';
+
+      }
+
+
+      xml +=
+        '  </channel>\n';
 
     }
-
-
-    xml +=
-      '  </channel>\n';
-
-  });
+  );
 
 
   /* PROGRAMACIÓN */
@@ -1369,96 +2197,133 @@ function generarXMLTV() {
     new Date();
 
 
-  fechaInicio.setHours(0);
-
-  fechaInicio.setMinutes(0);
-
-  fechaInicio.setSeconds(0);
-
-  fechaInicio.setMilliseconds(0);
+  fechaInicio.setHours(
+    0
+  );
 
 
-  for (let i = 0; i < 14; i++) {
+  fechaInicio.setMinutes(
+    0
+  );
+
+
+  fechaInicio.setSeconds(
+    0
+  );
+
+
+  fechaInicio.setMilliseconds(
+    0
+  );
+
+
+  for (
+    let i = 0;
+    i < 14;
+    i++
+  ) {
 
     const fecha =
-      new Date(fechaInicio);
+      new Date(
+        fechaInicio
+      );
 
 
     fecha.setDate(
-      fechaInicio.getDate() + i
+      fechaInicio.getDate() +
+      i
     );
 
 
     const diaSemana =
       dias[
-        (fecha.getDay() + 6) % 7
+        (fecha.getDay() + 6) %
+        7
       ];
 
 
-    canales.forEach(canal => {
+    canales.forEach(
+      canal => {
 
-      const datos =
-        obtenerProgramacionCanal(
-          canal.id
+        const datos =
+          obtenerProgramacionCanalPorId(
+            canal
+          );
+
+
+        const programas =
+          datos[
+            diaSemana
+          ] || [];
+
+
+        programas.forEach(
+          programa => {
+
+            const inicio =
+              crearFechaPrograma(
+                fecha,
+                programa.inicio
+              );
+
+
+            const fin =
+              crearFechaPrograma(
+                fecha,
+                programa.fin
+              );
+
+
+            if (
+              fin <= inicio
+            ) {
+
+              fin.setDate(
+                fin.getDate() +
+                1
+              );
+
+            }
+
+
+            xml +=
+              '  <programme channel="' +
+              escaparXML(
+                canal.id
+              ) +
+              '" start="' +
+              formatoFechaXML(
+                inicio
+              ) +
+              '" stop="' +
+              formatoFechaXML(
+                fin
+              ) +
+              '">\n';
+
+
+            xml +=
+              '    <title lang="es">' +
+              escaparXML(
+                programa.nombre
+              ) +
+              '</title>\n';
+
+
+            xml +=
+              '  </programme>\n';
+
+          }
         );
 
-
-      const programas =
-        datos[diaSemana] || [];
-
-
-      programas.forEach(programa => {
-
-        const inicio =
-          crearFechaPrograma(
-            fecha,
-            programa.inicio
-          );
-
-
-        const fin =
-          crearFechaPrograma(
-            fecha,
-            programa.fin
-          );
-
-
-        if (fin <= inicio) {
-
-          fin.setDate(
-            fin.getDate() + 1
-          );
-
-        }
-
-
-        xml +=
-          '  <programme channel="' +
-          escaparXML(canal.id) +
-          '" start="' +
-          formatoFechaXML(inicio) +
-          '" stop="' +
-          formatoFechaXML(fin) +
-          '">\n';
-
-
-        xml +=
-          '    <title lang="es">' +
-          escaparXML(programa.nombre) +
-          '</title>\n';
-
-
-        xml +=
-          '  </programme>\n';
-
-      });
-
-    });
+      }
+    );
 
   }
 
 
-  xml += "</tv>";
+  xml +=
+    "</tv>";
 
 
   const archivo =
@@ -1472,11 +2337,15 @@ function generarXMLTV() {
 
 
   const url =
-    URL.createObjectURL(archivo);
+    URL.createObjectURL(
+      archivo
+    );
 
 
   const enlace =
-    document.createElement("a");
+    document.createElement(
+      "a"
+    );
 
 
   enlace.href =
@@ -1498,7 +2367,25 @@ function generarXMLTV() {
   enlace.remove();
 
 
-  URL.revokeObjectURL(url);
+  URL.revokeObjectURL(
+    url
+  );
+
+}
+
+
+function actualizarEPG() {
+
+  /*
+    Por ahora este botón genera el XML
+    para probar el sistema.
+
+    Más adelante aquí conectaremos
+    la actualización real de GitHub.
+  */
+
+  generarXMLTV();
+
 }
 
 
@@ -1509,19 +2396,24 @@ function generarXMLTV() {
 
 const canalesGuardados =
   JSON.parse(
-    localStorage.getItem("veo_canales") || "[]"
+    localStorage.getItem(
+      "veo_canales"
+    ) || "[]"
   );
 
 
-canalesGuardados.forEach(canal => {
+canalesGuardados.forEach(
+  canal => {
 
-  crearTarjetaCanal(
-    canal.nombre,
-    canal.id,
-    canal.logo
-  );
+    crearTarjetaCanal(
+      canal.nombre,
+      canal.id,
+      canal.logo,
+      canal.clave || canal.id
+    );
 
-});
+  }
+);
 
 </script>
 
