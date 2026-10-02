@@ -1,12 +1,6 @@
 {
   "canales": [
     {
-      "clave": "TVN.cl",
-      "nombre": "TVN",
-      "id": "TVN.cl",
-      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png"
-    },
-    {
       "clave": "Mega.cl",
       "nombre": "Mega",
       "id": "Mega.cl",
@@ -181,44 +175,10 @@
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/USA.png"
     }
   ],
-  "eliminados": [],
+  "eliminados": [
+    "TVN.cl"
+  ],
   "programacion": {
-    "TVN.cl": {
-      "Lunes": [
-        {
-          "nombre": "Buenos días",
-          "inicio": "06:00",
-          "fin": "09:00"
-        },
-        {
-          "nombre": "Noticias",
-          "inicio": "09:00",
-          "fin": "13:00"
-        },
-        {
-          "nombre": "24 Horas",
-          "inicio": "13:00",
-          "fin": "14:00"
-        }
-      ],
-      "Martes": [],
-      "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Buenos días A1",
-          "inicio": "06:39",
-          "fin": "09:00"
-        },
-        {
-          "nombre": "Noticias TEST 3",
-          "inicio": "09:00",
-          "fin": "13:00"
-        }
-      ],
-      "Viernes": [],
-      "Sábado": [],
-      "Domingo": []
-    },
     "Mega.cl": {
       "Lunes": [],
       "Martes": [],
