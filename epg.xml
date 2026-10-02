@@ -1,55 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="Veo" generator-info-url="https://amo281212.github.io/Veo/">
-  <channel id="TVN.cl">
-    <display-name>TVN</display-name>
-    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TVN.png"/>
+  <channel id="AMC.cl">
+    <display-name>AMC</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/AMC.png"/>
   </channel>
-  <channel id="Mega.cl">
-    <display-name>Mega</display-name>
-    <icon src="https://cdn.m3u.cl/logo/455_Mega.png"/>
+  <channel id="Cinecanal.cl">
+    <display-name>Cinecanal</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/CINECANAL.png"/>
   </channel>
-  <channel id="Chilevision.cl">
-    <display-name>Chilevisión</display-name>
-    <icon src="https://cdn.m3u.cl/logo/1569_CHV.png"/>
+  <channel id="Cinemax.cl">
+    <display-name>Cinemax</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/CINEMAX.png"/>
   </channel>
-  <channel id="Canal13.cl">
-    <display-name>Canal 13</display-name>
-    <icon src="https://cdn.m3u.cl/logo/1733_Canal_13.png"/>
+  <channel id="Golden.cl">
+    <display-name>Golden</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/GOLDEN.png"/>
   </channel>
-  <programme channel="Mega.cl" start="20261002150000 -0300" stop="20261002160000 -0300">
-    <title lang="es">Programa prueba 701</title>
+  <channel id="GoldenEdge.cl">
+    <display-name>Golden Edge</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/GOLDEN%20EDGE.png"/>
+  </channel>
+  <channel id="HBO.cl">
+    <display-name>HBO</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO.png"/>
+  </channel>
+  <channel id="HBO2.cl">
+    <display-name>HBO 2</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%202.png"/>
+  </channel>
+  <channel id="HBOFamily.cl">
+    <display-name>HBO Family</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%20FAMILY.png"/>
+  </channel>
+  <channel id="HBOPop.cl">
+    <display-name>HBO Pop</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%20POP.png"/>
+  </channel>
+  <channel id="HBOXtreme.cl">
+    <display-name>HBO Xtreme</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%20XTREME.png"/>
+  </channel>
+  <channel id="HBO.Plus.cl">
+    <display-name>HBO+</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%2B.png"/>
+  </channel>
+  <channel id="StudioUniversal.ar">
+    <display-name>Studio Universal</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/STUDIO%20UNIVERSAL.png"/>
+  </channel>
+  <channel id="SONYMOVIES.uy">
+    <display-name>Sony Movies</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/SONY%20MOVIES.png"/>
+  </channel>
+  <channel id="Sony.cl">
+    <display-name>Sony Channel</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/SONY.png"/>
+  </channel>
+  <channel id="UniversalCinema.cl">
+    <display-name>Universal Cinema</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/UNIVERSAL%20CINEMA.png"/>
+  </channel>
+  <channel id="Space.cl">
+    <display-name>Space</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/SPACE.png"/>
+  </channel>
+  <channel id="TNT.cl">
+    <display-name>TNT</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TNT.png"/>
+  </channel>
+  <channel id="FX.cl">
+    <display-name>FX</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/FX.png"/>
+  </channel>
+  <channel id="WarnerChannel.cl">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/WARNER.png"/>
+  </channel>
+  <channel id="StarChannel.cl">
+    <display-name>STAR Channel</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/STAR%20CHANNEL.png"/>
+  </channel>
+  <channel id="UniversalTV.cl">
+    <display-name>Universal TV</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/UNIVERSAL.png"/>
+  </channel>
+  <channel id="AXN.cl">
+    <display-name>AXN</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/AXN.png"/>
+  </channel>
+  <channel id="AE.cl">
+    <display-name>A&amp;E</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/A%26E.png"/>
+  </channel>
+  <channel id="UniversalCrime.cl">
+    <display-name>Universal Crime</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/UNIVERSAL%20CRIME.png"/>
+  </channel>
+  <channel id="TNTSeries.cl">
+    <display-name>TNT Series</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TNT%20SERIES.png"/>
+  </channel>
+  <channel id="USANetwork.bo">
+    <display-name>USA Network</display-name>
+    <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/USA.png"/>
+  </channel>
+  <programme channel="Cinecanal.cl" start="NaNNaNNaNNaNNaN00 -NaNNaN" stop="NaNNaNNaNNaNNaN00 -NaNNaN">
+    <title lang="es">1917</title>
   </programme>
-  <programme channel="TVN.cl" start="20261005060000 -0300" stop="20261005090000 -0300">
-    <title lang="es">Buenos días</title>
-  </programme>
-  <programme channel="TVN.cl" start="20261005090000 -0300" stop="20261005130000 -0300">
-    <title lang="es">Noticias</title>
-  </programme>
-  <programme channel="TVN.cl" start="20261005130000 -0300" stop="20261005140000 -0300">
-    <title lang="es">24 Horas</title>
-  </programme>
-  <programme channel="TVN.cl" start="20261008063900 -0300" stop="20261008090000 -0300">
-    <title lang="es">Buenos días A1</title>
-  </programme>
-  <programme channel="TVN.cl" start="20261008090000 -0300" stop="20261008130000 -0300">
-    <title lang="es">Noticias TEST 3</title>
-  </programme>
-  <programme channel="Mega.cl" start="20261009150000 -0300" stop="20261009160000 -0300">
-    <title lang="es">Programa prueba 701</title>
-  </programme>
-  <programme channel="TVN.cl" start="20261012060000 -0300" stop="20261012090000 -0300">
-    <title lang="es">Buenos días</title>
-  </programme>
-  <programme channel="TVN.cl" start="20261012090000 -0300" stop="20261012130000 -0300">
-    <title lang="es">Noticias</title>
-  </programme>
-  <programme channel="TVN.cl" start="20261012130000 -0300" stop="20261012140000 -0300">
-    <title lang="es">24 Horas</title>
-  </programme>
-  <programme channel="TVN.cl" start="20261015063900 -0300" stop="20261015090000 -0300">
-    <title lang="es">Buenos días A1</title>
-  </programme>
-  <programme channel="TVN.cl" start="20261015090000 -0300" stop="20261015130000 -0300">
-    <title lang="es">Noticias TEST 3</title>
+  <programme channel="Cinecanal.cl" start="NaNNaNNaNNaNNaN00 -NaNNaN" stop="NaNNaNNaNNaNNaN00 -NaNNaN">
+    <title lang="es">1917</title>
   </programme>
 </tv>
