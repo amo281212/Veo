@@ -35,6 +35,12 @@
       "nombre": "Cinecanal",
       "id": "Cinecanal.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/CINECANAL.png"
+    },
+    {
+      "clave": "Cinemax.cl",
+      "nombre": "Cinemax",
+      "id": "Cinemax.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/CINEMAX.png"
     }
   ],
   "eliminados": [],
@@ -118,6 +124,15 @@
       "Domingo": []
     },
     "Cinecanal.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "Cinemax.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
