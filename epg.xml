@@ -16,4 +16,40 @@
     <display-name>Canal 13</display-name>
     <icon src="https://cdn.m3u.cl/logo/1733_Canal_13.png"/>
   </channel>
+  <programme channel="Mega.cl" start="20261002150000 -0300" stop="20261002160000 -0300">
+    <title lang="es">Programa prueba 701</title>
+  </programme>
+  <programme channel="TVN.cl" start="20261005060000 -0300" stop="20261005090000 -0300">
+    <title lang="es">Buenos días</title>
+  </programme>
+  <programme channel="TVN.cl" start="20261005090000 -0300" stop="20261005130000 -0300">
+    <title lang="es">Noticias</title>
+  </programme>
+  <programme channel="TVN.cl" start="20261005130000 -0300" stop="20261005140000 -0300">
+    <title lang="es">24 Horas</title>
+  </programme>
+  <programme channel="TVN.cl" start="20261008063900 -0300" stop="20261008090000 -0300">
+    <title lang="es">Buenos días A1</title>
+  </programme>
+  <programme channel="TVN.cl" start="20261008090000 -0300" stop="20261008130000 -0300">
+    <title lang="es">Noticias TEST 3</title>
+  </programme>
+  <programme channel="Mega.cl" start="20261009150000 -0300" stop="20261009160000 -0300">
+    <title lang="es">Programa prueba 701</title>
+  </programme>
+  <programme channel="TVN.cl" start="20261012060000 -0300" stop="20261012090000 -0300">
+    <title lang="es">Buenos días</title>
+  </programme>
+  <programme channel="TVN.cl" start="20261012090000 -0300" stop="20261012130000 -0300">
+    <title lang="es">Noticias</title>
+  </programme>
+  <programme channel="TVN.cl" start="20261012130000 -0300" stop="20261012140000 -0300">
+    <title lang="es">24 Horas</title>
+  </programme>
+  <programme channel="TVN.cl" start="20261015063900 -0300" stop="20261015090000 -0300">
+    <title lang="es">Buenos días A1</title>
+  </programme>
+  <programme channel="TVN.cl" start="20261015090000 -0300" stop="20261015130000 -0300">
+    <title lang="es">Noticias TEST 3</title>
+  </programme>
 </tv>
