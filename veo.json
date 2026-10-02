@@ -23,6 +23,12 @@
       "nombre": "Canal 13",
       "id": "Canal13.cl",
       "logo": "https://cdn.m3u.cl/logo/1733_Canal_13.png"
+    },
+    {
+      "clave": "AMC.cl",
+      "nombre": "AMC",
+      "id": "AMC.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/AMC.png"
     }
   ],
   "eliminados": [],
@@ -88,6 +94,15 @@
       "Domingo": []
     },
     "Canal13.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "AMC.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
