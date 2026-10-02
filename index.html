@@ -440,13 +440,6 @@ const GITHUB_BRANCH="main";
 const GITHUB_FILE="veo.json";
 const EPG_FILE="epg.xml";
 
-const REMOTE_URL=
-"https://raw.githubusercontent.com/"+
-GITHUB_OWNER+"/"+
-GITHUB_REPO+"/"+
-GITHUB_BRANCH+"/"+
-GITHUB_FILE;
-
 let estado={
 canales:[],
 eliminados:[],
@@ -594,8 +587,8 @@ editor.innerHTML=`
 <div class="epg-status">
 
 Veo necesita tu token de GitHub
-para guardar los cambios en todos
-tus dispositivos.
+para cargar y guardar los cambios
+en todos tus dispositivos.
 
 </div>
 
@@ -742,6 +735,46 @@ i+tamaño
 
 return btoa(
 binario
+);
+
+}
+
+
+function decodificarBase64(base64){
+
+const limpio=
+base64.replace(
+/\s/g,
+""
+);
+
+const binario=
+atob(
+limpio
+);
+
+const bytes=
+new Uint8Array(
+binario.length
+);
+
+for(
+let i=0;
+i<binario.length;
+i++
+){
+
+bytes[i]=
+binario.charCodeAt(
+i
+);
+
+}
+
+return new TextDecoder(
+"utf-8"
+).decode(
+bytes
 );
 
 }
@@ -956,19 +989,44 @@ return respuesta.json();
 
 async function cargarEstadoRemoto(){
 
+const token=
+await obtenerTokenParaGitHub();
+
+if(!token){
+
+return null;
+
+}
+
 const respuesta=
 await fetch(
 
-REMOTE_URL+
-"?t="+
+"https://api.github.com/repos/"+
+GITHUB_OWNER+"/"+
+GITHUB_REPO+
+"/contents/"+
+GITHUB_FILE+
+"?ref="+
+GITHUB_BRANCH+
+"&t="+
 Date.now(),
 
 {
 method:"GET",
-cache:"no-store",
+
 headers:{
-"Accept":"application/json"
+
+"Accept":
+"application/vnd.github+json",
+
+"Authorization":
+"Bearer "+token,
+
+"X-GitHub-Api-Version":
+"2026-03-10"
+
 }
+
 }
 
 );
@@ -984,14 +1042,40 @@ return null;
 
 if(!respuesta.ok){
 
+const texto=
+await respuesta.text();
+
 throw new Error(
-"No se pudo leer veo.json"
+"GitHub respondió "+
+respuesta.status+
+": "+
+texto
 );
 
 }
 
-const remoto=
+const archivo=
 await respuesta.json();
+
+if(
+!archivo.content
+){
+
+throw new Error(
+"GitHub no devolvió el contenido de veo.json."
+);
+
+}
+
+const texto=
+decodificarBase64(
+archivo.content
+);
+
+const remoto=
+JSON.parse(
+texto
+);
 
 if(
 !remoto||
