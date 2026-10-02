@@ -143,6 +143,12 @@
       "nombre": "STAR Channel",
       "id": "StarChannel.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/STAR%20CHANNEL.png"
+    },
+    {
+      "clave": "UniversalTV.cl",
+      "nombre": "Universal TV",
+      "id": "UniversalTV.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/UNIVERSAL.png"
     }
   ],
   "eliminados": [],
@@ -388,6 +394,15 @@
       "Domingo": []
     },
     "StarChannel.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "UniversalTV.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
