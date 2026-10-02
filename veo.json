@@ -89,6 +89,12 @@
       "nombre": "HBO+",
       "id": "HBO.Plus.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%2B.png"
+    },
+    {
+      "clave": "StudioUniversal.ar",
+      "nombre": "Studio Universal",
+      "id": "StudioUniversal.ar",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/STUDIO%20UNIVERSAL.png"
     }
   ],
   "eliminados": [],
@@ -253,6 +259,15 @@
       "Domingo": []
     },
     "HBO.Plus.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "StudioUniversal.ar": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
