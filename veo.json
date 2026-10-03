@@ -169,13 +169,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Érase una vez en... Hollywood",
-          "inicio": "22:00",
-          "fin": "01:00"
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "Riddick",
