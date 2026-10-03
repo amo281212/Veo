@@ -172,11 +172,6 @@
       "Viernes": [],
       "Sábado": [
         {
-          "nombre": "Riddick",
-          "inicio": "01:00",
-          "fin": "10:00"
-        },
-        {
           "nombre": "Siempre a tu lado",
           "inicio": "10:00",
           "fin": "11:40"
