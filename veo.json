@@ -250,13 +250,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Plan de vuelo",
-          "inicio": "21:54",
-          "fin": "00:00"
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "Joy: El nombre del éxito",
