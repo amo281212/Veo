@@ -454,7 +454,13 @@
       ]
     },
     "Cinemax.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "41",
+          "inicio": "00:00",
+          "fin": "09:48"
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
