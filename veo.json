@@ -537,13 +537,7 @@
           "fin": "00:00"
         }
       ],
-      "Domingo": [
-        {
-          "nombre": "El Cazador y la Reina del Hielo",
-          "inicio": "00:00",
-          "fin": "10:43"
-        }
-      ]
+      "Domingo": []
     },
     "Golden.cl": {
       "Lunes": [],
