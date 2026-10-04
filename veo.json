@@ -250,6 +250,11 @@
           "nombre": "Plan de vuelo",
           "inicio": "21:54",
           "fin": "23:59"
+        },
+        {
+          "nombre": "500 días con ella",
+          "inicio": "23:59",
+          "fin": "01:57"
         }
       ],
       "Martes": [],
