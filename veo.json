@@ -215,7 +215,13 @@
       ]
     },
     "Cinecanal.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Terremoto 8.5",
+          "inicio": "00:00",
+          "fin": "09:00"
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
