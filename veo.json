@@ -493,7 +493,13 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "M3GAN 2.0",
+          "inicio": "12:29",
+          "fin": "14:38"
+        }
+      ]
     },
     "HBO2.cl": {
       "Lunes": [],
