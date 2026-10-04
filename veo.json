@@ -170,6 +170,11 @@
           "nombre": "Planet Action",
           "inicio": "00:50",
           "fin": "11:00"
+        },
+        {
+          "nombre": "Planet Action",
+          "inicio": "11:00",
+          "fin": "11:30"
         }
       ],
       "Martes": [],
