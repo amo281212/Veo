@@ -165,7 +165,13 @@
   ],
   "programacion": {
     "AMC.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Planet Action",
+          "inicio": "00:50",
+          "fin": "11:00"
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
