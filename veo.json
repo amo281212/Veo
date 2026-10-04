@@ -173,11 +173,6 @@
       "Sábado": [],
       "Domingo": [
         {
-          "nombre": "Making the Movies",
-          "inicio": "00:05",
-          "fin": "10:00"
-        },
-        {
           "nombre": "2067",
           "inicio": "10:00",
           "fin": "12:00"
