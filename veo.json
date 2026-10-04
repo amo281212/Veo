@@ -175,6 +175,11 @@
           "nombre": "Planet Action",
           "inicio": "11:00",
           "fin": "11:30"
+        },
+        {
+          "nombre": "2067",
+          "inicio": "11:30",
+          "fin": "13:30"
         }
       ],
       "Martes": [],
