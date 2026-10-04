@@ -185,6 +185,11 @@
           "nombre": "El Maestro Luchador",
           "inicio": "13:30",
           "fin": "15:30"
+        },
+        {
+          "nombre": "Maestras del Engaño",
+          "inicio": "15:30",
+          "fin": "17:20"
         }
       ],
       "Martes": [],
