@@ -205,6 +205,11 @@
           "nombre": "Nueva York en Junio",
           "inicio": "22:00",
           "fin": "22:50"
+        },
+        {
+          "nombre": "2012",
+          "inicio": "22:50",
+          "fin": "01:40"
         }
       ],
       "Martes": [],
