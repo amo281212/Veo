@@ -487,7 +487,13 @@
       ]
     },
     "HBO.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Atracción Peligrosa",
+          "inicio": "01:01",
+          "fin": "09:00"
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
