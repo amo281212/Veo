@@ -220,6 +220,11 @@
           "nombre": "Planet Action",
           "inicio": "11:00",
           "fin": "11:30"
+        },
+        {
+          "nombre": "Ben-Hur",
+          "inicio": "11:30",
+          "fin": "13:35"
         }
       ],
       "Martes": [],
