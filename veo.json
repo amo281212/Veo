@@ -257,7 +257,13 @@
           "fin": "01:57"
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Algo azul",
+          "inicio": "01:57",
+          "fin": "09:00"
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
