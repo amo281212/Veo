@@ -252,7 +252,13 @@
           "fin": "01:45"
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Planet Action",
+          "inicio": "01:40",
+          "fin": "11:00"
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
