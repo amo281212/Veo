@@ -539,6 +539,11 @@
           "nombre": "La Batalla de Riddick",
           "inicio": "00:59",
           "fin": "09:00"
+        },
+        {
+          "nombre": "300",
+          "inicio": "09:00",
+          "fin": "11:05"
         }
       ],
       "Miércoles": [],
