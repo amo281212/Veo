@@ -180,6 +180,11 @@
           "nombre": "2067",
           "inicio": "11:30",
           "fin": "13:30"
+        },
+        {
+          "nombre": "El Maestro Luchador",
+          "inicio": "13:30",
+          "fin": "15:30"
         }
       ],
       "Martes": [],
