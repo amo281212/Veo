@@ -245,6 +245,11 @@
           "nombre": "Violación de domicilio",
           "inicio": "19:05",
           "fin": "21:54"
+        },
+        {
+          "nombre": "Plan de vuelo",
+          "inicio": "21:54",
+          "fin": "23:59"
         }
       ],
       "Martes": [],
