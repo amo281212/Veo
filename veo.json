@@ -262,6 +262,11 @@
           "nombre": "Algo azul",
           "inicio": "01:57",
           "fin": "09:00"
+        },
+        {
+          "nombre": "Yo, traidor",
+          "inicio": "09:00",
+          "fin": "11:25"
         }
       ],
       "Miércoles": [],
