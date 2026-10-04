@@ -579,6 +579,11 @@
           "nombre": "Tornados",
           "inicio": "21:00",
           "fin": "23:10"
+        },
+        {
+          "nombre": "No te sueltes",
+          "inicio": "23:10",
+          "fin": "01:00"
         }
       ],
       "Miércoles": [],
