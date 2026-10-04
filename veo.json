@@ -521,7 +521,13 @@
       ]
     },
     "Golden.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Amor en línea",
+          "inicio": "00:50",
+          "fin": "09:03"
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
