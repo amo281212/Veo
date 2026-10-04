@@ -574,6 +574,11 @@
           "nombre": "El Justiciero",
           "inicio": "18:40",
           "fin": "21:00"
+        },
+        {
+          "nombre": "Tornados",
+          "inicio": "21:00",
+          "fin": "23:10"
         }
       ],
       "Miércoles": [],
