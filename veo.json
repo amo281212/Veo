@@ -426,7 +426,13 @@
           "fin": "00:00"
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "It (Eso)",
+          "inicio": "00:00",
+          "fin": "02:28"
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
