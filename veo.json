@@ -544,6 +544,11 @@
           "nombre": "300",
           "inicio": "09:00",
           "fin": "11:05"
+        },
+        {
+          "nombre": "Last Week Tonight with John Oliver (T13, E25)",
+          "inicio": "11:05",
+          "fin": "11:51"
         }
       ],
       "Miércoles": [],
