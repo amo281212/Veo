@@ -1738,6 +1738,12 @@
           "inicio": "13:30",
           "fin": "15:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "My wife and kids",
+          "inicio": "15:00",
+          "fin": "16:30",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
