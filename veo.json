@@ -950,12 +950,6 @@
       "Sábado": [],
       "Domingo": [
         {
-          "nombre": "Flash",
-          "inicio": "19:26",
-          "fin": "22:01",
-          "descripcion": ""
-        },
-        {
           "nombre": "Linternas (T1, E8)",
           "inicio": "22:01",
           "fin": "23:00",
