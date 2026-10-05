@@ -2177,7 +2177,14 @@
           "descripcion": "Después de que un avión se estrellara en Alaska, un grupo de seis trabajadores del petróleo, junto a un cazador experto, deberán sobrevivir a las inclemencias del tiempo y, peor aún, enfrentar una manada de lobos hambrientos que los persigue a cada paso."
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "The Big Bang Theory",
+          "inicio": "00:06",
+          "fin": "10:29",
+          "descripcion": "Temporada 11 | Episodio 6"
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
