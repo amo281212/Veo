@@ -1658,7 +1658,14 @@
       "Domingo": []
     },
     "Sony.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Vecinos",
+          "inicio": "13:25",
+          "fin": "13:55",
+          "descripcion": "Serie mexicana."
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
