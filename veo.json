@@ -600,56 +600,7 @@
       ],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Malvada",
-          "inicio": "10:44",
-          "fin": "12:31",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Roomie",
-          "inicio": "12:31",
-          "fin": "14:16",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Mirreyes contra godínez: Las Vegas",
-          "inicio": "14:16",
-          "fin": "15:53",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Desastre en familia",
-          "inicio": "15:53",
-          "fin": "17:36",
-          "descripcion": ""
-        },
-        {
-          "nombre": "¡Qué despadre!",
-          "inicio": "17:36",
-          "fin": "19:21",
-          "descripcion": ""
-        },
-        {
-          "nombre": "No Manches Frida 2",
-          "inicio": "19:21",
-          "fin": "21:14",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Dolittle",
-          "inicio": "21:14",
-          "fin": "23:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Una Esposa de Mentira",
-          "inicio": "23:00",
-          "fin": "01:08",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [],
       "Domingo": [
         {
