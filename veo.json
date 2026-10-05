@@ -1916,7 +1916,14 @@
           "descripcion": "Un detective de policía sobrevive milagrosamente a un atentado en el que asesinan a su esposa y, tras despertar de un coma de siete años, emprende una violenta venganza contra los responsables."
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Instinto predador",
+          "inicio": "01:33",
+          "fin": "11:01",
+          "descripcion": "Un grupo de cazadores y guías en una zona remota de la naturaleza salvaje debe enfrentarse a una brutal lucha por la supervivencia cuando un depredador letal y desconocido comienza a acecharlos uno por uno."
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
