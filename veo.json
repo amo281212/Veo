@@ -382,20 +382,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "Un viaje de diez metros",
-          "inicio": "19:04",
-          "fin": "22:04",
-          "descripcion": ""
-        },
-        {
-          "nombre": "¡A ganar!",
-          "inicio": "22:04",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "Cinemax.cl": {
       "Lunes": [
