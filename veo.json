@@ -1020,6 +1020,12 @@
           "inicio": "09:00",
           "fin": "10:30",
           "descripcion": "Un grupo de amigos decide pasar una noche juntos en una casa aislada, pero lo que comienza como una velada tranquila pronto se convierte en una experiencia aterradora. A medida que pasan las horas, deberán descubrir qué está ocurriendo y luchar por sobrevivir hasta el amanecer."
+        },
+        {
+          "nombre": "El cazador y la reina del hielo",
+          "inicio": "10:30",
+          "fin": "12:30",
+          "descripcion": "Mucho antes de enfrentarse a Blancanieves, el Cazador se ve atrapado en el conflicto entre dos poderosas reinas que gobiernan con magia y crueldad. Junto a un grupo de guerreros, deberá desafiar sus fuerzas para impedir que un reino entero caiga bajo su dominio."
         }
       ],
       "Miércoles": [],
