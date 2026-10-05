@@ -1264,7 +1264,14 @@
           "descripcion": "Una pareja que está por cumplir 40 años, sus hijos se odian el uno al otro, económicamente no andan bien y su relación matrimonial peligra con la separación."
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Hasta que el Cuerpo Aguante",
+          "inicio": "00:00",
+          "fin": "10:00",
+          "descripcion": "Cinco amigas se reúnen después de 10 años en una despedida de soltera alocada en Miami, pero todo cambia cuando accidentalmente matan a un stripper masculino."
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
