@@ -637,11 +637,6 @@
       "Sábado": [],
       "Domingo": [
         {
-          "nombre": "Tornado",
-          "inicio": "20:04",
-          "fin": "22:08"
-        },
-        {
           "nombre": "2012",
           "inicio": "22:08",
           "fin": "00:58"
