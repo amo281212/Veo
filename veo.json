@@ -602,20 +602,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "Luna de Miel en Familia",
-          "inicio": "20:51",
-          "fin": "23:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Un verano inolvidable",
-          "inicio": "23:00",
-          "fin": "00:50",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "GoldenEdge.cl": {
       "Lunes": [
