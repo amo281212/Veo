@@ -1343,6 +1343,12 @@
           "inicio": "11:30",
           "fin": "13:20",
           "descripcion": "En 1918, Pearl vive aislada en una granja junto a sus padres mientras sueña con convertirse en una estrella. Su frustración por una vida limitada comienza a transformarse en una peligrosa obsesión mientras intenta alcanzar la fama y escapar de su realidad."
+        },
+        {
+          "nombre": "Halloween",
+          "inicio": "13:20",
+          "fin": "15:10",
+          "descripcion": "Quince años después de cometer un terrible crimen, Michael Myers escapa de una institución psiquiátrica y regresa a su ciudad natal. En la noche de Halloween, Laurie Strode y un grupo de jóvenes se convierten en su objetivo mientras el asesino vuelve a sembrar el terror."
         }
       ],
       "Martes": [],
