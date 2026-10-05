@@ -1212,7 +1212,14 @@
       "Domingo": []
     },
     "HBOXtreme.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Los sustitutos",
+          "inicio": "00:00",
+          "fin": "09:33",
+          "descripcion": "En un futuro donde las personas viven sus vidas a través de robots idénticos a ellos, un agente del FBI investiga una serie de asesinatos que amenazan este mundo aparentemente perfecto. Al verse obligado a salir de su propia realidad virtual, descubrirá una peligrosa conspiración."
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
