@@ -1026,6 +1026,12 @@
           "inicio": "10:30",
           "fin": "12:30",
           "descripcion": "Mucho antes de enfrentarse a Blancanieves, el Cazador se ve atrapado en el conflicto entre dos poderosas reinas que gobiernan con magia y crueldad. Junto a un grupo de guerreros, deberá desafiar sus fuerzas para impedir que un reino entero caiga bajo su dominio."
+        },
+        {
+          "nombre": "Escape bajo fuego",
+          "inicio": "12:30",
+          "fin": "14:37",
+          "descripcion": "Un exmilitar se ve atrapado en una peligrosa situación cuando un grupo armado toma el control de un edificio y comienza a poner vidas en riesgo. Para escapar con vida, deberá utilizar sus habilidades y enfrentarse a los atacantes mientras busca una salida."
         }
       ],
       "Miércoles": [],
