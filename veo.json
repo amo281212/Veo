@@ -2163,7 +2163,14 @@
       "Domingo": []
     },
     "WarnerChannel.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Godzilla y Kong: El Nuevo Imperio",
+          "inicio": "19:56",
+          "fin": "22:00",
+          "descripcion": "Godzilla y Kong se unen para enfrentar a una colosal amenaza no descubierta escondida dentro de la tierra que desafía su propia existencia y la humanidad."
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
