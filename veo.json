@@ -840,14 +840,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "Godzilla y Kong: El Nuevo Imperio",
-          "inicio": "23:00",
-          "fin": "01:01",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "HBO2.cl": {
       "Lunes": [
