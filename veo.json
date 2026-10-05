@@ -1480,6 +1480,12 @@
           "inicio": "22:00",
           "fin": "23:55",
           "descripcion": "Bridget Jones es una mujer soltera que decide comenzar un diario para cambiar algunos aspectos de su vida y encontrar el amor. Entre situaciones divertidas, inseguridades y dos hombres muy diferentes, deberá descubrir qué es lo que realmente quiere."
+        },
+        {
+          "nombre": "Bridget Jones: Al borde de la razón",
+          "inicio": "23:55",
+          "fin": "01:55",
+          "descripcion": "Bridget parece haber encontrado la felicidad junto a Mark Darcy, pero sus inseguridades y los malentendidos comienzan a complicar su relación. Cuando aparece nuevamente Daniel Cleaver, Bridget se verá envuelta en un divertido enredo amoroso que pondrá a prueba su confianza."
         }
       ],
       "Martes": [],
