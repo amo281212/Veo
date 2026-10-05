@@ -1575,6 +1575,12 @@
           "inicio": "20:05",
           "fin": "22:00",
           "descripcion": "En una Inglaterra del siglo XIX infestada de zombis, las hermanas Bennet han sido entrenadas para combatir a los muertos vivientes mientras buscan su lugar en la sociedad. Elizabeth deberá lidiar con sus sentimientos hacia el orgulloso señor Darcy en medio de una creciente amenaza."
+        },
+        {
+          "nombre": "Patient Zero",
+          "inicio": "22:00",
+          "fin": "23:30",
+          "descripcion": "Una pandemia transforma a gran parte de la humanidad en criaturas violentas y sedientas de sangre. Un hombre con una extraña inmunidad posee la capacidad de comunicarse con los infectados y podría ser la clave para encontrar una cura antes de que sea demasiado tarde."
         }
       ],
       "Martes": [],
