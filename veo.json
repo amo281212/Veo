@@ -541,6 +541,11 @@
           "nombre": "Mañana empieza todo",
           "inicio": "12:45",
           "fin": "14:53"
+        },
+        {
+          "nombre": "Luna de Miel en Familia",
+          "inicio": "14:53",
+          "fin": "17:00"
         }
       ],
       "Martes": [],
