@@ -1732,6 +1732,12 @@
           "inicio": "12:00",
           "fin": "13:30",
           "descripcion": ""
+        },
+        {
+          "nombre": "Vecinos",
+          "inicio": "13:30",
+          "fin": "15:00",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
