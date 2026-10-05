@@ -629,7 +629,13 @@
       ]
     },
     "GoldenEdge.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Justicia ciega",
+          "inicio": "01:02",
+          "fin": "10:30"
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
