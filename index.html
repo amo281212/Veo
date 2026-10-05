@@ -149,6 +149,13 @@ border-radius:0;
 position:relative
 }
 
+/* Día que ya tiene programación */
+.day-title.has-programs{
+background:#25372d;
+color:#d9f0df;
+border-radius:8px;
+}
+
 .day-title::after{
 content:"›";
 position:absolute;
@@ -211,6 +218,14 @@ flex-shrink:0
 
 .add{
 margin-top:15px
+}
+
+/* Borrar toda la programación del día */
+.delete-all-programs{
+margin-top:10px;
+background:#292c33;
+color:#d6a6a6;
+font-size:14px;
 }
 
 .program-editor{
@@ -1831,6 +1846,20 @@ document.createElement(
 boton.className=
 "day-title";
 
+const programas=
+datos[dia]||
+[];
+
+if(
+programas.length>0
+){
+
+boton.classList.add(
+"has-programs"
+);
+
+}
+
 boton.textContent=
 dia;
 
@@ -1850,10 +1879,6 @@ document.createElement(
 
 contenido.className=
 "day-content";
-
-const programas=
-datos[dia]||
-[];
 
 programas.forEach(
 programa=>{
@@ -1911,6 +1936,35 @@ contenido.appendChild(
 botonAgregar
 );
 
+
+/* =====================================================
+   BOTÓN BORRAR TODOS LOS PROGRAMAS
+===================================================== */
+
+const botonBorrarTodos=
+document.createElement(
+"button"
+);
+
+botonBorrarTodos.className=
+"delete-all-programs";
+
+botonBorrarTodos.textContent=
+"Borrar todos los programas";
+
+botonBorrarTodos.onclick=
+function(){
+
+eliminarTodosLosProgramas(
+dia
+);
+
+};
+
+contenido.appendChild(
+botonBorrarTodos
+);
+
 bloque.appendChild(
 boton
 );
@@ -1926,8 +1980,132 @@ bloque
 }
 );
 
+
 }
 
+
+/* =====================================================
+   BORRAR TODOS LOS PROGRAMAS DE UN DÍA
+===================================================== */
+
+async function eliminarTodosLosProgramas(
+dia
+){
+
+const bloqueDia=
+document.querySelector(
+'.day[data-day="'+
+dia+
+'"]'
+);
+
+if(!bloqueDia){
+
+return;
+
+}
+
+const programas=
+bloqueDia.querySelectorAll(
+".program"
+);
+
+if(
+programas.length===0
+){
+
+return;
+
+}
+
+if(
+!confirm(
+"¿Borrar todos los programas de "+dia+"?"
+)
+){
+
+return;
+
+}
+
+const estadoAnterior=
+JSON.parse(
+JSON.stringify(
+estado
+)
+);
+
+const boton=
+bloqueDia.querySelector(
+".delete-all-programs"
+);
+
+if(boton){
+
+boton.disabled=
+true;
+
+boton.textContent=
+"Borrando...";
+
+}
+
+programas.forEach(
+programa=>
+programa.remove()
+);
+
+bloqueDia
+.querySelector(
+".day-title"
+)
+.classList.remove(
+"has-programs"
+);
+
+const guardado=
+await guardarProgramacionDesdeDOM();
+
+if(
+guardado
+){
+
+if(boton){
+
+boton.disabled=
+false;
+
+boton.textContent=
+"Borrar todos los programas";
+
+}
+
+return;
+
+}
+
+estado=
+estadoAnterior;
+
+const canal=
+obtenerCanalPorClave(
+canalActualClave
+);
+
+if(canal){
+
+cargarProgramacion(
+canal
+);
+
+}
+
+}
+
+
+/* =====================================================
+   CREAR PROGRAMA
+===================================================== */
 
 function crearPrograma(
 nombre,
@@ -2168,6 +2346,28 @@ botonBorrar.textContent=
 "Eliminando...";
 
 programa.remove();
+
+const dia=
+programa.closest(
+".day"
+);
+
+if(
+dia&&
+!dia.querySelector(
+".program"
+)
+){
+
+dia
+.querySelector(
+".day-title"
+)
+.classList.remove(
+"has-programs"
+);
+
+}
 
 const guardado=
 await guardarProgramacionDesdeDOM();
@@ -2657,6 +2857,14 @@ nuevoPrograma,
 botonAgregar
 );
 
+bloqueDia
+.querySelector(
+".day-title"
+)
+.classList.add(
+"has-programs"
+);
+
 const guardado=
 await guardarProgramacionDesdeDOM();
 
@@ -2669,6 +2877,14 @@ editor.remove();
 }else{
 
 nuevoPrograma.remove();
+
+bloqueDia
+.querySelector(
+".day-title"
+)
+.classList.remove(
+"has-programs"
+);
 
 botonGuardar.disabled=
 false;
