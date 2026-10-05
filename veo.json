@@ -568,7 +568,13 @@
           "fin": "00:37"
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "El cielo en tu mirada",
+          "inicio": "00:37",
+          "fin": "09:09"
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [
