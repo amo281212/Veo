@@ -2233,6 +2233,42 @@
           "descripcion": "En un futuro distópico, un brillante y despiadado magnate de la tecnología revolutioniza el entretenimiento al crear un juego de disparos en masa multijugador online donde jugadores reales controlan a convictos condenados a muerte en campos de batalla reales para ganar su libertad."
         },
         {
+          "nombre": "The Big Bang Theory",
+          "inicio": "01:30",
+          "fin": "11:13",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Two and a Half Men",
+          "inicio": "11:13",
+          "fin": "13:42",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Cobra Kai",
+          "inicio": "13:42",
+          "fin": "14:19",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Todopoderoso 2",
+          "inicio": "14:19",
+          "fin": "16:06",
+          "descripcion": "Un ambicioso congresista recién electo ve su vida patas arriba cuando el mismísimo Dios se le aparece para ordenarle que construya un arca gigante ante una inminente inundación mundial."
+        },
+        {
+          "nombre": "Angry Birds 2: La película",
+          "inicio": "16:06",
+          "fin": "17:44",
+          "descripcion": "Los enfadados pájaros y los intrigantes cerdos verdes deben dejar de lado sus diferencias y formar una insólita alianza cuando una nueva y misteriosa amenaza desde una isla helada pone en peligro la supervivencia de ambos hogares."
+        },
+        {
+          "nombre": "Será Anunciado",
+          "inicio": "17:44",
+          "fin": "17:54",
+          "descripcion": ""
+        },
+        {
           "nombre": "Batman eternamente",
           "inicio": "17:54",
           "fin": "20:17",
@@ -2251,7 +2287,50 @@
           "descripcion": "Un excontrabandista que creía haber dejado atrás su vida criminal se ve obligado a volver a las andadas para saldar las deudas de su cuñado, embarcándose en una arriesgada misión marítima de contrabando de billetes falsos entre Panamá y Nueva Orleans antes de que su familia pague las consecuencias."
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "The Big Bang Theory",
+          "inicio": "01:30",
+          "fin": "11:13",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Two and a Half Men",
+          "inicio": "11:13",
+          "fin": "13:42",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Cobra Kai",
+          "inicio": "13:42",
+          "fin": "14:19",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Todopoderoso 2",
+          "inicio": "14:19",
+          "fin": "16:06",
+          "descripcion": "Un ambicioso congresista recién electo ve su vida patas arriba cuando el mismísimo Dios se le aparece para ordenarle que construya un arca gigante ante una inminente inundación mundial."
+        },
+        {
+          "nombre": "Angry Birds 2: La película",
+          "inicio": "16:06",
+          "fin": "17:44",
+          "descripcion": "Los enfadados pájaros y los intrigantes cerdos verdes deben dejar de lado sus diferencias y formar una insólita alianza cuando una nueva y misteriosa amenaza desde una isla helada pone en peligro la supervivencia de ambos hogares."
+        },
+        {
+          "nombre": "Será Anunciado",
+          "inicio": "17:44",
+          "fin": "17:54",
+          "descripcion": ""
+        },
+        {
+          "nombre": "Batman eternamente",
+          "inicio": "17:54",
+          "fin": "20:17",
+          "descripcion": "El Caballero de la Noche debe enfrentarse a una peligrosa alianza de villanos en Ciudad Gótica, formados por un exmpleado megalómano transformado en Enigma y un desquiciado exfiscal de distrito conocido como Dos Caras, mientras cuenta con la ayuda de un joven acróbata circense que se convierte en su compañero Robin."
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
