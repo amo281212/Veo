@@ -1643,6 +1643,12 @@
           "inicio": "22:00",
           "fin": "23:44",
           "descripcion": "Un grupo de exploradores se adentra en una cueva desconocida en busca de una antigua reliquia. Lo que comienza como una aventura se transforma en una pesadilla cuando quedan atrapados bajo tierra y descubren que no están solos."
+        },
+        {
+          "nombre": "La trampa del asesino",
+          "inicio": "23:44",
+          "fin": "01:29",
+          "descripcion": "Una joven se convierte en el objetivo de un peligroso asesino que ha preparado una elaborada trampa para atraparla. Mientras intenta escapar y descubrir quién está detrás de la persecución, deberá enfrentarse a una amenaza que parece estar siempre un paso adelante."
         }
       ],
       "Miércoles": [],
