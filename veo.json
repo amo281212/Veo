@@ -1979,7 +1979,14 @@
       "Domingo": []
     },
     "TNT.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "El Vengador Del Futuro",
+          "inicio": "14:10",
+          "fin": "16:20",
+          "descripcion": "En un futuro distópico donde la Tierra está devastada, un obrero visita una clínica de recuerdos virtuales para experimentar una vida de espía, pero el proceso sale mal y se convierte en el fugitivo más buscado por las autoridades."
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
