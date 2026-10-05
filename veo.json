@@ -2287,7 +2287,14 @@
           "descripcion": "Un excontrabandista que creía haber dejado atrás su vida criminal se ve obligado a volver a las andadas para saldar las deudas de su cuñado, embarcándose en una arriesgada misión marítima de contrabando de billetes falsos entre Panamá y Nueva Orleans antes de que su familia pague las consecuencias."
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "The Big Bang Theory",
+          "inicio": "01:30",
+          "fin": "11:13",
+          "descripcion": ""
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
