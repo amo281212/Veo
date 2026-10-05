@@ -265,11 +265,6 @@
       "Sábado": [],
       "Domingo": [
         {
-          "nombre": "Carnada",
-          "inicio": "18:05",
-          "fin": "19:35"
-        },
-        {
           "nombre": "Noé",
           "inicio": "19:35",
           "fin": "22:00"
