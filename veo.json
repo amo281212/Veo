@@ -2080,7 +2080,14 @@
       "Domingo": []
     },
     "FX.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "La Delgada Línea Roja",
+          "inicio": "14:36",
+          "fin": "17:55",
+          "descripcion": "Un grupo de soldados estadounidenses enfrenta la brutalidad y la crudeza de la guerra durante la cruenta batalla de Guadalcanal en el Pacífico durante la Segunda Guerra Mundial, mientras cuestionan el sentido del conflicto y la naturaleza humana."
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
