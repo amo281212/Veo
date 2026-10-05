@@ -1589,7 +1589,14 @@
           "descripcion": "Un asesino profesional conocido como Léon vive aislado y sigue estrictamente las reglas de su trabajo. Su vida cambia cuando una joven vecina queda sola tras el asesinato de su familia y busca refugio junto a él, creando un vínculo inesperado mientras ambos enfrentan a sus perseguidores."
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "The Goldbergs",
+          "inicio": "01:24",
+          "fin": "10:50",
+          "descripcion": "— Temporada 10"
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
