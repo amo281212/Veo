@@ -1071,7 +1071,14 @@
       "Domingo": []
     },
     "HBOFamily.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Un Amigo Abominable",
+          "inicio": "00:00",
+          "fin": "09:00",
+          "descripcion": "Tras haber encontrado a un joven Yeti en el techo de su apartamento, una adolescente y sus amigos se aventuran para llevarlo con su familia en el himalaya."
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
