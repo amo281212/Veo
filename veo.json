@@ -958,7 +958,14 @@
       ]
     },
     "HBO2.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Furia de Titanes 2",
+          "inicio": "00:00",
+          "fin": "09:00",
+          "descripcion": "Diez años después de derrotar al Kraken, Perseo lleva una vida tranquila junto a su hijo hasta que los dioses vuelven a estar en peligro. Para salvar a Zeus y evitar que los Titanes escapen, deberá embarcarse en una nueva batalla llena de criaturas y peligros."
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
