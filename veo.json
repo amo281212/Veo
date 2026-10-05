@@ -1878,7 +1878,14 @@
       "Domingo": []
     },
     "Space.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Dos inútiles en patrulla",
+          "inicio": "14:57",
+          "fin": "16:51",
+          "descripcion": "Para pagar la costosa boda de su hija, un veterano policía de Nueva York y su compañero intentan recuperar una valiosa tarjeta de béisbol robada, enfrentándose sin proponérselo a peligrosos gánsteres."
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
