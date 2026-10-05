@@ -1720,6 +1720,12 @@
           "inicio": "02:00",
           "fin": "10:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Betty's Call",
+          "inicio": "10:00",
+          "fin": "12:00",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
