@@ -169,94 +169,112 @@
         {
           "nombre": "Planet Action",
           "inicio": "00:50",
-          "fin": "11:00"
+          "fin": "11:00",
+          "descripcion": ""
         },
         {
           "nombre": "Planet Action",
           "inicio": "11:00",
-          "fin": "11:30"
+          "fin": "11:30",
+          "descripcion": ""
         },
         {
           "nombre": "2067",
           "inicio": "11:30",
-          "fin": "13:30"
+          "fin": "13:30",
+          "descripcion": ""
         },
         {
           "nombre": "El Maestro Luchador",
           "inicio": "13:30",
-          "fin": "15:30"
+          "fin": "15:30",
+          "descripcion": ""
         },
         {
           "nombre": "Maestras del Engaño",
           "inicio": "15:30",
-          "fin": "17:20"
+          "fin": "17:20",
+          "descripcion": ""
         },
         {
           "nombre": "Creed",
           "inicio": "17:20",
-          "fin": "19:40"
+          "fin": "19:40",
+          "descripcion": ""
         },
         {
           "nombre": "Creed II",
           "inicio": "19:40",
-          "fin": "22:00"
+          "fin": "22:00",
+          "descripcion": ""
         },
         {
           "nombre": "Nueva York en Junio",
           "inicio": "22:00",
-          "fin": "22:50"
+          "fin": "22:50",
+          "descripcion": ""
         },
         {
           "nombre": "2012",
           "inicio": "22:50",
-          "fin": "01:40"
+          "fin": "01:40",
+          "descripcion": ""
         }
       ],
       "Martes": [
         {
           "nombre": "Planet Action",
           "inicio": "01:40",
-          "fin": "11:00"
+          "fin": "11:00",
+          "descripcion": ""
         },
         {
           "nombre": "Planet Action",
           "inicio": "11:00",
-          "fin": "11:30"
+          "fin": "11:30",
+          "descripcion": ""
         },
         {
           "nombre": "Los tres mosqueteros: Milady",
           "inicio": "11:30",
-          "fin": "13:35"
+          "fin": "13:35",
+          "descripcion": ""
         },
         {
           "nombre": "Ben-Hur",
           "inicio": "13:35",
-          "fin": "15:50"
+          "fin": "15:50",
+          "descripcion": ""
         },
         {
           "nombre": "La novia de mis sueños",
           "inicio": "15:50",
-          "fin": "17:45"
+          "fin": "17:45",
+          "descripcion": ""
         },
         {
           "nombre": "Noé",
           "inicio": "17:45",
-          "fin": "20:15"
+          "fin": "20:15",
+          "descripcion": ""
         },
         {
           "nombre": "Negocios fuera de control",
           "inicio": "20:15",
-          "fin": "22:00"
+          "fin": "22:00",
+          "descripcion": ""
         },
         {
           "nombre": "El precio del mañana",
           "inicio": "22:00",
-          "fin": "23:50"
+          "fin": "23:50",
+          "descripcion": ""
         },
         {
           "nombre": "John Wick: Sin control",
           "inicio": "23:50",
-          "fin": "01:45"
+          "fin": "01:45",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
@@ -267,12 +285,14 @@
         {
           "nombre": "Noé",
           "inicio": "19:35",
-          "fin": "22:00"
+          "fin": "22:00",
+          "descripcion": ""
         },
         {
           "nombre": "2012",
           "inicio": "22:00",
-          "fin": "00:50"
+          "fin": "00:50",
+          "descripcion": ""
         }
       ]
     },
@@ -281,79 +301,94 @@
         {
           "nombre": "Terremoto 8.5",
           "inicio": "00:00",
-          "fin": "09:00"
+          "fin": "09:00",
+          "descripcion": ""
         },
         {
           "nombre": "Una familia numerosa",
           "inicio": "09:00",
-          "fin": "11:17"
+          "fin": "11:17",
+          "descripcion": ""
         },
         {
           "nombre": "Amor sin barreras",
           "inicio": "11:17",
-          "fin": "14:35"
+          "fin": "14:35",
+          "descripcion": ""
         },
         {
           "nombre": "La gran aventura de los Lunnis y el libro mágico",
           "inicio": "14:35",
-          "fin": "16:25"
+          "fin": "16:25",
+          "descripcion": ""
         },
         {
           "nombre": "Los ojos de Tammy Faye",
           "inicio": "16:25",
-          "fin": "19:05"
+          "fin": "19:05",
+          "descripcion": ""
         },
         {
           "nombre": "Violación de domicilio",
           "inicio": "19:05",
-          "fin": "21:54"
+          "fin": "21:54",
+          "descripcion": ""
         },
         {
           "nombre": "Plan de vuelo",
           "inicio": "21:54",
-          "fin": "23:59"
+          "fin": "23:59",
+          "descripcion": ""
         },
         {
           "nombre": "500 días con ella",
           "inicio": "23:59",
-          "fin": "01:57"
+          "fin": "01:57",
+          "descripcion": ""
         }
       ],
       "Martes": [
         {
           "nombre": "Algo azul",
           "inicio": "01:57",
-          "fin": "09:00"
+          "fin": "09:00",
+          "descripcion": ""
         },
         {
           "nombre": "Yo, traidor",
           "inicio": "09:00",
-          "fin": "11:25"
+          "fin": "11:25",
+          "descripcion": ""
         },
         {
           "nombre": "Me enamoré de una sirena",
           "inicio": "11:25",
-          "fin": "13:53"
+          "fin": "13:53",
+          "descripcion": ""
         },
         {
           "nombre": "Violación de domicilio",
           "inicio": "13:53",
-          "fin": "16:43"
+          "fin": "16:43",
+          "descripcion": ""
         },
         {
           "nombre": "Toys",
           "inicio": "16:43",
-          "fin": "19:19"
+          "fin": "19:19",
+          "descripcion": ""
         },
         {
           "nombre": "500 días con ella",
           "inicio": "19:19",
-          "fin": "21:16"
+          "fin": "21:16",
+          "descripcion": ""
         },
         {
           "nombre": "El exótico Hotel Marigold",
           "inicio": "21:16",
-          "fin": "00:00"
+          "fin": "00:00",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
@@ -364,12 +399,14 @@
         {
           "nombre": "Un viaje de diez metros",
           "inicio": "19:04",
-          "fin": "22:04"
+          "fin": "22:04",
+          "descripcion": ""
         },
         {
           "nombre": "¡A ganar!",
           "inicio": "22:04",
-          "fin": "00:00"
+          "fin": "00:00",
+          "descripcion": ""
         }
       ]
     },
@@ -378,79 +415,94 @@
         {
           "nombre": "41",
           "inicio": "00:00",
-          "fin": "09:48"
+          "fin": "09:48",
+          "descripcion": ""
         },
         {
           "nombre": "Robin Hood",
           "inicio": "09:48",
-          "fin": "12:14"
+          "fin": "12:14",
+          "descripcion": ""
         },
         {
           "nombre": "Van Helsing: El Cazador de Monstruos",
           "inicio": "12:14",
-          "fin": "14:31"
+          "fin": "14:31",
+          "descripcion": ""
         },
         {
           "nombre": "El hombre araña 2",
           "inicio": "14:31",
-          "fin": "16:51"
+          "fin": "16:51",
+          "descripcion": ""
         },
         {
           "nombre": "Robin Hood",
           "inicio": "16:51",
-          "fin": "19:20"
+          "fin": "19:20",
+          "descripcion": ""
         },
         {
           "nombre": "Van Helsing: El Cazador de Monstruos",
           "inicio": "19:20",
-          "fin": "21:37"
+          "fin": "21:37",
+          "descripcion": ""
         },
         {
           "nombre": "El hombre araña 2",
           "inicio": "21:37",
-          "fin": "00:00"
+          "fin": "00:00",
+          "descripcion": ""
         }
       ],
       "Martes": [
         {
           "nombre": "It (Eso)",
           "inicio": "00:00",
-          "fin": "02:28"
+          "fin": "02:28",
+          "descripcion": ""
         },
         {
           "nombre": "Downton Abbey",
           "inicio": "02:28",
-          "fin": "10:00"
+          "fin": "10:00",
+          "descripcion": ""
         },
         {
           "nombre": "Mountainhead",
           "inicio": "10:00",
-          "fin": "12:00"
+          "fin": "12:00",
+          "descripcion": ""
         },
         {
           "nombre": "Ip Man 4: El Final",
           "inicio": "12:00",
-          "fin": "14:01"
+          "fin": "14:01",
+          "descripcion": ""
         },
         {
           "nombre": "Shrek para siempre",
           "inicio": "14:01",
-          "fin": "15:32"
+          "fin": "15:32",
+          "descripcion": ""
         },
         {
           "nombre": "Matrix: Resurrecciones",
           "inicio": "15:32",
-          "fin": "18:21"
+          "fin": "18:21",
+          "descripcion": ""
         },
         {
           "nombre": "Mountainhead",
           "inicio": "18:21",
-          "fin": "20:23"
+          "fin": "20:23",
+          "descripcion": ""
         },
         {
           "nombre": "Ip Man 4: El Final",
           "inicio": "20:23",
-          "fin": "00:00"
+          "fin": "00:00",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
@@ -461,12 +513,14 @@
         {
           "nombre": "Shrek 2",
           "inicio": "20:36",
-          "fin": "22:08"
+          "fin": "22:08",
+          "descripcion": ""
         },
         {
           "nombre": "Rápido y Furioso",
           "inicio": "22:08",
-          "fin": "00:00"
+          "fin": "00:00",
+          "descripcion": ""
         }
       ]
     },
@@ -475,99 +529,118 @@
         {
           "nombre": "Amor en línea",
           "inicio": "00:50",
-          "fin": "09:03"
+          "fin": "09:03",
+          "descripcion": ""
         },
         {
           "nombre": "Amor a Primera visa",
           "inicio": "09:03",
-          "fin": "11:03"
+          "fin": "11:03",
+          "descripcion": ""
         },
         {
           "nombre": "Solo amigos",
           "inicio": "11:03",
-          "fin": "12:45"
+          "fin": "12:45",
+          "descripcion": ""
         },
         {
           "nombre": "Mañana empieza todo",
           "inicio": "12:45",
-          "fin": "14:53"
+          "fin": "14:53",
+          "descripcion": ""
         },
         {
           "nombre": "Luna de Miel en Familia",
           "inicio": "14:53",
-          "fin": "17:00"
+          "fin": "17:00",
+          "descripcion": ""
         },
         {
           "nombre": "Pixeles",
           "inicio": "17:00",
-          "fin": "18:52"
+          "fin": "18:52",
+          "descripcion": ""
         },
         {
           "nombre": "Los Fockers: La familia de mi esposo",
           "inicio": "18:52",
-          "fin": "20:59"
+          "fin": "20:59",
+          "descripcion": ""
         },
         {
           "nombre": "La familia de mi novia",
           "inicio": "20:59",
-          "fin": "23:00"
+          "fin": "23:00",
+          "descripcion": ""
         },
         {
           "nombre": "Mentiroso, mentiroso",
           "inicio": "23:00",
-          "fin": "00:37"
+          "fin": "00:37",
+          "descripcion": ""
         }
       ],
       "Martes": [
         {
           "nombre": "El cielo en tu mirada",
           "inicio": "00:37",
-          "fin": "09:09"
+          "fin": "09:09",
+          "descripcion": ""
         },
         {
           "nombre": "Compartiendo la Navidad",
           "inicio": "09:09",
-          "fin": "10:45"
+          "fin": "10:45",
+          "descripcion": ""
         },
         {
           "nombre": "Por mis bigotes",
           "inicio": "10:45",
-          "fin": "12:29"
+          "fin": "12:29",
+          "descripcion": ""
         },
         {
           "nombre": "Chicos Buenos",
           "inicio": "12:29",
-          "fin": "14:08"
+          "fin": "14:08",
+          "descripcion": ""
         },
         {
           "nombre": "Los Fockers: La familia de mi esposo",
           "inicio": "14:08",
-          "fin": "16:15"
+          "fin": "16:15",
+          "descripcion": ""
         },
         {
           "nombre": "Mentiroso, mentiroso",
           "inicio": "16:15",
-          "fin": "17:50"
+          "fin": "17:50",
+          "descripcion": ""
         },
         {
           "nombre": "Borrón y vida nueva",
           "inicio": "17:50",
-          "fin": "19:25"
+          "fin": "19:25",
+          "descripcion": ""
         },
         {
           "nombre": "Mamá Reinventada",
           "inicio": "19:25",
-          "fin": "21:12"
+          "fin": "21:12",
+          "descripcion": ""
         },
         {
           "nombre": "Matando cabos",
           "inicio": "21:12",
-          "fin": "23:00"
+          "fin": "23:00",
+          "descripcion": ""
         },
         {
           "nombre": "La vida inmoral de la pareja ideal",
           "inicio": "23:00",
-          "fin": "00:39"
+          "fin": "00:39",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
@@ -576,42 +649,50 @@
         {
           "nombre": "Malvada",
           "inicio": "10:44",
-          "fin": "12:31"
+          "fin": "12:31",
+          "descripcion": ""
         },
         {
           "nombre": "El Roomie",
           "inicio": "12:31",
-          "fin": "14:16"
+          "fin": "14:16",
+          "descripcion": ""
         },
         {
           "nombre": "Mirreyes contra godínez: Las Vegas",
           "inicio": "14:16",
-          "fin": "15:53"
+          "fin": "15:53",
+          "descripcion": ""
         },
         {
           "nombre": "Desastre en familia",
           "inicio": "15:53",
-          "fin": "17:36"
+          "fin": "17:36",
+          "descripcion": ""
         },
         {
           "nombre": "¡Qué despadre!",
           "inicio": "17:36",
-          "fin": "19:21"
+          "fin": "19:21",
+          "descripcion": ""
         },
         {
           "nombre": "No Manches Frida 2",
           "inicio": "19:21",
-          "fin": "21:14"
+          "fin": "21:14",
+          "descripcion": ""
         },
         {
           "nombre": "Dolittle",
           "inicio": "21:14",
-          "fin": "23:00"
+          "fin": "23:00",
+          "descripcion": ""
         },
         {
           "nombre": "Una Esposa de Mentira",
           "inicio": "23:00",
-          "fin": "01:08"
+          "fin": "01:08",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
@@ -619,12 +700,14 @@
         {
           "nombre": "Luna de Miel en Familia",
           "inicio": "20:51",
-          "fin": "23:00"
+          "fin": "23:00",
+          "descripcion": ""
         },
         {
           "nombre": "Un verano inolvidable",
           "inicio": "23:00",
-          "fin": "00:50"
+          "fin": "00:50",
+          "descripcion": ""
         }
       ]
     },
@@ -633,12 +716,14 @@
         {
           "nombre": "Justicia ciega",
           "inicio": "01:02",
-          "fin": "10:30"
+          "fin": "10:30",
+          "descripcion": "Evan Lake, un veterano agente de la CIA, descubre que está comenzando a perder la vista. Mientras lucha con su inminente ceguera, que cada vez se hace más fuerte, tiene que enfrentarse a su última misión."
         },
         {
           "nombre": "El precio del mañana",
           "inicio": "10:30",
-          "fin": "12:24"
+          "fin": "12:24",
+          "descripcion": ""
         }
       ],
       "Martes": [],
@@ -650,12 +735,14 @@
         {
           "nombre": "2012",
           "inicio": "20:10",
-          "fin": "23:00"
+          "fin": "23:00",
+          "descripcion": ""
         },
         {
           "nombre": "Terremoto: la falla de San Andrés",
           "inicio": "23:00",
-          "fin": "01:02"
+          "fin": "01:02",
+          "descripcion": ""
         }
       ]
     },
@@ -664,99 +751,118 @@
         {
           "nombre": "Atracción Peligrosa",
           "inicio": "01:01",
-          "fin": "09:00"
+          "fin": "09:00",
+          "descripcion": ""
         },
         {
           "nombre": "Stray Kids: The dominATE Experience",
           "inicio": "09:00",
-          "fin": "11:33"
+          "fin": "11:33",
+          "descripcion": ""
         },
         {
           "nombre": "DC Liga de supermascotas",
           "inicio": "11:33",
-          "fin": "13:24"
+          "fin": "13:24",
+          "descripcion": ""
         },
         {
           "nombre": "Luna de Miel en Familia",
           "inicio": "13:24",
-          "fin": "15:29"
+          "fin": "15:29",
+          "descripcion": ""
         },
         {
           "nombre": "Barbie",
           "inicio": "15:29",
-          "fin": "17:32"
+          "fin": "17:32",
+          "descripcion": ""
         },
         {
           "nombre": "War (T1, E1)",
           "inicio": "17:32",
-          "fin": "18:32"
+          "fin": "18:32",
+          "descripcion": ""
         },
         {
           "nombre": "Shazam!",
           "inicio": "18:32",
-          "fin": "20:52"
+          "fin": "20:52",
+          "descripcion": ""
         },
         {
           "nombre": "Mortal Kombat II",
           "inicio": "20:52",
-          "fin": "22:55"
+          "fin": "22:55",
+          "descripcion": ""
         },
         {
           "nombre": "Wonka",
           "inicio": "22:55",
-          "fin": "00:59"
+          "fin": "00:59",
+          "descripcion": ""
         }
       ],
       "Martes": [
         {
           "nombre": "La Batalla de Riddick",
           "inicio": "00:59",
-          "fin": "09:00"
+          "fin": "09:00",
+          "descripcion": ""
         },
         {
           "nombre": "300",
           "inicio": "09:00",
-          "fin": "11:05"
+          "fin": "11:05",
+          "descripcion": ""
         },
         {
           "nombre": "Last Week Tonight with John Oliver (T13, E25)",
           "inicio": "11:05",
-          "fin": "11:51"
+          "fin": "11:51",
+          "descripcion": ""
         },
         {
           "nombre": "War (T1, E1)",
           "inicio": "11:51",
-          "fin": "12:51"
+          "fin": "12:51",
+          "descripcion": ""
         },
         {
           "nombre": "Batman",
           "inicio": "12:51",
-          "fin": "15:56"
+          "fin": "15:56",
+          "descripcion": ""
         },
         {
           "nombre": "Vista por última vez",
           "inicio": "15:56",
-          "fin": "17:40"
+          "fin": "17:40",
+          "descripcion": ""
         },
         {
           "nombre": "Linternas (T1, E8)",
           "inicio": "17:40",
-          "fin": "18:40"
+          "fin": "18:40",
+          "descripcion": ""
         },
         {
           "nombre": "El Justiciero",
           "inicio": "18:40",
-          "fin": "21:00"
+          "fin": "21:00",
+          "descripcion": ""
         },
         {
           "nombre": "Tornados",
           "inicio": "21:00",
-          "fin": "23:10"
+          "fin": "23:10",
+          "descripcion": ""
         },
         {
           "nombre": "No te sueltes",
           "inicio": "23:10",
-          "fin": "01:00"
+          "fin": "01:00",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
@@ -767,32 +873,38 @@
         {
           "nombre": "M3GAN 2.0",
           "inicio": "12:29",
-          "fin": "14:38"
+          "fin": "14:38",
+          "descripcion": ""
         },
         {
           "nombre": "Escape bajo fuego",
           "inicio": "14:38",
-          "fin": "16:45"
+          "fin": "16:45",
+          "descripcion": ""
         },
         {
           "nombre": "Demon Slayer: Kimetsu No Yaiba - Castillo Infinito",
           "inicio": "16:45",
-          "fin": "19:26"
+          "fin": "19:26",
+          "descripcion": ""
         },
         {
           "nombre": "Flash",
           "inicio": "19:26",
-          "fin": "22:01"
+          "fin": "22:01",
+          "descripcion": ""
         },
         {
           "nombre": "Linternas (T1, E8)",
           "inicio": "22:01",
-          "fin": "23:00"
+          "fin": "23:00",
+          "descripcion": ""
         },
         {
           "nombre": "Godzilla y Kong: El Nuevo Imperio",
           "inicio": "23:00",
-          "fin": "01:01"
+          "fin": "01:01",
+          "descripcion": ""
         }
       ]
     },
