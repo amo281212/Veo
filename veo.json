@@ -477,20 +477,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "Shrek 2",
-          "inicio": "20:36",
-          "fin": "22:08",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rápido y Furioso",
-          "inicio": "22:08",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "Golden.cl": {
       "Lunes": [
