@@ -762,7 +762,14 @@
           "descripcion": "Kane sigue tras la pista de unas maletas con artefactos nucleares y, ahora, sospecha que su contacto en la CIA podría estar conspirando contra él. Kane sabe que el tiempo corre en su contra."
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Contrato mortal",
+          "inicio": "00:49",
+          "fin": "10:49",
+          "descripcion": "Dos empresas compiten entre sí por controlar las comunicaciones entre el norte y el sur de África. Esto abre la puerta a un juego de intereses comerciales en los que todo valdrá para hacerse con el control de la banda ancha."
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
