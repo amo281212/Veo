@@ -2233,24 +2233,6 @@
           "descripcion": "En un futuro distópico, un brillante y despiadado magnate de la tecnología revolutioniza el entretenimiento al crear un juego de disparos en masa multijugador online donde jugadores reales controlan a convictos condenados a muerte en campos de batalla reales para ganar su libertad."
         },
         {
-          "nombre": "The Big Bang Theory",
-          "inicio": "01:30",
-          "fin": "11:13",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Two and a Half Men",
-          "inicio": "11:13",
-          "fin": "13:42",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cobra Kai",
-          "inicio": "13:42",
-          "fin": "14:19",
-          "descripcion": ""
-        },
-        {
           "nombre": "Todopoderoso 2",
           "inicio": "14:19",
           "fin": "16:06",
@@ -2287,26 +2269,7 @@
           "descripcion": "Un excontrabandista que creía haber dejado atrás su vida criminal se ve obligado a volver a las andadas para saldar las deudas de su cuñado, embarcándose en una arriesgada misión marítima de contrabando de billetes falsos entre Panamá y Nueva Orleans antes de que su familia pague las consecuencias."
         }
       ],
-      "Miércoles": [
-        {
-          "nombre": "The Big Bang Theory",
-          "inicio": "01:30",
-          "fin": "11:13",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Two and a Half Men",
-          "inicio": "11:13",
-          "fin": "13:42",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cobra Kai",
-          "inicio": "13:42",
-          "fin": "14:19",
-          "descripcion": ""
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
