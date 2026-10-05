@@ -2011,7 +2011,14 @@
           "descripcion": "Un hombre acepta el encargo de trasladar el cuerpo sin vida de su jefe a un remoto pueblo de la Patagonia, pero el viaje se descontrola al verse envuelto en una red de corrupción local, violencia y secretos oscuros."
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Cincuenta Sombras de Grey",
+          "inicio": "00:06",
+          "fin": "02:16",
+          "descripcion": "La vida de la estudiante de literatura, Anastasia Steele, cambia para siempre cuando conoce al apuesto y multimillonario Christian Grey."
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
