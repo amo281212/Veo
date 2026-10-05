@@ -1857,6 +1857,12 @@
           "inicio": "20:00",
           "fin": "22:00",
           "descripcion": "Un joven cazador de tesoros y su astuto mentor se embarcan en una peligrosa búsqueda alrededor del mundo para encontrar una fortuna perdida de hace 500 años y descubrir pistas sobre su hermano desaparecido."
+        },
+        {
+          "nombre": "Guardianes de la Bahía",
+          "inicio": "22:00",
+          "fin": "23:55",
+          "descripcion": "Mitch descubre a unos criminales que amenazan la bahía que juró proteger, ahora él y sus compañeros harán lo imposible para salvar la playa."
         }
       ],
       "Miércoles": [],
