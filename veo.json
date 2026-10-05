@@ -1714,7 +1714,14 @@
           "descripcion": "La falla de San Andrés finalmente cede y desencadena un devastador terremoto que sacude California. El piloto de rescate Ray Gaines y su exesposa Emma atraviesan el estado para encontrar y salvar a su hija Blake, atrapada en medio de la catástrofe."
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "The Good Doctor",
+          "inicio": "02:00",
+          "fin": "10:00",
+          "descripcion": ""
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
