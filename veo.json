@@ -2201,6 +2201,12 @@
           "inicio": "13:30",
           "fin": "15:45",
           "descripcion": ""
+        },
+        {
+          "nombre": "En el Tornado",
+          "inicio": "15:45",
+          "fin": "17:32",
+          "descripcion": "Los habitantes del pueblo de Silverston ven como su ciudad es destrozada por la llegada de unos Tornados devastadores."
         }
       ],
       "Miércoles": [],
