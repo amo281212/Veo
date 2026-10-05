@@ -715,14 +715,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "Terremoto: la falla de San Andrés",
-          "inicio": "23:00",
-          "fin": "01:02",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "HBO.cl": {
       "Lunes": [
