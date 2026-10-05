@@ -1208,7 +1208,14 @@
       "Domingo": []
     },
     "HBOPop.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Cirque du Freak: El aprendiz de vampiro",
+          "inicio": "00:00",
+          "fin": "09:50",
+          "descripcion": "Darren Shan, un adolescente fascinado por el mundo de los monstruos y las rarezas, termina convirtiéndose en aprendiz de un misterioso vampiro. Su nueva vida lo lleva a formar parte de un circo sobrenatural y a enfrentarse a peligros que jamás imaginó."
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
