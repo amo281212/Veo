@@ -964,6 +964,12 @@
           "inicio": "00:00",
           "fin": "09:00",
           "descripcion": "Diez años después de derrotar al Kraken, Perseo lleva una vida tranquila junto a su hijo hasta que los dioses vuelven a estar en peligro. Para salvar a Zeus y evitar que los Titanes escapen, deberá embarcarse en una nueva batalla llena de criaturas y peligros."
+        },
+        {
+          "nombre": "300",
+          "inicio": "09:00",
+          "fin": "11:05",
+          "descripcion": "El rey Leónidas lidera a 300 guerreros espartanos para defender su tierra ante el enorme ejército persa comandado por Jerjes. En el desfiladero de las Termópilas, deberán resistir en una batalla desigual mientras luchan por proteger la libertad de su pueblo."
         }
       ],
       "Martes": [],
