@@ -281,20 +281,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "Noé",
-          "inicio": "19:35",
-          "fin": "22:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "2012",
-          "inicio": "22:00",
-          "fin": "00:50",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "Cinecanal.cl": {
       "Lunes": [
