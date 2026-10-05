@@ -1488,7 +1488,14 @@
           "descripcion": "Bridget parece haber encontrado la felicidad junto a Mark Darcy, pero sus inseguridades y los malentendidos comienzan a complicar su relación. Cuando aparece nuevamente Daniel Cleaver, Bridget se verá envuelta en un divertido enredo amoroso que pondrá a prueba su confianza."
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Intercambio de hermanas: Navidad en el pueblo",
+          "inicio": "01:55",
+          "fin": "10:10",
+          "descripcion": "Dos hermanas deciden intercambiar sus vidas durante las fiestas navideñas y terminan descubriendo que el cambio es mucho más complicado de lo que imaginaban. Entre nuevos entornos, romances y situaciones inesperadas, ambas encontrarán una nueva perspectiva sobre lo que realmente desean."
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
