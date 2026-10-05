@@ -818,12 +818,6 @@
       "Sábado": [],
       "Domingo": [
         {
-          "nombre": "2012",
-          "inicio": "20:10",
-          "fin": "23:00",
-          "descripcion": ""
-        },
-        {
           "nombre": "Terremoto: la falla de San Andrés",
           "inicio": "23:00",
           "fin": "01:02",
