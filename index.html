@@ -230,7 +230,9 @@ max-width:500px;
 background:#191b20;
 border:1px solid #292c33;
 border-radius:16px;
-padding:22px
+padding:22px;
+max-height:90vh;
+overflow-y:auto
 }
 
 .program-editor-box h2{
@@ -245,7 +247,8 @@ color:#aaa;
 font-size:14px
 }
 
-.program-editor-box input{
+.program-editor-box input,
+.program-editor-box textarea{
 width:100%;
 padding:13px;
 margin-bottom:17px;
@@ -254,10 +257,17 @@ border-radius:9px;
 background:#101114;
 color:white;
 font-size:16px;
-outline:none
+outline:none;
+font-family:Arial,sans-serif
 }
 
-.program-editor-box input:focus{
+.program-editor-box textarea{
+min-height:100px;
+resize:vertical
+}
+
+.program-editor-box input:focus,
+.program-editor-box textarea:focus{
 border-color:#666
 }
 
@@ -1290,6 +1300,12 @@ fin||
 String(
 programa.fin||
 ""
+),
+
+descripcion:
+String(
+programa.descripcion||
+""
 )
 
 };
@@ -1720,7 +1736,11 @@ programa.dataset.start
 fin:
 normalizarHora(
 programa.dataset.end
-)
+),
+
+descripcion:
+programa.dataset.description||
+""
 
 })
 );
@@ -1856,7 +1876,9 @@ programa.nombre,
 inicio||
 programa.inicio,
 fin||
-programa.fin
+programa.fin,
+programa.descripcion||
+""
 
 )
 
@@ -1910,7 +1932,8 @@ bloque
 function crearPrograma(
 nombre,
 inicio,
-fin
+fin,
+descripcion=""
 ){
 
 const inicioNormalizado=
@@ -1938,6 +1961,10 @@ inicio;
 programa.dataset.end=
 finNormalizado||
 fin;
+
+programa.dataset.description=
+descripcion||
+"";
 
 const tiempo=
 document.createElement(
@@ -2198,6 +2225,10 @@ programa.dataset.start;
 const horaFin=
 programa.dataset.end;
 
+const descripcion=
+programa.dataset.description||
+"";
+
 const editor=
 document.createElement(
 "div"
@@ -2241,6 +2272,13 @@ pattern="[0-9]{4}"
 placeholder="0420"
 >
 
+<label>Descripción (opcional)</label>
+
+<textarea
+class="editor-descripcion"
+placeholder="Descripción del programa..."
+></textarea>
+
 <div class="editor-buttons">
 
 <button class="cancel-editor">
@@ -2265,6 +2303,12 @@ editor.querySelector(
 ".editor-nombre"
 )
 .value=
+nombre;
+
+editor.querySelector(
+".editor-inicio"
+)
+.value=
 horaParaEntrada(
 horaInicio
 );
@@ -2276,6 +2320,12 @@ editor.querySelector(
 horaParaEntrada(
 horaFin
 );
+
+editor.querySelector(
+".editor-descripcion"
+)
+.value=
+descripcion;
 
 prepararCampoHora(
 editor.querySelector(
@@ -2336,6 +2386,14 @@ editor
 .value
 );
 
+const nuevaDescripcion=
+editor
+.querySelector(
+".editor-descripcion"
+)
+.value
+.trim();
+
 if(
 !nuevoNombre||
 !nuevaHoraInicio||
@@ -2377,6 +2435,9 @@ nuevaHoraInicio;
 
 programa.dataset.end=
 nuevaHoraFin;
+
+programa.dataset.description=
+nuevaDescripcion;
 
 const guardado=
 await guardarProgramacionDesdeDOM();
@@ -2453,6 +2514,13 @@ pattern="[0-9]{4}"
 placeholder="0420"
 >
 
+<label>Descripción (opcional)</label>
+
+<textarea
+class="editor-descripcion"
+placeholder="Descripción del programa..."
+></textarea>
+
 <div class="editor-buttons">
 
 <button class="cancel-editor">
@@ -2532,6 +2600,14 @@ editor
 .value
 );
 
+const nuevaDescripcion=
+editor
+.querySelector(
+".editor-descripcion"
+)
+.value
+.trim();
+
 if(
 !nuevoNombre||
 !nuevaHoraInicio||
@@ -2569,7 +2645,8 @@ crearPrograma(
 
 nuevoNombre,
 nuevaHoraInicio,
-nuevaHoraFin
+nuevaHoraFin,
+nuevaDescripcion
 
 );
 
@@ -3606,6 +3683,23 @@ escaparXML(
 programa.nombre
 )+
 '</title>\n';
+
+if(
+programa.descripcion&&
+String(
+programa.descripcion
+)
+.trim()
+){
+
+xml+=
+'    <desc lang="es">'+
+escaparXML(
+programa.descripcion
+)+
+'</desc>\n';
+
+}
 
 xml+=
 '  </programme>\n';
