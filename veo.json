@@ -1381,7 +1381,14 @@
           "descripcion": "Una adolescente descubre una misteriosa mano embalsamada que permite invocar espíritus y comienza a experimentar con sus amigos. Lo que al principio parece un juego emocionante pronto se convierte en una aterradora experiencia cuando algunos van demasiado lejos y liberan fuerzas que no pueden controlar."
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Gremlins",
+          "inicio": "00:01",
+          "fin": "11:06",
+          "descripcion": "Billy recibe como regalo una extraña criatura llamada Gizmo, junto con unas simples reglas para cuidarla. Cuando estas reglas se rompen, unas pequeñas criaturas traviesas comienzan a sembrar el caos en el pueblo durante la Navidad."
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
