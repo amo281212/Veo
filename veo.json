@@ -1139,7 +1139,14 @@
           "descripcion": "Peter Parker adquiere increíbles poderes después de ser mordido por una araña genéticamente modificada. Mientras aprende a controlar sus nuevas habilidades, deberá enfrentarse al Duende Verde y asumir la responsabilidad de proteger a quienes ama."
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "El espantatiburones",
+          "inicio": "01:33",
+          "fin": "09:00",
+          "descripcion": "Oscar, un pequeño pez con grandes sueños, se encuentra inesperadamente en el centro de una mentira que lo convierte en un héroe. Mientras intenta mantener su nueva fama, deberá enfrentarse a tiburones, problemas y situaciones que podrían revelar la verdad."
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
