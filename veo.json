@@ -1815,7 +1815,14 @@
           "descripcion": "Una joven chef descubre que su tradicional receta navideña podría ser la clave para salvar el restaurante familiar. Mientras se acerca la Navidad, deberá superar viejas diferencias y abrirse a nuevas oportunidades que podrían cambiar su vida."
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Magic Mike XXL",
+          "inicio": "01:30",
+          "fin": "10:30",
+          "descripcion": "Tres años después de retirarse del escenario, Mike se reúne con sus antiguos compañeros para emprender un viaje hacia Myrtle Beach. En el camino, el grupo se prepara para una última gran presentación, mientras Mike descubre nuevas razones para volver a hacer lo que mejor sabe."
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
