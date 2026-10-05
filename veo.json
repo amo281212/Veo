@@ -634,6 +634,11 @@
           "nombre": "Justicia ciega",
           "inicio": "01:02",
           "fin": "10:30"
+        },
+        {
+          "nombre": "El precio del mañana",
+          "inicio": "10:30",
+          "fin": "12:24"
         }
       ],
       "Martes": [],
