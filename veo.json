@@ -1262,7 +1262,14 @@
           "descripcion": "Barry es un piloto aventurero que es reclutado por CIA para formar parte en una de las mayores operaciones encubiertas en la historia de los Estados Unidos."
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Jurassic Park III",
+          "inicio": "00:00",
+          "fin": "09:31",
+          "descripcion": "El paleontólogo Alan Grant acepta visitar Isla Sorna para realizar un supuesto recorrido aéreo, pero pronto descubre que ha sido llevado allí por otros motivos. Varado en una isla llena de dinosaurios, deberá encontrar la manera de sobrevivir y escapar."
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
