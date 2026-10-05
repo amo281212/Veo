@@ -2233,7 +2233,14 @@
           "descripcion": "En un futuro distópico, un brillante y despiadado magnate de la tecnología revolutioniza el entretenimiento al crear un juego de disparos en masa multijugador online donde jugadores reales controlan a convictos condenados a muerte en campos de batalla reales para ganar su libertad."
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "The Big Bang Theory",
+          "inicio": "01:30",
+          "fin": "10:51",
+          "descripcion": ""
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
