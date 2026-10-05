@@ -1539,7 +1539,14 @@
       "Domingo": []
     },
     "SONYMOVIES.uy": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Hailey Dean Mysteries: A Marriage Made for Murder",
+          "inicio": "10:45",
+          "fin": "12:25",
+          "descripcion": ""
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
