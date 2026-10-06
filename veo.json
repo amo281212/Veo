@@ -2701,6 +2701,12 @@
           "inicio": "15:30",
           "fin": "16:20",
           "descripcion": "Líneas"
+        },
+        {
+          "nombre": "Chicago P.D.",
+          "inicio": "16:20",
+          "fin": "17:10",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
