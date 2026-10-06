@@ -1482,7 +1482,14 @@
           "descripcion": ""
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "El gran pez",
+          "inicio": "00:00",
+          "fin": "10:50",
+          "descripcion": "Un hombre intenta comprender la vida de su padre, un narrador de historias fantásticas que siempre ha mezclado la realidad con la imaginación. Mientras reconstruye sus increíbles aventuras, descubre la verdad detrás de los relatos y la relación entre ambos."
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
