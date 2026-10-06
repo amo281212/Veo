@@ -1839,44 +1839,7 @@
       "Domingo": []
     },
     "UniversalCinema.cl": {
-      "Lunes": [
-        {
-          "nombre": "El Juego del Miedo X",
-          "inicio": "13:40",
-          "fin": "15:40",
-          "descripcion": "John Kramer viaja a México en busca de un tratamiento experimental que podría salvarle la vida, pero descubre que ha sido víctima de una estafa. Decidido a vengarse, prepara una serie de elaboradas pruebas para quienes lo engañaron."
-        },
-        {
-          "nombre": "Laberinto",
-          "inicio": "15:40",
-          "fin": "17:25",
-          "descripcion": "Sarah debe adentrarse en un misterioso laberinto para rescatar a su hermano pequeño, que ha sido llevado por el rey de los duendes. En su camino encontrará criaturas fantásticas, acertijos y desafíos que pondrán a prueba su ingenio y determinación."
-        },
-        {
-          "nombre": "Marley y yo",
-          "inicio": "17:25",
-          "fin": "19:20",
-          "descripcion": "Una pareja recién casada adopta a Marley, un perro adorable pero extremadamente travieso que pondrá a prueba su paciencia. Mientras Marley crece junto a ellos, la familia vivirá momentos de alegría, dificultades y experiencias que cambiarán sus vidas."
-        },
-        {
-          "nombre": "Duna: Parte Dos",
-          "inicio": "19:20",
-          "fin": "22:00",
-          "descripcion": "Paul Atreides se une a los Fremen de Arrakis y emprende un camino de venganza contra quienes destruyeron a su familia. Mientras se acerca a Chani y a los habitantes del desierto, deberá enfrentar decisiones que pueden cambiar el destino de Arrakis y de toda la galaxia."
-        },
-        {
-          "nombre": "Wonka",
-          "inicio": "22:00",
-          "fin": "23:55",
-          "descripcion": "Sigue la maravillosa historia de cómo el mayor inventor del mundo, el mago y el chocolatero se convirtió en el querido Willy Wonka que conocemos hoy."
-        },
-        {
-          "nombre": "Una receta navideña",
-          "inicio": "23:55",
-          "fin": "01:30",
-          "descripcion": "Una joven chef descubre que su tradicional receta navideña podría ser la clave para salvar el restaurante familiar. Mientras se acerca la Navidad, deberá superar viejas diferencias y abrirse a nuevas oportunidades que podrían cambiar su vida."
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "Magic Mike XXL",
