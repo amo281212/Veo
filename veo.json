@@ -2168,6 +2168,12 @@
           "inicio": "00:00",
           "fin": "10:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Betty's call",
+          "inicio": "10:00",
+          "fin": "12:00",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
