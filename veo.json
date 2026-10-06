@@ -661,56 +661,7 @@
       "Domingo": []
     },
     "GoldenEdge.cl": {
-      "Lunes": [
-        {
-          "nombre": "Justicia ciega",
-          "inicio": "01:02",
-          "fin": "10:30",
-          "descripcion": "Evan Lake, un veterano agente de la CIA, descubre que está comenzando a perder la vista. Mientras lucha con su inminente ceguera, que cada vez se hace más fuerte, tiene que enfrentarse a su última misión."
-        },
-        {
-          "nombre": "El precio del mañana",
-          "inicio": "10:30",
-          "fin": "12:24",
-          "descripcion": "En una sociedad en la que se ha conseguido anular el gen que provoca el envejecimiento, todas las personas aparenten tener 25 años. El tiempo se utiliza como moneda de cambio para evitar la superpoblación. Will es un hombre sin recursos que, después de ser acusado falsamente de haber cometido un crimen, decide huir, secuestrando en su camino a una joven heredera de una prestigiosa familia."
-        },
-        {
-          "nombre": "Contrato mortal",
-          "inicio": "12:24",
-          "fin": "14:22",
-          "descripcion": "Dos empresas compiten entre sí por controlar las comunicaciones entre el norte y el sur de África. Esto abre la puerta a un juego de intereses comerciales en los que todo valdrá para hacerse con el control de la banda ancha."
-        },
-        {
-          "nombre": "Tornado",
-          "inicio": "14:22",
-          "fin": "16:22",
-          "descripcion": "El presentador del tiempo Bill Harding está tratando de que su esposa, la cazadora de tornados Jo, firme los papeles del divorcio para que él pueda casarse con su novia Melissa. Pero la madre naturaleza, en forma de una serie de tornados intensos que azotan Oklahoma, tiene otros planes. De pronto, los tres se unen a un equipo de cazadores de tornados en su intento por insertar un dispositivo de medición innovador en el corazón de los violentos fenómenos climáticos."
-        },
-        {
-          "nombre": "2012",
-          "inicio": "16:22",
-          "fin": "19:07",
-          "descripcion": "El Dr. Adrian Helmsley forma parte de un equipo geofísico internacional que investiga los efectos sobre la Tierra de la radiación procedente de las tormentas solares sin precedentes y descubre que el centro de la Tierra se está calentando. Advierte al presidente estadounidense, Thomas Wilson, que la corteza terrestre se ha vuelto inestable y que, si no se adoptan las medidas necesarias para salvar una porción de la población mundial, la raza humana está destinada a desaparecer. Entretanto, el escritor Jackson Curtis se topa con la misma información. Mientras que los líderes mundiales se apresuran a construir \"arcas\" para escapar del inminente cataclismo, Curtis lucha para encontrar una forma para salvar a su familia. Simultáneamente, las erupciones volcánicas y terremotos de intensidades nunca antes vistas siembran el caos en todo el mundo."
-        },
-        {
-          "nombre": "Terremoto: la falla de San Andrés",
-          "inicio": "19:07",
-          "fin": "21:06",
-          "descripcion": "La falla de San Andrés acaba cediendo ante las temibles fuerzas telúricas y desencadena un terremoto de magnitud 9 en California. Ante tal catástrofe, el piloto de helicóptero de búsqueda y rescate Ray y su ex esposa Emma viajan juntos desde Los Ángeles hasta San Francisco para salvar a su única hija, Blake. Pero su tortuoso viaje hacia el norte solamente es el comienzo del desmoronamiento de todo lo que creían firme en su vida."
-        },
-        {
-          "nombre": "Non-Stop: sin escalas",
-          "inicio": "21:06",
-          "fin": "23:00",
-          "descripcion": "Bill Marks es un veterano agente del servicio aéreo de los Air Marshalls que pasa por una mala etapa: tiene problemas con la bebida, y últimamente se toma su trabajo como una rutinaria tarea de vigilante a bordo de un avión. Sin embargo, en un viaje de Nueva York a Londres, recibe una serie de misteriosos mensajes de texto, en los que se le pide que inste al gobierno a hacer una transferencia de 150 millones de dólares a una cuenta secreta. En caso contrario, un pasajero morirá cada 20 minutos. El juego del gato y el ratón se desarrolla a 40.000 pies de altura y con la vida de 200 pasajeros pendiendo de un hilo."
-        },
-        {
-          "nombre": "El reto de la muerte",
-          "inicio": "23:00",
-          "fin": "00:49",
-          "descripcion": "Kane sigue tras la pista de unas maletas con artefactos nucleares y, ahora, sospecha que su contacto en la CIA podría estar conspirando contra él. Kane sabe que el tiempo corre en su contra."
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "Contrato mortal",
