@@ -165,62 +165,7 @@
   ],
   "programacion": {
     "AMC.cl": {
-      "Lunes": [
-        {
-          "nombre": "Planet Action",
-          "inicio": "00:50",
-          "fin": "11:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Planet Action",
-          "inicio": "11:00",
-          "fin": "11:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "2067",
-          "inicio": "11:30",
-          "fin": "13:30",
-          "descripcion": "En un futuro devastado por el cambio climático, Ethan debe viajar al futuro en busca de una cura para una misteriosa enfermedad que amenaza con acabar con la humanidad."
-        },
-        {
-          "nombre": "El Maestro Luchador",
-          "inicio": "13:30",
-          "fin": "15:30",
-          "descripcion": "Un profesor poco convencional se ve obligado a enfrentarse a diversos desafíos para proteger a sus alumnos y mantener el orden en su escuela. Con ingenio y determinación, descubrirá que puede ser mucho más capaz de lo que imaginaba."
-        },
-        {
-          "nombre": "Maestras del Engaño",
-          "inicio": "15:30",
-          "fin": "17:20",
-          "descripcion": "Una estafadora experta y una joven aprendiz unen fuerzas para engañar a hombres adinerados y conseguir grandes sumas de dinero. Pero cuando sus métodos comienzan a complicarse, deberán decidir hasta dónde están dispuestas a llegar."
-        },
-        {
-          "nombre": "Creed",
-          "inicio": "17:20",
-          "fin": "19:40",
-          "descripcion": "Adonis Johnson busca convertirse en un gran boxeador siguiendo el legado de su padre, el legendario Apollo Creed. Para lograrlo, recurre a Rocky Balboa, quien lo ayudará a enfrentar sus mayores desafíos dentro y fuera del ring."
-        },
-        {
-          "nombre": "Creed II",
-          "inicio": "19:40",
-          "fin": "22:00",
-          "descripcion": "Adonis Creed se prepara para enfrentar al hijo de Ivan Drago, el boxeador que años atrás derrotó a su padre en el ring. Con Rocky a su lado, deberá superar sus dudas y demostrar que está listo para defender el legado de su familia."
-        },
-        {
-          "nombre": "Nueva York en Junio",
-          "inicio": "22:00",
-          "fin": "22:50",
-          "descripcion": "Una joven llega a Nueva York en busca de nuevas oportunidades y termina viviendo una serie de encuentros que cambiarán su forma de ver el amor y la vida. Entre nuevas amistades y situaciones inesperadas, descubrirá que la ciudad puede guardar más de una sorpresa."
-        },
-        {
-          "nombre": "2012",
-          "inicio": "22:50",
-          "fin": "01:40",
-          "descripcion": "Cuando una serie de catástrofes naturales amenaza con destruir el mundo, un escritor lucha por mantener a salvo a su familia mientras la civilización comienza a colapsar. En medio del caos, deberán encontrar una forma de sobrevivir antes de que sea demasiado tarde."
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "Planet Action",
