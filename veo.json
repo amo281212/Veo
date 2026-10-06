@@ -1320,6 +1320,12 @@
           "inicio": "10:30",
           "fin": "12:55",
           "descripcion": "Peter Pan ha crecido y olvidado su infancia, pero el Capitán Garfio regresa para secuestrar a sus hijos y llevarlos al País de Nunca Jamás. Para rescatarlos, Peter deberá recuperar sus recuerdos y volver a enfrentarse a su antiguo enemigo."
+        },
+        {
+          "nombre": "Pie Pequeño",
+          "inicio": "12:55",
+          "fin": "14:35",
+          "descripcion": "Cuando un joven Yeti encuentra algo que creía que no existía: un humano. Estas noticias lo hacen famoso y ahora la comunidad Yeti se pregunta que hay allá."
         }
       ],
       "Viernes": [],
