@@ -724,6 +724,12 @@
           "inicio": "01:05",
           "fin": "03:07",
           "descripcion": "Seis amigos están en camino a un partido de fútbol cuando se encuentran con un pueblo fantasma llamado Ambrose cuyo principal atractivo es la casa de cera. Pronto descubren que algo no está bien en esta ciudad, que está completamente desierta, y cuyas figuras de cera son extremadamente realistas. Los seis amigos tendrán que luchar para sobrevivir y evitar ser las próximas exposiciones en la casa de cera."
+        },
+        {
+          "nombre": "Temporada de brujas",
+          "inicio": "03:07",
+          "fin": "10:07",
+          "descripcion": "Dos caballeros regresan de las Cruzadas a una Europa devastada por la peste y reciben la misión de escoltar a una joven acusada de brujería. Durante el peligroso viaje, comienzan a sospechar que fuerzas sobrenaturales podrían estar detrás de la epidemia."
         }
       ],
       "Jueves": [],
