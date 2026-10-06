@@ -1003,56 +1003,7 @@
       "Domingo": []
     },
     "HBO2.cl": {
-      "Lunes": [
-        {
-          "nombre": "Furia de Titanes 2",
-          "inicio": "00:00",
-          "fin": "09:00",
-          "descripcion": "Diez años después de derrotar al Kraken, Perseo lleva una vida tranquila junto a su hijo hasta que los dioses vuelven a estar en peligro. Para salvar a Zeus y evitar que los Titanes escapen, deberá embarcarse en una nueva batalla llena de criaturas y peligros."
-        },
-        {
-          "nombre": "300",
-          "inicio": "09:00",
-          "fin": "11:05",
-          "descripcion": "El rey Leónidas lidera a 300 guerreros espartanos para defender su tierra ante el enorme ejército persa comandado por Jerjes. En el desfiladero de las Termópilas, deberán resistir en una batalla desigual mientras luchan por proteger la libertad de su pueblo."
-        },
-        {
-          "nombre": "El intermediario",
-          "inicio": "11:05",
-          "fin": "13:05",
-          "descripcion": "Un hombre con experiencia en el mundo de las finanzas se ve involucrado en una peligrosa operación que rápidamente se sale de control. Mientras intenta protegerse y descubrir quién está detrás de la conspiración, deberá tomar decisiones que pondrán su vida en riesgo."
-        },
-        {
-          "nombre": "Supergirl",
-          "inicio": "13:05",
-          "fin": "15:00",
-          "descripcion": "Kara Zor-El llega a la Tierra y descubre que posee poderes extraordinarios similares a los de su primo Superman. Mientras aprende a controlar sus habilidades, deberá enfrentarse a una peligrosa amenaza y asumir la responsabilidad de proteger a quienes la rodean."
-        },
-        {
-          "nombre": "Amores Materialistas",
-          "inicio": "15:00",
-          "fin": "17:04",
-          "descripcion": "Una casamentera de Nueva York se ve atrapada en un complicado triángulo amoroso entre su expareja, un hombre con quien tuvo una relación en el pasado, y un pretendiente millonario. Mientras intenta encontrar la pareja perfecta para sus clientes, deberá descubrir qué significa realmente el amor para ella."
-        },
-        {
-          "nombre": "Mujer Maravilla 1984",
-          "inicio": "17:04",
-          "fin": "19:43",
-          "descripcion": "Diana Prince lleva una vida tranquila hasta que un misterioso artefacto capaz de conceder deseos desata una peligrosa amenaza. Mientras intenta detener al poderoso Maxwell Lord, también se reencontrará inesperadamente con alguien muy importante de su pasado."
-        },
-        {
-          "nombre": "Jurassic World: Renace",
-          "inicio": "19:43",
-          "fin": "22:05",
-          "descripcion": "Cinco años después de los acontecimientos anteriores, una expedición se adentra en una zona aislada donde aún sobreviven dinosaurios. Su misión cambia cuando descubren una peligrosa especie que podría contener la clave para un importante avance científico."
-        },
-        {
-          "nombre": "Supergirl",
-          "inicio": "22:05",
-          "fin": "00:00",
-          "descripcion": "Kara Zor-El llega a la Tierra y descubre que posee poderes extraordinarios similares a los de su primo Superman. Mientras aprende a controlar sus habilidades, deberá enfrentarse a una peligrosa amenaza y asumir la responsabilidad de proteger a quienes la rodean."
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "Máquinas Mortales",
