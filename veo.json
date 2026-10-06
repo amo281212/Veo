@@ -2757,7 +2757,14 @@
           "descripcion": ""
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "La Ley y el Orden: UVE",
+          "inicio": "00:00",
+          "fin": "08:50",
+          "descripcion": ""
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
