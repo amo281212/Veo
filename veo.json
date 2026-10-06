@@ -1976,7 +1976,14 @@
           "descripcion": "Una joven se convierte en el objetivo de un peligroso asesino que ha preparado una elaborada trampa para atraparla. Mientras intenta escapar y descubrir quién está detrás de la persecución, deberá enfrentarse a una amenaza que parece estar siempre un paso adelante."
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "The Goldbergs",
+          "inicio": "01:29",
+          "fin": "10:40",
+          "descripcion": ""
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
