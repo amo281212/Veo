@@ -498,7 +498,14 @@
           "descripcion": "Ip Man viaja a Estados Unidos para ayudar a su hijo y descubre que la comunidad china enfrenta conflictos y discriminación. Mientras busca un futuro para su familia, deberá demostrar una vez más el poder y la dignidad del kung fu."
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "Estafa telefónica",
+          "inicio": "00:00",
+          "fin": "09:34",
+          "descripcion": "Una mujer recibe una misteriosa llamada telefónica que la lleva a verse involucrada en una peligrosa estafa. Mientras intenta descubrir quién está detrás del engaño, deberá enfrentarse a una serie de situaciones cada vez más inesperadas."
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
