@@ -315,56 +315,7 @@
       "Domingo": []
     },
     "Cinecanal.cl": {
-      "Lunes": [
-        {
-          "nombre": "Terremoto 8.5",
-          "inicio": "00:00",
-          "fin": "09:00",
-          "descripcion": "Un devastador terremoto de magnitud 8,5 sacude una ciudad y provoca una cadena de destrucción y caos. Mientras los edificios se derrumban y las calles quedan bloqueadas, varias personas luchan por sobrevivir y reunirse con sus seres queridos."
-        },
-        {
-          "nombre": "Una familia numerosa",
-          "inicio": "09:00",
-          "fin": "11:17",
-          "descripcion": "Una pareja con una familia de numerosos hijos intenta equilibrar el trabajo, la vida cotidiana y las dificultades de criar a todos bajo un mismo techo. Entre situaciones caóticas y momentos inesperados, descubrirán que mantener unida a la familia no siempre es una tarea sencilla."
-        },
-        {
-          "nombre": "Amor sin barreras",
-          "inicio": "11:17",
-          "fin": "14:35",
-          "descripcion": "Dos jóvenes de barrios rivales se enamoran a pesar de las diferencias y los conflictos que separan a sus familias. Su relación deberá enfrentarse a prejuicios, rivalidades y decisiones que pondrán a prueba la fuerza de su amor."
-        },
-        {
-          "nombre": "La gran aventura de los Lunnis y el libro mágico",
-          "inicio": "14:35",
-          "fin": "16:25",
-          "descripcion": "Los Lunnis descubren un libro mágico que los transporta a un mundo lleno de fantasía y peligros. Junto a nuevos amigos, deberán superar distintos desafíos para recuperar el libro y salvar el mundo mágico."
-        },
-        {
-          "nombre": "Los ojos de Tammy Faye",
-          "inicio": "16:25",
-          "fin": "19:05",
-          "descripcion": "Tammy Faye y Jim Bakker construyen un imperio televisivo basado en la fe y se convierten en figuras muy populares de la televisión estadounidense. Sin embargo, el éxito, el dinero y los escándalos pondrán a prueba su relación y la imagen que han creado."
-        },
-        {
-          "nombre": "Violación de domicilio",
-          "inicio": "19:05",
-          "fin": "21:54",
-          "descripcion": "Una familia se muda a una nueva casa buscando comenzar una vida tranquila, pero pronto descubre que alguien ha estado entrando en su hogar sin dejar rastro. La situación se vuelve cada vez más peligrosa cuando intentan descubrir quién está detrás de estas inquietantes intrusiones."
-        },
-        {
-          "nombre": "Plan de vuelo",
-          "inicio": "21:54",
-          "fin": "23:59",
-          "descripcion": "Durante un vuelo de Berlín a Nueva York, una mujer descubre que su hija ha desaparecido misteriosamente y nadie recuerda haberla visto a bordo. Desesperada, deberá enfrentarse a una situación cada vez más inexplicable mientras intenta encontrarla."
-        },
-        {
-          "nombre": "500 días con ella",
-          "inicio": "23:59",
-          "fin": "01:57",
-          "descripcion": "Tom se enamora de Summer, una joven que no cree en el amor ni en las relaciones duraderas. Mientras recuerda los momentos que compartieron, intentará comprender qué salió mal y por qué una historia que parecía perfecta terminó de una manera inesperada."
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "Algo azul",
