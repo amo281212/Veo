@@ -2018,6 +2018,12 @@
           "inicio": "18:45",
           "fin": "20:25",
           "descripcion": "Drácula y su familia se embarcan en un lujoso crucero para disfrutar de unas vacaciones lejos del hotel. Allí, Drácula se enamora de la misteriosa capitana Ericka, sin sospechar que ella guarda un peligroso secreto relacionado con su familia."
+        },
+        {
+          "nombre": "Anaconda",
+          "inicio": "20:25",
+          "fin": "22:00",
+          "descripcion": "Un equipo de documentalistas se adentra en la selva amazónica para filmar a una tribu desconocida. Su expedición se convierte en una lucha por sobrevivir cuando un cazador obsesionado los obliga a enfrentarse a una gigantesca y mortal anaconda."
         }
       ],
       "Jueves": [],
