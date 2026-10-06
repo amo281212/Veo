@@ -272,6 +272,12 @@
           "inicio": "00:50",
           "fin": "12:00",
           "descripcion": "Planet Action es una serie de 25 minutos de gran ritmo que te lleva al borde de tu asiento. Desde tiroteos de vaqueros hasta coches en explosión y monstruos rugientes. Planet Action te lleva detrás de escena de las mejores películas de acción lanzadas."
+        },
+        {
+          "nombre": "El bebé de Bridget Jones",
+          "inicio": "12:00",
+          "fin": "14:15",
+          "descripcion": "El enfoque de Bridget en su carrera se ve interrumpido cuando se entera que está embarazada, pero el único problema es la identidad del padre de su bebé."
         }
       ],
       "Viernes": [],
