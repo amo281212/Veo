@@ -116,6 +116,29 @@ margin-top:10px;
 font-size:13px
 }
 
+.channel-navigation{
+display:flex;
+justify-content:center;
+gap:10px;
+width:100%;
+margin-top:16px
+}
+
+.channel-navigation button{
+flex:1;
+max-width:170px;
+padding:11px 14px;
+background:#4AA9D8;
+color:white;
+font-size:14px;
+font-weight:bold;
+border-radius:10px
+}
+
+.channel-navigation button:hover{
+background:#5BB8E5
+}
+
 .section{
 background:#191b20;
 border:1px solid #292c33;
@@ -412,6 +435,11 @@ onclick="editarCanal()"
 >
 Editar canal
 </button>
+
+<div
+id="channelNavigation"
+class="channel-navigation"
+></div>
 
 </div>
 
@@ -1607,6 +1635,87 @@ new Date().getDay()
 }
 
 
+function renderizarNavegacionCanal(){
+
+const contenedor=
+document.getElementById(
+"channelNavigation"
+);
+
+contenedor.innerHTML=
+"";
+
+const canales=
+obtenerCanales();
+
+const indice=
+canales.findIndex(
+canal=>
+canal.clave===
+canalActualClave
+);
+
+if(indice>0){
+
+const anterior=
+document.createElement(
+"button"
+);
+
+anterior.textContent=
+"‹ Anterior";
+
+anterior.onclick=
+function(){
+
+openChannelByKey(
+canales[
+indice-1
+].clave
+);
+
+};
+
+contenedor.appendChild(
+anterior
+);
+
+}
+
+if(
+indice>=0&&
+indice<
+canales.length-1
+){
+
+const siguiente=
+document.createElement(
+"button"
+);
+
+siguiente.textContent=
+"Siguiente ›";
+
+siguiente.onclick=
+function(){
+
+openChannelByKey(
+canales[
+indice+1
+].clave
+);
+
+};
+
+contenedor.appendChild(
+siguiente
+);
+
+}
+
+}
+
+
 function openChannelByKey(
 clave
 ){
@@ -1639,6 +1748,8 @@ canal.id;
 
 canalActualClave=
 canal.clave;
+
+renderizarNavegacionCanal();
 
 document.getElementById(
 "channelTitle"
