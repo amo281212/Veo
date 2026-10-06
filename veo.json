@@ -1078,6 +1078,12 @@
           "inicio": "11:20",
           "fin": "13:24",
           "descripcion": "Sigue la maravillosa historia de cómo el mayor inventor del mundo, el mago y el chocolatero se convirtió en el querido Willy Wonka que conocemos hoy."
+        },
+        {
+          "nombre": "Duna",
+          "inicio": "13:24",
+          "fin": "16:06",
+          "descripcion": "Paul Atreides viaja al peligroso planeta Arrakis junto a su familia, encargada de controlar la valiosa especia que mueve el universo. Tras una traición que cambia su destino, Paul deberá enfrentar nuevos peligros y descubrir el papel que está destinado a desempeñar."
         }
       ],
       "Jueves": [],
