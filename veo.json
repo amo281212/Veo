@@ -2677,7 +2677,14 @@
     },
     "UniversalTV.cl": {
       "Lunes": [],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "La Ley y el Orden — Derecho de Pernada",
+          "inicio": "13:00",
+          "fin": "13:50",
+          "descripcion": ""
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
