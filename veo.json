@@ -774,7 +774,14 @@
           "descripcion": "Frank Lucas construye un poderoso imperio de drogas en el Harlem de los años 70, aprovechando una red de contrabando para convertirse en uno de los criminales más influyentes de Nueva York. Un detective decidido a detenerlo comienza a seguirle el rastro y a desmantelar su organización."
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Ciudad de sombras",
+          "inicio": "01:50",
+          "fin": "10:29",
+          "descripcion": "Un detective privado investiga el asesinato de la amante de un político y descubre una compleja red de corrupción y secretos. Mientras se acerca a la verdad, se convierte en objetivo de quienes harán lo que sea para mantener sus oscuros negocios ocultos."
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
