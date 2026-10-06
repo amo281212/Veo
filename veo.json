@@ -898,6 +898,12 @@
           "inicio": "01:00",
           "fin": "09:00",
           "descripcion": "Cuando el agente Kay desaparece, el agente Jay debe viajar al pasado para arreglar las cosas y descubrir secretos en el universo que Kay no le ha contado."
+        },
+        {
+          "nombre": "El Alma de la Fiesta",
+          "inicio": "09:00",
+          "fin": "10:50",
+          "descripcion": "Después de que su esposo la abandona, una mujer decide retomar sus estudios universitarios y comenzar una nueva etapa de su vida. Al compartir clases con jóvenes mucho menores que ella, descubre una nueva confianza y se convierte en el centro de atención del campus."
         }
       ],
       "Jueves": [],
