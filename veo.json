@@ -1110,7 +1110,14 @@
           "descripcion": "Una científica obsesionada con los tornados y un famoso cazador de tormentas se unen cuando una serie de fenómenos devastadores amenaza con arrasar una región. Mientras las tormentas se intensifican, deberán enfrentarse a fuerzas de la naturaleza que escapan de todo control."
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Mujer Maravilla 1984",
+          "inicio": "00:00",
+          "fin": "09:00",
+          "descripcion": "En 1984, Diana Prince lleva una vida tranquila mientras trabaja como arqueóloga, hasta que un antiguo artefacto le concede deseos extraordinarios. Cuando una poderosa empresaria y un nuevo enemigo amenazan al mundo, Wonder Woman deberá enfrentarse a ellos y pagar un alto precio por sus propios deseos."
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
