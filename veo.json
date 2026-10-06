@@ -1644,7 +1644,14 @@
           "descripcion": "En un territorio dominado por la violencia y la corrupción, un hombre se ve obligado a enfrentarse a peligrosos enemigos para proteger a quienes ama. Mientras intenta sobrevivir, deberá decidir hasta dónde está dispuesto a llegar para hacer justicia."
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Resident Evil 5: La Venganza",
+          "inicio": "00:00",
+          "fin": "09:20",
+          "descripcion": "Alice despierta atrapada en una instalación de Umbrella Corporation y descubre que forma parte de un experimento. Con la ayuda de antiguos aliados, deberá luchar contra hordas de criaturas y descubrir la verdad detrás del virus que ha devastado el mundo."
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
