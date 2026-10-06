@@ -664,6 +664,25 @@
     <title lang="es">Hada por accidente</title>
     <desc lang="es">Un rudo jugador de hockey sobre hielo conocido por golpear a sus rivales recibe una condena inusual: ser obligado a trabajar como un auténtico hada de los dientes con alas y varita mágica durante dos semanas.</desc>
   </programme>
+  <programme channel="WarnerChannel.cl" start="20261005195600 -0300" stop="20261005220000 -0300">
+    <title lang="es">Godzilla y Kong: El Nuevo Imperio</title>
+    <desc lang="es">Godzilla y Kong se unen para enfrentar a una colosal amenaza no descubierta escondida dentro de la tierra que desafía su propia existencia y la humanidad.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261005220000 -0300" stop="20261006000600 -0300">
+    <title lang="es">Un día para sobrevivir</title>
+    <desc lang="es">Después de que un avión se estrellara en Alaska, un grupo de seis trabajadores del petróleo, junto a un cazador experto, deberán sobrevivir a las inclemencias del tiempo y, peor aún, enfrentar una manada de lobos hambrientos que los persigue a cada paso.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261005195300 -0300" stop="20261005214500 -0300">
+    <title lang="es">El Transportador</title>
+    <desc lang="es">Un experto conductor y exmilitar que opera bajo estrictas reglas de entrega sin preguntas en el sur de Francia ve su vida comprometida al abrir un paquete que resulta ser una joven secuestrada, lo que lo obliga a enfrentar a una peligrosa red de tráfico humano.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261005214500 -0300" stop="20261005235500 -0300">
+    <title lang="es">La propuesta</title>
+    <desc lang="es">Una exigente y temida editora de libros canadiense que enfrenta una inminente deportación por problemas con su visa obliga a su joven y sobreexplotado asistente personal a casarse con ella a cambio de un prometido ascenso laboral, desencadenando un viaje familiar a Alaska donde las mentiras empiezan a derrumbarse.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261005235500 -0300" stop="20261006002600 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
   <programme channel="AMC.cl" start="20261006014000 -0300" stop="20261006110000 -0300">
     <title lang="es">Planet Action</title>
   </programme>
@@ -1287,6 +1306,126 @@
     <title lang="es">Estado mental</title>
     <desc lang="es">Un thriller psicológico que explora los límites de la mente y la intriga a través de una compleja trama de misterio y tensión personal.</desc>
   </programme>
+  <programme channel="WarnerChannel.cl" start="20261006000600 -0300" stop="20261006102900 -0300">
+    <title lang="es">The Big Bang Theory</title>
+    <desc lang="es">Temporada 11 | Episodio 6</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261006102900 -0300" stop="20261006125600 -0300">
+    <title lang="es">Two and a Half Men</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261006125600 -0300" stop="20261006133000 -0300">
+    <title lang="es">Cobra Kai</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261006133000 -0300" stop="20261006154500 -0300">
+    <title lang="es">Matrix Revoluciones</title>
+    <desc lang="es">Neo, Trinity y Morfeo lideran la resistencia humana en una desesperada batalla final para defender la última ciudad de Sión contra el implacable ejército de máquinas, mientras Neo busca un enfrentamiento definitivo con el agente Smith.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261006154500 -0300" stop="20261006173200 -0300">
+    <title lang="es">En el Tornado</title>
+    <desc lang="es">Los habitantes del pueblo de Silverston ven como su ciudad es destrozada por la llegada de unos Tornados devastadores.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261006173200 -0300" stop="20261006201300 -0300">
+    <title lang="es">El sorprendente hombre araña</title>
+    <desc lang="es">Un adolescente marginado busca desentrañar el misterio de la desaparición de sus padres y termina adquiriendo extraordinarios poderes arácnidos tras ser mordido por una araña genéticamente alterada en las instalaciones de Oscorp, obligándolo a enfrentarse al letal Lagarto.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261006201300 -0300" stop="20261006220000 -0300">
+    <title lang="es">Todopoderoso 2</title>
+    <desc lang="es">Un ambicioso congresista recién electo ve su vida patas arriba cuando el mismísimo Dios se le aparece para ordenarle que construya un arca gigante ante una inminente inundación mundial.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261006220000 -0300" stop="20261006235100 -0300">
+    <title lang="es">Buenos Vecinos</title>
+    <desc lang="es">Una pareja con un bebe recién nacido deberán enfrentar la dificultad de vivir junto a una casa de fraternidad de estudiantes.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261006235100 -0300" stop="20261007013000 -0300">
+    <title lang="es">Gamer</title>
+    <desc lang="es">En un futuro distópico, un brillante y despiadado magnate de la tecnología revolutioniza el entretenimiento al crear un juego de disparos en masa multijugador online donde jugadores reales controlan a convictos condenados a muerte en campos de batalla reales para ganar su libertad.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261006002600 -0300" stop="20261006133700 -0300">
+    <title lang="es">Castle</title>
+    <desc lang="es">Temporada 8 | Episodio 21</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261006133700 -0300" stop="20261006153800 -0300">
+    <title lang="es">Volcano</title>
+    <desc lang="es">Una violenta y repentina erupción volcánica subterránea desata el caos y ríos de lava ardiente en pleno corazón de Los Ángeles, obligando a los equipos de emergencia liderados por la oficina de gestión de crisis a librar una carrera contrarreloj para salvar la ciudad.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261006153800 -0300" stop="20261006171700 -0300">
+    <title lang="es">El día llegará</title>
+    <desc lang="es">Un ingenuo y carismático líder religioso de Miami, que sueña con desatar una revolución pacífica para salvar a su familia de la ruina económica, acepta una supuesta financiación sin saber que en realidad se trata de una elaborada y absurda trampa tendida por el FBI para fabricar un falso culpable por terrorismo.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261006171700 -0300" stop="20261006193900 -0300">
+    <title lang="es">Máxima Velocidad</title>
+    <desc lang="es">Un decidido oficial del equipo de desactivación de explosivos de Los Ángeles debe evitar que una bomba instalada en un autobús urbano estalle, manteniendo la velocidad del vehículo por encima de las cincuenta millas por hora mientras un terrorista extorsiona a la ciudad.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261006193900 -0300" stop="20261006215400 -0300">
+    <title lang="es">La propuesta</title>
+    <desc lang="es">Una exigente y temida editora de libros canadiense que enfrenta una inminente deportación por problemas con su visa obliga a su joven y sobreexplotado asistente personal a casarse con ella a cambio de un prometido ascenso laboral, desencadenando un viaje familiar a Alaska donde las mentiras empiezan a derrumbarse.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261006215400 -0300" stop="20261006235500 -0300">
+    <title lang="es">Miss Simpatía</title>
+    <desc lang="es">Una brusca y desaliñada agente del FBI debe infiltrarse de encubierto como concursante en el prestigioso certamen de belleza de Miss Estados Unidos para evitar que un escurridizo terrorista conocido como &quot;El Ciudadano&quot; atente contra el evento.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261006235500 -0300" stop="20261007002600 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261007013000 -0300" stop="20261007111300 -0300">
+    <title lang="es">The Big Bang Theory</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261007111300 -0300" stop="20261007134200 -0300">
+    <title lang="es">Two and a Half Men</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261007134200 -0300" stop="20261007141900 -0300">
+    <title lang="es">Cobra Kai</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261007141900 -0300" stop="20261007160600 -0300">
+    <title lang="es">Todopoderoso 2</title>
+    <desc lang="es">Un ambicioso congresista recién electo ve su vida patas arriba cuando el mismísimo Dios se le aparece para ordenarle que construya un arca gigante ante una inminente inundación mundial.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261007160600 -0300" stop="20261007174400 -0300">
+    <title lang="es">Angry Birds 2: La película</title>
+    <desc lang="es">Los enfadados pájaros y los intrigantes cerdos verdes deben dejar de lado sus diferencias y formar una insólita alianza cuando una nueva y misteriosa amenaza desde una isla helada pone en peligro la supervivencia de ambos hogares.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261007174400 -0300" stop="20261007175400 -0300">
+    <title lang="es">Será Anunciado</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261007175400 -0300" stop="20261007201700 -0300">
+    <title lang="es">Batman eternamente</title>
+    <desc lang="es">El Caballero de la Noche debe enfrentarse a una peligrosa alianza de villanos en Ciudad Gótica, formados por un exmpleado megalómano transformado en Enigma y un desquiciado exfiscal de distrito conocido como Dos Caras, mientras cuenta con la ayuda de un joven acróbata circense que se convierte en su compañero Robin.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261007201700 -0300" stop="20261007220000 -0300">
+    <title lang="es">Viaje 2: La isla misteriosa</title>
+    <desc lang="es">Un joven recibe una señal de socorro codificada proveniente de una isla misteriosa que no figura en ningún mapa, por lo que emprende una peligrosa aventura acompañado de su padrastro, un piloto de helicóptero y la hija de este para rescatar a su abuelo perdido.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261007220000 -0300" stop="20261008000300 -0300">
+    <title lang="es">Contrabando</title>
+    <desc lang="es">Un excontrabandista que creía haber dejado atrás su vida criminal se ve obligado a volver a las andadas para saldar las deudas de su cuñado, embarcándose en una arriesgada misión marítima de contrabando de billetes falsos entre Panamá y Nueva Orleans antes de que su familia pague las consecuencias.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261007002600 -0300" stop="20261007125600 -0300">
+    <title lang="es">Castle</title>
+    <desc lang="es">Temporada 8 | Episodio 22</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261007125600 -0300" stop="20261007151100 -0300">
+    <title lang="es">Máxima Velocidad</title>
+    <desc lang="es">Un decidido oficial del equipo de desactivación de explosivos de Los Ángeles debe evitar que una bomba instalada en un autobús urbano estalle, manteniendo la velocidad del vehículo por encima de las cincuenta millas por hora mientras un terrorista extorsiona a la ciudad.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261007151100 -0300" stop="20261007170700 -0300">
+    <title lang="es">Imparable</title>
+    <desc lang="es">Un experimentado maquinista de trenes y un joven conductor se embarcan en una arriesgada carrera contrarreloj a bordo de una locomotora para intentar detener a un tren de carga fuera de control que transporta materiales tóxicos antes de que arrase con todo a su paso.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261007170700 -0300" stop="20261007200700 -0300">
+    <title lang="es">Armageddon</title>
+    <desc lang="es">Un veterano perforador de petróleo y su equipo de expertos son reclutados por la agencia espacial para viajar al espacio, aterrizar en un asteroide del tamaño de Texas que se dirige hacia la Tierra y detonar una ojiva nuclear en su interior para salvar a la humanidad de la extinción.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261007200700 -0300" stop="20261007215100 -0300">
+    <title lang="es">Los viajes de Gulliver</title>
+    <desc lang="es">Un cartero holgazán que trabaja en el departamento de correo de un periódico de Nueva York acepta una misión de viaje a las Bermudas, pero termina naufragando y llegando a la misteriosa isla de Liliput, donde los habitantes son diminutos y él se convierte en un gigante.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261007215100 -0300" stop="20261007235500 -0300">
+    <title lang="es">Señales</title>
+    <desc lang="es">Un antiguo pastor episcopal que vive en una granja junto a su familia descubre misteriosos círculos de cultivo en sus campos, lo que desencadena una serie de aterradores eventos globales que revelan una inminente invasión alienígena y ponen a prueba su fe.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261007235500 -0300" stop="20261008002600 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
   <programme channel="AMC.cl" start="20261012005000 -0300" stop="20261012110000 -0300">
     <title lang="es">Planet Action</title>
   </programme>
@@ -1846,6 +1985,25 @@
   <programme channel="FX.cl" start="20261012215900 -0300" stop="20261013000400 -0300">
     <title lang="es">Hada por accidente</title>
     <desc lang="es">Un rudo jugador de hockey sobre hielo conocido por golpear a sus rivales recibe una condena inusual: ser obligado a trabajar como un auténtico hada de los dientes con alas y varita mágica durante dos semanas.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261012195600 -0300" stop="20261012220000 -0300">
+    <title lang="es">Godzilla y Kong: El Nuevo Imperio</title>
+    <desc lang="es">Godzilla y Kong se unen para enfrentar a una colosal amenaza no descubierta escondida dentro de la tierra que desafía su propia existencia y la humanidad.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261012220000 -0300" stop="20261013000600 -0300">
+    <title lang="es">Un día para sobrevivir</title>
+    <desc lang="es">Después de que un avión se estrellara en Alaska, un grupo de seis trabajadores del petróleo, junto a un cazador experto, deberán sobrevivir a las inclemencias del tiempo y, peor aún, enfrentar una manada de lobos hambrientos que los persigue a cada paso.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261012195300 -0300" stop="20261012214500 -0300">
+    <title lang="es">El Transportador</title>
+    <desc lang="es">Un experto conductor y exmilitar que opera bajo estrictas reglas de entrega sin preguntas en el sur de Francia ve su vida comprometida al abrir un paquete que resulta ser una joven secuestrada, lo que lo obliga a enfrentar a una peligrosa red de tráfico humano.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261012214500 -0300" stop="20261012235500 -0300">
+    <title lang="es">La propuesta</title>
+    <desc lang="es">Una exigente y temida editora de libros canadiense que enfrenta una inminente deportación por problemas con su visa obliga a su joven y sobreexplotado asistente personal a casarse con ella a cambio de un prometido ascenso laboral, desencadenando un viaje familiar a Alaska donde las mentiras empiezan a derrumbarse.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261012235500 -0300" stop="20261013002600 -0300">
+    <title lang="es">Los Simpson</title>
   </programme>
   <programme channel="AMC.cl" start="20261013014000 -0300" stop="20261013110000 -0300">
     <title lang="es">Planet Action</title>
@@ -2469,5 +2627,125 @@
   <programme channel="FX.cl" start="20261013235700 -0300" stop="20261014021700 -0300">
     <title lang="es">Estado mental</title>
     <desc lang="es">Un thriller psicológico que explora los límites de la mente y la intriga a través de una compleja trama de misterio y tensión personal.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261013000600 -0300" stop="20261013102900 -0300">
+    <title lang="es">The Big Bang Theory</title>
+    <desc lang="es">Temporada 11 | Episodio 6</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261013102900 -0300" stop="20261013125600 -0300">
+    <title lang="es">Two and a Half Men</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261013125600 -0300" stop="20261013133000 -0300">
+    <title lang="es">Cobra Kai</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261013133000 -0300" stop="20261013154500 -0300">
+    <title lang="es">Matrix Revoluciones</title>
+    <desc lang="es">Neo, Trinity y Morfeo lideran la resistencia humana en una desesperada batalla final para defender la última ciudad de Sión contra el implacable ejército de máquinas, mientras Neo busca un enfrentamiento definitivo con el agente Smith.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261013154500 -0300" stop="20261013173200 -0300">
+    <title lang="es">En el Tornado</title>
+    <desc lang="es">Los habitantes del pueblo de Silverston ven como su ciudad es destrozada por la llegada de unos Tornados devastadores.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261013173200 -0300" stop="20261013201300 -0300">
+    <title lang="es">El sorprendente hombre araña</title>
+    <desc lang="es">Un adolescente marginado busca desentrañar el misterio de la desaparición de sus padres y termina adquiriendo extraordinarios poderes arácnidos tras ser mordido por una araña genéticamente alterada en las instalaciones de Oscorp, obligándolo a enfrentarse al letal Lagarto.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261013201300 -0300" stop="20261013220000 -0300">
+    <title lang="es">Todopoderoso 2</title>
+    <desc lang="es">Un ambicioso congresista recién electo ve su vida patas arriba cuando el mismísimo Dios se le aparece para ordenarle que construya un arca gigante ante una inminente inundación mundial.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261013220000 -0300" stop="20261013235100 -0300">
+    <title lang="es">Buenos Vecinos</title>
+    <desc lang="es">Una pareja con un bebe recién nacido deberán enfrentar la dificultad de vivir junto a una casa de fraternidad de estudiantes.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261013235100 -0300" stop="20261014013000 -0300">
+    <title lang="es">Gamer</title>
+    <desc lang="es">En un futuro distópico, un brillante y despiadado magnate de la tecnología revolutioniza el entretenimiento al crear un juego de disparos en masa multijugador online donde jugadores reales controlan a convictos condenados a muerte en campos de batalla reales para ganar su libertad.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261013002600 -0300" stop="20261013133700 -0300">
+    <title lang="es">Castle</title>
+    <desc lang="es">Temporada 8 | Episodio 21</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261013133700 -0300" stop="20261013153800 -0300">
+    <title lang="es">Volcano</title>
+    <desc lang="es">Una violenta y repentina erupción volcánica subterránea desata el caos y ríos de lava ardiente en pleno corazón de Los Ángeles, obligando a los equipos de emergencia liderados por la oficina de gestión de crisis a librar una carrera contrarreloj para salvar la ciudad.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261013153800 -0300" stop="20261013171700 -0300">
+    <title lang="es">El día llegará</title>
+    <desc lang="es">Un ingenuo y carismático líder religioso de Miami, que sueña con desatar una revolución pacífica para salvar a su familia de la ruina económica, acepta una supuesta financiación sin saber que en realidad se trata de una elaborada y absurda trampa tendida por el FBI para fabricar un falso culpable por terrorismo.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261013171700 -0300" stop="20261013193900 -0300">
+    <title lang="es">Máxima Velocidad</title>
+    <desc lang="es">Un decidido oficial del equipo de desactivación de explosivos de Los Ángeles debe evitar que una bomba instalada en un autobús urbano estalle, manteniendo la velocidad del vehículo por encima de las cincuenta millas por hora mientras un terrorista extorsiona a la ciudad.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261013193900 -0300" stop="20261013215400 -0300">
+    <title lang="es">La propuesta</title>
+    <desc lang="es">Una exigente y temida editora de libros canadiense que enfrenta una inminente deportación por problemas con su visa obliga a su joven y sobreexplotado asistente personal a casarse con ella a cambio de un prometido ascenso laboral, desencadenando un viaje familiar a Alaska donde las mentiras empiezan a derrumbarse.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261013215400 -0300" stop="20261013235500 -0300">
+    <title lang="es">Miss Simpatía</title>
+    <desc lang="es">Una brusca y desaliñada agente del FBI debe infiltrarse de encubierto como concursante en el prestigioso certamen de belleza de Miss Estados Unidos para evitar que un escurridizo terrorista conocido como &quot;El Ciudadano&quot; atente contra el evento.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261013235500 -0300" stop="20261014002600 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261014013000 -0300" stop="20261014111300 -0300">
+    <title lang="es">The Big Bang Theory</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261014111300 -0300" stop="20261014134200 -0300">
+    <title lang="es">Two and a Half Men</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261014134200 -0300" stop="20261014141900 -0300">
+    <title lang="es">Cobra Kai</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261014141900 -0300" stop="20261014160600 -0300">
+    <title lang="es">Todopoderoso 2</title>
+    <desc lang="es">Un ambicioso congresista recién electo ve su vida patas arriba cuando el mismísimo Dios se le aparece para ordenarle que construya un arca gigante ante una inminente inundación mundial.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261014160600 -0300" stop="20261014174400 -0300">
+    <title lang="es">Angry Birds 2: La película</title>
+    <desc lang="es">Los enfadados pájaros y los intrigantes cerdos verdes deben dejar de lado sus diferencias y formar una insólita alianza cuando una nueva y misteriosa amenaza desde una isla helada pone en peligro la supervivencia de ambos hogares.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261014174400 -0300" stop="20261014175400 -0300">
+    <title lang="es">Será Anunciado</title>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261014175400 -0300" stop="20261014201700 -0300">
+    <title lang="es">Batman eternamente</title>
+    <desc lang="es">El Caballero de la Noche debe enfrentarse a una peligrosa alianza de villanos en Ciudad Gótica, formados por un exmpleado megalómano transformado en Enigma y un desquiciado exfiscal de distrito conocido como Dos Caras, mientras cuenta con la ayuda de un joven acróbata circense que se convierte en su compañero Robin.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261014201700 -0300" stop="20261014220000 -0300">
+    <title lang="es">Viaje 2: La isla misteriosa</title>
+    <desc lang="es">Un joven recibe una señal de socorro codificada proveniente de una isla misteriosa que no figura en ningún mapa, por lo que emprende una peligrosa aventura acompañado de su padrastro, un piloto de helicóptero y la hija de este para rescatar a su abuelo perdido.</desc>
+  </programme>
+  <programme channel="WarnerChannel.cl" start="20261014220000 -0300" stop="20261015000300 -0300">
+    <title lang="es">Contrabando</title>
+    <desc lang="es">Un excontrabandista que creía haber dejado atrás su vida criminal se ve obligado a volver a las andadas para saldar las deudas de su cuñado, embarcándose en una arriesgada misión marítima de contrabando de billetes falsos entre Panamá y Nueva Orleans antes de que su familia pague las consecuencias.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261014002600 -0300" stop="20261014125600 -0300">
+    <title lang="es">Castle</title>
+    <desc lang="es">Temporada 8 | Episodio 22</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261014125600 -0300" stop="20261014151100 -0300">
+    <title lang="es">Máxima Velocidad</title>
+    <desc lang="es">Un decidido oficial del equipo de desactivación de explosivos de Los Ángeles debe evitar que una bomba instalada en un autobús urbano estalle, manteniendo la velocidad del vehículo por encima de las cincuenta millas por hora mientras un terrorista extorsiona a la ciudad.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261014151100 -0300" stop="20261014170700 -0300">
+    <title lang="es">Imparable</title>
+    <desc lang="es">Un experimentado maquinista de trenes y un joven conductor se embarcan en una arriesgada carrera contrarreloj a bordo de una locomotora para intentar detener a un tren de carga fuera de control que transporta materiales tóxicos antes de que arrase con todo a su paso.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261014170700 -0300" stop="20261014200700 -0300">
+    <title lang="es">Armageddon</title>
+    <desc lang="es">Un veterano perforador de petróleo y su equipo de expertos son reclutados por la agencia espacial para viajar al espacio, aterrizar en un asteroide del tamaño de Texas que se dirige hacia la Tierra y detonar una ojiva nuclear en su interior para salvar a la humanidad de la extinción.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261014200700 -0300" stop="20261014215100 -0300">
+    <title lang="es">Los viajes de Gulliver</title>
+    <desc lang="es">Un cartero holgazán que trabaja en el departamento de correo de un periódico de Nueva York acepta una misión de viaje a las Bermudas, pero termina naufragando y llegando a la misteriosa isla de Liliput, donde los habitantes son diminutos y él se convierte en un gigante.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261014215100 -0300" stop="20261014235500 -0300">
+    <title lang="es">Señales</title>
+    <desc lang="es">Un antiguo pastor episcopal que vive en una granja junto a su familia descubre misteriosos círculos de cultivo en sus campos, lo que desencadena una serie de aterradores eventos globales que revelan una inminente invasión alienígena y ponen a prueba su fe.</desc>
+  </programme>
+  <programme channel="StarChannel.cl" start="20261014235500 -0300" stop="20261015002600 -0300">
+    <title lang="es">Los Simpson</title>
   </programme>
 </tv>
