@@ -1060,7 +1060,14 @@
           "descripcion": "Tras ser arrastrados a un cúbico mundo mágico, cuatro inadaptados con la ayuda de un inesperado y experto artesano buscan la manera de regresar a casa."
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "El Rey Arturo: La Leyenda de la Espada",
+          "inicio": "00:30",
+          "fin": "09:00",
+          "descripcion": "Cuando el padre del pequeño Arturo es asesinado, su tío se apodera de la corona. Pero todo está por cambiar cuando Arturo tome la espada de la piedra."
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
