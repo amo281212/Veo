@@ -1314,6 +1314,12 @@
           "inicio": "09:00",
           "fin": "10:30",
           "descripcion": "Cuando sus dueños salen de casa, un grupo de mascotas vive todo tipo de aventuras lejos de la mirada humana. Max, un perro acostumbrado a ser el favorito, deberá dejar de lado sus diferencias con Duke para encontrar el camino de regreso a casa."
+        },
+        {
+          "nombre": "El regreso del Capitán Garfio",
+          "inicio": "10:30",
+          "fin": "12:55",
+          "descripcion": "Peter Pan ha crecido y olvidado su infancia, pero el Capitán Garfio regresa para secuestrar a sus hijos y llevarlos al País de Nunca Jamás. Para rescatarlos, Peter deberá recuperar sus recuerdos y volver a enfrentarse a su antiguo enemigo."
         }
       ],
       "Viernes": [],
