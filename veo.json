@@ -1601,62 +1601,7 @@
       "Domingo": []
     },
     "HBO.Plus.cl": {
-      "Lunes": [
-        {
-          "nombre": "Parto maldito",
-          "inicio": "00:00",
-          "fin": "09:49",
-          "descripcion": "Una joven pareja espera con ilusión la llegada de su primer hijo, pero el nacimiento se convierte en una experiencia aterradora cuando comienzan a ocurrir sucesos inexplicables. Mientras intentan proteger a su bebé, deberán descubrir qué se esconde detrás de esta inquietante amenaza."
-        },
-        {
-          "nombre": "The Front Room",
-          "inicio": "09:49",
-          "fin": "11:30",
-          "descripcion": "Una pareja espera su primer hijo y se prepara para comenzar una nueva vida, pero todo cambia cuando deben recibir en casa a su enferma y misteriosa suegra. Su presencia desencadena una serie de situaciones perturbadoras que pondrán a prueba la estabilidad de la familia."
-        },
-        {
-          "nombre": "Pearl",
-          "inicio": "11:30",
-          "fin": "13:20",
-          "descripcion": "En 1918, Pearl vive aislada en una granja junto a sus padres mientras sueña con convertirse en una estrella. Su frustración por una vida limitada comienza a transformarse en una peligrosa obsesión mientras intenta alcanzar la fama y escapar de su realidad."
-        },
-        {
-          "nombre": "Halloween",
-          "inicio": "13:20",
-          "fin": "15:10",
-          "descripcion": "Quince años después de cometer un terrible crimen, Michael Myers escapa de una institución psiquiátrica y regresa a su ciudad natal. En la noche de Halloween, Laurie Strode y un grupo de jóvenes se convierten en su objetivo mientras el asesino vuelve a sembrar el terror."
-        },
-        {
-          "nombre": "Pacto infernal",
-          "inicio": "15:10",
-          "fin": "16:53",
-          "descripcion": "Cuatro jóvenes pertenecientes a antiguas familias de brujos descubren que sus poderes están ligados a un oscuro pacto heredado de sus antepasados. Cuando una nueva amenaza pone en peligro su secreto, deberán enfrentarse a las consecuencias de romper las reglas que han mantenido durante generaciones."
-        },
-        {
-          "nombre": "Drop: Amenaza Anónima",
-          "inicio": "16:53",
-          "fin": "18:34",
-          "descripcion": "Una madre viuda en su primera cita en años recibe instrucciones de hacer lo que le indican – incluyendo matar a su cita – o sus seres queridos morirán."
-        },
-        {
-          "nombre": "Sé lo que hicieron el verano pasado",
-          "inicio": "18:34",
-          "fin": "20:21",
-          "descripcion": "Un grupo de amigos intenta ocultar un terrible accidente ocurrido durante unas vacaciones, pero un año después comienzan a recibir mensajes amenazantes que revelan que alguien conoce su secreto. Mientras buscan descubrir quién los está persiguiendo, sus vidas quedan cada vez más en peligro."
-        },
-        {
-          "nombre": "Sé lo que hicieron el verano pasado",
-          "inicio": "20:21",
-          "fin": "22:20",
-          "descripcion": "Un grupo de amigos intenta ocultar un terrible accidente ocurrido durante unas vacaciones, pero un año después comienzan a recibir mensajes amenazantes que revelan que alguien conoce su secreto. Mientras buscan descubrir quién los está persiguiendo, sus vidas quedan cada vez más en peligro."
-        },
-        {
-          "nombre": "Háblame",
-          "inicio": "22:20",
-          "fin": "00:01",
-          "descripcion": "Una adolescente descubre una misteriosa mano embalsamada que permite invocar espíritus y comienza a experimentar con sus amigos. Lo que al principio parece un juego emocionante pronto se convierte en una aterradora experiencia cuando algunos van demasiado lejos y liberan fuerzas que no pueden controlar."
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "Gremlins",
