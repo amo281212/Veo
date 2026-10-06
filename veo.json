@@ -948,7 +948,14 @@
           "descripcion": "Un grupo de científicos buscan a las criaturas más colosales de la tierra, el mar y el aire, ya que en su ADN poseen la clave para salvar a la humanidad."
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Mi vida a los diecisiete",
+          "inicio": "01:00",
+          "fin": "09:00",
+          "descripcion": "Una adolescente atraviesa los altibajos de la secundaria mientras intenta encontrar su lugar entre amistades, inseguridades y conflictos familiares. Cuando su mejor amiga comienza una relación con su hermano mayor, siente que su mundo se desmorona y debe aprender a aceptar los cambios."
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
