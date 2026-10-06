@@ -2835,6 +2835,12 @@
           "inicio": "18:00",
           "fin": "18:50",
           "descripcion": ""
+        },
+        {
+          "nombre": "Chicago Fire",
+          "inicio": "18:50",
+          "fin": "19:40",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
