@@ -829,62 +829,7 @@
       "Domingo": []
     },
     "HBO.cl": {
-      "Lunes": [
-        {
-          "nombre": "Atracción Peligrosa",
-          "inicio": "01:01",
-          "fin": "09:00",
-          "descripcion": "Un hombre comienza una relación con una mujer que parece perfecta, pero pronto descubre que su pasado es mucho más oscuro de lo que imaginaba. Lo que comienza como un romance se convierte en una situación peligrosa cuando los secretos salen a la luz."
-        },
-        {
-          "nombre": "Stray Kids: The dominATE Experience",
-          "inicio": "09:00",
-          "fin": "11:33",
-          "descripcion": "Stray Kids lleva su poderosa gira dominATE a la gran pantalla en una experiencia que captura la energía de sus conciertos. El grupo interpreta algunos de sus mayores éxitos mientras los fans disfrutan de una presentación llena de música, coreografías y momentos especiales."
-        },
-        {
-          "nombre": "DC Liga de supermascotas",
-          "inicio": "11:33",
-          "fin": "13:24",
-          "descripcion": "Krypto, el perro de Superman, debe reunir a un grupo de mascotas con poderes especiales para rescatar a los superhéroes de la Liga de la Justicia. Juntos tendrán que aprender a trabajar en equipo y enfrentarse a una peligrosa amenaza para salvar el mundo."
-        },
-        {
-          "nombre": "Luna de Miel en Familia",
-          "inicio": "13:24",
-          "fin": "15:29",
-          "descripcion": "Dos padres solteros se conocen y, tras un primer encuentro desastroso, terminan coincidiendo en unas vacaciones familiares en África. Mientras intentan lidiar con sus hijos y las situaciones inesperadas del viaje, el romance comienza a surgir entre ellos."
-        },
-        {
-          "nombre": "Barbie",
-          "inicio": "15:29",
-          "fin": "17:32",
-          "descripcion": "Barbie lleva una vida aparentemente perfecta en Barbieland, hasta que comienza a experimentar cambios y pensamientos que la hacen cuestionar su mundo. Junto a Ken, viajará al mundo real y descubrirá una realidad que cambiará por completo su forma de ver la vida."
-        },
-        {
-          "nombre": "War (T1, E1)",
-          "inicio": "17:32",
-          "fin": "18:32",
-          "descripcion": "El primer episodio presenta a un grupo de personas cuyas vidas se ven afectadas por el conflicto y las decisiones que deben tomar para sobrevivir. En medio de la tensión y el peligro, comenzarán a enfrentarse a situaciones que pondrán a prueba sus vínculos y convicciones."
-        },
-        {
-          "nombre": "Shazam!",
-          "inicio": "18:32",
-          "fin": "20:52",
-          "descripcion": "Billy Batson, un adolescente huérfano, recibe poderes mágicos que le permiten transformarse en un superhéroe adulto al decir una palabra: “Shazam!”. Mientras aprende a controlar sus nuevas habilidades, deberá enfrentarse a un peligroso enemigo y descubrir qué significa realmente ser un héroe."
-        },
-        {
-          "nombre": "Mortal Kombat II",
-          "inicio": "20:52",
-          "fin": "22:55",
-          "descripcion": "Los guerreros de la Tierra se preparan para enfrentar una nueva amenaza que podría poner en peligro su mundo y el equilibrio entre los reinos. Mientras reúnen sus fuerzas, deberán superar intensos combates y enfrentarse a poderosos enemigos para evitar una nueva catástrofe."
-        },
-        {
-          "nombre": "Wonka",
-          "inicio": "22:55",
-          "fin": "00:59",
-          "descripcion": "El joven Willy Wonka llega a una ciudad dominada por grandes chocolateros con el sueño de abrir su propia tienda de dulces. Con ingenio, imaginación y la ayuda de nuevos amigos, deberá enfrentarse a quienes intentan impedir que cumpla su sueño."
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "La Batalla de Riddick",
