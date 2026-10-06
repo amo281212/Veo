@@ -1128,6 +1128,12 @@
           "inicio": "10:55",
           "fin": "13:55",
           "descripcion": "Harry regresa a Hogwarts para comenzar su segundo año, pero una serie de misteriosos ataques amenaza a los estudiantes. Junto a Ron y Hermione, deberá descubrir qué se esconde en la Cámara Secreta y detener a la criatura que ha sido liberada."
+        },
+        {
+          "nombre": "Linternas",
+          "inicio": "13:55",
+          "fin": "14:55",
+          "descripcion": ""
         }
       ],
       "Viernes": [],
