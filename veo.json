@@ -554,62 +554,7 @@
       "Domingo": []
     },
     "Golden.cl": {
-      "Lunes": [
-        {
-          "nombre": "Amor en línea",
-          "inicio": "00:50",
-          "fin": "09:03",
-          "descripcion": "Una mujer conoce a un hombre a través de internet y ambos comienzan una relación que parece perfecta a pesar de no haberse encontrado en persona. Pero cuando las apariencias comienzan a desmoronarse, descubrirá que detrás de la pantalla puede esconderse más de un secreto."
-        },
-        {
-          "nombre": "Amor a Primera visa",
-          "inicio": "09:03",
-          "fin": "11:03",
-          "descripcion": "Una joven viaja al extranjero con la intención de comenzar una nueva vida, pero un inesperado encuentro cambia por completo sus planes. Entre diferencias culturales, situaciones divertidas y sentimientos inesperados, descubrirá que el amor puede aparecer cuando menos lo espera."
-        },
-        {
-          "nombre": "Solo amigos",
-          "inicio": "11:03",
-          "fin": "12:45",
-          "descripcion": "Un hombre descubre que la mujer de la que está enamorado solo lo considera un buen amigo. Cuando ella le pide ayuda para conquistar a otro hombre, tendrá que ocultar sus sentimientos mientras intenta ganarse su corazón."
-        },
-        {
-          "nombre": "Mañana empieza todo",
-          "inicio": "12:45",
-          "fin": "14:53",
-          "descripcion": "Un hombre despreocupado descubre que tiene una hija pequeña de la que nunca supo y debe aprender a hacerse cargo de ella. Mientras construyen una relación cada vez más cercana, ambos encontrarán una nueva familia y un vínculo que cambiará sus vidas."
-        },
-        {
-          "nombre": "Luna de Miel en Familia",
-          "inicio": "14:53",
-          "fin": "17:00",
-          "descripcion": "Dos padres solteros se conocen y, tras un primer encuentro desastroso, terminan coincidiendo en unas vacaciones familiares en África. Mientras intentan lidiar con sus hijos y las situaciones inesperadas del viaje, el romance comienza a surgir entre ellos."
-        },
-        {
-          "nombre": "Pixeles",
-          "inicio": "17:00",
-          "fin": "18:52",
-          "descripcion": "Cuando unos alienígenas interpretan las imágenes de videojuegos clásicos como una declaración de guerra, atacan la Tierra utilizando personajes de arcade como armas. Un grupo de expertos en videojuegos deberá enfrentarse a ellos y salvar al mundo antes de que sea demasiado tarde."
-        },
-        {
-          "nombre": "Los Fockers: La familia de mi esposo",
-          "inicio": "18:52",
-          "fin": "20:59",
-          "descripcion": "Greg y Pam están a punto de casarse, pero antes deberán reunir a sus familias, cuyos padres tienen personalidades completamente opuestas. El encuentro entre los estrictos Byrnes y los excéntricos Focker desata una serie de situaciones incómodas y divertidas."
-        },
-        {
-          "nombre": "La familia de mi novia",
-          "inicio": "20:59",
-          "fin": "23:00",
-          "descripcion": "Greg Focker está decidido a pedirle matrimonio a su novia, pero antes debe ganarse la aprobación de su intimidante futuro suegro. Una visita familiar llena de situaciones incómodas y malentendidos pondrá a prueba su paciencia y su relación."
-        },
-        {
-          "nombre": "Mentiroso, mentiroso",
-          "inicio": "23:00",
-          "fin": "00:37",
-          "descripcion": "Un abogado acostumbrado a mentir constantemente ve su vida cambiar cuando su hijo pide un deseo que le impide decir cualquier mentira durante un día. Obligado a ser completamente sincero, deberá enfrentar las consecuencias de sus palabras mientras intenta recuperar la confianza de su familia."
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "El cielo en tu mirada",
