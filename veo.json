@@ -635,6 +635,12 @@
           "inicio": "12:00",
           "fin": "13:42",
           "descripcion": "Un profesor encuentra un perro perdido en una estación de tren y entre ambos nace un vínculo extraordinario. Cada día, Hachiko espera fielmente el regreso de su dueño, demostrando una lealtad capaz de superar incluso las circunstancias más difíciles."
+        },
+        {
+          "nombre": "Los juegos del hambre: En llamas",
+          "inicio": "13:42",
+          "fin": "16:17",
+          "descripcion": "Después de sobrevivir a los Juegos del Hambre, Katniss Everdeen y Peeta Mellark se convierten en símbolos de rebelión contra el Capitolio. Obligados a regresar a la arena, deberán enfrentarse nuevamente a otros tributos mientras una revolución comienza a tomar fuerza."
         }
       ],
       "Jueves": [],
