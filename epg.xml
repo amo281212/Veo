@@ -486,6 +486,13 @@
     <title lang="es">La Monja 2</title>
     <desc lang="es">En Francia de 1956, tras el asesinato de un sacerdote y un mal que se extiende, la hermana Irene se encuentra una vez más con Valak, la monja demonio.</desc>
   </programme>
+  <programme channel="HBO.Plus.cl" start="20261006221000 -0300" stop="20261006231100 -0300">
+    <title lang="es">Linternas</title>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261006231100 -0300" stop="20261007010000 -0300">
+    <title lang="es">Hombre lobo</title>
+    <desc lang="es">Un hombre regresa a la propiedad de su familia después de recibir noticias sobre la desaparición de su padre. Allí descubre una aterradora criatura que lo transforma en un hombre lobo y deberá luchar contra la maldición mientras intenta proteger a sus seres queridos.</desc>
+  </programme>
   <programme channel="StudioUniversal.ar" start="20261006015500 -0300" stop="20261006101000 -0300">
     <title lang="es">Intercambio de hermanas: Navidad en el pueblo</title>
     <desc lang="es">Dos hermanas deciden intercambiar sus vidas durante las fiestas navideñas y terminan descubriendo que el cambio es mucho más complicado de lo que imaginaban. Entre nuevos entornos, romances y situaciones inesperadas, ambas encontrarán una nueva perspectiva sobre lo que realmente desean.</desc>
@@ -513,6 +520,10 @@
   <programme channel="StudioUniversal.ar" start="20261006195500 -0300" stop="20261006220000 -0300">
     <title lang="es">La brújula dorada</title>
     <desc lang="es">Lyra, una joven huérfana, vive en un mundo paralelo donde cada persona tiene un animal que representa su alma. Cuando su mejor amigo desaparece, Lyra emprende un viaje hacia el norte y descubre secretos que podrían cambiar el destino de su mundo.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261006220000 -0300" stop="20261007000000 -0300">
+    <title lang="es">El insoportable peso del inmenso talento</title>
+    <desc lang="es">Nicolas Cage interpreta una versión ficticia de sí mismo, un actor en crisis que acepta asistir al cumpleaños de un misterioso millonario. Lo que parece un trabajo sencillo termina involucrándolo en una peligrosa misión de espionaje y crimen.</desc>
   </programme>
   <programme channel="SONYMOVIES.uy" start="20261006012400 -0300" stop="20261006105000 -0300">
     <title lang="es">The Goldbergs</title>
@@ -1082,6 +1093,163 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   <programme channel="HBOPop.cl" start="20261007233000 -0300" stop="20261008000000 -0300">
     <title lang="es">Youth (T1, E4)</title>
   </programme>
+  <programme channel="HBOXtreme.cl" start="20261007000000 -0300" stop="20261007101900 -0300">
+    <title lang="es">Al Filo del Mañana</title>
+    <desc lang="es">Un soldado se encuentra en el último día de una batalla contra alienígenas y cuando este muere todo empieza nuevamente.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261007101900 -0300" stop="20261007121500 -0300">
+    <title lang="es">Elysium</title>
+    <desc lang="es">En un futuro donde los ricos viven en una estación espacial paradisíaca y el resto de la humanidad sobrevive en una Tierra devastada, un hombre gravemente enfermo decide llegar a Elysium. Para lograrlo, se embarca en una peligrosa misión que podría cambiar el destino de millones de personas.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261007121500 -0300" stop="20261007135300 -0300">
+    <title lang="es">Inframundo: Guerras de sangre</title>
+    <desc lang="es">Selene, una guerrera vampira, se encuentra atrapada en medio de una guerra entre vampiros y licántropos. Perseguida por ambos bandos, deberá enfrentarse a nuevos enemigos y utilizar sus habilidades para proteger a los suyos.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261007135300 -0300" stop="20261007155300 -0300">
+    <title lang="es">El Señor de los Anillos: El Retorno del Rey</title>
+    <desc lang="es">La batalla final por la Tierra Media se acerca mientras Frodo y Sam continúan su peligrosa misión para destruir el Anillo Único. Aragorn deberá asumir su destino como rey y liderar a los pueblos libres en una última lucha contra las fuerzas de Sauron.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261007155300 -0300" stop="20261007182000 -0300">
+    <title lang="es">El Señor de los Anillos: El Retorno del Rey</title>
+    <desc lang="es">La batalla final por la Tierra Media se acerca mientras Frodo y Sam continúan su peligrosa misión para destruir el Anillo Único. Aragorn deberá asumir su destino como rey y liderar a los pueblos libres en una última lucha contra las fuerzas de Sauron.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261007182000 -0300" stop="20261007201900 -0300">
+    <title lang="es">Al Filo del Mañana</title>
+    <desc lang="es">Un soldado se encuentra en el último día de una batalla contra alienígenas y cuando este muere todo empieza nuevamente.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261007201900 -0300" stop="20261007220900 -0300">
+    <title lang="es">Beekeeper: Sentencia de muerte</title>
+    <desc lang="es">Adam Clay, un antiguo agente de una poderosa organización clandestina conocida como los Beekeepers, lleva una vida tranquila hasta que una estafa provoca una tragedia personal. Entonces emprende una violenta misión de venganza contra los responsables, poniendo al descubierto una conspiración que llega hasta los niveles más altos del poder.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261007220900 -0300" stop="20261008000000 -0300">
+    <title lang="es">Tierra Sin Ley</title>
+    <desc lang="es">En un territorio dominado por la violencia y la corrupción, un hombre se ve obligado a enfrentarse a peligrosos enemigos para proteger a quienes ama. Mientras intenta sobrevivir, deberá decidir hasta dónde está dispuesto a llegar para hacer justicia.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261007010000 -0300" stop="20261007101100 -0300">
+    <title lang="es">Gremlins 2: La nueva generación</title>
+    <desc lang="es">Billy y Kate vuelven a encontrarse con Gizmo, quien accidentalmente queda expuesto al agua y da origen a una nueva generación de traviesos gremlins. Esta vez, las criaturas causarán el caos dentro de un enorme rascacielos de Nueva York.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261007101100 -0300" stop="20261007123100 -0300">
+    <title lang="es">La posesión de la momia</title>
+    <desc lang="es">Un grupo de arqueólogos despierta accidentalmente una antigua maldición al descubrir una momia egipcia. Cuando una presencia sobrenatural comienza a apoderarse de los vivos, deberán encontrar la forma de detenerla antes de que sea demasiado tarde.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261007123100 -0300" stop="20261007141600 -0300">
+    <title lang="es">Ojo por ojo</title>
+    <desc lang="es">Una mujer queda marcada por la tragedia después de que su hija sea víctima de un crimen brutal. Incapaz de aceptar la injusticia, decide tomar la justicia por sus propias manos y emprende una peligrosa búsqueda de venganza.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261007141600 -0300" stop="20261007160600 -0300">
+    <title lang="es">Bárbaro</title>
+    <desc lang="es">Un guerrero que vive en un mundo dominado por la violencia y la barbarie emprende un viaje marcado por la venganza y la supervivencia. Enfrentándose a enemigos despiadados, deberá luchar para recuperar lo que le fue arrebatado.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261007160600 -0300" stop="20261007182600 -0300">
+    <title lang="es">El conjuro 2</title>
+    <desc lang="es">Los investigadores paranormales Ed y Lorraine Warren viajan a Londres para ayudar a una madre y sus hijos, quienes aseguran estar siendo acosados por una presencia sobrenatural. Al investigar la casa, descubren una entidad mucho más peligrosa de lo que imaginaban.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261007182600 -0300" stop="20261007201600 -0300">
+    <title lang="es">La llave maestra</title>
+    <desc lang="es">Una joven enfermera acepta trabajar en una aislada mansión de Luisiana para cuidar a un hombre enfermo. Allí encuentra una habitación secreta y descubre antiguos rituales de magia que la llevan a una aterradora verdad sobre la casa y sus habitantes.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261007201600 -0300" stop="20261007220100 -0300">
+    <title lang="es">La Huérfana: El Origen</title>
+    <desc lang="es">Leena escapa de un hospital psiquiátrico en Estonia y asume la identidad de una niña desaparecida para infiltrarse en una familia adinerada. Sin embargo, su nueva vida se complica cuando una madre decidida a proteger a su familia comienza a sospechar de ella.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261007000000 -0300" stop="20261007090000 -0300">
+    <title lang="es">Hollywood on Set</title>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261007090000 -0300" stop="20261007104000 -0300">
+    <title lang="es">Una Navidad atemporal</title>
+    <desc lang="es">Una pareja queda atrapada en un extraño bucle temporal durante las fiestas navideñas. Mientras intenta descubrir cómo romper el ciclo, deberá enfrentarse a sus propios problemas y aprender a valorar el tiempo que tiene juntos.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261007104000 -0300" stop="20261007124000 -0300">
+    <title lang="es">Escuela para idiotas</title>
+    <desc lang="es">Un hombre acostumbrado a fracasar en todo decide inscribirse en una escuela especial para mejorar su vida. Allí descubre que aprender a controlar sus impulsos y asumir responsabilidades puede ser mucho más difícil de lo que imaginaba.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261007124000 -0300" stop="20261007144000 -0300">
+    <title lang="es">Un amor para recordar</title>
+    <desc lang="es">Un joven rebelde es obligado a participar en una actividad escolar junto a una tranquila y bondadosa compañera. Aunque al principio parecen muy diferentes, ambos terminan enamorándose y descubriendo que su relación cambiará sus vidas para siempre.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261007144000 -0300" stop="20261007164500 -0300">
+    <title lang="es">El Principe y yo</title>
+    <desc lang="es">Una estudiante universitaria conoce a un joven que parece ser un estudiante común, sin saber que en realidad es el príncipe heredero de Dinamarca. Mientras su romance crece, ambos deberán enfrentarse a las diferencias entre sus mundos y a las responsabilidades de la realeza.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261007164500 -0300" stop="20261007184000 -0300">
+    <title lang="es">¡Porque lo digo yo!</title>
+    <desc lang="es">Una madre sobreprotectora decide encontrar al hombre perfecto para su hija menor, convencida de que sabe qué es lo mejor para ella. Sin embargo, sus intentos por controlar la vida amorosa de su hija terminan provocando situaciones inesperadas y divertidas.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261007184000 -0300" stop="20261007202000 -0300">
+    <title lang="es">Johnny English</title>
+    <desc lang="es">Un torpe pero entusiasta agente secreto británico recibe la misión de investigar un complot que amenaza al país. Aunque carece de las habilidades de un espía tradicional, Johnny English está decidido a salvar el día, provocando una serie de situaciones absurdas.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261007202000 -0300" stop="20261007220000 -0300">
+    <title lang="es">Johnny English 3.0</title>
+    <desc lang="es">El agente secreto Johnny English vuelve a la acción cuando un ciberataque revela la identidad de todos los agentes británicos. Obligado a salir de su retiro, deberá detener al responsable utilizando métodos tan absurdos como inesperados.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261007012900 -0300" stop="20261007104000 -0300">
+    <title lang="es">The Goldbergs</title>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261007104000 -0300" stop="20261007121500 -0300">
+    <title lang="es">Morning Show Mysteries: A Murder in Mind</title>
+    <desc lang="es">Una presentadora de televisión se ve involucrada en una investigación criminal cuando un asesinato sacude su entorno. Mientras busca descubrir al responsable, deberá seguir las pistas y enfrentarse a secretos que podrían ponerla en peligro.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261007121500 -0300" stop="20261007135000 -0300">
+    <title lang="es">Cocodrilo: El capítulo final</title>
+    <desc lang="es">Una familia se ve atrapada en una peligrosa situación cuando un enorme cocodrilo aparece en un lugar donde nadie esperaba encontrarlo. Mientras intentan sobrevivir a los ataques de la criatura, deberán encontrar una forma de escapar antes de convertirse en sus próximas víctimas.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261007135000 -0300" stop="20261007153500 -0300">
+    <title lang="es">Terror en la niebla</title>
+    <desc lang="es">Una pequeña ciudad costera se ve envuelta en una misteriosa niebla que trae consigo criaturas sobrenaturales y mortales. Un grupo de habitantes se refugia en una tienda mientras lucha por sobrevivir y descubrir qué se esconde entre la niebla.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261007153500 -0300" stop="20261007171000 -0300">
+    <title lang="es">Hotel Transylvania</title>
+    <desc lang="es">El Conde Drácula organiza una celebración para su hija Mavis en un lujoso hotel donde los monstruos pueden vivir lejos de los humanos. Pero todo cambia cuando un joven humano llega accidentalmente al hotel y se enamora de Mavis.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261007171000 -0300" stop="20261007184500 -0300">
+    <title lang="es">Hotel Transylvania 2</title>
+    <desc lang="es">Drácula está preocupado porque su pequeño nieto Dennis parece no mostrar ninguna señal de ser un vampiro. Mientras intenta despertar su lado monstruoso, la familia recibe la inesperada visita de Vlad, el estricto padre de Drácula.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261007184500 -0300" stop="20261007202500 -0300">
+    <title lang="es">Hotel Transylvania 3: Monstruos de vacaciones</title>
+    <desc lang="es">Drácula y su familia se embarcan en un lujoso crucero para disfrutar de unas vacaciones lejos del hotel. Allí, Drácula se enamora de la misteriosa capitana Ericka, sin sospechar que ella guarda un peligroso secreto relacionado con su familia.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261007202500 -0300" stop="20261007220000 -0300">
+    <title lang="es">Anaconda</title>
+    <desc lang="es">Un equipo de documentalistas se adentra en la selva amazónica para filmar a una tribu desconocida. Su expedición se convierte en una lucha por sobrevivir cuando un cazador obsesionado los obliga a enfrentarse a una gigantesca y mortal anaconda.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261007220000 -0300" stop="20261007235000 -0300">
+    <title lang="es">Depredador 2</title>
+    <desc lang="es">En un futuro cercano, Los Ángeles se encuentra sumida en una violenta guerra entre bandas mientras un misterioso cazador extraterrestre comienza a perseguir a sus víctimas. Un teniente de policía deberá descubrir qué está ocurriendo antes de convertirse en la próxima presa.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261007235000 -0300" stop="20261008014000 -0300">
+    <title lang="es">Depredadores</title>
+    <desc lang="es">Un grupo de personas de distintos orígenes despierta en un planeta desconocido sin saber cómo llegaron allí. Pronto descubren que han sido llevados para ser cazados por una nueva generación de depredadores extraterrestres.</desc>
+  </programme>
+  <programme channel="Sony.cl" start="20261007000000 -0300" stop="20261007100000 -0300">
+    <title lang="es">The Good Doctor</title>
+  </programme>
+  <programme channel="Sony.cl" start="20261007100000 -0300" stop="20261007120000 -0300">
+    <title lang="es">Betty&apos;s call</title>
+  </programme>
+  <programme channel="Sony.cl" start="20261007120000 -0300" stop="20261007134500 -0300">
+    <title lang="es">The Nanny</title>
+  </programme>
+  <programme channel="Sony.cl" start="20261007134500 -0300" stop="20261007142000 -0300">
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme channel="Sony.cl" start="20261007142000 -0300" stop="20261007152000 -0300">
+    <title lang="es">My wife and kids</title>
+  </programme>
+  <programme channel="Sony.cl" start="20261007152000 -0300" stop="20261007171500 -0300">
+    <title lang="es">Son como niños</title>
+    <desc lang="es">Cinco amigos de la infancia se reúnen con sus familias para pasar unos días juntos en una casa junto a un lago. Lo que comienza como unas vacaciones tranquilas se convierte en una serie de situaciones cómicas mientras los adultos vuelven a comportarse como niños.</desc>
+  </programme>
+  <programme channel="Sony.cl" start="20261007171500 -0300" stop="20261007195000 -0300">
+    <title lang="es">Jurassic World: Dominio</title>
+    <desc lang="es">Los dinosaurios ahora viven y cazan junto a los humanos en distintas partes del mundo, alterando el equilibrio de la naturaleza. Owen y Claire emprenden una peligrosa misión para rescatar a una joven, mientras los personajes de la saga original se unen a ellos para enfrentar una nueva amenaza.</desc>
+  </programme>
+  <programme channel="Sony.cl" start="20261007195000 -0300" stop="20261007220000 -0300">
+    <title lang="es">Constantine</title>
+    <desc lang="es">John Constantine, un detective especializado en fenómenos sobrenaturales, intenta salvar su alma mientras combate fuerzas demoníacas en la Tierra. Cuando una detective lo busca para investigar la misteriosa muerte de su hermana, ambos descubren una conspiración que amenaza con desatar el infierno.</desc>
+  </programme>
   <programme channel="WarnerChannel.cl" start="20261007013000 -0300" stop="20261007111300 -0300">
     <title lang="es">The Big Bang Theory</title>
   </programme>
@@ -1367,6 +1535,77 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   <programme channel="HBOPop.cl" start="20261008214000 -0300" stop="20261009000000 -0300">
     <title lang="es">Mickey 17</title>
     <desc lang="es">Un hombre es enviado a un planeta helado para participar en una peligrosa misión de colonización, donde su cuerpo puede ser reemplazado cada vez que muere. Pero cuando una nueva versión de él aparece antes de tiempo, ambos deberán enfrentarse a una situación que amenaza con destruir la misión.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261008000000 -0300" stop="20261008092000 -0300">
+    <title lang="es">Resident Evil 5: La Venganza</title>
+    <desc lang="es">Alice despierta atrapada en una instalación de Umbrella Corporation y descubre que forma parte de un experimento. Con la ayuda de antiguos aliados, deberá luchar contra hordas de criaturas y descubrir la verdad detrás del virus que ha devastado el mundo.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261008092000 -0300" stop="20261008111800 -0300">
+    <title lang="es">Sector 9</title>
+    <desc lang="es">Una enorme nave extraterrestre queda varada sobre Johannesburgo y sus tripulantes son confinados en un área llamada Sector 9. Años después, un funcionario encargado de trasladarlos comienza a transformarse en uno de ellos y descubre una nueva perspectiva sobre los extraterrestres.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261008111800 -0300" stop="20261008133500 -0300">
+    <title lang="es">Titanes del Pacífico</title>
+    <desc lang="es">Cuando enormes monstruos emergen del océano para destruir las ciudades, la humanidad responde creando gigantescos robots de combate llamados Jaegers. Un antiguo piloto y una joven cadete deberán unir fuerzas para enfrentarlos y evitar la extinción de la humanidad.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261008133500 -0300" stop="20261008154500 -0300">
+    <title lang="es">Oblivion: El tiempo del olvido</title>
+    <desc lang="es">En un futuro donde la Tierra ha quedado devastada, Jack Harper trabaja reparando drones mientras espera abandonar el planeta. Pero el descubrimiento de una misteriosa mujer y una serie de secretos ocultos lo llevan a cuestionar todo lo que creía saber sobre su misión y su pasado.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261008154500 -0300" stop="20261008174500 -0300">
+    <title lang="es">Terminator: La Salvación</title>
+    <desc lang="es">En un futuro devastado por la guerra entre humanos y máquinas, John Connor lidera la resistencia contra Skynet. Mientras lucha por cambiar el destino de la humanidad, descubre a un misterioso hombre cuyo pasado podría estar relacionado con el origen de la guerra.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261008174500 -0300" stop="20261008193700 -0300">
+    <title lang="es">Arthur</title>
+    <desc lang="es">Un millonario excéntrico y alcohólico arriesga su cómoda vida cuando su familia amenaza con quitarle su fortuna si no se casa con una mujer que no ama. Con la ayuda de una mujer de clase trabajadora, Arthur comienza a descubrir lo que realmente quiere.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261008193700 -0300" stop="20261008215200 -0300">
+    <title lang="es">Titanes del Pacífico</title>
+    <desc lang="es">Cuando enormes monstruos emergen del océano para destruir las ciudades, la humanidad responde creando gigantescos robots de combate llamados Jaegers. Un antiguo piloto y una joven cadete deberán unir fuerzas para enfrentarlos y evitar la extinción de la humanidad.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261008215200 -0300" stop="20261009000000 -0300">
+    <title lang="es">Oblivion: El tiempo del olvido</title>
+    <desc lang="es">En un futuro donde la Tierra ha quedado devastada, Jack Harper trabaja reparando drones mientras espera abandonar el planeta. Pero el descubrimiento de una misteriosa mujer y una serie de secretos ocultos lo llevan a cuestionar todo lo que creía saber sobre su misión y su pasado.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261008014000 -0300" stop="20261008101500 -0300">
+    <title lang="es">The Goldbergs</title>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261008101500 -0300" stop="20261008115000 -0300">
+    <title lang="es">Hailey Dean Mysteries: A Prescription for Murder</title>
+    <desc lang="es">La exfiscal Hailey Dean se ve involucrada en una investigación cuando una amiga enfermera muere en circunstancias sospechosas. Mientras busca descubrir la verdad, Hailey encuentra pistas que apuntan a un peligroso complot relacionado con medicamentos y asesinatos.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261008115000 -0300" stop="20261008132000 -0300">
+    <title lang="es">Fallen Angels Murder Club: Friends to Die For</title>
+    <desc lang="es">Hollis Morgan forma parte de un club de lectura cuyos miembros comparten un pasado problemático. Cuando uno de ellos aparece muerto, Hollis comienza a investigar y descubre que el asesino podría estar relacionado con alguien muy cercano al grupo.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261008132000 -0300" stop="20261008145500 -0300">
+    <title lang="es">La entrega inmediata</title>
+    <desc lang="es">Un repartidor en bicicleta recibe un encargo que parece sencillo, pero pronto descubre que está siendo perseguido por peligrosos criminales. Mientras intenta completar la entrega y mantenerse con vida, se ve atrapado en una carrera contrarreloj por las calles de la ciudad.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261008145500 -0300" stop="20261008163000 -0300">
+    <title lang="es">Misteriosa obsesión</title>
+    <desc lang="es">Una mujer comienza a sospechar que alguien la está vigilando y siguiendo, pero nadie parece creerle. A medida que investiga, descubre una serie de secretos que convierten su vida cotidiana en una peligrosa pesadilla.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261008163000 -0300" stop="20261008185500 -0300">
+    <title lang="es">Godzilla</title>
+    <desc lang="es">Una lagartija muta a un tamaño descomunal por culpa de experimentos radioactivos que ahora amenaza con destruir la isla de Manhattan.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261008185500 -0300" stop="20261008203000 -0300">
+    <title lang="es">Venom 2: Carnage liberado</title>
+    <desc lang="es">Eddie Brock intenta adaptarse a su vida junto a Venom mientras investiga a un peligroso asesino en serie. Cuando el criminal se convierte en Carnage, ambos deberán enfrentarse a una amenaza mucho más poderosa y destructiva.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261008203000 -0300" stop="20261008220000 -0300">
+    <title lang="es">Patient Zero</title>
+    <desc lang="es">Después de que una pandemia transforme a gran parte de la humanidad en criaturas violentas, un hombre que puede comunicarse con los infectados se convierte en la clave para encontrar una cura. Junto a un grupo de sobrevivientes, deberá descubrir el origen del brote antes de que sea demasiado tarde.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261008220000 -0300" stop="20261008233400 -0300">
+    <title lang="es">Tierra de Zombies</title>
+    <desc lang="es">En un mundo devastado por una epidemia que convirtió a la mayoría de la población en zombis, un joven solitario sigue una serie de reglas para mantenerse con vida. Su camino cambia cuando se une a un grupo de sobrevivientes y juntos emprenden un viaje lleno de peligros y situaciones absurdas.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261008233400 -0300" stop="20261009011400 -0300">
+    <title lang="es">Un lugar en silencio: Parte II</title>
+    <desc lang="es">Tras los acontecimientos de la primera película, la familia Abbott debe abandonar su hogar y enfrentarse a un mundo devastado por criaturas que cazan guiándose por el sonido. En su búsqueda de otros sobrevivientes, descubren que los peligros que los esperan van mucho más allá de las criaturas.</desc>
   </programme>
   <programme channel="AMC.cl" start="20261013014000 -0300" stop="20261013110000 -0300">
     <title lang="es">Planet Action</title>
@@ -1750,6 +1989,13 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
     <title lang="es">La Monja 2</title>
     <desc lang="es">En Francia de 1956, tras el asesinato de un sacerdote y un mal que se extiende, la hermana Irene se encuentra una vez más con Valak, la monja demonio.</desc>
   </programme>
+  <programme channel="HBO.Plus.cl" start="20261013221000 -0300" stop="20261013231100 -0300">
+    <title lang="es">Linternas</title>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261013231100 -0300" stop="20261014010000 -0300">
+    <title lang="es">Hombre lobo</title>
+    <desc lang="es">Un hombre regresa a la propiedad de su familia después de recibir noticias sobre la desaparición de su padre. Allí descubre una aterradora criatura que lo transforma en un hombre lobo y deberá luchar contra la maldición mientras intenta proteger a sus seres queridos.</desc>
+  </programme>
   <programme channel="StudioUniversal.ar" start="20261013015500 -0300" stop="20261013101000 -0300">
     <title lang="es">Intercambio de hermanas: Navidad en el pueblo</title>
     <desc lang="es">Dos hermanas deciden intercambiar sus vidas durante las fiestas navideñas y terminan descubriendo que el cambio es mucho más complicado de lo que imaginaban. Entre nuevos entornos, romances y situaciones inesperadas, ambas encontrarán una nueva perspectiva sobre lo que realmente desean.</desc>
@@ -1777,6 +2023,10 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   <programme channel="StudioUniversal.ar" start="20261013195500 -0300" stop="20261013220000 -0300">
     <title lang="es">La brújula dorada</title>
     <desc lang="es">Lyra, una joven huérfana, vive en un mundo paralelo donde cada persona tiene un animal que representa su alma. Cuando su mejor amigo desaparece, Lyra emprende un viaje hacia el norte y descubre secretos que podrían cambiar el destino de su mundo.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261013220000 -0300" stop="20261014000000 -0300">
+    <title lang="es">El insoportable peso del inmenso talento</title>
+    <desc lang="es">Nicolas Cage interpreta una versión ficticia de sí mismo, un actor en crisis que acepta asistir al cumpleaños de un misterioso millonario. Lo que parece un trabajo sencillo termina involucrándolo en una peligrosa misión de espionaje y crimen.</desc>
   </programme>
   <programme channel="SONYMOVIES.uy" start="20261013012400 -0300" stop="20261013105000 -0300">
     <title lang="es">The Goldbergs</title>
@@ -2346,6 +2596,163 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   <programme channel="HBOPop.cl" start="20261014233000 -0300" stop="20261015000000 -0300">
     <title lang="es">Youth (T1, E4)</title>
   </programme>
+  <programme channel="HBOXtreme.cl" start="20261014000000 -0300" stop="20261014101900 -0300">
+    <title lang="es">Al Filo del Mañana</title>
+    <desc lang="es">Un soldado se encuentra en el último día de una batalla contra alienígenas y cuando este muere todo empieza nuevamente.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261014101900 -0300" stop="20261014121500 -0300">
+    <title lang="es">Elysium</title>
+    <desc lang="es">En un futuro donde los ricos viven en una estación espacial paradisíaca y el resto de la humanidad sobrevive en una Tierra devastada, un hombre gravemente enfermo decide llegar a Elysium. Para lograrlo, se embarca en una peligrosa misión que podría cambiar el destino de millones de personas.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261014121500 -0300" stop="20261014135300 -0300">
+    <title lang="es">Inframundo: Guerras de sangre</title>
+    <desc lang="es">Selene, una guerrera vampira, se encuentra atrapada en medio de una guerra entre vampiros y licántropos. Perseguida por ambos bandos, deberá enfrentarse a nuevos enemigos y utilizar sus habilidades para proteger a los suyos.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261014135300 -0300" stop="20261014155300 -0300">
+    <title lang="es">El Señor de los Anillos: El Retorno del Rey</title>
+    <desc lang="es">La batalla final por la Tierra Media se acerca mientras Frodo y Sam continúan su peligrosa misión para destruir el Anillo Único. Aragorn deberá asumir su destino como rey y liderar a los pueblos libres en una última lucha contra las fuerzas de Sauron.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261014155300 -0300" stop="20261014182000 -0300">
+    <title lang="es">El Señor de los Anillos: El Retorno del Rey</title>
+    <desc lang="es">La batalla final por la Tierra Media se acerca mientras Frodo y Sam continúan su peligrosa misión para destruir el Anillo Único. Aragorn deberá asumir su destino como rey y liderar a los pueblos libres en una última lucha contra las fuerzas de Sauron.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261014182000 -0300" stop="20261014201900 -0300">
+    <title lang="es">Al Filo del Mañana</title>
+    <desc lang="es">Un soldado se encuentra en el último día de una batalla contra alienígenas y cuando este muere todo empieza nuevamente.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261014201900 -0300" stop="20261014220900 -0300">
+    <title lang="es">Beekeeper: Sentencia de muerte</title>
+    <desc lang="es">Adam Clay, un antiguo agente de una poderosa organización clandestina conocida como los Beekeepers, lleva una vida tranquila hasta que una estafa provoca una tragedia personal. Entonces emprende una violenta misión de venganza contra los responsables, poniendo al descubierto una conspiración que llega hasta los niveles más altos del poder.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261014220900 -0300" stop="20261015000000 -0300">
+    <title lang="es">Tierra Sin Ley</title>
+    <desc lang="es">En un territorio dominado por la violencia y la corrupción, un hombre se ve obligado a enfrentarse a peligrosos enemigos para proteger a quienes ama. Mientras intenta sobrevivir, deberá decidir hasta dónde está dispuesto a llegar para hacer justicia.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261014010000 -0300" stop="20261014101100 -0300">
+    <title lang="es">Gremlins 2: La nueva generación</title>
+    <desc lang="es">Billy y Kate vuelven a encontrarse con Gizmo, quien accidentalmente queda expuesto al agua y da origen a una nueva generación de traviesos gremlins. Esta vez, las criaturas causarán el caos dentro de un enorme rascacielos de Nueva York.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261014101100 -0300" stop="20261014123100 -0300">
+    <title lang="es">La posesión de la momia</title>
+    <desc lang="es">Un grupo de arqueólogos despierta accidentalmente una antigua maldición al descubrir una momia egipcia. Cuando una presencia sobrenatural comienza a apoderarse de los vivos, deberán encontrar la forma de detenerla antes de que sea demasiado tarde.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261014123100 -0300" stop="20261014141600 -0300">
+    <title lang="es">Ojo por ojo</title>
+    <desc lang="es">Una mujer queda marcada por la tragedia después de que su hija sea víctima de un crimen brutal. Incapaz de aceptar la injusticia, decide tomar la justicia por sus propias manos y emprende una peligrosa búsqueda de venganza.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261014141600 -0300" stop="20261014160600 -0300">
+    <title lang="es">Bárbaro</title>
+    <desc lang="es">Un guerrero que vive en un mundo dominado por la violencia y la barbarie emprende un viaje marcado por la venganza y la supervivencia. Enfrentándose a enemigos despiadados, deberá luchar para recuperar lo que le fue arrebatado.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261014160600 -0300" stop="20261014182600 -0300">
+    <title lang="es">El conjuro 2</title>
+    <desc lang="es">Los investigadores paranormales Ed y Lorraine Warren viajan a Londres para ayudar a una madre y sus hijos, quienes aseguran estar siendo acosados por una presencia sobrenatural. Al investigar la casa, descubren una entidad mucho más peligrosa de lo que imaginaban.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261014182600 -0300" stop="20261014201600 -0300">
+    <title lang="es">La llave maestra</title>
+    <desc lang="es">Una joven enfermera acepta trabajar en una aislada mansión de Luisiana para cuidar a un hombre enfermo. Allí encuentra una habitación secreta y descubre antiguos rituales de magia que la llevan a una aterradora verdad sobre la casa y sus habitantes.</desc>
+  </programme>
+  <programme channel="HBO.Plus.cl" start="20261014201600 -0300" stop="20261014220100 -0300">
+    <title lang="es">La Huérfana: El Origen</title>
+    <desc lang="es">Leena escapa de un hospital psiquiátrico en Estonia y asume la identidad de una niña desaparecida para infiltrarse en una familia adinerada. Sin embargo, su nueva vida se complica cuando una madre decidida a proteger a su familia comienza a sospechar de ella.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261014000000 -0300" stop="20261014090000 -0300">
+    <title lang="es">Hollywood on Set</title>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261014090000 -0300" stop="20261014104000 -0300">
+    <title lang="es">Una Navidad atemporal</title>
+    <desc lang="es">Una pareja queda atrapada en un extraño bucle temporal durante las fiestas navideñas. Mientras intenta descubrir cómo romper el ciclo, deberá enfrentarse a sus propios problemas y aprender a valorar el tiempo que tiene juntos.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261014104000 -0300" stop="20261014124000 -0300">
+    <title lang="es">Escuela para idiotas</title>
+    <desc lang="es">Un hombre acostumbrado a fracasar en todo decide inscribirse en una escuela especial para mejorar su vida. Allí descubre que aprender a controlar sus impulsos y asumir responsabilidades puede ser mucho más difícil de lo que imaginaba.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261014124000 -0300" stop="20261014144000 -0300">
+    <title lang="es">Un amor para recordar</title>
+    <desc lang="es">Un joven rebelde es obligado a participar en una actividad escolar junto a una tranquila y bondadosa compañera. Aunque al principio parecen muy diferentes, ambos terminan enamorándose y descubriendo que su relación cambiará sus vidas para siempre.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261014144000 -0300" stop="20261014164500 -0300">
+    <title lang="es">El Principe y yo</title>
+    <desc lang="es">Una estudiante universitaria conoce a un joven que parece ser un estudiante común, sin saber que en realidad es el príncipe heredero de Dinamarca. Mientras su romance crece, ambos deberán enfrentarse a las diferencias entre sus mundos y a las responsabilidades de la realeza.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261014164500 -0300" stop="20261014184000 -0300">
+    <title lang="es">¡Porque lo digo yo!</title>
+    <desc lang="es">Una madre sobreprotectora decide encontrar al hombre perfecto para su hija menor, convencida de que sabe qué es lo mejor para ella. Sin embargo, sus intentos por controlar la vida amorosa de su hija terminan provocando situaciones inesperadas y divertidas.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261014184000 -0300" stop="20261014202000 -0300">
+    <title lang="es">Johnny English</title>
+    <desc lang="es">Un torpe pero entusiasta agente secreto británico recibe la misión de investigar un complot que amenaza al país. Aunque carece de las habilidades de un espía tradicional, Johnny English está decidido a salvar el día, provocando una serie de situaciones absurdas.</desc>
+  </programme>
+  <programme channel="StudioUniversal.ar" start="20261014202000 -0300" stop="20261014220000 -0300">
+    <title lang="es">Johnny English 3.0</title>
+    <desc lang="es">El agente secreto Johnny English vuelve a la acción cuando un ciberataque revela la identidad de todos los agentes británicos. Obligado a salir de su retiro, deberá detener al responsable utilizando métodos tan absurdos como inesperados.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261014012900 -0300" stop="20261014104000 -0300">
+    <title lang="es">The Goldbergs</title>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261014104000 -0300" stop="20261014121500 -0300">
+    <title lang="es">Morning Show Mysteries: A Murder in Mind</title>
+    <desc lang="es">Una presentadora de televisión se ve involucrada en una investigación criminal cuando un asesinato sacude su entorno. Mientras busca descubrir al responsable, deberá seguir las pistas y enfrentarse a secretos que podrían ponerla en peligro.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261014121500 -0300" stop="20261014135000 -0300">
+    <title lang="es">Cocodrilo: El capítulo final</title>
+    <desc lang="es">Una familia se ve atrapada en una peligrosa situación cuando un enorme cocodrilo aparece en un lugar donde nadie esperaba encontrarlo. Mientras intentan sobrevivir a los ataques de la criatura, deberán encontrar una forma de escapar antes de convertirse en sus próximas víctimas.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261014135000 -0300" stop="20261014153500 -0300">
+    <title lang="es">Terror en la niebla</title>
+    <desc lang="es">Una pequeña ciudad costera se ve envuelta en una misteriosa niebla que trae consigo criaturas sobrenaturales y mortales. Un grupo de habitantes se refugia en una tienda mientras lucha por sobrevivir y descubrir qué se esconde entre la niebla.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261014153500 -0300" stop="20261014171000 -0300">
+    <title lang="es">Hotel Transylvania</title>
+    <desc lang="es">El Conde Drácula organiza una celebración para su hija Mavis en un lujoso hotel donde los monstruos pueden vivir lejos de los humanos. Pero todo cambia cuando un joven humano llega accidentalmente al hotel y se enamora de Mavis.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261014171000 -0300" stop="20261014184500 -0300">
+    <title lang="es">Hotel Transylvania 2</title>
+    <desc lang="es">Drácula está preocupado porque su pequeño nieto Dennis parece no mostrar ninguna señal de ser un vampiro. Mientras intenta despertar su lado monstruoso, la familia recibe la inesperada visita de Vlad, el estricto padre de Drácula.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261014184500 -0300" stop="20261014202500 -0300">
+    <title lang="es">Hotel Transylvania 3: Monstruos de vacaciones</title>
+    <desc lang="es">Drácula y su familia se embarcan en un lujoso crucero para disfrutar de unas vacaciones lejos del hotel. Allí, Drácula se enamora de la misteriosa capitana Ericka, sin sospechar que ella guarda un peligroso secreto relacionado con su familia.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261014202500 -0300" stop="20261014220000 -0300">
+    <title lang="es">Anaconda</title>
+    <desc lang="es">Un equipo de documentalistas se adentra en la selva amazónica para filmar a una tribu desconocida. Su expedición se convierte en una lucha por sobrevivir cuando un cazador obsesionado los obliga a enfrentarse a una gigantesca y mortal anaconda.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261014220000 -0300" stop="20261014235000 -0300">
+    <title lang="es">Depredador 2</title>
+    <desc lang="es">En un futuro cercano, Los Ángeles se encuentra sumida en una violenta guerra entre bandas mientras un misterioso cazador extraterrestre comienza a perseguir a sus víctimas. Un teniente de policía deberá descubrir qué está ocurriendo antes de convertirse en la próxima presa.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261014235000 -0300" stop="20261015014000 -0300">
+    <title lang="es">Depredadores</title>
+    <desc lang="es">Un grupo de personas de distintos orígenes despierta en un planeta desconocido sin saber cómo llegaron allí. Pronto descubren que han sido llevados para ser cazados por una nueva generación de depredadores extraterrestres.</desc>
+  </programme>
+  <programme channel="Sony.cl" start="20261014000000 -0300" stop="20261014100000 -0300">
+    <title lang="es">The Good Doctor</title>
+  </programme>
+  <programme channel="Sony.cl" start="20261014100000 -0300" stop="20261014120000 -0300">
+    <title lang="es">Betty&apos;s call</title>
+  </programme>
+  <programme channel="Sony.cl" start="20261014120000 -0300" stop="20261014134500 -0300">
+    <title lang="es">The Nanny</title>
+  </programme>
+  <programme channel="Sony.cl" start="20261014134500 -0300" stop="20261014142000 -0300">
+    <title lang="es">Vecinos</title>
+  </programme>
+  <programme channel="Sony.cl" start="20261014142000 -0300" stop="20261014152000 -0300">
+    <title lang="es">My wife and kids</title>
+  </programme>
+  <programme channel="Sony.cl" start="20261014152000 -0300" stop="20261014171500 -0300">
+    <title lang="es">Son como niños</title>
+    <desc lang="es">Cinco amigos de la infancia se reúnen con sus familias para pasar unos días juntos en una casa junto a un lago. Lo que comienza como unas vacaciones tranquilas se convierte en una serie de situaciones cómicas mientras los adultos vuelven a comportarse como niños.</desc>
+  </programme>
+  <programme channel="Sony.cl" start="20261014171500 -0300" stop="20261014195000 -0300">
+    <title lang="es">Jurassic World: Dominio</title>
+    <desc lang="es">Los dinosaurios ahora viven y cazan junto a los humanos en distintas partes del mundo, alterando el equilibrio de la naturaleza. Owen y Claire emprenden una peligrosa misión para rescatar a una joven, mientras los personajes de la saga original se unen a ellos para enfrentar una nueva amenaza.</desc>
+  </programme>
+  <programme channel="Sony.cl" start="20261014195000 -0300" stop="20261014220000 -0300">
+    <title lang="es">Constantine</title>
+    <desc lang="es">John Constantine, un detective especializado en fenómenos sobrenaturales, intenta salvar su alma mientras combate fuerzas demoníacas en la Tierra. Cuando una detective lo busca para investigar la misteriosa muerte de su hermana, ambos descubren una conspiración que amenaza con desatar el infierno.</desc>
+  </programme>
   <programme channel="WarnerChannel.cl" start="20261014013000 -0300" stop="20261014111300 -0300">
     <title lang="es">The Big Bang Theory</title>
   </programme>
@@ -2631,5 +3038,76 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   <programme channel="HBOPop.cl" start="20261015214000 -0300" stop="20261016000000 -0300">
     <title lang="es">Mickey 17</title>
     <desc lang="es">Un hombre es enviado a un planeta helado para participar en una peligrosa misión de colonización, donde su cuerpo puede ser reemplazado cada vez que muere. Pero cuando una nueva versión de él aparece antes de tiempo, ambos deberán enfrentarse a una situación que amenaza con destruir la misión.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261015000000 -0300" stop="20261015092000 -0300">
+    <title lang="es">Resident Evil 5: La Venganza</title>
+    <desc lang="es">Alice despierta atrapada en una instalación de Umbrella Corporation y descubre que forma parte de un experimento. Con la ayuda de antiguos aliados, deberá luchar contra hordas de criaturas y descubrir la verdad detrás del virus que ha devastado el mundo.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261015092000 -0300" stop="20261015111800 -0300">
+    <title lang="es">Sector 9</title>
+    <desc lang="es">Una enorme nave extraterrestre queda varada sobre Johannesburgo y sus tripulantes son confinados en un área llamada Sector 9. Años después, un funcionario encargado de trasladarlos comienza a transformarse en uno de ellos y descubre una nueva perspectiva sobre los extraterrestres.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261015111800 -0300" stop="20261015133500 -0300">
+    <title lang="es">Titanes del Pacífico</title>
+    <desc lang="es">Cuando enormes monstruos emergen del océano para destruir las ciudades, la humanidad responde creando gigantescos robots de combate llamados Jaegers. Un antiguo piloto y una joven cadete deberán unir fuerzas para enfrentarlos y evitar la extinción de la humanidad.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261015133500 -0300" stop="20261015154500 -0300">
+    <title lang="es">Oblivion: El tiempo del olvido</title>
+    <desc lang="es">En un futuro donde la Tierra ha quedado devastada, Jack Harper trabaja reparando drones mientras espera abandonar el planeta. Pero el descubrimiento de una misteriosa mujer y una serie de secretos ocultos lo llevan a cuestionar todo lo que creía saber sobre su misión y su pasado.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261015154500 -0300" stop="20261015174500 -0300">
+    <title lang="es">Terminator: La Salvación</title>
+    <desc lang="es">En un futuro devastado por la guerra entre humanos y máquinas, John Connor lidera la resistencia contra Skynet. Mientras lucha por cambiar el destino de la humanidad, descubre a un misterioso hombre cuyo pasado podría estar relacionado con el origen de la guerra.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261015174500 -0300" stop="20261015193700 -0300">
+    <title lang="es">Arthur</title>
+    <desc lang="es">Un millonario excéntrico y alcohólico arriesga su cómoda vida cuando su familia amenaza con quitarle su fortuna si no se casa con una mujer que no ama. Con la ayuda de una mujer de clase trabajadora, Arthur comienza a descubrir lo que realmente quiere.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261015193700 -0300" stop="20261015215200 -0300">
+    <title lang="es">Titanes del Pacífico</title>
+    <desc lang="es">Cuando enormes monstruos emergen del océano para destruir las ciudades, la humanidad responde creando gigantescos robots de combate llamados Jaegers. Un antiguo piloto y una joven cadete deberán unir fuerzas para enfrentarlos y evitar la extinción de la humanidad.</desc>
+  </programme>
+  <programme channel="HBOXtreme.cl" start="20261015215200 -0300" stop="20261016000000 -0300">
+    <title lang="es">Oblivion: El tiempo del olvido</title>
+    <desc lang="es">En un futuro donde la Tierra ha quedado devastada, Jack Harper trabaja reparando drones mientras espera abandonar el planeta. Pero el descubrimiento de una misteriosa mujer y una serie de secretos ocultos lo llevan a cuestionar todo lo que creía saber sobre su misión y su pasado.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261015014000 -0300" stop="20261015101500 -0300">
+    <title lang="es">The Goldbergs</title>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261015101500 -0300" stop="20261015115000 -0300">
+    <title lang="es">Hailey Dean Mysteries: A Prescription for Murder</title>
+    <desc lang="es">La exfiscal Hailey Dean se ve involucrada en una investigación cuando una amiga enfermera muere en circunstancias sospechosas. Mientras busca descubrir la verdad, Hailey encuentra pistas que apuntan a un peligroso complot relacionado con medicamentos y asesinatos.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261015115000 -0300" stop="20261015132000 -0300">
+    <title lang="es">Fallen Angels Murder Club: Friends to Die For</title>
+    <desc lang="es">Hollis Morgan forma parte de un club de lectura cuyos miembros comparten un pasado problemático. Cuando uno de ellos aparece muerto, Hollis comienza a investigar y descubre que el asesino podría estar relacionado con alguien muy cercano al grupo.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261015132000 -0300" stop="20261015145500 -0300">
+    <title lang="es">La entrega inmediata</title>
+    <desc lang="es">Un repartidor en bicicleta recibe un encargo que parece sencillo, pero pronto descubre que está siendo perseguido por peligrosos criminales. Mientras intenta completar la entrega y mantenerse con vida, se ve atrapado en una carrera contrarreloj por las calles de la ciudad.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261015145500 -0300" stop="20261015163000 -0300">
+    <title lang="es">Misteriosa obsesión</title>
+    <desc lang="es">Una mujer comienza a sospechar que alguien la está vigilando y siguiendo, pero nadie parece creerle. A medida que investiga, descubre una serie de secretos que convierten su vida cotidiana en una peligrosa pesadilla.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261015163000 -0300" stop="20261015185500 -0300">
+    <title lang="es">Godzilla</title>
+    <desc lang="es">Una lagartija muta a un tamaño descomunal por culpa de experimentos radioactivos que ahora amenaza con destruir la isla de Manhattan.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261015185500 -0300" stop="20261015203000 -0300">
+    <title lang="es">Venom 2: Carnage liberado</title>
+    <desc lang="es">Eddie Brock intenta adaptarse a su vida junto a Venom mientras investiga a un peligroso asesino en serie. Cuando el criminal se convierte en Carnage, ambos deberán enfrentarse a una amenaza mucho más poderosa y destructiva.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261015203000 -0300" stop="20261015220000 -0300">
+    <title lang="es">Patient Zero</title>
+    <desc lang="es">Después de que una pandemia transforme a gran parte de la humanidad en criaturas violentas, un hombre que puede comunicarse con los infectados se convierte en la clave para encontrar una cura. Junto a un grupo de sobrevivientes, deberá descubrir el origen del brote antes de que sea demasiado tarde.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261015220000 -0300" stop="20261015233400 -0300">
+    <title lang="es">Tierra de Zombies</title>
+    <desc lang="es">En un mundo devastado por una epidemia que convirtió a la mayoría de la población en zombis, un joven solitario sigue una serie de reglas para mantenerse con vida. Su camino cambia cuando se une a un grupo de sobrevivientes y juntos emprenden un viaje lleno de peligros y situaciones absurdas.</desc>
+  </programme>
+  <programme channel="SONYMOVIES.uy" start="20261015233400 -0300" stop="20261016011400 -0300">
+    <title lang="es">Un lugar en silencio: Parte II</title>
+    <desc lang="es">Tras los acontecimientos de la primera película, la familia Abbott debe abandonar su hogar y enfrentarse a un mundo devastado por criaturas que cazan guiándose por el sonido. En su búsqueda de otros sobrevivientes, descubren que los peligros que los esperan van mucho más allá de las criaturas.</desc>
   </programme>
 </tv>
