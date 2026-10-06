@@ -1356,6 +1356,12 @@
           "inicio": "22:00",
           "fin": "23:29",
           "descripcion": "Cuando sus dueños salen de casa, un grupo de mascotas vive todo tipo de aventuras lejos de la mirada humana. Max, un perro acostumbrado a ser el favorito, deberá dejar de lado sus diferencias con Duke para encontrar el camino de regreso a casa."
+        },
+        {
+          "nombre": "Pokémon: Detective Pikachu",
+          "inicio": "23:29",
+          "fin": "01:16",
+          "descripcion": "Un joven llega a Ryme City para descubrir qué ocurrió con su padre desaparecido y se encuentra con un Pikachu que puede hablar. Juntos emprenden una investigación llena de pistas, Pokémon y secretos que podrían revelar la verdad sobre su desaparición."
         }
       ],
       "Viernes": [],
