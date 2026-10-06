@@ -1537,56 +1537,7 @@
       "Domingo": []
     },
     "HBOXtreme.cl": {
-      "Lunes": [
-        {
-          "nombre": "Los sustitutos",
-          "inicio": "00:00",
-          "fin": "09:33",
-          "descripcion": "En un futuro donde las personas viven sus vidas a través de robots idénticos a ellos, un agente del FBI investiga una serie de asesinatos que amenazan este mundo aparentemente perfecto. Al verse obligado a salir de su propia realidad virtual, descubrirá una peligrosa conspiración."
-        },
-        {
-          "nombre": "Sector 9",
-          "inicio": "09:33",
-          "fin": "11:31",
-          "descripcion": "Una enorme nave extraterrestre queda varada sobre Johannesburgo y sus tripulantes son confinados en una zona conocida como el Sector 9. Años después, un funcionario encargado de trasladarlos comienza a experimentar un extraño cambio que lo convierte en el objetivo de poderosos intereses."
-        },
-        {
-          "nombre": "Terminator: La Salvación",
-          "inicio": "11:31",
-          "fin": "13:31",
-          "descripcion": "En el 2018, una misteriosa arma en la guerra contra las máquinas – mitad humano y mitad máquina – busca a John Connor para ayudar con la misión de atacar a Skynet."
-        },
-        {
-          "nombre": "Oblivion: El Tiempo del Olvido",
-          "inicio": "13:31",
-          "fin": "15:41",
-          "descripcion": "Un reparador de drones del planeta tierra devastado luego de décadas de guerras con los extraterrestres descubre los restos de una nave espacial."
-        },
-        {
-          "nombre": "El robo perfecto: Pantera",
-          "inicio": "15:41",
-          "fin": "17:56",
-          "descripcion": "Big Nick y su equipo regresan para perseguir a Donnie, quien se ha aliado con una peligrosa ladrona conocida como Pantera. Juntos planean un ambicioso golpe internacional mientras la policía intenta anticiparse a sus movimientos."
-        },
-        {
-          "nombre": "Sector 9",
-          "inicio": "17:56",
-          "fin": "19:53",
-          "descripcion": "Una enorme nave extraterrestre queda varada sobre Johannesburgo y sus tripulantes son confinados en una zona conocida como el Sector 9. Años después, un funcionario encargado de trasladarlos comienza a experimentar un extraño cambio que lo convierte en el objetivo de poderosos intereses."
-        },
-        {
-          "nombre": "Oblivion: El Tiempo del Olvido",
-          "inicio": "19:53",
-          "fin": "22:02",
-          "descripcion": "Un reparador de drones del planeta tierra devastado luego de décadas de guerras con los extraterrestres descubre los restos de una nave espacial."
-        },
-        {
-          "nombre": "Barry Seal: Solo en América",
-          "inicio": "22:02",
-          "fin": "00:00",
-          "descripcion": "Barry es un piloto aventurero que es reclutado por CIA para formar parte en una de las mayores operaciones encubiertas en la historia de los Estados Unidos."
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "Jurassic Park III",
