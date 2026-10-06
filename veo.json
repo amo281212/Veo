@@ -2359,7 +2359,14 @@
           "descripcion": ""
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "Castle",
+          "inicio": "00:26",
+          "fin": "12:56",
+          "descripcion": "Temporada 8 | Episodio 22"
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
