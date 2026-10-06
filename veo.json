@@ -2037,32 +2037,7 @@
       "Domingo": []
     },
     "FX.cl": {
-      "Lunes": [
-        {
-          "nombre": "La Delgada Línea Roja",
-          "inicio": "14:36",
-          "fin": "17:55",
-          "descripcion": "Un grupo de soldados estadounidenses enfrenta la brutalidad y la crudeza de la guerra durante la cruenta batalla de Guadalcanal en el Pacífico durante la Segunda Guerra Mundial, mientras cuestionan el sentido del conflicto y la naturaleza humana."
-        },
-        {
-          "nombre": "El Aguador",
-          "inicio": "17:55",
-          "fin": "19:51",
-          "descripcion": "Un tímido y humilde repartidor de agua para un equipo de fútbol americano universitaria descubre que posee una furia desatada y un talento brutal para el tacleo, convirtiéndose en la inesperada estrella salvadora del equipo."
-        },
-        {
-          "nombre": "El protegido",
-          "inicio": "19:51",
-          "fin": "21:59",
-          "descripcion": "Un hombre ordinario descubre que posee una fuerza sobrehumana y una invulnerabilidad absoluta tras sobrevivir milagrosamente a un catastrófico accidente de tren, guiado por un misterioso coleccionista obsesionado con los cómics."
-        },
-        {
-          "nombre": "Hada por accidente",
-          "inicio": "21:59",
-          "fin": "00:04",
-          "descripcion": "Un rudo jugador de hockey sobre hielo conocido por golpear a sus rivales recibe una condena inusual: ser obligado a trabajar como un auténtico hada de los dientes con alas y varita mágica durante dos semanas."
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "El arte de ser adulto",
