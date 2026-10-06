@@ -1426,7 +1426,14 @@
           "descripcion": "John Oliver analiza las noticias y acontecimientos más importantes de la actualidad, abordando temas políticos, sociales y culturales con humor y sátira. Cada episodio profundiza en un tema central mientras cuestiona situaciones y problemas de gran relevancia."
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "Los ángeles de Charlie 2: Al límite",
+          "inicio": "00:00",
+          "fin": "11:25",
+          "descripcion": "Natalie, Dylan y Alex reciben una peligrosa misión para recuperar unos anillos que contienen información secreta sobre personas protegidas por el programa federal de testigos. Las tres agentes deberán enfrentarse a un antiguo enemigo mientras intentan evitar que los datos caigan en las manos equivocadas."
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
