@@ -453,50 +453,7 @@
       "Domingo": []
     },
     "Cinemax.cl": {
-      "Lunes": [
-        {
-          "nombre": "41",
-          "inicio": "00:00",
-          "fin": "09:48",
-          "descripcion": "Un grupo de jóvenes se reúne para celebrar el cumpleaños de uno de ellos, pero la noche toma un rumbo inesperado cuando comienzan a salir a la luz secretos y conflictos del pasado. Lo que parecía una celebración entre amigos termina poniendo a prueba sus relaciones."
-        },
-        {
-          "nombre": "Robin Hood",
-          "inicio": "09:48",
-          "fin": "12:14",
-          "descripcion": "Robin Hood regresa a Inglaterra tras luchar en las Cruzadas y descubre que su pueblo vive bajo el abuso y los elevados impuestos del sheriff de Nottingham. Junto a un grupo de aliados, decide enfrentarse al poder para defender a los más desfavorecidos."
-        },
-        {
-          "nombre": "Van Helsing: El Cazador de Monstruos",
-          "inicio": "12:14",
-          "fin": "14:31",
-          "descripcion": "Van Helsing, un cazador de criaturas sobrenaturales, viaja a Transilvania para enfrentarse al temible conde Drácula y sus monstruosas criaturas. Con la ayuda de Anna Valerious, deberá luchar contra fuerzas oscuras mientras descubre los secretos de su propio pasado."
-        },
-        {
-          "nombre": "El hombre araña 2",
-          "inicio": "14:31",
-          "fin": "16:51",
-          "descripcion": "Peter Parker intenta equilibrar su vida como estudiante y su responsabilidad como Spider-Man, mientras su relación con Mary Jane se vuelve cada vez más complicada. Al mismo tiempo, deberá enfrentarse al poderoso Doctor Octopus, un científico que se convierte en una peligrosa amenaza para la ciudad."
-        },
-        {
-          "nombre": "Robin Hood",
-          "inicio": "16:51",
-          "fin": "19:20",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Van Helsing: El Cazador de Monstruos",
-          "inicio": "19:20",
-          "fin": "21:37",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El hombre araña 2",
-          "inicio": "21:37",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "Downton Abbey",
