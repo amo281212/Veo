@@ -2038,7 +2038,14 @@
           "descripcion": "Un grupo de personas de distintos orígenes despierta en un planeta desconocido sin saber cómo llegaron allí. Pronto descubren que han sido llevados para ser cazados por una nueva generación de depredadores extraterrestres."
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "The Goldbergs",
+          "inicio": "01:40",
+          "fin": "10:15",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
