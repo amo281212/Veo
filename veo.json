@@ -1158,6 +1158,12 @@
           "inicio": "21:00",
           "fin": "23:03",
           "descripcion": "Godzilla y Kong deben unir fuerzas para enfrentar una amenaza colosal que surge desde las profundidades de la Tierra. Mientras exploran un mundo desconocido habitado por criaturas gigantes, ambos titanes deberán dejar de lado sus diferencias para proteger a la humanidad."
+        },
+        {
+          "nombre": "Geo-Tormenta",
+          "inicio": "23:03",
+          "fin": "01:00",
+          "descripcion": "Cuando una red de satélites diseñada para controlar el clima comienza a fallar, una serie de desastres naturales amenaza al planeta. Un ingeniero debe viajar al espacio para detener el sistema antes de que una devastadora tormenta global destruya la Tierra."
         }
       ],
       "Viernes": [],
