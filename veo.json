@@ -2683,6 +2683,12 @@
           "inicio": "13:00",
           "fin": "13:50",
           "descripcion": "Derecho de Pernada"
+        },
+        {
+          "nombre": "La Ley y el Orden",
+          "inicio": "13:50",
+          "fin": "14:40",
+          "descripcion": "Merodeador"
         }
       ],
       "Miércoles": [],
