@@ -1762,6 +1762,12 @@
           "inicio": "01:00",
           "fin": "10:11",
           "descripcion": "Billy y Kate vuelven a encontrarse con Gizmo, quien accidentalmente queda expuesto al agua y da origen a una nueva generación de traviesos gremlins. Esta vez, las criaturas causarán el caos dentro de un enorme rascacielos de Nueva York."
+        },
+        {
+          "nombre": "La posesión de la momia",
+          "inicio": "10:11",
+          "fin": "12:31",
+          "descripcion": "Un grupo de arqueólogos despierta accidentalmente una antigua maldición al descubrir una momia egipcia. Cuando una presencia sobrenatural comienza a apoderarse de los vivos, deberán encontrar la forma de detenerla antes de que sea demasiado tarde."
         }
       ],
       "Jueves": [],
