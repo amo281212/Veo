@@ -222,7 +222,14 @@
           "descripcion": "John Wick, un legendario asesino retirado, se ve obligado a volver al mundo criminal después de que un antiguo enemigo pone en peligro su vida. Perseguido por peligrosos asesinos, deberá luchar contra todos los que se crucen en su camino para sobrevivir."
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "Planet Action",
+          "inicio": "01:45",
+          "fin": "11:00",
+          "descripcion": "Planet Action es una serie de 25 minutos de gran ritmo que te lleva al borde de tu asiento. Desde tiroteos de vaqueros hasta coches en explosión y monstruos rugientes. Planet Action te lleva detrás de escena de las mejores películas de acción lanzadas."
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
