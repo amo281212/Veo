@@ -791,6 +791,49 @@
   <programme channel="StarChannel.cl" start="20261006235500 -0300" stop="20261007002600 -0300">
     <title lang="es">Los Simpson</title>
   </programme>
+  <programme channel="UniversalTV.cl" start="20261006130000 -0300" stop="20261006135000 -0300">
+    <title lang="es">La Ley y el Orden</title>
+    <desc lang="es">Derecho de Pernada</desc>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261006135000 -0300" stop="20261006144000 -0300">
+    <title lang="es">La Ley y el Orden</title>
+    <desc lang="es">Merodeador</desc>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261006144000 -0300" stop="20261006153000 -0300">
+    <title lang="es">La Ley y el Orden</title>
+    <desc lang="es">El deber de tener esperanzas</desc>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261006153000 -0300" stop="20261006162000 -0300">
+    <title lang="es">Chicago P.D.</title>
+    <desc lang="es">Líneas</desc>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261006162000 -0300" stop="20261006171000 -0300">
+    <title lang="es">Chicago P.D.</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261006171000 -0300" stop="20261006180000 -0300">
+    <title lang="es">Chicago P.D.</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261006180000 -0300" stop="20261006185000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261006185000 -0300" stop="20261006194000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261006194000 -0300" stop="20261006203000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261006203000 -0300" stop="20261006212000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261006212000 -0300" stop="20261006221000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261006221000 -0300" stop="20261006230000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261006230000 -0300" stop="20261007000000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
   <programme channel="AMC.cl" start="20261007014500 -0300" stop="20261007110000 -0300">
     <title lang="es">Planet Action</title>
     <desc lang="es">Planet Action es una serie de 25 minutos de gran ritmo que te lleva al borde de tu asiento. Desde tiroteos de vaqueros hasta coches en explosión y monstruos rugientes. Planet Action te lleva detrás de escena de las mejores películas de acción lanzadas.</desc>
@@ -1300,6 +1343,54 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   </programme>
   <programme channel="StarChannel.cl" start="20261007235500 -0300" stop="20261008002600 -0300">
     <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007000000 -0300" stop="20261007085000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007085000 -0300" stop="20261007094000 -0300">
+    <title lang="es">Chicago Med</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007094000 -0300" stop="20261007103000 -0300">
+    <title lang="es">Chicago Med</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007103000 -0300" stop="20261007112000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007112000 -0300" stop="20261007121000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007121000 -0300" stop="20261007130000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007130000 -0300" stop="20261007135000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007135000 -0300" stop="20261007144000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007144000 -0300" stop="20261007153000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007153000 -0300" stop="20261007162000 -0300">
+    <title lang="es">Chicago P.D.</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007162000 -0300" stop="20261007171000 -0300">
+    <title lang="es">Chicago P.D.</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007171000 -0300" stop="20261007180000 -0300">
+    <title lang="es">Chicago P.D.</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007180000 -0300" stop="20261007185000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007185000 -0300" stop="20261007194000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007194000 -0300" stop="20261007203000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261007203000 -0300" stop="20261007212000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
   </programme>
   <programme channel="AMC.cl" start="20261008005000 -0300" stop="20261008120000 -0300">
     <title lang="es">Planet Action</title>
@@ -2286,6 +2377,49 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   <programme channel="StarChannel.cl" start="20261013235500 -0300" stop="20261014002600 -0300">
     <title lang="es">Los Simpson</title>
   </programme>
+  <programme channel="UniversalTV.cl" start="20261013130000 -0300" stop="20261013135000 -0300">
+    <title lang="es">La Ley y el Orden</title>
+    <desc lang="es">Derecho de Pernada</desc>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261013135000 -0300" stop="20261013144000 -0300">
+    <title lang="es">La Ley y el Orden</title>
+    <desc lang="es">Merodeador</desc>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261013144000 -0300" stop="20261013153000 -0300">
+    <title lang="es">La Ley y el Orden</title>
+    <desc lang="es">El deber de tener esperanzas</desc>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261013153000 -0300" stop="20261013162000 -0300">
+    <title lang="es">Chicago P.D.</title>
+    <desc lang="es">Líneas</desc>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261013162000 -0300" stop="20261013171000 -0300">
+    <title lang="es">Chicago P.D.</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261013171000 -0300" stop="20261013180000 -0300">
+    <title lang="es">Chicago P.D.</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261013180000 -0300" stop="20261013185000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261013185000 -0300" stop="20261013194000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261013194000 -0300" stop="20261013203000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261013203000 -0300" stop="20261013212000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261013212000 -0300" stop="20261013221000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261013221000 -0300" stop="20261013230000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261013230000 -0300" stop="20261014000000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
   <programme channel="AMC.cl" start="20261014014500 -0300" stop="20261014110000 -0300">
     <title lang="es">Planet Action</title>
     <desc lang="es">Planet Action es una serie de 25 minutos de gran ritmo que te lleva al borde de tu asiento. Desde tiroteos de vaqueros hasta coches en explosión y monstruos rugientes. Planet Action te lleva detrás de escena de las mejores películas de acción lanzadas.</desc>
@@ -2795,6 +2929,54 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   </programme>
   <programme channel="StarChannel.cl" start="20261014235500 -0300" stop="20261015002600 -0300">
     <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014000000 -0300" stop="20261014085000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014085000 -0300" stop="20261014094000 -0300">
+    <title lang="es">Chicago Med</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014094000 -0300" stop="20261014103000 -0300">
+    <title lang="es">Chicago Med</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014103000 -0300" stop="20261014112000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014112000 -0300" stop="20261014121000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014121000 -0300" stop="20261014130000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014130000 -0300" stop="20261014135000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014135000 -0300" stop="20261014144000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014144000 -0300" stop="20261014153000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014153000 -0300" stop="20261014162000 -0300">
+    <title lang="es">Chicago P.D.</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014162000 -0300" stop="20261014171000 -0300">
+    <title lang="es">Chicago P.D.</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014171000 -0300" stop="20261014180000 -0300">
+    <title lang="es">Chicago P.D.</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014180000 -0300" stop="20261014185000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014185000 -0300" stop="20261014194000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014194000 -0300" stop="20261014203000 -0300">
+    <title lang="es">Chicago Fire</title>
+  </programme>
+  <programme channel="UniversalTV.cl" start="20261014203000 -0300" stop="20261014212000 -0300">
+    <title lang="es">La Ley y el Orden: UVE</title>
   </programme>
   <programme channel="AMC.cl" start="20261015005000 -0300" stop="20261015120000 -0300">
     <title lang="es">Planet Action</title>
