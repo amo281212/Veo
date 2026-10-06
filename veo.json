@@ -617,7 +617,14 @@
           "descripcion": "Un hombre y una mujer que fueron pareja durante su juventud se reencuentran muchos años después, cuando sus vidas han tomado caminos completamente distintos. El encuentro los lleva a recordar su pasado, los errores que cometieron y los sentimientos que quizá nunca desaparecieron."
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "Divergente",
+          "inicio": "00:39",
+          "fin": "09:33",
+          "descripcion": "En una sociedad dividida en cinco facciones según las virtudes de sus habitantes, Tris descubre que no encaja en ninguna de ellas. Al ocultar su verdadera identidad, se ve envuelta en una conspiración que amenaza con destruir el sistema que conoce."
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
