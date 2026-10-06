@@ -1756,7 +1756,14 @@
           "descripcion": "Un hombre regresa a la propiedad de su familia después de recibir noticias sobre la desaparición de su padre. Allí descubre una aterradora criatura que lo transforma en un hombre lobo y deberá luchar contra la maldición mientras intenta proteger a sus seres queridos."
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "Gremlins 2: La nueva generación",
+          "inicio": "01:00",
+          "fin": "10:11",
+          "descripcion": "Billy y Kate vuelven a encontrarse con Gizmo, quien accidentalmente queda expuesto al agua y da origen a una nueva generación de traviesos gremlins. Esta vez, las criaturas causarán el caos dentro de un enorme rascacielos de Nueva York."
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
