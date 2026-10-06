@@ -1600,6 +1600,12 @@
           "inicio": "00:00",
           "fin": "10:19",
           "descripcion": "Un soldado se encuentra en el último día de una batalla contra alienígenas y cuando este muere todo empieza nuevamente."
+        },
+        {
+          "nombre": "Elysium",
+          "inicio": "10:19",
+          "fin": "12:15",
+          "descripcion": "En un futuro donde los ricos viven en una estación espacial paradisíaca y el resto de la humanidad sobrevive en una Tierra devastada, un hombre gravemente enfermo decide llegar a Elysium. Para lograrlo, se embarca en una peligrosa misión que podría cambiar el destino de millones de personas."
         }
       ],
       "Jueves": [],
