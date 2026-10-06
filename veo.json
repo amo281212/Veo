@@ -2174,6 +2174,12 @@
           "inicio": "10:00",
           "fin": "12:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "The Nanny",
+          "inicio": "12:00",
+          "fin": "13:45",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
