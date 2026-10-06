@@ -718,7 +718,14 @@
           "descripcion": "En un futuro apocalíptico, 30 años después del \"resplandor\" que aniquiló la casi totalidad de la sociedad civilizada, unos pocos humanos sobreviven en un ambiente increíblemente hostil y árido. Violaciones, canibalismo y salvajismo imperan en unas derruidas ciudades donde el más fuerte y el que posee el agua impone su ley. Vagando por la carretera, un guerrero solitario se dirige al oeste con una sola misión: proteger un misterioso libro que lleva en su mochila."
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "La casa de cera",
+          "inicio": "01:05",
+          "fin": "03:07",
+          "descripcion": "Seis amigos están en camino a un partido de fútbol cuando se encuentran con un pueblo fantasma llamado Ambrose cuyo principal atractivo es la casa de cera. Pronto descubren que algo no está bien en esta ciudad, que está completamente desierta, y cuyas figuras de cera son extremadamente realistas. Los seis amigos tendrán que luchar para sobrevivir y evitar ser las próximas exposiciones en la casa de cera."
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
