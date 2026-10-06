@@ -1072,6 +1072,12 @@
           "inicio": "09:00",
           "fin": "11:20",
           "descripcion": "Shazam!\nUn niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe gracias a un antiguo mago, ahora necesita dominar rápidamente sus poderes."
+        },
+        {
+          "nombre": "Wonka",
+          "inicio": "11:20",
+          "fin": "13:24",
+          "descripcion": "Sigue la maravillosa historia de cómo el mayor inventor del mundo, el mago y el chocolatero se convirtió en el querido Willy Wonka que conocemos hoy."
         }
       ],
       "Jueves": [],
