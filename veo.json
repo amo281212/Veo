@@ -1967,38 +1967,7 @@
       "Domingo": []
     },
     "TNT.cl": {
-      "Lunes": [
-        {
-          "nombre": "El Vengador Del Futuro",
-          "inicio": "14:10",
-          "fin": "16:20",
-          "descripcion": "En un futuro distópico donde la Tierra está devastada, un obrero visita una clínica de recuerdos virtuales para experimentar una vida de espía, pero el proceso sale mal y se convierte en el fugitivo más buscado por las autoridades."
-        },
-        {
-          "nombre": "Megalodón",
-          "inicio": "16:20",
-          "fin": "18:24",
-          "descripcion": "Un equipo de rescate submarino debe enfrentarse a una terrorífica criatura prehistórica de más de veinte metros de largo, que se creía extinta y que ahora amenaza a la tripulación de una fosa marina profunda."
-        },
-        {
-          "nombre": "Megalodón 2: El gran abismo",
-          "inicio": "18:24",
-          "fin": "20:28",
-          "descripcion": "Un equipo de investigación emprende una inmersión exploratoria a las profundidades del océano, pero la misión se convierte en una lucha desesperada por la supervivencia al enfrentarse a tiburones prehistóricos gigantes y despiadados mercenarios."
-        },
-        {
-          "nombre": "MasterChef Celebrity (T5, E5)",
-          "inicio": "20:28",
-          "fin": "22:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El otro hermano",
-          "inicio": "22:00",
-          "fin": "00:06",
-          "descripcion": "Un hombre acepta el encargo de trasladar el cuerpo sin vida de su jefe a un remoto pueblo de la Patagonia, pero el viaje se descontrola al verse envuelto en una red de corrupción local, violencia y secretos oscuros."
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "Cincuenta Sombras de Grey",
