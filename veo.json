@@ -1240,6 +1240,12 @@
           "inicio": "00:12",
           "fin": "09:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Los Pitufos 2",
+          "inicio": "09:00",
+          "fin": "10:48",
+          "descripcion": "Los pitufos junto con la ayuda de sus amigos humanos deberán unir fuerzas para rescatar a pitufina que ha sido secuestrada por Gargamel."
         }
       ],
       "Jueves": [],
