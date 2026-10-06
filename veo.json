@@ -404,7 +404,14 @@
           "descripcion": "Un joven descubre que podría estar relacionado por sangre con la mujer de la que está enamorado. Mientras intenta descubrir la verdad, una serie de malentendidos y situaciones absurdas complican aún más su relación y lo llevan a una disparatada búsqueda para demostrar que su amor es posible."
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Across the River and Into the Trees",
+          "inicio": "00:00",
+          "fin": "09:00",
+          "descripcion": "Un coronel estadounidense viaja a Venecia durante los últimos días de la Segunda Guerra Mundial, buscando un lugar donde enfrentar sus recuerdos y su deteriorada salud. Allí conoce a una joven aristócrata que despierta en él sentimientos inesperados y una renovada esperanza."
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
