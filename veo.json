@@ -366,6 +366,12 @@
           "inicio": "00:00",
           "fin": "09:00",
           "descripcion": "Inspirada en hechos reales, la película narra los últimos meses de vida de Israel Hernández Jr. (\"Reefa\"), un talentoso grafitero y joven apasionado por el arte que vive en Miami, cuyo destino da un giro trágico en el verano de 2013 tras un fatal encuentro con la policía."
+        },
+        {
+          "nombre": "Cats",
+          "inicio": "09:00",
+          "fin": "11:14",
+          "descripcion": "Durante una noche especial, una comunidad de gatos Jellicle se reúne para celebrar su elección anual, en la que uno de ellos será elegido para comenzar una nueva vida. Entre canciones, bailes y rivalidades, cada felino intenta demostrar por qué merece ser el elegido."
         }
       ],
       "Jueves": [],
