@@ -166,33 +166,25 @@
     <title lang="es">El exótico Hotel Marigold</title>
     <desc lang="es">Un grupo de jubilados británicos viaja a la India para comenzar una nueva etapa en un antiguo y peculiar hotel. Aunque el lugar no es lo que esperaban, sus nuevas experiencias, amistades y desafíos cambiarán la forma en que ven sus propias vidas.</desc>
   </programme>
-  <programme channel="Cinemax.cl" start="20261006000000 -0300" stop="20261006100000 -0300">
-    <title lang="es">Downton Abbey</title>
-    <desc lang="es">La familia Crawley y sus sirvientes se preparan para recibir a importantes invitados en Downton Abbey, mientras las tradiciones y conflictos familiares salen a la luz. En medio de los cambios de una nueva época, deberán adaptarse a un mundo que ya no es el mismo.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261006100000 -0300" stop="20261006120000 -0300">
-    <title lang="es">Mountainhead</title>
-    <desc lang="es">Cuatro amigos multimillonarios se reúnen en una lujosa mansión de montaña mientras una grave crisis internacional sacude al mundo. Entre ambiciones, egos y conflictos personales, el encuentro se convierte en un peligroso juego de poder impulsado por la tecnología y la inteligencia artificial.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261006120000 -0300" stop="20261006140100 -0300">
-    <title lang="es">Ip Man 4: El Final</title>
-    <desc lang="es">Ip Man viaja a Estados Unidos para ayudar a su hijo y descubre que la comunidad china enfrenta conflictos y discriminación. Mientras busca un futuro para su familia, deberá demostrar una vez más el poder y la dignidad del kung fu.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261006140100 -0300" stop="20261006153200 -0300">
+  <programme channel="Cinemax.cl" start="20261006131100 -0300" stop="20261006145300 -0300">
     <title lang="es">Shrek para siempre</title>
     <desc lang="es">Cansado de la rutina, Shrek hace un trato con el astuto Rumpelstiltskin que cambia por completo su vida y el reino de Muy Muy Lejano. Ahora deberá encontrar la manera de recuperar a Fiona, a sus amigos y el mundo que conocía antes de que sea demasiado tarde.</desc>
   </programme>
-  <programme channel="Cinemax.cl" start="20261006153200 -0300" stop="20261006182100 -0300">
+  <programme channel="Cinemax.cl" start="20261006145300 -0300" stop="20261006175500 -0300">
     <title lang="es">Matrix: Resurrecciones</title>
     <desc lang="es">Thomas Anderson lleva una vida aparentemente normal, pero comienza a experimentar extraños recuerdos y visiones que lo hacen cuestionar su realidad. Cuando vuelve a encontrarse con Trinity, deberá descubrir la verdad y enfrentarse nuevamente a la Matrix.</desc>
   </programme>
-  <programme channel="Cinemax.cl" start="20261006182100 -0300" stop="20261006202300 -0300">
+  <programme channel="Cinemax.cl" start="20261006175500 -0300" stop="20261006200700 -0300">
     <title lang="es">Mountainhead</title>
     <desc lang="es">Cuatro amigos multimillonarios se reúnen en una lujosa mansión de montaña mientras una grave crisis internacional sacude al mundo. Entre ambiciones, egos y conflictos personales, el encuentro se convierte en un peligroso juego de poder impulsado por la tecnología y la inteligencia artificial.</desc>
   </programme>
-  <programme channel="Cinemax.cl" start="20261006202300 -0300" stop="20261007000000 -0300">
+  <programme channel="Cinemax.cl" start="20261006200700 -0300" stop="20261006221400 -0300">
     <title lang="es">Ip Man 4: El Final</title>
     <desc lang="es">Ip Man viaja a Estados Unidos para ayudar a su hijo y descubre que la comunidad china enfrenta conflictos y discriminación. Mientras busca un futuro para su familia, deberá demostrar una vez más el poder y la dignidad del kung fu.</desc>
+  </programme>
+  <programme channel="Cinemax.cl" start="20261006221400 -0300" stop="20261007000000 -0300">
+    <title lang="es">Shrek para siempre</title>
+    <desc lang="es">Cansado de la rutina, Shrek hace un trato con el astuto Rumpelstiltskin que cambia por completo su vida y el reino de Muy Muy Lejano. Ahora deberá encontrar la manera de recuperar a Fiona, a sus amigos y el mundo que conocía antes de que sea demasiado tarde.</desc>
   </programme>
   <programme channel="Golden.cl" start="20261006003700 -0300" stop="20261006090900 -0300">
     <title lang="es">El cielo en tu mirada</title>
@@ -855,11 +847,7 @@
     <title lang="es">Dime que no es cierto</title>
     <desc lang="es">Un joven descubre que podría estar relacionado por sangre con la mujer de la que está enamorado. Mientras intenta descubrir la verdad, una serie de malentendidos y situaciones absurdas complican aún más su relación y lo llevan a una disparatada búsqueda para demostrar que su amor es posible.</desc>
   </programme>
-  <programme channel="Cinemax.cl" start="20261007000000 -0300" stop="20261007093400 -0300">
-    <title lang="es">Estafa telefónica</title>
-    <desc lang="es">Una mujer recibe una misteriosa llamada telefónica que la lleva a verse involucrada en una peligrosa estafa. Mientras intenta descubrir quién está detrás del engaño, deberá enfrentarse a una serie de situaciones cada vez más inesperadas.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261007093400 -0300" stop="20261007112300 -0300">
+  <programme channel="Cinemax.cl" start="20261007000000 -0300" stop="20261007112300 -0300">
     <title lang="es">Fahrenheit 451</title>
     <desc lang="es">En un futuro donde los libros están prohibidos, un bombero encargado de quemarlos comienza a cuestionar el sistema en el que vive. Al descubrir el poder de la lectura, se rebela contra una sociedad que busca controlar el pensamiento y la información.</desc>
   </programme>
@@ -886,6 +874,10 @@
   <programme channel="Cinemax.cl" start="20261007204700 -0300" stop="20261007222600 -0300">
     <title lang="es">Un Jefe en Pañales</title>
     <desc lang="es">Tim es un niño normal hasta que sus papás decidieron le dan la sorpresa de llevar un hermanito a casa, un bebé que parece ser un jefe en pañales.</desc>
+  </programme>
+  <programme channel="Cinemax.cl" start="20261007222600 -0300" stop="20261008000000 -0300">
+    <title lang="es">Kung Fu Panda 2</title>
+    <desc lang="es">Po regresa y ahora deberá encontrar una fuerza en su pasado para detener a un malvado villano quiere conquistar China y destruir el kung fu.</desc>
   </programme>
   <programme channel="Golden.cl" start="20261007003900 -0300" stop="20261007093300 -0300">
     <title lang="es">Divergente</title>
@@ -1669,33 +1661,25 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
     <title lang="es">El exótico Hotel Marigold</title>
     <desc lang="es">Un grupo de jubilados británicos viaja a la India para comenzar una nueva etapa en un antiguo y peculiar hotel. Aunque el lugar no es lo que esperaban, sus nuevas experiencias, amistades y desafíos cambiarán la forma en que ven sus propias vidas.</desc>
   </programme>
-  <programme channel="Cinemax.cl" start="20261013000000 -0300" stop="20261013100000 -0300">
-    <title lang="es">Downton Abbey</title>
-    <desc lang="es">La familia Crawley y sus sirvientes se preparan para recibir a importantes invitados en Downton Abbey, mientras las tradiciones y conflictos familiares salen a la luz. En medio de los cambios de una nueva época, deberán adaptarse a un mundo que ya no es el mismo.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261013100000 -0300" stop="20261013120000 -0300">
-    <title lang="es">Mountainhead</title>
-    <desc lang="es">Cuatro amigos multimillonarios se reúnen en una lujosa mansión de montaña mientras una grave crisis internacional sacude al mundo. Entre ambiciones, egos y conflictos personales, el encuentro se convierte en un peligroso juego de poder impulsado por la tecnología y la inteligencia artificial.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261013120000 -0300" stop="20261013140100 -0300">
-    <title lang="es">Ip Man 4: El Final</title>
-    <desc lang="es">Ip Man viaja a Estados Unidos para ayudar a su hijo y descubre que la comunidad china enfrenta conflictos y discriminación. Mientras busca un futuro para su familia, deberá demostrar una vez más el poder y la dignidad del kung fu.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261013140100 -0300" stop="20261013153200 -0300">
+  <programme channel="Cinemax.cl" start="20261013131100 -0300" stop="20261013145300 -0300">
     <title lang="es">Shrek para siempre</title>
     <desc lang="es">Cansado de la rutina, Shrek hace un trato con el astuto Rumpelstiltskin que cambia por completo su vida y el reino de Muy Muy Lejano. Ahora deberá encontrar la manera de recuperar a Fiona, a sus amigos y el mundo que conocía antes de que sea demasiado tarde.</desc>
   </programme>
-  <programme channel="Cinemax.cl" start="20261013153200 -0300" stop="20261013182100 -0300">
+  <programme channel="Cinemax.cl" start="20261013145300 -0300" stop="20261013175500 -0300">
     <title lang="es">Matrix: Resurrecciones</title>
     <desc lang="es">Thomas Anderson lleva una vida aparentemente normal, pero comienza a experimentar extraños recuerdos y visiones que lo hacen cuestionar su realidad. Cuando vuelve a encontrarse con Trinity, deberá descubrir la verdad y enfrentarse nuevamente a la Matrix.</desc>
   </programme>
-  <programme channel="Cinemax.cl" start="20261013182100 -0300" stop="20261013202300 -0300">
+  <programme channel="Cinemax.cl" start="20261013175500 -0300" stop="20261013200700 -0300">
     <title lang="es">Mountainhead</title>
     <desc lang="es">Cuatro amigos multimillonarios se reúnen en una lujosa mansión de montaña mientras una grave crisis internacional sacude al mundo. Entre ambiciones, egos y conflictos personales, el encuentro se convierte en un peligroso juego de poder impulsado por la tecnología y la inteligencia artificial.</desc>
   </programme>
-  <programme channel="Cinemax.cl" start="20261013202300 -0300" stop="20261014000000 -0300">
+  <programme channel="Cinemax.cl" start="20261013200700 -0300" stop="20261013221400 -0300">
     <title lang="es">Ip Man 4: El Final</title>
     <desc lang="es">Ip Man viaja a Estados Unidos para ayudar a su hijo y descubre que la comunidad china enfrenta conflictos y discriminación. Mientras busca un futuro para su familia, deberá demostrar una vez más el poder y la dignidad del kung fu.</desc>
+  </programme>
+  <programme channel="Cinemax.cl" start="20261013221400 -0300" stop="20261014000000 -0300">
+    <title lang="es">Shrek para siempre</title>
+    <desc lang="es">Cansado de la rutina, Shrek hace un trato con el astuto Rumpelstiltskin que cambia por completo su vida y el reino de Muy Muy Lejano. Ahora deberá encontrar la manera de recuperar a Fiona, a sus amigos y el mundo que conocía antes de que sea demasiado tarde.</desc>
   </programme>
   <programme channel="Golden.cl" start="20261013003700 -0300" stop="20261013090900 -0300">
     <title lang="es">El cielo en tu mirada</title>
@@ -2358,11 +2342,7 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
     <title lang="es">Dime que no es cierto</title>
     <desc lang="es">Un joven descubre que podría estar relacionado por sangre con la mujer de la que está enamorado. Mientras intenta descubrir la verdad, una serie de malentendidos y situaciones absurdas complican aún más su relación y lo llevan a una disparatada búsqueda para demostrar que su amor es posible.</desc>
   </programme>
-  <programme channel="Cinemax.cl" start="20261014000000 -0300" stop="20261014093400 -0300">
-    <title lang="es">Estafa telefónica</title>
-    <desc lang="es">Una mujer recibe una misteriosa llamada telefónica que la lleva a verse involucrada en una peligrosa estafa. Mientras intenta descubrir quién está detrás del engaño, deberá enfrentarse a una serie de situaciones cada vez más inesperadas.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261014093400 -0300" stop="20261014112300 -0300">
+  <programme channel="Cinemax.cl" start="20261014000000 -0300" stop="20261014112300 -0300">
     <title lang="es">Fahrenheit 451</title>
     <desc lang="es">En un futuro donde los libros están prohibidos, un bombero encargado de quemarlos comienza a cuestionar el sistema en el que vive. Al descubrir el poder de la lectura, se rebela contra una sociedad que busca controlar el pensamiento y la información.</desc>
   </programme>
@@ -2389,6 +2369,10 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   <programme channel="Cinemax.cl" start="20261014204700 -0300" stop="20261014222600 -0300">
     <title lang="es">Un Jefe en Pañales</title>
     <desc lang="es">Tim es un niño normal hasta que sus papás decidieron le dan la sorpresa de llevar un hermanito a casa, un bebé que parece ser un jefe en pañales.</desc>
+  </programme>
+  <programme channel="Cinemax.cl" start="20261014222600 -0300" stop="20261015000000 -0300">
+    <title lang="es">Kung Fu Panda 2</title>
+    <desc lang="es">Po regresa y ahora deberá encontrar una fuerza en su pasado para detener a un malvado villano quiere conquistar China y destruir el kung fu.</desc>
   </programme>
   <programme channel="Golden.cl" start="20261014003900 -0300" stop="20261014093300 -0300">
     <title lang="es">Divergente</title>
