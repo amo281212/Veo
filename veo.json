@@ -2315,7 +2315,14 @@
           "descripcion": ""
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Castle",
+          "inicio": "00:26",
+          "fin": "13:37",
+          "descripcion": "Temporada 8 | Episodio 21"
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
