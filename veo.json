@@ -954,6 +954,12 @@
           "inicio": "01:00",
           "fin": "09:00",
           "descripcion": "Una adolescente atraviesa los altibajos de la secundaria mientras intenta encontrar su lugar entre amistades, inseguridades y conflictos familiares. Cuando su mejor amiga comienza una relación con su hermano mayor, siente que su mundo se desmorona y debe aprender a aceptar los cambios."
+        },
+        {
+          "nombre": "Jurassic Park",
+          "inicio": "09:00",
+          "fin": "11:13",
+          "descripcion": "Un multimillonario crea un parque temático poblado por dinosaurios clonados a partir de ADN prehistórico. Cuando los sistemas de seguridad fallan, las criaturas escapan y un grupo de visitantes deberá luchar por sobrevivir."
         }
       ],
       "Viernes": [],
