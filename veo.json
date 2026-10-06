@@ -1857,7 +1857,14 @@
           "descripcion": "Nicolas Cage interpreta una versión ficticia de sí mismo, un actor en crisis que acepta asistir al cumpleaños de un misterioso millonario. Lo que parece un trabajo sencillo termina involucrándolo en una peligrosa misión de espionaje y crimen."
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "Hollywood on Set",
+          "inicio": "00:00",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
