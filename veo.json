@@ -1705,56 +1705,7 @@
       "Domingo": []
     },
     "SONYMOVIES.uy": {
-      "Lunes": [
-        {
-          "nombre": "Hailey Dean Mysteries: A Marriage Made for Murder",
-          "inicio": "10:45",
-          "fin": "12:25",
-          "descripcion": "Hailey Dean, una exfiscal convertida en terapeuta, se ve envuelta en una nueva investigación cuando una boda termina marcada por un asesinato. Con su experiencia y capacidad para descubrir la verdad, deberá reunir las pistas y desenmascarar al responsable antes de que vuelva a atacar."
-        },
-        {
-          "nombre": "Los cazafantasmas",
-          "inicio": "12:25",
-          "fin": "14:15",
-          "descripcion": "Tres científicos especializados en fenómenos paranormales crean una empresa dedicada a capturar fantasmas en Nueva York. Cuando una antigua entidad sobrenatural amenaza con desatar el caos, deberán enfrentarse a una de sus investigaciones más peligrosas."
-        },
-        {
-          "nombre": "Escalofríos",
-          "inicio": "14:15",
-          "fin": "16:05",
-          "descripcion": "Un joven accidentalmente abre un libro en la casa de sus vecinos que libera criaturas extrañas, ahora con la ayuda de su creador deberán atraparlas."
-        },
-        {
-          "nombre": "Escalofríos 2: Una Noche Embrujada",
-          "inicio": "16:05",
-          "fin": "17:40",
-          "descripcion": "Sonny y Sam accidentalmente liberan monstruos diabólicos de un libro, ahora están en una carrera contra el tiempo antes de que se desate un pandemónium."
-        },
-        {
-          "nombre": "Godzilla",
-          "inicio": "17:40",
-          "fin": "20:05",
-          "descripcion": "Una lagartija muta a un tamaño descomunal por culpa de experimentos radioactivos que ahora amenaza con destruir la isla de Manhattan."
-        },
-        {
-          "nombre": "Orgullo, prejuicio y zombies",
-          "inicio": "20:05",
-          "fin": "22:00",
-          "descripcion": "En una Inglaterra del siglo XIX infestada de zombis, las hermanas Bennet han sido entrenadas para combatir a los muertos vivientes mientras buscan su lugar en la sociedad. Elizabeth deberá lidiar con sus sentimientos hacia el orgulloso señor Darcy en medio de una creciente amenaza."
-        },
-        {
-          "nombre": "Patient Zero",
-          "inicio": "22:00",
-          "fin": "23:30",
-          "descripcion": "Una pandemia transforma a gran parte de la humanidad en criaturas violentas y sedientas de sangre. Un hombre con una extraña inmunidad posee la capacidad de comunicarse con los infectados y podría ser la clave para encontrar una cura antes de que sea demasiado tarde."
-        },
-        {
-          "nombre": "El perfecto asesino",
-          "inicio": "23:30",
-          "fin": "01:24",
-          "descripcion": "Un asesino profesional conocido como Léon vive aislado y sigue estrictamente las reglas de su trabajo. Su vida cambia cuando una joven vecina queda sola tras el asesinato de su familia y busca refugio junto a él, creando un vínculo inesperado mientras ambos enfrentan a sus perseguidores."
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "The Goldbergs",
