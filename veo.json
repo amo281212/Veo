@@ -266,7 +266,14 @@
           "descripcion": "Un explorador que participaba en una expedición de comercio de pieles en la década de 1820 lucha por sobrevivir tras ser atacado por un oso y abandonado a su suerte por miembros de su propio equipo de caza."
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Planet Action",
+          "inicio": "00:50",
+          "fin": "11:30",
+          "descripcion": "Planet Action es una serie de 25 minutos de gran ritmo que te lleva al borde de tu asiento. Desde tiroteos de vaqueros hasta coches en explosión y monstruos rugientes. Planet Action te lleva detrás de escena de las mejores películas de acción lanzadas."
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
