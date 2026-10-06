@@ -440,6 +440,12 @@
           "inicio": "18:06",
           "fin": "20:00",
           "descripcion": "Documental que explora la explosión musical de Laurel Canyon, en Los Ángeles, durante los años 60. Jakob Dylan se reúne con músicos legendarios para recordar a bandas como The Byrds, The Beach Boys y Buffalo Springfield, y descubrir cómo aquella escena transformó la música popular."
+        },
+        {
+          "nombre": "Madagascar",
+          "inicio": "20:00",
+          "fin": "21:49",
+          "descripcion": "Un león, una cebra, una jirafa y un hipopótamo escapan accidentalmente del zoológico de Nueva York y terminan en la exótica isla de Madagascar. Lejos de su hogar, deberán adaptarse a la naturaleza y enfrentarse a situaciones inesperadas."
         }
       ],
       "Viernes": [],
