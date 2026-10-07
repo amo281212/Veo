@@ -1561,50 +1561,7 @@
     },
     "StarChannel.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Castle",
-          "inicio": "00:26",
-          "fin": "13:37",
-          "descripcion": "Temporada 8 | Episodio 21"
-        },
-        {
-          "nombre": "Volcano",
-          "inicio": "13:37",
-          "fin": "15:38",
-          "descripcion": "Una violenta y repentina erupción volcánica subterránea desata el caos y ríos de lava ardiente en pleno corazón de Los Ángeles, obligando a los equipos de emergencia liderados por la oficina de gestión de crisis a librar una carrera contrarreloj para salvar la ciudad."
-        },
-        {
-          "nombre": "El día llegará",
-          "inicio": "15:38",
-          "fin": "17:17",
-          "descripcion": "Un ingenuo y carismático líder religioso de Miami, que sueña con desatar una revolución pacífica para salvar a su familia de la ruina económica, acepta una supuesta financiación sin saber que en realidad se trata de una elaborada y absurda trampa tendida por el FBI para fabricar un falso culpable por terrorismo."
-        },
-        {
-          "nombre": "Máxima Velocidad",
-          "inicio": "17:17",
-          "fin": "19:39",
-          "descripcion": "Un decidido oficial del equipo de desactivación de explosivos de Los Ángeles debe evitar que una bomba instalada en un autobús urbano estalle, manteniendo la velocidad del vehículo por encima de las cincuenta millas por hora mientras un terrorista extorsiona a la ciudad."
-        },
-        {
-          "nombre": "La propuesta",
-          "inicio": "19:39",
-          "fin": "21:54",
-          "descripcion": "Una exigente y temida editora de libros canadiense que enfrenta una inminente deportación por problemas con su visa obliga a su joven y sobreexplotado asistente personal a casarse con ella a cambio de un prometido ascenso laboral, desencadenando un viaje familiar a Alaska donde las mentiras empiezan a derrumbarse."
-        },
-        {
-          "nombre": "Miss Simpatía",
-          "inicio": "21:54",
-          "fin": "23:55",
-          "descripcion": "Una brusca y desaliñada agente del FBI debe infiltrarse de encubierto como concursante en el prestigioso certamen de belleza de Miss Estados Unidos para evitar que un escurridizo terrorista conocido como \"El Ciudadano\" atente contra el evento."
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:55",
-          "fin": "00:26",
-          "descripcion": ""
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Castle",
