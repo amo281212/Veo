@@ -579,68 +579,7 @@
     },
     "HBO.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "La Batalla de Riddick",
-          "inicio": "00:59",
-          "fin": "09:00",
-          "descripcion": "Riddick queda varado en un planeta desconocido y descubre que no está solo, pues peligrosas criaturas acechan en cada rincón. Mientras lucha por sobrevivir y encontrar una salida, deberá enfrentarse también a un grupo de mercenarios que lo persigue."
-        },
-        {
-          "nombre": "300",
-          "inicio": "09:00",
-          "fin": "11:05",
-          "descripcion": "El rey Leónidas lidera a 300 guerreros espartanos para defender su tierra ante el enorme ejército persa comandado por Jerjes. En el desfiladero de las Termópilas, deberán resistir en una batalla desigual mientras luchan por proteger la libertad de su pueblo."
-        },
-        {
-          "nombre": "Last Week Tonight with John Oliver (T13, E25)",
-          "inicio": "11:05",
-          "fin": "11:51",
-          "descripcion": "John Oliver analiza con su característico humor y sarcasmo algunas de las noticias y temas más relevantes de la actualidad. El episodio combina investigación, comentarios y sátira para abordar asuntos políticos, sociales y culturales de Estados Unidos y el mundo."
-        },
-        {
-          "nombre": "War (T1, E1)",
-          "inicio": "11:51",
-          "fin": "12:51",
-          "descripcion": "El primer episodio presenta a un grupo de personas cuyas vidas se ven afectadas por el conflicto y las decisiones que deben tomar para sobrevivir. En medio de la tensión y el peligro, comenzarán a enfrentarse a situaciones que pondrán a prueba sus vínculos y convicciones."
-        },
-        {
-          "nombre": "Batman",
-          "inicio": "12:51",
-          "fin": "15:56",
-          "descripcion": "Bruce Wayne lleva una doble vida como millonario y como Batman, un vigilante que protege Gotham City de los criminales. Cuando el peligroso Joker comienza a sembrar el caos en la ciudad, Batman deberá enfrentarlo mientras intenta proteger a quienes más le importan."
-        },
-        {
-          "nombre": "Vista por última vez",
-          "inicio": "15:56",
-          "fin": "17:40",
-          "descripcion": "Un hombre descubre que su esposa ha desaparecido misteriosamente mientras se encontraba en un estacionamiento. Desesperado por encontrarla, inicia una búsqueda contrarreloj que lo llevará a descubrir secretos y pistas cada vez más inquietantes."
-        },
-        {
-          "nombre": "Linternas (T1, E8)",
-          "inicio": "17:40",
-          "fin": "18:40",
-          "descripcion": "En este episodio, los protagonistas continúan enfrentándose a nuevos desafíos mientras intentan comprender los misterios que rodean los acontecimientos recientes. Las pistas comienzan a conectar diferentes sucesos, llevando al grupo hacia una situación cada vez más peligrosa."
-        },
-        {
-          "nombre": "El Justiciero",
-          "inicio": "18:40",
-          "fin": "21:00",
-          "descripcion": "Robert McCall, un hombre con un pasado como agente secreto, lleva una vida tranquila hasta que decide ayudar a una joven en peligro. Al enfrentarse a una peligrosa organización criminal, volverá a utilizar sus habilidades para hacer justicia y proteger a los más vulnerables."
-        },
-        {
-          "nombre": "Tornados",
-          "inicio": "21:00",
-          "fin": "23:10",
-          "descripcion": "Una científica especializada en tormentas regresa a su ciudad natal para investigar una serie de tornados cada vez más violentos. Junto a un grupo de cazadores de tormentas, deberá enfrentarse a condiciones extremas mientras intenta comprender y detener el fenómeno."
-        },
-        {
-          "nombre": "No te sueltes",
-          "inicio": "23:10",
-          "fin": "01:00",
-          "descripcion": "Una madre y sus dos hijos se refugian en una cabaña aislada mientras una presencia misteriosa parece amenazarlos desde el exterior. Cuando las dudas comienzan a surgir, deberán mantenerse unidos y descubrir qué es real antes de que sea demasiado tarde."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Hombres de Negro 3",
