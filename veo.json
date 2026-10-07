@@ -1461,62 +1461,7 @@
     },
     "UniversalCinema.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Magic Mike XXL",
-          "inicio": "01:30",
-          "fin": "10:20",
-          "descripcion": "Tres años después de retirarse del escenario, Mike se reúne con sus antiguos compañeros para emprender un viaje hacia Myrtle Beach. En el camino, el grupo se prepara para una última gran presentación, mientras Mike descubre nuevas razones para volver a hacer lo que mejor sabe."
-        },
-        {
-          "nombre": "El Hombre de Toronto",
-          "inicio": "10:20",
-          "fin": "12:15",
-          "descripcion": "Un caso de confusión de identidad obliga a un hombre a hacer equipo con el asesino conocido como El Hombre de Toronto con la esperanza de seguir con vida."
-        },
-        {
-          "nombre": "La gran apuesta",
-          "inicio": "12:15",
-          "fin": "14:25",
-          "descripcion": "Un grupo de inversores descubre que el mercado inmobiliario estadounidense está a punto de colapsar y decide apostar en contra del sistema financiero, anticipándose a la crisis de 2008."
-        },
-        {
-          "nombre": "Hotel Transylvania 4: Transformanía",
-          "inicio": "14:25",
-          "fin": "15:55",
-          "descripcion": "Un invento fallido transforma a Drácula y a sus amigos en humanos, mientras que su yerno se convierte en monstruo, obligándolos a buscar una cura antes de que sea permanente."
-        },
-        {
-          "nombre": "Dora y la Ciudad Perdida",
-          "inicio": "15:55",
-          "fin": "17:40",
-          "descripcion": "Dora, Diego, Botas y un grupo de amigos se aventuran para salvar a los padres de Dora y resolver el misterio detrás de una ciudad de oro perdida."
-        },
-        {
-          "nombre": "Jurassic World: Dominio",
-          "inicio": "17:40",
-          "fin": "20:00",
-          "descripcion": "Cuatro años después de la destrucción de Isla Nublar, los dinosaurios conviven y cazan junto a los humanos en todo el mundo, obligando a un grupo de expertos a enfrentar una conspiración genética global."
-        },
-        {
-          "nombre": "Uncharted: Fuera del mapa",
-          "inicio": "20:00",
-          "fin": "22:00",
-          "descripcion": "Un joven cazador de tesoros y su astuto mentor se embarcan en una peligrosa búsqueda alrededor del mundo para encontrar una fortuna perdida de hace 500 años y descubrir pistas sobre su hermano desaparecido."
-        },
-        {
-          "nombre": "Guardianes de la Bahía",
-          "inicio": "22:00",
-          "fin": "23:55",
-          "descripcion": "Mitch descubre a unos criminales que amenazan la bahía que juró proteger, ahora él y sus compañeros harán lo imposible para salvar la playa."
-        },
-        {
-          "nombre": "Mi novio atómico",
-          "inicio": "23:55",
-          "fin": "01:45",
-          "descripcion": "Un hombre criado toda su vida en un refugio antibombas de los años 50 sale al mundo exterior por primera vez para conseguir suministros y conoce a una mujer moderna que lo ayuda a adaptarse a la época actual."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
