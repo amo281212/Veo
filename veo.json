@@ -103,6 +103,12 @@
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TNT.png"
     },
     {
+      "clave": "ENTChannel.cl",
+      "nombre": "ENT Channel",
+      "id": "ENTChannel.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20Channel.png"
+    },
+    {
       "clave": "FX.cl",
       "nombre": "FX",
       "id": "FX.cl",
@@ -119,12 +125,6 @@
       "nombre": "STAR Channel",
       "id": "StarChannel.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/STAR%20CHANNEL.png"
-    },
-    {
-      "clave": "ENTChannel.cl",
-      "nombre": "ENT Channel",
-      "id": "ENTChannel.cl",
-      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20Channel.png"
     },
     {
       "clave": "UniversalTV.cl",
