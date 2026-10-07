@@ -172,62 +172,7 @@
   "programacion": {
     "AMC.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Planet Action",
-          "inicio": "01:40",
-          "fin": "11:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Planet Action",
-          "inicio": "11:00",
-          "fin": "11:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los tres mosqueteros: Milady",
-          "inicio": "11:30",
-          "fin": "13:35",
-          "descripcion": "Milady de Winter busca vengarse de quienes la traicionaron mientras Francia se ve envuelta en conspiraciones y conflictos políticos. En su camino, deberá enfrentarse a los mosqueteros y a poderosos enemigos para conseguir lo que desea."
-        },
-        {
-          "nombre": "Ben-Hur",
-          "inicio": "13:35",
-          "fin": "15:50",
-          "descripcion": "Tras ser traicionado y condenado injustamente, Judah Ben-Hur es separado de su familia y convertido en esclavo. Años después, regresa decidido a recuperar su libertad y enfrentarse a quien destruyó su vida, mientras su camino se cruza con el de Jesús."
-        },
-        {
-          "nombre": "La novia de mis sueños",
-          "inicio": "15:50",
-          "fin": "17:45",
-          "descripcion": "Un hombre conoce a una mujer que parece ser la pareja perfecta y rápidamente comienza a imaginar una vida junto a ella. Sin embargo, cuando la realidad empieza a alejarse de sus expectativas, deberá descubrir qué es lo que realmente busca en el amor."
-        },
-        {
-          "nombre": "Noé",
-          "inicio": "17:45",
-          "fin": "20:15",
-          "descripcion": "Noé recibe una misión divina para construir un enorme arca antes de que un devastador diluvio cubra la Tierra. Mientras se prepara para salvar a su familia y a distintas especies animales, deberá enfrentar conflictos que pondrán a prueba su fe y determinación."
-        },
-        {
-          "nombre": "Negocios fuera de control",
-          "inicio": "20:15",
-          "fin": "22:00",
-          "descripcion": "Un empresario que intenta cerrar un importante acuerdo lleva a sus empleados a un viaje de negocios que rápidamente se sale de control. Lo que debía ser una reunión rutinaria termina convirtiéndose en una serie de situaciones absurdas y caóticas."
-        },
-        {
-          "nombre": "El precio del mañana",
-          "inicio": "22:00",
-          "fin": "23:50",
-          "descripcion": "En un futuro donde el tiempo se ha convertido en la moneda de cambio, las personas dejan de envejecer a los 25 años y deben trabajar para mantenerse con vida. Un joven recibe inesperadamente una enorme cantidad de tiempo y se ve envuelto en una lucha contra un sistema dominado por los más ricos."
-        },
-        {
-          "nombre": "John Wick: Sin control",
-          "inicio": "23:50",
-          "fin": "01:45",
-          "descripcion": "John Wick, un legendario asesino retirado, se ve obligado a volver al mundo criminal después de que un antiguo enemigo pone en peligro su vida. Perseguido por peligrosos asesinos, deberá luchar contra todos los que se crucen en su camino para sobrevivir."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Planet Action",
