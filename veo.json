@@ -1272,68 +1272,7 @@
     },
     "SONYMOVIES.uy": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "The Goldbergs",
-          "inicio": "01:24",
-          "fin": "10:50",
-          "descripcion": "— Temporada 10"
-        },
-        {
-          "nombre": "Fallen Angels Murder Club: Friends to Die For",
-          "inicio": "10:50",
-          "fin": "12:20",
-          "descripcion": "Hollis Morgan, una mujer que acaba de salir de prisión, se une a un club de lectura para exconvictos que termina involucrado en una serie de asesinatos. Mientras la policía investiga, Hollis decide buscar al responsable por su cuenta y descubre que los crímenes están relacionados."
-        },
-        {
-          "nombre": "Matchmaker Mysteries: A Fatal Romance",
-          "inicio": "12:20",
-          "fin": "13:55",
-          "descripcion": "Una casamentera profesional se ve involucrada en una investigación cuando uno de sus clientes aparece muerto poco después de encontrar pareja. Mientras intenta descubrir quién está detrás del crimen, deberá enfrentarse a secretos y relaciones que podrían esconder al verdadero culpable."
-        },
-        {
-          "nombre": "Lake Placid vs. Anaconda",
-          "inicio": "13:55",
-          "fin": "15:30",
-          "descripcion": "Un enorme cocodrilo y una gigantesca anaconda se enfrentan cuando ambas criaturas son llevadas a un mismo lugar. Mientras los monstruosos depredadores desatan el caos, un grupo de personas deberá encontrar la manera de sobrevivir y detenerlos."
-        },
-        {
-          "nombre": "Cocodrilo: El capítulo final",
-          "inicio": "15:30",
-          "fin": "17:05",
-          "descripcion": "Un enorme cocodrilo vuelve a sembrar el terror cuando un grupo de personas queda atrapado en una zona aislada. Mientras buscan escapar de la criatura, deberán luchar por sobrevivir antes de convertirse en sus próximas víctimas."
-        },
-        {
-          "nombre": "Venom 2: Carnage liberado",
-          "inicio": "17:05",
-          "fin": "18:40",
-          "descripcion": "Eddie Brock intenta adaptarse a su vida junto a Venom mientras investiga al peligroso asesino Cletus Kasady. Cuando Kasady se convierte en Carnage, Eddie y Venom deberán enfrentarse a esta nueva amenaza antes de que cause una masacre."
-        },
-        {
-          "nombre": "Los locos Addams 2",
-          "inicio": "18:40",
-          "fin": "20:15",
-          "descripcion": "La familia Addams emprende un viaje por carretera para pasar tiempo juntos, pero su peculiar estilo de vida provoca todo tipo de situaciones disparatadas. Mientras recorren el país, los Addams se enfrentan a nuevos personajes y aventuras que pondrán a prueba su unión familiar."
-        },
-        {
-          "nombre": "El escape perfecto",
-          "inicio": "20:15",
-          "fin": "22:00",
-          "descripcion": "Una pareja llega a una isla paradisíaca para disfrutar de su luna de miel, pero descubre que otros viajeros podrían ser peligrosos asesinos. Lo que parecía un viaje perfecto se convierte en una lucha por sobrevivir mientras intentan descubrir en quién pueden confiar."
-        },
-        {
-          "nombre": "La cueva",
-          "inicio": "22:00",
-          "fin": "23:44",
-          "descripcion": "Un grupo de exploradores se adentra en una cueva desconocida en busca de una antigua reliquia. Lo que comienza como una aventura se transforma en una pesadilla cuando quedan atrapados bajo tierra y descubren que no están solos."
-        },
-        {
-          "nombre": "La trampa del asesino",
-          "inicio": "23:44",
-          "fin": "01:29",
-          "descripcion": "Una joven se convierte en el objetivo de un peligroso asesino que ha preparado una elaborada trampa para atraparla. Mientras intenta escapar y descubrir quién está detrás de la persecución, deberá enfrentarse a una amenaza que parece estar siempre un paso adelante."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "The Goldbergs",
