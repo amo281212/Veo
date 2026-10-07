@@ -805,68 +805,7 @@
     },
     "HBOFamily.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "El espantatiburones",
-          "inicio": "01:33",
-          "fin": "09:00",
-          "descripcion": "Oscar, un pequeño pez con grandes sueños, se encuentra inesperadamente en el centro de una mentira que lo convierte en un héroe. Mientras intenta mantener su nueva fama, deberá enfrentarse a tiburones, problemas y situaciones que podrían revelar la verdad."
-        },
-        {
-          "nombre": "Megamente",
-          "inicio": "09:00",
-          "fin": "10:39",
-          "descripcion": "Megamente es un súper villano que logra deshacerse de su archienemigo \"Metro Man\" y ahora puede conquistar libremente Metro City."
-        },
-        {
-          "nombre": "Jovenes Titanes en acción!",
-          "inicio": "10:39",
-          "fin": "12:05",
-          "descripcion": "Los Jóvenes Titanes llevan una vida llena de diversión, videojuegos y ocurrencias, pero sueñan con convertirse en verdaderos superhéroes. Cuando una amenaza pone en peligro a la ciudad, deberán dejar de lado sus peleas y demostrar que también pueden trabajar en equipo."
-        },
-        {
-          "nombre": "Amigos salvajes 2",
-          "inicio": "12:05",
-          "fin": "13:24",
-          "descripcion": "Boog, Elliot y sus amigos regresan con una nueva aventura cuando Boog decide disfrutar de unas vacaciones lejos del bosque. Sin embargo, un inesperado encuentro con animales domésticos lo llevará a vivir divertidas situaciones y a descubrir el verdadero valor de la amistad."
-        },
-        {
-          "nombre": "Open Season: Amigos salvajes",
-          "inicio": "13:24",
-          "fin": "14:51",
-          "descripcion": "Boog, un oso domesticado que lleva una vida tranquila, ve su mundo cambiar cuando conoce a Elliot, un ciervo parlanchín que lo lleva de regreso al bosque. Juntos deberán adaptarse a la vida salvaje y escapar de los cazadores durante la temporada de caza."
-        },
-        {
-          "nombre": "¡Shazam! La furia de los dioses",
-          "inicio": "14:51",
-          "fin": "17:04",
-          "descripcion": "Billy Batson y sus hermanos adoptivos siguen disfrutando de sus poderes mientras intentan encontrar su lugar como superhéroes. Pero cuando las Hijas de Atlas llegan para reclamar una antigua magia, Shazam y su familia deberán unirse para proteger el mundo."
-        },
-        {
-          "nombre": "Los Croods",
-          "inicio": "17:04",
-          "fin": "18:45",
-          "descripcion": "La primera familia del mundo se ve forzada a abandonar la cueva que los ha protegido por años para aventurarse a un lugar lleno de paisajes espectaculares."
-        },
-        {
-          "nombre": "Mi villano favorito",
-          "inicio": "18:45",
-          "fin": "20:22",
-          "descripcion": "Gru, un supervillano que planea realizar el mayor robo de la historia, ve sus planes alterados cuando tres pequeñas huérfanas aparecen en su vida. Lo que comienza como parte de su estrategia termina convirtiéndose en una inesperada aventura familiar."
-        },
-        {
-          "nombre": "Megamente",
-          "inicio": "20:22",
-          "fin": "22:00",
-          "descripcion": "Megamente es un súper villano que logra deshacerse de su archienemigo \"Metro Man\" y ahora puede conquistar libremente Metro City."
-        },
-        {
-          "nombre": "¡Shazam! La furia de los dioses",
-          "inicio": "22:00",
-          "fin": "00:12",
-          "descripcion": "Billy Batson y sus hermanos adoptivos siguen disfrutando de sus poderes mientras intentan encontrar su lugar como superhéroes. Pero cuando las Hijas de Atlas llegan para reclamar una antigua magia, Shazam y su familia deberán unirse para proteger el mundo."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Mi villano favorito",
