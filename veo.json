@@ -1488,56 +1488,7 @@
     },
     "FX.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "El arte de ser adulto",
-          "inicio": "00:04",
-          "fin": "11:43",
-          "descripcion": "Un joven inmaduro y estancado emocionalmente desde la muerte de su padre bombero en su infancia se pasa los días sin rumbo, hasta que su vida se trastoca cuando su madre comienza a salir con otro bombero."
-        },
-        {
-          "nombre": "El buen patrón",
-          "inicio": "11:43",
-          "fin": "14:12",
-          "descripcion": "El carismático dueño de una exitosa empresa familiar manipula sin escrúpulos la vida personal y laboral de sus empleados en un cínico intento por conseguir un codiciado premio local a la excelencia empresarial."
-        },
-        {
-          "nombre": "Una Intrusa en la Familia",
-          "inicio": "14:12",
-          "fin": "16:18",
-          "descripcion": "Un estricto y aburrido abogado divorciado conoce por internet a una mujer que dice ser abogada, pero que resulta ser una astuta convicta prófuga de la justicia que se instala en su vida para obligarlo a demostrar su inocencia."
-        },
-        {
-          "nombre": "El aguador",
-          "inicio": "16:18",
-          "fin": "18:14",
-          "descripcion": "Un tímido y humilde repartidor de agua para un equipo de fútbol americano universitaria descubre que posee una furia desatada y un talento brutal para el tacleo, convirtiéndose en la inesperada estrella salvadora del equipo."
-        },
-        {
-          "nombre": "Hitman: Agente 47",
-          "inicio": "18:14",
-          "fin": "20:07",
-          "descripcion": "Un asesino a sueldo de élite, creado genéticamente para ser una máquina perfecta de matar, une fuerzas con una joven para descubrir los secretos de su misterioso origen y detener a una corporación que busca replicar su programa."
-        },
-        {
-          "nombre": "Más barato por docena",
-          "inicio": "20:07",
-          "fin": "21:59",
-          "descripcion": "Un entrenador de fútbol americano y su esposa intentan equilibrar sus exigentes carreras profesionales mientras crían a sus doce hijos en una caótica y bulliciosa casa familiar."
-        },
-        {
-          "nombre": "Más barato por docena 2",
-          "inicio": "21:59",
-          "fin": "23:57",
-          "descripcion": "Las vacaciones familiares de verano se convierten en una hilarante y caótica competencia campamentera cuando la numerosa familia Baker se cruza en un lago con el clan rival liderado por el hipercompetitivo patriarca de una familia vecina y adinerada."
-        },
-        {
-          "nombre": "Estado mental",
-          "inicio": "23:57",
-          "fin": "02:17",
-          "descripcion": "Un thriller psicológico que explora los límites de la mente y la intriga a través de una compleja trama de misterio y tensión personal."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
