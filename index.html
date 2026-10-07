@@ -20,7 +20,7 @@ padding:15px;
 margin-bottom:12px;
 cursor:pointer;
 user-select:none;
--webkit-user-select:none;
+-webkit-user-select:none
 }
 
 .channel.dragging{
@@ -30,33 +30,6 @@ border:2px dashed #4AA9D8;
 
 .channel.drag-over{
 border-color:#4AA9D8;
-}
-
-.drag-handle{
-width:28px;
-min-width:28px;
-height:48px;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-gap:4px;
-cursor:grab;
-touch-action:pan-y;
--webkit-user-select:none;
-user-select:none;
-}
-
-.drag-handle:active{
-cursor:grabbing;
-}
-
-.drag-handle span{
-display:block;
-width:20px;
-height:3px;
-border-radius:3px;
-background:#777;
 }
 
 .channel-placeholder{
@@ -71,6 +44,32 @@ background:rgba(74,169,216,.08);
 display:flex;
 align-items:center;
 gap:14px
+}
+
+/* Asa para reordenar canales */
+.drag-handle{
+width:24px;
+min-width:24px;
+height:34px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+gap:4px;
+cursor:grab;
+touch-action:manipulation;
+}
+
+.drag-handle span{
+display:block;
+width:18px;
+height:3px;
+border-radius:3px;
+background:#777;
+}
+
+.drag-handle:active{
+cursor:grabbing;
 }
 
 .channel-logo{
@@ -1573,10 +1572,11 @@ document
 )
 .forEach(
 tarjeta=>{
+
 tarjeta.classList.remove(
-"drag-over",
-"dragging"
+"drag-over"
 );
+
 }
 );
 
@@ -1671,75 +1671,57 @@ objetivo
 
 }else{
 
-const botonAgregar=
-document.querySelector(
-"#channels .add-channel"
-);
-
-if(
-botonAgregar
-){
+const ultimo=
+tarjetas[
+tarjetas.length-1
+];
 
 card.parentNode.insertBefore(
 card,
-botonAgregar
+ultimo.nextSibling
 );
 
 }
 
 }
 
-}
 
-
-function iniciarAutoScroll(){
-
-if(
-window.veoAutoScrollActivo
+function iniciarAutoScroll(
+obtenerY
 ){
 
-return;
-
-}
-
-window.veoAutoScrollActivo=
-true;
+let activo=true;
 
 function desplazar(){
 
-if(
-!window.veoAutoScrollActivo
-){
+if(!activo){
 
 return;
 
 }
 
 const y=
-window.veoDragY||0;
+obtenerY();
 
-const alto=
+const altura=
 window.innerHeight;
 
-const zona=
-80;
-
 if(
-y<zona
+y<90
 ){
 
 window.scrollBy(
 0,
--8
+-10
 );
 
 }else if(
-y>alto-zona
+y>altura-90
 ){
 
 window.scrollBy(
 0,
-8
+10
 );
 
 }
@@ -1754,13 +1736,11 @@ requestAnimationFrame(
 desplazar
 );
 
-}
+return function(){
 
+activo=false;
 
-function detenerAutoScroll(){
-
-window.veoAutoScrollActivo=
-false;
+};
 
 }
 
@@ -1795,12 +1775,11 @@ card.innerHTML=`
 <div
 class="drag-handle"
 title="Mantener presionado para mover"
+aria-label="Mover canal"
 >
-
 <span></span>
 <span></span>
 <span></span>
-
 </div>
 
 <img
@@ -1825,16 +1804,13 @@ ${escapeHTML(id)}
 
 `;
 
-const handle=
-card.querySelector(
-".drag-handle"
-);
-
 let arrastrando=false;
 let presionTimer=null;
-let inicioY=0;
 let inicioX=0;
+let inicioY=0;
 let movimientoIniciado=false;
+let ultimaY=0;
+let detenerScroll=null;
 
 
 /* ==============================
@@ -1842,22 +1818,15 @@ let movimientoIniciado=false;
 ============================== */
 
 card.onclick=
-function(e){
+function(){
 
-if(
-e.target.closest(
-".drag-handle"
-)
-){
+if(arrastrando){
 
 return;
 
 }
 
-if(
-arrastrando||
-movimientoIniciado
-){
+if(movimientoIniciado){
 
 return;
 
@@ -1871,29 +1840,40 @@ clave
 
 
 /* ==============================
-   TOUCH
+   ASA DE ARRASTRE
+============================== */
+
+const handle=
+card.querySelector(
+".drag-handle"
+);
+
+
+/* ==============================
+   TOUCH - INICIO
 ============================== */
 
 handle.addEventListener(
 "touchstart",
 function(e){
 
-if(
-e.touches.length!==1
-){
+const toque=
+e.touches[0];
+
+if(!toque){
 
 return;
 
 }
 
-const touch=
-e.touches[0];
-
 inicioX=
-touch.clientX;
+toque.clientX;
 
 inicioY=
-touch.clientY;
+toque.clientY;
+
+ultimaY=
+toque.clientY;
 
 movimientoIniciado=false;
 
@@ -1913,21 +1893,17 @@ card.classList.add(
 "dragging"
 );
 
-window.veoDragY=
-inicioY;
+detenerScroll=
+iniciarAutoScroll(
+function(){
 
-iniciarAutoScroll();
-
-if(
-navigator.vibrate
-){
-
-navigator.vibrate(30);
+return ultimaY;
 
 }
+);
 
 },
-400
+450
 );
 
 },
@@ -1938,37 +1914,35 @@ passive:true
 
 
 /* ==============================
-   MOVER CON EL DEDO
+   TOUCH - MOVIMIENTO
 ============================== */
 
 handle.addEventListener(
 "touchmove",
 function(e){
 
-if(
-e.touches.length!==1
-){
+const toque=
+e.touches[0];
+
+if(!toque){
 
 return;
 
 }
 
-const touch=
-e.touches[0];
-
-window.veoDragY=
-touch.clientY;
+ultimaY=
+toque.clientY;
 
 if(!arrastrando){
 
 const distancia=
 Math.sqrt(
 Math.pow(
-touch.clientX-inicioX,
+toque.clientX-inicioX,
 2
 )+
 Math.pow(
-touch.clientY-inicioY,
+toque.clientY-inicioY,
 2
 )
 );
@@ -1991,7 +1965,7 @@ return;
 
 moverCanalSegunPosicion(
 card,
-touch.clientY
+ultimaY
 );
 
 },
@@ -2002,7 +1976,7 @@ passive:true
 
 
 /* ==============================
-   SOLTAR
+   TOUCH - SOLTAR
 ============================== */
 
 handle.addEventListener(
@@ -2015,8 +1989,6 @@ presionTimer
 
 presionTimer=null;
 
-detenerAutoScroll();
-
 if(!arrastrando){
 
 return;
@@ -2028,6 +2000,14 @@ arrastrando=false;
 card.classList.remove(
 "dragging"
 );
+
+if(detenerScroll){
+
+detenerScroll();
+
+detenerScroll=null;
+
+}
 
 document
 .querySelectorAll(
@@ -2048,15 +2028,18 @@ function(){
 movimientoIniciado=false;
 
 },
-50
+100
 );
 
+},
+{
+passive:true
 }
 );
 
 
 /* ==============================
-   CANCELAR TOUCH
+   TOUCH - CANCELAR
 ============================== */
 
 handle.addEventListener(
@@ -2070,23 +2053,32 @@ presionTimer
 presionTimer=null;
 
 arrastrando=false;
-movimientoIniciado=false;
 
-detenerAutoScroll();
+movimientoIniciado=false;
 
 card.classList.remove(
 "dragging"
 );
 
+if(detenerScroll){
+
+detenerScroll();
+
+detenerScroll=null;
+
+}
+
 limpiarEstadoArrastre();
 
+},
+{
+passive:true
 }
 );
 
 
 /* ==============================
-   EVITAR ABRIR EL CANAL
-   AL TOCAR EL HANDLE
+   EVITAR ABRIR EL CANAL DESDE ASA
 ============================== */
 
 handle.addEventListener(
@@ -2105,10 +2097,10 @@ e.stopPropagation();
 
 let mouseArrastrando=false;
 let mouseTimer=null;
-let mouseInicioY=0;
+let mouseMovimientoIniciado=false;
 
 
-/* Mantener presionado el handle */
+/* Inicio con mouse */
 
 handle.addEventListener(
 "mousedown",
@@ -2122,10 +2114,9 @@ return;
 
 }
 
-mouseInicioY=
-e.clientY;
+e.preventDefault();
 
-movimientoIniciado=false;
+mouseMovimientoIniciado=false;
 
 clearTimeout(
 mouseTimer
@@ -2136,7 +2127,8 @@ setTimeout(
 function(){
 
 mouseArrastrando=true;
-movimientoIniciado=true;
+mouseMovimientoIniciado=true;
+arrastrando=true;
 
 card.classList.add(
 "dragging"
@@ -2150,7 +2142,7 @@ card.classList.add(
 );
 
 
-/* Mover con mouse */
+/* Movimiento con mouse */
 
 document.addEventListener(
 "mousemove",
@@ -2177,19 +2169,24 @@ document.addEventListener(
 "mouseup",
 function(){
 
+if(!mouseArrastrando){
+
 clearTimeout(
 mouseTimer
 );
-
-mouseTimer=null;
-
-if(!mouseArrastrando){
 
 return;
 
 }
 
 mouseArrastrando=false;
+arrastrando=false;
+
+clearTimeout(
+mouseTimer
+);
+
+mouseTimer=null;
 
 card.classList.remove(
 "dragging"
@@ -2211,19 +2208,33 @@ guardarOrdenCanales();
 setTimeout(
 function(){
 
+mouseMovimientoIniciado=false;
 movimientoIniciado=false;
 
 },
-50
+100
 );
 
 }
 );
 
 
-/* ==============================
-   INSERTAR TARJETA
-============================== */
+/* Evitar arrastre nativo de imágenes */
+
+const imagen=
+card.querySelector(
+".channel-logo"
+);
+
+imagen.addEventListener(
+"dragstart",
+function(e){
+
+e.preventDefault();
+
+}
+);
+
 
 channels.insertBefore(
 
@@ -2318,6 +2329,8 @@ canal.clave
 
 }
 );
+
+}
 
 
 function obtenerDiaActual(){
