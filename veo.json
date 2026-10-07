@@ -1497,62 +1497,7 @@
     },
     "WarnerChannel.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "The Big Bang Theory",
-          "inicio": "00:06",
-          "fin": "10:29",
-          "descripcion": "Temporada 11 | Episodio 6"
-        },
-        {
-          "nombre": "Two and a Half Men",
-          "inicio": "10:29",
-          "fin": "12:56",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cobra Kai",
-          "inicio": "12:56",
-          "fin": "13:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Matrix Revoluciones",
-          "inicio": "13:30",
-          "fin": "15:45",
-          "descripcion": "Neo, Trinity y Morfeo lideran la resistencia humana en una desesperada batalla final para defender la última ciudad de Sión contra el implacable ejército de máquinas, mientras Neo busca un enfrentamiento definitivo con el agente Smith."
-        },
-        {
-          "nombre": "En el Tornado",
-          "inicio": "15:45",
-          "fin": "17:32",
-          "descripcion": "Los habitantes del pueblo de Silverston ven como su ciudad es destrozada por la llegada de unos Tornados devastadores."
-        },
-        {
-          "nombre": "El sorprendente hombre araña",
-          "inicio": "17:32",
-          "fin": "20:13",
-          "descripcion": "Un adolescente marginado busca desentrañar el misterio de la desaparición de sus padres y termina adquiriendo extraordinarios poderes arácnidos tras ser mordido por una araña genéticamente alterada en las instalaciones de Oscorp, obligándolo a enfrentarse al letal Lagarto."
-        },
-        {
-          "nombre": "Todopoderoso 2",
-          "inicio": "20:13",
-          "fin": "22:00",
-          "descripcion": "Un ambicioso congresista recién electo ve su vida patas arriba cuando el mismísimo Dios se le aparece para ordenarle que construya un arca gigante ante una inminente inundación mundial."
-        },
-        {
-          "nombre": "Buenos Vecinos",
-          "inicio": "22:00",
-          "fin": "23:51",
-          "descripcion": "Una pareja con un bebe recién nacido deberán enfrentar la dificultad de vivir junto a una casa de fraternidad de estudiantes."
-        },
-        {
-          "nombre": "Gamer",
-          "inicio": "23:51",
-          "fin": "01:30",
-          "descripcion": "En un futuro distópico, un brillante y despiadado magnate de la tecnología revolutioniza el entretenimiento al crear un juego de disparos en masa multijugador online donde jugadores reales controlan a convictos condenados a muerte en campos de batalla reales para ganar su libertad."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "The Big Bang Theory",
