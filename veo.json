@@ -1512,7 +1512,14 @@
           "descripcion": "Después de más de treinta años de servicio, Pete \"Maverick\" Mitchell evita ser promovido para seguir volando mientras entrena a un grupo de jóvenes pilotos."
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Oscura Verdad",
+          "inicio": "00:05",
+          "fin": "09:05",
+          "descripcion": "Lucy y Adrián acuden al doctor Hindle para lograr tener un bebé con inseminación artificial. Lucy se queda embarazada de trillizos y, a medida que avanza su embarazo, su mundo se va transformando en una terrorífica pesadilla."
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
