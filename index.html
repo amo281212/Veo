@@ -18,7 +18,18 @@ border:1px solid #292c33;
 border-radius:14px;
 padding:15px;
 margin-bottom:12px;
-cursor:pointer
+cursor:pointer;
+touch-action:pan-y;
+user-select:none
+}
+
+.channel.dragging{
+opacity:.5;
+border:2px dashed #4AA9D8;
+}
+
+.channel.drag-over{
+border-color:#4AA9D8;
 }
 
 .channel-content{
@@ -1564,14 +1575,384 @@ ${escapeHTML(id)}
 
 `;
 
+let arrastrando=false;
+let presionTimer=null;
+let inicioX=0;
+let inicioY=0;
+
 card.onclick=
 function(){
+
+if(arrastrando){
+
+return;
+
+}
 
 openChannelByKey(
 clave
 );
 
 };
+
+
+/* ==============================
+   MANTENER PRESIONADO
+   ============================== */
+
+card.addEventListener(
+"pointerdown",
+function(e){
+
+if(
+e.pointerType!=="touch"
+){
+
+return;
+
+}
+
+inicioX=
+e.clientX;
+
+inicioY=
+e.clientY;
+
+presionTimer=
+setTimeout(
+function(){
+
+arrastrando=true;
+
+card.classList.add(
+"dragging"
+);
+
+card.setPointerCapture(
+e.pointerId
+);
+
+},
+400
+);
+
+}
+);
+
+
+/* ==============================
+   MOVER CON EL DEDO
+   ============================== */
+
+card.addEventListener(
+"pointermove",
+function(e){
+
+if(
+e.pointerType!=="touch"
+){
+
+return;
+
+}
+
+if(!arrastrando){
+
+const distancia=
+Math.sqrt(
+Math.pow(
+e.clientX-inicioX,
+2
+)+
+Math.pow(
+e.clientY-inicioY,
+2
+)
+);
+
+if(
+distancia>10
+){
+
+clearTimeout(
+presionTimer
+);
+
+}
+
+return;
+
+}
+
+e.preventDefault();
+
+const tarjetas=
+[
+...
+document.querySelectorAll(
+"#channels .channel"
+)
+]
+.filter(
+tarjeta=>
+tarjeta!==card
+);
+
+let objetivo=null;
+
+tarjetas.forEach(
+tarjeta=>{
+
+const rect=
+tarjeta.getBoundingClientRect();
+
+const mitad=
+rect.top+
+rect.height/2;
+
+if(
+e.clientY<mitad&&
+!objetivo
+){
+
+objetivo=tarjeta;
+
+}
+
+}
+);
+
+if(
+objetivo
+){
+
+objetivo.classList.add(
+"drag-over"
+);
+
+card.parentNode.insertBefore(
+card,
+objetivo
+);
+
+}else{
+
+const ultima=
+tarjetas[
+tarjetas.length-1
+];
+
+if(
+ultima
+){
+
+card.parentNode.insertBefore(
+card,
+ultima.nextSibling
+);
+
+}
+
+}
+
+document
+.querySelectorAll(
+"#channels .channel"
+)
+.forEach(
+tarjeta=>{
+
+if(
+tarjeta!==card&&
+tarjeta!==objetivo
+){
+
+tarjeta.classList.remove(
+"drag-over"
+);
+
+}
+
+}
+);
+
+}
+);
+
+
+/* ==============================
+   SOLTAR
+   ============================== */
+
+card.addEventListener(
+"pointerup",
+function(e){
+
+if(
+e.pointerType!=="touch"
+){
+
+return;
+
+}
+
+clearTimeout(
+presionTimer
+);
+
+if(!arrastrando){
+
+return;
+
+}
+
+arrastrando=false;
+
+card.classList.remove(
+"dragging"
+);
+
+document
+.querySelectorAll(
+"#channels .channel"
+)
+.forEach(
+tarjeta=>
+tarjeta.classList.remove(
+"drag-over"
+)
+);
+
+guardarOrdenCanales();
+
+}
+);
+
+
+/* ==============================
+   CANCELAR
+   ============================== */
+
+card.addEventListener(
+"pointercancel",
+function(){
+
+clearTimeout(
+presionTimer
+);
+
+arrastrando=false;
+
+card.classList.remove(
+"dragging"
+);
+
+document
+.querySelectorAll(
+"#channels .channel"
+)
+.forEach(
+tarjeta=>
+tarjeta.classList.remove(
+"drag-over"
+)
+);
+
+}
+);
+
+
+/* ==============================
+   MOUSE / PC
+   ============================== */
+
+card.draggable=true;
+
+card.addEventListener(
+"dragstart",
+function(){
+
+arrastrando=true;
+
+card.classList.add(
+"dragging"
+);
+
+}
+);
+
+card.addEventListener(
+"dragover",
+function(e){
+
+e.preventDefault();
+
+if(
+!arrastrando||
+card===document.querySelector(
+".channel.dragging"
+)
+){
+
+return;
+
+}
+
+const arrastrado=
+document.querySelector(
+".channel.dragging"
+);
+
+if(
+!arrastrado
+){
+
+return;
+
+}
+
+const rect=
+card.getBoundingClientRect();
+
+const mitad=
+rect.top+
+rect.height/2;
+
+if(
+e.clientY<mitad
+){
+
+card.parentNode.insertBefore(
+arrastrado,
+card
+);
+
+}else{
+
+card.parentNode.insertBefore(
+arrastrado,
+card.nextSibling
+);
+
+}
+
+}
+);
+
+card.addEventListener(
+"dragend",
+function(){
+
+arrastrando=false;
+
+card.classList.remove(
+"dragging"
+);
+
+guardarOrdenCanales();
+
+}
+);
 
 channels.insertBefore(
 
@@ -1582,6 +1963,51 @@ channels.querySelector(
 )
 
 );
+
+}
+
+function guardarOrdenCanales(){
+
+const orden=
+[
+...
+document.querySelectorAll(
+"#channels .channel"
+)
+]
+.map(
+card=>
+card.dataset.channelKey
+);
+
+const canalesOrdenados=
+[];
+
+orden.forEach(
+clave=>{
+
+const canal=
+estado.canales.find(
+canal=>
+canal.clave===
+clave
+);
+
+if(canal){
+
+canalesOrdenados.push(
+canal
+);
+
+}
+
+}
+);
+
+estado.canales=
+canalesOrdenados;
+
+sincronizarEstado();
 
 }
 
