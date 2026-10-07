@@ -1470,62 +1470,7 @@
     },
     "Space.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Instinto predador",
-          "inicio": "01:33",
-          "fin": "11:01",
-          "descripcion": "Un grupo de cazadores y guías en una zona remota de la naturaleza salvaje debe enfrentarse a una brutal lucha por la supervivencia cuando un depredador letal y desconocido comienza a acecharlos uno por uno."
-        },
-        {
-          "nombre": "Spider-Man: Un nuevo universo",
-          "inicio": "11:01",
-          "fin": "13:02",
-          "descripcion": "Miles Morales, un adolescente de Brooklyn, transformándose en una de las posibilidades en el universo del hombre araña para ser el superhéroe."
-        },
-        {
-          "nombre": "Dos inútiles en patrulla",
-          "inicio": "13:02",
-          "fin": "14:53",
-          "descripcion": "Para pagar la costosa boda de su hija, un veterano policía de Nueva York y su compañero intentan recuperar una valiosa tarjeta de béisbol robada, enfrentándose sin proponérselo a peligrosos gánsteres."
-        },
-        {
-          "nombre": "Policías de repuesto",
-          "inicio": "14:53",
-          "fin": "16:47",
-          "descripcion": "Dos detectives de oficina en Nueva York, relegados a tareas administrativas, tienen la oportunidad de salir a la calle para demostrar su valía y resolver un caso de delitos financieros que nadie más investiga."
-        },
-        {
-          "nombre": "Venganza despiadada",
-          "inicio": "16:47",
-          "fin": "18:37",
-          "descripcion": "Tras presenciar el asesinato de sus padres en su infancia, una joven crece para convertirse en una implacable asesina profesional, obsesionada con cazar al responsable y cobrar venganza."
-        },
-        {
-          "nombre": "R.I.P.D.: Policía del más allá",
-          "inicio": "18:37",
-          "fin": "20:18",
-          "descripcion": "Dos agentes difuntos, uno veterano y otro recién fallecido del departamento de policía de ultratumba, se unen para rastrear almas errantes que se niegan a pasar pacíficamente al otro mundo."
-        },
-        {
-          "nombre": "Difícil de matar",
-          "inicio": "20:18",
-          "fin": "22:00",
-          "descripcion": "Un detective de policía sobrevive milagrosamente a un atentado en el que asesinan a su esposa y, tras despertar de un coma de siete años, emprende una violenta venganza contra los responsables."
-        },
-        {
-          "nombre": "Operación peligrosa",
-          "inicio": "22:00",
-          "fin": "23:42",
-          "descripcion": "Un agente de la patrulla fronteriza debe enfrentarse a un comando de exmilitares renegados que planea introducir un millonario cargamento de drogas a través de la frontera."
-        },
-        {
-          "nombre": "Pequeños Secretos",
-          "inicio": "23:42",
-          "fin": "01:55",
-          "descripcion": "Un experimentado sheriff de un condado y un detective de homicidios de Los Ángeles unen fuerzas para rastrear a un astuto asesino serial que acecha la ciudad, mientras un oscuro pasado amenaza con salir a la luz."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
