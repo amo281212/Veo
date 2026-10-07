@@ -155,6 +155,12 @@
       "nombre": "USA Network",
       "id": "USANetwork.bo",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/USA.png"
+    },
+    {
+      "clave": "ENTChannel.cl",
+      "nombre": "ENT Channel",
+      "id": "ENTChannel.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20Channel.png"
     }
   ],
   "eliminados": [
@@ -2897,6 +2903,15 @@
       "Domingo": []
     },
     "USANetwork.bo": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "ENTChannel.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
