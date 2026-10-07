@@ -1162,62 +1162,7 @@
     },
     "HBO.Plus.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Gremlins",
-          "inicio": "00:01",
-          "fin": "11:06",
-          "descripcion": "Billy recibe como regalo una extraña criatura llamada Gizmo, junto con unas simples reglas para cuidarla. Cuando estas reglas se rompen, unas pequeñas criaturas traviesas comienzan a sembrar el caos en el pueblo durante la Navidad."
-        },
-        {
-          "nombre": "Hombre lobo",
-          "inicio": "11:06",
-          "fin": "12:51",
-          "descripcion": "Una familia se reúne en una casa aislada cuando una misteriosa criatura comienza a rondar los alrededores. A medida que la noche avanza, deberán descubrir qué está ocurriendo mientras el peligro se acerca cada vez más."
-        },
-        {
-          "nombre": "Los malditos",
-          "inicio": "12:51",
-          "fin": "14:26",
-          "descripcion": "Una familia queda atrapada en una casa aislada después de que una misteriosa presencia comienza a manifestarse. Mientras intentan descubrir el origen de la amenaza, deberán luchar por mantenerse unidos y sobrevivir a una noche aterradora."
-        },
-        {
-          "nombre": "La cumbre escarlata",
-          "inicio": "14:26",
-          "fin": "16:31",
-          "descripcion": "Después de casarse con un misterioso aristócrata, Edith se muda a una antigua mansión en una montaña donde descubre oscuros secretos familiares. Mientras extraños sucesos comienzan a ocurrir, los fantasmas del pasado parecen cobrar vida."
-        },
-        {
-          "nombre": "El rito",
-          "inicio": "16:31",
-          "fin": "18:31",
-          "descripcion": "Un joven seminarista viaja al Vaticano para estudiar exorcismos y comienza a cuestionar sus propias creencias. Bajo la guía de un sacerdote experimentado, se enfrenta a inquietantes casos que pondrán a prueba su fe y lo llevarán a descubrir una amenaza sobrenatural."
-        },
-        {
-          "nombre": "La monja",
-          "inicio": "18:31",
-          "fin": "20:16",
-          "descripcion": "Un sacerdote y una joven novicia son enviados a investigar la misteriosa muerte de una monja en un convento aislado de Rumania. Allí descubren una presencia demoníaca que amenaza con apoderarse de sus vidas y de sus almas."
-        },
-        {
-          "nombre": "La Monja 2",
-          "inicio": "20:16",
-          "fin": "22:10",
-          "descripcion": "En Francia de 1956, tras el asesinato de un sacerdote y un mal que se extiende, la hermana Irene se encuentra una vez más con Valak, la monja demonio."
-        },
-        {
-          "nombre": "Linternas",
-          "inicio": "22:10",
-          "fin": "23:11",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hombre lobo",
-          "inicio": "23:11",
-          "fin": "01:00",
-          "descripcion": "Un hombre regresa a la propiedad de su familia después de recibir noticias sobre la desaparición de su padre. Allí descubre una aterradora criatura que lo transforma en un hombre lobo y deberá luchar contra la maldición mientras intenta proteger a sus seres queridos."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Gremlins 2: La nueva generación",
