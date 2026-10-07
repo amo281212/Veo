@@ -2982,6 +2982,12 @@
           "inicio": "00:00",
           "fin": "07:46",
           "descripcion": ""
+        },
+        {
+          "nombre": "Abracadabra",
+          "inicio": "07:46",
+          "fin": "09:20",
+          "descripcion": ""
         }
       ],
       "Viernes": [],
