@@ -1403,62 +1403,7 @@
     },
     "Sony.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "The Good Doctor",
-          "inicio": "02:00",
-          "fin": "10:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Betty's Call",
-          "inicio": "10:00",
-          "fin": "12:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "The Nanny",
-          "inicio": "12:00",
-          "fin": "13:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Vecinos",
-          "inicio": "13:30",
-          "fin": "15:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "My wife and kids",
-          "inicio": "15:00",
-          "fin": "16:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Locos Addams 2",
-          "inicio": "16:30",
-          "fin": "18:15",
-          "descripcion": "La familia Addams emprende un viaje en la carroza embrujada a través de las carreteras de los Estados Unidos para tener unas últimas vacaciones familiares."
-        },
-        {
-          "nombre": "Volver al Futuro II",
-          "inicio": "18:15",
-          "fin": "20:15",
-          "descripcion": "Después de visitar el año 2015, Marty McFly debe regresar al año de 1955 para evitar cambios en su presente de 1985, sin interferir en su primer viaje."
-        },
-        {
-          "nombre": "Terremoto: La falla de San Andrés",
-          "inicio": "20:15",
-          "fin": "22:20",
-          "descripcion": "La falla de San Andrés finalmente cede y desencadena un devastador terremoto que sacude California. El piloto de rescate Ray Gaines y su exesposa Emma atraviesan el estado para encontrar y salvar a su hija Blake, atrapada en medio de la catástrofe."
-        },
-        {
-          "nombre": "Hansel y Gretel: Cazadores de brujas",
-          "inicio": "22:20",
-          "fin": "00:00",
-          "descripcion": "Después de sobrevivir a una experiencia traumática en su infancia, Hansel y Gretel se convierten en cazadores de brujas. Años más tarde, llegan a un pueblo aterrorizado por una poderosa bruja y descubren que enfrentarla será mucho más peligroso de lo que esperaban."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "The Good Doctor",
