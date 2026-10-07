@@ -20,16 +20,26 @@ padding:15px;
 margin-bottom:12px;
 cursor:pointer;
 touch-action:pan-y;
-user-select:none
+user-select:none;
+-webkit-user-select:none
 }
 
 .channel.dragging{
 opacity:.5;
 border:2px dashed #4AA9D8;
+touch-action:none;
 }
 
 .channel.drag-over{
 border-color:#4AA9D8;
+}
+
+.channel-placeholder{
+border:2px dashed #4AA9D8;
+border-radius:14px;
+margin-bottom:12px;
+height:84px;
+background:rgba(74,169,216,.08);
 }
 
 .channel-content{
@@ -1526,6 +1536,133 @@ texto
 }
 
 
+/* =====================================================
+   REORDENAR CANALES
+===================================================== */
+
+function limpiarEstadoArrastre(){
+
+document
+.querySelectorAll(
+"#channels .channel"
+)
+.forEach(
+tarjeta=>{
+
+tarjeta.classList.remove(
+"drag-over"
+);
+
+}
+);
+
+document
+.querySelectorAll(
+"#channels .channel-placeholder"
+)
+.forEach(
+placeholder=>
+placeholder.remove()
+);
+
+}
+
+
+function obtenerTarjetasCanales(){
+
+return[
+...
+document.querySelectorAll(
+"#channels .channel"
+)
+];
+
+}
+
+
+function moverCanalSegunPosicion(
+card,
+x,
+y
+){
+
+const tarjetas=
+obtenerTarjetasCanales()
+.filter(
+tarjeta=>
+tarjeta!==card
+);
+
+if(
+!tarjetas.length
+){
+
+return;
+
+}
+
+let objetivo=null;
+
+for(
+const tarjeta of tarjetas
+){
+
+const rect=
+tarjeta.getBoundingClientRect();
+
+const mitad=
+rect.top+
+rect.height/2;
+
+if(
+y<mitad
+){
+
+objetivo=tarjeta;
+
+break;
+
+}
+
+}
+
+tarjetas.forEach(
+tarjeta=>
+tarjeta.classList.remove(
+"drag-over"
+)
+);
+
+if(
+objetivo
+){
+
+objetivo.classList.add(
+"drag-over"
+);
+
+card.parentNode.insertBefore(
+card,
+objetivo
+);
+
+}else{
+
+const ultimo=
+tarjetas[
+tarjetas.length-1
+];
+
+card.parentNode.insertBefore(
+card,
+ultimo.nextSibling
+);
+
+}
+
+}
+
+
 function crearTarjetaCanal(
 nombre,
 id,
@@ -1579,11 +1716,24 @@ let arrastrando=false;
 let presionTimer=null;
 let inicioX=0;
 let inicioY=0;
+let pointerIdActivo=null;
+let movimientoIniciado=false;
+
+
+/* ==============================
+   ABRIR CANAL
+============================== */
 
 card.onclick=
 function(){
 
 if(arrastrando){
+
+return;
+
+}
+
+if(movimientoIniciado){
 
 return;
 
@@ -1597,8 +1747,8 @@ clave
 
 
 /* ==============================
-   MANTENER PRESIONADO
-   ============================== */
+   INICIO DEL TOQUE
+============================== */
 
 card.addEventListener(
 "pointerdown",
@@ -1618,19 +1768,36 @@ e.clientX;
 inicioY=
 e.clientY;
 
+pointerIdActivo=
+e.pointerId;
+
+movimientoIniciado=false;
+
+clearTimeout(
+presionTimer
+);
+
 presionTimer=
 setTimeout(
 function(){
 
 arrastrando=true;
+movimientoIniciado=true;
 
 card.classList.add(
 "dragging"
 );
 
+card.style.touchAction=
+"none";
+
+try{
+
 card.setPointerCapture(
 e.pointerId
 );
+
+}catch(error){}
 
 },
 400
@@ -1642,14 +1809,15 @@ e.pointerId
 
 /* ==============================
    MOVER CON EL DEDO
-   ============================== */
+============================== */
 
 card.addEventListener(
 "pointermove",
 function(e){
 
 if(
-e.pointerType!=="touch"
+e.pointerType!=="touch"||
+e.pointerId!==pointerIdActivo
 ){
 
 return;
@@ -1678,6 +1846,8 @@ clearTimeout(
 presionTimer
 );
 
+presionTimer=null;
+
 }
 
 return;
@@ -1686,94 +1856,10 @@ return;
 
 e.preventDefault();
 
-const tarjetas=
-[
-...
-document.querySelectorAll(
-"#channels .channel"
-)
-]
-.filter(
-tarjeta=>
-tarjeta!==card
-);
-
-let objetivo=null;
-
-tarjetas.forEach(
-tarjeta=>{
-
-const rect=
-tarjeta.getBoundingClientRect();
-
-const mitad=
-rect.top+
-rect.height/2;
-
-if(
-e.clientY<mitad&&
-!objetivo
-){
-
-objetivo=tarjeta;
-
-}
-
-}
-);
-
-if(
-objetivo
-){
-
-objetivo.classList.add(
-"drag-over"
-);
-
-card.parentNode.insertBefore(
+moverCanalSegunPosicion(
 card,
-objetivo
-);
-
-}else{
-
-const ultima=
-tarjetas[
-tarjetas.length-1
-];
-
-if(
-ultima
-){
-
-card.parentNode.insertBefore(
-card,
-ultima.nextSibling
-);
-
-}
-
-}
-
-document
-.querySelectorAll(
-"#channels .channel"
-)
-.forEach(
-tarjeta=>{
-
-if(
-tarjeta!==card&&
-tarjeta!==objetivo
-){
-
-tarjeta.classList.remove(
-"drag-over"
-);
-
-}
-
-}
+e.clientX,
+e.clientY
 );
 
 }
@@ -1781,15 +1867,16 @@ tarjeta.classList.remove(
 
 
 /* ==============================
-   SOLTAR
-   ============================== */
+   SOLTAR CON EL DEDO
+============================== */
 
 card.addEventListener(
 "pointerup",
 function(e){
 
 if(
-e.pointerType!=="touch"
+e.pointerType!=="touch"||
+e.pointerId!==pointerIdActivo
 ){
 
 return;
@@ -1800,7 +1887,11 @@ clearTimeout(
 presionTimer
 );
 
+presionTimer=null;
+
 if(!arrastrando){
+
+pointerIdActivo=null;
 
 return;
 
@@ -1812,6 +1903,9 @@ card.classList.remove(
 "dragging"
 );
 
+card.style.touchAction=
+"";
+
 document
 .querySelectorAll(
 "#channels .channel"
@@ -1823,40 +1917,80 @@ tarjeta.classList.remove(
 )
 );
 
+try{
+
+card.releasePointerCapture(
+e.pointerId
+);
+
+}catch(error){}
+
+pointerIdActivo=null;
+
 guardarOrdenCanales();
+
+setTimeout(
+function(){
+
+movimientoIniciado=false;
+
+},
+50
+);
 
 }
 );
 
 
 /* ==============================
-   CANCELAR
-   ============================== */
+   CANCELAR EL TOQUE
+============================== */
 
 card.addEventListener(
 "pointercancel",
-function(){
+function(e){
 
 clearTimeout(
 presionTimer
 );
 
+presionTimer=null;
+
 arrastrando=false;
+
+movimientoIniciado=false;
+
+pointerIdActivo=null;
 
 card.classList.remove(
 "dragging"
 );
 
-document
-.querySelectorAll(
-"#channels .channel"
-)
-.forEach(
-tarjeta=>
-tarjeta.classList.remove(
-"drag-over"
-)
+card.style.touchAction=
+"";
+
+limpiarEstadoArrastre();
+
+}
 );
+
+
+/* ==============================
+   SALIR DEL ELEMENTO
+============================== */
+
+card.addEventListener(
+"pointerleave",
+function(e){
+
+if(
+e.pointerType==="touch"&&
+arrastrando
+){
+
+return;
+
+}
 
 }
 );
@@ -1864,19 +1998,33 @@ tarjeta.classList.remove(
 
 /* ==============================
    MOUSE / PC
-   ============================== */
+============================== */
 
 card.draggable=true;
 
 card.addEventListener(
 "dragstart",
-function(){
+function(e){
 
 arrastrando=true;
+
+movimientoIniciado=true;
 
 card.classList.add(
 "dragging"
 );
+
+try{
+
+e.dataTransfer.effectAllowed=
+"move";
+
+e.dataTransfer.setData(
+"text/plain",
+clave
+);
+
+}catch(error){}
 
 }
 );
@@ -1887,24 +2035,14 @@ function(e){
 
 e.preventDefault();
 
-if(
-!arrastrando||
-card===document.querySelector(
-".channel.dragging"
-)
-){
-
-return;
-
-}
-
 const arrastrado=
 document.querySelector(
 ".channel.dragging"
 );
 
 if(
-!arrastrado
+!arrastrado||
+arrastrado===card
 ){
 
 return;
@@ -1917,6 +2055,21 @@ card.getBoundingClientRect();
 const mitad=
 rect.top+
 rect.height/2;
+
+document
+.querySelectorAll(
+"#channels .channel"
+)
+.forEach(
+tarjeta=>
+tarjeta.classList.remove(
+"drag-over"
+)
+);
+
+card.classList.add(
+"drag-over"
+);
 
 if(
 e.clientY<mitad
@@ -1945,8 +2098,21 @@ function(){
 
 arrastrando=false;
 
+movimientoIniciado=false;
+
 card.classList.remove(
 "dragging"
+);
+
+document
+.querySelectorAll(
+"#channels .channel"
+)
+.forEach(
+tarjeta=>
+tarjeta.classList.remove(
+"drag-over"
+)
 );
 
 guardarOrdenCanales();
@@ -1965,6 +2131,7 @@ channels.querySelector(
 );
 
 }
+
 
 function guardarOrdenCanales(){
 
@@ -2004,6 +2171,11 @@ canal
 }
 );
 
+if(
+canalesOrdenados.length===
+estado.canales.length
+){
+
 estado.canales=
 canalesOrdenados;
 
@@ -2011,8 +2183,12 @@ sincronizarEstado();
 
 }
 
+}
+
 
 function renderizarCanales(){
+
+limpiarEstadoArrastre();
 
 document
 .querySelectorAll(
@@ -2508,6 +2684,25 @@ bloque
 }
 );
 
+
+/* Abrir automáticamente el día actual */
+
+const bloqueActual=
+document.querySelector(
+'.day[data-day="'+
+diaActual+
+'"]'
+);
+
+if(
+bloqueActual
+){
+
+bloqueActual.classList.add(
+"open"
+);
+
+}
 
 }
 
