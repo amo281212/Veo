@@ -692,62 +692,7 @@
     },
     "HBO2.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Máquinas Mortales",
-          "inicio": "00:00",
-          "fin": "09:00",
-          "descripcion": "En un futuro distante donde la civilización fue destruida por un desastre catastrófico. Gigantes ciudades móviles vagan por la tierra, atacando sin piedad."
-        },
-        {
-          "nombre": "Hasta Que Amanezca",
-          "inicio": "09:00",
-          "fin": "10:30",
-          "descripcion": "Un grupo de amigos decide pasar una noche juntos en una casa aislada, pero lo que comienza como una velada tranquila pronto se convierte en una experiencia aterradora. A medida que pasan las horas, deberán descubrir qué está ocurriendo y luchar por sobrevivir hasta el amanecer."
-        },
-        {
-          "nombre": "El cazador y la reina del hielo",
-          "inicio": "10:30",
-          "fin": "12:30",
-          "descripcion": "Mucho antes de enfrentarse a Blancanieves, el Cazador se ve atrapado en el conflicto entre dos poderosas reinas que gobiernan con magia y crueldad. Junto a un grupo de guerreros, deberá desafiar sus fuerzas para impedir que un reino entero caiga bajo su dominio."
-        },
-        {
-          "nombre": "Escape bajo fuego",
-          "inicio": "12:30",
-          "fin": "14:37",
-          "descripcion": "Un exmilitar se ve atrapado en una peligrosa situación cuando un grupo armado toma el control de un edificio y comienza a poner vidas en riesgo. Para escapar con vida, deberá utilizar sus habilidades y enfrentarse a los atacantes mientras busca una salida."
-        },
-        {
-          "nombre": "Una Película de Minecraft",
-          "inicio": "14:37",
-          "fin": "16:24",
-          "descripcion": "Tras ser arrastrados a un cúbico mundo mágico, cuatro inadaptados con la ayuda de un inesperado y experto artesano buscan la manera de regresar a casa."
-        },
-        {
-          "nombre": "Cónclave",
-          "inicio": "16:24",
-          "fin": "18:32",
-          "descripcion": "Tras la muerte del Papa, el cardenal Lawrence debe dirigir el cónclave encargado de elegir a su sucesor. Mientras los cardenales se reúnen en secreto, antiguas rivalidades, ambiciones y sorprendentes secretos salen a la luz y amenazan con cambiar el rumbo de la Iglesia."
-        },
-        {
-          "nombre": "Cumbres borrascosas",
-          "inicio": "18:32",
-          "fin": "20:55",
-          "descripcion": "Heathcliff y Catherine desarrollan un intenso amor marcado por las diferencias sociales y las decisiones que los separan. Años después, el rencor y la pasión que quedaron atrás regresan con fuerza, afectando a sus familias y a las nuevas generaciones."
-        },
-        {
-          "nombre": "GOAT: La cabra que cambió el juego",
-          "inicio": "20:55",
-          "fin": "22:42",
-          "descripcion": "Un joven descubre que una cabra aparentemente común posee habilidades extraordinarias para el deporte y decide convertirla en la estrella de su equipo. Entre entrenamientos, obstáculos y situaciones inesperadas, ambos demostrarán que el talento puede aparecer en los lugares más sorprendentes."
-        },
-        {
-          "nombre": "Una Película de Minecraft",
-          "inicio": "22:42",
-          "fin": "00:30",
-          "descripcion": "Tras ser arrastrados a un cúbico mundo mágico, cuatro inadaptados con la ayuda de un inesperado y experto artesano buscan la manera de regresar a casa."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "El Rey Arturo: La Leyenda de la Espada",
