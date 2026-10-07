@@ -3044,7 +3044,14 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Programación de trasnoche",
+          "inicio": "00:00",
+          "fin": "07:49",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     }
