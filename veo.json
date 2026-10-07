@@ -466,62 +466,7 @@
     },
     "GoldenEdge.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Contrato mortal",
-          "inicio": "00:49",
-          "fin": "10:49",
-          "descripcion": "Dos empresas compiten entre sí por controlar las comunicaciones entre el norte y el sur de África. Esto abre la puerta a un juego de intereses comerciales en los que todo valdrá para hacerse con el control de la banda ancha."
-        },
-        {
-          "nombre": "Los renegados",
-          "inicio": "10:49",
-          "fin": "12:27",
-          "descripcion": "Después de ser reclutado por un grupo peculiar de ladrones, el conocido criminal, Richard Pace, se ve envuelto en un complicado robo de oro que puede cambiarle la vida."
-        },
-        {
-          "nombre": "El ascensor del Diablo",
-          "inicio": "12:27",
-          "fin": "13:52",
-          "descripcion": "Después de que su mejor amiga desaparece, una joven universitaria claustrofóbica investiga el misterioso ascensor donde su amiga fue vista por última vez y que puede ser la puerta a un mundo oscuro y aterrador."
-        },
-        {
-          "nombre": "Non-Stop: sin escalas",
-          "inicio": "13:52",
-          "fin": "15:43",
-          "descripcion": "Bill Marks es un veterano agente del servicio aéreo de los Air Marshalls que pasa por una mala etapa: tiene problemas con la bebida, y últimamente se toma su trabajo como una rutinaria tarea de vigilante a bordo de un avión. Sin embargo, en un viaje de Nueva York a Londres, recibe una serie de misteriosos mensajes de texto, en los que se le pide que inste al gobierno a hacer una transferencia de 150 millones de dólares a una cuenta secreta. En caso contrario, un pasajero morirá cada 20 minutos. El juego del gato y el ratón se desarrolla a 40.000 pies de altura y con la vida de 200 pasajeros pendiendo de un hilo."
-        },
-        {
-          "nombre": "El protector",
-          "inicio": "15:43",
-          "fin": "17:35",
-          "descripcion": "Jim Hanson, un veterano de guerra, está pasando por un momento difícil. Su amada esposa acaba de fallecer y el banco está a punto de quitarle su casa. Su vida tranquila se ve repentinamente perturbada por la llegada inesperada de dos inmigrantes ilegales que cruzan la frontera hacia su tierra: una madre y su hijo pequeño, que huyen desesperadamente de un brutal cartel mexicano. Después de que un tiroteo ardiente deja a la madre muerta, Jim se convierte en el defensor del niño, Miguel."
-        },
-        {
-          "nombre": "Peligro en la montaña",
-          "inicio": "17:35",
-          "fin": "19:14",
-          "descripcion": "Un leñador debe defender a su familia de un peligroso grupo de traficantes de droga."
-        },
-        {
-          "nombre": "Alerta máxima 2",
-          "inicio": "19:14",
-          "fin": "21:02",
-          "descripcion": "Un experto en alta tecnología brillante y maniaco ha secuestrado el tren de pasajeros más elegante de Norteamérica, trasformando uno de los vagones en un centro de mandos informatizado, con un despliegue de tecnología ultramoderna capaz de controlar un imponente satélite mortal. Desde allí pretende destruir la ciudad de Washington. Pero el único pasajero que no ha sido capturado por los terroristas es Ryback."
-        },
-        {
-          "nombre": "Reyes de la calle",
-          "inicio": "21:02",
-          "fin": "23:00",
-          "descripcion": "Cuando las pruebas señalan a un veterano policía como culpable de la muerte de otro policía, éste deberá enfrentarse a la cultura policial que siempre conoció. También deberá cuestionar las lealtades de quienes lo rodean."
-        },
-        {
-          "nombre": "El libro de los secretos",
-          "inicio": "23:00",
-          "fin": "01:05",
-          "descripcion": "En un futuro apocalíptico, 30 años después del \"resplandor\" que aniquiló la casi totalidad de la sociedad civilizada, unos pocos humanos sobreviven en un ambiente increíblemente hostil y árido. Violaciones, canibalismo y salvajismo imperan en unas derruidas ciudades donde el más fuerte y el que posee el agua impone su ley. Vagando por la carretera, un guerrero solitario se dirige al oeste con una sola misión: proteger un misterioso libro que lleva en su mochila."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "La casa de cera",
