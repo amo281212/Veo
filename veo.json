@@ -1479,68 +1479,7 @@
     },
     "TNT.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Cincuenta Sombras de Grey",
-          "inicio": "00:06",
-          "fin": "02:16",
-          "descripcion": "La vida de la estudiante de literatura, Anastasia Steele, cambia para siempre cuando conoce al apuesto y multimillonario Christian Grey."
-        },
-        {
-          "nombre": "Mortal Kombat: The Movie",
-          "inicio": "02:16",
-          "fin": "11:28",
-          "descripcion": "Un luchador de artes marciales mixtas que desconoce su pasado se une a los mejores campeones de la Tierra para enfrentar a las fuerzas del Outworld en una batalla definitiva por salvar el planeta."
-        },
-        {
-          "nombre": "El Vengador Del Futuro",
-          "inicio": "11:28",
-          "fin": "13:34",
-          "descripcion": "En un futuro distópico donde la Tierra está devastada, un obrero visita una clínica de recuerdos virtuales para experimentar una vida de espía, pero el proceso sale mal y se convierte en el fugitivo más buscado por las autoridades."
-        },
-        {
-          "nombre": "Megalodón 2: El gran abismo",
-          "inicio": "13:34",
-          "fin": "15:37",
-          "descripcion": "Un equipo de investigación emprende una inmersión exploratoria a las profundidades del océano, pero la misión se convierte en una lucha desesperada por la supervivencia al enfrentarse a tiburones prehistóricos gigantes y despiadados mercenarios."
-        },
-        {
-          "nombre": "El destino de Júpiter",
-          "inicio": "15:37",
-          "fin": "17:46",
-          "descripcion": "Una joven limpiadora descubre que posee una firma genética extraordinaria que la convierte en la heredera legítima del destino de la galaxia, por lo que un ex militar genéticamente modificado es enviado a protegerla de fuerzas intergalácticas."
-        },
-        {
-          "nombre": "TNT Data Sports by Betano",
-          "inicio": "17:46",
-          "fin": "17:59",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Mamá se fue de viaje",
-          "inicio": "17:59",
-          "fin": "19:56",
-          "descripcion": "Un atareado padre que vive enfocado en su trabajo debe hacerse cargo por completo de sus cuatro hijos cuando su esposa decide tomarse unas vacaciones sola por primera vez, desatando un divertido caos doméstico."
-        },
-        {
-          "nombre": "Terremoto: La falla de San Andrés",
-          "inicio": "19:56",
-          "fin": "22:00",
-          "descripcion": "Un piloto de rescate de helicópteros emprende un peligroso viaje desde Los Ángeles hasta San Francisco para rescatar a su hija tras desatarse un devastador terremoto de magnitud sin precedentes en California."
-        },
-        {
-          "nombre": "Cautiva",
-          "inicio": "22:00",
-          "fin": "23:27",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El escuadrón suicida",
-          "inicio": "23:27",
-          "fin": "01:58",
-          "descripcion": "Un grupo de supervillanos recluidos en una prisión de alta seguridad son enviados por el gobierno a una peligrosa misión en una isla sudamericana para destruir un laboratorio nazi secreto, con la amenaza de detonar explosivos en sus cabezas si intentan escapar."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
