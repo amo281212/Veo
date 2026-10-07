@@ -1691,7 +1691,14 @@
           "descripcion": "Gracias a su renovada fe en la humanidad e inspirado por el acto de altruísmo de Superman, Bruce Wayne pide ayuda a su nueva aliada, Diana Prince, para enfrentar a un enemigo aún más peligroso."
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "El protector",
+          "inicio": "00:07",
+          "fin": "10:08",
+          "descripcion": "Jim, un antiguo marine reconvertido en ranchero en la frontera de Arizona, trata de proteger a un niño al que persiguen los violentos integrantes de un cartel de narcotraficantes mexicanos."
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
