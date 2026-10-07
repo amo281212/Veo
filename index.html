@@ -20,7 +20,7 @@ padding:15px;
 margin-bottom:12px;
 cursor:pointer;
 user-select:none;
--webkit-user-select:none
+-webkit-user-select:none;
 }
 
 .channel.dragging{
@@ -30,6 +30,33 @@ border:2px dashed #4AA9D8;
 
 .channel.drag-over{
 border-color:#4AA9D8;
+}
+
+.drag-handle{
+width:28px;
+min-width:28px;
+height:48px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+gap:4px;
+cursor:grab;
+touch-action:pan-y;
+-webkit-user-select:none;
+user-select:none;
+}
+
+.drag-handle:active{
+cursor:grabbing;
+}
+
+.drag-handle span{
+display:block;
+width:20px;
+height:3px;
+border-radius:3px;
+background:#777;
 }
 
 .channel-placeholder{
@@ -44,31 +71,6 @@ background:rgba(74,169,216,.08);
 display:flex;
 align-items:center;
 gap:14px
-}
-
-.drag-handle{
-width:24px;
-min-width:24px;
-height:34px;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-gap:4px;
-cursor:grab;
-touch-action:manipulation;
-}
-
-.drag-handle span{
-display:block;
-width:18px;
-height:3px;
-border-radius:3px;
-background:#777;
-}
-
-.drag-handle:active{
-cursor:grabbing;
 }
 
 .channel-logo{
@@ -216,6 +218,7 @@ border-radius:0;
 position:relative
 }
 
+/* Día que ya tiene programación */
 .day-title.has-programs{
 background:#20BFA9 !important;
 color:#ffffff !important;
@@ -288,6 +291,7 @@ flex-shrink:0
 margin-top:15px
 }
 
+/* Borrar toda la programación del día */
 .delete-all-programs{
 margin-top:10px;
 background:#292c33;
@@ -1569,11 +1573,10 @@ document
 )
 .forEach(
 tarjeta=>{
-
 tarjeta.classList.remove(
-"drag-over"
+"drag-over",
+"dragging"
 );
-
 }
 );
 
@@ -1668,57 +1671,75 @@ objetivo
 
 }else{
 
-const ultimo=
-tarjetas[
-tarjetas.length-1
-];
+const botonAgregar=
+document.querySelector(
+"#channels .add-channel"
+);
+
+if(
+botonAgregar
+){
 
 card.parentNode.insertBefore(
 card,
-ultimo.nextSibling
+botonAgregar
 );
 
 }
 
 }
 
+}
 
-function iniciarAutoScroll(
-obtenerY
+
+function iniciarAutoScroll(){
+
+if(
+window.veoAutoScrollActivo
 ){
 
-let activo=true;
+return;
+
+}
+
+window.veoAutoScrollActivo=
+true;
 
 function desplazar(){
 
-if(!activo){
+if(
+!window.veoAutoScrollActivo
+){
 
 return;
 
 }
 
 const y=
-obtenerY();
+window.veoDragY||0;
 
-const altura=
+const alto=
 window.innerHeight;
 
+const zona=
+80;
+
 if(
-y<90
+y<zona
 ){
 
 window.scrollBy(
 0,
--10
+-8
 );
 
 }else if(
-y>altura-90
+y>alto-zona
 ){
 
 window.scrollBy(
 0,
-10
+8
 );
 
 }
@@ -1733,11 +1754,13 @@ requestAnimationFrame(
 desplazar
 );
 
-return function(){
+}
 
-activo=false;
 
-};
+function detenerAutoScroll(){
+
+window.veoAutoScrollActivo=
+false;
 
 }
 
@@ -1772,11 +1795,12 @@ card.innerHTML=`
 <div
 class="drag-handle"
 title="Mantener presionado para mover"
-aria-label="Mover canal"
 >
+
 <span></span>
 <span></span>
 <span></span>
+
 </div>
 
 <img
@@ -1801,13 +1825,16 @@ ${escapeHTML(id)}
 
 `;
 
+const handle=
+card.querySelector(
+".drag-handle"
+);
+
 let arrastrando=false;
 let presionTimer=null;
-let inicioX=0;
 let inicioY=0;
+let inicioX=0;
 let movimientoIniciado=false;
-let ultimaY=0;
-let detenerScroll=null;
 
 
 /* ==============================
@@ -1815,15 +1842,22 @@ let detenerScroll=null;
 ============================== */
 
 card.onclick=
-function(){
+function(e){
 
-if(arrastrando){
+if(
+e.target.closest(
+".drag-handle"
+)
+){
 
 return;
 
 }
 
-if(movimientoIniciado){
+if(
+arrastrando||
+movimientoIniciado
+){
 
 return;
 
@@ -1837,40 +1871,29 @@ clave
 
 
 /* ==============================
-   ASA DE ARRASTRE
-============================== */
-
-const handle=
-card.querySelector(
-".drag-handle"
-);
-
-
-/* ==============================
-   TOUCH - INICIO
+   TOUCH
 ============================== */
 
 handle.addEventListener(
 "touchstart",
 function(e){
 
-const toque=
-e.touches[0];
-
-if(!toque){
+if(
+e.touches.length!==1
+){
 
 return;
 
 }
 
+const touch=
+e.touches[0];
+
 inicioX=
-toque.clientX;
+touch.clientX;
 
 inicioY=
-toque.clientY;
-
-ultimaY=
-toque.clientY;
+touch.clientY;
 
 movimientoIniciado=false;
 
@@ -1890,17 +1913,21 @@ card.classList.add(
 "dragging"
 );
 
-detenerScroll=
-iniciarAutoScroll(
-function(){
+window.veoDragY=
+inicioY;
 
-return ultimaY;
+iniciarAutoScroll();
+
+if(
+navigator.vibrate
+){
+
+navigator.vibrate(30);
 
 }
-);
 
 },
-450
+400
 );
 
 },
@@ -1911,35 +1938,37 @@ passive:true
 
 
 /* ==============================
-   TOUCH - MOVIMIENTO
+   MOVER CON EL DEDO
 ============================== */
 
 handle.addEventListener(
 "touchmove",
 function(e){
 
-const toque=
-e.touches[0];
-
-if(!toque){
+if(
+e.touches.length!==1
+){
 
 return;
 
 }
 
-ultimaY=
-toque.clientY;
+const touch=
+e.touches[0];
+
+window.veoDragY=
+touch.clientY;
 
 if(!arrastrando){
 
 const distancia=
 Math.sqrt(
 Math.pow(
-toque.clientX-inicioX,
+touch.clientX-inicioX,
 2
 )+
 Math.pow(
-toque.clientY-inicioY,
+touch.clientY-inicioY,
 2
 )
 );
@@ -1962,7 +1991,7 @@ return;
 
 moverCanalSegunPosicion(
 card,
-ultimaY
+touch.clientY
 );
 
 },
@@ -1973,7 +2002,7 @@ passive:true
 
 
 /* ==============================
-   TOUCH - SOLTAR
+   SOLTAR
 ============================== */
 
 handle.addEventListener(
@@ -1986,6 +2015,8 @@ presionTimer
 
 presionTimer=null;
 
+detenerAutoScroll();
+
 if(!arrastrando){
 
 return;
@@ -1997,14 +2028,6 @@ arrastrando=false;
 card.classList.remove(
 "dragging"
 );
-
-if(detenerScroll){
-
-detenerScroll();
-
-detenerScroll=null;
-
-}
 
 document
 .querySelectorAll(
@@ -2025,18 +2048,15 @@ function(){
 movimientoIniciado=false;
 
 },
-100
+50
 );
 
-},
-{
-passive:true
 }
 );
 
 
 /* ==============================
-   TOUCH - CANCELAR
+   CANCELAR TOUCH
 ============================== */
 
 handle.addEventListener(
@@ -2050,32 +2070,23 @@ presionTimer
 presionTimer=null;
 
 arrastrando=false;
-
 movimientoIniciado=false;
+
+detenerAutoScroll();
 
 card.classList.remove(
 "dragging"
 );
 
-if(detenerScroll){
-
-detenerScroll();
-
-detenerScroll=null;
-
-}
-
 limpiarEstadoArrastre();
 
-},
-{
-passive:true
 }
 );
 
 
 /* ==============================
-   EVITAR ABRIR EL CANAL DESDE ASA
+   EVITAR ABRIR EL CANAL
+   AL TOCAR EL HANDLE
 ============================== */
 
 handle.addEventListener(
@@ -2094,10 +2105,10 @@ e.stopPropagation();
 
 let mouseArrastrando=false;
 let mouseTimer=null;
-let mouseMovimientoIniciado=false;
+let mouseInicioY=0;
 
 
-/* Inicio con mouse */
+/* Mantener presionado el handle */
 
 handle.addEventListener(
 "mousedown",
@@ -2111,9 +2122,10 @@ return;
 
 }
 
-e.preventDefault();
+mouseInicioY=
+e.clientY;
 
-mouseMovimientoIniciado=false;
+movimientoIniciado=false;
 
 clearTimeout(
 mouseTimer
@@ -2124,8 +2136,7 @@ setTimeout(
 function(){
 
 mouseArrastrando=true;
-mouseMovimientoIniciado=true;
-arrastrando=true;
+movimientoIniciado=true;
 
 card.classList.add(
 "dragging"
@@ -2139,7 +2150,7 @@ card.classList.add(
 );
 
 
-/* Movimiento con mouse */
+/* Mover con mouse */
 
 document.addEventListener(
 "mousemove",
@@ -2166,24 +2177,19 @@ document.addEventListener(
 "mouseup",
 function(){
 
-if(!mouseArrastrando){
-
 clearTimeout(
 mouseTimer
 );
+
+mouseTimer=null;
+
+if(!mouseArrastrando){
 
 return;
 
 }
 
 mouseArrastrando=false;
-arrastrando=false;
-
-clearTimeout(
-mouseTimer
-);
-
-mouseTimer=null;
 
 card.classList.remove(
 "dragging"
@@ -2205,33 +2211,19 @@ guardarOrdenCanales();
 setTimeout(
 function(){
 
-mouseMovimientoIniciado=false;
 movimientoIniciado=false;
 
 },
-100
+50
 );
 
 }
 );
 
 
-/* Evitar arrastre nativo de imágenes */
-
-const imagen=
-card.querySelector(
-".channel-logo"
-);
-
-imagen.addEventListener(
-"dragstart",
-function(e){
-
-e.preventDefault();
-
-}
-);
-
+/* ==============================
+   INSERTAR TARJETA
+============================== */
 
 channels.insertBefore(
 
@@ -2326,8 +2318,6 @@ canal.clave
 
 }
 );
-
-}
 
 
 function obtenerDiaActual(){
@@ -2792,6 +2782,27 @@ contenido
 
 contenedor.appendChild(
 bloque
+);
+
+}
+);
+
+
+/* Abrir automáticamente el día actual */
+
+const bloqueActual=
+document.querySelector(
+'.day[data-day="'+
+diaActual+
+'"]'
+);
+
+if(
+bloqueActual
+){
+
+bloqueActual.classList.add(
+"open"
 );
 
 }
@@ -4456,7 +4467,7 @@ const minutos=
 String(
 fecha.getMinutes()
 )
-padStart(
+.padStart(
 2,
 "0"
 );
