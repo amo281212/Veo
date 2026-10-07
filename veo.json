@@ -1641,7 +1641,14 @@
           "descripcion": "Para proteger a su familia y su reino de Black Manta que es más fuerte que nunca, Aquaman forma una alianza improbable con su hermano Orm para detenerlo."
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Derecho de familia",
+          "inicio": "00:11",
+          "fin": "09:20",
+          "descripcion": "Un abogado argentino cree que es muy difícil comunicarse con su padre, un respetado abogado que se convierte en un modelo muy difícil a seguir por su hijo."
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
