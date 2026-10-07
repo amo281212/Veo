@@ -267,50 +267,7 @@
     },
     "Cinecanal.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Algo azul",
-          "inicio": "01:57",
-          "fin": "09:00",
-          "descripcion": "Una mujer que trabaja como organizadora de bodas comienza a cuestionar su propia vida amorosa cuando se enamora inesperadamente de un hombre que está a punto de casarse. Entre preparativos, secretos y sentimientos inesperados, deberá decidir qué quiere realmente para su futuro."
-        },
-        {
-          "nombre": "Yo, traidor",
-          "inicio": "09:00",
-          "fin": "11:25",
-          "descripcion": "Un hombre aparentemente común se ve envuelto en una peligrosa conspiración cuando acepta colaborar con un poderoso grupo criminal. Mientras intenta protegerse y descubrir en quién puede confiar, deberá enfrentarse a las consecuencias de sus propias decisiones."
-        },
-        {
-          "nombre": "Me enamoré de una sirena",
-          "inicio": "11:25",
-          "fin": "13:53",
-          "descripcion": "Un joven conoce a una misteriosa mujer que resulta ser una sirena y queda completamente enamorado de ella. Mientras intenta mantener su relación en secreto, deberá enfrentarse a las diferencias entre su mundo y el de ella."
-        },
-        {
-          "nombre": "Violación de domicilio",
-          "inicio": "13:53",
-          "fin": "16:43",
-          "descripcion": "Una familia se muda a una nueva casa buscando comenzar una vida tranquila, pero pronto descubre que alguien ha estado entrando en su hogar sin dejar rastro. La situación se vuelve cada vez más peligrosa cuando intentan descubrir quién está detrás de estas inquietantes intrusiones."
-        },
-        {
-          "nombre": "Toys",
-          "inicio": "16:43",
-          "fin": "19:19",
-          "descripcion": "Un fabricante de juguetes debe enfrentarse a su estricto y autoritario tío, quien planea transformar la empresa familiar en una fábrica de productos militares. Para proteger el legado de su padre, tendrá que luchar por mantener vivo el espíritu creativo y divertido de la compañía."
-        },
-        {
-          "nombre": "500 días con ella",
-          "inicio": "19:19",
-          "fin": "21:16",
-          "descripcion": "Tom se enamora de Summer, una joven que no cree en el amor ni en las relaciones duraderas. Mientras recuerda los momentos que compartieron, intentará comprender qué salió mal y por qué una historia que parecía perfecta terminó de una manera inesperada."
-        },
-        {
-          "nombre": "El exótico Hotel Marigold",
-          "inicio": "21:16",
-          "fin": "00:00",
-          "descripcion": "Un grupo de jubilados británicos viaja a la India para comenzar una nueva etapa en un antiguo y peculiar hotel. Aunque el lugar no es lo que esperaban, sus nuevas experiencias, amistades y desafíos cambiarán la forma en que ven sus propias vidas."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Reefa",
