@@ -1468,6 +1468,12 @@
           "inicio": "08:05",
           "fin": "09:55",
           "descripcion": "Un detective aficionado roba una máquina capaz de grabar, almacenar y mostrar los recuerdos de otra persona para resolver con ella el enigma de quién asesinó al inventor de este artilugio."
+        },
+        {
+          "nombre": "Regresión",
+          "inicio": "09:55",
+          "fin": "11:40",
+          "descripcion": "El detective Bruce Kenner viaja a Minnesota para investigar el caso de la joven Ángela, que acusa a su padre, John, de haber cometido un crimen inconfesable. John admite la autoría del crimen sin recordar nada de lo sucedido."
         }
       ],
       "Jueves": [],
