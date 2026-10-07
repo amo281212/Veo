@@ -1741,7 +1741,14 @@
           "descripcion": "Dos policías de Miami tienen 72 horas para encontrar 100 millones de dólares en heroína robada del almacén de evidencias de su comisaría, pero, para lograrlo, deben intercambiar sus identidades."
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Liga de la Justicia",
+          "inicio": "01:38",
+          "fin": "10:32",
+          "descripcion": "Los más grandes súper héroes del mundo unidos en La Liga de la Justicia para combatir las amenazas que sobrepasan sus súper poderes individuales."
+        }
+      ],
       "Domingo": []
     },
     "FX.cl": {
