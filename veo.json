@@ -1462,7 +1462,14 @@
     "UniversalCinema.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "La Máquina del Recuerdo",
+          "inicio": "08:05",
+          "fin": "09:55",
+          "descripcion": "Un detective aficionado roba una máquina capaz de grabar, almacenar y mostrar los recuerdos de otra persona para resolver con ella el enigma de quién asesinó al inventor de este artilugio."
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
