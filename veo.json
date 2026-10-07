@@ -942,62 +942,7 @@
     },
     "HBOPop.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Hasta que el Cuerpo Aguante",
-          "inicio": "00:00",
-          "fin": "10:00",
-          "descripcion": "Cinco amigas se reúnen después de 10 años en una despedida de soltera alocada en Miami, pero todo cambia cuando accidentalmente matan a un stripper masculino."
-        },
-        {
-          "nombre": "Cuestión de Tiempo",
-          "inicio": "10:00",
-          "fin": "12:05",
-          "descripcion": "A la edad de 21 años, Tim descubre que es capaz de viajar en el tiempo y cambiar lo que ha sucedido en su propia vida."
-        },
-        {
-          "nombre": "CHiPs: Patrulla motorizada",
-          "inicio": "12:05",
-          "fin": "13:50",
-          "descripcion": "Un joven e impulsivo motociclista y un veterano agente federal se unen a la patrulla de carreteras de California. Aunque tienen personalidades muy distintas, deberán trabajar juntos para investigar una serie de robos y descubrir una peligrosa conspiración dentro de la policía."
-        },
-        {
-          "nombre": "Aves de presa (y la fantabulosa emancipación de una Harley Quinn)",
-          "inicio": "13:50",
-          "fin": "15:40",
-          "descripcion": "Tras separarse del Joker, Harley Quinn se une a un grupo de mujeres con habilidades muy distintas para proteger a una joven perseguida por un peligroso criminal. Juntas deberán enfrentarse a las amenazas de Gotham mientras Harley intenta comenzar una nueva vida por su cuenta."
-        },
-        {
-          "nombre": "Se dice de mí",
-          "inicio": "15:40",
-          "fin": "17:15",
-          "descripcion": "Una joven intenta abrirse camino mientras enfrenta los rumores, las expectativas y las dificultades que surgen a su alrededor. En medio de distintas relaciones y situaciones inesperadas, deberá descubrir qué quiere realmente para su vida."
-        },
-        {
-          "nombre": "Cincuenta Sombras de Grey",
-          "inicio": "17:15",
-          "fin": "19:25",
-          "descripcion": "La vida de la estudiante de literatura, Anastasia Steele, cambia para siempre cuando conoce al apuesto y multimillonario Christian Grey."
-        },
-        {
-          "nombre": "Hasta que el Cuerpo Aguante",
-          "inicio": "19:25",
-          "fin": "21:10",
-          "descripcion": "Cinco amigas se reúnen después de 10 años en una despedida de soltera alocada en Miami, pero todo cambia cuando accidentalmente matan a un stripper masculino."
-        },
-        {
-          "nombre": "Blue Beetle",
-          "inicio": "21:10",
-          "fin": "23:20",
-          "descripcion": "Jaime, un joven recién graduado de la universidad, se encuentra inesperadamente en posesión de una antigua reliquia alienígena que le otorga superpoderes."
-        },
-        {
-          "nombre": "Last Week Tonight with John Oliver",
-          "inicio": "23:20",
-          "fin": "00:00",
-          "descripcion": "John Oliver analiza las noticias y acontecimientos más importantes de la actualidad, abordando temas políticos, sociales y culturales con humor y sátira. Cada episodio profundiza en un tema central mientras cuestiona situaciones y problemas de gran relevancia."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Los ángeles de Charlie 2: Al límite",
