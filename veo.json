@@ -2994,6 +2994,12 @@
           "inicio": "09:20",
           "fin": "11:20",
           "descripcion": ""
+        },
+        {
+          "nombre": "Locura de Verano",
+          "inicio": "11:20",
+          "fin": "13:10",
+          "descripcion": ""
         }
       ],
       "Viernes": [],
