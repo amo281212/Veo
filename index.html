@@ -19,19 +19,44 @@ border-radius:14px;
 padding:15px;
 margin-bottom:12px;
 cursor:pointer;
-touch-action:pan-y;
 user-select:none;
--webkit-user-select:none
+-webkit-user-select:none;
 }
 
 .channel.dragging{
 opacity:.5;
 border:2px dashed #4AA9D8;
-touch-action:none;
 }
 
 .channel.drag-over{
 border-color:#4AA9D8;
+}
+
+.drag-handle{
+width:28px;
+min-width:28px;
+height:48px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+gap:4px;
+cursor:grab;
+touch-action:pan-y;
+-webkit-user-select:none;
+user-select:none;
+}
+
+.drag-handle:active{
+cursor:grabbing;
+}
+
+.drag-handle span{
+display:block;
+width:20px;
+height:3px;
+border-radius:3px;
+background:#777;
 }
 
 .channel-placeholder{
@@ -1548,11 +1573,10 @@ document
 )
 .forEach(
 tarjeta=>{
-
 tarjeta.classList.remove(
-"drag-over"
+"drag-over",
+"dragging"
 );
-
 }
 );
 
@@ -1582,7 +1606,6 @@ document.querySelectorAll(
 
 function moverCanalSegunPosicion(
 card,
-x,
 y
 ){
 
@@ -1648,17 +1671,96 @@ objetivo
 
 }else{
 
-const ultimo=
-tarjetas[
-tarjetas.length-1
-];
+const botonAgregar=
+document.querySelector(
+"#channels .add-channel"
+);
+
+if(
+botonAgregar
+){
 
 card.parentNode.insertBefore(
 card,
-ultimo.nextSibling
+botonAgregar
 );
 
 }
+
+}
+
+}
+
+
+function iniciarAutoScroll(){
+
+if(
+window.veoAutoScrollActivo
+){
+
+return;
+
+}
+
+window.veoAutoScrollActivo=
+true;
+
+function desplazar(){
+
+if(
+!window.veoAutoScrollActivo
+){
+
+return;
+
+}
+
+const y=
+window.veoDragY||0;
+
+const alto=
+window.innerHeight;
+
+const zona=
+80;
+
+if(
+y<zona
+){
+
+window.scrollBy(
+0,
+-8
+);
+
+}else if(
+y>alto-zona
+){
+
+window.scrollBy(
+0,
+8
+);
+
+}
+
+requestAnimationFrame(
+desplazar
+);
+
+}
+
+requestAnimationFrame(
+desplazar
+);
+
+}
+
+
+function detenerAutoScroll(){
+
+window.veoAutoScrollActivo=
+false;
 
 }
 
@@ -1690,6 +1792,17 @@ card.innerHTML=`
 
 <div class="channel-content">
 
+<div
+class="drag-handle"
+title="Mantener presionado para mover"
+>
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
 <img
 class="channel-logo"
 src="${escapeHTML(logo)}"
@@ -1712,11 +1825,15 @@ ${escapeHTML(id)}
 
 `;
 
+const handle=
+card.querySelector(
+".drag-handle"
+);
+
 let arrastrando=false;
 let presionTimer=null;
-let inicioX=0;
 let inicioY=0;
-let pointerIdActivo=null;
+let inicioX=0;
 let movimientoIniciado=false;
 
 
@@ -1725,15 +1842,22 @@ let movimientoIniciado=false;
 ============================== */
 
 card.onclick=
-function(){
+function(e){
 
-if(arrastrando){
+if(
+e.target.closest(
+".drag-handle"
+)
+){
 
 return;
 
 }
 
-if(movimientoIniciado){
+if(
+arrastrando||
+movimientoIniciado
+){
 
 return;
 
@@ -1747,29 +1871,29 @@ clave
 
 
 /* ==============================
-   INICIO DEL TOQUE
+   TOUCH
 ============================== */
 
-card.addEventListener(
-"pointerdown",
+handle.addEventListener(
+"touchstart",
 function(e){
 
 if(
-e.pointerType!=="touch"
+e.touches.length!==1
 ){
 
 return;
 
 }
 
+const touch=
+e.touches[0];
+
 inicioX=
-e.clientX;
+touch.clientX;
 
 inicioY=
-e.clientY;
-
-pointerIdActivo=
-e.pointerId;
+touch.clientY;
 
 movimientoIniciado=false;
 
@@ -1782,27 +1906,33 @@ setTimeout(
 function(){
 
 arrastrando=true;
+
 movimientoIniciado=true;
 
 card.classList.add(
 "dragging"
 );
 
-card.style.touchAction=
-"none";
+window.veoDragY=
+inicioY;
 
-try{
+iniciarAutoScroll();
 
-card.setPointerCapture(
-e.pointerId
-);
+if(
+navigator.vibrate
+){
 
-}catch(error){}
+navigator.vibrate(30);
+
+}
 
 },
 400
 );
 
+},
+{
+passive:true
 }
 );
 
@@ -1811,29 +1941,34 @@ e.pointerId
    MOVER CON EL DEDO
 ============================== */
 
-card.addEventListener(
-"pointermove",
+handle.addEventListener(
+"touchmove",
 function(e){
 
 if(
-e.pointerType!=="touch"||
-e.pointerId!==pointerIdActivo
+e.touches.length!==1
 ){
 
 return;
 
 }
 
+const touch=
+e.touches[0];
+
+window.veoDragY=
+touch.clientY;
+
 if(!arrastrando){
 
 const distancia=
 Math.sqrt(
 Math.pow(
-e.clientX-inicioX,
+touch.clientX-inicioX,
 2
 )+
 Math.pow(
-e.clientY-inicioY,
+touch.clientY-inicioY,
 2
 )
 );
@@ -1854,34 +1989,25 @@ return;
 
 }
 
-e.preventDefault();
-
 moverCanalSegunPosicion(
 card,
-e.clientX,
-e.clientY
+touch.clientY
 );
 
+},
+{
+passive:true
 }
 );
 
 
 /* ==============================
-   SOLTAR CON EL DEDO
+   SOLTAR
 ============================== */
 
-card.addEventListener(
-"pointerup",
-function(e){
-
-if(
-e.pointerType!=="touch"||
-e.pointerId!==pointerIdActivo
-){
-
-return;
-
-}
+handle.addEventListener(
+"touchend",
+function(){
 
 clearTimeout(
 presionTimer
@@ -1889,9 +2015,9 @@ presionTimer
 
 presionTimer=null;
 
-if(!arrastrando){
+detenerAutoScroll();
 
-pointerIdActivo=null;
+if(!arrastrando){
 
 return;
 
@@ -1903,9 +2029,6 @@ card.classList.remove(
 "dragging"
 );
 
-card.style.touchAction=
-"";
-
 document
 .querySelectorAll(
 "#channels .channel"
@@ -1916,16 +2039,6 @@ tarjeta.classList.remove(
 "drag-over"
 )
 );
-
-try{
-
-card.releasePointerCapture(
-e.pointerId
-);
-
-}catch(error){}
-
-pointerIdActivo=null;
 
 guardarOrdenCanales();
 
@@ -1943,12 +2056,12 @@ movimientoIniciado=false;
 
 
 /* ==============================
-   CANCELAR EL TOQUE
+   CANCELAR TOUCH
 ============================== */
 
-card.addEventListener(
-"pointercancel",
-function(e){
+handle.addEventListener(
+"touchcancel",
+function(){
 
 clearTimeout(
 presionTimer
@@ -1957,17 +2070,13 @@ presionTimer
 presionTimer=null;
 
 arrastrando=false;
-
 movimientoIniciado=false;
 
-pointerIdActivo=null;
+detenerAutoScroll();
 
 card.classList.remove(
 "dragging"
 );
-
-card.style.touchAction=
-"";
 
 limpiarEstadoArrastre();
 
@@ -1976,21 +2085,15 @@ limpiarEstadoArrastre();
 
 
 /* ==============================
-   SALIR DEL ELEMENTO
+   EVITAR ABRIR EL CANAL
+   AL TOCAR EL HANDLE
 ============================== */
 
-card.addEventListener(
-"pointerleave",
+handle.addEventListener(
+"click",
 function(e){
 
-if(
-e.pointerType==="touch"&&
-arrastrando
-){
-
-return;
-
-}
+e.stopPropagation();
 
 }
 );
@@ -2000,105 +2103,93 @@ return;
    MOUSE / PC
 ============================== */
 
-card.draggable=true;
+let mouseArrastrando=false;
+let mouseTimer=null;
+let mouseInicioY=0;
 
-card.addEventListener(
-"dragstart",
+
+/* Mantener presionado el handle */
+
+handle.addEventListener(
+"mousedown",
 function(e){
-
-arrastrando=true;
-
-movimientoIniciado=true;
-
-card.classList.add(
-"dragging"
-);
-
-try{
-
-e.dataTransfer.effectAllowed=
-"move";
-
-e.dataTransfer.setData(
-"text/plain",
-clave
-);
-
-}catch(error){}
-
-}
-);
-
-card.addEventListener(
-"dragover",
-function(e){
-
-e.preventDefault();
-
-const arrastrado=
-document.querySelector(
-".channel.dragging"
-);
 
 if(
-!arrastrado||
-arrastrado===card
+e.button!==0
 ){
 
 return;
 
 }
 
-const rect=
-card.getBoundingClientRect();
-
-const mitad=
-rect.top+
-rect.height/2;
-
-document
-.querySelectorAll(
-"#channels .channel"
-)
-.forEach(
-tarjeta=>
-tarjeta.classList.remove(
-"drag-over"
-)
-);
-
-card.classList.add(
-"drag-over"
-);
-
-if(
-e.clientY<mitad
-){
-
-card.parentNode.insertBefore(
-arrastrado,
-card
-);
-
-}else{
-
-card.parentNode.insertBefore(
-arrastrado,
-card.nextSibling
-);
-
-}
-
-}
-);
-
-card.addEventListener(
-"dragend",
-function(){
-
-arrastrando=false;
+mouseInicioY=
+e.clientY;
 
 movimientoIniciado=false;
+
+clearTimeout(
+mouseTimer
+);
+
+mouseTimer=
+setTimeout(
+function(){
+
+mouseArrastrando=true;
+movimientoIniciado=true;
+
+card.classList.add(
+"dragging"
+);
+
+},
+250
+);
+
+}
+);
+
+
+/* Mover con mouse */
+
+document.addEventListener(
+"mousemove",
+function(e){
+
+if(!mouseArrastrando){
+
+return;
+
+}
+
+moverCanalSegunPosicion(
+card,
+e.clientY
+);
+
+}
+);
+
+
+/* Soltar mouse */
+
+document.addEventListener(
+"mouseup",
+function(){
+
+clearTimeout(
+mouseTimer
+);
+
+mouseTimer=null;
+
+if(!mouseArrastrando){
+
+return;
+
+}
+
+mouseArrastrando=false;
 
 card.classList.remove(
 "dragging"
@@ -2117,8 +2208,22 @@ tarjeta.classList.remove(
 
 guardarOrdenCanales();
 
+setTimeout(
+function(){
+
+movimientoIniciado=false;
+
+},
+50
+);
+
 }
 );
+
+
+/* ==============================
+   INSERTAR TARJETA
+============================== */
 
 channels.insertBefore(
 
@@ -2213,8 +2318,6 @@ canal.clave
 
 }
 );
-
-}
 
 
 function obtenerDiaActual(){
