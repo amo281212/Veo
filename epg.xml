@@ -559,6 +559,46 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
     <title lang="es">Constantine</title>
     <desc lang="es">John Constantine, un detective especializado en fenómenos sobrenaturales, intenta salvar su alma mientras combate fuerzas demoníacas en la Tierra. Cuando una detective lo busca para investigar la misteriosa muerte de su hermana, ambos descubren una conspiración que amenaza con desatar el infierno.</desc>
   </programme>
+  <programme channel="UniversalCinema.cl" start="20261007080500 -0300" stop="20261007095500 -0300">
+    <title lang="es">La Máquina del Recuerdo</title>
+    <desc lang="es">Un detective aficionado roba una máquina capaz de grabar, almacenar y mostrar los recuerdos de otra persona para resolver con ella el enigma de quién asesinó al inventor de este artilugio.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261007095500 -0300" stop="20261007114000 -0300">
+    <title lang="es">Regresión</title>
+    <desc lang="es">El detective Bruce Kenner viaja a Minnesota para investigar el caso de la joven Ángela, que acusa a su padre, John, de haber cometido un crimen inconfesable. John admite la autoría del crimen sin recordar nada de lo sucedido.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261007114000 -0300" stop="20261007133000 -0300">
+    <title lang="es">El Precio del Mañana</title>
+    <desc lang="es">Un hombre es acusado de asesinato y debe encontrar la forma de acabar con un sistema en donde el tiempo es dinero, permitiéndole a los ricos vivir para siempre, mientras los pobres ruegan por cada minuto de vida.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261007133000 -0300" stop="20261007154000 -0300">
+    <title lang="es">John Wick 3: Parabellum</title>
+    <desc lang="es">Tras asesinar a un miembro del misterioso gremio de asesinos John Wick queda excomulgado, ahora es el objetivo de sicarios despiadados de todo el mundo.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261007154000 -0300" stop="20261007174500 -0300">
+    <title lang="es">El tirador</title>
+    <desc lang="es">Un ex-francotirador es obligado a volver al servicio militar y planea vengarse de sus poderosos enemigos después de ser traicionado y herido.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261007174500 -0300" stop="20261007195000 -0300">
+    <title lang="es">Misión imposible 2</title>
+    <desc lang="es">Ethan Hunt y su equipo intentan evitar que un exagente libere un virus mortal genéticamente modificado que, en manos equivocadas, podría causar estragos.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261007195000 -0300" stop="20261007220000 -0300">
+    <title lang="es">Misión imposible: protocolo fantasma</title>
+    <desc lang="es">Cuando un incidente implica a la IMF como terroristas internacionales, Ethan Hunt y su equipo de élite se enfrentan a su misión más difícil y deben operar en la clandestinidad para evitar un complot capaz de desatar una guerra nuclear.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261007220000 -0300" stop="20261008000500 -0300">
+    <title lang="es">Top Gun: Maverick</title>
+    <desc lang="es">Después de más de treinta años de servicio, Pete &quot;Maverick&quot; Mitchell evita ser promovido para seguir volando mientras entrena a un grupo de jóvenes pilotos.</desc>
+  </programme>
+  <programme channel="Space.cl" start="20261007093100 -0300" stop="20261007112200 -0300">
+    <title lang="es">Policías de repuesto</title>
+    <desc lang="es">Los detectives Danson y Highsmith son los grandes héroes del Departamento de Policía de Nueva York y la gente los ama al grado de tatuárselos. En la misma oficina trabajan también Gamble y Hoitz, quienes están a cargo del papeleo y generalmente salen al fondo en las fotografías de los periódicos. Pero gracias a una serie de hechos asombrosos, Gamble y Hoitz tendrán finalmente la posibilidad de demostrar de qué están hechos.</desc>
+  </programme>
+  <programme channel="Space.cl" start="20261007112200 -0300" stop="20261007125800 -0300">
+    <title lang="es">R.I.P.D.: policía del más allá</title>
+    <desc lang="es">El veterano Roy Pulsifer lleva toda su vida en el Departamento de Policía Mortal del Más Allá, siguiendo la pista de unos delincuentes muy especiales que intentan escaparse del Juicio Final escondiéndose entre los habitantes de la Tierra.</desc>
+  </programme>
   <programme channel="ENTChannel.cl" start="20261007000000 -0300" stop="20261007075200 -0300">
     <title lang="es">Programación de trasnoche</title>
   </programme>
@@ -596,6 +636,62 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   </programme>
   <programme channel="ENTChannel.cl" start="20261007232900 -0300" stop="20261008000000 -0300">
     <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="TNT.cl" start="20261007084300 -0300" stop="20261007102600 -0300">
+    <title lang="es">Ganar o morir</title>
+    <desc lang="es">Un reo experto en artes marciales que escapa de una prisión, protege a una viuda y a sus hijos de un terrible acoso de una poderosa organización que busca adueñarse de sus tierras.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261007102600 -0300" stop="20261007124100 -0300">
+    <title lang="es">Oblivion: El Tiempo del Olvido</title>
+    <desc lang="es">Un reparador de drones del planeta tierra desvastado luego de décadas de guerras con los extraterrestres descubre los restos de una nave espacial.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261007124100 -0300" stop="20261007144900 -0300">
+    <title lang="es">Romeo Debe Morir</title>
+    <desc lang="es">Han quiere vengar la muerte de su hermano, miembro de una pandilla asiática que le disputaba el control del puerto de Oakland a los gánsteres afroamericanos. Pero todo se complica cuando conoce a Trish, dado que ambos pertenecen a bandos opuestos.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261007144900 -0300" stop="20261007165900 -0300">
+    <title lang="es">El protector</title>
+    <desc lang="es">Un agente de protección de testigos descubre que hay corrupción en el departamento y que debe proteger a una joven.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261007165900 -0300" stop="20261007192200 -0300">
+    <title lang="es">El rey Arturo: la leyenda de la espada</title>
+    <desc lang="es">Arturo fue robado al nacer y tuvo una educación espartana en una zona conflictiva de la ciudad, pero cuando extrae la espada Excalibur de la piedra en la que estaba clavada, la profecía se cumple y acepta el destino de liderar a su pueblo.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261007192200 -0300" stop="20261007220000 -0300">
+    <title lang="es">Aquaman</title>
+    <desc lang="es">Un mitad humano y mitad atlanticense es llevado al viaje de su vida donde se verá forzado a enfrentar quien es en verdad y descubrir si es digno de ser un rey.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261007220000 -0300" stop="20261008001100 -0300">
+    <title lang="es">Aquaman y el Reino Perdido</title>
+    <desc lang="es">Para proteger a su familia y su reino de Black Manta que es más fuerte que nunca, Aquaman forma una alianza improbable con su hermano Orm para detenerlo.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261007090600 -0300" stop="20261007105000 -0300">
+    <title lang="es">Poder sin límites</title>
+    <desc lang="es">Andrew es un adolescente introvertido cuya principal forma de escape y expresión es una cámara de video. Pero las cosas empiezan a cambiar cuando Andrew, su primo Matt y el popular compañero Steve descubren una misteriosa sustancia que les da unos poderes increíbles. Sus habilidades se hacen más poderosas y sus vidas se salen de control cuando emergen sus lados más oscuros. Andrew captura los eventos con su cámara.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261007105000 -0300" stop="20261007130200 -0300">
+    <title lang="es">Espiando a los vecinos</title>
+    <desc lang="es">Una pareja convencional de un barrio acomodado se entromete en una trama de espionaje cuando descubren que sus nuevos vecinos, una pareja elegante y sofisticada, son en realidad agentes secretos al servicio del gobierno.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261007130200 -0300" stop="20261007145600 -0300">
+    <title lang="es">Hitman: Agente 47</title>
+    <desc lang="es">Una recreación del popular juego de video de Square Enix de la serie Hitman acerca de un asesino calvo llamado 47.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261007145600 -0300" stop="20261007170200 -0300">
+    <title lang="es">Los expedientes secretos X: quiero creer</title>
+    <desc lang="es">Los agentes del FBI Mulder y Scully investigan la desaparición de varias mujeres en una población rural de Virginia. Siguiendo algunas pistas, descubren un experimento secreto que puede guardar relación con las desapariciones.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261007170200 -0300" stop="20261007194300 -0300">
+    <title lang="es">El Planeta de los Simios: La Guerra</title>
+    <desc lang="es">Cesar y sus simios se ven obligados a una batalla contra los humanos, el destino de esta determinará el destino de sus especies y el futuro del planeta.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261007194300 -0300" stop="20261007215900 -0300">
+    <title lang="es">Horas contadas</title>
+    <desc lang="es">En febrero de 1952, en mitad de una tormenta monstruosa que se cierne sobre Nueva Inglaterra, los miembros de la Guardia Costera arriesgan sus vidas para rescatar a los trabajadores de dos petroleros que la tempestad ha destrozado.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261007215900 -0300" stop="20261008000400 -0300">
+    <title lang="es">Max Payne</title>
+    <desc lang="es">Un policía inconforme enfrenta una batalla sobrenatural cuando visita el bajo mundo en busca de los asesinos de su familia y de su compañero</desc>
   </programme>
   <programme channel="WarnerChannel.cl" start="20261007013000 -0300" stop="20261007111300 -0300">
     <title lang="es">The Big Bang Theory</title>
@@ -1002,6 +1098,42 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
     <title lang="es">Un lugar en silencio: Parte II</title>
     <desc lang="es">Tras los acontecimientos de la primera película, la familia Abbott debe abandonar su hogar y enfrentarse a un mundo devastado por criaturas que cazan guiándose por el sonido. En su búsqueda de otros sobrevivientes, descubren que los peligros que los esperan van mucho más allá de las criaturas.</desc>
   </programme>
+  <programme channel="UniversalCinema.cl" start="20261008000500 -0300" stop="20261008090500 -0300">
+    <title lang="es">Oscura Verdad</title>
+    <desc lang="es">Lucy y Adrián acuden al doctor Hindle para lograr tener un bebé con inseminación artificial. Lucy se queda embarazada de trillizos y, a medida que avanza su embarazo, su mundo se va transformando en una terrorífica pesadilla.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261008090500 -0300" stop="20261008104000 -0300">
+    <title lang="es">Marea baja</title>
+    <desc lang="es">Alan, un adolescente, y su hermano pequeño encuentran una bolsa llena de monedas de oro en la vivienda de un hombre muerto. Aunque intentan ocultárselo a sus amigos, uno de ellos, violento e impredecible, sospecha de los hermanos y está dispuesto a todo con tal de descubrir su secreto.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261008104000 -0300" stop="20261008121500 -0300">
+    <title lang="es">Despidiendo a Yang</title>
+    <desc lang="es">Cuando el compañero de su hija, un androide llamado Yang, se descompone, Jake busca una manera de repararlo. En el proceso, Jake descubre que la vida ha estado pasando frente a sus narices.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261008121500 -0300" stop="20261008140500 -0300">
+    <title lang="es">El Precio del Mañana</title>
+    <desc lang="es">En un futuro donde la vejez se detiene a los 25 años y se muere un año más tarde, un joven deberá encontrar la manera de acabar con un sistema corrupto.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261008140500 -0300" stop="20261008160000 -0300">
+    <title lang="es">Los caballeros</title>
+    <desc lang="es">Mickey Pearson, un estadounidense expatriado en Londres, se ha hecho rico con el negocio de la marihuana. Sin embargo, cuando se difunde el rumor de que va a vender su imperio, varios criminales se disputan la oportunidad que se les presenta.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261008160000 -0300" stop="20261008181000 -0300">
+    <title lang="es">Inframundo</title>
+    <desc lang="es">Una mujer vampiro trata de proteger a un estudiante de unos hombres lobo que intentan crear una especie híbrida.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261008181000 -0300" stop="20261008194500 -0300">
+    <title lang="es">La Hija Eterna</title>
+    <desc lang="es">Una artista y su anciana madre regresan a la que fue su casa familiar, convertida ahora en un hotel remoto. A medida que afloran los recuerdos, surgen secretos ocultos en esta inquietante exploración de la familia y la pérdida.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261008194500 -0300" stop="20261008220000 -0300">
+    <title lang="es">It</title>
+    <desc lang="es">Un grupo de siete niños marginados en el pueblo de Derry, Maine, se une para enfrentar a una entidad malévola cambiaformas (que suele aparecer como el payaso Pennywise) que despierta cada 27 años para alimentarse del terror de los niños.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261008220000 -0300" stop="20261009005000 -0300">
+    <title lang="es">It: Capítulo 2</title>
+    <desc lang="es">Varios niños de una pequeña ciudad del estado de Maine se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil.</desc>
+  </programme>
   <programme channel="ENTChannel.cl" start="20261008000000 -0300" stop="20261008074600 -0300">
     <title lang="es">Programación de trasnoche</title>
   </programme>
@@ -1044,6 +1176,38 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   <programme channel="ENTChannel.cl" start="20261008232900 -0300" stop="20261009000000 -0300">
     <title lang="es">Los Simpson</title>
   </programme>
+  <programme channel="TNT.cl" start="20261008001100 -0300" stop="20261008092000 -0300">
+    <title lang="es">Derecho de familia</title>
+    <desc lang="es">Un abogado argentino cree que es muy difícil comunicarse con su padre, un respetado abogado que se convierte en un modelo muy difícil a seguir por su hijo.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261008092000 -0300" stop="20261008110100 -0300">
+    <title lang="es">Sin hijos</title>
+    <desc lang="es">Desde que Gabriel se separó, Sofía, su hija, es el centro de su vida, y se niega a comenzar una nueva relación sentimental. Todo cambia cuando aparece Vicky, su amor platónico de la adolescencia, transformada ahora en una mujer hermosa, independiente y desenfadada a la que no le gustan los niños.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261008110100 -0300" stop="20261008132000 -0300">
+    <title lang="es">El rey Arturo: la leyenda de la espada</title>
+    <desc lang="es">Arturo fue robado al nacer y tuvo una educación espartana en una zona conflictiva de la ciudad, pero cuando extrae la espada Excalibur de la piedra en la que estaba clavada, la profecía se cumple y acepta el destino de liderar a su pueblo.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261008132000 -0300" stop="20261008150100 -0300">
+    <title lang="es">Furia de Titanes 2</title>
+    <desc lang="es">Con la ayuda de la reina Andrómeda, Hefesto y el hijo de Poseidón, Perseo emprende la misión de rescatar a Zeus del inframundo, derrotar a los Titanes y salvar a la humanidad.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261008150100 -0300" stop="20261008171300 -0300">
+    <title lang="es">John Q: Situación extrema</title>
+    <desc lang="es">Un padre recurre a medidas desesperadas en pos de obtener un corazón para su hijo después de que el seguro médico se lo niegue.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261008171300 -0300" stop="20261008192600 -0300">
+    <title lang="es">El Coleccionista De Huesos</title>
+    <desc lang="es">Un psicópata va dejando pistas de sus crímenes, pero solo Lincoln Rhyme, un agente de homicidios tetrapléjico, puede descifrarlas. La novata policía Amelia Donaghy es la encargada de inspeccionar los escenarios del crimen.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261008192600 -0300" stop="20261008220000 -0300">
+    <title lang="es">Shazam!</title>
+    <desc lang="es">Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe gracias a un antiguo mago, ahora necesita dominar rápidamente sus poderes.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261008220000 -0300" stop="20261009000700 -0300">
+    <title lang="es">Liga de la justicia</title>
+    <desc lang="es">Gracias a su renovada fe en la humanidad e inspirado por el acto de altruísmo de Superman, Bruce Wayne pide ayuda a su nueva aliada, Diana Prince, para enfrentar a un enemigo aún más peligroso.</desc>
+  </programme>
   <programme channel="ENTChannel.cl" start="20261009000000 -0300" stop="20261009074900 -0300">
     <title lang="es">Programación de trasnoche</title>
   </programme>
@@ -1082,735 +1246,64 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   <programme channel="ENTChannel.cl" start="20261009232900 -0300" stop="20261010000000 -0300">
     <title lang="es">Los Simpson</title>
   </programme>
-  <programme channel="AMC.cl" start="20261013014000 -0300" stop="20261013110000 -0300">
-    <title lang="es">Planet Action</title>
-  </programme>
-  <programme channel="AMC.cl" start="20261013110000 -0300" stop="20261013113000 -0300">
-    <title lang="es">Planet Action</title>
-  </programme>
-  <programme channel="AMC.cl" start="20261013113000 -0300" stop="20261013133500 -0300">
-    <title lang="es">Los tres mosqueteros: Milady</title>
-    <desc lang="es">Milady de Winter busca vengarse de quienes la traicionaron mientras Francia se ve envuelta en conspiraciones y conflictos políticos. En su camino, deberá enfrentarse a los mosqueteros y a poderosos enemigos para conseguir lo que desea.</desc>
-  </programme>
-  <programme channel="AMC.cl" start="20261013133500 -0300" stop="20261013155000 -0300">
-    <title lang="es">Ben-Hur</title>
-    <desc lang="es">Tras ser traicionado y condenado injustamente, Judah Ben-Hur es separado de su familia y convertido en esclavo. Años después, regresa decidido a recuperar su libertad y enfrentarse a quien destruyó su vida, mientras su camino se cruza con el de Jesús.</desc>
-  </programme>
-  <programme channel="AMC.cl" start="20261013155000 -0300" stop="20261013174500 -0300">
-    <title lang="es">La novia de mis sueños</title>
-    <desc lang="es">Un hombre conoce a una mujer que parece ser la pareja perfecta y rápidamente comienza a imaginar una vida junto a ella. Sin embargo, cuando la realidad empieza a alejarse de sus expectativas, deberá descubrir qué es lo que realmente busca en el amor.</desc>
-  </programme>
-  <programme channel="AMC.cl" start="20261013174500 -0300" stop="20261013201500 -0300">
-    <title lang="es">Noé</title>
-    <desc lang="es">Noé recibe una misión divina para construir un enorme arca antes de que un devastador diluvio cubra la Tierra. Mientras se prepara para salvar a su familia y a distintas especies animales, deberá enfrentar conflictos que pondrán a prueba su fe y determinación.</desc>
-  </programme>
-  <programme channel="AMC.cl" start="20261013201500 -0300" stop="20261013220000 -0300">
-    <title lang="es">Negocios fuera de control</title>
-    <desc lang="es">Un empresario que intenta cerrar un importante acuerdo lleva a sus empleados a un viaje de negocios que rápidamente se sale de control. Lo que debía ser una reunión rutinaria termina convirtiéndose en una serie de situaciones absurdas y caóticas.</desc>
-  </programme>
-  <programme channel="AMC.cl" start="20261013220000 -0300" stop="20261013235000 -0300">
-    <title lang="es">El precio del mañana</title>
-    <desc lang="es">En un futuro donde el tiempo se ha convertido en la moneda de cambio, las personas dejan de envejecer a los 25 años y deben trabajar para mantenerse con vida. Un joven recibe inesperadamente una enorme cantidad de tiempo y se ve envuelto en una lucha contra un sistema dominado por los más ricos.</desc>
-  </programme>
-  <programme channel="AMC.cl" start="20261013235000 -0300" stop="20261014014500 -0300">
-    <title lang="es">John Wick: Sin control</title>
-    <desc lang="es">John Wick, un legendario asesino retirado, se ve obligado a volver al mundo criminal después de que un antiguo enemigo pone en peligro su vida. Perseguido por peligrosos asesinos, deberá luchar contra todos los que se crucen en su camino para sobrevivir.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261013015700 -0300" stop="20261013090000 -0300">
-    <title lang="es">Algo azul</title>
-    <desc lang="es">Una mujer que trabaja como organizadora de bodas comienza a cuestionar su propia vida amorosa cuando se enamora inesperadamente de un hombre que está a punto de casarse. Entre preparativos, secretos y sentimientos inesperados, deberá decidir qué quiere realmente para su futuro.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261013090000 -0300" stop="20261013112500 -0300">
-    <title lang="es">Yo, traidor</title>
-    <desc lang="es">Un hombre aparentemente común se ve envuelto en una peligrosa conspiración cuando acepta colaborar con un poderoso grupo criminal. Mientras intenta protegerse y descubrir en quién puede confiar, deberá enfrentarse a las consecuencias de sus propias decisiones.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261013112500 -0300" stop="20261013135300 -0300">
-    <title lang="es">Me enamoré de una sirena</title>
-    <desc lang="es">Un joven conoce a una misteriosa mujer que resulta ser una sirena y queda completamente enamorado de ella. Mientras intenta mantener su relación en secreto, deberá enfrentarse a las diferencias entre su mundo y el de ella.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261013135300 -0300" stop="20261013164300 -0300">
-    <title lang="es">Violación de domicilio</title>
-    <desc lang="es">Una familia se muda a una nueva casa buscando comenzar una vida tranquila, pero pronto descubre que alguien ha estado entrando en su hogar sin dejar rastro. La situación se vuelve cada vez más peligrosa cuando intentan descubrir quién está detrás de estas inquietantes intrusiones.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261013164300 -0300" stop="20261013191900 -0300">
-    <title lang="es">Toys</title>
-    <desc lang="es">Un fabricante de juguetes debe enfrentarse a su estricto y autoritario tío, quien planea transformar la empresa familiar en una fábrica de productos militares. Para proteger el legado de su padre, tendrá que luchar por mantener vivo el espíritu creativo y divertido de la compañía.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261013191900 -0300" stop="20261013211600 -0300">
-    <title lang="es">500 días con ella</title>
-    <desc lang="es">Tom se enamora de Summer, una joven que no cree en el amor ni en las relaciones duraderas. Mientras recuerda los momentos que compartieron, intentará comprender qué salió mal y por qué una historia que parecía perfecta terminó de una manera inesperada.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261013211600 -0300" stop="20261014000000 -0300">
-    <title lang="es">El exótico Hotel Marigold</title>
-    <desc lang="es">Un grupo de jubilados británicos viaja a la India para comenzar una nueva etapa en un antiguo y peculiar hotel. Aunque el lugar no es lo que esperaban, sus nuevas experiencias, amistades y desafíos cambiarán la forma en que ven sus propias vidas.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261013131100 -0300" stop="20261013145300 -0300">
-    <title lang="es">Shrek para siempre</title>
-    <desc lang="es">Cansado de la rutina, Shrek hace un trato con el astuto Rumpelstiltskin que cambia por completo su vida y el reino de Muy Muy Lejano. Ahora deberá encontrar la manera de recuperar a Fiona, a sus amigos y el mundo que conocía antes de que sea demasiado tarde.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261013145300 -0300" stop="20261013175500 -0300">
-    <title lang="es">Matrix: Resurrecciones</title>
-    <desc lang="es">Thomas Anderson lleva una vida aparentemente normal, pero comienza a experimentar extraños recuerdos y visiones que lo hacen cuestionar su realidad. Cuando vuelve a encontrarse con Trinity, deberá descubrir la verdad y enfrentarse nuevamente a la Matrix.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261013175500 -0300" stop="20261013200700 -0300">
-    <title lang="es">Mountainhead</title>
-    <desc lang="es">Cuatro amigos multimillonarios se reúnen en una lujosa mansión de montaña mientras una grave crisis internacional sacude al mundo. Entre ambiciones, egos y conflictos personales, el encuentro se convierte en un peligroso juego de poder impulsado por la tecnología y la inteligencia artificial.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261013200700 -0300" stop="20261013221400 -0300">
-    <title lang="es">Ip Man 4: El Final</title>
-    <desc lang="es">Ip Man viaja a Estados Unidos para ayudar a su hijo y descubre que la comunidad china enfrenta conflictos y discriminación. Mientras busca un futuro para su familia, deberá demostrar una vez más el poder y la dignidad del kung fu.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261013221400 -0300" stop="20261014000000 -0300">
-    <title lang="es">Shrek para siempre</title>
-    <desc lang="es">Cansado de la rutina, Shrek hace un trato con el astuto Rumpelstiltskin que cambia por completo su vida y el reino de Muy Muy Lejano. Ahora deberá encontrar la manera de recuperar a Fiona, a sus amigos y el mundo que conocía antes de que sea demasiado tarde.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261013003700 -0300" stop="20261013090900 -0300">
-    <title lang="es">El cielo en tu mirada</title>
-    <desc lang="es">Un joven que sueña con convertirse en cantante se enamora de una chica que comparte su pasión por la música. Juntos deberán enfrentar obstáculos y decisiones que pondrán a prueba sus sueños, su amistad y el amor que comienza a surgir entre ellos.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261013090900 -0300" stop="20261013104500 -0300">
-    <title lang="es">Compartiendo la Navidad</title>
-    <desc lang="es">Una joven se muda a una nueva casa justo antes de Navidad y descubre que tendrá que compartirla con un hombre completamente desconocido. Mientras ambos intentan adaptarse a la inesperada situación, la convivencia comienza a despertar sentimientos que ninguno esperaba.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261013104500 -0300" stop="20261013122900 -0300">
-    <title lang="es">Por mis bigotes</title>
-    <desc lang="es">Un niño de nueve años descubre que está comenzando a desarrollar bigote, justo cuando atraviesa una etapa llena de cambios y desafíos. Con la ayuda de su familia y sus amigos, aprenderá a enfrentar sus inseguridades y descubrirá que crecer también significa aceptarse tal como es.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261013122900 -0300" stop="20261013140800 -0300">
-    <title lang="es">Chicos Buenos</title>
-    <desc lang="es">Tres amigos de sexto grado se meten en problemas cuando intentan asistir a una fiesta sin saber realmente cómo comportarse. En su aventura por llegar a casa a tiempo, vivirán una serie de situaciones disparatadas que pondrán a prueba su amistad.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261013140800 -0300" stop="20261013161500 -0300">
-    <title lang="es">Los Fockers: La familia de mi esposo</title>
-    <desc lang="es">Greg y Pam están a punto de casarse, pero antes deberán reunir a sus familias, cuyos padres tienen personalidades completamente opuestas. El encuentro entre los estrictos Byrnes y los excéntricos Focker desata una serie de situaciones incómodas y divertidas.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261013161500 -0300" stop="20261013175000 -0300">
-    <title lang="es">Mentiroso, mentiroso</title>
-    <desc lang="es">Un abogado acostumbrado a mentir constantemente ve su vida cambiar cuando su hijo pide un deseo que le impide decir cualquier mentira durante un día. Obligado a ser completamente sincero, deberá enfrentar las consecuencias de sus palabras mientras intenta recuperar la confianza de su familia.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261013175000 -0300" stop="20261013192500 -0300">
-    <title lang="es">Borrón y vida nueva</title>
-    <desc lang="es">Una mujer que intenta dejar atrás su pasado tiene la oportunidad de comenzar una nueva vida lejos de todo lo que conoce. Sin embargo, cuando viejos recuerdos y situaciones inesperadas vuelven a aparecer, deberá decidir si realmente está lista para empezar de nuevo.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261013192500 -0300" stop="20261013211200 -0300">
-    <title lang="es">Mamá Reinventada</title>
-    <desc lang="es">Una madre dedicada a su familia decide que es momento de recuperar sus sueños y descubrir quién es más allá de su papel como mamá. Mientras intenta reinventarse y encontrar un nuevo rumbo, deberá aprender a equilibrar sus propias necesidades con las de su familia.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261013211200 -0300" stop="20261013230000 -0300">
-    <title lang="es">Matando cabos</title>
-    <desc lang="es">Un hombre descubre que su jefe ha sido secuestrado y, junto a un compañero, se ve envuelto en una peligrosa y caótica cadena de acontecimientos. Entre secuestradores, criminales y malentendidos, deberán encontrar la manera de salir con vida de una situación que se complica cada vez más.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261013230000 -0300" stop="20261014003900 -0300">
-    <title lang="es">La vida inmoral de la pareja ideal</title>
-    <desc lang="es">Un hombre y una mujer que fueron pareja durante su juventud se reencuentran muchos años después, cuando sus vidas han tomado caminos completamente distintos. El encuentro los lleva a recordar su pasado, los errores que cometieron y los sentimientos que quizá nunca desaparecieron.</desc>
-  </programme>
-  <programme channel="GoldenEdge.cl" start="20261013004900 -0300" stop="20261013104900 -0300">
-    <title lang="es">Contrato mortal</title>
-    <desc lang="es">Dos empresas compiten entre sí por controlar las comunicaciones entre el norte y el sur de África. Esto abre la puerta a un juego de intereses comerciales en los que todo valdrá para hacerse con el control de la banda ancha.</desc>
-  </programme>
-  <programme channel="GoldenEdge.cl" start="20261013104900 -0300" stop="20261013122700 -0300">
-    <title lang="es">Los renegados</title>
-    <desc lang="es">Después de ser reclutado por un grupo peculiar de ladrones, el conocido criminal, Richard Pace, se ve envuelto en un complicado robo de oro que puede cambiarle la vida.</desc>
-  </programme>
-  <programme channel="GoldenEdge.cl" start="20261013122700 -0300" stop="20261013135200 -0300">
-    <title lang="es">El ascensor del Diablo</title>
-    <desc lang="es">Después de que su mejor amiga desaparece, una joven universitaria claustrofóbica investiga el misterioso ascensor donde su amiga fue vista por última vez y que puede ser la puerta a un mundo oscuro y aterrador.</desc>
-  </programme>
-  <programme channel="GoldenEdge.cl" start="20261013135200 -0300" stop="20261013154300 -0300">
-    <title lang="es">Non-Stop: sin escalas</title>
-    <desc lang="es">Bill Marks es un veterano agente del servicio aéreo de los Air Marshalls que pasa por una mala etapa: tiene problemas con la bebida, y últimamente se toma su trabajo como una rutinaria tarea de vigilante a bordo de un avión. Sin embargo, en un viaje de Nueva York a Londres, recibe una serie de misteriosos mensajes de texto, en los que se le pide que inste al gobierno a hacer una transferencia de 150 millones de dólares a una cuenta secreta. En caso contrario, un pasajero morirá cada 20 minutos. El juego del gato y el ratón se desarrolla a 40.000 pies de altura y con la vida de 200 pasajeros pendiendo de un hilo.</desc>
-  </programme>
-  <programme channel="GoldenEdge.cl" start="20261013154300 -0300" stop="20261013173500 -0300">
+  <programme channel="TNT.cl" start="20261009000700 -0300" stop="20261009100800 -0300">
     <title lang="es">El protector</title>
-    <desc lang="es">Jim Hanson, un veterano de guerra, está pasando por un momento difícil. Su amada esposa acaba de fallecer y el banco está a punto de quitarle su casa. Su vida tranquila se ve repentinamente perturbada por la llegada inesperada de dos inmigrantes ilegales que cruzan la frontera hacia su tierra: una madre y su hijo pequeño, que huyen desesperadamente de un brutal cartel mexicano. Después de que un tiroteo ardiente deja a la madre muerta, Jim se convierte en el defensor del niño, Miguel.</desc>
+    <desc lang="es">Jim, un antiguo marine reconvertido en ranchero en la frontera de Arizona, trata de proteger a un niño al que persiguen los violentos integrantes de un cartel de narcotraficantes mexicanos.</desc>
   </programme>
-  <programme channel="GoldenEdge.cl" start="20261013173500 -0300" stop="20261013191400 -0300">
-    <title lang="es">Peligro en la montaña</title>
-    <desc lang="es">Un leñador debe defender a su familia de un peligroso grupo de traficantes de droga.</desc>
+  <programme channel="TNT.cl" start="20261009100800 -0300" stop="20261009121900 -0300">
+    <title lang="es">El coleccionista de huesos</title>
+    <desc lang="es">Un psicópata va dejando pistas de sus crímenes, pero solo Lincoln Rhyme, un agente de homicidios tetrapléjico, puede descifrarlas. La novata policía Amelia Donaghy es la encargada de inspeccionar los escenarios del crimen.</desc>
   </programme>
-  <programme channel="GoldenEdge.cl" start="20261013191400 -0300" stop="20261013210200 -0300">
-    <title lang="es">Alerta máxima 2</title>
-    <desc lang="es">Un experto en alta tecnología brillante y maniaco ha secuestrado el tren de pasajeros más elegante de Norteamérica, trasformando uno de los vagones en un centro de mandos informatizado, con un despliegue de tecnología ultramoderna capaz de controlar un imponente satélite mortal. Desde allí pretende destruir la ciudad de Washington. Pero el único pasajero que no ha sido capturado por los terroristas es Ryback.</desc>
+  <programme channel="TNT.cl" start="20261009121900 -0300" stop="20261009145400 -0300">
+    <title lang="es">Aquaman</title>
+    <desc lang="es">Un mitad humano y mitad atlanticense es llevado al viaje de su vida donde se verá forzado a enfrentar quien es en verdad y descubrir si es digno a ser un rey.</desc>
   </programme>
-  <programme channel="GoldenEdge.cl" start="20261013210200 -0300" stop="20261013230000 -0300">
-    <title lang="es">Reyes de la calle</title>
-    <desc lang="es">Cuando las pruebas señalan a un veterano policía como culpable de la muerte de otro policía, éste deberá enfrentarse a la cultura policial que siempre conoció. También deberá cuestionar las lealtades de quienes lo rodean.</desc>
+  <programme channel="TNT.cl" start="20261009145400 -0300" stop="20261009170600 -0300">
+    <title lang="es">Aquaman y el Reino Perdido</title>
+    <desc lang="es">Para proteger a su familia y su reino de Black Manta que es más fuerte que nunca, Aquaman forma una alianza improbable con su hermano Orm para detenerlo.</desc>
   </programme>
-  <programme channel="GoldenEdge.cl" start="20261013230000 -0300" stop="20261014010500 -0300">
-    <title lang="es">El libro de los secretos</title>
-    <desc lang="es">En un futuro apocalíptico, 30 años después del &quot;resplandor&quot; que aniquiló la casi totalidad de la sociedad civilizada, unos pocos humanos sobreviven en un ambiente increíblemente hostil y árido. Violaciones, canibalismo y salvajismo imperan en unas derruidas ciudades donde el más fuerte y el que posee el agua impone su ley. Vagando por la carretera, un guerrero solitario se dirige al oeste con una sola misión: proteger un misterioso libro que lleva en su mochila.</desc>
+  <programme channel="TNT.cl" start="20261009170600 -0300" stop="20261009192700 -0300">
+    <title lang="es">Black Adam</title>
+    <desc lang="es">Tras ser liberado de su encierro de casi 5000 años, un hombre con podres imparables está listo para desatar su forma única de justicia en el mundo moderno.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261013005900 -0300" stop="20261013090000 -0300">
-    <title lang="es">La Batalla de Riddick</title>
-    <desc lang="es">Riddick queda varado en un planeta desconocido y descubre que no está solo, pues peligrosas criaturas acechan en cada rincón. Mientras lucha por sobrevivir y encontrar una salida, deberá enfrentarse también a un grupo de mercenarios que lo persigue.</desc>
+  <programme channel="TNT.cl" start="20261009192700 -0300" stop="20261009220000 -0300">
+    <title lang="es">Mujer Maravilla</title>
+    <desc lang="es">Una guerrera amazona deja la isla para conocer el mundo y así poder evitar que la guerra del mundo destruya su hogar.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261013090000 -0300" stop="20261013110500 -0300">
-    <title lang="es">300</title>
-    <desc lang="es">El rey Leónidas lidera a 300 guerreros espartanos para defender su tierra ante el enorme ejército persa comandado por Jerjes. En el desfiladero de las Termópilas, deberán resistir en una batalla desigual mientras luchan por proteger la libertad de su pueblo.</desc>
+  <programme channel="TNT.cl" start="20261009220000 -0300" stop="20261009232700 -0300">
+    <title lang="es">Cautiva (T1, E4)</title>
   </programme>
-  <programme channel="HBO.cl" start="20261013110500 -0300" stop="20261013115100 -0300">
-    <title lang="es">Last Week Tonight with John Oliver (T13, E25)</title>
-    <desc lang="es">John Oliver analiza con su característico humor y sarcasmo algunas de las noticias y temas más relevantes de la actualidad. El episodio combina investigación, comentarios y sátira para abordar asuntos políticos, sociales y culturales de Estados Unidos y el mundo.</desc>
+  <programme channel="TNT.cl" start="20261009232700 -0300" stop="20261010013800 -0300">
+    <title lang="es">Dos policías rebeldes</title>
+    <desc lang="es">Dos policías de Miami tienen 72 horas para encontrar 100 millones de dólares en heroína robada del almacén de evidencias de su comisaría, pero, para lograrlo, deben intercambiar sus identidades.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261013115100 -0300" stop="20261013125100 -0300">
-    <title lang="es">War (T1, E1)</title>
-    <desc lang="es">El primer episodio presenta a un grupo de personas cuyas vidas se ven afectadas por el conflicto y las decisiones que deben tomar para sobrevivir. En medio de la tensión y el peligro, comenzarán a enfrentarse a situaciones que pondrán a prueba sus vínculos y convicciones.</desc>
+  <programme channel="TNT.cl" start="20261010013800 -0300" stop="20261010103200 -0300">
+    <title lang="es">Liga de la Justicia</title>
+    <desc lang="es">Los más grandes súper héroes del mundo unidos en La Liga de la Justicia para combatir las amenazas que sobrepasan sus súper poderes individuales.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261013125100 -0300" stop="20261013155600 -0300">
-    <title lang="es">Batman</title>
-    <desc lang="es">Bruce Wayne lleva una doble vida como millonario y como Batman, un vigilante que protege Gotham City de los criminales. Cuando el peligroso Joker comienza a sembrar el caos en la ciudad, Batman deberá enfrentarlo mientras intenta proteger a quienes más le importan.</desc>
+  <programme channel="TNT.cl" start="20261010103200 -0300" stop="20261010130200 -0300">
+    <title lang="es">Shazam!</title>
+    <desc lang="es">Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe gracias a un antiguo mago, ahora necesita dominar rápidamente sus poderes.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261013155600 -0300" stop="20261013174000 -0300">
-    <title lang="es">Vista por última vez</title>
-    <desc lang="es">Un hombre descubre que su esposa ha desaparecido misteriosamente mientras se encontraba en un estacionamiento. Desesperado por encontrarla, inicia una búsqueda contrarreloj que lo llevará a descubrir secretos y pistas cada vez más inquietantes.</desc>
+  <programme channel="TNT.cl" start="20261010130200 -0300" stop="20261010153200 -0300">
+    <title lang="es">El Fugitivo</title>
+    <desc lang="es">La vida del doctor Richard Kimble, un reputado cirujano de Chicago, se desmorona cuando su mujer es brutalmente asesinada por un misterioso hombre y él es acusado del crimen.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261013174000 -0300" stop="20261013184000 -0300">
-    <title lang="es">Linternas (T1, E8)</title>
-    <desc lang="es">En este episodio, los protagonistas continúan enfrentándose a nuevos desafíos mientras intentan comprender los misterios que rodean los acontecimientos recientes. Las pistas comienzan a conectar diferentes sucesos, llevando al grupo hacia una situación cada vez más peligrosa.</desc>
+  <programme channel="TNT.cl" start="20261010153200 -0300" stop="20261010173500 -0300">
+    <title lang="es">El robo del siglo</title>
+    <desc lang="es">Un vendedor de carros y su pandilla de ladrones llegan hasta la bóveda de un banco y descubren mucho más que dinero y joyas.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261013184000 -0300" stop="20261013210000 -0300">
-    <title lang="es">El Justiciero</title>
-    <desc lang="es">Robert McCall, un hombre con un pasado como agente secreto, lleva una vida tranquila hasta que decide ayudar a una joven en peligro. Al enfrentarse a una peligrosa organización criminal, volverá a utilizar sus habilidades para hacer justicia y proteger a los más vulnerables.</desc>
+  <programme channel="TNT.cl" start="20261010173500 -0300" stop="20261010194900 -0300">
+    <title lang="es">Hellboy II: el ejército dorado</title>
+    <desc lang="es">Un malvado elfo rompe un antiguo pacto entre los seres humanos y los mitológicos, y lanza a su ejército dorado, con el fin de acabar con la humanidad. Hellboy y su equipo tratarán de evitarlo.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261013210000 -0300" stop="20261013231000 -0300">
-    <title lang="es">Tornados</title>
-    <desc lang="es">Una científica especializada en tormentas regresa a su ciudad natal para investigar una serie de tornados cada vez más violentos. Junto a un grupo de cazadores de tormentas, deberá enfrentarse a condiciones extremas mientras intenta comprender y detener el fenómeno.</desc>
+  <programme channel="TNT.cl" start="20261010194900 -0300" stop="20261010220000 -0300">
+    <title lang="es">Dos policías rebeldes</title>
+    <desc lang="es">Dos policías de Miami tienen 72 horas para encontrar 100 millones de dólares en heroína robada del almacén de evidencias de su comisaría, pero, para lograrlo, deben intercambiar sus identidades.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261013231000 -0300" stop="20261014010000 -0300">
-    <title lang="es">No te sueltes</title>
-    <desc lang="es">Una madre y sus dos hijos se refugian en una cabaña aislada mientras una presencia misteriosa parece amenazarlos desde el exterior. Cuando las dudas comienzan a surgir, deberán mantenerse unidos y descubrir qué es real antes de que sea demasiado tarde.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013000000 -0300" stop="20261013090000 -0300">
-    <title lang="es">Máquinas Mortales</title>
-    <desc lang="es">En un futuro distante donde la civilización fue destruida por un desastre catastrófico. Gigantes ciudades móviles vagan por la tierra, atacando sin piedad.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013090000 -0300" stop="20261013103000 -0300">
-    <title lang="es">Hasta Que Amanezca</title>
-    <desc lang="es">Un grupo de amigos decide pasar una noche juntos en una casa aislada, pero lo que comienza como una velada tranquila pronto se convierte en una experiencia aterradora. A medida que pasan las horas, deberán descubrir qué está ocurriendo y luchar por sobrevivir hasta el amanecer.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013103000 -0300" stop="20261013123000 -0300">
-    <title lang="es">El cazador y la reina del hielo</title>
-    <desc lang="es">Mucho antes de enfrentarse a Blancanieves, el Cazador se ve atrapado en el conflicto entre dos poderosas reinas que gobiernan con magia y crueldad. Junto a un grupo de guerreros, deberá desafiar sus fuerzas para impedir que un reino entero caiga bajo su dominio.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013123000 -0300" stop="20261013143700 -0300">
-    <title lang="es">Escape bajo fuego</title>
-    <desc lang="es">Un exmilitar se ve atrapado en una peligrosa situación cuando un grupo armado toma el control de un edificio y comienza a poner vidas en riesgo. Para escapar con vida, deberá utilizar sus habilidades y enfrentarse a los atacantes mientras busca una salida.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013143700 -0300" stop="20261013162400 -0300">
-    <title lang="es">Una Película de Minecraft</title>
-    <desc lang="es">Tras ser arrastrados a un cúbico mundo mágico, cuatro inadaptados con la ayuda de un inesperado y experto artesano buscan la manera de regresar a casa.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013162400 -0300" stop="20261013183200 -0300">
-    <title lang="es">Cónclave</title>
-    <desc lang="es">Tras la muerte del Papa, el cardenal Lawrence debe dirigir el cónclave encargado de elegir a su sucesor. Mientras los cardenales se reúnen en secreto, antiguas rivalidades, ambiciones y sorprendentes secretos salen a la luz y amenazan con cambiar el rumbo de la Iglesia.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013183200 -0300" stop="20261013205500 -0300">
-    <title lang="es">Cumbres borrascosas</title>
-    <desc lang="es">Heathcliff y Catherine desarrollan un intenso amor marcado por las diferencias sociales y las decisiones que los separan. Años después, el rencor y la pasión que quedaron atrás regresan con fuerza, afectando a sus familias y a las nuevas generaciones.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013205500 -0300" stop="20261013224200 -0300">
-    <title lang="es">GOAT: La cabra que cambió el juego</title>
-    <desc lang="es">Un joven descubre que una cabra aparentemente común posee habilidades extraordinarias para el deporte y decide convertirla en la estrella de su equipo. Entre entrenamientos, obstáculos y situaciones inesperadas, ambos demostrarán que el talento puede aparecer en los lugares más sorprendentes.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013224200 -0300" stop="20261014003000 -0300">
-    <title lang="es">Una Película de Minecraft</title>
-    <desc lang="es">Tras ser arrastrados a un cúbico mundo mágico, cuatro inadaptados con la ayuda de un inesperado y experto artesano buscan la manera de regresar a casa.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261013013300 -0300" stop="20261013090000 -0300">
-    <title lang="es">El espantatiburones</title>
-    <desc lang="es">Oscar, un pequeño pez con grandes sueños, se encuentra inesperadamente en el centro de una mentira que lo convierte en un héroe. Mientras intenta mantener su nueva fama, deberá enfrentarse a tiburones, problemas y situaciones que podrían revelar la verdad.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261013090000 -0300" stop="20261013103900 -0300">
-    <title lang="es">Megamente</title>
-    <desc lang="es">Megamente es un súper villano que logra deshacerse de su archienemigo &quot;Metro Man&quot; y ahora puede conquistar libremente Metro City.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261013103900 -0300" stop="20261013120500 -0300">
-    <title lang="es">Jovenes Titanes en acción!</title>
-    <desc lang="es">Los Jóvenes Titanes llevan una vida llena de diversión, videojuegos y ocurrencias, pero sueñan con convertirse en verdaderos superhéroes. Cuando una amenaza pone en peligro a la ciudad, deberán dejar de lado sus peleas y demostrar que también pueden trabajar en equipo.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261013120500 -0300" stop="20261013132400 -0300">
-    <title lang="es">Amigos salvajes 2</title>
-    <desc lang="es">Boog, Elliot y sus amigos regresan con una nueva aventura cuando Boog decide disfrutar de unas vacaciones lejos del bosque. Sin embargo, un inesperado encuentro con animales domésticos lo llevará a vivir divertidas situaciones y a descubrir el verdadero valor de la amistad.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261013132400 -0300" stop="20261013145100 -0300">
-    <title lang="es">Open Season: Amigos salvajes</title>
-    <desc lang="es">Boog, un oso domesticado que lleva una vida tranquila, ve su mundo cambiar cuando conoce a Elliot, un ciervo parlanchín que lo lleva de regreso al bosque. Juntos deberán adaptarse a la vida salvaje y escapar de los cazadores durante la temporada de caza.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261013145100 -0300" stop="20261013170400 -0300">
-    <title lang="es">¡Shazam! La furia de los dioses</title>
-    <desc lang="es">Billy Batson y sus hermanos adoptivos siguen disfrutando de sus poderes mientras intentan encontrar su lugar como superhéroes. Pero cuando las Hijas de Atlas llegan para reclamar una antigua magia, Shazam y su familia deberán unirse para proteger el mundo.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261013170400 -0300" stop="20261013184500 -0300">
-    <title lang="es">Los Croods</title>
-    <desc lang="es">La primera familia del mundo se ve forzada a abandonar la cueva que los ha protegido por años para aventurarse a un lugar lleno de paisajes espectaculares.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261013184500 -0300" stop="20261013202200 -0300">
-    <title lang="es">Mi villano favorito</title>
-    <desc lang="es">Gru, un supervillano que planea realizar el mayor robo de la historia, ve sus planes alterados cuando tres pequeñas huérfanas aparecen en su vida. Lo que comienza como parte de su estrategia termina convirtiéndose en una inesperada aventura familiar.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261013202200 -0300" stop="20261013220000 -0300">
-    <title lang="es">Megamente</title>
-    <desc lang="es">Megamente es un súper villano que logra deshacerse de su archienemigo &quot;Metro Man&quot; y ahora puede conquistar libremente Metro City.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261013220000 -0300" stop="20261014001200 -0300">
-    <title lang="es">¡Shazam! La furia de los dioses</title>
-    <desc lang="es">Billy Batson y sus hermanos adoptivos siguen disfrutando de sus poderes mientras intentan encontrar su lugar como superhéroes. Pero cuando las Hijas de Atlas llegan para reclamar una antigua magia, Shazam y su familia deberán unirse para proteger el mundo.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261013000000 -0300" stop="20261013100000 -0300">
-    <title lang="es">Hasta que el Cuerpo Aguante</title>
-    <desc lang="es">Cinco amigas se reúnen después de 10 años en una despedida de soltera alocada en Miami, pero todo cambia cuando accidentalmente matan a un stripper masculino.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261013100000 -0300" stop="20261013120500 -0300">
-    <title lang="es">Cuestión de Tiempo</title>
-    <desc lang="es">A la edad de 21 años, Tim descubre que es capaz de viajar en el tiempo y cambiar lo que ha sucedido en su propia vida.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261013120500 -0300" stop="20261013135000 -0300">
-    <title lang="es">CHiPs: Patrulla motorizada</title>
-    <desc lang="es">Un joven e impulsivo motociclista y un veterano agente federal se unen a la patrulla de carreteras de California. Aunque tienen personalidades muy distintas, deberán trabajar juntos para investigar una serie de robos y descubrir una peligrosa conspiración dentro de la policía.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261013135000 -0300" stop="20261013154000 -0300">
-    <title lang="es">Aves de presa (y la fantabulosa emancipación de una Harley Quinn)</title>
-    <desc lang="es">Tras separarse del Joker, Harley Quinn se une a un grupo de mujeres con habilidades muy distintas para proteger a una joven perseguida por un peligroso criminal. Juntas deberán enfrentarse a las amenazas de Gotham mientras Harley intenta comenzar una nueva vida por su cuenta.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261013154000 -0300" stop="20261013171500 -0300">
-    <title lang="es">Se dice de mí</title>
-    <desc lang="es">Una joven intenta abrirse camino mientras enfrenta los rumores, las expectativas y las dificultades que surgen a su alrededor. En medio de distintas relaciones y situaciones inesperadas, deberá descubrir qué quiere realmente para su vida.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261013171500 -0300" stop="20261013192500 -0300">
-    <title lang="es">Cincuenta Sombras de Grey</title>
-    <desc lang="es">La vida de la estudiante de literatura, Anastasia Steele, cambia para siempre cuando conoce al apuesto y multimillonario Christian Grey.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261013192500 -0300" stop="20261013211000 -0300">
-    <title lang="es">Hasta que el Cuerpo Aguante</title>
-    <desc lang="es">Cinco amigas se reúnen después de 10 años en una despedida de soltera alocada en Miami, pero todo cambia cuando accidentalmente matan a un stripper masculino.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261013211000 -0300" stop="20261013232000 -0300">
-    <title lang="es">Blue Beetle</title>
-    <desc lang="es">Jaime, un joven recién graduado de la universidad, se encuentra inesperadamente en posesión de una antigua reliquia alienígena que le otorga superpoderes.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261013232000 -0300" stop="20261014000000 -0300">
-    <title lang="es">Last Week Tonight with John Oliver</title>
-    <desc lang="es">John Oliver analiza las noticias y acontecimientos más importantes de la actualidad, abordando temas políticos, sociales y culturales con humor y sátira. Cada episodio profundiza en un tema central mientras cuestiona situaciones y problemas de gran relevancia.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261013000000 -0300" stop="20261013093100 -0300">
-    <title lang="es">Jurassic Park III</title>
-    <desc lang="es">El paleontólogo Alan Grant acepta visitar Isla Sorna para realizar un supuesto recorrido aéreo, pero pronto descubre que ha sido llevado allí por otros motivos. Varado en una isla llena de dinosaurios, deberá encontrar la manera de sobrevivir y escapar.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261013093100 -0300" stop="20261013114200 -0300">
-    <title lang="es">Jurassic World: Mundo Jurásico</title>
-    <desc lang="es">Veintidós años después de los acontecimientos de Jurassic Park, Isla Nublar alberga un enorme parque temático con dinosaurios reales. Cuando una nueva criatura genéticamente modificada escapa de su recinto, el parque se convierte en un lugar de peligro y caos.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261013114200 -0300" stop="20261013133900 -0300">
-    <title lang="es">Noche sin paz</title>
-    <desc lang="es">Un grupo de delincuentes irrumpe en una casa durante la celebración de Navidad, esperando encontrar una familia indefensa. Sin embargo, Santa Claus aparece inesperadamente y demuestra que no está dispuesto a dejar que arruinen la noche.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261013133900 -0300" stop="20261013151800 -0300">
-    <title lang="es">Te van a matar</title>
-    <desc lang="es">Una joven recibe una inquietante advertencia que parece anunciar su propia muerte. Mientras intenta descubrir quién está detrás de la amenaza, deberá enfrentarse a una serie de situaciones cada vez más peligrosas que ponen su vida en riesgo.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261013151800 -0300" stop="20261013170200 -0300">
-    <title lang="es">Anaconda</title>
-    <desc lang="es">Un equipo de documentalistas se adentra en la selva amazónica en busca de una legendaria tribu, pero su expedición cambia de rumbo al encontrarse con un cazador obsesionado con capturar una gigantesca anaconda. Pronto deberán luchar por sobrevivir ante el enorme depredador.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261013170200 -0300" stop="20261013183700 -0300">
-    <title lang="es">Jurassic Park III</title>
-    <desc lang="es">El paleontólogo Alan Grant acepta visitar Isla Sorna para realizar un supuesto recorrido aéreo, pero pronto descubre que ha sido llevado allí por otros motivos. Varado en una isla llena de dinosaurios, deberá encontrar la manera de sobrevivir y escapar.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261013183700 -0300" stop="20261013204600 -0300">
-    <title lang="es">Jurassic World: Mundo Jurásico</title>
-    <desc lang="es">Veintidós años después de los acontecimientos de Jurassic Park, Isla Nublar alberga un enorme parque temático con dinosaurios reales. Cuando una nueva criatura genéticamente modificada escapa de su recinto, el parque se convierte en un lugar de peligro y caos.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261013204600 -0300" stop="20261013221700 -0300">
-    <title lang="es">Anaconda</title>
-    <desc lang="es">Un equipo de documentalistas se adentra en la selva amazónica en busca de una legendaria tribu, pero su expedición cambia de rumbo al encontrarse con un cazador obsesionado con capturar una gigantesca anaconda. Pronto deberán luchar por sobrevivir ante el enorme depredador.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261013221700 -0300" stop="20261014000000 -0300">
-    <title lang="es">Anaconda</title>
-    <desc lang="es">Un equipo de documentalistas se adentra en la selva amazónica en busca de una legendaria tribu, pero su expedición cambia de rumbo al encontrarse con un cazador obsesionado con capturar una gigantesca anaconda. Pronto deberán luchar por sobrevivir ante el enorme depredador.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261013000100 -0300" stop="20261013110600 -0300">
-    <title lang="es">Gremlins</title>
-    <desc lang="es">Billy recibe como regalo una extraña criatura llamada Gizmo, junto con unas simples reglas para cuidarla. Cuando estas reglas se rompen, unas pequeñas criaturas traviesas comienzan a sembrar el caos en el pueblo durante la Navidad.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261013110600 -0300" stop="20261013125100 -0300">
-    <title lang="es">Hombre lobo</title>
-    <desc lang="es">Una familia se reúne en una casa aislada cuando una misteriosa criatura comienza a rondar los alrededores. A medida que la noche avanza, deberán descubrir qué está ocurriendo mientras el peligro se acerca cada vez más.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261013125100 -0300" stop="20261013142600 -0300">
-    <title lang="es">Los malditos</title>
-    <desc lang="es">Una familia queda atrapada en una casa aislada después de que una misteriosa presencia comienza a manifestarse. Mientras intentan descubrir el origen de la amenaza, deberán luchar por mantenerse unidos y sobrevivir a una noche aterradora.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261013142600 -0300" stop="20261013163100 -0300">
-    <title lang="es">La cumbre escarlata</title>
-    <desc lang="es">Después de casarse con un misterioso aristócrata, Edith se muda a una antigua mansión en una montaña donde descubre oscuros secretos familiares. Mientras extraños sucesos comienzan a ocurrir, los fantasmas del pasado parecen cobrar vida.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261013163100 -0300" stop="20261013183100 -0300">
-    <title lang="es">El rito</title>
-    <desc lang="es">Un joven seminarista viaja al Vaticano para estudiar exorcismos y comienza a cuestionar sus propias creencias. Bajo la guía de un sacerdote experimentado, se enfrenta a inquietantes casos que pondrán a prueba su fe y lo llevarán a descubrir una amenaza sobrenatural.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261013183100 -0300" stop="20261013201600 -0300">
-    <title lang="es">La monja</title>
-    <desc lang="es">Un sacerdote y una joven novicia son enviados a investigar la misteriosa muerte de una monja en un convento aislado de Rumania. Allí descubren una presencia demoníaca que amenaza con apoderarse de sus vidas y de sus almas.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261013201600 -0300" stop="20261013221000 -0300">
-    <title lang="es">La Monja 2</title>
-    <desc lang="es">En Francia de 1956, tras el asesinato de un sacerdote y un mal que se extiende, la hermana Irene se encuentra una vez más con Valak, la monja demonio.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261013221000 -0300" stop="20261013231100 -0300">
-    <title lang="es">Linternas</title>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261013231100 -0300" stop="20261014010000 -0300">
-    <title lang="es">Hombre lobo</title>
-    <desc lang="es">Un hombre regresa a la propiedad de su familia después de recibir noticias sobre la desaparición de su padre. Allí descubre una aterradora criatura que lo transforma en un hombre lobo y deberá luchar contra la maldición mientras intenta proteger a sus seres queridos.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261013015500 -0300" stop="20261013101000 -0300">
-    <title lang="es">Intercambio de hermanas: Navidad en el pueblo</title>
-    <desc lang="es">Dos hermanas deciden intercambiar sus vidas durante las fiestas navideñas y terminan descubriendo que el cambio es mucho más complicado de lo que imaginaban. Entre nuevos entornos, romances y situaciones inesperadas, ambas encontrarán una nueva perspectiva sobre lo que realmente desean.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261013101000 -0300" stop="20261013121000 -0300">
-    <title lang="es">Querido John</title>
-    <desc lang="es">John, un soldado que está de permiso, conoce a Savannah y ambos viven un intenso romance durante dos semanas. Cuando él debe regresar al servicio, mantienen su relación a través de cartas, enfrentándose a la distancia y a los cambios que trae el paso del tiempo.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261013121000 -0300" stop="20261013140500 -0300">
-    <title lang="es">Cartas a Julieta</title>
-    <desc lang="es">Sophie viaja a Italia junto a su prometido y descubre una antigua carta de amor dirigida a Julieta. Al responderla, se embarca en una búsqueda junto a su autora para encontrar al hombre que amó décadas atrás, mientras descubre nuevos sentimientos en el camino.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261013140500 -0300" stop="20261013161000 -0300">
-    <title lang="es">Yo Antes de Ti</title>
-    <desc lang="es">Una joven consigue un trabajo como cuidadora de un joven banquero que quedo en sillas de ruedas tras un accidente, sin saber que sus vidas cambiarían.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261013161000 -0300" stop="20261013181500 -0300">
-    <title lang="es">Una nueva eternidad</title>
-    <desc lang="es">Una joven que atraviesa un momento difícil conoce a un hombre que parece ofrecerle una nueva oportunidad para ser feliz. Mientras ambos se acercan, deberán enfrentar heridas del pasado y descubrir si su encuentro puede darles un nuevo comienzo.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261013181500 -0300" stop="20261013195500 -0300">
-    <title lang="es">Trolls 2: Gira mundial</title>
-    <desc lang="es">Poppy y Branch descubren que existen diferentes tribus de Trolls, cada una dedicada a un estilo musical distinto. Cuando una amenaza intenta dividirlos, deberán unir sus fuerzas y demostrar que las diferencias pueden convertirse en algo que los haga más fuertes.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261013195500 -0300" stop="20261013220000 -0300">
-    <title lang="es">La brújula dorada</title>
-    <desc lang="es">Lyra, una joven huérfana, vive en un mundo paralelo donde cada persona tiene un animal que representa su alma. Cuando su mejor amigo desaparece, Lyra emprende un viaje hacia el norte y descubre secretos que podrían cambiar el destino de su mundo.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261013220000 -0300" stop="20261014000000 -0300">
-    <title lang="es">El insoportable peso del inmenso talento</title>
-    <desc lang="es">Nicolas Cage interpreta una versión ficticia de sí mismo, un actor en crisis que acepta asistir al cumpleaños de un misterioso millonario. Lo que parece un trabajo sencillo termina involucrándolo en una peligrosa misión de espionaje y crimen.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261013012400 -0300" stop="20261013105000 -0300">
-    <title lang="es">The Goldbergs</title>
-    <desc lang="es">— Temporada 10</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261013105000 -0300" stop="20261013122000 -0300">
-    <title lang="es">Fallen Angels Murder Club: Friends to Die For</title>
-    <desc lang="es">Hollis Morgan, una mujer que acaba de salir de prisión, se une a un club de lectura para exconvictos que termina involucrado en una serie de asesinatos. Mientras la policía investiga, Hollis decide buscar al responsable por su cuenta y descubre que los crímenes están relacionados.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261013122000 -0300" stop="20261013135500 -0300">
-    <title lang="es">Matchmaker Mysteries: A Fatal Romance</title>
-    <desc lang="es">Una casamentera profesional se ve involucrada en una investigación cuando uno de sus clientes aparece muerto poco después de encontrar pareja. Mientras intenta descubrir quién está detrás del crimen, deberá enfrentarse a secretos y relaciones que podrían esconder al verdadero culpable.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261013135500 -0300" stop="20261013153000 -0300">
-    <title lang="es">Lake Placid vs. Anaconda</title>
-    <desc lang="es">Un enorme cocodrilo y una gigantesca anaconda se enfrentan cuando ambas criaturas son llevadas a un mismo lugar. Mientras los monstruosos depredadores desatan el caos, un grupo de personas deberá encontrar la manera de sobrevivir y detenerlos.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261013153000 -0300" stop="20261013170500 -0300">
-    <title lang="es">Cocodrilo: El capítulo final</title>
-    <desc lang="es">Un enorme cocodrilo vuelve a sembrar el terror cuando un grupo de personas queda atrapado en una zona aislada. Mientras buscan escapar de la criatura, deberán luchar por sobrevivir antes de convertirse en sus próximas víctimas.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261013170500 -0300" stop="20261013184000 -0300">
-    <title lang="es">Venom 2: Carnage liberado</title>
-    <desc lang="es">Eddie Brock intenta adaptarse a su vida junto a Venom mientras investiga al peligroso asesino Cletus Kasady. Cuando Kasady se convierte en Carnage, Eddie y Venom deberán enfrentarse a esta nueva amenaza antes de que cause una masacre.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261013184000 -0300" stop="20261013201500 -0300">
-    <title lang="es">Los locos Addams 2</title>
-    <desc lang="es">La familia Addams emprende un viaje por carretera para pasar tiempo juntos, pero su peculiar estilo de vida provoca todo tipo de situaciones disparatadas. Mientras recorren el país, los Addams se enfrentan a nuevos personajes y aventuras que pondrán a prueba su unión familiar.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261013201500 -0300" stop="20261013220000 -0300">
-    <title lang="es">El escape perfecto</title>
-    <desc lang="es">Una pareja llega a una isla paradisíaca para disfrutar de su luna de miel, pero descubre que otros viajeros podrían ser peligrosos asesinos. Lo que parecía un viaje perfecto se convierte en una lucha por sobrevivir mientras intentan descubrir en quién pueden confiar.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261013220000 -0300" stop="20261013234400 -0300">
-    <title lang="es">La cueva</title>
-    <desc lang="es">Un grupo de exploradores se adentra en una cueva desconocida en busca de una antigua reliquia. Lo que comienza como una aventura se transforma en una pesadilla cuando quedan atrapados bajo tierra y descubren que no están solos.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261013234400 -0300" stop="20261014012900 -0300">
-    <title lang="es">La trampa del asesino</title>
-    <desc lang="es">Una joven se convierte en el objetivo de un peligroso asesino que ha preparado una elaborada trampa para atraparla. Mientras intenta escapar y descubrir quién está detrás de la persecución, deberá enfrentarse a una amenaza que parece estar siempre un paso adelante.</desc>
-  </programme>
-  <programme channel="Sony.cl" start="20261013020000 -0300" stop="20261013100000 -0300">
-    <title lang="es">The Good Doctor</title>
-  </programme>
-  <programme channel="Sony.cl" start="20261013100000 -0300" stop="20261013120000 -0300">
-    <title lang="es">Betty&apos;s Call</title>
-  </programme>
-  <programme channel="Sony.cl" start="20261013120000 -0300" stop="20261013133000 -0300">
-    <title lang="es">The Nanny</title>
-  </programme>
-  <programme channel="Sony.cl" start="20261013133000 -0300" stop="20261013150000 -0300">
-    <title lang="es">Vecinos</title>
-  </programme>
-  <programme channel="Sony.cl" start="20261013150000 -0300" stop="20261013163000 -0300">
-    <title lang="es">My wife and kids</title>
-  </programme>
-  <programme channel="Sony.cl" start="20261013163000 -0300" stop="20261013181500 -0300">
-    <title lang="es">Los Locos Addams 2</title>
-    <desc lang="es">La familia Addams emprende un viaje en la carroza embrujada a través de las carreteras de los Estados Unidos para tener unas últimas vacaciones familiares.</desc>
-  </programme>
-  <programme channel="Sony.cl" start="20261013181500 -0300" stop="20261013201500 -0300">
-    <title lang="es">Volver al Futuro II</title>
-    <desc lang="es">Después de visitar el año 2015, Marty McFly debe regresar al año de 1955 para evitar cambios en su presente de 1985, sin interferir en su primer viaje.</desc>
-  </programme>
-  <programme channel="Sony.cl" start="20261013201500 -0300" stop="20261013222000 -0300">
-    <title lang="es">Terremoto: La falla de San Andrés</title>
-    <desc lang="es">La falla de San Andrés finalmente cede y desencadena un devastador terremoto que sacude California. El piloto de rescate Ray Gaines y su exesposa Emma atraviesan el estado para encontrar y salvar a su hija Blake, atrapada en medio de la catástrofe.</desc>
-  </programme>
-  <programme channel="Sony.cl" start="20261013222000 -0300" stop="20261014000000 -0300">
-    <title lang="es">Hansel y Gretel: Cazadores de brujas</title>
-    <desc lang="es">Después de sobrevivir a una experiencia traumática en su infancia, Hansel y Gretel se convierten en cazadores de brujas. Años más tarde, llegan a un pueblo aterrorizado por una poderosa bruja y descubren que enfrentarla será mucho más peligroso de lo que esperaban.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261013013000 -0300" stop="20261013102000 -0300">
-    <title lang="es">Magic Mike XXL</title>
-    <desc lang="es">Tres años después de retirarse del escenario, Mike se reúne con sus antiguos compañeros para emprender un viaje hacia Myrtle Beach. En el camino, el grupo se prepara para una última gran presentación, mientras Mike descubre nuevas razones para volver a hacer lo que mejor sabe.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261013102000 -0300" stop="20261013121500 -0300">
-    <title lang="es">El Hombre de Toronto</title>
-    <desc lang="es">Un caso de confusión de identidad obliga a un hombre a hacer equipo con el asesino conocido como El Hombre de Toronto con la esperanza de seguir con vida.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261013121500 -0300" stop="20261013142500 -0300">
-    <title lang="es">La gran apuesta</title>
-    <desc lang="es">Un grupo de inversores descubre que el mercado inmobiliario estadounidense está a punto de colapsar y decide apostar en contra del sistema financiero, anticipándose a la crisis de 2008.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261013142500 -0300" stop="20261013155500 -0300">
-    <title lang="es">Hotel Transylvania 4: Transformanía</title>
-    <desc lang="es">Un invento fallido transforma a Drácula y a sus amigos en humanos, mientras que su yerno se convierte en monstruo, obligándolos a buscar una cura antes de que sea permanente.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261013155500 -0300" stop="20261013174000 -0300">
-    <title lang="es">Dora y la Ciudad Perdida</title>
-    <desc lang="es">Dora, Diego, Botas y un grupo de amigos se aventuran para salvar a los padres de Dora y resolver el misterio detrás de una ciudad de oro perdida.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261013174000 -0300" stop="20261013200000 -0300">
-    <title lang="es">Jurassic World: Dominio</title>
-    <desc lang="es">Cuatro años después de la destrucción de Isla Nublar, los dinosaurios conviven y cazan junto a los humanos en todo el mundo, obligando a un grupo de expertos a enfrentar una conspiración genética global.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261013200000 -0300" stop="20261013220000 -0300">
-    <title lang="es">Uncharted: Fuera del mapa</title>
-    <desc lang="es">Un joven cazador de tesoros y su astuto mentor se embarcan en una peligrosa búsqueda alrededor del mundo para encontrar una fortuna perdida de hace 500 años y descubrir pistas sobre su hermano desaparecido.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261013220000 -0300" stop="20261013235500 -0300">
-    <title lang="es">Guardianes de la Bahía</title>
-    <desc lang="es">Mitch descubre a unos criminales que amenazan la bahía que juró proteger, ahora él y sus compañeros harán lo imposible para salvar la playa.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261013235500 -0300" stop="20261014014500 -0300">
-    <title lang="es">Mi novio atómico</title>
-    <desc lang="es">Un hombre criado toda su vida en un refugio antibombas de los años 50 sale al mundo exterior por primera vez para conseguir suministros y conoce a una mujer moderna que lo ayuda a adaptarse a la época actual.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261013013300 -0300" stop="20261013110100 -0300">
-    <title lang="es">Instinto predador</title>
-    <desc lang="es">Un grupo de cazadores y guías en una zona remota de la naturaleza salvaje debe enfrentarse a una brutal lucha por la supervivencia cuando un depredador letal y desconocido comienza a acecharlos uno por uno.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261013110100 -0300" stop="20261013130200 -0300">
-    <title lang="es">Spider-Man: Un nuevo universo</title>
-    <desc lang="es">Miles Morales, un adolescente de Brooklyn, transformándose en una de las posibilidades en el universo del hombre araña para ser el superhéroe.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261013130200 -0300" stop="20261013145300 -0300">
-    <title lang="es">Dos inútiles en patrulla</title>
-    <desc lang="es">Para pagar la costosa boda de su hija, un veterano policía de Nueva York y su compañero intentan recuperar una valiosa tarjeta de béisbol robada, enfrentándose sin proponérselo a peligrosos gánsteres.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261013145300 -0300" stop="20261013164700 -0300">
-    <title lang="es">Policías de repuesto</title>
-    <desc lang="es">Dos detectives de oficina en Nueva York, relegados a tareas administrativas, tienen la oportunidad de salir a la calle para demostrar su valía y resolver un caso de delitos financieros que nadie más investiga.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261013164700 -0300" stop="20261013183700 -0300">
-    <title lang="es">Venganza despiadada</title>
-    <desc lang="es">Tras presenciar el asesinato de sus padres en su infancia, una joven crece para convertirse en una implacable asesina profesional, obsesionada con cazar al responsable y cobrar venganza.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261013183700 -0300" stop="20261013201800 -0300">
-    <title lang="es">R.I.P.D.: Policía del más allá</title>
-    <desc lang="es">Dos agentes difuntos, uno veterano y otro recién fallecido del departamento de policía de ultratumba, se unen para rastrear almas errantes que se niegan a pasar pacíficamente al otro mundo.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261013201800 -0300" stop="20261013220000 -0300">
-    <title lang="es">Difícil de matar</title>
-    <desc lang="es">Un detective de policía sobrevive milagrosamente a un atentado en el que asesinan a su esposa y, tras despertar de un coma de siete años, emprende una violenta venganza contra los responsables.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261013220000 -0300" stop="20261013234200 -0300">
-    <title lang="es">Operación peligrosa</title>
-    <desc lang="es">Un agente de la patrulla fronteriza debe enfrentarse a un comando de exmilitares renegados que planea introducir un millonario cargamento de drogas a través de la frontera.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261013234200 -0300" stop="20261014015500 -0300">
-    <title lang="es">Pequeños Secretos</title>
-    <desc lang="es">Un experimentado sheriff de un condado y un detective de homicidios de Los Ángeles unen fuerzas para rastrear a un astuto asesino serial que acecha la ciudad, mientras un oscuro pasado amenaza con salir a la luz.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261013000600 -0300" stop="20261013021600 -0300">
-    <title lang="es">Cincuenta Sombras de Grey</title>
-    <desc lang="es">La vida de la estudiante de literatura, Anastasia Steele, cambia para siempre cuando conoce al apuesto y multimillonario Christian Grey.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261013021600 -0300" stop="20261013112800 -0300">
-    <title lang="es">Mortal Kombat: The Movie</title>
-    <desc lang="es">Un luchador de artes marciales mixtas que desconoce su pasado se une a los mejores campeones de la Tierra para enfrentar a las fuerzas del Outworld en una batalla definitiva por salvar el planeta.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261013112800 -0300" stop="20261013133400 -0300">
-    <title lang="es">El Vengador Del Futuro</title>
-    <desc lang="es">En un futuro distópico donde la Tierra está devastada, un obrero visita una clínica de recuerdos virtuales para experimentar una vida de espía, pero el proceso sale mal y se convierte en el fugitivo más buscado por las autoridades.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261013133400 -0300" stop="20261013153700 -0300">
-    <title lang="es">Megalodón 2: El gran abismo</title>
-    <desc lang="es">Un equipo de investigación emprende una inmersión exploratoria a las profundidades del océano, pero la misión se convierte en una lucha desesperada por la supervivencia al enfrentarse a tiburones prehistóricos gigantes y despiadados mercenarios.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261013153700 -0300" stop="20261013174600 -0300">
-    <title lang="es">El destino de Júpiter</title>
-    <desc lang="es">Una joven limpiadora descubre que posee una firma genética extraordinaria que la convierte en la heredera legítima del destino de la galaxia, por lo que un ex militar genéticamente modificado es enviado a protegerla de fuerzas intergalácticas.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261013174600 -0300" stop="20261013175900 -0300">
-    <title lang="es">TNT Data Sports by Betano</title>
-  </programme>
-  <programme channel="TNT.cl" start="20261013175900 -0300" stop="20261013195600 -0300">
-    <title lang="es">Mamá se fue de viaje</title>
-    <desc lang="es">Un atareado padre que vive enfocado en su trabajo debe hacerse cargo por completo de sus cuatro hijos cuando su esposa decide tomarse unas vacaciones sola por primera vez, desatando un divertido caos doméstico.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261013195600 -0300" stop="20261013220000 -0300">
-    <title lang="es">Terremoto: La falla de San Andrés</title>
-    <desc lang="es">Un piloto de rescate de helicópteros emprende un peligroso viaje desde Los Ángeles hasta San Francisco para rescatar a su hija tras desatarse un devastador terremoto de magnitud sin precedentes en California.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261013220000 -0300" stop="20261013232700 -0300">
-    <title lang="es">Cautiva</title>
-  </programme>
-  <programme channel="TNT.cl" start="20261013232700 -0300" stop="20261014015800 -0300">
-    <title lang="es">El escuadrón suicida</title>
-    <desc lang="es">Un grupo de supervillanos recluidos en una prisión de alta seguridad son enviados por el gobierno a una peligrosa misión en una isla sudamericana para destruir un laboratorio nazi secreto, con la amenaza de detonar explosivos en sus cabezas si intentan escapar.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261013000400 -0300" stop="20261013114300 -0300">
-    <title lang="es">El arte de ser adulto</title>
-    <desc lang="es">Un joven inmaduro y estancado emocionalmente desde la muerte de su padre bombero en su infancia se pasa los días sin rumbo, hasta que su vida se trastoca cuando su madre comienza a salir con otro bombero.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261013114300 -0300" stop="20261013141200 -0300">
-    <title lang="es">El buen patrón</title>
-    <desc lang="es">El carismático dueño de una exitosa empresa familiar manipula sin escrúpulos la vida personal y laboral de sus empleados en un cínico intento por conseguir un codiciado premio local a la excelencia empresarial.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261013141200 -0300" stop="20261013161800 -0300">
-    <title lang="es">Una Intrusa en la Familia</title>
-    <desc lang="es">Un estricto y aburrido abogado divorciado conoce por internet a una mujer que dice ser abogada, pero que resulta ser una astuta convicta prófuga de la justicia que se instala en su vida para obligarlo a demostrar su inocencia.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261013161800 -0300" stop="20261013181400 -0300">
-    <title lang="es">El aguador</title>
-    <desc lang="es">Un tímido y humilde repartidor de agua para un equipo de fútbol americano universitaria descubre que posee una furia desatada y un talento brutal para el tacleo, convirtiéndose en la inesperada estrella salvadora del equipo.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261013181400 -0300" stop="20261013200700 -0300">
-    <title lang="es">Hitman: Agente 47</title>
-    <desc lang="es">Un asesino a sueldo de élite, creado genéticamente para ser una máquina perfecta de matar, une fuerzas con una joven para descubrir los secretos de su misterioso origen y detener a una corporación que busca replicar su programa.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261013200700 -0300" stop="20261013215900 -0300">
-    <title lang="es">Más barato por docena</title>
-    <desc lang="es">Un entrenador de fútbol americano y su esposa intentan equilibrar sus exigentes carreras profesionales mientras crían a sus doce hijos en una caótica y bulliciosa casa familiar.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261013215900 -0300" stop="20261013235700 -0300">
-    <title lang="es">Más barato por docena 2</title>
-    <desc lang="es">Las vacaciones familiares de verano se convierten en una hilarante y caótica competencia campamentera cuando la numerosa familia Baker se cruza en un lago con el clan rival liderado por el hipercompetitivo patriarca de una familia vecina y adinerada.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261013235700 -0300" stop="20261014021700 -0300">
-    <title lang="es">Estado mental</title>
-    <desc lang="es">Un thriller psicológico que explora los límites de la mente y la intriga a través de una compleja trama de misterio y tensión personal.</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261013000600 -0300" stop="20261013102900 -0300">
-    <title lang="es">The Big Bang Theory</title>
-    <desc lang="es">Temporada 11 | Episodio 6</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261013102900 -0300" stop="20261013125600 -0300">
-    <title lang="es">Two and a Half Men</title>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261013125600 -0300" stop="20261013133000 -0300">
-    <title lang="es">Cobra Kai</title>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261013133000 -0300" stop="20261013154500 -0300">
-    <title lang="es">Matrix Revoluciones</title>
-    <desc lang="es">Neo, Trinity y Morfeo lideran la resistencia humana en una desesperada batalla final para defender la última ciudad de Sión contra el implacable ejército de máquinas, mientras Neo busca un enfrentamiento definitivo con el agente Smith.</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261013154500 -0300" stop="20261013173200 -0300">
-    <title lang="es">En el Tornado</title>
-    <desc lang="es">Los habitantes del pueblo de Silverston ven como su ciudad es destrozada por la llegada de unos Tornados devastadores.</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261013173200 -0300" stop="20261013201300 -0300">
-    <title lang="es">El sorprendente hombre araña</title>
-    <desc lang="es">Un adolescente marginado busca desentrañar el misterio de la desaparición de sus padres y termina adquiriendo extraordinarios poderes arácnidos tras ser mordido por una araña genéticamente alterada en las instalaciones de Oscorp, obligándolo a enfrentarse al letal Lagarto.</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261013201300 -0300" stop="20261013220000 -0300">
-    <title lang="es">Todopoderoso 2</title>
-    <desc lang="es">Un ambicioso congresista recién electo ve su vida patas arriba cuando el mismísimo Dios se le aparece para ordenarle que construya un arca gigante ante una inminente inundación mundial.</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261013220000 -0300" stop="20261013235100 -0300">
-    <title lang="es">Buenos Vecinos</title>
-    <desc lang="es">Una pareja con un bebe recién nacido deberán enfrentar la dificultad de vivir junto a una casa de fraternidad de estudiantes.</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261013235100 -0300" stop="20261014013000 -0300">
-    <title lang="es">Gamer</title>
-    <desc lang="es">En un futuro distópico, un brillante y despiadado magnate de la tecnología revolutioniza el entretenimiento al crear un juego de disparos en masa multijugador online donde jugadores reales controlan a convictos condenados a muerte en campos de batalla reales para ganar su libertad.</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261013002600 -0300" stop="20261013133700 -0300">
-    <title lang="es">Castle</title>
-    <desc lang="es">Temporada 8 | Episodio 21</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261013133700 -0300" stop="20261013153800 -0300">
-    <title lang="es">Volcano</title>
-    <desc lang="es">Una violenta y repentina erupción volcánica subterránea desata el caos y ríos de lava ardiente en pleno corazón de Los Ángeles, obligando a los equipos de emergencia liderados por la oficina de gestión de crisis a librar una carrera contrarreloj para salvar la ciudad.</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261013153800 -0300" stop="20261013171700 -0300">
-    <title lang="es">El día llegará</title>
-    <desc lang="es">Un ingenuo y carismático líder religioso de Miami, que sueña con desatar una revolución pacífica para salvar a su familia de la ruina económica, acepta una supuesta financiación sin saber que en realidad se trata de una elaborada y absurda trampa tendida por el FBI para fabricar un falso culpable por terrorismo.</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261013171700 -0300" stop="20261013193900 -0300">
-    <title lang="es">Máxima Velocidad</title>
-    <desc lang="es">Un decidido oficial del equipo de desactivación de explosivos de Los Ángeles debe evitar que una bomba instalada en un autobús urbano estalle, manteniendo la velocidad del vehículo por encima de las cincuenta millas por hora mientras un terrorista extorsiona a la ciudad.</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261013193900 -0300" stop="20261013215400 -0300">
-    <title lang="es">La propuesta</title>
-    <desc lang="es">Una exigente y temida editora de libros canadiense que enfrenta una inminente deportación por problemas con su visa obliga a su joven y sobreexplotado asistente personal a casarse con ella a cambio de un prometido ascenso laboral, desencadenando un viaje familiar a Alaska donde las mentiras empiezan a derrumbarse.</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261013215400 -0300" stop="20261013235500 -0300">
-    <title lang="es">Miss Simpatía</title>
-    <desc lang="es">Una brusca y desaliñada agente del FBI debe infiltrarse de encubierto como concursante en el prestigioso certamen de belleza de Miss Estados Unidos para evitar que un escurridizo terrorista conocido como &quot;El Ciudadano&quot; atente contra el evento.</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261013235500 -0300" stop="20261014002600 -0300">
-    <title lang="es">Los Simpson</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261013130000 -0300" stop="20261013135000 -0300">
-    <title lang="es">La Ley y el Orden</title>
-    <desc lang="es">Derecho de Pernada</desc>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261013135000 -0300" stop="20261013144000 -0300">
-    <title lang="es">La Ley y el Orden</title>
-    <desc lang="es">Merodeador</desc>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261013144000 -0300" stop="20261013153000 -0300">
-    <title lang="es">La Ley y el Orden</title>
-    <desc lang="es">El deber de tener esperanzas</desc>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261013153000 -0300" stop="20261013162000 -0300">
-    <title lang="es">Chicago P.D.</title>
-    <desc lang="es">Líneas</desc>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261013162000 -0300" stop="20261013171000 -0300">
-    <title lang="es">Chicago P.D.</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261013171000 -0300" stop="20261013180000 -0300">
-    <title lang="es">Chicago P.D.</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261013180000 -0300" stop="20261013185000 -0300">
-    <title lang="es">Chicago Fire</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261013185000 -0300" stop="20261013194000 -0300">
-    <title lang="es">Chicago Fire</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261013194000 -0300" stop="20261013203000 -0300">
-    <title lang="es">Chicago Fire</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261013203000 -0300" stop="20261013212000 -0300">
-    <title lang="es">La Ley y el Orden: UVE</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261013212000 -0300" stop="20261013221000 -0300">
-    <title lang="es">La Ley y el Orden: UVE</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261013221000 -0300" stop="20261013230000 -0300">
-    <title lang="es">La Ley y el Orden: UVE</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261013230000 -0300" stop="20261014000000 -0300">
-    <title lang="es">La Ley y el Orden: UVE</title>
+  <programme channel="TNT.cl" start="20261010220000 -0300" stop="20261011001500 -0300">
+    <title lang="es">Bad Boys para siempre</title>
+    <desc lang="es">Los veteranos agentes Mike Lowery y Marcus Burnett vuelven a colaborar para detener a Armando Armas, el violento líder de un cartel de la droga afincado en Miami. En esta ocasión, los apoya el equipo AMMO, un grupo de élite del Departamento de Policía de Miami.</desc>
   </programme>
   <programme channel="AMC.cl" start="20261014014500 -0300" stop="20261014110000 -0300">
     <title lang="es">Planet Action</title>
@@ -2263,6 +1756,46 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
     <title lang="es">Constantine</title>
     <desc lang="es">John Constantine, un detective especializado en fenómenos sobrenaturales, intenta salvar su alma mientras combate fuerzas demoníacas en la Tierra. Cuando una detective lo busca para investigar la misteriosa muerte de su hermana, ambos descubren una conspiración que amenaza con desatar el infierno.</desc>
   </programme>
+  <programme channel="UniversalCinema.cl" start="20261014080500 -0300" stop="20261014095500 -0300">
+    <title lang="es">La Máquina del Recuerdo</title>
+    <desc lang="es">Un detective aficionado roba una máquina capaz de grabar, almacenar y mostrar los recuerdos de otra persona para resolver con ella el enigma de quién asesinó al inventor de este artilugio.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261014095500 -0300" stop="20261014114000 -0300">
+    <title lang="es">Regresión</title>
+    <desc lang="es">El detective Bruce Kenner viaja a Minnesota para investigar el caso de la joven Ángela, que acusa a su padre, John, de haber cometido un crimen inconfesable. John admite la autoría del crimen sin recordar nada de lo sucedido.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261014114000 -0300" stop="20261014133000 -0300">
+    <title lang="es">El Precio del Mañana</title>
+    <desc lang="es">Un hombre es acusado de asesinato y debe encontrar la forma de acabar con un sistema en donde el tiempo es dinero, permitiéndole a los ricos vivir para siempre, mientras los pobres ruegan por cada minuto de vida.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261014133000 -0300" stop="20261014154000 -0300">
+    <title lang="es">John Wick 3: Parabellum</title>
+    <desc lang="es">Tras asesinar a un miembro del misterioso gremio de asesinos John Wick queda excomulgado, ahora es el objetivo de sicarios despiadados de todo el mundo.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261014154000 -0300" stop="20261014174500 -0300">
+    <title lang="es">El tirador</title>
+    <desc lang="es">Un ex-francotirador es obligado a volver al servicio militar y planea vengarse de sus poderosos enemigos después de ser traicionado y herido.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261014174500 -0300" stop="20261014195000 -0300">
+    <title lang="es">Misión imposible 2</title>
+    <desc lang="es">Ethan Hunt y su equipo intentan evitar que un exagente libere un virus mortal genéticamente modificado que, en manos equivocadas, podría causar estragos.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261014195000 -0300" stop="20261014220000 -0300">
+    <title lang="es">Misión imposible: protocolo fantasma</title>
+    <desc lang="es">Cuando un incidente implica a la IMF como terroristas internacionales, Ethan Hunt y su equipo de élite se enfrentan a su misión más difícil y deben operar en la clandestinidad para evitar un complot capaz de desatar una guerra nuclear.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261014220000 -0300" stop="20261015000500 -0300">
+    <title lang="es">Top Gun: Maverick</title>
+    <desc lang="es">Después de más de treinta años de servicio, Pete &quot;Maverick&quot; Mitchell evita ser promovido para seguir volando mientras entrena a un grupo de jóvenes pilotos.</desc>
+  </programme>
+  <programme channel="Space.cl" start="20261014093100 -0300" stop="20261014112200 -0300">
+    <title lang="es">Policías de repuesto</title>
+    <desc lang="es">Los detectives Danson y Highsmith son los grandes héroes del Departamento de Policía de Nueva York y la gente los ama al grado de tatuárselos. En la misma oficina trabajan también Gamble y Hoitz, quienes están a cargo del papeleo y generalmente salen al fondo en las fotografías de los periódicos. Pero gracias a una serie de hechos asombrosos, Gamble y Hoitz tendrán finalmente la posibilidad de demostrar de qué están hechos.</desc>
+  </programme>
+  <programme channel="Space.cl" start="20261014112200 -0300" stop="20261014125800 -0300">
+    <title lang="es">R.I.P.D.: policía del más allá</title>
+    <desc lang="es">El veterano Roy Pulsifer lleva toda su vida en el Departamento de Policía Mortal del Más Allá, siguiendo la pista de unos delincuentes muy especiales que intentan escaparse del Juicio Final escondiéndose entre los habitantes de la Tierra.</desc>
+  </programme>
   <programme channel="ENTChannel.cl" start="20261014000000 -0300" stop="20261014075200 -0300">
     <title lang="es">Programación de trasnoche</title>
   </programme>
@@ -2300,6 +1833,62 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   </programme>
   <programme channel="ENTChannel.cl" start="20261014232900 -0300" stop="20261015000000 -0300">
     <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="TNT.cl" start="20261014084300 -0300" stop="20261014102600 -0300">
+    <title lang="es">Ganar o morir</title>
+    <desc lang="es">Un reo experto en artes marciales que escapa de una prisión, protege a una viuda y a sus hijos de un terrible acoso de una poderosa organización que busca adueñarse de sus tierras.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261014102600 -0300" stop="20261014124100 -0300">
+    <title lang="es">Oblivion: El Tiempo del Olvido</title>
+    <desc lang="es">Un reparador de drones del planeta tierra desvastado luego de décadas de guerras con los extraterrestres descubre los restos de una nave espacial.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261014124100 -0300" stop="20261014144900 -0300">
+    <title lang="es">Romeo Debe Morir</title>
+    <desc lang="es">Han quiere vengar la muerte de su hermano, miembro de una pandilla asiática que le disputaba el control del puerto de Oakland a los gánsteres afroamericanos. Pero todo se complica cuando conoce a Trish, dado que ambos pertenecen a bandos opuestos.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261014144900 -0300" stop="20261014165900 -0300">
+    <title lang="es">El protector</title>
+    <desc lang="es">Un agente de protección de testigos descubre que hay corrupción en el departamento y que debe proteger a una joven.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261014165900 -0300" stop="20261014192200 -0300">
+    <title lang="es">El rey Arturo: la leyenda de la espada</title>
+    <desc lang="es">Arturo fue robado al nacer y tuvo una educación espartana en una zona conflictiva de la ciudad, pero cuando extrae la espada Excalibur de la piedra en la que estaba clavada, la profecía se cumple y acepta el destino de liderar a su pueblo.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261014192200 -0300" stop="20261014220000 -0300">
+    <title lang="es">Aquaman</title>
+    <desc lang="es">Un mitad humano y mitad atlanticense es llevado al viaje de su vida donde se verá forzado a enfrentar quien es en verdad y descubrir si es digno de ser un rey.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261014220000 -0300" stop="20261015001100 -0300">
+    <title lang="es">Aquaman y el Reino Perdido</title>
+    <desc lang="es">Para proteger a su familia y su reino de Black Manta que es más fuerte que nunca, Aquaman forma una alianza improbable con su hermano Orm para detenerlo.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261014090600 -0300" stop="20261014105000 -0300">
+    <title lang="es">Poder sin límites</title>
+    <desc lang="es">Andrew es un adolescente introvertido cuya principal forma de escape y expresión es una cámara de video. Pero las cosas empiezan a cambiar cuando Andrew, su primo Matt y el popular compañero Steve descubren una misteriosa sustancia que les da unos poderes increíbles. Sus habilidades se hacen más poderosas y sus vidas se salen de control cuando emergen sus lados más oscuros. Andrew captura los eventos con su cámara.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261014105000 -0300" stop="20261014130200 -0300">
+    <title lang="es">Espiando a los vecinos</title>
+    <desc lang="es">Una pareja convencional de un barrio acomodado se entromete en una trama de espionaje cuando descubren que sus nuevos vecinos, una pareja elegante y sofisticada, son en realidad agentes secretos al servicio del gobierno.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261014130200 -0300" stop="20261014145600 -0300">
+    <title lang="es">Hitman: Agente 47</title>
+    <desc lang="es">Una recreación del popular juego de video de Square Enix de la serie Hitman acerca de un asesino calvo llamado 47.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261014145600 -0300" stop="20261014170200 -0300">
+    <title lang="es">Los expedientes secretos X: quiero creer</title>
+    <desc lang="es">Los agentes del FBI Mulder y Scully investigan la desaparición de varias mujeres en una población rural de Virginia. Siguiendo algunas pistas, descubren un experimento secreto que puede guardar relación con las desapariciones.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261014170200 -0300" stop="20261014194300 -0300">
+    <title lang="es">El Planeta de los Simios: La Guerra</title>
+    <desc lang="es">Cesar y sus simios se ven obligados a una batalla contra los humanos, el destino de esta determinará el destino de sus especies y el futuro del planeta.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261014194300 -0300" stop="20261014215900 -0300">
+    <title lang="es">Horas contadas</title>
+    <desc lang="es">En febrero de 1952, en mitad de una tormenta monstruosa que se cierne sobre Nueva Inglaterra, los miembros de la Guardia Costera arriesgan sus vidas para rescatar a los trabajadores de dos petroleros que la tempestad ha destrozado.</desc>
+  </programme>
+  <programme channel="FX.cl" start="20261014215900 -0300" stop="20261015000400 -0300">
+    <title lang="es">Max Payne</title>
+    <desc lang="es">Un policía inconforme enfrenta una batalla sobrenatural cuando visita el bajo mundo en busca de los asesinos de su familia y de su compañero</desc>
   </programme>
   <programme channel="WarnerChannel.cl" start="20261014013000 -0300" stop="20261014111300 -0300">
     <title lang="es">The Big Bang Theory</title>
@@ -2706,6 +2295,42 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
     <title lang="es">Un lugar en silencio: Parte II</title>
     <desc lang="es">Tras los acontecimientos de la primera película, la familia Abbott debe abandonar su hogar y enfrentarse a un mundo devastado por criaturas que cazan guiándose por el sonido. En su búsqueda de otros sobrevivientes, descubren que los peligros que los esperan van mucho más allá de las criaturas.</desc>
   </programme>
+  <programme channel="UniversalCinema.cl" start="20261015000500 -0300" stop="20261015090500 -0300">
+    <title lang="es">Oscura Verdad</title>
+    <desc lang="es">Lucy y Adrián acuden al doctor Hindle para lograr tener un bebé con inseminación artificial. Lucy se queda embarazada de trillizos y, a medida que avanza su embarazo, su mundo se va transformando en una terrorífica pesadilla.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261015090500 -0300" stop="20261015104000 -0300">
+    <title lang="es">Marea baja</title>
+    <desc lang="es">Alan, un adolescente, y su hermano pequeño encuentran una bolsa llena de monedas de oro en la vivienda de un hombre muerto. Aunque intentan ocultárselo a sus amigos, uno de ellos, violento e impredecible, sospecha de los hermanos y está dispuesto a todo con tal de descubrir su secreto.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261015104000 -0300" stop="20261015121500 -0300">
+    <title lang="es">Despidiendo a Yang</title>
+    <desc lang="es">Cuando el compañero de su hija, un androide llamado Yang, se descompone, Jake busca una manera de repararlo. En el proceso, Jake descubre que la vida ha estado pasando frente a sus narices.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261015121500 -0300" stop="20261015140500 -0300">
+    <title lang="es">El Precio del Mañana</title>
+    <desc lang="es">En un futuro donde la vejez se detiene a los 25 años y se muere un año más tarde, un joven deberá encontrar la manera de acabar con un sistema corrupto.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261015140500 -0300" stop="20261015160000 -0300">
+    <title lang="es">Los caballeros</title>
+    <desc lang="es">Mickey Pearson, un estadounidense expatriado en Londres, se ha hecho rico con el negocio de la marihuana. Sin embargo, cuando se difunde el rumor de que va a vender su imperio, varios criminales se disputan la oportunidad que se les presenta.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261015160000 -0300" stop="20261015181000 -0300">
+    <title lang="es">Inframundo</title>
+    <desc lang="es">Una mujer vampiro trata de proteger a un estudiante de unos hombres lobo que intentan crear una especie híbrida.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261015181000 -0300" stop="20261015194500 -0300">
+    <title lang="es">La Hija Eterna</title>
+    <desc lang="es">Una artista y su anciana madre regresan a la que fue su casa familiar, convertida ahora en un hotel remoto. A medida que afloran los recuerdos, surgen secretos ocultos en esta inquietante exploración de la familia y la pérdida.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261015194500 -0300" stop="20261015220000 -0300">
+    <title lang="es">It</title>
+    <desc lang="es">Un grupo de siete niños marginados en el pueblo de Derry, Maine, se une para enfrentar a una entidad malévola cambiaformas (que suele aparecer como el payaso Pennywise) que despierta cada 27 años para alimentarse del terror de los niños.</desc>
+  </programme>
+  <programme channel="UniversalCinema.cl" start="20261015220000 -0300" stop="20261016005000 -0300">
+    <title lang="es">It: Capítulo 2</title>
+    <desc lang="es">Varios niños de una pequeña ciudad del estado de Maine se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil.</desc>
+  </programme>
   <programme channel="ENTChannel.cl" start="20261015000000 -0300" stop="20261015074600 -0300">
     <title lang="es">Programación de trasnoche</title>
   </programme>
@@ -2748,6 +2373,38 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   <programme channel="ENTChannel.cl" start="20261015232900 -0300" stop="20261016000000 -0300">
     <title lang="es">Los Simpson</title>
   </programme>
+  <programme channel="TNT.cl" start="20261015001100 -0300" stop="20261015092000 -0300">
+    <title lang="es">Derecho de familia</title>
+    <desc lang="es">Un abogado argentino cree que es muy difícil comunicarse con su padre, un respetado abogado que se convierte en un modelo muy difícil a seguir por su hijo.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261015092000 -0300" stop="20261015110100 -0300">
+    <title lang="es">Sin hijos</title>
+    <desc lang="es">Desde que Gabriel se separó, Sofía, su hija, es el centro de su vida, y se niega a comenzar una nueva relación sentimental. Todo cambia cuando aparece Vicky, su amor platónico de la adolescencia, transformada ahora en una mujer hermosa, independiente y desenfadada a la que no le gustan los niños.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261015110100 -0300" stop="20261015132000 -0300">
+    <title lang="es">El rey Arturo: la leyenda de la espada</title>
+    <desc lang="es">Arturo fue robado al nacer y tuvo una educación espartana en una zona conflictiva de la ciudad, pero cuando extrae la espada Excalibur de la piedra en la que estaba clavada, la profecía se cumple y acepta el destino de liderar a su pueblo.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261015132000 -0300" stop="20261015150100 -0300">
+    <title lang="es">Furia de Titanes 2</title>
+    <desc lang="es">Con la ayuda de la reina Andrómeda, Hefesto y el hijo de Poseidón, Perseo emprende la misión de rescatar a Zeus del inframundo, derrotar a los Titanes y salvar a la humanidad.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261015150100 -0300" stop="20261015171300 -0300">
+    <title lang="es">John Q: Situación extrema</title>
+    <desc lang="es">Un padre recurre a medidas desesperadas en pos de obtener un corazón para su hijo después de que el seguro médico se lo niegue.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261015171300 -0300" stop="20261015192600 -0300">
+    <title lang="es">El Coleccionista De Huesos</title>
+    <desc lang="es">Un psicópata va dejando pistas de sus crímenes, pero solo Lincoln Rhyme, un agente de homicidios tetrapléjico, puede descifrarlas. La novata policía Amelia Donaghy es la encargada de inspeccionar los escenarios del crimen.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261015192600 -0300" stop="20261015220000 -0300">
+    <title lang="es">Shazam!</title>
+    <desc lang="es">Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe gracias a un antiguo mago, ahora necesita dominar rápidamente sus poderes.</desc>
+  </programme>
+  <programme channel="TNT.cl" start="20261015220000 -0300" stop="20261016000700 -0300">
+    <title lang="es">Liga de la justicia</title>
+    <desc lang="es">Gracias a su renovada fe en la humanidad e inspirado por el acto de altruísmo de Superman, Bruce Wayne pide ayuda a su nueva aliada, Diana Prince, para enfrentar a un enemigo aún más peligroso.</desc>
+  </programme>
   <programme channel="ENTChannel.cl" start="20261016000000 -0300" stop="20261016074900 -0300">
     <title lang="es">Programación de trasnoche</title>
   </programme>
@@ -2786,734 +2443,63 @@ Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe
   <programme channel="ENTChannel.cl" start="20261016232900 -0300" stop="20261017000000 -0300">
     <title lang="es">Los Simpson</title>
   </programme>
-  <programme channel="AMC.cl" start="20261020014000 -0300" stop="20261020110000 -0300">
-    <title lang="es">Planet Action</title>
-  </programme>
-  <programme channel="AMC.cl" start="20261020110000 -0300" stop="20261020113000 -0300">
-    <title lang="es">Planet Action</title>
-  </programme>
-  <programme channel="AMC.cl" start="20261020113000 -0300" stop="20261020133500 -0300">
-    <title lang="es">Los tres mosqueteros: Milady</title>
-    <desc lang="es">Milady de Winter busca vengarse de quienes la traicionaron mientras Francia se ve envuelta en conspiraciones y conflictos políticos. En su camino, deberá enfrentarse a los mosqueteros y a poderosos enemigos para conseguir lo que desea.</desc>
-  </programme>
-  <programme channel="AMC.cl" start="20261020133500 -0300" stop="20261020155000 -0300">
-    <title lang="es">Ben-Hur</title>
-    <desc lang="es">Tras ser traicionado y condenado injustamente, Judah Ben-Hur es separado de su familia y convertido en esclavo. Años después, regresa decidido a recuperar su libertad y enfrentarse a quien destruyó su vida, mientras su camino se cruza con el de Jesús.</desc>
-  </programme>
-  <programme channel="AMC.cl" start="20261020155000 -0300" stop="20261020174500 -0300">
-    <title lang="es">La novia de mis sueños</title>
-    <desc lang="es">Un hombre conoce a una mujer que parece ser la pareja perfecta y rápidamente comienza a imaginar una vida junto a ella. Sin embargo, cuando la realidad empieza a alejarse de sus expectativas, deberá descubrir qué es lo que realmente busca en el amor.</desc>
-  </programme>
-  <programme channel="AMC.cl" start="20261020174500 -0300" stop="20261020201500 -0300">
-    <title lang="es">Noé</title>
-    <desc lang="es">Noé recibe una misión divina para construir un enorme arca antes de que un devastador diluvio cubra la Tierra. Mientras se prepara para salvar a su familia y a distintas especies animales, deberá enfrentar conflictos que pondrán a prueba su fe y determinación.</desc>
-  </programme>
-  <programme channel="AMC.cl" start="20261020201500 -0300" stop="20261020220000 -0300">
-    <title lang="es">Negocios fuera de control</title>
-    <desc lang="es">Un empresario que intenta cerrar un importante acuerdo lleva a sus empleados a un viaje de negocios que rápidamente se sale de control. Lo que debía ser una reunión rutinaria termina convirtiéndose en una serie de situaciones absurdas y caóticas.</desc>
-  </programme>
-  <programme channel="AMC.cl" start="20261020220000 -0300" stop="20261020235000 -0300">
-    <title lang="es">El precio del mañana</title>
-    <desc lang="es">En un futuro donde el tiempo se ha convertido en la moneda de cambio, las personas dejan de envejecer a los 25 años y deben trabajar para mantenerse con vida. Un joven recibe inesperadamente una enorme cantidad de tiempo y se ve envuelto en una lucha contra un sistema dominado por los más ricos.</desc>
-  </programme>
-  <programme channel="AMC.cl" start="20261020235000 -0300" stop="20261021014500 -0300">
-    <title lang="es">John Wick: Sin control</title>
-    <desc lang="es">John Wick, un legendario asesino retirado, se ve obligado a volver al mundo criminal después de que un antiguo enemigo pone en peligro su vida. Perseguido por peligrosos asesinos, deberá luchar contra todos los que se crucen en su camino para sobrevivir.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261020015700 -0300" stop="20261020090000 -0300">
-    <title lang="es">Algo azul</title>
-    <desc lang="es">Una mujer que trabaja como organizadora de bodas comienza a cuestionar su propia vida amorosa cuando se enamora inesperadamente de un hombre que está a punto de casarse. Entre preparativos, secretos y sentimientos inesperados, deberá decidir qué quiere realmente para su futuro.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261020090000 -0300" stop="20261020112500 -0300">
-    <title lang="es">Yo, traidor</title>
-    <desc lang="es">Un hombre aparentemente común se ve envuelto en una peligrosa conspiración cuando acepta colaborar con un poderoso grupo criminal. Mientras intenta protegerse y descubrir en quién puede confiar, deberá enfrentarse a las consecuencias de sus propias decisiones.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261020112500 -0300" stop="20261020135300 -0300">
-    <title lang="es">Me enamoré de una sirena</title>
-    <desc lang="es">Un joven conoce a una misteriosa mujer que resulta ser una sirena y queda completamente enamorado de ella. Mientras intenta mantener su relación en secreto, deberá enfrentarse a las diferencias entre su mundo y el de ella.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261020135300 -0300" stop="20261020164300 -0300">
-    <title lang="es">Violación de domicilio</title>
-    <desc lang="es">Una familia se muda a una nueva casa buscando comenzar una vida tranquila, pero pronto descubre que alguien ha estado entrando en su hogar sin dejar rastro. La situación se vuelve cada vez más peligrosa cuando intentan descubrir quién está detrás de estas inquietantes intrusiones.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261020164300 -0300" stop="20261020191900 -0300">
-    <title lang="es">Toys</title>
-    <desc lang="es">Un fabricante de juguetes debe enfrentarse a su estricto y autoritario tío, quien planea transformar la empresa familiar en una fábrica de productos militares. Para proteger el legado de su padre, tendrá que luchar por mantener vivo el espíritu creativo y divertido de la compañía.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261020191900 -0300" stop="20261020211600 -0300">
-    <title lang="es">500 días con ella</title>
-    <desc lang="es">Tom se enamora de Summer, una joven que no cree en el amor ni en las relaciones duraderas. Mientras recuerda los momentos que compartieron, intentará comprender qué salió mal y por qué una historia que parecía perfecta terminó de una manera inesperada.</desc>
-  </programme>
-  <programme channel="Cinecanal.cl" start="20261020211600 -0300" stop="20261021000000 -0300">
-    <title lang="es">El exótico Hotel Marigold</title>
-    <desc lang="es">Un grupo de jubilados británicos viaja a la India para comenzar una nueva etapa en un antiguo y peculiar hotel. Aunque el lugar no es lo que esperaban, sus nuevas experiencias, amistades y desafíos cambiarán la forma en que ven sus propias vidas.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261020131100 -0300" stop="20261020145300 -0300">
-    <title lang="es">Shrek para siempre</title>
-    <desc lang="es">Cansado de la rutina, Shrek hace un trato con el astuto Rumpelstiltskin que cambia por completo su vida y el reino de Muy Muy Lejano. Ahora deberá encontrar la manera de recuperar a Fiona, a sus amigos y el mundo que conocía antes de que sea demasiado tarde.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261020145300 -0300" stop="20261020175500 -0300">
-    <title lang="es">Matrix: Resurrecciones</title>
-    <desc lang="es">Thomas Anderson lleva una vida aparentemente normal, pero comienza a experimentar extraños recuerdos y visiones que lo hacen cuestionar su realidad. Cuando vuelve a encontrarse con Trinity, deberá descubrir la verdad y enfrentarse nuevamente a la Matrix.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261020175500 -0300" stop="20261020200700 -0300">
-    <title lang="es">Mountainhead</title>
-    <desc lang="es">Cuatro amigos multimillonarios se reúnen en una lujosa mansión de montaña mientras una grave crisis internacional sacude al mundo. Entre ambiciones, egos y conflictos personales, el encuentro se convierte en un peligroso juego de poder impulsado por la tecnología y la inteligencia artificial.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261020200700 -0300" stop="20261020221400 -0300">
-    <title lang="es">Ip Man 4: El Final</title>
-    <desc lang="es">Ip Man viaja a Estados Unidos para ayudar a su hijo y descubre que la comunidad china enfrenta conflictos y discriminación. Mientras busca un futuro para su familia, deberá demostrar una vez más el poder y la dignidad del kung fu.</desc>
-  </programme>
-  <programme channel="Cinemax.cl" start="20261020221400 -0300" stop="20261021000000 -0300">
-    <title lang="es">Shrek para siempre</title>
-    <desc lang="es">Cansado de la rutina, Shrek hace un trato con el astuto Rumpelstiltskin que cambia por completo su vida y el reino de Muy Muy Lejano. Ahora deberá encontrar la manera de recuperar a Fiona, a sus amigos y el mundo que conocía antes de que sea demasiado tarde.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261020003700 -0300" stop="20261020090900 -0300">
-    <title lang="es">El cielo en tu mirada</title>
-    <desc lang="es">Un joven que sueña con convertirse en cantante se enamora de una chica que comparte su pasión por la música. Juntos deberán enfrentar obstáculos y decisiones que pondrán a prueba sus sueños, su amistad y el amor que comienza a surgir entre ellos.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261020090900 -0300" stop="20261020104500 -0300">
-    <title lang="es">Compartiendo la Navidad</title>
-    <desc lang="es">Una joven se muda a una nueva casa justo antes de Navidad y descubre que tendrá que compartirla con un hombre completamente desconocido. Mientras ambos intentan adaptarse a la inesperada situación, la convivencia comienza a despertar sentimientos que ninguno esperaba.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261020104500 -0300" stop="20261020122900 -0300">
-    <title lang="es">Por mis bigotes</title>
-    <desc lang="es">Un niño de nueve años descubre que está comenzando a desarrollar bigote, justo cuando atraviesa una etapa llena de cambios y desafíos. Con la ayuda de su familia y sus amigos, aprenderá a enfrentar sus inseguridades y descubrirá que crecer también significa aceptarse tal como es.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261020122900 -0300" stop="20261020140800 -0300">
-    <title lang="es">Chicos Buenos</title>
-    <desc lang="es">Tres amigos de sexto grado se meten en problemas cuando intentan asistir a una fiesta sin saber realmente cómo comportarse. En su aventura por llegar a casa a tiempo, vivirán una serie de situaciones disparatadas que pondrán a prueba su amistad.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261020140800 -0300" stop="20261020161500 -0300">
-    <title lang="es">Los Fockers: La familia de mi esposo</title>
-    <desc lang="es">Greg y Pam están a punto de casarse, pero antes deberán reunir a sus familias, cuyos padres tienen personalidades completamente opuestas. El encuentro entre los estrictos Byrnes y los excéntricos Focker desata una serie de situaciones incómodas y divertidas.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261020161500 -0300" stop="20261020175000 -0300">
-    <title lang="es">Mentiroso, mentiroso</title>
-    <desc lang="es">Un abogado acostumbrado a mentir constantemente ve su vida cambiar cuando su hijo pide un deseo que le impide decir cualquier mentira durante un día. Obligado a ser completamente sincero, deberá enfrentar las consecuencias de sus palabras mientras intenta recuperar la confianza de su familia.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261020175000 -0300" stop="20261020192500 -0300">
-    <title lang="es">Borrón y vida nueva</title>
-    <desc lang="es">Una mujer que intenta dejar atrás su pasado tiene la oportunidad de comenzar una nueva vida lejos de todo lo que conoce. Sin embargo, cuando viejos recuerdos y situaciones inesperadas vuelven a aparecer, deberá decidir si realmente está lista para empezar de nuevo.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261020192500 -0300" stop="20261020211200 -0300">
-    <title lang="es">Mamá Reinventada</title>
-    <desc lang="es">Una madre dedicada a su familia decide que es momento de recuperar sus sueños y descubrir quién es más allá de su papel como mamá. Mientras intenta reinventarse y encontrar un nuevo rumbo, deberá aprender a equilibrar sus propias necesidades con las de su familia.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261020211200 -0300" stop="20261020230000 -0300">
-    <title lang="es">Matando cabos</title>
-    <desc lang="es">Un hombre descubre que su jefe ha sido secuestrado y, junto a un compañero, se ve envuelto en una peligrosa y caótica cadena de acontecimientos. Entre secuestradores, criminales y malentendidos, deberán encontrar la manera de salir con vida de una situación que se complica cada vez más.</desc>
-  </programme>
-  <programme channel="Golden.cl" start="20261020230000 -0300" stop="20261021003900 -0300">
-    <title lang="es">La vida inmoral de la pareja ideal</title>
-    <desc lang="es">Un hombre y una mujer que fueron pareja durante su juventud se reencuentran muchos años después, cuando sus vidas han tomado caminos completamente distintos. El encuentro los lleva a recordar su pasado, los errores que cometieron y los sentimientos que quizá nunca desaparecieron.</desc>
-  </programme>
-  <programme channel="GoldenEdge.cl" start="20261020004900 -0300" stop="20261020104900 -0300">
-    <title lang="es">Contrato mortal</title>
-    <desc lang="es">Dos empresas compiten entre sí por controlar las comunicaciones entre el norte y el sur de África. Esto abre la puerta a un juego de intereses comerciales en los que todo valdrá para hacerse con el control de la banda ancha.</desc>
-  </programme>
-  <programme channel="GoldenEdge.cl" start="20261020104900 -0300" stop="20261020122700 -0300">
-    <title lang="es">Los renegados</title>
-    <desc lang="es">Después de ser reclutado por un grupo peculiar de ladrones, el conocido criminal, Richard Pace, se ve envuelto en un complicado robo de oro que puede cambiarle la vida.</desc>
-  </programme>
-  <programme channel="GoldenEdge.cl" start="20261020122700 -0300" stop="20261020135200 -0300">
-    <title lang="es">El ascensor del Diablo</title>
-    <desc lang="es">Después de que su mejor amiga desaparece, una joven universitaria claustrofóbica investiga el misterioso ascensor donde su amiga fue vista por última vez y que puede ser la puerta a un mundo oscuro y aterrador.</desc>
-  </programme>
-  <programme channel="GoldenEdge.cl" start="20261020135200 -0300" stop="20261020154300 -0300">
-    <title lang="es">Non-Stop: sin escalas</title>
-    <desc lang="es">Bill Marks es un veterano agente del servicio aéreo de los Air Marshalls que pasa por una mala etapa: tiene problemas con la bebida, y últimamente se toma su trabajo como una rutinaria tarea de vigilante a bordo de un avión. Sin embargo, en un viaje de Nueva York a Londres, recibe una serie de misteriosos mensajes de texto, en los que se le pide que inste al gobierno a hacer una transferencia de 150 millones de dólares a una cuenta secreta. En caso contrario, un pasajero morirá cada 20 minutos. El juego del gato y el ratón se desarrolla a 40.000 pies de altura y con la vida de 200 pasajeros pendiendo de un hilo.</desc>
-  </programme>
-  <programme channel="GoldenEdge.cl" start="20261020154300 -0300" stop="20261020173500 -0300">
+  <programme channel="TNT.cl" start="20261016000700 -0300" stop="20261016100800 -0300">
     <title lang="es">El protector</title>
-    <desc lang="es">Jim Hanson, un veterano de guerra, está pasando por un momento difícil. Su amada esposa acaba de fallecer y el banco está a punto de quitarle su casa. Su vida tranquila se ve repentinamente perturbada por la llegada inesperada de dos inmigrantes ilegales que cruzan la frontera hacia su tierra: una madre y su hijo pequeño, que huyen desesperadamente de un brutal cartel mexicano. Después de que un tiroteo ardiente deja a la madre muerta, Jim se convierte en el defensor del niño, Miguel.</desc>
+    <desc lang="es">Jim, un antiguo marine reconvertido en ranchero en la frontera de Arizona, trata de proteger a un niño al que persiguen los violentos integrantes de un cartel de narcotraficantes mexicanos.</desc>
   </programme>
-  <programme channel="GoldenEdge.cl" start="20261020173500 -0300" stop="20261020191400 -0300">
-    <title lang="es">Peligro en la montaña</title>
-    <desc lang="es">Un leñador debe defender a su familia de un peligroso grupo de traficantes de droga.</desc>
+  <programme channel="TNT.cl" start="20261016100800 -0300" stop="20261016121900 -0300">
+    <title lang="es">El coleccionista de huesos</title>
+    <desc lang="es">Un psicópata va dejando pistas de sus crímenes, pero solo Lincoln Rhyme, un agente de homicidios tetrapléjico, puede descifrarlas. La novata policía Amelia Donaghy es la encargada de inspeccionar los escenarios del crimen.</desc>
   </programme>
-  <programme channel="GoldenEdge.cl" start="20261020191400 -0300" stop="20261020210200 -0300">
-    <title lang="es">Alerta máxima 2</title>
-    <desc lang="es">Un experto en alta tecnología brillante y maniaco ha secuestrado el tren de pasajeros más elegante de Norteamérica, trasformando uno de los vagones en un centro de mandos informatizado, con un despliegue de tecnología ultramoderna capaz de controlar un imponente satélite mortal. Desde allí pretende destruir la ciudad de Washington. Pero el único pasajero que no ha sido capturado por los terroristas es Ryback.</desc>
+  <programme channel="TNT.cl" start="20261016121900 -0300" stop="20261016145400 -0300">
+    <title lang="es">Aquaman</title>
+    <desc lang="es">Un mitad humano y mitad atlanticense es llevado al viaje de su vida donde se verá forzado a enfrentar quien es en verdad y descubrir si es digno a ser un rey.</desc>
   </programme>
-  <programme channel="GoldenEdge.cl" start="20261020210200 -0300" stop="20261020230000 -0300">
-    <title lang="es">Reyes de la calle</title>
-    <desc lang="es">Cuando las pruebas señalan a un veterano policía como culpable de la muerte de otro policía, éste deberá enfrentarse a la cultura policial que siempre conoció. También deberá cuestionar las lealtades de quienes lo rodean.</desc>
+  <programme channel="TNT.cl" start="20261016145400 -0300" stop="20261016170600 -0300">
+    <title lang="es">Aquaman y el Reino Perdido</title>
+    <desc lang="es">Para proteger a su familia y su reino de Black Manta que es más fuerte que nunca, Aquaman forma una alianza improbable con su hermano Orm para detenerlo.</desc>
   </programme>
-  <programme channel="GoldenEdge.cl" start="20261020230000 -0300" stop="20261021010500 -0300">
-    <title lang="es">El libro de los secretos</title>
-    <desc lang="es">En un futuro apocalíptico, 30 años después del &quot;resplandor&quot; que aniquiló la casi totalidad de la sociedad civilizada, unos pocos humanos sobreviven en un ambiente increíblemente hostil y árido. Violaciones, canibalismo y salvajismo imperan en unas derruidas ciudades donde el más fuerte y el que posee el agua impone su ley. Vagando por la carretera, un guerrero solitario se dirige al oeste con una sola misión: proteger un misterioso libro que lleva en su mochila.</desc>
+  <programme channel="TNT.cl" start="20261016170600 -0300" stop="20261016192700 -0300">
+    <title lang="es">Black Adam</title>
+    <desc lang="es">Tras ser liberado de su encierro de casi 5000 años, un hombre con podres imparables está listo para desatar su forma única de justicia en el mundo moderno.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261020005900 -0300" stop="20261020090000 -0300">
-    <title lang="es">La Batalla de Riddick</title>
-    <desc lang="es">Riddick queda varado en un planeta desconocido y descubre que no está solo, pues peligrosas criaturas acechan en cada rincón. Mientras lucha por sobrevivir y encontrar una salida, deberá enfrentarse también a un grupo de mercenarios que lo persigue.</desc>
+  <programme channel="TNT.cl" start="20261016192700 -0300" stop="20261016220000 -0300">
+    <title lang="es">Mujer Maravilla</title>
+    <desc lang="es">Una guerrera amazona deja la isla para conocer el mundo y así poder evitar que la guerra del mundo destruya su hogar.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261020090000 -0300" stop="20261020110500 -0300">
-    <title lang="es">300</title>
-    <desc lang="es">El rey Leónidas lidera a 300 guerreros espartanos para defender su tierra ante el enorme ejército persa comandado por Jerjes. En el desfiladero de las Termópilas, deberán resistir en una batalla desigual mientras luchan por proteger la libertad de su pueblo.</desc>
+  <programme channel="TNT.cl" start="20261016220000 -0300" stop="20261016232700 -0300">
+    <title lang="es">Cautiva (T1, E4)</title>
   </programme>
-  <programme channel="HBO.cl" start="20261020110500 -0300" stop="20261020115100 -0300">
-    <title lang="es">Last Week Tonight with John Oliver (T13, E25)</title>
-    <desc lang="es">John Oliver analiza con su característico humor y sarcasmo algunas de las noticias y temas más relevantes de la actualidad. El episodio combina investigación, comentarios y sátira para abordar asuntos políticos, sociales y culturales de Estados Unidos y el mundo.</desc>
+  <programme channel="TNT.cl" start="20261016232700 -0300" stop="20261017013800 -0300">
+    <title lang="es">Dos policías rebeldes</title>
+    <desc lang="es">Dos policías de Miami tienen 72 horas para encontrar 100 millones de dólares en heroína robada del almacén de evidencias de su comisaría, pero, para lograrlo, deben intercambiar sus identidades.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261020115100 -0300" stop="20261020125100 -0300">
-    <title lang="es">War (T1, E1)</title>
-    <desc lang="es">El primer episodio presenta a un grupo de personas cuyas vidas se ven afectadas por el conflicto y las decisiones que deben tomar para sobrevivir. En medio de la tensión y el peligro, comenzarán a enfrentarse a situaciones que pondrán a prueba sus vínculos y convicciones.</desc>
+  <programme channel="TNT.cl" start="20261017013800 -0300" stop="20261017103200 -0300">
+    <title lang="es">Liga de la Justicia</title>
+    <desc lang="es">Los más grandes súper héroes del mundo unidos en La Liga de la Justicia para combatir las amenazas que sobrepasan sus súper poderes individuales.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261020125100 -0300" stop="20261020155600 -0300">
-    <title lang="es">Batman</title>
-    <desc lang="es">Bruce Wayne lleva una doble vida como millonario y como Batman, un vigilante que protege Gotham City de los criminales. Cuando el peligroso Joker comienza a sembrar el caos en la ciudad, Batman deberá enfrentarlo mientras intenta proteger a quienes más le importan.</desc>
+  <programme channel="TNT.cl" start="20261017103200 -0300" stop="20261017130200 -0300">
+    <title lang="es">Shazam!</title>
+    <desc lang="es">Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe gracias a un antiguo mago, ahora necesita dominar rápidamente sus poderes.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261020155600 -0300" stop="20261020174000 -0300">
-    <title lang="es">Vista por última vez</title>
-    <desc lang="es">Un hombre descubre que su esposa ha desaparecido misteriosamente mientras se encontraba en un estacionamiento. Desesperado por encontrarla, inicia una búsqueda contrarreloj que lo llevará a descubrir secretos y pistas cada vez más inquietantes.</desc>
+  <programme channel="TNT.cl" start="20261017130200 -0300" stop="20261017153200 -0300">
+    <title lang="es">El Fugitivo</title>
+    <desc lang="es">La vida del doctor Richard Kimble, un reputado cirujano de Chicago, se desmorona cuando su mujer es brutalmente asesinada por un misterioso hombre y él es acusado del crimen.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261020174000 -0300" stop="20261020184000 -0300">
-    <title lang="es">Linternas (T1, E8)</title>
-    <desc lang="es">En este episodio, los protagonistas continúan enfrentándose a nuevos desafíos mientras intentan comprender los misterios que rodean los acontecimientos recientes. Las pistas comienzan a conectar diferentes sucesos, llevando al grupo hacia una situación cada vez más peligrosa.</desc>
+  <programme channel="TNT.cl" start="20261017153200 -0300" stop="20261017173500 -0300">
+    <title lang="es">El robo del siglo</title>
+    <desc lang="es">Un vendedor de carros y su pandilla de ladrones llegan hasta la bóveda de un banco y descubren mucho más que dinero y joyas.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261020184000 -0300" stop="20261020210000 -0300">
-    <title lang="es">El Justiciero</title>
-    <desc lang="es">Robert McCall, un hombre con un pasado como agente secreto, lleva una vida tranquila hasta que decide ayudar a una joven en peligro. Al enfrentarse a una peligrosa organización criminal, volverá a utilizar sus habilidades para hacer justicia y proteger a los más vulnerables.</desc>
+  <programme channel="TNT.cl" start="20261017173500 -0300" stop="20261017194900 -0300">
+    <title lang="es">Hellboy II: el ejército dorado</title>
+    <desc lang="es">Un malvado elfo rompe un antiguo pacto entre los seres humanos y los mitológicos, y lanza a su ejército dorado, con el fin de acabar con la humanidad. Hellboy y su equipo tratarán de evitarlo.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261020210000 -0300" stop="20261020231000 -0300">
-    <title lang="es">Tornados</title>
-    <desc lang="es">Una científica especializada en tormentas regresa a su ciudad natal para investigar una serie de tornados cada vez más violentos. Junto a un grupo de cazadores de tormentas, deberá enfrentarse a condiciones extremas mientras intenta comprender y detener el fenómeno.</desc>
+  <programme channel="TNT.cl" start="20261017194900 -0300" stop="20261017220000 -0300">
+    <title lang="es">Dos policías rebeldes</title>
+    <desc lang="es">Dos policías de Miami tienen 72 horas para encontrar 100 millones de dólares en heroína robada del almacén de evidencias de su comisaría, pero, para lograrlo, deben intercambiar sus identidades.</desc>
   </programme>
-  <programme channel="HBO.cl" start="20261020231000 -0300" stop="20261021010000 -0300">
-    <title lang="es">No te sueltes</title>
-    <desc lang="es">Una madre y sus dos hijos se refugian en una cabaña aislada mientras una presencia misteriosa parece amenazarlos desde el exterior. Cuando las dudas comienzan a surgir, deberán mantenerse unidos y descubrir qué es real antes de que sea demasiado tarde.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261020000000 -0300" stop="20261020090000 -0300">
-    <title lang="es">Máquinas Mortales</title>
-    <desc lang="es">En un futuro distante donde la civilización fue destruida por un desastre catastrófico. Gigantes ciudades móviles vagan por la tierra, atacando sin piedad.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261020090000 -0300" stop="20261020103000 -0300">
-    <title lang="es">Hasta Que Amanezca</title>
-    <desc lang="es">Un grupo de amigos decide pasar una noche juntos en una casa aislada, pero lo que comienza como una velada tranquila pronto se convierte en una experiencia aterradora. A medida que pasan las horas, deberán descubrir qué está ocurriendo y luchar por sobrevivir hasta el amanecer.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261020103000 -0300" stop="20261020123000 -0300">
-    <title lang="es">El cazador y la reina del hielo</title>
-    <desc lang="es">Mucho antes de enfrentarse a Blancanieves, el Cazador se ve atrapado en el conflicto entre dos poderosas reinas que gobiernan con magia y crueldad. Junto a un grupo de guerreros, deberá desafiar sus fuerzas para impedir que un reino entero caiga bajo su dominio.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261020123000 -0300" stop="20261020143700 -0300">
-    <title lang="es">Escape bajo fuego</title>
-    <desc lang="es">Un exmilitar se ve atrapado en una peligrosa situación cuando un grupo armado toma el control de un edificio y comienza a poner vidas en riesgo. Para escapar con vida, deberá utilizar sus habilidades y enfrentarse a los atacantes mientras busca una salida.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261020143700 -0300" stop="20261020162400 -0300">
-    <title lang="es">Una Película de Minecraft</title>
-    <desc lang="es">Tras ser arrastrados a un cúbico mundo mágico, cuatro inadaptados con la ayuda de un inesperado y experto artesano buscan la manera de regresar a casa.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261020162400 -0300" stop="20261020183200 -0300">
-    <title lang="es">Cónclave</title>
-    <desc lang="es">Tras la muerte del Papa, el cardenal Lawrence debe dirigir el cónclave encargado de elegir a su sucesor. Mientras los cardenales se reúnen en secreto, antiguas rivalidades, ambiciones y sorprendentes secretos salen a la luz y amenazan con cambiar el rumbo de la Iglesia.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261020183200 -0300" stop="20261020205500 -0300">
-    <title lang="es">Cumbres borrascosas</title>
-    <desc lang="es">Heathcliff y Catherine desarrollan un intenso amor marcado por las diferencias sociales y las decisiones que los separan. Años después, el rencor y la pasión que quedaron atrás regresan con fuerza, afectando a sus familias y a las nuevas generaciones.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261020205500 -0300" stop="20261020224200 -0300">
-    <title lang="es">GOAT: La cabra que cambió el juego</title>
-    <desc lang="es">Un joven descubre que una cabra aparentemente común posee habilidades extraordinarias para el deporte y decide convertirla en la estrella de su equipo. Entre entrenamientos, obstáculos y situaciones inesperadas, ambos demostrarán que el talento puede aparecer en los lugares más sorprendentes.</desc>
-  </programme>
-  <programme channel="HBO2.cl" start="20261020224200 -0300" stop="20261021003000 -0300">
-    <title lang="es">Una Película de Minecraft</title>
-    <desc lang="es">Tras ser arrastrados a un cúbico mundo mágico, cuatro inadaptados con la ayuda de un inesperado y experto artesano buscan la manera de regresar a casa.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261020013300 -0300" stop="20261020090000 -0300">
-    <title lang="es">El espantatiburones</title>
-    <desc lang="es">Oscar, un pequeño pez con grandes sueños, se encuentra inesperadamente en el centro de una mentira que lo convierte en un héroe. Mientras intenta mantener su nueva fama, deberá enfrentarse a tiburones, problemas y situaciones que podrían revelar la verdad.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261020090000 -0300" stop="20261020103900 -0300">
-    <title lang="es">Megamente</title>
-    <desc lang="es">Megamente es un súper villano que logra deshacerse de su archienemigo &quot;Metro Man&quot; y ahora puede conquistar libremente Metro City.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261020103900 -0300" stop="20261020120500 -0300">
-    <title lang="es">Jovenes Titanes en acción!</title>
-    <desc lang="es">Los Jóvenes Titanes llevan una vida llena de diversión, videojuegos y ocurrencias, pero sueñan con convertirse en verdaderos superhéroes. Cuando una amenaza pone en peligro a la ciudad, deberán dejar de lado sus peleas y demostrar que también pueden trabajar en equipo.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261020120500 -0300" stop="20261020132400 -0300">
-    <title lang="es">Amigos salvajes 2</title>
-    <desc lang="es">Boog, Elliot y sus amigos regresan con una nueva aventura cuando Boog decide disfrutar de unas vacaciones lejos del bosque. Sin embargo, un inesperado encuentro con animales domésticos lo llevará a vivir divertidas situaciones y a descubrir el verdadero valor de la amistad.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261020132400 -0300" stop="20261020145100 -0300">
-    <title lang="es">Open Season: Amigos salvajes</title>
-    <desc lang="es">Boog, un oso domesticado que lleva una vida tranquila, ve su mundo cambiar cuando conoce a Elliot, un ciervo parlanchín que lo lleva de regreso al bosque. Juntos deberán adaptarse a la vida salvaje y escapar de los cazadores durante la temporada de caza.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261020145100 -0300" stop="20261020170400 -0300">
-    <title lang="es">¡Shazam! La furia de los dioses</title>
-    <desc lang="es">Billy Batson y sus hermanos adoptivos siguen disfrutando de sus poderes mientras intentan encontrar su lugar como superhéroes. Pero cuando las Hijas de Atlas llegan para reclamar una antigua magia, Shazam y su familia deberán unirse para proteger el mundo.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261020170400 -0300" stop="20261020184500 -0300">
-    <title lang="es">Los Croods</title>
-    <desc lang="es">La primera familia del mundo se ve forzada a abandonar la cueva que los ha protegido por años para aventurarse a un lugar lleno de paisajes espectaculares.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261020184500 -0300" stop="20261020202200 -0300">
-    <title lang="es">Mi villano favorito</title>
-    <desc lang="es">Gru, un supervillano que planea realizar el mayor robo de la historia, ve sus planes alterados cuando tres pequeñas huérfanas aparecen en su vida. Lo que comienza como parte de su estrategia termina convirtiéndose en una inesperada aventura familiar.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261020202200 -0300" stop="20261020220000 -0300">
-    <title lang="es">Megamente</title>
-    <desc lang="es">Megamente es un súper villano que logra deshacerse de su archienemigo &quot;Metro Man&quot; y ahora puede conquistar libremente Metro City.</desc>
-  </programme>
-  <programme channel="HBOFamily.cl" start="20261020220000 -0300" stop="20261021001200 -0300">
-    <title lang="es">¡Shazam! La furia de los dioses</title>
-    <desc lang="es">Billy Batson y sus hermanos adoptivos siguen disfrutando de sus poderes mientras intentan encontrar su lugar como superhéroes. Pero cuando las Hijas de Atlas llegan para reclamar una antigua magia, Shazam y su familia deberán unirse para proteger el mundo.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261020000000 -0300" stop="20261020100000 -0300">
-    <title lang="es">Hasta que el Cuerpo Aguante</title>
-    <desc lang="es">Cinco amigas se reúnen después de 10 años en una despedida de soltera alocada en Miami, pero todo cambia cuando accidentalmente matan a un stripper masculino.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261020100000 -0300" stop="20261020120500 -0300">
-    <title lang="es">Cuestión de Tiempo</title>
-    <desc lang="es">A la edad de 21 años, Tim descubre que es capaz de viajar en el tiempo y cambiar lo que ha sucedido en su propia vida.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261020120500 -0300" stop="20261020135000 -0300">
-    <title lang="es">CHiPs: Patrulla motorizada</title>
-    <desc lang="es">Un joven e impulsivo motociclista y un veterano agente federal se unen a la patrulla de carreteras de California. Aunque tienen personalidades muy distintas, deberán trabajar juntos para investigar una serie de robos y descubrir una peligrosa conspiración dentro de la policía.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261020135000 -0300" stop="20261020154000 -0300">
-    <title lang="es">Aves de presa (y la fantabulosa emancipación de una Harley Quinn)</title>
-    <desc lang="es">Tras separarse del Joker, Harley Quinn se une a un grupo de mujeres con habilidades muy distintas para proteger a una joven perseguida por un peligroso criminal. Juntas deberán enfrentarse a las amenazas de Gotham mientras Harley intenta comenzar una nueva vida por su cuenta.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261020154000 -0300" stop="20261020171500 -0300">
-    <title lang="es">Se dice de mí</title>
-    <desc lang="es">Una joven intenta abrirse camino mientras enfrenta los rumores, las expectativas y las dificultades que surgen a su alrededor. En medio de distintas relaciones y situaciones inesperadas, deberá descubrir qué quiere realmente para su vida.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261020171500 -0300" stop="20261020192500 -0300">
-    <title lang="es">Cincuenta Sombras de Grey</title>
-    <desc lang="es">La vida de la estudiante de literatura, Anastasia Steele, cambia para siempre cuando conoce al apuesto y multimillonario Christian Grey.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261020192500 -0300" stop="20261020211000 -0300">
-    <title lang="es">Hasta que el Cuerpo Aguante</title>
-    <desc lang="es">Cinco amigas se reúnen después de 10 años en una despedida de soltera alocada en Miami, pero todo cambia cuando accidentalmente matan a un stripper masculino.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261020211000 -0300" stop="20261020232000 -0300">
-    <title lang="es">Blue Beetle</title>
-    <desc lang="es">Jaime, un joven recién graduado de la universidad, se encuentra inesperadamente en posesión de una antigua reliquia alienígena que le otorga superpoderes.</desc>
-  </programme>
-  <programme channel="HBOPop.cl" start="20261020232000 -0300" stop="20261021000000 -0300">
-    <title lang="es">Last Week Tonight with John Oliver</title>
-    <desc lang="es">John Oliver analiza las noticias y acontecimientos más importantes de la actualidad, abordando temas políticos, sociales y culturales con humor y sátira. Cada episodio profundiza en un tema central mientras cuestiona situaciones y problemas de gran relevancia.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261020000000 -0300" stop="20261020093100 -0300">
-    <title lang="es">Jurassic Park III</title>
-    <desc lang="es">El paleontólogo Alan Grant acepta visitar Isla Sorna para realizar un supuesto recorrido aéreo, pero pronto descubre que ha sido llevado allí por otros motivos. Varado en una isla llena de dinosaurios, deberá encontrar la manera de sobrevivir y escapar.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261020093100 -0300" stop="20261020114200 -0300">
-    <title lang="es">Jurassic World: Mundo Jurásico</title>
-    <desc lang="es">Veintidós años después de los acontecimientos de Jurassic Park, Isla Nublar alberga un enorme parque temático con dinosaurios reales. Cuando una nueva criatura genéticamente modificada escapa de su recinto, el parque se convierte en un lugar de peligro y caos.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261020114200 -0300" stop="20261020133900 -0300">
-    <title lang="es">Noche sin paz</title>
-    <desc lang="es">Un grupo de delincuentes irrumpe en una casa durante la celebración de Navidad, esperando encontrar una familia indefensa. Sin embargo, Santa Claus aparece inesperadamente y demuestra que no está dispuesto a dejar que arruinen la noche.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261020133900 -0300" stop="20261020151800 -0300">
-    <title lang="es">Te van a matar</title>
-    <desc lang="es">Una joven recibe una inquietante advertencia que parece anunciar su propia muerte. Mientras intenta descubrir quién está detrás de la amenaza, deberá enfrentarse a una serie de situaciones cada vez más peligrosas que ponen su vida en riesgo.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261020151800 -0300" stop="20261020170200 -0300">
-    <title lang="es">Anaconda</title>
-    <desc lang="es">Un equipo de documentalistas se adentra en la selva amazónica en busca de una legendaria tribu, pero su expedición cambia de rumbo al encontrarse con un cazador obsesionado con capturar una gigantesca anaconda. Pronto deberán luchar por sobrevivir ante el enorme depredador.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261020170200 -0300" stop="20261020183700 -0300">
-    <title lang="es">Jurassic Park III</title>
-    <desc lang="es">El paleontólogo Alan Grant acepta visitar Isla Sorna para realizar un supuesto recorrido aéreo, pero pronto descubre que ha sido llevado allí por otros motivos. Varado en una isla llena de dinosaurios, deberá encontrar la manera de sobrevivir y escapar.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261020183700 -0300" stop="20261020204600 -0300">
-    <title lang="es">Jurassic World: Mundo Jurásico</title>
-    <desc lang="es">Veintidós años después de los acontecimientos de Jurassic Park, Isla Nublar alberga un enorme parque temático con dinosaurios reales. Cuando una nueva criatura genéticamente modificada escapa de su recinto, el parque se convierte en un lugar de peligro y caos.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261020204600 -0300" stop="20261020221700 -0300">
-    <title lang="es">Anaconda</title>
-    <desc lang="es">Un equipo de documentalistas se adentra en la selva amazónica en busca de una legendaria tribu, pero su expedición cambia de rumbo al encontrarse con un cazador obsesionado con capturar una gigantesca anaconda. Pronto deberán luchar por sobrevivir ante el enorme depredador.</desc>
-  </programme>
-  <programme channel="HBOXtreme.cl" start="20261020221700 -0300" stop="20261021000000 -0300">
-    <title lang="es">Anaconda</title>
-    <desc lang="es">Un equipo de documentalistas se adentra en la selva amazónica en busca de una legendaria tribu, pero su expedición cambia de rumbo al encontrarse con un cazador obsesionado con capturar una gigantesca anaconda. Pronto deberán luchar por sobrevivir ante el enorme depredador.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261020000100 -0300" stop="20261020110600 -0300">
-    <title lang="es">Gremlins</title>
-    <desc lang="es">Billy recibe como regalo una extraña criatura llamada Gizmo, junto con unas simples reglas para cuidarla. Cuando estas reglas se rompen, unas pequeñas criaturas traviesas comienzan a sembrar el caos en el pueblo durante la Navidad.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261020110600 -0300" stop="20261020125100 -0300">
-    <title lang="es">Hombre lobo</title>
-    <desc lang="es">Una familia se reúne en una casa aislada cuando una misteriosa criatura comienza a rondar los alrededores. A medida que la noche avanza, deberán descubrir qué está ocurriendo mientras el peligro se acerca cada vez más.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261020125100 -0300" stop="20261020142600 -0300">
-    <title lang="es">Los malditos</title>
-    <desc lang="es">Una familia queda atrapada en una casa aislada después de que una misteriosa presencia comienza a manifestarse. Mientras intentan descubrir el origen de la amenaza, deberán luchar por mantenerse unidos y sobrevivir a una noche aterradora.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261020142600 -0300" stop="20261020163100 -0300">
-    <title lang="es">La cumbre escarlata</title>
-    <desc lang="es">Después de casarse con un misterioso aristócrata, Edith se muda a una antigua mansión en una montaña donde descubre oscuros secretos familiares. Mientras extraños sucesos comienzan a ocurrir, los fantasmas del pasado parecen cobrar vida.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261020163100 -0300" stop="20261020183100 -0300">
-    <title lang="es">El rito</title>
-    <desc lang="es">Un joven seminarista viaja al Vaticano para estudiar exorcismos y comienza a cuestionar sus propias creencias. Bajo la guía de un sacerdote experimentado, se enfrenta a inquietantes casos que pondrán a prueba su fe y lo llevarán a descubrir una amenaza sobrenatural.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261020183100 -0300" stop="20261020201600 -0300">
-    <title lang="es">La monja</title>
-    <desc lang="es">Un sacerdote y una joven novicia son enviados a investigar la misteriosa muerte de una monja en un convento aislado de Rumania. Allí descubren una presencia demoníaca que amenaza con apoderarse de sus vidas y de sus almas.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261020201600 -0300" stop="20261020221000 -0300">
-    <title lang="es">La Monja 2</title>
-    <desc lang="es">En Francia de 1956, tras el asesinato de un sacerdote y un mal que se extiende, la hermana Irene se encuentra una vez más con Valak, la monja demonio.</desc>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261020221000 -0300" stop="20261020231100 -0300">
-    <title lang="es">Linternas</title>
-  </programme>
-  <programme channel="HBO.Plus.cl" start="20261020231100 -0300" stop="20261021010000 -0300">
-    <title lang="es">Hombre lobo</title>
-    <desc lang="es">Un hombre regresa a la propiedad de su familia después de recibir noticias sobre la desaparición de su padre. Allí descubre una aterradora criatura que lo transforma en un hombre lobo y deberá luchar contra la maldición mientras intenta proteger a sus seres queridos.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261020015500 -0300" stop="20261020101000 -0300">
-    <title lang="es">Intercambio de hermanas: Navidad en el pueblo</title>
-    <desc lang="es">Dos hermanas deciden intercambiar sus vidas durante las fiestas navideñas y terminan descubriendo que el cambio es mucho más complicado de lo que imaginaban. Entre nuevos entornos, romances y situaciones inesperadas, ambas encontrarán una nueva perspectiva sobre lo que realmente desean.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261020101000 -0300" stop="20261020121000 -0300">
-    <title lang="es">Querido John</title>
-    <desc lang="es">John, un soldado que está de permiso, conoce a Savannah y ambos viven un intenso romance durante dos semanas. Cuando él debe regresar al servicio, mantienen su relación a través de cartas, enfrentándose a la distancia y a los cambios que trae el paso del tiempo.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261020121000 -0300" stop="20261020140500 -0300">
-    <title lang="es">Cartas a Julieta</title>
-    <desc lang="es">Sophie viaja a Italia junto a su prometido y descubre una antigua carta de amor dirigida a Julieta. Al responderla, se embarca en una búsqueda junto a su autora para encontrar al hombre que amó décadas atrás, mientras descubre nuevos sentimientos en el camino.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261020140500 -0300" stop="20261020161000 -0300">
-    <title lang="es">Yo Antes de Ti</title>
-    <desc lang="es">Una joven consigue un trabajo como cuidadora de un joven banquero que quedo en sillas de ruedas tras un accidente, sin saber que sus vidas cambiarían.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261020161000 -0300" stop="20261020181500 -0300">
-    <title lang="es">Una nueva eternidad</title>
-    <desc lang="es">Una joven que atraviesa un momento difícil conoce a un hombre que parece ofrecerle una nueva oportunidad para ser feliz. Mientras ambos se acercan, deberán enfrentar heridas del pasado y descubrir si su encuentro puede darles un nuevo comienzo.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261020181500 -0300" stop="20261020195500 -0300">
-    <title lang="es">Trolls 2: Gira mundial</title>
-    <desc lang="es">Poppy y Branch descubren que existen diferentes tribus de Trolls, cada una dedicada a un estilo musical distinto. Cuando una amenaza intenta dividirlos, deberán unir sus fuerzas y demostrar que las diferencias pueden convertirse en algo que los haga más fuertes.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261020195500 -0300" stop="20261020220000 -0300">
-    <title lang="es">La brújula dorada</title>
-    <desc lang="es">Lyra, una joven huérfana, vive en un mundo paralelo donde cada persona tiene un animal que representa su alma. Cuando su mejor amigo desaparece, Lyra emprende un viaje hacia el norte y descubre secretos que podrían cambiar el destino de su mundo.</desc>
-  </programme>
-  <programme channel="StudioUniversal.ar" start="20261020220000 -0300" stop="20261021000000 -0300">
-    <title lang="es">El insoportable peso del inmenso talento</title>
-    <desc lang="es">Nicolas Cage interpreta una versión ficticia de sí mismo, un actor en crisis que acepta asistir al cumpleaños de un misterioso millonario. Lo que parece un trabajo sencillo termina involucrándolo en una peligrosa misión de espionaje y crimen.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261020012400 -0300" stop="20261020105000 -0300">
-    <title lang="es">The Goldbergs</title>
-    <desc lang="es">— Temporada 10</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261020105000 -0300" stop="20261020122000 -0300">
-    <title lang="es">Fallen Angels Murder Club: Friends to Die For</title>
-    <desc lang="es">Hollis Morgan, una mujer que acaba de salir de prisión, se une a un club de lectura para exconvictos que termina involucrado en una serie de asesinatos. Mientras la policía investiga, Hollis decide buscar al responsable por su cuenta y descubre que los crímenes están relacionados.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261020122000 -0300" stop="20261020135500 -0300">
-    <title lang="es">Matchmaker Mysteries: A Fatal Romance</title>
-    <desc lang="es">Una casamentera profesional se ve involucrada en una investigación cuando uno de sus clientes aparece muerto poco después de encontrar pareja. Mientras intenta descubrir quién está detrás del crimen, deberá enfrentarse a secretos y relaciones que podrían esconder al verdadero culpable.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261020135500 -0300" stop="20261020153000 -0300">
-    <title lang="es">Lake Placid vs. Anaconda</title>
-    <desc lang="es">Un enorme cocodrilo y una gigantesca anaconda se enfrentan cuando ambas criaturas son llevadas a un mismo lugar. Mientras los monstruosos depredadores desatan el caos, un grupo de personas deberá encontrar la manera de sobrevivir y detenerlos.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261020153000 -0300" stop="20261020170500 -0300">
-    <title lang="es">Cocodrilo: El capítulo final</title>
-    <desc lang="es">Un enorme cocodrilo vuelve a sembrar el terror cuando un grupo de personas queda atrapado en una zona aislada. Mientras buscan escapar de la criatura, deberán luchar por sobrevivir antes de convertirse en sus próximas víctimas.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261020170500 -0300" stop="20261020184000 -0300">
-    <title lang="es">Venom 2: Carnage liberado</title>
-    <desc lang="es">Eddie Brock intenta adaptarse a su vida junto a Venom mientras investiga al peligroso asesino Cletus Kasady. Cuando Kasady se convierte en Carnage, Eddie y Venom deberán enfrentarse a esta nueva amenaza antes de que cause una masacre.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261020184000 -0300" stop="20261020201500 -0300">
-    <title lang="es">Los locos Addams 2</title>
-    <desc lang="es">La familia Addams emprende un viaje por carretera para pasar tiempo juntos, pero su peculiar estilo de vida provoca todo tipo de situaciones disparatadas. Mientras recorren el país, los Addams se enfrentan a nuevos personajes y aventuras que pondrán a prueba su unión familiar.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261020201500 -0300" stop="20261020220000 -0300">
-    <title lang="es">El escape perfecto</title>
-    <desc lang="es">Una pareja llega a una isla paradisíaca para disfrutar de su luna de miel, pero descubre que otros viajeros podrían ser peligrosos asesinos. Lo que parecía un viaje perfecto se convierte en una lucha por sobrevivir mientras intentan descubrir en quién pueden confiar.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261020220000 -0300" stop="20261020234400 -0300">
-    <title lang="es">La cueva</title>
-    <desc lang="es">Un grupo de exploradores se adentra en una cueva desconocida en busca de una antigua reliquia. Lo que comienza como una aventura se transforma en una pesadilla cuando quedan atrapados bajo tierra y descubren que no están solos.</desc>
-  </programme>
-  <programme channel="SONYMOVIES.uy" start="20261020234400 -0300" stop="20261021012900 -0300">
-    <title lang="es">La trampa del asesino</title>
-    <desc lang="es">Una joven se convierte en el objetivo de un peligroso asesino que ha preparado una elaborada trampa para atraparla. Mientras intenta escapar y descubrir quién está detrás de la persecución, deberá enfrentarse a una amenaza que parece estar siempre un paso adelante.</desc>
-  </programme>
-  <programme channel="Sony.cl" start="20261020020000 -0300" stop="20261020100000 -0300">
-    <title lang="es">The Good Doctor</title>
-  </programme>
-  <programme channel="Sony.cl" start="20261020100000 -0300" stop="20261020120000 -0300">
-    <title lang="es">Betty&apos;s Call</title>
-  </programme>
-  <programme channel="Sony.cl" start="20261020120000 -0300" stop="20261020133000 -0300">
-    <title lang="es">The Nanny</title>
-  </programme>
-  <programme channel="Sony.cl" start="20261020133000 -0300" stop="20261020150000 -0300">
-    <title lang="es">Vecinos</title>
-  </programme>
-  <programme channel="Sony.cl" start="20261020150000 -0300" stop="20261020163000 -0300">
-    <title lang="es">My wife and kids</title>
-  </programme>
-  <programme channel="Sony.cl" start="20261020163000 -0300" stop="20261020181500 -0300">
-    <title lang="es">Los Locos Addams 2</title>
-    <desc lang="es">La familia Addams emprende un viaje en la carroza embrujada a través de las carreteras de los Estados Unidos para tener unas últimas vacaciones familiares.</desc>
-  </programme>
-  <programme channel="Sony.cl" start="20261020181500 -0300" stop="20261020201500 -0300">
-    <title lang="es">Volver al Futuro II</title>
-    <desc lang="es">Después de visitar el año 2015, Marty McFly debe regresar al año de 1955 para evitar cambios en su presente de 1985, sin interferir en su primer viaje.</desc>
-  </programme>
-  <programme channel="Sony.cl" start="20261020201500 -0300" stop="20261020222000 -0300">
-    <title lang="es">Terremoto: La falla de San Andrés</title>
-    <desc lang="es">La falla de San Andrés finalmente cede y desencadena un devastador terremoto que sacude California. El piloto de rescate Ray Gaines y su exesposa Emma atraviesan el estado para encontrar y salvar a su hija Blake, atrapada en medio de la catástrofe.</desc>
-  </programme>
-  <programme channel="Sony.cl" start="20261020222000 -0300" stop="20261021000000 -0300">
-    <title lang="es">Hansel y Gretel: Cazadores de brujas</title>
-    <desc lang="es">Después de sobrevivir a una experiencia traumática en su infancia, Hansel y Gretel se convierten en cazadores de brujas. Años más tarde, llegan a un pueblo aterrorizado por una poderosa bruja y descubren que enfrentarla será mucho más peligroso de lo que esperaban.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261020013000 -0300" stop="20261020102000 -0300">
-    <title lang="es">Magic Mike XXL</title>
-    <desc lang="es">Tres años después de retirarse del escenario, Mike se reúne con sus antiguos compañeros para emprender un viaje hacia Myrtle Beach. En el camino, el grupo se prepara para una última gran presentación, mientras Mike descubre nuevas razones para volver a hacer lo que mejor sabe.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261020102000 -0300" stop="20261020121500 -0300">
-    <title lang="es">El Hombre de Toronto</title>
-    <desc lang="es">Un caso de confusión de identidad obliga a un hombre a hacer equipo con el asesino conocido como El Hombre de Toronto con la esperanza de seguir con vida.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261020121500 -0300" stop="20261020142500 -0300">
-    <title lang="es">La gran apuesta</title>
-    <desc lang="es">Un grupo de inversores descubre que el mercado inmobiliario estadounidense está a punto de colapsar y decide apostar en contra del sistema financiero, anticipándose a la crisis de 2008.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261020142500 -0300" stop="20261020155500 -0300">
-    <title lang="es">Hotel Transylvania 4: Transformanía</title>
-    <desc lang="es">Un invento fallido transforma a Drácula y a sus amigos en humanos, mientras que su yerno se convierte en monstruo, obligándolos a buscar una cura antes de que sea permanente.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261020155500 -0300" stop="20261020174000 -0300">
-    <title lang="es">Dora y la Ciudad Perdida</title>
-    <desc lang="es">Dora, Diego, Botas y un grupo de amigos se aventuran para salvar a los padres de Dora y resolver el misterio detrás de una ciudad de oro perdida.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261020174000 -0300" stop="20261020200000 -0300">
-    <title lang="es">Jurassic World: Dominio</title>
-    <desc lang="es">Cuatro años después de la destrucción de Isla Nublar, los dinosaurios conviven y cazan junto a los humanos en todo el mundo, obligando a un grupo de expertos a enfrentar una conspiración genética global.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261020200000 -0300" stop="20261020220000 -0300">
-    <title lang="es">Uncharted: Fuera del mapa</title>
-    <desc lang="es">Un joven cazador de tesoros y su astuto mentor se embarcan en una peligrosa búsqueda alrededor del mundo para encontrar una fortuna perdida de hace 500 años y descubrir pistas sobre su hermano desaparecido.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261020220000 -0300" stop="20261020235500 -0300">
-    <title lang="es">Guardianes de la Bahía</title>
-    <desc lang="es">Mitch descubre a unos criminales que amenazan la bahía que juró proteger, ahora él y sus compañeros harán lo imposible para salvar la playa.</desc>
-  </programme>
-  <programme channel="UniversalCinema.cl" start="20261020235500 -0300" stop="20261021014500 -0300">
-    <title lang="es">Mi novio atómico</title>
-    <desc lang="es">Un hombre criado toda su vida en un refugio antibombas de los años 50 sale al mundo exterior por primera vez para conseguir suministros y conoce a una mujer moderna que lo ayuda a adaptarse a la época actual.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261020013300 -0300" stop="20261020110100 -0300">
-    <title lang="es">Instinto predador</title>
-    <desc lang="es">Un grupo de cazadores y guías en una zona remota de la naturaleza salvaje debe enfrentarse a una brutal lucha por la supervivencia cuando un depredador letal y desconocido comienza a acecharlos uno por uno.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261020110100 -0300" stop="20261020130200 -0300">
-    <title lang="es">Spider-Man: Un nuevo universo</title>
-    <desc lang="es">Miles Morales, un adolescente de Brooklyn, transformándose en una de las posibilidades en el universo del hombre araña para ser el superhéroe.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261020130200 -0300" stop="20261020145300 -0300">
-    <title lang="es">Dos inútiles en patrulla</title>
-    <desc lang="es">Para pagar la costosa boda de su hija, un veterano policía de Nueva York y su compañero intentan recuperar una valiosa tarjeta de béisbol robada, enfrentándose sin proponérselo a peligrosos gánsteres.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261020145300 -0300" stop="20261020164700 -0300">
-    <title lang="es">Policías de repuesto</title>
-    <desc lang="es">Dos detectives de oficina en Nueva York, relegados a tareas administrativas, tienen la oportunidad de salir a la calle para demostrar su valía y resolver un caso de delitos financieros que nadie más investiga.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261020164700 -0300" stop="20261020183700 -0300">
-    <title lang="es">Venganza despiadada</title>
-    <desc lang="es">Tras presenciar el asesinato de sus padres en su infancia, una joven crece para convertirse en una implacable asesina profesional, obsesionada con cazar al responsable y cobrar venganza.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261020183700 -0300" stop="20261020201800 -0300">
-    <title lang="es">R.I.P.D.: Policía del más allá</title>
-    <desc lang="es">Dos agentes difuntos, uno veterano y otro recién fallecido del departamento de policía de ultratumba, se unen para rastrear almas errantes que se niegan a pasar pacíficamente al otro mundo.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261020201800 -0300" stop="20261020220000 -0300">
-    <title lang="es">Difícil de matar</title>
-    <desc lang="es">Un detective de policía sobrevive milagrosamente a un atentado en el que asesinan a su esposa y, tras despertar de un coma de siete años, emprende una violenta venganza contra los responsables.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261020220000 -0300" stop="20261020234200 -0300">
-    <title lang="es">Operación peligrosa</title>
-    <desc lang="es">Un agente de la patrulla fronteriza debe enfrentarse a un comando de exmilitares renegados que planea introducir un millonario cargamento de drogas a través de la frontera.</desc>
-  </programme>
-  <programme channel="Space.cl" start="20261020234200 -0300" stop="20261021015500 -0300">
-    <title lang="es">Pequeños Secretos</title>
-    <desc lang="es">Un experimentado sheriff de un condado y un detective de homicidios de Los Ángeles unen fuerzas para rastrear a un astuto asesino serial que acecha la ciudad, mientras un oscuro pasado amenaza con salir a la luz.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261020000600 -0300" stop="20261020021600 -0300">
-    <title lang="es">Cincuenta Sombras de Grey</title>
-    <desc lang="es">La vida de la estudiante de literatura, Anastasia Steele, cambia para siempre cuando conoce al apuesto y multimillonario Christian Grey.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261020021600 -0300" stop="20261020112800 -0300">
-    <title lang="es">Mortal Kombat: The Movie</title>
-    <desc lang="es">Un luchador de artes marciales mixtas que desconoce su pasado se une a los mejores campeones de la Tierra para enfrentar a las fuerzas del Outworld en una batalla definitiva por salvar el planeta.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261020112800 -0300" stop="20261020133400 -0300">
-    <title lang="es">El Vengador Del Futuro</title>
-    <desc lang="es">En un futuro distópico donde la Tierra está devastada, un obrero visita una clínica de recuerdos virtuales para experimentar una vida de espía, pero el proceso sale mal y se convierte en el fugitivo más buscado por las autoridades.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261020133400 -0300" stop="20261020153700 -0300">
-    <title lang="es">Megalodón 2: El gran abismo</title>
-    <desc lang="es">Un equipo de investigación emprende una inmersión exploratoria a las profundidades del océano, pero la misión se convierte en una lucha desesperada por la supervivencia al enfrentarse a tiburones prehistóricos gigantes y despiadados mercenarios.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261020153700 -0300" stop="20261020174600 -0300">
-    <title lang="es">El destino de Júpiter</title>
-    <desc lang="es">Una joven limpiadora descubre que posee una firma genética extraordinaria que la convierte en la heredera legítima del destino de la galaxia, por lo que un ex militar genéticamente modificado es enviado a protegerla de fuerzas intergalácticas.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261020174600 -0300" stop="20261020175900 -0300">
-    <title lang="es">TNT Data Sports by Betano</title>
-  </programme>
-  <programme channel="TNT.cl" start="20261020175900 -0300" stop="20261020195600 -0300">
-    <title lang="es">Mamá se fue de viaje</title>
-    <desc lang="es">Un atareado padre que vive enfocado en su trabajo debe hacerse cargo por completo de sus cuatro hijos cuando su esposa decide tomarse unas vacaciones sola por primera vez, desatando un divertido caos doméstico.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261020195600 -0300" stop="20261020220000 -0300">
-    <title lang="es">Terremoto: La falla de San Andrés</title>
-    <desc lang="es">Un piloto de rescate de helicópteros emprende un peligroso viaje desde Los Ángeles hasta San Francisco para rescatar a su hija tras desatarse un devastador terremoto de magnitud sin precedentes en California.</desc>
-  </programme>
-  <programme channel="TNT.cl" start="20261020220000 -0300" stop="20261020232700 -0300">
-    <title lang="es">Cautiva</title>
-  </programme>
-  <programme channel="TNT.cl" start="20261020232700 -0300" stop="20261021015800 -0300">
-    <title lang="es">El escuadrón suicida</title>
-    <desc lang="es">Un grupo de supervillanos recluidos en una prisión de alta seguridad son enviados por el gobierno a una peligrosa misión en una isla sudamericana para destruir un laboratorio nazi secreto, con la amenaza de detonar explosivos en sus cabezas si intentan escapar.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261020000400 -0300" stop="20261020114300 -0300">
-    <title lang="es">El arte de ser adulto</title>
-    <desc lang="es">Un joven inmaduro y estancado emocionalmente desde la muerte de su padre bombero en su infancia se pasa los días sin rumbo, hasta que su vida se trastoca cuando su madre comienza a salir con otro bombero.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261020114300 -0300" stop="20261020141200 -0300">
-    <title lang="es">El buen patrón</title>
-    <desc lang="es">El carismático dueño de una exitosa empresa familiar manipula sin escrúpulos la vida personal y laboral de sus empleados en un cínico intento por conseguir un codiciado premio local a la excelencia empresarial.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261020141200 -0300" stop="20261020161800 -0300">
-    <title lang="es">Una Intrusa en la Familia</title>
-    <desc lang="es">Un estricto y aburrido abogado divorciado conoce por internet a una mujer que dice ser abogada, pero que resulta ser una astuta convicta prófuga de la justicia que se instala en su vida para obligarlo a demostrar su inocencia.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261020161800 -0300" stop="20261020181400 -0300">
-    <title lang="es">El aguador</title>
-    <desc lang="es">Un tímido y humilde repartidor de agua para un equipo de fútbol americano universitaria descubre que posee una furia desatada y un talento brutal para el tacleo, convirtiéndose en la inesperada estrella salvadora del equipo.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261020181400 -0300" stop="20261020200700 -0300">
-    <title lang="es">Hitman: Agente 47</title>
-    <desc lang="es">Un asesino a sueldo de élite, creado genéticamente para ser una máquina perfecta de matar, une fuerzas con una joven para descubrir los secretos de su misterioso origen y detener a una corporación que busca replicar su programa.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261020200700 -0300" stop="20261020215900 -0300">
-    <title lang="es">Más barato por docena</title>
-    <desc lang="es">Un entrenador de fútbol americano y su esposa intentan equilibrar sus exigentes carreras profesionales mientras crían a sus doce hijos en una caótica y bulliciosa casa familiar.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261020215900 -0300" stop="20261020235700 -0300">
-    <title lang="es">Más barato por docena 2</title>
-    <desc lang="es">Las vacaciones familiares de verano se convierten en una hilarante y caótica competencia campamentera cuando la numerosa familia Baker se cruza en un lago con el clan rival liderado por el hipercompetitivo patriarca de una familia vecina y adinerada.</desc>
-  </programme>
-  <programme channel="FX.cl" start="20261020235700 -0300" stop="20261021021700 -0300">
-    <title lang="es">Estado mental</title>
-    <desc lang="es">Un thriller psicológico que explora los límites de la mente y la intriga a través de una compleja trama de misterio y tensión personal.</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261020000600 -0300" stop="20261020102900 -0300">
-    <title lang="es">The Big Bang Theory</title>
-    <desc lang="es">Temporada 11 | Episodio 6</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261020102900 -0300" stop="20261020125600 -0300">
-    <title lang="es">Two and a Half Men</title>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261020125600 -0300" stop="20261020133000 -0300">
-    <title lang="es">Cobra Kai</title>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261020133000 -0300" stop="20261020154500 -0300">
-    <title lang="es">Matrix Revoluciones</title>
-    <desc lang="es">Neo, Trinity y Morfeo lideran la resistencia humana en una desesperada batalla final para defender la última ciudad de Sión contra el implacable ejército de máquinas, mientras Neo busca un enfrentamiento definitivo con el agente Smith.</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261020154500 -0300" stop="20261020173200 -0300">
-    <title lang="es">En el Tornado</title>
-    <desc lang="es">Los habitantes del pueblo de Silverston ven como su ciudad es destrozada por la llegada de unos Tornados devastadores.</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261020173200 -0300" stop="20261020201300 -0300">
-    <title lang="es">El sorprendente hombre araña</title>
-    <desc lang="es">Un adolescente marginado busca desentrañar el misterio de la desaparición de sus padres y termina adquiriendo extraordinarios poderes arácnidos tras ser mordido por una araña genéticamente alterada en las instalaciones de Oscorp, obligándolo a enfrentarse al letal Lagarto.</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261020201300 -0300" stop="20261020220000 -0300">
-    <title lang="es">Todopoderoso 2</title>
-    <desc lang="es">Un ambicioso congresista recién electo ve su vida patas arriba cuando el mismísimo Dios se le aparece para ordenarle que construya un arca gigante ante una inminente inundación mundial.</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261020220000 -0300" stop="20261020235100 -0300">
-    <title lang="es">Buenos Vecinos</title>
-    <desc lang="es">Una pareja con un bebe recién nacido deberán enfrentar la dificultad de vivir junto a una casa de fraternidad de estudiantes.</desc>
-  </programme>
-  <programme channel="WarnerChannel.cl" start="20261020235100 -0300" stop="20261021013000 -0300">
-    <title lang="es">Gamer</title>
-    <desc lang="es">En un futuro distópico, un brillante y despiadado magnate de la tecnología revolutioniza el entretenimiento al crear un juego de disparos en masa multijugador online donde jugadores reales controlan a convictos condenados a muerte en campos de batalla reales para ganar su libertad.</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261020002600 -0300" stop="20261020133700 -0300">
-    <title lang="es">Castle</title>
-    <desc lang="es">Temporada 8 | Episodio 21</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261020133700 -0300" stop="20261020153800 -0300">
-    <title lang="es">Volcano</title>
-    <desc lang="es">Una violenta y repentina erupción volcánica subterránea desata el caos y ríos de lava ardiente en pleno corazón de Los Ángeles, obligando a los equipos de emergencia liderados por la oficina de gestión de crisis a librar una carrera contrarreloj para salvar la ciudad.</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261020153800 -0300" stop="20261020171700 -0300">
-    <title lang="es">El día llegará</title>
-    <desc lang="es">Un ingenuo y carismático líder religioso de Miami, que sueña con desatar una revolución pacífica para salvar a su familia de la ruina económica, acepta una supuesta financiación sin saber que en realidad se trata de una elaborada y absurda trampa tendida por el FBI para fabricar un falso culpable por terrorismo.</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261020171700 -0300" stop="20261020193900 -0300">
-    <title lang="es">Máxima Velocidad</title>
-    <desc lang="es">Un decidido oficial del equipo de desactivación de explosivos de Los Ángeles debe evitar que una bomba instalada en un autobús urbano estalle, manteniendo la velocidad del vehículo por encima de las cincuenta millas por hora mientras un terrorista extorsiona a la ciudad.</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261020193900 -0300" stop="20261020215400 -0300">
-    <title lang="es">La propuesta</title>
-    <desc lang="es">Una exigente y temida editora de libros canadiense que enfrenta una inminente deportación por problemas con su visa obliga a su joven y sobreexplotado asistente personal a casarse con ella a cambio de un prometido ascenso laboral, desencadenando un viaje familiar a Alaska donde las mentiras empiezan a derrumbarse.</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261020215400 -0300" stop="20261020235500 -0300">
-    <title lang="es">Miss Simpatía</title>
-    <desc lang="es">Una brusca y desaliñada agente del FBI debe infiltrarse de encubierto como concursante en el prestigioso certamen de belleza de Miss Estados Unidos para evitar que un escurridizo terrorista conocido como &quot;El Ciudadano&quot; atente contra el evento.</desc>
-  </programme>
-  <programme channel="StarChannel.cl" start="20261020235500 -0300" stop="20261021002600 -0300">
-    <title lang="es">Los Simpson</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261020130000 -0300" stop="20261020135000 -0300">
-    <title lang="es">La Ley y el Orden</title>
-    <desc lang="es">Derecho de Pernada</desc>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261020135000 -0300" stop="20261020144000 -0300">
-    <title lang="es">La Ley y el Orden</title>
-    <desc lang="es">Merodeador</desc>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261020144000 -0300" stop="20261020153000 -0300">
-    <title lang="es">La Ley y el Orden</title>
-    <desc lang="es">El deber de tener esperanzas</desc>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261020153000 -0300" stop="20261020162000 -0300">
-    <title lang="es">Chicago P.D.</title>
-    <desc lang="es">Líneas</desc>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261020162000 -0300" stop="20261020171000 -0300">
-    <title lang="es">Chicago P.D.</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261020171000 -0300" stop="20261020180000 -0300">
-    <title lang="es">Chicago P.D.</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261020180000 -0300" stop="20261020185000 -0300">
-    <title lang="es">Chicago Fire</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261020185000 -0300" stop="20261020194000 -0300">
-    <title lang="es">Chicago Fire</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261020194000 -0300" stop="20261020203000 -0300">
-    <title lang="es">Chicago Fire</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261020203000 -0300" stop="20261020212000 -0300">
-    <title lang="es">La Ley y el Orden: UVE</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261020212000 -0300" stop="20261020221000 -0300">
-    <title lang="es">La Ley y el Orden: UVE</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261020221000 -0300" stop="20261020230000 -0300">
-    <title lang="es">La Ley y el Orden: UVE</title>
-  </programme>
-  <programme channel="UniversalTV.cl" start="20261020230000 -0300" stop="20261021000000 -0300">
-    <title lang="es">La Ley y el Orden: UVE</title>
+  <programme channel="TNT.cl" start="20261017220000 -0300" stop="20261018001500 -0300">
+    <title lang="es">Bad Boys para siempre</title>
+    <desc lang="es">Los veteranos agentes Mike Lowery y Marcus Burnett vuelven a colaborar para detener a Armando Armas, el violento líder de un cartel de la droga afincado en Miami. En esta ocasión, los apoya el equipo AMMO, un grupo de élite del Departamento de Policía de Miami.</desc>
   </programme>
 </tv>
