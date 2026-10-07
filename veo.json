@@ -420,68 +420,7 @@
     },
     "Golden.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "El cielo en tu mirada",
-          "inicio": "00:37",
-          "fin": "09:09",
-          "descripcion": "Un joven que sueña con convertirse en cantante se enamora de una chica que comparte su pasión por la música. Juntos deberán enfrentar obstáculos y decisiones que pondrán a prueba sus sueños, su amistad y el amor que comienza a surgir entre ellos."
-        },
-        {
-          "nombre": "Compartiendo la Navidad",
-          "inicio": "09:09",
-          "fin": "10:45",
-          "descripcion": "Una joven se muda a una nueva casa justo antes de Navidad y descubre que tendrá que compartirla con un hombre completamente desconocido. Mientras ambos intentan adaptarse a la inesperada situación, la convivencia comienza a despertar sentimientos que ninguno esperaba."
-        },
-        {
-          "nombre": "Por mis bigotes",
-          "inicio": "10:45",
-          "fin": "12:29",
-          "descripcion": "Un niño de nueve años descubre que está comenzando a desarrollar bigote, justo cuando atraviesa una etapa llena de cambios y desafíos. Con la ayuda de su familia y sus amigos, aprenderá a enfrentar sus inseguridades y descubrirá que crecer también significa aceptarse tal como es."
-        },
-        {
-          "nombre": "Chicos Buenos",
-          "inicio": "12:29",
-          "fin": "14:08",
-          "descripcion": "Tres amigos de sexto grado se meten en problemas cuando intentan asistir a una fiesta sin saber realmente cómo comportarse. En su aventura por llegar a casa a tiempo, vivirán una serie de situaciones disparatadas que pondrán a prueba su amistad."
-        },
-        {
-          "nombre": "Los Fockers: La familia de mi esposo",
-          "inicio": "14:08",
-          "fin": "16:15",
-          "descripcion": "Greg y Pam están a punto de casarse, pero antes deberán reunir a sus familias, cuyos padres tienen personalidades completamente opuestas. El encuentro entre los estrictos Byrnes y los excéntricos Focker desata una serie de situaciones incómodas y divertidas."
-        },
-        {
-          "nombre": "Mentiroso, mentiroso",
-          "inicio": "16:15",
-          "fin": "17:50",
-          "descripcion": "Un abogado acostumbrado a mentir constantemente ve su vida cambiar cuando su hijo pide un deseo que le impide decir cualquier mentira durante un día. Obligado a ser completamente sincero, deberá enfrentar las consecuencias de sus palabras mientras intenta recuperar la confianza de su familia."
-        },
-        {
-          "nombre": "Borrón y vida nueva",
-          "inicio": "17:50",
-          "fin": "19:25",
-          "descripcion": "Una mujer que intenta dejar atrás su pasado tiene la oportunidad de comenzar una nueva vida lejos de todo lo que conoce. Sin embargo, cuando viejos recuerdos y situaciones inesperadas vuelven a aparecer, deberá decidir si realmente está lista para empezar de nuevo."
-        },
-        {
-          "nombre": "Mamá Reinventada",
-          "inicio": "19:25",
-          "fin": "21:12",
-          "descripcion": "Una madre dedicada a su familia decide que es momento de recuperar sus sueños y descubrir quién es más allá de su papel como mamá. Mientras intenta reinventarse y encontrar un nuevo rumbo, deberá aprender a equilibrar sus propias necesidades con las de su familia."
-        },
-        {
-          "nombre": "Matando cabos",
-          "inicio": "21:12",
-          "fin": "23:00",
-          "descripcion": "Un hombre descubre que su jefe ha sido secuestrado y, junto a un compañero, se ve envuelto en una peligrosa y caótica cadena de acontecimientos. Entre secuestradores, criminales y malentendidos, deberán encontrar la manera de salir con vida de una situación que se complica cada vez más."
-        },
-        {
-          "nombre": "La vida inmoral de la pareja ideal",
-          "inicio": "23:00",
-          "fin": "00:39",
-          "descripcion": "Un hombre y una mujer que fueron pareja durante su juventud se reencuentran muchos años después, cuando sus vidas han tomado caminos completamente distintos. El encuentro los lleva a recordar su pasado, los errores que cometieron y los sentimientos que quizá nunca desaparecieron."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Divergente",
