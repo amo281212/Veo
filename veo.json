@@ -1790,7 +1790,14 @@
     "FX.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "Poder sin límites",
+          "inicio": "09:06",
+          "fin": "10:50",
+          "descripcion": "Andrew es un adolescente introvertido cuya principal forma de escape y expresión es una cámara de video. Pero las cosas empiezan a cambiar cuando Andrew, su primo Matt y el popular compañero Steve descubren una misteriosa sustancia que les da unos poderes increíbles. Sus habilidades se hacen más poderosas y sus vidas se salen de control cuando emergen sus lados más oscuros. Andrew captura los eventos con su cámara."
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
