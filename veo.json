@@ -362,38 +362,7 @@
     },
     "Cinemax.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Shrek para siempre",
-          "inicio": "13:11",
-          "fin": "14:53",
-          "descripcion": "Cansado de la rutina, Shrek hace un trato con el astuto Rumpelstiltskin que cambia por completo su vida y el reino de Muy Muy Lejano. Ahora deberá encontrar la manera de recuperar a Fiona, a sus amigos y el mundo que conocía antes de que sea demasiado tarde."
-        },
-        {
-          "nombre": "Matrix: Resurrecciones",
-          "inicio": "14:53",
-          "fin": "17:55",
-          "descripcion": "Thomas Anderson lleva una vida aparentemente normal, pero comienza a experimentar extraños recuerdos y visiones que lo hacen cuestionar su realidad. Cuando vuelve a encontrarse con Trinity, deberá descubrir la verdad y enfrentarse nuevamente a la Matrix."
-        },
-        {
-          "nombre": "Mountainhead",
-          "inicio": "17:55",
-          "fin": "20:07",
-          "descripcion": "Cuatro amigos multimillonarios se reúnen en una lujosa mansión de montaña mientras una grave crisis internacional sacude al mundo. Entre ambiciones, egos y conflictos personales, el encuentro se convierte en un peligroso juego de poder impulsado por la tecnología y la inteligencia artificial."
-        },
-        {
-          "nombre": "Ip Man 4: El Final",
-          "inicio": "20:07",
-          "fin": "22:14",
-          "descripcion": "Ip Man viaja a Estados Unidos para ayudar a su hijo y descubre que la comunidad china enfrenta conflictos y discriminación. Mientras busca un futuro para su familia, deberá demostrar una vez más el poder y la dignidad del kung fu."
-        },
-        {
-          "nombre": "Shrek para siempre",
-          "inicio": "22:14",
-          "fin": "00:00",
-          "descripcion": "Cansado de la rutina, Shrek hace un trato con el astuto Rumpelstiltskin que cambia por completo su vida y el reino de Muy Muy Lejano. Ahora deberá encontrar la manera de recuperar a Fiona, a sus amigos y el mundo que conocía antes de que sea demasiado tarde."
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Fahrenheit 451",
