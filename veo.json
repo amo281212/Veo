@@ -139,6 +139,12 @@
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/A%26E.png"
     },
     {
+      "clave": "ENTChannel.cl",
+      "nombre": "ENT Channel",
+      "id": "ENTChannel.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20Channel.png"
+    },
+    {
       "clave": "UniversalCrime.cl",
       "nombre": "Universal Crime",
       "id": "UniversalCrime.cl",
@@ -155,12 +161,6 @@
       "nombre": "USA Network",
       "id": "USANetwork.bo",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/USA.png"
-    },
-    {
-      "clave": "ENTChannel.cl",
-      "nombre": "ENT Channel",
-      "id": "ENTChannel.cl",
-      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20Channel.png"
     }
   ],
   "eliminados": [
