@@ -475,74 +475,7 @@
     "HBOFamily.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Mi villano favorito",
-          "inicio": "00:12",
-          "fin": "09:00",
-          "descripcion": "Gru, un supervillano que planea robar la Luna, adopta a tres niñas huérfanas como parte de su plan. Sin embargo, las pequeñas terminan cambiando su vida y descubriendo que detrás de su apariencia de villano hay un corazón inesperadamente tierno."
-        },
-        {
-          "nombre": "Los Pitufos 2",
-          "inicio": "09:00",
-          "fin": "10:48",
-          "descripcion": "Los pitufos junto con la ayuda de sus amigos humanos deberán unir fuerzas para rescatar a pitufina que ha sido secuestrada por Gargamel."
-        },
-        {
-          "nombre": "Zoom y los superhéroes",
-          "inicio": "10:48",
-          "fin": "12:19",
-          "descripcion": "Un antiguo superhéroe es reclutado para entrenar a un grupo de jóvenes con habilidades extraordinarias. Aunque al principio no quiere asumir la responsabilidad, deberá ayudarlos a convertirse en un equipo capaz de enfrentar una nueva amenaza."
-        },
-        {
-          "nombre": "El Grinch",
-          "inicio": "12:19",
-          "fin": "13:46",
-          "descripcion": "El Grinch, una criatura solitaria que detesta la Navidad, vive aislado en una cueva sobre Villa Quién. Decidido a arruinar las fiestas, roba todos los regalos y adornos, pero una pequeña niña le hará descubrir el verdadero significado de la Navidad."
-        },
-        {
-          "nombre": "Cigüeñas",
-          "inicio": "13:46",
-          "fin": "15:15",
-          "descripcion": "Junior, una cigüeña encargada de entregar paquetes, activa accidentalmente la máquina que fabrica bebés y termina con una pequeña recién nacida entre sus alas. Junto a su amiga Tulip, deberá encontrar a una familia para la bebé antes de que descubran su error."
-        },
-        {
-          "nombre": "Karate Kid: Leyendas",
-          "inicio": "15:15",
-          "fin": "16:52",
-          "descripcion": "Tras mudarse a Nueva York por una tragedia, un joven prodigio del kung fu es entrenado por el Karate Kid original para competir en un torneo de Karate."
-        },
-        {
-          "nombre": "Lego Ninjago: La película",
-          "inicio": "16:52",
-          "fin": "18:36",
-          "descripcion": "Lloyd, un joven ninja, debe enfrentarse a su propio padre, el malvado señor de la guerra Garmadon. Con la ayuda de sus amigos y maestros, aprenderá a dominar sus habilidades y a luchar para proteger la ciudad de Ninjago."
-        },
-        {
-          "nombre": "Mi Villano Favorito 2",
-          "inicio": "18:36",
-          "fin": "20:16",
-          "descripcion": "El ex súper villano y ahora convertido en súper papá ha sido reclutado por un equipo de oficiales para detener un grupo letal."
-        },
-        {
-          "nombre": "Cómo Entrenar a tu Dragón 2",
-          "inicio": "20:16",
-          "fin": "22:00",
-          "descripcion": "Los Vikingos de Berk junto al recién encontrado grupo de dragones deben enfrentar a un nuevo enemigo que pretende tomar el poder de todos los dragones."
-        },
-        {
-          "nombre": "Cómo Entrenar a tu Dragón 3",
-          "inicio": "22:00",
-          "fin": "23:47",
-          "descripcion": "Un adolescente vikingo y su Furia Nocturna finalmente descubrirán sus verdaderos destinos uno ser el jefe de Berk y el otro líder de su propia especie."
-        },
-        {
-          "nombre": "Karate Kid: Leyendas",
-          "inicio": "23:47",
-          "fin": "01:24",
-          "descripcion": "Tras mudarse a Nueva York por una tragedia, un joven prodigio del kung fu es entrenado por el Karate Kid original para competir en un torneo de Karate."
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [
         {
           "nombre": "Cómo Entrenar a tu Dragón 3",
