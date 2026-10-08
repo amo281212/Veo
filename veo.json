@@ -679,68 +679,7 @@
     "SONYMOVIES.uy": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "The Goldbergs",
-          "inicio": "01:29",
-          "fin": "10:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Morning Show Mysteries: A Murder in Mind",
-          "inicio": "10:40",
-          "fin": "12:15",
-          "descripcion": "Una presentadora de televisión se ve involucrada en una investigación criminal cuando un asesinato sacude su entorno. Mientras busca descubrir al responsable, deberá seguir las pistas y enfrentarse a secretos que podrían ponerla en peligro."
-        },
-        {
-          "nombre": "Cocodrilo: El capítulo final",
-          "inicio": "12:15",
-          "fin": "13:50",
-          "descripcion": "Una familia se ve atrapada en una peligrosa situación cuando un enorme cocodrilo aparece en un lugar donde nadie esperaba encontrarlo. Mientras intentan sobrevivir a los ataques de la criatura, deberán encontrar una forma de escapar antes de convertirse en sus próximas víctimas."
-        },
-        {
-          "nombre": "Terror en la niebla",
-          "inicio": "13:50",
-          "fin": "15:35",
-          "descripcion": "Una pequeña ciudad costera se ve envuelta en una misteriosa niebla que trae consigo criaturas sobrenaturales y mortales. Un grupo de habitantes se refugia en una tienda mientras lucha por sobrevivir y descubrir qué se esconde entre la niebla."
-        },
-        {
-          "nombre": "Hotel Transylvania",
-          "inicio": "15:35",
-          "fin": "17:10",
-          "descripcion": "El Conde Drácula organiza una celebración para su hija Mavis en un lujoso hotel donde los monstruos pueden vivir lejos de los humanos. Pero todo cambia cuando un joven humano llega accidentalmente al hotel y se enamora de Mavis."
-        },
-        {
-          "nombre": "Hotel Transylvania 2",
-          "inicio": "17:10",
-          "fin": "18:45",
-          "descripcion": "Drácula está preocupado porque su pequeño nieto Dennis parece no mostrar ninguna señal de ser un vampiro. Mientras intenta despertar su lado monstruoso, la familia recibe la inesperada visita de Vlad, el estricto padre de Drácula."
-        },
-        {
-          "nombre": "Hotel Transylvania 3: Monstruos de vacaciones",
-          "inicio": "18:45",
-          "fin": "20:25",
-          "descripcion": "Drácula y su familia se embarcan en un lujoso crucero para disfrutar de unas vacaciones lejos del hotel. Allí, Drácula se enamora de la misteriosa capitana Ericka, sin sospechar que ella guarda un peligroso secreto relacionado con su familia."
-        },
-        {
-          "nombre": "Anaconda",
-          "inicio": "20:25",
-          "fin": "22:00",
-          "descripcion": "Un equipo de documentalistas se adentra en la selva amazónica para filmar a una tribu desconocida. Su expedición se convierte en una lucha por sobrevivir cuando un cazador obsesionado los obliga a enfrentarse a una gigantesca y mortal anaconda."
-        },
-        {
-          "nombre": "Depredador 2",
-          "inicio": "22:00",
-          "fin": "23:50",
-          "descripcion": "En un futuro cercano, Los Ángeles se encuentra sumida en una violenta guerra entre bandas mientras un misterioso cazador extraterrestre comienza a perseguir a sus víctimas. Un teniente de policía deberá descubrir qué está ocurriendo antes de convertirse en la próxima presa."
-        },
-        {
-          "nombre": "Depredadores",
-          "inicio": "23:50",
-          "fin": "01:40",
-          "descripcion": "Un grupo de personas de distintos orígenes despierta en un planeta desconocido sin saber cómo llegaron allí. Pronto descubren que han sido llevados para ser cazados por una nueva generación de depredadores extraterrestres."
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [
         {
           "nombre": "The Goldbergs",
