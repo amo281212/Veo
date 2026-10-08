@@ -1343,68 +1343,7 @@
     "ENTChannel.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Programación de trasnoche",
-          "inicio": "00:00",
-          "fin": "07:52",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Maléfica 2: La Dueña del Mal",
-          "inicio": "07:52",
-          "fin": "09:43",
-          "descripcion": "Maléfica y su ahijada Aurora comienzan a cuestionar los complejos lazos familiares que las unen mientras se ven arrastradas a una inminente guerra contra una reina intrigante y nuevas fuerzas oscuras."
-        },
-        {
-          "nombre": "Transformers: La venganza de los caídos",
-          "inicio": "09:43",
-          "fin": "12:14",
-          "descripcion": "Sam Witwicky descubre oscuros secretos sobre los orígenes de los Transformers que lo convierten en el blanco de los Decepticons, mientras los Autobots se unen a fuerzas militares globales para frenar el despertar de una amenaza ancestral."
-        },
-        {
-          "nombre": "Náufrago",
-          "inicio": "12:14",
-          "fin": "14:31",
-          "descripcion": "Un obsesivo ejecutivo de una empresa de envíos sufre un trágico accidente aéreo y queda varado en una isla desierta, donde deberá luchar durante años por su supervivencia física y mental."
-        },
-        {
-          "nombre": "Horizonte profundo",
-          "inicio": "14:31",
-          "fin": "16:10",
-          "descripcion": "Basada en hechos reales, narra la heroica lucha de la tripulación a bordo de la plataforma petrolera Deepwater Horizon para sobrevivir a una catástrofe sin precedentes en el Golfo de México."
-        },
-        {
-          "nombre": "Camino a la Perdición",
-          "inicio": "16:10",
-          "fin": "18:03",
-          "descripcion": "En la Chicago de la Gran Depresión, un implacable sicario de la mafia y su hijo pequeño huyen para salvar sus vidas tras presenciar un asesinato, desatando una brutal persecución y una búsqueda de redención."
-        },
-        {
-          "nombre": "Rocky III",
-          "inicio": "18:03",
-          "fin": "19:43",
-          "descripcion": "Tras consagrarse campeón mundial, un confiado Rocky sufre una dura derrota y la trágica pérdida de su entrenador, obligándolo a buscar ayuda en un antiguo rival para recuperar su hambre de gloria."
-        },
-        {
-          "nombre": "El Gran Pez",
-          "inicio": "19:43",
-          "fin": "21:44",
-          "descripcion": "Un hijo intenta separar la realidad de la fantasía en las extraordinarias y fabulosas historias de su anciano padre, descubriendo la verdadera esencia de su vida antes de que sea demasiado tarde."
-        },
-        {
-          "nombre": "El Super Agente 86",
-          "inicio": "21:44",
-          "fin": "23:29",
-          "descripcion": "El torpe pero entusiasta agente Maxwell Smart y la experimentada agente 99 deben unirse para frustrar los malvados planes de la organización criminal KAOS y salvar al mundo de un inminente ataque nuclear."
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:29",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [
         {
           "nombre": "Programación de trasnoche",
