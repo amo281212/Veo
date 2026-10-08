@@ -670,56 +670,7 @@
     "StudioUniversal.ar": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Hollywood on Set",
-          "inicio": "00:00",
-          "fin": "09:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Una Navidad atemporal",
-          "inicio": "09:00",
-          "fin": "10:40",
-          "descripcion": "Una pareja queda atrapada en un extraño bucle temporal durante las fiestas navideñas. Mientras intenta descubrir cómo romper el ciclo, deberá enfrentarse a sus propios problemas y aprender a valorar el tiempo que tiene juntos."
-        },
-        {
-          "nombre": "Escuela para idiotas",
-          "inicio": "10:40",
-          "fin": "12:40",
-          "descripcion": "Un hombre acostumbrado a fracasar en todo decide inscribirse en una escuela especial para mejorar su vida. Allí descubre que aprender a controlar sus impulsos y asumir responsabilidades puede ser mucho más difícil de lo que imaginaba."
-        },
-        {
-          "nombre": "Un amor para recordar",
-          "inicio": "12:40",
-          "fin": "14:40",
-          "descripcion": "Un joven rebelde es obligado a participar en una actividad escolar junto a una tranquila y bondadosa compañera. Aunque al principio parecen muy diferentes, ambos terminan enamorándose y descubriendo que su relación cambiará sus vidas para siempre."
-        },
-        {
-          "nombre": "El Principe y yo",
-          "inicio": "14:40",
-          "fin": "16:45",
-          "descripcion": "Una estudiante universitaria conoce a un joven que parece ser un estudiante común, sin saber que en realidad es el príncipe heredero de Dinamarca. Mientras su romance crece, ambos deberán enfrentarse a las diferencias entre sus mundos y a las responsabilidades de la realeza."
-        },
-        {
-          "nombre": "¡Porque lo digo yo!",
-          "inicio": "16:45",
-          "fin": "18:40",
-          "descripcion": "Una madre sobreprotectora decide encontrar al hombre perfecto para su hija menor, convencida de que sabe qué es lo mejor para ella. Sin embargo, sus intentos por controlar la vida amorosa de su hija terminan provocando situaciones inesperadas y divertidas."
-        },
-        {
-          "nombre": "Johnny English",
-          "inicio": "18:40",
-          "fin": "20:20",
-          "descripcion": "Un torpe pero entusiasta agente secreto británico recibe la misión de investigar un complot que amenaza al país. Aunque carece de las habilidades de un espía tradicional, Johnny English está decidido a salvar el día, provocando una serie de situaciones absurdas."
-        },
-        {
-          "nombre": "Johnny English 3.0",
-          "inicio": "20:20",
-          "fin": "22:00",
-          "descripcion": "El agente secreto Johnny English vuelve a la acción cuando un ciberataque revela la identidad de todos los agentes británicos. Obligado a salir de su retiro, deberá detener al responsable utilizando métodos tan absurdos como inesperados."
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
