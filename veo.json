@@ -286,44 +286,7 @@
     "Golden.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Divergente",
-          "inicio": "00:39",
-          "fin": "09:33",
-          "descripcion": "En una sociedad dividida en cinco facciones según las virtudes de sus habitantes, Tris descubre que no encaja en ninguna de ellas. Al ocultar su verdadera identidad, se ve envuelta en una conspiración que amenaza con destruir el sistema que conoce."
-        },
-        {
-          "nombre": "12 años de esclavitud",
-          "inicio": "09:33",
-          "fin": "12:00",
-          "descripcion": "Solomon Northup, un hombre negro libre, es secuestrado y vendido como esclavo en el sur de Estados Unidos. Separado de su familia, deberá soportar años de abusos y luchar por conservar su dignidad y esperanza mientras busca recuperar su libertad."
-        },
-        {
-          "nombre": "Siempre a tu lado, Hachiko",
-          "inicio": "12:00",
-          "fin": "13:42",
-          "descripcion": "Un profesor encuentra un perro perdido en una estación de tren y entre ambos nace un vínculo extraordinario. Cada día, Hachiko espera fielmente el regreso de su dueño, demostrando una lealtad capaz de superar incluso las circunstancias más difíciles."
-        },
-        {
-          "nombre": "Los juegos del hambre: En llamas",
-          "inicio": "13:42",
-          "fin": "16:17",
-          "descripcion": "Después de sobrevivir a los Juegos del Hambre, Katniss Everdeen y Peeta Mellark se convierten en símbolos de rebelión contra el Capitolio. Obligados a regresar a la arena, deberán enfrentarse nuevamente a otros tributos mientras una revolución comienza a tomar fuerza."
-        },
-        {
-          "nombre": "Los Juegos del Hambre: Sinsajo - Parte 1",
-          "inicio": "16:17",
-          "fin": "18:24",
-          "descripcion": "Tras haber destruido los Juegos por siempre. Katniss y la ayuda de sus fieles amigos unen sus fuerzas para salvar a su amigo Petta y una nación movida por su coraje."
-        },
-        {
-          "nombre": "Gladiador",
-          "inicio": "18:24",
-          "fin": "21:14",
-          "descripcion": "Un poderoso general romano es traicionado y convertido en esclavo tras el asesinato de su familia. Obligado a luchar como gladiador, busca vengarse del emperador que destruyó su vida y recuperar su honor."
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
