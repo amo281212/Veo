@@ -981,50 +981,7 @@
     "FX.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Poder sin límites",
-          "inicio": "09:06",
-          "fin": "10:50",
-          "descripcion": "Andrew es un adolescente introvertido cuya principal forma de escape y expresión es una cámara de video. Pero las cosas empiezan a cambiar cuando Andrew, su primo Matt y el popular compañero Steve descubren una misteriosa sustancia que les da unos poderes increíbles. Sus habilidades se hacen más poderosas y sus vidas se salen de control cuando emergen sus lados más oscuros. Andrew captura los eventos con su cámara."
-        },
-        {
-          "nombre": "Espiando a los vecinos",
-          "inicio": "10:50",
-          "fin": "13:02",
-          "descripcion": "Una pareja convencional de un barrio acomodado se entromete en una trama de espionaje cuando descubren que sus nuevos vecinos, una pareja elegante y sofisticada, son en realidad agentes secretos al servicio del gobierno."
-        },
-        {
-          "nombre": "Hitman: Agente 47",
-          "inicio": "13:02",
-          "fin": "14:56",
-          "descripcion": "Una recreación del popular juego de video de Square Enix de la serie Hitman acerca de un asesino calvo llamado 47."
-        },
-        {
-          "nombre": "Los expedientes secretos X: quiero creer",
-          "inicio": "14:56",
-          "fin": "17:02",
-          "descripcion": "Los agentes del FBI Mulder y Scully investigan la desaparición de varias mujeres en una población rural de Virginia. Siguiendo algunas pistas, descubren un experimento secreto que puede guardar relación con las desapariciones."
-        },
-        {
-          "nombre": "El Planeta de los Simios: La Guerra",
-          "inicio": "17:02",
-          "fin": "19:43",
-          "descripcion": "Cesar y sus simios se ven obligados a una batalla contra los humanos, el destino de esta determinará el destino de sus especies y el futuro del planeta."
-        },
-        {
-          "nombre": "Horas contadas",
-          "inicio": "19:43",
-          "fin": "21:59",
-          "descripcion": "En febrero de 1952, en mitad de una tormenta monstruosa que se cierne sobre Nueva Inglaterra, los miembros de la Guardia Costera arriesgan sus vidas para rescatar a los trabajadores de dos petroleros que la tempestad ha destrozado."
-        },
-        {
-          "nombre": "Max Payne",
-          "inicio": "21:59",
-          "fin": "00:04",
-          "descripcion": "Un policía inconforme enfrenta una batalla sobrenatural cuando visita el bajo mundo en busca de los asesinos de su familia y de su compañero"
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
