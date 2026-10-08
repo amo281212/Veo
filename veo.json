@@ -295,62 +295,7 @@
     "GoldenEdge.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "La casa de cera",
-          "inicio": "01:05",
-          "fin": "03:07",
-          "descripcion": "Seis amigos están en camino a un partido de fútbol cuando se encuentran con un pueblo fantasma llamado Ambrose cuyo principal atractivo es la casa de cera. Pronto descubren que algo no está bien en esta ciudad, que está completamente desierta, y cuyas figuras de cera son extremadamente realistas. Los seis amigos tendrán que luchar para sobrevivir y evitar ser las próximas exposiciones en la casa de cera."
-        },
-        {
-          "nombre": "Temporada de brujas",
-          "inicio": "03:07",
-          "fin": "10:07",
-          "descripcion": "Dos caballeros regresan de las Cruzadas a una Europa devastada por la peste y reciben la misión de escoltar a una joven acusada de brujería. Durante el peligroso viaje, comienzan a sospechar que fuerzas sobrenaturales podrían estar detrás de la epidemia."
-        },
-        {
-          "nombre": "Hotel Mumbai: El atentado",
-          "inicio": "10:07",
-          "fin": "12:16",
-          "descripcion": "En medio de un ataque terrorista en Mumbai, huéspedes y trabajadores del Hotel Taj Mahal Palace quedan atrapados y luchan por sobrevivir. Un grupo de empleados arriesga su vida para proteger a los huéspedes mientras buscan una salida del hotel sitiado."
-        },
-        {
-          "nombre": "Alerta máxima 2",
-          "inicio": "12:16",
-          "fin": "14:04",
-          "descripcion": "Un experto en alta tecnología brillante y maniaco ha secuestrado el tren de pasajeros más elegante de Norteamérica, trasformando uno de los vagones en un centro de mandos informatizado, con un despliegue de tecnología ultramoderna capaz de controlar un imponente satélite mortal. Desde allí pretende destruir la ciudad de Washington. Pero el único pasajero que no ha sido capturado por los terroristas es Ryback."
-        },
-        {
-          "nombre": "Reyes de la calle",
-          "inicio": "14:04",
-          "fin": "15:58",
-          "descripcion": "Cuando las pruebas señalan a un veterano policía como culpable de la muerte de otro policía, éste deberá enfrentarse a la cultura policial que siempre conoció. También deberá cuestionar las lealtades de quienes lo rodean."
-        },
-        {
-          "nombre": "El libro de los secretos",
-          "inicio": "15:58",
-          "fin": "17:59",
-          "descripcion": "En un futuro apocalíptico, 30 años después del \"resplandor\" que aniquiló la casi totalidad de la sociedad civilizada, unos pocos humanos sobreviven en un ambiente increíblemente hostil y árido. Violaciones, canibalismo y salvajismo imperan en unas derruidas ciudades donde el más fuerte y el que posee el agua impone su ley. Vagando por la carretera, un guerrero solitario se dirige al oeste con una sola misión: proteger un misterioso libro que lleva en su mochila."
-        },
-        {
-          "nombre": "Hombre en llamas",
-          "inicio": "17:59",
-          "fin": "20:35",
-          "descripcion": "John Creasy, un antiguo agente de la CIA y que ha renunciado a su vida anterior, es contratado en México por su mejor amigo para hacer de guardaespaldas de una niña de nueve años de edad. Creasy soporta a regañadientes a la precoz niña y sus irritantes preguntas sobre él y su vida. Pero poco a poco, vence su resistencia y éste se abre a ella. Cuando la niña es secuestrada y a pesar de resultar gravemente herido en el momento del secuestro, Creasy jura matar a cualquiera que esté involucrado en el secuestro de la pequeña. Y nadie va a poder pararle."
-        },
-        {
-          "nombre": "El justiciero",
-          "inicio": "20:35",
-          "fin": "23:00",
-          "descripcion": "McCall está convencido de haber dejado atrás su misterioso pasado y ahora se dedica a construir una vida nueva y tranquila. Pero cuando conoce a una joven que está en manos de gánsteres rusos ultra violentos, se sentirá obligado a ayudarla. Él cuenta con habilidades ocultas que le permiten vengarse de cualquiera que se atreva a maltratar a los desamparados. Es así como McCall sale de su retiro autoimpuesto y redescubre su deseo por hacer justicia. Si alguien está en problemas, si hay alguna circunstancia en contra de un inocente, y si no tiene cómo escapar, McCall estará allí para ayudar."
-        },
-        {
-          "nombre": "Gánster americano",
-          "inicio": "23:00",
-          "fin": "01:50",
-          "descripcion": "Frank Lucas construye un poderoso imperio de drogas en el Harlem de los años 70, aprovechando una red de contrabando para convertirse en uno de los criminales más influyentes de Nueva York. Un detective decidido a detenerlo comienza a seguirle el rastro y a desmantelar su organización."
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [
         {
           "nombre": "Ciudad de sombras",
