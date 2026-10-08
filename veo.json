@@ -999,50 +999,7 @@
     "StarChannel.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Castle",
-          "inicio": "00:26",
-          "fin": "12:56",
-          "descripcion": "Temporada 8 | Episodio 22"
-        },
-        {
-          "nombre": "Máxima Velocidad",
-          "inicio": "12:56",
-          "fin": "15:11",
-          "descripcion": "Un decidido oficial del equipo de desactivación de explosivos de Los Ángeles debe evitar que una bomba instalada en un autobús urbano estalle, manteniendo la velocidad del vehículo por encima de las cincuenta millas por hora mientras un terrorista extorsiona a la ciudad."
-        },
-        {
-          "nombre": "Imparable",
-          "inicio": "15:11",
-          "fin": "17:07",
-          "descripcion": "Un experimentado maquinista de trenes y un joven conductor se embarcan en una arriesgada carrera contrarreloj a bordo de una locomotora para intentar detener a un tren de carga fuera de control que transporta materiales tóxicos antes de que arrase con todo a su paso."
-        },
-        {
-          "nombre": "Armageddon",
-          "inicio": "17:07",
-          "fin": "20:07",
-          "descripcion": "Un veterano perforador de petróleo y su equipo de expertos son reclutados por la agencia espacial para viajar al espacio, aterrizar en un asteroide del tamaño de Texas que se dirige hacia la Tierra y detonar una ojiva nuclear en su interior para salvar a la humanidad de la extinción."
-        },
-        {
-          "nombre": "Los viajes de Gulliver",
-          "inicio": "20:07",
-          "fin": "21:51",
-          "descripcion": "Un cartero holgazán que trabaja en el departamento de correo de un periódico de Nueva York acepta una misión de viaje a las Bermudas, pero termina naufragando y llegando a la misteriosa isla de Liliput, donde los habitantes son diminutos y él se convierte en un gigante."
-        },
-        {
-          "nombre": "Señales",
-          "inicio": "21:51",
-          "fin": "23:55",
-          "descripcion": "Un antiguo pastor episcopal que vive en una granja junto a su familia descubre misteriosos círculos de cultivo en sus campos, lo que desencadena una serie de aterradores eventos globales que revelan una inminente invasión alienígena y ponen a prueba su fe."
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:55",
-          "fin": "00:26",
-          "descripcion": ""
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
