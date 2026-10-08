@@ -278,7 +278,14 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Cuestión de honor",
+          "inicio": "00:00",
+          "fin": "10:31",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
