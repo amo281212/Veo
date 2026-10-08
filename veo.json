@@ -411,56 +411,7 @@
     "HBO2.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "El Rey Arturo: La Leyenda de la Espada",
-          "inicio": "00:30",
-          "fin": "09:00",
-          "descripcion": "Cuando el padre del pequeño Arturo es asesinado, su tío se apodera de la corona. Pero todo está por cambiar cuando Arturo tome la espada de la piedra."
-        },
-        {
-          "nombre": "Shazam!",
-          "inicio": "09:00",
-          "fin": "11:20",
-          "descripcion": "Shazam!\nUn niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe gracias a un antiguo mago, ahora necesita dominar rápidamente sus poderes."
-        },
-        {
-          "nombre": "Wonka",
-          "inicio": "11:20",
-          "fin": "13:24",
-          "descripcion": "Sigue la maravillosa historia de cómo el mayor inventor del mundo, el mago y el chocolatero se convirtió en el querido Willy Wonka que conocemos hoy."
-        },
-        {
-          "nombre": "Duna",
-          "inicio": "13:24",
-          "fin": "16:06",
-          "descripcion": "Paul Atreides viaja al peligroso planeta Arrakis junto a su familia, encargada de controlar la valiosa especia que mueve el universo. Tras una traición que cambia su destino, Paul deberá enfrentar nuevos peligros y descubrir el papel que está destinado a desempeñar."
-        },
-        {
-          "nombre": "Duna: Parte Dos",
-          "inicio": "16:06",
-          "fin": "18:58",
-          "descripcion": "Sigue el viaje mítico de Paul Atreides mientras se une a Chani y los Fremen en una guerra de venganza contra los conspiradores que destruyeron a su familia."
-        },
-        {
-          "nombre": "Linternas (T1, E8)",
-          "inicio": "18:58",
-          "fin": "19:58",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Beetlejuice Beetlejuice",
-          "inicio": "19:58",
-          "fin": "21:50",
-          "descripcion": "Después de una tragedia familiar, Lydia Deetz vuelve a Winter River junto a su hija Astrid, quien descubre el misterioso modelo de la ciudad en el ático. Al abrirse nuevamente el portal al más allá, Beetlejuice regresa dispuesto a sembrar el caos."
-        },
-        {
-          "nombre": "Tornados",
-          "inicio": "21:50",
-          "fin": "00:00",
-          "descripcion": "Una científica obsesionada con los tornados y un famoso cazador de tormentas se unen cuando una serie de fenómenos devastadores amenaza con arrasar una región. Mientras las tormentas se intensifican, deberán enfrentarse a fuerzas de la naturaleza que escapan de todo control."
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [
         {
           "nombre": "Mujer Maravilla 1984",
