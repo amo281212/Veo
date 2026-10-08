@@ -831,50 +831,7 @@
     "TNT.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Ganar o morir",
-          "inicio": "08:43",
-          "fin": "10:26",
-          "descripcion": "Un reo experto en artes marciales que escapa de una prisión, protege a una viuda y a sus hijos de un terrible acoso de una poderosa organización que busca adueñarse de sus tierras."
-        },
-        {
-          "nombre": "Oblivion: El Tiempo del Olvido",
-          "inicio": "10:26",
-          "fin": "12:41",
-          "descripcion": "Un reparador de drones del planeta tierra desvastado luego de décadas de guerras con los extraterrestres descubre los restos de una nave espacial."
-        },
-        {
-          "nombre": "Romeo Debe Morir",
-          "inicio": "12:41",
-          "fin": "14:49",
-          "descripcion": "Han quiere vengar la muerte de su hermano, miembro de una pandilla asiática que le disputaba el control del puerto de Oakland a los gánsteres afroamericanos. Pero todo se complica cuando conoce a Trish, dado que ambos pertenecen a bandos opuestos."
-        },
-        {
-          "nombre": "El protector",
-          "inicio": "14:49",
-          "fin": "16:59",
-          "descripcion": "Un agente de protección de testigos descubre que hay corrupción en el departamento y que debe proteger a una joven."
-        },
-        {
-          "nombre": "El rey Arturo: la leyenda de la espada",
-          "inicio": "16:59",
-          "fin": "19:22",
-          "descripcion": "Arturo fue robado al nacer y tuvo una educación espartana en una zona conflictiva de la ciudad, pero cuando extrae la espada Excalibur de la piedra en la que estaba clavada, la profecía se cumple y acepta el destino de liderar a su pueblo."
-        },
-        {
-          "nombre": "Aquaman",
-          "inicio": "19:22",
-          "fin": "22:00",
-          "descripcion": "Un mitad humano y mitad atlanticense es llevado al viaje de su vida donde se verá forzado a enfrentar quien es en verdad y descubrir si es digno de ser un rey."
-        },
-        {
-          "nombre": "Aquaman y el Reino Perdido",
-          "inicio": "22:00",
-          "fin": "00:11",
-          "descripcion": "Para proteger a su familia y su reino de Black Manta que es más fuerte que nunca, Aquaman forma una alianza improbable con su hermano Orm para detenerlo."
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [
         {
           "nombre": "Derecho de familia",
