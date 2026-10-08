@@ -758,56 +758,7 @@
     "UniversalCinema.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "La Máquina del Recuerdo",
-          "inicio": "08:05",
-          "fin": "09:55",
-          "descripcion": "Un detective aficionado roba una máquina capaz de grabar, almacenar y mostrar los recuerdos de otra persona para resolver con ella el enigma de quién asesinó al inventor de este artilugio."
-        },
-        {
-          "nombre": "Regresión",
-          "inicio": "09:55",
-          "fin": "11:40",
-          "descripcion": "El detective Bruce Kenner viaja a Minnesota para investigar el caso de la joven Ángela, que acusa a su padre, John, de haber cometido un crimen inconfesable. John admite la autoría del crimen sin recordar nada de lo sucedido."
-        },
-        {
-          "nombre": "El Precio del Mañana",
-          "inicio": "11:40",
-          "fin": "13:30",
-          "descripcion": "Un hombre es acusado de asesinato y debe encontrar la forma de acabar con un sistema en donde el tiempo es dinero, permitiéndole a los ricos vivir para siempre, mientras los pobres ruegan por cada minuto de vida."
-        },
-        {
-          "nombre": "John Wick 3: Parabellum",
-          "inicio": "13:30",
-          "fin": "15:40",
-          "descripcion": "Tras asesinar a un miembro del misterioso gremio de asesinos John Wick queda excomulgado, ahora es el objetivo de sicarios despiadados de todo el mundo."
-        },
-        {
-          "nombre": "El tirador",
-          "inicio": "15:40",
-          "fin": "17:45",
-          "descripcion": "Un ex-francotirador es obligado a volver al servicio militar y planea vengarse de sus poderosos enemigos después de ser traicionado y herido."
-        },
-        {
-          "nombre": "Misión imposible 2",
-          "inicio": "17:45",
-          "fin": "19:50",
-          "descripcion": "Ethan Hunt y su equipo intentan evitar que un exagente libere un virus mortal genéticamente modificado que, en manos equivocadas, podría causar estragos."
-        },
-        {
-          "nombre": "Misión imposible: protocolo fantasma",
-          "inicio": "19:50",
-          "fin": "22:00",
-          "descripcion": "Cuando un incidente implica a la IMF como terroristas internacionales, Ethan Hunt y su equipo de élite se enfrentan a su misión más difícil y deben operar en la clandestinidad para evitar un complot capaz de desatar una guerra nuclear."
-        },
-        {
-          "nombre": "Top Gun: Maverick",
-          "inicio": "22:00",
-          "fin": "00:05",
-          "descripcion": "Después de más de treinta años de servicio, Pete \"Maverick\" Mitchell evita ser promovido para seguir volando mientras entrena a un grupo de jóvenes pilotos."
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [
         {
           "nombre": "Oscura Verdad",
