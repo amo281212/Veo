@@ -353,62 +353,7 @@
     "HBO.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Hombres de Negro 3",
-          "inicio": "01:00",
-          "fin": "09:00",
-          "descripcion": "Cuando el agente Kay desaparece, el agente Jay debe viajar al pasado para arreglar las cosas y descubrir secretos en el universo que Kay no le ha contado."
-        },
-        {
-          "nombre": "El Alma de la Fiesta",
-          "inicio": "09:00",
-          "fin": "10:50",
-          "descripcion": "Después de que su esposo la abandona, una mujer decide retomar sus estudios universitarios y comenzar una nueva etapa de su vida. Al compartir clases con jóvenes mucho menores que ella, descubre una nueva confianza y se convierte en el centro de atención del campus."
-        },
-        {
-          "nombre": "Hasta Que Amanezca",
-          "inicio": "10:50",
-          "fin": "12:25",
-          "descripcion": "Una joven pareja queda atrapada en una noche que parece no tener fin, mientras una serie de extraños acontecimientos amenaza con cambiar sus vidas. A medida que pasan las horas, deberán enfrentar sus miedos y descubrir la verdad antes de que llegue el amanecer."
-        },
-        {
-          "nombre": "En el Tornado",
-          "inicio": "12:25",
-          "fin": "14:01",
-          "descripcion": "Los habitantes del pueblo de Silverston ven como su ciudad es destrozada por la llegada de unos Tornados devastadores."
-        },
-        {
-          "nombre": "Jurassic World: Renace",
-          "inicio": "14:01",
-          "fin": "16:23",
-          "descripcion": "Un grupo de científicos buscan a las criaturas más colosales de la tierra, el mar y el aire, ya que en su ADN poseen la clave para salvar a la humanidad."
-        },
-        {
-          "nombre": "Cumbres borrascosas",
-          "inicio": "16:23",
-          "fin": "18:47",
-          "descripcion": "Heathcliff y Catherine desarrollan un amor intenso e imposible que desafía las diferencias sociales y las circunstancias que los separan. Los celos, el resentimiento y el deseo de venganza marcarán sus vidas y las de quienes los rodean durante generaciones."
-        },
-        {
-          "nombre": "Cónclave",
-          "inicio": "18:47",
-          "fin": "20:55",
-          "descripcion": "Tras la muerte del papa, cardenales de todo el mundo se reúnen en el Vaticano para elegir a su sucesor. Mientras las votaciones avanzan, salen a la luz secretos y rivalidades que podrían cambiar el rumbo de la Iglesia."
-        },
-        {
-          "nombre": "Sniper: No Nation",
-          "inicio": "20:55",
-          "fin": "22:38",
-          "descripcion": "Un francotirador de élite se enfrenta a una peligrosa misión en África, donde deberá localizar y eliminar a un objetivo mientras lidia con una amenaza inesperada. En medio del conflicto, cada disparo puede significar la diferencia entre sobrevivir o caer."
-        },
-        {
-          "nombre": "Jurassic World: Renace",
-          "inicio": "22:38",
-          "fin": "01:00",
-          "descripcion": "Un grupo de científicos buscan a las criaturas más colosales de la tierra, el mar y el aire, ya que en su ADN poseen la clave para salvar a la humanidad."
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [
         {
           "nombre": "Mi vida a los diecisiete",
