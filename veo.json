@@ -749,56 +749,7 @@
     "Sony.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "The Good Doctor",
-          "inicio": "00:00",
-          "fin": "10:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Betty's call",
-          "inicio": "10:00",
-          "fin": "12:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "The Nanny",
-          "inicio": "12:00",
-          "fin": "13:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Vecinos",
-          "inicio": "13:45",
-          "fin": "14:20",
-          "descripcion": ""
-        },
-        {
-          "nombre": "My wife and kids",
-          "inicio": "14:20",
-          "fin": "15:20",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Son como niños",
-          "inicio": "15:20",
-          "fin": "17:15",
-          "descripcion": "Cinco amigos de la infancia se reúnen con sus familias para pasar unos días juntos en una casa junto a un lago. Lo que comienza como unas vacaciones tranquilas se convierte en una serie de situaciones cómicas mientras los adultos vuelven a comportarse como niños."
-        },
-        {
-          "nombre": "Jurassic World: Dominio",
-          "inicio": "17:15",
-          "fin": "19:50",
-          "descripcion": "Los dinosaurios ahora viven y cazan junto a los humanos en distintas partes del mundo, alterando el equilibrio de la naturaleza. Owen y Claire emprenden una peligrosa misión para rescatar a una joven, mientras los personajes de la saga original se unen a ellos para enfrentar una nueva amenaza."
-        },
-        {
-          "nombre": "Constantine",
-          "inicio": "19:50",
-          "fin": "22:00",
-          "descripcion": "John Constantine, un detective especializado en fenómenos sobrenaturales, intenta salvar su alma mientras combate fuerzas demoníacas en la Tierra. Cuando una detective lo busca para investigar la misteriosa muerte de su hermana, ambos descubren una conspiración que amenaza con desatar el infierno."
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
