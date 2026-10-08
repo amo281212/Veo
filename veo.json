@@ -822,50 +822,7 @@
     "Space.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Policías de repuesto",
-          "inicio": "09:31",
-          "fin": "11:43",
-          "descripcion": "Los detectives Danson y Highsmith son los grandes héroes del Departamento de Policía de Nueva York y la gente los ama al grado de tatuárselos. En la misma oficina trabajan también Gamble y Hoitz, quienes están a cargo del papeleo y generalmente salen al fondo en las fotografías de los periódicos. Pero gracias a una serie de hechos asombrosos, Gamble y Hoitz tendrán finalmente la posibilidad de demostrar de qué están hechos."
-        },
-        {
-          "nombre": "R.I.P.D.: policía del más allá",
-          "inicio": "11:43",
-          "fin": "13:24",
-          "descripcion": "El veterano Roy Pulsifer lleva toda su vida en el Departamento de Policía Mortal del Más Allá, siguiendo la pista de unos delincuentes muy especiales que intentan escaparse del Juicio Final escondiéndose entre los habitantes de la Tierra."
-        },
-        {
-          "nombre": "Karate Kid",
-          "inicio": "13:24",
-          "fin": "15:42",
-          "descripcion": "Daniel es un adolescente cuyo tránsito por la adolescencia se hace más duro aún tras su llegada a una ciudad nueva en la que debe empezar de cero y hacerse amigos nuevos. Rápidamente se convierte en el centro de todos los ataques de Cobras, una malvada pandilla de estudiantes de karate, que no están nada contentos cuando comienza una relación con Ali, la ex novia del líder de los Cobras."
-        },
-        {
-          "nombre": "Karate Kid II: La historia continúa",
-          "inicio": "15:42",
-          "fin": "17:51",
-          "descripcion": "Daniel se está mudando con su mentor, el señor Miyagi, ya que su madre se acaba de transferir al norte. Miyagi recibe la noticia de que su padre está gravemente enfermo y decide regresar a su aldea en Okinawa. Daniel quiere ofrecerle apoyo a su amigo y figura paterna así que decide acompañarlo, con la esperanza también de aprender un poco más de la historia del hombre."
-        },
-        {
-          "nombre": "Karate Kid III: El desafío final",
-          "inicio": "17:51",
-          "fin": "20:01",
-          "descripcion": "En contra de los deseos de su mentor, Daniel defenderá su título en el campeonato de karate de All-Valley organizado por su enemigo Kreese, cuyo súbdito cayó derrotado años atrás en la final contra Daniel."
-        },
-        {
-          "nombre": "Venganza despiadada",
-          "inicio": "20:01",
-          "fin": "22:00",
-          "descripcion": "En Colombia, durante 1992, una pequeña que lleva por nombre Cataleya, de tan solo nueve años, escapa a Estados Unidos junto a su tío Emilio tras presenciar el asesinato de sus padres. Su pariente, convertido a través del tiempo en un gánster, le enseña a la pequeña el oficio de matar y la emplea como liquidadora profesional. Quince años después, la joven decide remover su pasado y buscar a los culpables del homicidio de sus padres en busca de venganza, aunque para ello tenga que sacrificar todo lo que más quiere y ama."
-        },
-        {
-          "nombre": "Pequeños detalles",
-          "inicio": "22:00",
-          "fin": "00:22",
-          "descripcion": "El alguacil adjunto del condado de Kern, Joe Deacon, es enviado a Los Ángeles para lo que debería haber sido una tarea rápida de recopilación de pruebas. En cambio, se ve envuelto en la búsqueda de un asesino en serie que aterroriza a la ciudad."
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
