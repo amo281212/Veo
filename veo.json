@@ -225,50 +225,7 @@
     "Cinecanal.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Reefa",
-          "inicio": "00:00",
-          "fin": "09:00",
-          "descripcion": "Inspirada en hechos reales, la película narra los últimos meses de vida de Israel Hernández Jr. (\"Reefa\"), un talentoso grafitero y joven apasionado por el arte que vive en Miami, cuyo destino da un giro trágico en el verano de 2013 tras un fatal encuentro con la policía."
-        },
-        {
-          "nombre": "Cats",
-          "inicio": "09:00",
-          "fin": "11:14",
-          "descripcion": "Durante una noche especial, una comunidad de gatos Jellicle se reúne para celebrar su elección anual, en la que uno de ellos será elegido para comenzar una nueva vida. Entre canciones, bailes y rivalidades, cada felino intenta demostrar por qué merece ser el elegido."
-        },
-        {
-          "nombre": "Nueve meses",
-          "inicio": "11:14",
-          "fin": "13:25",
-          "descripcion": "Un hombre que disfruta de su vida sin compromisos descubre que su novia está embarazada. Mientras intenta asimilar la noticia, deberá enfrentarse a sus miedos y decidir si está preparado para convertirse en padre."
-        },
-        {
-          "nombre": "Ciudades de papel",
-          "inicio": "13:25",
-          "fin": "15:48",
-          "descripcion": "Quentin se embarca en una aventura para encontrar a su misteriosa vecina y amor platónico, Margo, después de que ella desaparece inesperadamente. Junto a sus amigos, sigue las pistas que ella dejó atrás y descubre nuevas verdades sobre sí mismo y su relación con ella."
-        },
-        {
-          "nombre": "Amor sin barreras19:05",
-          "inicio": "15:48",
-          "fin": "19:05",
-          "descripcion": "En el Nueva York de los años 50, Tony y María se enamoran a pesar de pertenecer a pandillas rivales enfrentadas por el territorio y los prejuicios. Su romance se ve atrapado entre la violencia, los conflictos familiares y una sociedad que amenaza con separarlos."
-        },
-        {
-          "nombre": "Los ojos de Tammy Faye",
-          "inicio": "19:05",
-          "fin": "21:44",
-          "descripcion": "Tammy Faye y Jim Bakker construyen un enorme imperio religioso y televisivo desde sus humildes comienzos. Mientras alcanzan fama y riqueza, Tammy intenta mantener su identidad y sus valores en medio de escándalos, ambición y conflictos personales."
-        },
-        {
-          "nombre": "Dime que no es cierto",
-          "inicio": "21:44",
-          "fin": "00:00",
-          "descripcion": "Un joven descubre que podría estar relacionado por sangre con la mujer de la que está enamorado. Mientras intenta descubrir la verdad, una serie de malentendidos y situaciones absurdas complican aún más su relación y lo llevan a una disparatada búsqueda para demostrar que su amor es posible."
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [
         {
           "nombre": "Across the River and Into the Trees",
