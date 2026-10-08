@@ -661,50 +661,7 @@
     "HBO.Plus.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Gremlins 2: La nueva generación",
-          "inicio": "01:00",
-          "fin": "10:11",
-          "descripcion": "Billy y Kate vuelven a encontrarse con Gizmo, quien accidentalmente queda expuesto al agua y da origen a una nueva generación de traviesos gremlins. Esta vez, las criaturas causarán el caos dentro de un enorme rascacielos de Nueva York."
-        },
-        {
-          "nombre": "La posesión de la momia",
-          "inicio": "10:11",
-          "fin": "12:31",
-          "descripcion": "Un grupo de arqueólogos despierta accidentalmente una antigua maldición al descubrir una momia egipcia. Cuando una presencia sobrenatural comienza a apoderarse de los vivos, deberán encontrar la forma de detenerla antes de que sea demasiado tarde."
-        },
-        {
-          "nombre": "Ojo por ojo",
-          "inicio": "12:31",
-          "fin": "14:16",
-          "descripcion": "Una mujer queda marcada por la tragedia después de que su hija sea víctima de un crimen brutal. Incapaz de aceptar la injusticia, decide tomar la justicia por sus propias manos y emprende una peligrosa búsqueda de venganza."
-        },
-        {
-          "nombre": "Bárbaro",
-          "inicio": "14:16",
-          "fin": "16:06",
-          "descripcion": "Un guerrero que vive en un mundo dominado por la violencia y la barbarie emprende un viaje marcado por la venganza y la supervivencia. Enfrentándose a enemigos despiadados, deberá luchar para recuperar lo que le fue arrebatado."
-        },
-        {
-          "nombre": "El conjuro 2",
-          "inicio": "16:06",
-          "fin": "18:26",
-          "descripcion": "Los investigadores paranormales Ed y Lorraine Warren viajan a Londres para ayudar a una madre y sus hijos, quienes aseguran estar siendo acosados por una presencia sobrenatural. Al investigar la casa, descubren una entidad mucho más peligrosa de lo que imaginaban."
-        },
-        {
-          "nombre": "La llave maestra",
-          "inicio": "18:26",
-          "fin": "20:16",
-          "descripcion": "Una joven enfermera acepta trabajar en una aislada mansión de Luisiana para cuidar a un hombre enfermo. Allí encuentra una habitación secreta y descubre antiguos rituales de magia que la llevan a una aterradora verdad sobre la casa y sus habitantes."
-        },
-        {
-          "nombre": "La Huérfana: El Origen",
-          "inicio": "20:16",
-          "fin": "22:01",
-          "descripcion": "Leena escapa de un hospital psiquiátrico en Estonia y asume la identidad de una niña desaparecida para infiltrarse en una familia adinerada. Sin embargo, su nueva vida se complica cuando una madre decidida a proteger a su familia comienza a sospechar de ella."
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
