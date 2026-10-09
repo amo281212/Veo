@@ -324,50 +324,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Across the River and Into the Trees",
-          "inicio": "00:00",
-          "fin": "09:00",
-          "descripcion": "Un coronel estadounidense viaja a Venecia durante los últimos días de la Segunda Guerra Mundial, buscando un lugar donde enfrentar sus recuerdos y su deteriorada salud. Allí conoce a una joven aristócrata que despierta en él sentimientos inesperados y una renovada esperanza."
-        },
-        {
-          "nombre": "Henry y Klauss: Maestros de la magia",
-          "inicio": "09:00",
-          "fin": "11:45",
-          "descripcion": "Los hermanos Henry y Klauss presentan un espectáculo lleno de grandes ilusiones, sorprendentes trucos y momentos de humor. Una experiencia de magia y entretenimiento en la que lo imposible parece convertirse en realidad."
-        },
-        {
-          "nombre": "Mesa 19",
-          "inicio": "11:45",
-          "fin": "13:33",
-          "descripcion": "Una joven es invitada a una boda, pero termina sentada en la mesa reservada para los invitados que nadie sabe dónde colocar. Junto a un grupo de desconocidos, descubrirá que todos tienen algo en común y que quizá la celebración no sea tan incómoda como parecía."
-        },
-        {
-          "nombre": "La noche que luché contra Dios",
-          "inicio": "13:33",
-          "fin": "15:56",
-          "descripcion": "Tras perder a su familia en un trágico accidente, un hombre atraviesa una profunda crisis de fe y se enfrenta a sus propias dudas y cuestionamientos. En una noche marcada por el dolor, deberá luchar contra sus sentimientos y encontrar un nuevo sentido para seguir adelante."
-        },
-        {
-          "nombre": "Nueve Meses",
-          "inicio": "15:56",
-          "fin": "18:06",
-          "descripcion": "Un hombre que disfruta de su vida sin compromisos descubre que su novia está embarazada. Mientras intenta asimilar la noticia, deberá enfrentarse a sus miedos y decidir si está preparado para convertirse en padre."
-        },
-        {
-          "nombre": "Eco En El Cañón",
-          "inicio": "18:06",
-          "fin": "20:00",
-          "descripcion": "Documental que explora la explosión musical de Laurel Canyon, en Los Ángeles, durante los años 60. Jakob Dylan se reúne con músicos legendarios para recordar a bandas como The Byrds, The Beach Boys y Buffalo Springfield, y descubrir cómo aquella escena transformó la música popular."
-        },
-        {
-          "nombre": "Madagascar",
-          "inicio": "20:00",
-          "fin": "21:49",
-          "descripcion": "Un león, una cebra, una jirafa y un hipopótamo escapan accidentalmente del zoológico de Nueva York y terminan en la exótica isla de Madagascar. Lejos de su hogar, deberán adaptarse a la naturaleza y enfrentarse a situaciones inesperadas."
-        }
-      ],
+      "Jueves": [],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
