@@ -1331,6 +1331,12 @@
           "inicio": "09:00",
           "fin": "10:20",
           "descripcion": ""
+        },
+        {
+          "nombre": "Las Chicas Superpoderosas",
+          "inicio": "10:20",
+          "fin": "11:42",
+          "descripcion": ""
         }
       ]
     },
