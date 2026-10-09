@@ -1137,6 +1137,12 @@
           "inicio": "15:26",
           "fin": "17:30",
           "descripcion": ""
+        },
+        {
+          "nombre": "HBO Movies",
+          "inicio": "17:30",
+          "fin": "18:30",
+          "descripcion": ""
         }
       ],
       "Domingo": []
