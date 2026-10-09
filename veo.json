@@ -625,7 +625,14 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Ladrón que roba a ladrón",
+          "inicio": "12:00",
+          "fin": "13:39",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
