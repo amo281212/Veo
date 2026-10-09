@@ -631,6 +631,12 @@
           "inicio": "12:00",
           "fin": "13:39",
           "descripcion": ""
+        },
+        {
+          "nombre": "Una Pequeña Confusión",
+          "inicio": "13:39",
+          "fin": "15:32",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
