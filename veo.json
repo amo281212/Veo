@@ -1901,6 +1901,12 @@
           "inicio": "13:00",
           "fin": "14:55",
           "descripcion": ""
+        },
+        {
+          "nombre": "Hotel Transylvania",
+          "inicio": "14:55",
+          "fin": "16:45",
+          "descripcion": ""
         }
       ]
     },
