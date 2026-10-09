@@ -1536,56 +1536,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Resident Evil 5: La Venganza",
-          "inicio": "00:00",
-          "fin": "09:20",
-          "descripcion": "Alice despierta atrapada en una instalación de Umbrella Corporation y descubre que forma parte de un experimento. Con la ayuda de antiguos aliados, deberá luchar contra hordas de criaturas y descubrir la verdad detrás del virus que ha devastado el mundo."
-        },
-        {
-          "nombre": "Sector 9",
-          "inicio": "09:20",
-          "fin": "11:18",
-          "descripcion": "Una enorme nave extraterrestre queda varada sobre Johannesburgo y sus tripulantes son confinados en un área llamada Sector 9. Años después, un funcionario encargado de trasladarlos comienza a transformarse en uno de ellos y descubre una nueva perspectiva sobre los extraterrestres."
-        },
-        {
-          "nombre": "Titanes del Pacífico",
-          "inicio": "11:18",
-          "fin": "13:35",
-          "descripcion": "Cuando enormes monstruos emergen del océano para destruir las ciudades, la humanidad responde creando gigantescos robots de combate llamados Jaegers. Un antiguo piloto y una joven cadete deberán unir fuerzas para enfrentarlos y evitar la extinción de la humanidad."
-        },
-        {
-          "nombre": "Oblivion: El tiempo del olvido",
-          "inicio": "13:35",
-          "fin": "15:45",
-          "descripcion": "En un futuro donde la Tierra ha quedado devastada, Jack Harper trabaja reparando drones mientras espera abandonar el planeta. Pero el descubrimiento de una misteriosa mujer y una serie de secretos ocultos lo llevan a cuestionar todo lo que creía saber sobre su misión y su pasado."
-        },
-        {
-          "nombre": "Terminator: La Salvación",
-          "inicio": "15:45",
-          "fin": "17:45",
-          "descripcion": "En un futuro devastado por la guerra entre humanos y máquinas, John Connor lidera la resistencia contra Skynet. Mientras lucha por cambiar el destino de la humanidad, descubre a un misterioso hombre cuyo pasado podría estar relacionado con el origen de la guerra."
-        },
-        {
-          "nombre": "Arthur",
-          "inicio": "17:45",
-          "fin": "19:37",
-          "descripcion": "Un millonario excéntrico y alcohólico arriesga su cómoda vida cuando su familia amenaza con quitarle su fortuna si no se casa con una mujer que no ama. Con la ayuda de una mujer de clase trabajadora, Arthur comienza a descubrir lo que realmente quiere."
-        },
-        {
-          "nombre": "Titanes del Pacífico",
-          "inicio": "19:37",
-          "fin": "21:52",
-          "descripcion": "Cuando enormes monstruos emergen del océano para destruir las ciudades, la humanidad responde creando gigantescos robots de combate llamados Jaegers. Un antiguo piloto y una joven cadete deberán unir fuerzas para enfrentarlos y evitar la extinción de la humanidad."
-        },
-        {
-          "nombre": "Oblivion: El tiempo del olvido",
-          "inicio": "21:52",
-          "fin": "00:00",
-          "descripcion": "En un futuro donde la Tierra ha quedado devastada, Jack Harper trabaja reparando drones mientras espera abandonar el planeta. Pero el descubrimiento de una misteriosa mujer y una serie de secretos ocultos lo llevan a cuestionar todo lo que creía saber sobre su misión y su pasado."
-        }
-      ],
+      "Jueves": [],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
