@@ -1257,7 +1257,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Las Momias y el Anillo Perdido",
+          "inicio": "01:45",
+          "fin": "10:32",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "HBOPop.cl": {
