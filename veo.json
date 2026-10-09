@@ -1933,7 +1933,14 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Misteriosa obsesión",
+          "inicio": "18:50",
+          "fin": "20:25",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
