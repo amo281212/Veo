@@ -205,6 +205,12 @@
           "inicio": "18:05",
           "fin": "20:05",
           "descripcion": ""
+        },
+        {
+          "nombre": "El precio del mañana",
+          "inicio": "20:05",
+          "fin": "22:00",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
