@@ -1523,6 +1523,12 @@
           "inicio": "22:00",
           "fin": "23:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "¡Sí señor!",
+          "inicio": "23:00",
+          "fin": "00:45",
+          "descripcion": ""
         }
       ]
     },
