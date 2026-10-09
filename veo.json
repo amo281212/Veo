@@ -1387,7 +1387,14 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Un papá genial",
+          "inicio": "16:50",
+          "fin": "18:25",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
