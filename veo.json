@@ -1807,7 +1807,14 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Un Amor Para Recordar",
+          "inicio": "18:06",
+          "fin": "20:05",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
