@@ -1537,7 +1537,14 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Rápidos y Furiosos 7",
+          "inicio": "17:06",
+          "fin": "19:25",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
