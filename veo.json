@@ -1883,6 +1883,12 @@
           "inicio": "00:00",
           "fin": "09:40",
           "descripcion": ""
+        },
+        {
+          "nombre": "Piratas una loca aventura",
+          "inicio": "09:40",
+          "fin": "11:20",
+          "descripcion": ""
         }
       ]
     },
