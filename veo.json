@@ -456,44 +456,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Oblivion: el tiempo del olvido",
-          "inicio": "00:00",
-          "fin": "10:31",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cuestión de honor",
-          "inicio": "10:31",
-          "fin": "13:24",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La intérprete",
-          "inicio": "13:24",
-          "fin": "15:59",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Jerry Maguire, amor y desafío",
-          "inicio": "15:59",
-          "fin": "18:42",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Oblivion: el tiempo del olvido",
-          "inicio": "18:42",
-          "fin": "21:08",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cuestión de honor",
-          "inicio": "21:08",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Jueves": [],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
