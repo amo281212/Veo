@@ -1107,6 +1107,12 @@
           "inicio": "01:00",
           "fin": "09:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Hipnosis: Arma Invisible",
+          "inicio": "09:00",
+          "fin": "10:38",
+          "descripcion": ""
         }
       ],
       "Domingo": []
