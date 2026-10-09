@@ -1101,7 +1101,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "En busca de Harry",
+          "inicio": "01:00",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "HBOFamily.cl": {
