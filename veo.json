@@ -237,6 +237,12 @@
           "inicio": "13:00",
           "fin": "15:25",
           "descripcion": ""
+        },
+        {
+          "nombre": "Creed II",
+          "inicio": "15:25",
+          "fin": "17:50",
+          "descripcion": ""
         }
       ],
       "Domingo": []
