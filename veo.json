@@ -1743,6 +1743,12 @@
           "inicio": "19:20",
           "fin": "22:15",
           "descripcion": ""
+        },
+        {
+          "nombre": "Companion",
+          "inicio": "22:15",
+          "fin": "00:00",
+          "descripcion": ""
         }
       ],
       "Domingo": []
