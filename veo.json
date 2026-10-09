@@ -1218,68 +1218,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Cómo Entrenar a tu Dragón 3",
-          "inicio": "01:24",
-          "fin": "09:00",
-          "descripcion": "Un adolescente vikingo y su Furia Nocturna finalmente descubrirán sus verdaderos destinos uno ser el jefe de Berk y el otro líder de su propia especie."
-        },
-        {
-          "nombre": "La vida secreta de las mascotas",
-          "inicio": "09:00",
-          "fin": "10:30",
-          "descripcion": "Cuando sus dueños salen de casa, un grupo de mascotas vive todo tipo de aventuras lejos de la mirada humana. Max, un perro acostumbrado a ser el favorito, deberá dejar de lado sus diferencias con Duke para encontrar el camino de regreso a casa."
-        },
-        {
-          "nombre": "El regreso del Capitán Garfio",
-          "inicio": "10:30",
-          "fin": "12:55",
-          "descripcion": "Peter Pan ha crecido y olvidado su infancia, pero el Capitán Garfio regresa para secuestrar a sus hijos y llevarlos al País de Nunca Jamás. Para rescatarlos, Peter deberá recuperar sus recuerdos y volver a enfrentarse a su antiguo enemigo."
-        },
-        {
-          "nombre": "Pie Pequeño",
-          "inicio": "12:55",
-          "fin": "14:35",
-          "descripcion": "Cuando un joven Yeti encuentra algo que creía que no existía: un humano. Estas noticias lo hacen famoso y ahora la comunidad Yeti se pregunta que hay allá."
-        },
-        {
-          "nombre": "Harry Potter y el misterio del príncipe",
-          "inicio": "14:35",
-          "fin": "17:12",
-          "descripcion": "En su sexto año en Hogwarts, Harry descubre secretos sobre el pasado de Lord Voldemort mientras Dumbledore lo prepara para la batalla que se aproxima. Al mismo tiempo, una misteriosa poción y un antiguo libro con anotaciones especiales lo llevan a descubrir un poder inesperado."
-        },
-        {
-          "nombre": "Kung Fu Panda 3",
-          "inicio": "17:12",
-          "fin": "18:50",
-          "descripcion": "En este episodio Po deberá enfrentar dos distintas amenazas épicas, una sobrenatural y la otra muy cerca de su hogar."
-        },
-        {
-          "nombre": "Hotel Transylvania",
-          "inicio": "18:50",
-          "fin": "20:25",
-          "descripcion": "El Conde Drácula organiza una gran fiesta en su hotel para celebrar el cumpleaños de su hija Mavis, invitando a monstruos de todo el mundo. Pero cuando un joven humano llega por accidente al hotel, Drácula hará todo lo posible para mantenerlo alejado de su hija."
-        },
-        {
-          "nombre": "Los Pingüinos de Madagascar",
-          "inicio": "20:25",
-          "fin": "22:00",
-          "descripcion": "En esta nueva Aventura, Skipper, Kowalski, Rico y Cabo deberan salvar a la tierra de los maleficos planes del Dr. Octavius Brine."
-        },
-        {
-          "nombre": "La vida secreta de las mascotas",
-          "inicio": "22:00",
-          "fin": "23:29",
-          "descripcion": "Cuando sus dueños salen de casa, un grupo de mascotas vive todo tipo de aventuras lejos de la mirada humana. Max, un perro acostumbrado a ser el favorito, deberá dejar de lado sus diferencias con Duke para encontrar el camino de regreso a casa."
-        },
-        {
-          "nombre": "Pokémon: Detective Pikachu",
-          "inicio": "23:29",
-          "fin": "01:16",
-          "descripcion": "Un joven llega a Ryme City para descubrir qué ocurrió con su padre desaparecido y se encuentra con un Pikachu que puede hablar. Juntos emprenden una investigación llena de pistas, Pokémon y secretos que podrían revelar la verdad sobre su desaparición."
-        }
-      ],
+      "Jueves": [],
       "Viernes": [
         {
           "nombre": "Lluvia de hamburguesas 2",
