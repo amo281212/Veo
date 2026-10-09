@@ -1701,7 +1701,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "La Aparición",
+          "inicio": "00:20",
+          "fin": "10:15",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "StudioUniversal.ar": {
