@@ -261,6 +261,12 @@
           "inicio": "22:00",
           "fin": "23:50",
           "descripcion": ""
+        },
+        {
+          "nombre": "El vengador del futuro",
+          "inicio": "23:50",
+          "fin": "01:55",
+          "descripcion": ""
         }
       ],
       "Domingo": []
