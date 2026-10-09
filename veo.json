@@ -1431,6 +1431,12 @@
           "inicio": "10:15",
           "fin": "11:45",
           "descripcion": ""
+        },
+        {
+          "nombre": "Pasaje al paraíso",
+          "inicio": "11:45",
+          "fin": "13:35",
+          "descripcion": ""
         }
       ],
       "Domingo": []
