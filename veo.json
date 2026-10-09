@@ -1199,6 +1199,12 @@
           "inicio": "18:52",
           "fin": "21:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Linternas",
+          "inicio": "21:00",
+          "fin": "22:00",
+          "descripcion": ""
         }
       ]
     },
