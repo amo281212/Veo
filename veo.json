@@ -1719,6 +1719,12 @@
           "inicio": "12:00",
           "fin": "13:40",
           "descripcion": ""
+        },
+        {
+          "nombre": "La huérfana",
+          "inicio": "13:40",
+          "fin": "15:50",
+          "descripcion": ""
         }
       ],
       "Domingo": []
