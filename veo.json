@@ -2015,7 +2015,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "The Goldbergs",
+          "inicio": "01:34",
+          "fin": "10:40",
+          "descripcion": ""
+        }
+      ]
     },
     "Sony.cl": {
       "Lunes": [],
