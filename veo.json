@@ -1687,6 +1687,12 @@
           "inicio": "19:20",
           "fin": "20:20",
           "descripcion": ""
+        },
+        {
+          "nombre": "Pesadilla en la calle Elm",
+          "inicio": "20:20",
+          "fin": "22:00",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
