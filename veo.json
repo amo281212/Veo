@@ -501,6 +501,12 @@
           "inicio": "00:00",
           "fin": "09:31",
           "descripcion": ""
+        },
+        {
+          "nombre": "Mi gran boda griega 2",
+          "inicio": "09:31",
+          "fin": "11:09",
+          "descripcion": ""
         }
       ],
       "Domingo": []
