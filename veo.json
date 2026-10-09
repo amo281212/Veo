@@ -1763,6 +1763,12 @@
           "inicio": "09:40",
           "fin": "11:30",
           "descripcion": ""
+        },
+        {
+          "nombre": "Ouija",
+          "inicio": "11:30",
+          "fin": "13:05",
+          "descripcion": ""
         }
       ]
     },
