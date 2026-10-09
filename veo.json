@@ -937,6 +937,12 @@
           "inicio": "16:30",
           "fin": "18:27",
           "descripcion": ""
+        },
+        {
+          "nombre": "Flash",
+          "inicio": "18:27",
+          "fin": "21:00",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
