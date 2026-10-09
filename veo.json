@@ -1877,7 +1877,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Astro Boy",
+          "inicio": "00:00",
+          "fin": "09:40",
+          "descripcion": ""
+        }
+      ]
     },
     "SONYMOVIES.uy": {
       "Lunes": [],
