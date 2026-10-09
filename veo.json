@@ -181,6 +181,12 @@
           "inicio": "09:00",
           "fin": "11:30",
           "descripcion": ""
+        },
+        {
+          "nombre": "Ben-hur",
+          "inicio": "11:30",
+          "fin": "13:45",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
