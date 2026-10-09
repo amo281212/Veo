@@ -1693,6 +1693,12 @@
           "inicio": "20:20",
           "fin": "22:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "El conjuro 4: Los ultimos ritos",
+          "inicio": "22:00",
+          "fin": "00:20",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
