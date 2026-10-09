@@ -2045,6 +2045,12 @@
           "inicio": "16:25",
           "fin": "18:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "La entrega inmediata",
+          "inicio": "18:00",
+          "fin": "19:34",
+          "descripcion": ""
         }
       ]
     },
