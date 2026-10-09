@@ -1413,7 +1413,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Contra todos",
+          "inicio": "00:00",
+          "fin": "09:35",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "HBOXtreme.cl": {
