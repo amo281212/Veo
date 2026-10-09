@@ -1063,7 +1063,14 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "El Rey Arturo: La Leyenda de la Espada",
+          "inicio": "13:00",
+          "fin": "15:14",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
