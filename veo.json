@@ -1713,6 +1713,12 @@
           "inicio": "10:15",
           "fin": "12:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Woman of the Hour",
+          "inicio": "12:00",
+          "fin": "13:40",
+          "descripcion": ""
         }
       ],
       "Domingo": []
