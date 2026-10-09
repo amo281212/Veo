@@ -419,6 +419,12 @@
           "inicio": "09:00",
           "fin": "11:56",
           "descripcion": ""
+        },
+        {
+          "nombre": "Doctor Dolittle",
+          "inicio": "11:56",
+          "fin": "15:19",
+          "descripcion": ""
         }
       ]
     },
