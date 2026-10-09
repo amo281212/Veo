@@ -1337,6 +1337,12 @@
           "inicio": "10:20",
           "fin": "11:42",
           "descripcion": ""
+        },
+        {
+          "nombre": "Lluvia de hamburguesas 2",
+          "inicio": "11:42",
+          "fin": "13:20",
+          "descripcion": ""
         }
       ]
     },
