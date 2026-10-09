@@ -919,7 +919,14 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "El intermediario",
+          "inicio": "12:30",
+          "fin": "14:36",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
