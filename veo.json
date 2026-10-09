@@ -1249,6 +1249,12 @@
           "inicio": "22:00",
           "fin": "23:41",
           "descripcion": ""
+        },
+        {
+          "nombre": "Liga de la Justicia",
+          "inicio": "23:41",
+          "fin": "01:45",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
