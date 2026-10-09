@@ -861,6 +861,12 @@
           "inicio": "20:47",
           "fin": "23:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "El Rey Lear",
+          "inicio": "23:00",
+          "fin": "01:00",
+          "descripcion": ""
         }
       ],
       "Domingo": []
