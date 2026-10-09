@@ -1157,7 +1157,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Definitivamente, Tal Vez",
+          "inicio": "01:00",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ]
     },
     "HBOFamily.cl": {
       "Lunes": [],
