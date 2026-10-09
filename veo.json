@@ -1833,6 +1833,12 @@
           "inicio": "00:00",
           "fin": "10:15",
           "descripcion": ""
+        },
+        {
+          "nombre": "Los tipos malos",
+          "inicio": "10:15",
+          "fin": "12:10",
+          "descripcion": ""
         }
       ],
       "Domingo": []
