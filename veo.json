@@ -1386,56 +1386,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "El gran pez",
-          "inicio": "00:00",
-          "fin": "10:50",
-          "descripcion": "Un hombre intenta comprender la vida de su padre, un narrador de historias fantásticas que siempre ha mezclado la realidad con la imaginación. Mientras reconstruye sus increíbles aventuras, descubre la verdad detrás de los relatos y la relación entre ambos."
-        },
-        {
-          "nombre": "Volver al Futuro",
-          "inicio": "10:50",
-          "fin": "12:50",
-          "descripcion": "Un joven regresa treinta años atrás en la máquina del tiempo diseñada por el Dr. Emmet Brown, ahora deberá encontrar la manera de volver al futuro."
-        },
-        {
-          "nombre": "Érase una vez en México",
-          "inicio": "12:50",
-          "fin": "14:35",
-          "descripcion": "Un misterioso y legendario pistolero conocido como El Mariachi regresa a México para enfrentarse a un peligroso narcotraficante. En medio de una violenta conspiración, deberá usar sus habilidades para vengarse y evitar un golpe de Estado."
-        },
-        {
-          "nombre": "Dale duro",
-          "inicio": "14:35",
-          "fin": "16:20",
-          "descripcion": "Un joven problemático recibe la oportunidad de cambiar su vida al ingresar a un equipo de fútbol americano. Mientras enfrenta sus propios conflictos y las dificultades del entorno, descubre el valor del esfuerzo, la disciplina y el trabajo en equipo."
-        },
-        {
-          "nombre": "Fin de semana",
-          "inicio": "16:20",
-          "fin": "18:05",
-          "descripcion": "Una pareja decide pasar un tranquilo fin de semana juntos, pero las tensiones y los problemas de su relación comienzan a salir a la luz. Durante esos días, deberán enfrentarse a sus diferencias y decidir qué quieren realmente de su futuro."
-        },
-        {
-          "nombre": "Pasaje al paraíso",
-          "inicio": "18:05",
-          "fin": "19:55",
-          "descripcion": "Un matrimonio divorciado viaja hasta Bali para impedir que su hija se case con un hombre que acaba de conocer. Al reencontrarse, ambos deberán dejar de lado sus diferencias y trabajar juntos para evitar que ella cometa el mismo error que creen haber cometido ellos."
-        },
-        {
-          "nombre": "Noche de Juegos",
-          "inicio": "19:55",
-          "fin": "21:40",
-          "descripcion": "Una pareja que disfruta organizar noches de juegos con sus amigos se ve envuelta en una misteriosa situación cuando uno de ellos es secuestrado durante una partida. Lo que parecía ser parte del juego pronto se convierte en una peligrosa aventura llena de sorpresas."
-        },
-        {
-          "nombre": "Mickey 17",
-          "inicio": "21:40",
-          "fin": "00:00",
-          "descripcion": "Un hombre es enviado a un planeta helado para participar en una peligrosa misión de colonización, donde su cuerpo puede ser reemplazado cada vez que muere. Pero cuando una nueva versión de él aparece antes de tiempo, ambos deberán enfrentarse a una situación que amenaza con destruir la misión."
-        }
-      ],
+      "Jueves": [],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
