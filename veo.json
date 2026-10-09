@@ -281,6 +281,12 @@
           "inicio": "10:00",
           "fin": "11:55",
           "descripcion": ""
+        },
+        {
+          "nombre": "Hércules",
+          "inicio": "11:55",
+          "fin": "13:45",
+          "descripcion": ""
         }
       ]
     },
