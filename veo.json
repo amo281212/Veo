@@ -187,6 +187,12 @@
           "inicio": "11:30",
           "fin": "13:45",
           "descripcion": ""
+        },
+        {
+          "nombre": "Los Siete Magníficos",
+          "inicio": "13:45",
+          "fin": "16:15",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
