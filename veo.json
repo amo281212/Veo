@@ -819,7 +819,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Alerta máxima 2",
+          "inicio": "01:00",
+          "fin": "11:08",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "HBO.cl": {
