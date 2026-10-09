@@ -875,6 +875,12 @@
           "inicio": "10:08",
           "fin": "12:17",
           "descripcion": ""
+        },
+        {
+          "nombre": "Alerta máxima",
+          "inicio": "12:17",
+          "fin": "14:07",
+          "descripcion": ""
         }
       ]
     },
