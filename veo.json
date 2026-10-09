@@ -1965,6 +1965,12 @@
           "inicio": "10:05",
           "fin": "11:40",
           "descripcion": ""
+        },
+        {
+          "nombre": "Escalofríos",
+          "inicio": "11:40",
+          "fin": "13:25",
+          "descripcion": ""
         }
       ],
       "Domingo": []
