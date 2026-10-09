@@ -869,7 +869,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Hotel Mumbai: El atentado",
+          "inicio": "10:08",
+          "fin": "12:17",
+          "descripcion": ""
+        }
+      ]
     },
     "HBO.cl": {
       "Lunes": [],
