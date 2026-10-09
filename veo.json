@@ -2027,6 +2027,12 @@
           "inicio": "10:40",
           "fin": "12:15",
           "descripcion": ""
+        },
+        {
+          "nombre": "Godzilla",
+          "inicio": "12:15",
+          "fin": "14:40",
+          "descripcion": ""
         }
       ]
     },
