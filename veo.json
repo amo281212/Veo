@@ -1517,6 +1517,12 @@
           "inicio": "19:50",
           "fin": "22:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "HBO Movies",
+          "inicio": "22:00",
+          "fin": "23:00",
+          "descripcion": ""
         }
       ]
     },
