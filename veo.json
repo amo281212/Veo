@@ -495,7 +495,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "El espantatiburones",
+          "inicio": "00:00",
+          "fin": "09:31",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "Golden.cl": {
