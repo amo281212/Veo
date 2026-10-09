@@ -787,6 +787,12 @@
           "inicio": "13:00",
           "fin": "15:18",
           "descripcion": ""
+        },
+        {
+          "nombre": "El mediador",
+          "inicio": "15:18",
+          "fin": "17:48",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
