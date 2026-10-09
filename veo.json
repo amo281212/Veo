@@ -363,7 +363,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Al mejor postor",
+          "inicio": "00:00",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "Cinemax.cl": {
