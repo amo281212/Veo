@@ -311,6 +311,12 @@
           "inicio": "20:05",
           "fin": "22:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "El juego del miedo",
+          "inicio": "22:00",
+          "fin": "00:00",
+          "descripcion": ""
         }
       ]
     },
