@@ -457,7 +457,14 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "La momia regresa",
+          "inicio": "10:00",
+          "fin": "12:12",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
