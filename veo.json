@@ -305,6 +305,12 @@
           "inicio": "18:00",
           "fin": "20:05",
           "descripcion": ""
+        },
+        {
+          "nombre": "Plan de escape 3",
+          "inicio": "20:05",
+          "fin": "22:00",
+          "descripcion": ""
         }
       ]
     },
