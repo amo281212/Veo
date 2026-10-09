@@ -407,7 +407,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Henry y Klauss: Maestros de la Magia",
+          "inicio": "00:00",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ]
     },
     "Cinemax.cl": {
       "Lunes": [],
