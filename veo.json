@@ -1475,7 +1475,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Estafadoras en oferta",
+          "inicio": "00:00",
+          "fin": "10:24",
+          "descripcion": ""
+        }
+      ]
     },
     "HBOXtreme.cl": {
       "Lunes": [],
