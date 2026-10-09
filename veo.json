@@ -1007,7 +1007,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "El Hombre de Acero",
+          "inicio": "01:00",
+          "fin": "11:30",
+          "descripcion": ""
+        }
+      ]
     },
     "HBO2.cl": {
       "Lunes": [],
