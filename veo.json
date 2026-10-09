@@ -780,56 +780,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Ciudad de sombras",
-          "inicio": "01:50",
-          "fin": "10:29",
-          "descripcion": "Un detective privado investiga el asesinato de la amante de un político y descubre una compleja red de corrupción y secretos. Mientras se acerca a la verdad, se convierte en objetivo de quienes harán lo que sea para mantener sus oscuros negocios ocultos."
-        },
-        {
-          "nombre": "Sin límite",
-          "inicio": "10:29",
-          "fin": "12:19",
-          "descripcion": "Un escritor en crisis descubre una misteriosa droga que potencia sus capacidades mentales y le permite alcanzar un nivel extraordinario de éxito. Pero los efectos de la sustancia y los peligros que la rodean pronto amenazan con destruir todo lo que ha conseguido."
-        },
-        {
-          "nombre": "El justiciero",
-          "inicio": "12:19",
-          "fin": "14:40",
-          "descripcion": "McCall está convencido de haber dejado atrás su misterioso pasado y ahora se dedica a construir una vida nueva y tranquila. Pero cuando conoce a una joven que está en manos de gánsteres rusos ultra violentos, se sentirá obligado a ayudarla. Él cuenta con habilidades ocultas que le permiten vengarse de cualquiera que se atreva a maltratar a los desamparados. Es así como McCall sale de su retiro autoimpuesto y redescubre su deseo por hacer justicia. Si alguien está en problemas, si hay alguna circunstancia en contra de un inocente, y si no tiene cómo escapar, McCall estará allí para ayudar."
-        },
-        {
-          "nombre": "Hombre en llamas",
-          "inicio": "14:40",
-          "fin": "17:16",
-          "descripcion": "John Creasy, un antiguo agente de la CIA y que ha renunciado a su vida anterior, es contratado en México por su mejor amigo para hacer de guardaespaldas de una niña de nueve años de edad. Creasy soporta a regañadientes a la precoz niña y sus irritantes preguntas sobre él y su vida. Pero poco a poco, vence su resistencia y éste se abre a ella. Cuando la niña es secuestrada y a pesar de resultar gravemente herido en el momento del secuestro, Creasy jura matar a cualquiera que esté involucrado en el secuestro de la pequeña. Y nadie va a poder pararle."
-        },
-        {
-          "nombre": "La luz del fin del mundo",
-          "inicio": "17:16",
-          "fin": "19:24",
-          "descripcion": "Tras una catástrofe que ha acabado con gran parte de la humanidad, un padre y su hija recorren un mundo devastado en busca de un lugar seguro. En medio de la amenaza constante, deberán luchar por sobrevivir y mantener viva la esperanza."
-        },
-        {
-          "nombre": "Daredevil",
-          "inicio": "19:24",
-          "fin": "21:12",
-          "descripcion": "El abogado Matt Murdock vive en un mundo de eterna noche debido a su ceguera, pero sus otros cuatro sentidos se han agudizado hasta convertirse en poderes sobrehumanos. Durante el día, Murdock representa a los desvalidos. Por la noche, es Daredevil, un vigilante enmascarado que acecha las oscuras calles de la ciudad, un implacable vengador de la justicia."
-        },
-        {
-          "nombre": "Fuego con fuego",
-          "inicio": "21:12",
-          "fin": "23:00",
-          "descripcion": "Un bombero fuera de servicio es testigo de un asesinato a manos de una banda de mafiosos. Por eso, entrará en el programa de protección de testigos hasta que testifique, pero no conseguirá ocultarse por mucho tiempo de sus enemigos, por lo que decidirá actuar por su cuenta e ir a por el cabecilla para proteger a la mujer que ama."
-        },
-        {
-          "nombre": "John Wick 2: Un nuevo día para matar",
-          "inicio": "23:00",
-          "fin": "01:13",
-          "descripcion": "John Wick, el legendario asesino, se ve obligado a retornar al inframundo criminal por un ex asociado que planea obtener el liderazgo de un sombrío grupo internacional de criminales. Obligado a ayudarlo por un pacto de sangre, John emprenderá un peligroso viaje por la ciudad de Roma."
-        }
-      ],
+      "Jueves": [],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
