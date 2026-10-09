@@ -1013,6 +1013,12 @@
           "inicio": "01:00",
           "fin": "11:30",
           "descripcion": ""
+        },
+        {
+          "nombre": "Wonka",
+          "inicio": "11:30",
+          "fin": "13:34",
+          "descripcion": ""
         }
       ]
     },
