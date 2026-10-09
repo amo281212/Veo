@@ -225,6 +225,12 @@
           "inicio": "00:00",
           "fin": "10:30",
           "descripcion": ""
+        },
+        {
+          "nombre": "Dobles de acción",
+          "inicio": "10:30",
+          "fin": "13:00",
+          "descripcion": ""
         }
       ],
       "Domingo": []
