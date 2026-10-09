@@ -287,6 +287,12 @@
           "inicio": "11:55",
           "fin": "13:45",
           "descripcion": ""
+        },
+        {
+          "nombre": "Chappie",
+          "inicio": "13:45",
+          "fin": "15:55",
+          "descripcion": ""
         }
       ]
     },
