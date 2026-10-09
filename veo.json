@@ -725,7 +725,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "La leyenda de las momias de Guanajuato",
+          "inicio": "01:07",
+          "fin": "09:14",
+          "descripcion": ""
+        }
+      ]
     },
     "GoldenEdge.cl": {
       "Lunes": [],
