@@ -325,7 +325,14 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Cats",
+          "inicio": "09:00",
+          "fin": "12:21",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
