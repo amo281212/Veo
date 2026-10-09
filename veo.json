@@ -825,6 +825,12 @@
           "inicio": "01:00",
           "fin": "11:08",
           "descripcion": ""
+        },
+        {
+          "nombre": "Peligro en la montaña",
+          "inicio": "11:08",
+          "fin": "12:47",
+          "descripcion": ""
         }
       ],
       "Domingo": []
