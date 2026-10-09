@@ -918,56 +918,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Mi vida a los diecisiete",
-          "inicio": "01:00",
-          "fin": "09:00",
-          "descripcion": "Una adolescente atraviesa los altibajos de la secundaria mientras intenta encontrar su lugar entre amistades, inseguridades y conflictos familiares. Cuando su mejor amiga comienza una relación con su hermano mayor, siente que su mundo se desmorona y debe aprender a aceptar los cambios."
-        },
-        {
-          "nombre": "Jurassic Park",
-          "inicio": "09:00",
-          "fin": "11:13",
-          "descripcion": "Un multimillonario crea un parque temático poblado por dinosaurios clonados a partir de ADN prehistórico. Cuando los sistemas de seguridad fallan, las criaturas escapan y un grupo de visitantes deberá luchar por sobrevivir."
-        },
-        {
-          "nombre": "Policías de repuesto",
-          "inicio": "11:13",
-          "fin": "13:08",
-          "descripcion": "Dos policías de escritorio tienen la oportunidad de demostrar su valor cuando reciben un caso importante tras un incidente con dos agentes admirados. Lo que comienza como una misión rutinaria pronto se convierte en una peligrosa y caótica aventura."
-        },
-        {
-          "nombre": "El plan del asesino",
-          "inicio": "13:08",
-          "fin": "15:10",
-          "descripcion": "Un hombre descubre que está siendo perseguido por un peligroso asesino que ha preparado cuidadosamente cada detalle de su próximo ataque. Mientras intenta descubrir sus intenciones, deberá adelantarse a sus movimientos para sobrevivir y desbaratar su siniestro plan."
-        },
-        {
-          "nombre": "Mujer Maravilla 1984",
-          "inicio": "15:10",
-          "fin": "17:48",
-          "descripcion": "En 1984, Diana Prince lleva una vida tranquila mientras trabaja como arqueóloga, hasta que un antiguo artefacto le concede deseos extraordinarios. Cuando una poderosa empresaria y un nuevo enemigo amenazan al mundo, Wonder Woman deberá enfrentarse a ellos y pagar un alto precio por sus propios deseos."
-        },
-        {
-          "nombre": "Harry Potter y el Prisionero de Azkabán",
-          "inicio": "17:48",
-          "fin": "20:17",
-          "descripcion": "Harry y sus amigos regresan a Hogwarts donde se ven obligados a lidiar con la verdad sobre el fugitivo Sirius Black y su relación con Harry y sus padres."
-        },
-        {
-          "nombre": "Tiburón blanco: la bestia del mar",
-          "inicio": "20:17",
-          "fin": "21:52",
-          "descripcion": "Un grupo de viajeros queda varado en una isla desierta después de que su avión se estrella en el océano. Mientras buscan una forma de escapar, descubren que están rodeados por enormes tiburones blancos que los acechan sin descanso."
-        },
-        {
-          "nombre": "Red social",
-          "inicio": "21:52",
-          "fin": "00:00",
-          "descripcion": "Mark Zuckerberg crea una revolucionaria red social desde su dormitorio universitario, convirtiéndola rápidamente en un fenómeno mundial. El éxito de Facebook trae consigo conflictos, demandas y enfrentamientos con quienes aseguran haber contribuido a la creación de la plataforma."
-        }
-      ],
+      "Jueves": [],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
