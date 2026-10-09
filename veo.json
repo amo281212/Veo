@@ -957,7 +957,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "El camino de regreso",
+          "inicio": "01:00",
+          "fin": "10:52",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "HBO2.cl": {
