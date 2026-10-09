@@ -1143,6 +1143,12 @@
           "inicio": "17:30",
           "fin": "18:30",
           "descripcion": ""
+        },
+        {
+          "nombre": "El Hombre de Acero",
+          "inicio": "18:30",
+          "fin": "21:00",
+          "descripcion": ""
         }
       ],
       "Domingo": []
