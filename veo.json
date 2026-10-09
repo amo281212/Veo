@@ -1757,6 +1757,12 @@
           "inicio": "00:00",
           "fin": "09:40",
           "descripcion": ""
+        },
+        {
+          "nombre": "Birthrite",
+          "inicio": "09:40",
+          "fin": "11:30",
+          "descripcion": ""
         }
       ]
     },
