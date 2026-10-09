@@ -1707,6 +1707,12 @@
           "inicio": "00:20",
           "fin": "10:15",
           "descripcion": ""
+        },
+        {
+          "nombre": "Ma",
+          "inicio": "10:15",
+          "fin": "12:00",
+          "descripcion": ""
         }
       ],
       "Domingo": []
