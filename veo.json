@@ -369,6 +369,12 @@
           "inicio": "00:00",
           "fin": "09:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Yo, traidor",
+          "inicio": "09:00",
+          "fin": "11:25",
+          "descripcion": ""
         }
       ],
       "Domingo": []
