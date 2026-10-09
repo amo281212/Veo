@@ -1043,6 +1043,12 @@
           "inicio": "18:30",
           "fin": "20:50",
           "descripcion": ""
+        },
+        {
+          "nombre": "Una Película de Minecraft",
+          "inicio": "20:50",
+          "fin": "22:38",
+          "descripcion": ""
         }
       ]
     },
