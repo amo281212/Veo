@@ -1280,7 +1280,14 @@
           "descripcion": "Un joven llega a Ryme City para descubrir qué ocurrió con su padre desaparecido y se encuentra con un Pikachu que puede hablar. Juntos emprenden una investigación llena de pistas, Pokémon y secretos que podrían revelar la verdad sobre su desaparición."
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Lluvia de hamburguesas 2",
+          "inicio": "15:33",
+          "fin": "17:11",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
