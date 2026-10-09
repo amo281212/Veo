@@ -375,6 +375,12 @@
           "inicio": "09:00",
           "fin": "11:25",
           "descripcion": ""
+        },
+        {
+          "nombre": "Ciudades de papel",
+          "inicio": "11:25",
+          "fin": "13:48",
+          "descripcion": ""
         }
       ],
       "Domingo": []
