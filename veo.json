@@ -1149,6 +1149,12 @@
           "inicio": "18:30",
           "fin": "21:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Cónclave",
+          "inicio": "21:00",
+          "fin": "23:07",
+          "descripcion": ""
         }
       ],
       "Domingo": []
