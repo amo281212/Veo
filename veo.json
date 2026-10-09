@@ -1169,6 +1169,12 @@
           "inicio": "09:00",
           "fin": "11:15",
           "descripcion": ""
+        },
+        {
+          "nombre": "Shrek Tercero",
+          "inicio": "11:15",
+          "fin": "12:55",
+          "descripcion": ""
         }
       ]
     },
