@@ -1557,7 +1557,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Sector 9",
+          "inicio": "00:00",
+          "fin": "07:57",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "HBO.Plus.cl": {
