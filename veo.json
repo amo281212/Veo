@@ -557,7 +557,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Luchador legendario",
+          "inicio": "00:00",
+          "fin": "09:09",
+          "descripcion": ""
+        }
+      ]
     },
     "Golden.cl": {
       "Lunes": [],
