@@ -269,7 +269,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Making the movies",
+          "inicio": "01:55",
+          "fin": "10:00",
+          "descripcion": ""
+        }
+      ]
     },
     "Cinecanal.cl": {
       "Lunes": [],
