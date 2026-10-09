@@ -1319,7 +1319,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Hotel Transylvania 2",
+          "inicio": "02:07",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ]
     },
     "HBOPop.cl": {
       "Lunes": [],
