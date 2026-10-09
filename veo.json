@@ -1781,6 +1781,12 @@
           "inicio": "15:05",
           "fin": "16:05",
           "descripcion": ""
+        },
+        {
+          "nombre": "El rito",
+          "inicio": "16:05",
+          "fin": "18:05",
+          "descripcion": ""
         }
       ]
     },
