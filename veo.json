@@ -1953,7 +1953,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "The Goldbergs",
+          "inicio": "00:00",
+          "fin": "10:05",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "Sony.cl": {
