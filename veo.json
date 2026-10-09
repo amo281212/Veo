@@ -219,7 +219,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Making the movies",
+          "inicio": "00:00",
+          "fin": "10:00",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "Cinecanal.cl": {
