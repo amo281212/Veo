@@ -1827,7 +1827,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "El Perro Samurái: La Leyenda de Kakamucho",
+          "inicio": "00:00",
+          "fin": "10:15",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "SONYMOVIES.uy": {
