@@ -1311,6 +1311,12 @@
           "inicio": "22:00",
           "fin": "23:41",
           "descripcion": ""
+        },
+        {
+          "nombre": "Aquaman",
+          "inicio": "23:41",
+          "fin": "02:07",
+          "descripcion": ""
         }
       ],
       "Domingo": []
