@@ -669,7 +669,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Zapatero a tus zapatos",
+          "inicio": "00:48",
+          "fin": "09:18",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "GoldenEdge.cl": {
