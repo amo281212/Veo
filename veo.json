@@ -863,50 +863,7 @@
           "descripcion": ""
         }
       ],
-      "Domingo": [
-        {
-          "nombre": "Hotel Mumbai: El atentado",
-          "inicio": "10:08",
-          "fin": "12:17",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Alerta máxima",
-          "inicio": "12:17",
-          "fin": "14:07",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Justiciero 2",
-          "inicio": "14:07",
-          "fin": "16:16",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Chacal",
-          "inicio": "16:16",
-          "fin": "18:28",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Bohemian Rhapsody: La historia de Freddie Mercury",
-          "inicio": "18:28",
-          "fin": "20:51",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Indiana Jones y el templo de la perdición",
-          "inicio": "20:51",
-          "fin": "23:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Temblores",
-          "inicio": "23:00",
-          "fin": "00:45",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "HBO.cl": {
       "Lunes": [
