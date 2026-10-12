@@ -1372,68 +1372,7 @@
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
-      "Sábado": [
-        {
-          "nombre": "Las Momias y el Anillo Perdido",
-          "inicio": "01:45",
-          "fin": "10:32",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La casa de muñecas de Gabby",
-          "inicio": "10:32",
-          "fin": "12:13",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Pokémon: Detective Pikachu",
-          "inicio": "12:13",
-          "fin": "14:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ga'Hoole: La Leyenda de los Guardianes",
-          "inicio": "14:00",
-          "fin": "15:39",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Emoji: La Película",
-          "inicio": "15:39",
-          "fin": "17:08",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hotel Transylvania 2",
-          "inicio": "17:08",
-          "fin": "18:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La vida secreta de tus mascotas",
-          "inicio": "18:40",
-          "fin": "20:09",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Sing: ¡Ven y Canta!",
-          "inicio": "20:09",
-          "fin": "22:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La casa de muñecas de Gabby",
-          "inicio": "22:00",
-          "fin": "23:41",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Aquaman",
-          "inicio": "23:41",
-          "fin": "02:07",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": [
         {
           "nombre": "Hotel Transylvania 2",
