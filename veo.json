@@ -775,44 +775,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Fuego con fuego",
-          "inicio": "13:00",
-          "fin": "15:18",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El mediador",
-          "inicio": "15:18",
-          "fin": "17:48",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Top Gun: Pasión y gloria",
-          "inicio": "17:48",
-          "fin": "19:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Peligro en la montaña",
-          "inicio": "19:45",
-          "fin": "21:24",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Golpe mortal",
-          "inicio": "21:24",
-          "fin": "23:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "HellBoy",
-          "inicio": "23:00",
-          "fin": "01:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [],
       "Domingo": []
     },
