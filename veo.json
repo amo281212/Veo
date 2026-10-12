@@ -1150,62 +1150,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "Definitivamente, Tal Vez",
-          "inicio": "01:00",
-          "fin": "09:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El contador",
-          "inicio": "09:00",
-          "fin": "11:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Shrek Tercero",
-          "inicio": "11:15",
-          "fin": "12:55",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Godzilla y Kong: Nuevo Imperio",
-          "inicio": "12:55",
-          "fin": "14:56",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Son como niños",
-          "inicio": "14:56",
-          "fin": "16:46",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Escape bajo fuego",
-          "inicio": "16:46",
-          "fin": "18:52",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Red Social",
-          "inicio": "18:52",
-          "fin": "21:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Linternas",
-          "inicio": "21:00",
-          "fin": "22:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Evil Dead En llamas",
-          "inicio": "22:00",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "HBOFamily.cl": {
       "Lunes": [],
