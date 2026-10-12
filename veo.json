@@ -1148,44 +1148,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "El Rey Arturo: La Leyenda de la Espada",
-          "inicio": "13:00",
-          "fin": "15:14",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cumbres Borrascosas",
-          "inicio": "15:14",
-          "fin": "17:38",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Tornados",
-          "inicio": "17:38",
-          "fin": "19:48",
-          "descripcion": ""
-        },
-        {
-          "nombre": "War (T1, E1)",
-          "inicio": "19:48",
-          "fin": "20:48",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Red social",
-          "inicio": "20:48",
-          "fin": "22:56",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Mortal Kombat 2",
-          "inicio": "22:56",
-          "fin": "01:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "En busca de Harry",
