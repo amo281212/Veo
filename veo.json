@@ -1045,6 +1045,12 @@
           "inicio": "09:00",
           "fin": "10:45",
           "descripcion": ""
+        },
+        {
+          "nombre": "Rápidos y Furiosos 6",
+          "inicio": "10:45",
+          "fin": "13:03",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
