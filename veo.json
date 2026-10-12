@@ -915,6 +915,12 @@
           "inicio": "00:00",
           "fin": "09:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "No me las Toquen",
+          "inicio": "09:00",
+          "fin": "10:50",
+          "descripcion": ""
         }
       ],
       "Martes": [],
