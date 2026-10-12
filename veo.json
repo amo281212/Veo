@@ -1318,6 +1318,12 @@
           "inicio": "09:00",
           "fin": "10:55",
           "descripcion": ""
+        },
+        {
+          "nombre": "Jack El Cazagigantes",
+          "inicio": "10:55",
+          "fin": "12:55",
+          "descripcion": ""
         }
       ],
       "Viernes": [],
