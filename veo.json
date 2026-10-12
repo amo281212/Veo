@@ -2182,56 +2182,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Derecho de familia",
-          "inicio": "00:11",
-          "fin": "09:20",
-          "descripcion": "Un abogado argentino cree que es muy difícil comunicarse con su padre, un respetado abogado que se convierte en un modelo muy difícil a seguir por su hijo."
-        },
-        {
-          "nombre": "Sin hijos",
-          "inicio": "09:20",
-          "fin": "11:01",
-          "descripcion": "Desde que Gabriel se separó, Sofía, su hija, es el centro de su vida, y se niega a comenzar una nueva relación sentimental. Todo cambia cuando aparece Vicky, su amor platónico de la adolescencia, transformada ahora en una mujer hermosa, independiente y desenfadada a la que no le gustan los niños."
-        },
-        {
-          "nombre": "El rey Arturo: la leyenda de la espada",
-          "inicio": "11:01",
-          "fin": "13:20",
-          "descripcion": "Arturo fue robado al nacer y tuvo una educación espartana en una zona conflictiva de la ciudad, pero cuando extrae la espada Excalibur de la piedra en la que estaba clavada, la profecía se cumple y acepta el destino de liderar a su pueblo."
-        },
-        {
-          "nombre": "Furia de Titanes 2",
-          "inicio": "13:20",
-          "fin": "15:01",
-          "descripcion": "Con la ayuda de la reina Andrómeda, Hefesto y el hijo de Poseidón, Perseo emprende la misión de rescatar a Zeus del inframundo, derrotar a los Titanes y salvar a la humanidad."
-        },
-        {
-          "nombre": "John Q: Situación extrema",
-          "inicio": "15:01",
-          "fin": "17:13",
-          "descripcion": "Un padre recurre a medidas desesperadas en pos de obtener un corazón para su hijo después de que el seguro médico se lo niegue."
-        },
-        {
-          "nombre": "El Coleccionista De Huesos",
-          "inicio": "17:13",
-          "fin": "19:26",
-          "descripcion": "Un psicópata va dejando pistas de sus crímenes, pero solo Lincoln Rhyme, un agente de homicidios tetrapléjico, puede descifrarlas. La novata policía Amelia Donaghy es la encargada de inspeccionar los escenarios del crimen."
-        },
-        {
-          "nombre": "Shazam!",
-          "inicio": "19:26",
-          "fin": "22:00",
-          "descripcion": "Un niño adoptivo de 14 años adquiere el poder de convertirse en un superhéroe gracias a un antiguo mago, ahora necesita dominar rápidamente sus poderes."
-        },
-        {
-          "nombre": "Liga de la justicia",
-          "inicio": "22:00",
-          "fin": "00:07",
-          "descripcion": "Gracias a su renovada fe en la humanidad e inspirado por el acto de altruísmo de Superman, Bruce Wayne pide ayuda a su nueva aliada, Diana Prince, para enfrentar a un enemigo aún más peligroso."
-        }
-      ],
+      "Jueves": [],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
