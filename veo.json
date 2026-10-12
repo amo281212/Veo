@@ -1413,62 +1413,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "Estafadoras en oferta",
-          "inicio": "00:00",
-          "fin": "10:24",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Volver al Futuro III",
-          "inicio": "10:24",
-          "fin": "12:24",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Dale duro",
-          "inicio": "12:24",
-          "fin": "14:06",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Érase una vez en México",
-          "inicio": "14:06",
-          "fin": "15:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Superman",
-          "inicio": "15:50",
-          "fin": "18:05",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hasta que el Cuerpo Aguante",
-          "inicio": "18:05",
-          "fin": "19:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cincuenta Sombras de Grey",
-          "inicio": "19:50",
-          "fin": "22:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "HBO Movies",
-          "inicio": "22:00",
-          "fin": "23:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "¡Sí señor!",
-          "inicio": "23:00",
-          "fin": "00:45",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "HBOXtreme.cl": {
       "Lunes": [],
