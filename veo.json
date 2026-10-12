@@ -1206,6 +1206,12 @@
           "inicio": "01:00",
           "fin": "09:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Furia de Titanes 2",
+          "inicio": "09:00",
+          "fin": "10:31",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
