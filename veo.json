@@ -1412,68 +1412,7 @@
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
-      "Sábado": [
-        {
-          "nombre": "Contra todos",
-          "inicio": "00:00",
-          "fin": "09:35",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Last week tonight",
-          "inicio": "09:35",
-          "fin": "10:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La Boda de mi Ex",
-          "inicio": "10:15",
-          "fin": "11:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Pasaje al paraíso",
-          "inicio": "11:45",
-          "fin": "13:35",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hombres de Negro",
-          "inicio": "13:35",
-          "fin": "15:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "¿Quién *&$%! son los Miller?",
-          "inicio": "15:15",
-          "fin": "17:05",
-          "descripcion": ""
-        },
-        {
-          "nombre": "After: amor infinito",
-          "inicio": "17:05",
-          "fin": "18:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Las locuras de Dick y Jane",
-          "inicio": "18:45",
-          "fin": "20:20",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Aves de presa",
-          "inicio": "20:20",
-          "fin": "22:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Pasaje al paraíso",
-          "inicio": "22:10",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": [
         {
           "nombre": "Estafadoras en oferta",
