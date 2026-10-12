@@ -1306,7 +1306,14 @@
           "descripcion": ""
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Hasta Que Amanezca",
+          "inicio": "00:00",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
