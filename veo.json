@@ -2109,62 +2109,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Oscura Verdad",
-          "inicio": "00:05",
-          "fin": "09:05",
-          "descripcion": "Lucy y Adrián acuden al doctor Hindle para lograr tener un bebé con inseminación artificial. Lucy se queda embarazada de trillizos y, a medida que avanza su embarazo, su mundo se va transformando en una terrorífica pesadilla."
-        },
-        {
-          "nombre": "Marea baja",
-          "inicio": "09:05",
-          "fin": "10:40",
-          "descripcion": "Alan, un adolescente, y su hermano pequeño encuentran una bolsa llena de monedas de oro en la vivienda de un hombre muerto. Aunque intentan ocultárselo a sus amigos, uno de ellos, violento e impredecible, sospecha de los hermanos y está dispuesto a todo con tal de descubrir su secreto."
-        },
-        {
-          "nombre": "Despidiendo a Yang",
-          "inicio": "10:40",
-          "fin": "12:15",
-          "descripcion": "Cuando el compañero de su hija, un androide llamado Yang, se descompone, Jake busca una manera de repararlo. En el proceso, Jake descubre que la vida ha estado pasando frente a sus narices."
-        },
-        {
-          "nombre": "El Precio del Mañana",
-          "inicio": "12:15",
-          "fin": "14:05",
-          "descripcion": "En un futuro donde la vejez se detiene a los 25 años y se muere un año más tarde, un joven deberá encontrar la manera de acabar con un sistema corrupto."
-        },
-        {
-          "nombre": "Los caballeros",
-          "inicio": "14:05",
-          "fin": "16:00",
-          "descripcion": "Mickey Pearson, un estadounidense expatriado en Londres, se ha hecho rico con el negocio de la marihuana. Sin embargo, cuando se difunde el rumor de que va a vender su imperio, varios criminales se disputan la oportunidad que se les presenta."
-        },
-        {
-          "nombre": "Inframundo",
-          "inicio": "16:00",
-          "fin": "18:10",
-          "descripcion": "Una mujer vampiro trata de proteger a un estudiante de unos hombres lobo que intentan crear una especie híbrida."
-        },
-        {
-          "nombre": "La Hija Eterna",
-          "inicio": "18:10",
-          "fin": "19:45",
-          "descripcion": "Una artista y su anciana madre regresan a la que fue su casa familiar, convertida ahora en un hotel remoto. A medida que afloran los recuerdos, surgen secretos ocultos en esta inquietante exploración de la familia y la pérdida."
-        },
-        {
-          "nombre": "It",
-          "inicio": "19:45",
-          "fin": "22:00",
-          "descripcion": "Un grupo de siete niños marginados en el pueblo de Derry, Maine, se une para enfrentar a una entidad malévola cambiaformas (que suele aparecer como el payaso Pennywise) que despierta cada 27 años para alimentarse del terror de los niños."
-        },
-        {
-          "nombre": "It: Capítulo 2",
-          "inicio": "22:00",
-          "fin": "00:50",
-          "descripcion": "Varios niños de una pequeña ciudad del estado de Maine se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil."
-        }
-      ],
+      "Jueves": [],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
