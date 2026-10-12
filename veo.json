@@ -169,50 +169,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Planet Action",
-          "inicio": "09:00",
-          "fin": "11:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ben-hur",
-          "inicio": "11:30",
-          "fin": "13:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Siete Magníficos",
-          "inicio": "13:45",
-          "fin": "16:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hércules",
-          "inicio": "16:15",
-          "fin": "18:05",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Contando a mis ex",
-          "inicio": "18:05",
-          "fin": "20:05",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El precio del mañana",
-          "inicio": "20:05",
-          "fin": "22:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Encuentro explosivo",
-          "inicio": "22:00",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [],
       "Domingo": []
     },
