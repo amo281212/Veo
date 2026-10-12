@@ -1256,7 +1256,14 @@
           "descripcion": ""
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "Bad boys 2",
+          "inicio": "00:30",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
