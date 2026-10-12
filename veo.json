@@ -1371,44 +1371,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Lluvia de hamburguesas 2",
-          "inicio": "15:33",
-          "fin": "17:11",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Megamente",
-          "inicio": "17:11",
-          "fin": "18:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Shrek",
-          "inicio": "18:50",
-          "fin": "20:24",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Shrek 2",
-          "inicio": "20:24",
-          "fin": "22:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Mi Villano Favorito 2",
-          "inicio": "22:00",
-          "fin": "23:41",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Liga de la Justicia",
-          "inicio": "23:41",
-          "fin": "01:45",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "Las Momias y el Anillo Perdido",
