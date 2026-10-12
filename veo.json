@@ -1144,7 +1144,14 @@
       "Domingo": []
     },
     "HBO2.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Van Helsing: El cazador de monstruos",
+          "inicio": "00:00",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
