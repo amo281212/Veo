@@ -1901,56 +1901,7 @@
           "descripcion": ""
         }
       ],
-      "Domingo": [
-        {
-          "nombre": "Astro Boy",
-          "inicio": "00:00",
-          "fin": "09:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Piratas una loca aventura",
-          "inicio": "09:40",
-          "fin": "11:20",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Bailarina",
-          "inicio": "11:20",
-          "fin": "13:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Kubo y la búsqueda samurái",
-          "inicio": "13:00",
-          "fin": "14:55",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hotel Transylvania",
-          "inicio": "14:55",
-          "fin": "16:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Trolls",
-          "inicio": "16:45",
-          "fin": "18:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Trolls 2: Gira mundial",
-          "inicio": "18:30",
-          "fin": "20:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Trolls 3: Se Armó la Banda",
-          "inicio": "20:15",
-          "fin": "22:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "SONYMOVIES.uy": {
       "Lunes": [],
