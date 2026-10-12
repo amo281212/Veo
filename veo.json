@@ -2263,74 +2263,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Programación de trasnoche",
-          "inicio": "00:00",
-          "fin": "07:46",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Abracadabra",
-          "inicio": "07:46",
-          "fin": "09:20",
-          "descripcion": "Tras ser resucitadas accidentalmente en la noche de Halloween, tres disparatadas brujas del siglo XVII intentan absorber la juventud de los niños del pueblo, obligando a un trío de jóvenes y a un gato parlante a detenerlas."
-        },
-        {
-          "nombre": "Leyendas de Vida",
-          "inicio": "09:20",
-          "fin": "11:20",
-          "descripcion": "Tras una traumática experiencia en la Primera Guerra Mundial, un ex golfista profesional abatido por la culpa intenta recuperar la confianza en sí mismo y el rumbo de su vida gracias a la ayuda de un misterioso y sabio caddie."
-        },
-        {
-          "nombre": "Locura de Verano",
-          "inicio": "11:20",
-          "fin": "13:10",
-          "descripcion": "Tras sufrir un grave episodio de estrés laboral, un atribulado controlador aéreo decide llevar a su familia a la playa para descansar, desencadenando unas vacaciones caóticas repletas de desastres y enredos cómicos."
-        },
-        {
-          "nombre": "Duna",
-          "inicio": "13:10",
-          "fin": "15:38",
-          "descripcion": "En un peligroso planeta desértico, un joven brillante con un destino más grande de lo que comprende debe viajar para asegurar el futuro de su familia y de su pueblo mientras estalla una guerra por el control del recurso más valioso del universo."
-        },
-        {
-          "nombre": "La Sirenita",
-          "inicio": "15:38",
-          "fin": "16:57",
-          "descripcion": "Una joven y curiosa sirena, fascinada por el mundo de los humanos, hace un arriesgado trato con una malvada bruja del mar para cambiar su cola por piernas y conquistar a un apuesto príncipe, poniendo en peligro su propia vida y el reino de su padre."
-        },
-        {
-          "nombre": "Hoppers: Operación Castor",
-          "inicio": "16:57",
-          "fin": "18:29",
-          "descripcion": "Una joven amante de los animales transfiere su conciencia a un castor robótico mediante una innovadora tecnología para infiltrarse en el reino natural, liderar a las criaturas del bosque y salvar su hábitat de la destrucción humana."
-        },
-        {
-          "nombre": "Volver al Futuro 2",
-          "inicio": "18:29",
-          "fin": "20:13",
-          "descripcion": "Tras viajar a un caótico año 2015 para evitar que su futuro hijo arruine su familia, Marty y Doc deben corregir una peligrosa alteración temporal que transformó su ciudad natal en una pesadilla distópica."
-        },
-        {
-          "nombre": "Loco y Estúpido Amor",
-          "inicio": "20:13",
-          "fin": "22:06",
-          "descripcion": "La trama sigue a Cal Weaver (Steve Carell), un hombre de unos cuarenta años con una vida aparentemente idílica: una buena casa, un trabajo estable y un matrimonio con su novia de la secundaria, Emily (Julianne Moore). Sin embargo, su mundo se desmorona de golpe cuando Emily le confiesa que le ha sido infiel con un compañero de trabajo (Kevin Bacon) y le pide el divorcio."
-        },
-        {
-          "nombre": "Kung Fu Panda",
-          "inicio": "22:06",
-          "fin": "23:29",
-          "descripcion": "Po, un panda torpe y fanático del kung fu, es elegido por sorpresa como el legendario Guerrero Dragón. Con la ayuda del escéptico maestro Shifu y los Cinco Furiosos, deberá entrenar a contrarreloj para dominar las artes marciales y salvar el Valle de la Paz del temible leopardo Tai Lung."
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:29",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Jueves": [],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
