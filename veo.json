@@ -1725,56 +1725,7 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [
-        {
-          "nombre": "La Aparición",
-          "inicio": "00:20",
-          "fin": "10:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ma",
-          "inicio": "10:15",
-          "fin": "12:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Woman of the Hour",
-          "inicio": "12:00",
-          "fin": "13:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La huérfana",
-          "inicio": "13:40",
-          "fin": "15:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La Huérfana: El Origen",
-          "inicio": "15:50",
-          "fin": "17:35",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Mama",
-          "inicio": "17:35",
-          "fin": "19:20",
-          "descripcion": ""
-        },
-        {
-          "nombre": "IT: Capítulo Dos",
-          "inicio": "19:20",
-          "fin": "22:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Companion",
-          "inicio": "22:15",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": []
     },
     "StudioUniversal.ar": {
