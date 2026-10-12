@@ -451,44 +451,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "La momia regresa",
-          "inicio": "10:00",
-          "fin": "12:12",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Volver al futuro III",
-          "inicio": "12:12",
-          "fin": "14:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rápidos y furiosos 5in control",
-          "inicio": "14:25",
-          "fin": "16:57",
-          "descripcion": ""
-        },
-        {
-          "nombre": "DC Liga de súpermascotas",
-          "inicio": "16:57",
-          "fin": "19:06",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La momia regresa",
-          "inicio": "19:06",
-          "fin": "21:38",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Volver al futuro III",
-          "inicio": "21:38",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [],
       "Domingo": []
     },
