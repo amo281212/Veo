@@ -1957,26 +1957,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Misteriosa obsesión",
-          "inicio": "18:50",
-          "fin": "20:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El escape perfecto",
-          "inicio": "20:25",
-          "fin": "22:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La cueva",
-          "inicio": "22:10",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [],
       "Domingo": []
     },
