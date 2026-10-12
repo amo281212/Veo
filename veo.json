@@ -719,56 +719,7 @@
           "descripcion": ""
         }
       ],
-      "Domingo": [
-        {
-          "nombre": "La leyenda de las momias de Guanajuato",
-          "inicio": "01:07",
-          "fin": "09:14",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Un Gallo con Muchos Huevos",
-          "inicio": "09:14",
-          "fin": "10:58",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Un jefe en pañales 2: Negocios de familia",
-          "inicio": "10:58",
-          "fin": "12:56",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hotel Transylvania: Transformanía",
-          "inicio": "12:56",
-          "fin": "14:31",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Karate Kid",
-          "inicio": "14:31",
-          "fin": "16:52",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Karate Kid III",
-          "inicio": "16:52",
-          "fin": "18:57",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Extraordinario",
-          "inicio": "18:57",
-          "fin": "20:58",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Milagros del cielo",
-          "inicio": "20:58",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "GoldenEdge.cl": {
       "Lunes": [],
