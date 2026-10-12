@@ -1089,7 +1089,14 @@
           "descripcion": ""
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "En el Tornado",
+          "inicio": "01:00",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
