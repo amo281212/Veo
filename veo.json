@@ -1200,7 +1200,14 @@
           "descripcion": ""
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "La Habitación",
+          "inicio": "01:00",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
