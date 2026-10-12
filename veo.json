@@ -1411,32 +1411,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Un papá genial",
-          "inicio": "16:50",
-          "fin": "18:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Dog: Un viaje salvaje",
-          "inicio": "18:25",
-          "fin": "20:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hasta que la Muerte los Juntó",
-          "inicio": "20:10",
-          "fin": "21:55",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Pasante de moda",
-          "inicio": "21:55",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "Contra todos",
