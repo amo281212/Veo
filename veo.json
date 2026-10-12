@@ -619,50 +619,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Ladrón que roba a ladrón",
-          "inicio": "12:00",
-          "fin": "13:39",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Una Pequeña Confusión",
-          "inicio": "13:39",
-          "fin": "15:32",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Tod@s Caen",
-          "inicio": "15:32",
-          "fin": "17:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "¿Quieres ser mi… hijo?",
-          "inicio": "17:40",
-          "fin": "19:32",
-          "descripcion": ""
-        },
-        {
-          "nombre": "¿Quieres ser mi... novia?",
-          "inicio": "19:32",
-          "fin": "21:19",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Babe: El puerquito valiente",
-          "inicio": "21:19",
-          "fin": "23:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Matilda",
-          "inicio": "23:00",
-          "fin": "00:48",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [],
       "Domingo": []
     },
