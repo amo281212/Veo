@@ -551,68 +551,7 @@
           "descripcion": ""
         }
       ],
-      "Domingo": [
-        {
-          "nombre": "Luchador legendario",
-          "inicio": "00:00",
-          "fin": "09:09",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Emoji: La Película",
-          "inicio": "09:09",
-          "fin": "10:39",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El espantatiburones",
-          "inicio": "10:39",
-          "fin": "12:09",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Mi Villano Favorito 3",
-          "inicio": "12:09",
-          "fin": "13:42",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Gato con Botas",
-          "inicio": "13:42",
-          "fin": "15:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rápido y furioso: Reto Tokio",
-          "inicio": "15:15",
-          "fin": "17:05",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rápidos y furiosos",
-          "inicio": "17:05",
-          "fin": "18:59",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Mi Villano Favorito 3",
-          "inicio": "18:59",
-          "fin": "20:34",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Gato con Botas",
-          "inicio": "20:34",
-          "fin": "22:07",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rápido y furioso: Reto Tokio",
-          "inicio": "22:07",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "Golden.cl": {
       "Lunes": [],
