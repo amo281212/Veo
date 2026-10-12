@@ -1851,56 +1851,7 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [
-        {
-          "nombre": "El Perro Samurái: La Leyenda de Kakamucho",
-          "inicio": "00:00",
-          "fin": "10:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los tipos malos",
-          "inicio": "10:15",
-          "fin": "12:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Sonic 2 La película",
-          "inicio": "12:10",
-          "fin": "14:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Super Mario Bros.: La Película",
-          "inicio": "14:25",
-          "fin": "16:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Spider-Man: Un Nuevo Universo",
-          "inicio": "16:10",
-          "fin": "18:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Coraline y la puerta secreta",
-          "inicio": "18:25",
-          "fin": "20:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El cadáver de la novia",
-          "inicio": "20:25",
-          "fin": "22:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Las brujas",
-          "inicio": "22:00",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": []
     },
     "SONYMOVIES.uy": {
