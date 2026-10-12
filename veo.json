@@ -913,44 +913,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "El intermediario",
-          "inicio": "12:30",
-          "fin": "14:36",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Beetlejuice Beetlejuice",
-          "inicio": "14:36",
-          "fin": "16:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Supergirl",
-          "inicio": "16:30",
-          "fin": "18:27",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Flash",
-          "inicio": "18:27",
-          "fin": "21:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "No te sueltes",
-          "inicio": "21:00",
-          "fin": "22:51",
-          "descripcion": ""
-        },
-        {
-          "nombre": "M3GAN 2.0",
-          "inicio": "22:51",
-          "fin": "01:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "El camino de regreso",
