@@ -2039,62 +2039,7 @@
           "descripcion": ""
         }
       ],
-      "Domingo": [
-        {
-          "nombre": "The Goldbergs",
-          "inicio": "01:34",
-          "fin": "10:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Escalofríos 2: Una Noche Embrujada",
-          "inicio": "10:40",
-          "fin": "12:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Godzilla",
-          "inicio": "12:15",
-          "fin": "14:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La cueva",
-          "inicio": "14:40",
-          "fin": "16:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Misteriosa obsesión",
-          "inicio": "16:25",
-          "fin": "18:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La entrega inmediata",
-          "inicio": "18:00",
-          "fin": "19:34",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La Amenaza Invisible: Stealth",
-          "inicio": "19:34",
-          "fin": "21:39",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Vengador Del Futuro",
-          "inicio": "21:39",
-          "fin": "23:39",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Tren bala",
-          "inicio": "23:39",
-          "fin": "01:54",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "Sony.cl": {
       "Lunes": [],
