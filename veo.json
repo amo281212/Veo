@@ -263,56 +263,7 @@
           "descripcion": ""
         }
       ],
-      "Domingo": [
-        {
-          "nombre": "Making the movies",
-          "inicio": "01:55",
-          "fin": "10:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La novia de mis sueños",
-          "inicio": "10:00",
-          "fin": "11:55",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hércules",
-          "inicio": "11:55",
-          "fin": "13:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Chappie",
-          "inicio": "13:45",
-          "fin": "15:55",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El vengador del futuro",
-          "inicio": "15:55",
-          "fin": "18:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Mar Negro",
-          "inicio": "18:00",
-          "fin": "20:05",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Plan de escape 3",
-          "inicio": "20:05",
-          "fin": "22:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El juego del miedo",
-          "inicio": "22:00",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "Cinecanal.cl": {
       "Lunes": [],
