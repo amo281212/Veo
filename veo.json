@@ -977,6 +977,12 @@
           "inicio": "09:00",
           "fin": "10:58",
           "descripcion": ""
+        },
+        {
+          "nombre": "Geo-Tormenta",
+          "inicio": "10:58",
+          "fin": "12:53",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
