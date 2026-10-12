@@ -915,56 +915,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "El Hombre de Acero",
-          "inicio": "01:00",
-          "fin": "11:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Wonka",
-          "inicio": "11:30",
-          "fin": "13:34",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Finding Harry: The Craft Behind the Magic",
-          "inicio": "13:34",
-          "fin": "14:04",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Jurassic World: Renace",
-          "inicio": "14:04",
-          "fin": "16:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Loco y estupido amor",
-          "inicio": "16:25",
-          "fin": "18:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Shazam!",
-          "inicio": "18:30",
-          "fin": "20:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Una Película de Minecraft",
-          "inicio": "20:50",
-          "fin": "22:38",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Jurassic World: Renace",
-          "inicio": "22:38",
-          "fin": "01:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "HBO2.cl": {
       "Lunes": [],
