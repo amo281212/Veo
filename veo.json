@@ -1248,6 +1248,12 @@
           "inicio": "20:48",
           "fin": "22:30",
           "descripcion": ""
+        },
+        {
+          "nombre": "HBO Movies",
+          "inicio": "22:30",
+          "fin": "00:30",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
