@@ -1037,6 +1037,12 @@
           "inicio": "01:00",
           "fin": "09:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Angry Birds: La película",
+          "inicio": "09:00",
+          "fin": "10:45",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
