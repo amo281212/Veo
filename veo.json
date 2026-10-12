@@ -2232,56 +2232,7 @@
           "descripcion": "Gracias a su renovada fe en la humanidad e inspirado por el acto de altruísmo de Superman, Bruce Wayne pide ayuda a su nueva aliada, Diana Prince, para enfrentar a un enemigo aún más peligroso."
         }
       ],
-      "Viernes": [
-        {
-          "nombre": "El protector",
-          "inicio": "00:07",
-          "fin": "10:08",
-          "descripcion": "Jim, un antiguo marine reconvertido en ranchero en la frontera de Arizona, trata de proteger a un niño al que persiguen los violentos integrantes de un cartel de narcotraficantes mexicanos."
-        },
-        {
-          "nombre": "El coleccionista de huesos",
-          "inicio": "10:08",
-          "fin": "12:19",
-          "descripcion": "Un psicópata va dejando pistas de sus crímenes, pero solo Lincoln Rhyme, un agente de homicidios tetrapléjico, puede descifrarlas. La novata policía Amelia Donaghy es la encargada de inspeccionar los escenarios del crimen."
-        },
-        {
-          "nombre": "Aquaman",
-          "inicio": "12:19",
-          "fin": "14:54",
-          "descripcion": "Un mitad humano y mitad atlanticense es llevado al viaje de su vida donde se verá forzado a enfrentar quien es en verdad y descubrir si es digno a ser un rey."
-        },
-        {
-          "nombre": "Aquaman y el Reino Perdido",
-          "inicio": "14:54",
-          "fin": "17:06",
-          "descripcion": "Para proteger a su familia y su reino de Black Manta que es más fuerte que nunca, Aquaman forma una alianza improbable con su hermano Orm para detenerlo."
-        },
-        {
-          "nombre": "Black Adam",
-          "inicio": "17:06",
-          "fin": "19:27",
-          "descripcion": "Tras ser liberado de su encierro de casi 5000 años, un hombre con podres imparables está listo para desatar su forma única de justicia en el mundo moderno."
-        },
-        {
-          "nombre": "Mujer Maravilla",
-          "inicio": "19:27",
-          "fin": "22:00",
-          "descripcion": "Una guerrera amazona deja la isla para conocer el mundo y así poder evitar que la guerra del mundo destruya su hogar."
-        },
-        {
-          "nombre": "Cautiva (T1, E4)",
-          "inicio": "22:00",
-          "fin": "23:27",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Dos policías rebeldes",
-          "inicio": "23:27",
-          "fin": "01:38",
-          "descripcion": "Dos policías de Miami tienen 72 horas para encontrar 100 millones de dólares en heroína robada del almacén de evidencias de su comisaría, pero, para lograrlo, deben intercambiar sus identidades."
-        }
-      ],
+      "Viernes": [],
       "Sábado": [],
       "Domingo": []
     },
