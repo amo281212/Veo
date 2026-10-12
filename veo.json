@@ -1561,26 +1561,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Rápidos y Furiosos 7",
-          "inicio": "17:06",
-          "fin": "19:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rápidos y Furiosos 8",
-          "inicio": "19:25",
-          "fin": "21:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El robo perfecto: Pantera",
-          "inicio": "21:45",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [],
       "Domingo": []
     },
