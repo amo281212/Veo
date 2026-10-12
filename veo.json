@@ -357,50 +357,7 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [
-        {
-          "nombre": "Al mejor postor",
-          "inicio": "00:00",
-          "fin": "09:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Yo, traidor",
-          "inicio": "09:00",
-          "fin": "11:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ciudades de papel",
-          "inicio": "11:25",
-          "fin": "13:48",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los ojos de Tammy Faye",
-          "inicio": "13:48",
-          "fin": "16:28",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ramona and Beezus",
-          "inicio": "16:28",
-          "fin": "18:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El exótico Hotel Marigold",
-          "inicio": "18:40",
-          "fin": "21:22",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Exótico Hotel Marigold 2",
-          "inicio": "21:22",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": []
     },
     "Cinemax.cl": {
