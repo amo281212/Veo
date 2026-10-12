@@ -909,7 +909,14 @@
       ]
     },
     "HBO.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Definitivamente, Tal Vez",
+          "inicio": "00:00",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
