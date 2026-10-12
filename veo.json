@@ -2331,68 +2331,7 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [
-        {
-          "nombre": "Programación de trasnoche",
-          "inicio": "00:00",
-          "fin": "07:49",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Spider-man: De regreso a casa",
-          "inicio": "07:49",
-          "fin": "09:53",
-          "descripcion": "Peter Parker intenta equilibrar su vida escolar en Queens con su identidad secreta de superhéroe. Para demostrarle su valor a Tony Stark, intentará detener por su cuenta al peligroso contrabandista de armas conocido como El Buitre."
-        },
-        {
-          "nombre": "Thor: Ragnarok",
-          "inicio": "09:53",
-          "fin": "11:54",
-          "descripcion": "Thor se encuentra atrapado en el otro extremo del universo sin su poderoso martillo. En una carrera contra el tiempo, deberá sobrevivir a un letal torneo de gladiadores contra su viejo aliado Hulk para regresar a Asgard y detener el Ragnarok a manos de la despiadada Hela."
-        },
-        {
-          "nombre": "La Mujer Maravilla",
-          "inicio": "11:54",
-          "fin": "14:15",
-          "descripcion": "La distracción causada por el aterrizaje forzoso del piloto Steve Trevor en la mística Isla Paraíso permite que Ares, el Dios de la Guerra, escape de su prisión amazona. La princesa Diana ganará la responsabilidad de escoltar al humano de vuelta a la civilización y detener los caóticos planes de Ares antes de que desate una guerra global."
-        },
-        {
-          "nombre": "Terminator: Salvación",
-          "inicio": "14:15",
-          "fin": "16:10",
-          "descripcion": "En un desolado año 2018, John Connor lidera la resistencia humana contra el implacable ejército de Skynet. Su destino se cruza con Marcus Wright, un misterioso extranjero del pasado cuyo cuerpo esconde un secreto que cambiará el rumbo de la guerra por el futuro de la humanidad."
-        },
-        {
-          "nombre": "Splash",
-          "inicio": "16:10",
-          "fin": "17:58",
-          "descripcion": "Allen Bauer, un joven neoyorquino, es rescatado de morir ahogado por una hermosa mujer que es, en realidad, una sirena. Ella decide buscarlo en tierra firme adoptando una forma humana, desatando un tierno romance mientras intenta ocultar su verdadera identidad de un obsesivo científico."
-        },
-        {
-          "nombre": "Lilo y Stitch 2: Stitch en cortocircuito",
-          "inicio": "17:58",
-          "fin": "18:59",
-          "descripcion": "Mientras Lilo se prepara para un importante concurso de hula en Hawái, la programación de Stitch sufre un grave fallo técnico que lo hace perder el control y volverse destructivo. Lilo, Nani y Jumba deberán encontrar la forma de salvar a su amigo antes de que su cortocircuito arruine su 'ohana' para siempre."
-        },
-        {
-          "nombre": "Transformers: La Era de la Extinción",
-          "inicio": "18:59",
-          "fin": "21:46",
-          "descripcion": "Cinco años después de la batalla de Chicago, la humanidad se ha vuelto en contra de los Transformers. Un mecánico inventor y su hija descubren accidentalmente a Optimus Prime, desatando una brutal persecución del gobierno y de un cazador intergaláctico, lo que obligará a los Autobots a buscar nuevos aliados: los Dinobots."
-        },
-        {
-          "nombre": "Dónde estás, hermano?",
-          "inicio": "21:46",
-          "fin": "23:29",
-          "descripcion": "Durante la Gran Depresión en Mississippi, tres prófugos encadenados escapan de trabajos forzados en busca de un tesoro enterrado. En su accidentado viaje, que emula la Odisea de Homero, se convierten accidentalmente en un fenómeno musical de la radio mientras huyen constantemente de la ley."
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:29",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [],
       "Domingo": []
     }
