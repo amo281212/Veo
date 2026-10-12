@@ -1268,6 +1268,12 @@
           "inicio": "09:00",
           "fin": "11:49",
           "descripcion": ""
+        },
+        {
+          "nombre": "El Alma de la Fiesta",
+          "inicio": "11:49",
+          "fin": "13:39",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
