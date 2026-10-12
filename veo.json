@@ -1125,6 +1125,12 @@
           "inicio": "17:00",
           "fin": "19:07",
           "descripcion": ""
+        },
+        {
+          "nombre": "Batman",
+          "inicio": "19:07",
+          "fin": "22:12",
+          "descripcion": ""
         }
       ],
       "Viernes": [],
