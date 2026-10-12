@@ -813,56 +813,7 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [
-        {
-          "nombre": "Alerta máxima 2",
-          "inicio": "01:00",
-          "fin": "11:08",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Peligro en la montaña",
-          "inicio": "11:08",
-          "fin": "12:47",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Top Gun: Pasión y gloria",
-          "inicio": "12:47",
-          "fin": "14:44",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Golpe mortal",
-          "inicio": "14:44",
-          "fin": "16:18",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Día de patriotas",
-          "inicio": "16:18",
-          "fin": "18:38",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hotel Mumbai: El atentado",
-          "inicio": "18:38",
-          "fin": "20:47",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El justiciero 2",
-          "inicio": "20:47",
-          "fin": "23:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Rey Lear",
-          "inicio": "23:00",
-          "fin": "10:08",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": []
     },
     "HBO.cl": {
