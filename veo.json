@@ -213,56 +213,7 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [
-        {
-          "nombre": "Making the movies",
-          "inicio": "00:00",
-          "fin": "10:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Dobles de acción",
-          "inicio": "10:30",
-          "fin": "13:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Creed",
-          "inicio": "13:00",
-          "fin": "15:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Creed II",
-          "inicio": "15:25",
-          "fin": "17:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Chappie",
-          "inicio": "17:50",
-          "fin": "19:55",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Robocop",
-          "inicio": "19:55",
-          "fin": "22:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Alice (Subservience)",
-          "inicio": "22:00",
-          "fin": "23:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El vengador del futuro",
-          "inicio": "23:50",
-          "fin": "01:55",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": []
     },
     "Cinecanal.cl": {
