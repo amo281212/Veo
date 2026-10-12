@@ -1977,68 +1977,7 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [
-        {
-          "nombre": "The Goldbergs",
-          "inicio": "00:00",
-          "fin": "10:05",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hailey Dean Mysteries: Death on Duty",
-          "inicio": "10:05",
-          "fin": "11:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Escalofríos",
-          "inicio": "11:40",
-          "fin": "13:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El escape perfecto",
-          "inicio": "13:25",
-          "fin": "15:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hotel Transylvania",
-          "inicio": "15:15",
-          "fin": "16:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hotel Transylvania 2",
-          "inicio": "16:50",
-          "fin": "18:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hotel Transylvania 3: Monstruos de vacaciones",
-          "inicio": "18:25",
-          "fin": "20:05",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Orgullo, prejuicio y zombies",
-          "inicio": "20:05",
-          "fin": "22:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Un Lugar en Silencio: Parte 2",
-          "inicio": "22:00",
-          "fin": "23:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El perfecto asesino",
-          "inicio": "23:40",
-          "fin": "01:34",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": []
     },
     "Sony.cl": {
