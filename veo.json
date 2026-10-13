@@ -919,7 +919,14 @@
           "descripcion": ""
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "El Código Da Vinci",
+          "inicio": "00:00",
+          "fin": "11:49",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
