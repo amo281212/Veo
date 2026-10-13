@@ -949,6 +949,12 @@
           "inicio": "17:30",
           "fin": "18:57",
           "descripcion": ""
+        },
+        {
+          "nombre": "Wifi Ralph",
+          "inicio": "18:57",
+          "fin": "20:40",
+          "descripcion": ""
         }
       ],
       "Viernes": [],
