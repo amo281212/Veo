@@ -1079,6 +1079,12 @@
           "inicio": "20:20",
           "fin": "22:06",
           "descripcion": ""
+        },
+        {
+          "nombre": "Viaje al centro de la Tierra",
+          "inicio": "22:06",
+          "fin": "23:33",
+          "descripcion": ""
         }
       ],
       "Domingo": []
