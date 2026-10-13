@@ -1093,7 +1093,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Hombres de Negro 3",
+          "inicio": "00:00",
+          "fin": "09:36",
+          "descripcion": ""
+        }
+      ]
     }
   }
 }
