@@ -831,7 +831,14 @@
     },
     "ENTChannel.cl": {
       "Lunes": [],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "El Señor de los Anillos: El Retorno del Rey",
+          "inicio": "14:11",
+          "fin": "17:24",
+          "descripcion": ""
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
