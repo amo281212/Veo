@@ -668,38 +668,7 @@
       "Domingo": []
     },
     "HBOFamily.cl": {
-      "Lunes": [
-        {
-          "nombre": "Kung Fu Panda 2",
-          "inicio": "00:00",
-          "fin": "09:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Croods",
-          "inicio": "09:00",
-          "fin": "10:41",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Grinch",
-          "inicio": "10:41",
-          "fin": "12:28",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El espantatiburones",
-          "inicio": "12:28",
-          "fin": "14:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Karate Kid: Leyendas",
-          "inicio": "14:00",
-          "fin": "15:37",
-          "descripcion": ""
-        }
-      ],
+      "Lunes": [],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
