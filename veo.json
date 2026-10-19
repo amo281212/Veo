@@ -121,16 +121,16 @@
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20DRAMA.png"
     },
     {
-      "clave": "TNT.cl",
-      "nombre": "TNT",
-      "id": "TNT.cl",
-      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TNT.png"
-    },
-    {
       "clave": "ENTExtreme.cl",
       "nombre": "ENT Extreme",
       "id": "ENTExtreme.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20EXTREME.png"
+    },
+    {
+      "clave": "TNT.cl",
+      "nombre": "TNT",
+      "id": "TNT.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TNT.png"
     },
     {
       "clave": "FX.cl",
