@@ -830,7 +830,14 @@
       "Domingo": []
     },
     "ENTChannel.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Más allá de los sueños",
+          "inicio": "10:45",
+          "fin": "12:31",
+          "descripcion": ""
+        }
+      ],
       "Martes": [
         {
           "nombre": "El Señor de los Anillos: El Retorno del Rey",
