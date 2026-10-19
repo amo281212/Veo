@@ -2224,7 +2224,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Ágora: La caída del imperio romano",
+          "inicio": "00:00",
+          "fin": "08:02",
+          "descripcion": ""
+        }
+      ]
     },
     "ENTDrama.cl": {
       "Lunes": [],
