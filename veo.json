@@ -2660,7 +2660,14 @@
           "descripcion": ""
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Spider-Man: De regreso a casa",
+          "inicio": "00:59",
+          "fin": "09:28",
+          "descripcion": ""
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
