@@ -104,324 +104,6 @@
     <display-name>TNT Series</display-name>
     <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TNT%20SERIES.png"/>
   </channel>
-  <programme channel="HBO.cl" start="20261013010000 -0300" stop="20261013090000 -0300">
-    <title lang="es">Vivir de Noche</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261013090000 -0300" stop="20261013105800 -0300">
-    <title lang="es">Notas perfectas</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261013105800 -0300" stop="20261013125300 -0300">
-    <title lang="es">Geo-Tormenta</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261013125300 -0300" stop="20261013133800 -0300">
-    <title lang="es">Last Week Tonight With John Oliver</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261013133800 -0300" stop="20261013143800 -0300">
-    <title lang="es">War</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261013143800 -0300" stop="20261013163200 -0300">
-    <title lang="es">Supergirl</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261013163200 -0300" stop="20261013180500 -0300">
-    <title lang="es">Tiburón blanco: la bestia del mar</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261013180500 -0300" stop="20261013191000 -0300">
-    <title lang="es">Película</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261013191000 -0300" stop="20261013205300 -0300">
-    <title lang="es">Sniper: No Nation</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261013205300 -0300" stop="20261013230500 -0300">
-    <title lang="es">Hamnet</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261013230500 -0300" stop="20261014010000 -0300">
-    <title lang="es">Supergirl</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013010000 -0300" stop="20261013090000 -0300">
-    <title lang="es">La Habitación</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013090000 -0300" stop="20261013103100 -0300">
-    <title lang="es">Furia de Titanes 2</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013103100 -0300" stop="20261013121700 -0300">
-    <title lang="es">Los Fantasmas de mis ex</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013121700 -0300" stop="20261013143600 -0300">
-    <title lang="es">300</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013143600 -0300" stop="20261013163800 -0300">
-    <title lang="es">Amores Materialistas</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013163800 -0300" stop="20261013183800 -0300">
-    <title lang="es">Megalodon</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013183800 -0300" stop="20261013204800 -0300">
-    <title lang="es">Tornados</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013204800 -0300" stop="20261013223000 -0300">
-    <title lang="es">Vista por Última Vez</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261013223000 -0300" stop="20261014003000 -0300">
-    <title lang="es">HBO Movies</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261013141100 -0300" stop="20261013172400 -0300">
-    <title lang="es">El Señor de los Anillos: El Retorno del Rey</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261013172400 -0300" stop="20261013191000 -0300">
-    <title lang="es">Jack Ryan: Código sombra</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261013191000 -0300" stop="20261013204500 -0300">
-    <title lang="es">Siempre Alice</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261013204500 -0300" stop="20261013232900 -0300">
-    <title lang="es">Interestelar</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261013232900 -0300" stop="20261014000000 -0300">
-    <title lang="es">Los Simpson</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261014010000 -0300" stop="20261014090000 -0300">
-    <title lang="es">Conociendo a los Black</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261014090000 -0300" stop="20261014104500 -0300">
-    <title lang="es">Angry Birds La película</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261014104500 -0300" stop="20261014130300 -0300">
-    <title lang="es">Rápidos y Furiosos 6</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261014130300 -0300" stop="20261014140300 -0300">
-    <title lang="es">Película</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261014140300 -0300" stop="20261014161600 -0300">
-    <title lang="es">El Rey Arturo: La leyenda de la espada</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261014161600 -0300" stop="20261014184800 -0300">
-    <title lang="es">Flash</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261014184800 -0300" stop="20261014205200 -0300">
-    <title lang="es">Mortal Kombat II</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261014205200 -0300" stop="20261014225800 -0300">
-    <title lang="es">Jumanji: En la Selva</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261014225800 -0300" stop="20261015010000 -0300">
-    <title lang="es">Barbie</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261014003000 -0300" stop="20261014090000 -0300">
-    <title lang="es">Bad boys 2</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261014090000 -0300" stop="20261014114900 -0300">
-    <title lang="es">Harry Potter y la Cámara Secreta</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261014114900 -0300" stop="20261014133900 -0300">
-    <title lang="es">El Alma de la Fiesta</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261014133900 -0300" stop="20261014152700 -0300">
-    <title lang="es">Una Película de Minecraft</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261014152700 -0300" stop="20261014170900 -0300">
-    <title lang="es">Francotirador Sin Nación</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261014170900 -0300" stop="20261014194400 -0300">
-    <title lang="es">Matrix: Resurrecciones</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261014194400 -0300" stop="20261014213600 -0300">
-    <title lang="es">Cincuenta Sombras Liberadas</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261014213600 -0300" stop="20261015000000 -0300">
-    <title lang="es">Cumbres borrascosas</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261014000000 -0300" stop="20261014102600 -0300">
-    <title lang="es">Thor: Amor y trueno</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261014102600 -0300" stop="20261014122100 -0300">
-    <title lang="es">Agua para elefantes</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261014122100 -0300" stop="20261014144300 -0300">
-    <title lang="es">007: Spectre</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261014144300 -0300" stop="20261014163000 -0300">
-    <title lang="es">Robot salvaje</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261014163000 -0300" stop="20261014180100 -0300">
-    <title lang="es">Showtime</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261014180100 -0300" stop="20261014195800 -0300">
-    <title lang="es">Ghostbusters: El Legado</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261014195800 -0300" stop="20261014214400 -0300">
-    <title lang="es">Al filo del mañana</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261014214400 -0300" stop="20261014232900 -0300">
-    <title lang="es">El diablo viste a la moda 2</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261014232900 -0300" stop="20261015000000 -0300">
-    <title lang="es">Los Simpson</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261015010000 -0300" stop="20261015090000 -0300">
-    <title lang="es">En el Tornado</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261015090000 -0300" stop="20261015110400 -0300">
-    <title lang="es">Luna de Miel en Familia</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261015110400 -0300" stop="20261015132100 -0300">
-    <title lang="es">Parque Jurásico 2: El Mundo Perdido</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261015132100 -0300" stop="20261015150800 -0300">
-    <title lang="es">Goat: La cabra que cambió el juego</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261015150800 -0300" stop="20261015170000 -0300">
-    <title lang="es">Beetlejuice Beetlejuice</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261015170000 -0300" stop="20261015190700 -0300">
-    <title lang="es">Escape bajo fuego</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261015190700 -0300" stop="20261015221200 -0300">
-    <title lang="es">Batman</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261015221200 -0300" stop="20261016000000 -0300">
-    <title lang="es">Tierras perdidas</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261015000000 -0300" stop="20261015090000 -0300">
-    <title lang="es">Hasta Que Amanezca</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261015090000 -0300" stop="20261015105500 -0300">
-    <title lang="es">Policias de repuesto</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261015105500 -0300" stop="20261015125500 -0300">
-    <title lang="es">Jack El Cazagigantes</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261015125500 -0300" stop="20261015132300 -0300">
-    <title lang="es">En busca de Harry</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261015132300 -0300" stop="20261015155300 -0300">
-    <title lang="es">Harry Potter y el Prisionero de Azkabán</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261015155300 -0300" stop="20261015172800 -0300">
-    <title lang="es">Tiburón de guerra</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261015172800 -0300" stop="20261015194000 -0300">
-    <title lang="es">Hamnet</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261015194000 -0300" stop="20261015222200 -0300">
-    <title lang="es">Duna</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261015222200 -0300" stop="20261016010000 -0300">
-    <title lang="es">Mujer Maravilla 1984</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261015000000 -0300" stop="20261015114900 -0300">
-    <title lang="es">El Código Da Vinci</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261015114900 -0300" stop="20261015133000 -0300">
-    <title lang="es">Titanes del Pacífico: La Insurrección</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261015133000 -0300" stop="20261015150100 -0300">
-    <title lang="es">Angry Birds: La Película</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261015150100 -0300" stop="20261015173000 -0300">
-    <title lang="es">X-Men: Días del futuro pasado</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261015173000 -0300" stop="20261015185700 -0300">
-    <title lang="es">Joe Dirt</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261015185700 -0300" stop="20261015204000 -0300">
-    <title lang="es">Wifi Ralph</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261015204000 -0300" stop="20261015220900 -0300">
-    <title lang="es">Intensamente 2</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261015220900 -0300" stop="20261015233200 -0300">
-    <title lang="es">Monster house: La casa de los sustos</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261015233200 -0300" stop="20261016000000 -0300">
-    <title lang="es">Los Simpson</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261016000000 -0300" stop="20261016100000 -0300">
-    <title lang="es">La leyenda del tesoro perdido 2</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261016100000 -0300" stop="20261016113200 -0300">
-    <title lang="es">Luna de miel para tres</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261016113200 -0300" stop="20261016130800 -0300">
-    <title lang="es">Moana</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261016130800 -0300" stop="20261016144500 -0300">
-    <title lang="es">Socios y sabuesos</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261016144500 -0300" stop="20261016161600 -0300">
-    <title lang="es">Hombres de negro</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261016161600 -0300" stop="20261016173900 -0300">
-    <title lang="es">Hotel Transylvania</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261016173900 -0300" stop="20261016195800 -0300">
-    <title lang="es">A.I.: Inteligencia Artificial</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261016195800 -0300" stop="20261016213300 -0300">
-    <title lang="es">Ecos mortales</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261016213300 -0300" stop="20261016232900 -0300">
-    <title lang="es">La Gran Estafa</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261016232900 -0300" stop="20261017000000 -0300">
-    <title lang="es">Los Simpson</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261017000000 -0300" stop="20261017113300 -0300">
-    <title lang="es">Indiana Jones 3: La última cruzada</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261017113300 -0300" stop="20261017131100 -0300">
-    <title lang="es">Eternamente joven</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261017131100 -0300" stop="20261017150200 -0300">
-    <title lang="es">Nueve reinas</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261017150200 -0300" stop="20261017170400 -0300">
-    <title lang="es">El mundo perdido: Jurassic Park</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261017170400 -0300" stop="20261017184200 -0300">
-    <title lang="es">Rápido y furioso: Reto tokio</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261017184200 -0300" stop="20261017202000 -0300">
-    <title lang="es">El tesoro del amazonas</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261017202000 -0300" stop="20261017220600 -0300">
-    <title lang="es">Contratiempo</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261017220600 -0300" stop="20261017233300 -0300">
-    <title lang="es">Viaje al centro de la Tierra</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261017233300 -0300" stop="20261018000000 -0300">
-    <title lang="es">Los Simpson</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261018000000 -0300" stop="20261018093600 -0300">
-    <title lang="es">Hombres de Negro 3</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261018093600 -0300" stop="20261018113900 -0300">
-    <title lang="es">El sorprendente hombre araña 2</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261018113900 -0300" stop="20261018130800 -0300">
-    <title lang="es">Rebelión de los excluidos</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261018130800 -0300" stop="20261018143200 -0300">
-    <title lang="es">Loca Academia de Pilotos 2</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261018143200 -0300" stop="20261018155700 -0300">
-    <title lang="es">Drácula: Muerto pero feliz</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261018155700 -0300" stop="20261018174300 -0300">
-    <title lang="es">Más allá de los sueños</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261018174300 -0300" stop="20261018192200 -0300">
-    <title lang="es">DC Liga de Supermascotas</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261018192200 -0300" stop="20261018212800 -0300">
-    <title lang="es">Misión Imposible 3</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261018212800 -0300" stop="20261018232900 -0300">
-    <title lang="es">A él no le gustas tanto</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261018232900 -0300" stop="20261019000000 -0300">
-    <title lang="es">Los Simpson</title>
-  </programme>
   <programme channel="HBO.cl" start="20261019000000 -0300" stop="20261019090000 -0300">
     <title lang="es">Definitivamente, Tal Vez</title>
   </programme>
@@ -475,6 +157,27 @@
   </programme>
   <programme channel="HBO2.cl" start="20261019224000 -0300" stop="20261020010000 -0300">
     <title lang="es">Shazam!</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261019104500 -0300" stop="20261019123100 -0300">
+    <title lang="es">Más allá de los sueños</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261019123100 -0300" stop="20261019144900 -0300">
+    <title lang="es">Rápidos y Furiosos: Hobbs y Shaw</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261019144900 -0300" stop="20261019174300 -0300">
+    <title lang="es">¿Conoces a Joe Black?</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261019174300 -0300" stop="20261019192200 -0300">
+    <title lang="es">Cars 2</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261019192200 -0300" stop="20261019212800 -0300">
+    <title lang="es">Misión Imposible 3</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261019212800 -0300" stop="20261019232900 -0300">
+    <title lang="es">A él no le gustas tanto</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261019232900 -0300" stop="20261020000000 -0300">
+    <title lang="es">Los Simpson</title>
   </programme>
   <programme channel="HBO.cl" start="20261020010000 -0300" stop="20261020090000 -0300">
     <title lang="es">Vivir de Noche</title>
@@ -536,19 +239,37 @@
   <programme channel="HBO2.cl" start="20261020223000 -0300" stop="20261021003000 -0300">
     <title lang="es">HBO Movies</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261020141100 -0300" stop="20261020172400 -0300">
-    <title lang="es">El Señor de los Anillos: El Retorno del Rey</title>
+  <programme channel="ENTChannel.cl" start="20261020000000 -0300" stop="20261020081800 -0300">
+    <title lang="es">Capitán América: Civil War</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261020172400 -0300" stop="20261020191000 -0300">
-    <title lang="es">Jack Ryan: Código sombra</title>
+  <programme channel="ENTChannel.cl" start="20261020081800 -0300" stop="20261020095800 -0300">
+    <title lang="es">DC Liga de Supermascotas</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261020191000 -0300" stop="20261020204500 -0300">
-    <title lang="es">Siempre Alice</title>
+  <programme channel="ENTChannel.cl" start="20261020095800 -0300" stop="20261020111300 -0300">
+    <title lang="es">La Bella Durmiente</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261020204500 -0300" stop="20261020232900 -0300">
-    <title lang="es">Interestelar</title>
+  <programme channel="ENTChannel.cl" start="20261020111300 -0300" stop="20261020132900 -0300">
+    <title lang="es">Star Wars: Episodio II: El Ataque de los clones</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261020232900 -0300" stop="20261021000000 -0300">
+  <programme channel="ENTChannel.cl" start="20261020132900 -0300" stop="20261020151700 -0300">
+    <title lang="es">Vuelo a la libertad</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261020151700 -0300" stop="20261020173300 -0300">
+    <title lang="es">Kingsman: El Círculo Dorado</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261020173300 -0300" stop="20261020185400 -0300">
+    <title lang="es">Hombres de Negro 2</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261020185400 -0300" stop="20261020201500 -0300">
+    <title lang="es">¿Y dónde está el policía? 2 1/2: El Aroma del Miedo</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261020201500 -0300" stop="20261020215300 -0300">
+    <title lang="es">El Día de la Marmota</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261020215300 -0300" stop="20261020233000 -0300">
+    <title lang="es">Enseñanza de Vida</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261020233000 -0300" stop="20261021000000 -0300">
     <title lang="es">Los Simpson</title>
   </programme>
   <programme channel="HBO.cl" start="20261021010000 -0300" stop="20261021090000 -0300">
@@ -602,31 +323,37 @@
   <programme channel="HBO2.cl" start="20261021213600 -0300" stop="20261022000000 -0300">
     <title lang="es">Cumbres borrascosas</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261021000000 -0300" stop="20261021102600 -0300">
-    <title lang="es">Thor: Amor y trueno</title>
+  <programme channel="ENTChannel.cl" start="20261021000000 -0300" stop="20261021080500 -0300">
+    <title lang="es">El quinto elemento</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261021102600 -0300" stop="20261021122100 -0300">
-    <title lang="es">Agua para elefantes</title>
+  <programme channel="ENTChannel.cl" start="20261021080500 -0300" stop="20261021100100 -0300">
+    <title lang="es">Bourne: El Ultimátum</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261021122100 -0300" stop="20261021144300 -0300">
-    <title lang="es">007: Spectre</title>
+  <programme channel="ENTChannel.cl" start="20261021100100 -0300" stop="20261021113000 -0300">
+    <title lang="es">Cabezas Huecas</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261021144300 -0300" stop="20261021163000 -0300">
-    <title lang="es">Robot salvaje</title>
+  <programme channel="ENTChannel.cl" start="20261021113000 -0300" stop="20261021125100 -0300">
+    <title lang="es">Lilo y Stitch</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261021163000 -0300" stop="20261021180100 -0300">
-    <title lang="es">Showtime</title>
+  <programme channel="ENTChannel.cl" start="20261021125100 -0300" stop="20261021150400 -0300">
+    <title lang="es">Argylle: Agente Secreto</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261021180100 -0300" stop="20261021195800 -0300">
-    <title lang="es">Ghostbusters: El Legado</title>
+  <programme channel="ENTChannel.cl" start="20261021150400 -0300" stop="20261021162800 -0300">
+    <title lang="es">Dúplex</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261021195800 -0300" stop="20261021214400 -0300">
-    <title lang="es">Al filo del mañana</title>
+  <programme channel="ENTChannel.cl" start="20261021162800 -0300" stop="20261021184000 -0300">
+    <title lang="es">Siete años en el Tibet</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261021214400 -0300" stop="20261021232900 -0300">
-    <title lang="es">El diablo viste a la moda 2</title>
+  <programme channel="ENTChannel.cl" start="20261021184000 -0300" stop="20261021200600 -0300">
+    <title lang="es">Kim Possible</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261021232900 -0300" stop="20261022000000 -0300">
+  <programme channel="ENTChannel.cl" start="20261021200600 -0300" stop="20261021214000 -0300">
+    <title lang="es">Cars 3</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261021214000 -0300" stop="20261021233100 -0300">
+    <title lang="es">My Hero Academia: Ahora es tu turno</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261021233100 -0300" stop="20261022000000 -0300">
     <title lang="es">Los Simpson</title>
   </programme>
   <programme channel="HBO.cl" start="20261022010000 -0300" stop="20261022090000 -0300">
@@ -680,116 +407,116 @@
   <programme channel="HBO2.cl" start="20261022222200 -0300" stop="20261023010000 -0300">
     <title lang="es">Mujer Maravilla 1984</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261022000000 -0300" stop="20261022114900 -0300">
-    <title lang="es">El Código Da Vinci</title>
+  <programme channel="ENTChannel.cl" start="20261022000000 -0300" stop="20261022091700 -0300">
+    <title lang="es">Bichos: Una aventura en miniatura</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261022114900 -0300" stop="20261022133000 -0300">
-    <title lang="es">Titanes del Pacífico: La Insurrección</title>
+  <programme channel="ENTChannel.cl" start="20261022091700 -0300" stop="20261022105400 -0300">
+    <title lang="es">Rescate en el barrio chino</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261022133000 -0300" stop="20261022150100 -0300">
-    <title lang="es">Angry Birds: La Película</title>
+  <programme channel="ENTChannel.cl" start="20261022105400 -0300" stop="20261022130700 -0300">
+    <title lang="es">El Planeta de los Simios 3: La Guerra</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261022150100 -0300" stop="20261022173000 -0300">
-    <title lang="es">X-Men: Días del futuro pasado</title>
+  <programme channel="ENTChannel.cl" start="20261022130700 -0300" stop="20261022151800 -0300">
+    <title lang="es">Wolverine: Inmortal</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261022173000 -0300" stop="20261022185700 -0300">
-    <title lang="es">Joe Dirt</title>
+  <programme channel="ENTChannel.cl" start="20261022151800 -0300" stop="20261022172100 -0300">
+    <title lang="es">Titanes del Pacífico</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261022185700 -0300" stop="20261022204000 -0300">
-    <title lang="es">Wifi Ralph</title>
+  <programme channel="ENTChannel.cl" start="20261022172100 -0300" stop="20261022192300 -0300">
+    <title lang="es">La momia regresa</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261022204000 -0300" stop="20261022220900 -0300">
-    <title lang="es">Intensamente 2</title>
+  <programme channel="ENTChannel.cl" start="20261022192300 -0300" stop="20261022214700 -0300">
+    <title lang="es">Harry Potter y el Cáliz de Fuego</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261022220900 -0300" stop="20261022233200 -0300">
-    <title lang="es">Monster house: La casa de los sustos</title>
+  <programme channel="ENTChannel.cl" start="20261022214700 -0300" stop="20261022232900 -0300">
+    <title lang="es">Los Cazafantasmas 2</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261022233200 -0300" stop="20261023000000 -0300">
+  <programme channel="ENTChannel.cl" start="20261022232900 -0300" stop="20261023000000 -0300">
     <title lang="es">Los Simpson</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261023000000 -0300" stop="20261023100000 -0300">
-    <title lang="es">La leyenda del tesoro perdido 2</title>
+  <programme channel="ENTChannel.cl" start="20261023000000 -0300" stop="20261023090000 -0300">
+    <title lang="es">Austin Powers 3: El miembro de oro</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261023100000 -0300" stop="20261023113200 -0300">
-    <title lang="es">Luna de miel para tres</title>
+  <programme channel="ENTChannel.cl" start="20261023090000 -0300" stop="20261023103700 -0300">
+    <title lang="es">Propuesta de Muerte</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261023113200 -0300" stop="20261023130800 -0300">
-    <title lang="es">Moana</title>
+  <programme channel="ENTChannel.cl" start="20261023103700 -0300" stop="20261023121500 -0300">
+    <title lang="es">Tienes que creer</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261023130800 -0300" stop="20261023144500 -0300">
-    <title lang="es">Socios y sabuesos</title>
+  <programme channel="ENTChannel.cl" start="20261023121500 -0300" stop="20261023134800 -0300">
+    <title lang="es">Matilda</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261023144500 -0300" stop="20261023161600 -0300">
-    <title lang="es">Hombres de negro</title>
+  <programme channel="ENTChannel.cl" start="20261023134800 -0300" stop="20261023153600 -0300">
+    <title lang="es">Los Increíbles 2</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261023161600 -0300" stop="20261023173900 -0300">
-    <title lang="es">Hotel Transylvania</title>
+  <programme channel="ENTChannel.cl" start="20261023153600 -0300" stop="20261023174000 -0300">
+    <title lang="es">El embajador del miedo</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261023173900 -0300" stop="20261023195800 -0300">
-    <title lang="es">A.I.: Inteligencia Artificial</title>
+  <programme channel="ENTChannel.cl" start="20261023174000 -0300" stop="20261023192200 -0300">
+    <title lang="es">Ip Man 3</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261023195800 -0300" stop="20261023213300 -0300">
-    <title lang="es">Ecos mortales</title>
+  <programme channel="ENTChannel.cl" start="20261023192200 -0300" stop="20261023205300 -0300">
+    <title lang="es">Elf, el duende</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261023213300 -0300" stop="20261023232900 -0300">
-    <title lang="es">La Gran Estafa</title>
+  <programme channel="ENTChannel.cl" start="20261023205300 -0300" stop="20261023221300 -0300">
+    <title lang="es">Space Jam: El Juego del Siglo</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261023232900 -0300" stop="20261024000000 -0300">
+  <programme channel="ENTChannel.cl" start="20261023221300 -0300" stop="20261023233100 -0300">
+    <title lang="es">El Grinch</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261023233100 -0300" stop="20261024000000 -0300">
     <title lang="es">Los Simpson</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261024000000 -0300" stop="20261024113300 -0300">
-    <title lang="es">Indiana Jones 3: La última cruzada</title>
+  <programme channel="ENTChannel.cl" start="20261024000000 -0300" stop="20261024094400 -0300">
+    <title lang="es">La Nueva Gran Estafa</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261024113300 -0300" stop="20261024131100 -0300">
-    <title lang="es">Eternamente joven</title>
+  <programme channel="ENTChannel.cl" start="20261024094400 -0300" stop="20261024113800 -0300">
+    <title lang="es">Thunderbolts</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261024131100 -0300" stop="20261024150200 -0300">
-    <title lang="es">Nueve reinas</title>
+  <programme channel="ENTChannel.cl" start="20261024113800 -0300" stop="20261024132900 -0300">
+    <title lang="es">E.T. El extraterrestre</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261024150200 -0300" stop="20261024170400 -0300">
-    <title lang="es">El mundo perdido: Jurassic Park</title>
+  <programme channel="ENTChannel.cl" start="20261024132900 -0300" stop="20261024151400 -0300">
+    <title lang="es">Thor</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261024170400 -0300" stop="20261024184200 -0300">
-    <title lang="es">Rápido y furioso: Reto tokio</title>
+  <programme channel="ENTChannel.cl" start="20261024151400 -0300" stop="20261024164500 -0300">
+    <title lang="es">(500) días con ella</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261024184200 -0300" stop="20261024202000 -0300">
-    <title lang="es">El tesoro del amazonas</title>
+  <programme channel="ENTChannel.cl" start="20261024164500 -0300" stop="20261024192500 -0300">
+    <title lang="es">El curioso caso de Benjamin Button</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261024202000 -0300" stop="20261024220600 -0300">
-    <title lang="es">Contratiempo</title>
+  <programme channel="ENTChannel.cl" start="20261024192500 -0300" stop="20261024211600 -0300">
+    <title lang="es">Gerónimo: Una leyenda</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261024220600 -0300" stop="20261024233300 -0300">
-    <title lang="es">Viaje al centro de la Tierra</title>
+  <programme channel="ENTChannel.cl" start="20261024211600 -0300" stop="20261024232900 -0300">
+    <title lang="es">Avengers: Los Vengadores</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261024233300 -0300" stop="20261025000000 -0300">
+  <programme channel="ENTChannel.cl" start="20261024232900 -0300" stop="20261025000000 -0300">
     <title lang="es">Los Simpson</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261025000000 -0300" stop="20261025093600 -0300">
-    <title lang="es">Hombres de Negro 3</title>
+  <programme channel="ENTChannel.cl" start="20261025000000 -0300" stop="20261025094400 -0300">
+    <title lang="es">Una noche en el museo</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261025093600 -0300" stop="20261025113900 -0300">
-    <title lang="es">El sorprendente hombre araña 2</title>
+  <programme channel="ENTChannel.cl" start="20261025094400 -0300" stop="20261025114100 -0300">
+    <title lang="es">El Cliente</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261025113900 -0300" stop="20261025130800 -0300">
-    <title lang="es">Rebelión de los excluidos</title>
+  <programme channel="ENTChannel.cl" start="20261025114100 -0300" stop="20261025132900 -0300">
+    <title lang="es">Río Salvaje</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261025130800 -0300" stop="20261025143200 -0300">
-    <title lang="es">Loca Academia de Pilotos 2</title>
+  <programme channel="ENTChannel.cl" start="20261025132900 -0300" stop="20261025151200 -0300">
+    <title lang="es">Los reyes de la calle Mulberry: ¡Que reine el amor!</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261025143200 -0300" stop="20261025155700 -0300">
-    <title lang="es">Drácula: Muerto pero feliz</title>
+  <programme channel="ENTChannel.cl" start="20261025151200 -0300" stop="20261025171900 -0300">
+    <title lang="es">Wall Street: Money Never Sleeps</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261025155700 -0300" stop="20261025174300 -0300">
-    <title lang="es">Más allá de los sueños</title>
+  <programme channel="ENTChannel.cl" start="20261025171900 -0300" stop="20261025195800 -0300">
+    <title lang="es">Piratas del Caribe 3: En el fin del mundo</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261025174300 -0300" stop="20261025192200 -0300">
-    <title lang="es">DC Liga de Supermascotas</title>
+  <programme channel="ENTChannel.cl" start="20261025195800 -0300" stop="20261025214100 -0300">
+    <title lang="es">Hannah Montana: La película</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261025192200 -0300" stop="20261025212800 -0300">
-    <title lang="es">Misión Imposible 3</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261025212800 -0300" stop="20261025232900 -0300">
-    <title lang="es">A él no le gustas tanto</title>
+  <programme channel="ENTChannel.cl" start="20261025214100 -0300" stop="20261025232900 -0300">
+    <title lang="es">En un lugar del corazón</title>
   </programme>
   <programme channel="ENTChannel.cl" start="20261025232900 -0300" stop="20261026000000 -0300">
     <title lang="es">Los Simpson</title>
@@ -847,5 +574,368 @@
   </programme>
   <programme channel="HBO2.cl" start="20261026224000 -0300" stop="20261027010000 -0300">
     <title lang="es">Shazam!</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261026104500 -0300" stop="20261026123100 -0300">
+    <title lang="es">Más allá de los sueños</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261026123100 -0300" stop="20261026144900 -0300">
+    <title lang="es">Rápidos y Furiosos: Hobbs y Shaw</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261026144900 -0300" stop="20261026174300 -0300">
+    <title lang="es">¿Conoces a Joe Black?</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261026174300 -0300" stop="20261026192200 -0300">
+    <title lang="es">Cars 2</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261026192200 -0300" stop="20261026212800 -0300">
+    <title lang="es">Misión Imposible 3</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261026212800 -0300" stop="20261026232900 -0300">
+    <title lang="es">A él no le gustas tanto</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261026232900 -0300" stop="20261027000000 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261027010000 -0300" stop="20261027090000 -0300">
+    <title lang="es">Vivir de Noche</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261027090000 -0300" stop="20261027105800 -0300">
+    <title lang="es">Notas perfectas</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261027105800 -0300" stop="20261027125300 -0300">
+    <title lang="es">Geo-Tormenta</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261027125300 -0300" stop="20261027133800 -0300">
+    <title lang="es">Last Week Tonight With John Oliver</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261027133800 -0300" stop="20261027143800 -0300">
+    <title lang="es">War</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261027143800 -0300" stop="20261027163200 -0300">
+    <title lang="es">Supergirl</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261027163200 -0300" stop="20261027180500 -0300">
+    <title lang="es">Tiburón blanco: la bestia del mar</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261027180500 -0300" stop="20261027191000 -0300">
+    <title lang="es">Película</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261027191000 -0300" stop="20261027205300 -0300">
+    <title lang="es">Sniper: No Nation</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261027205300 -0300" stop="20261027230500 -0300">
+    <title lang="es">Hamnet</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261027230500 -0300" stop="20261028010000 -0300">
+    <title lang="es">Supergirl</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261027010000 -0300" stop="20261027090000 -0300">
+    <title lang="es">La Habitación</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261027090000 -0300" stop="20261027103100 -0300">
+    <title lang="es">Furia de Titanes 2</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261027103100 -0300" stop="20261027121700 -0300">
+    <title lang="es">Los Fantasmas de mis ex</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261027121700 -0300" stop="20261027143600 -0300">
+    <title lang="es">300</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261027143600 -0300" stop="20261027163800 -0300">
+    <title lang="es">Amores Materialistas</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261027163800 -0300" stop="20261027183800 -0300">
+    <title lang="es">Megalodon</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261027183800 -0300" stop="20261027204800 -0300">
+    <title lang="es">Tornados</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261027204800 -0300" stop="20261027223000 -0300">
+    <title lang="es">Vista por Última Vez</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261027223000 -0300" stop="20261028003000 -0300">
+    <title lang="es">HBO Movies</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261027000000 -0300" stop="20261027081800 -0300">
+    <title lang="es">Capitán América: Civil War</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261027081800 -0300" stop="20261027095800 -0300">
+    <title lang="es">DC Liga de Supermascotas</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261027095800 -0300" stop="20261027111300 -0300">
+    <title lang="es">La Bella Durmiente</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261027111300 -0300" stop="20261027132900 -0300">
+    <title lang="es">Star Wars: Episodio II: El Ataque de los clones</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261027132900 -0300" stop="20261027151700 -0300">
+    <title lang="es">Vuelo a la libertad</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261027151700 -0300" stop="20261027173300 -0300">
+    <title lang="es">Kingsman: El Círculo Dorado</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261027173300 -0300" stop="20261027185400 -0300">
+    <title lang="es">Hombres de Negro 2</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261027185400 -0300" stop="20261027201500 -0300">
+    <title lang="es">¿Y dónde está el policía? 2 1/2: El Aroma del Miedo</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261027201500 -0300" stop="20261027215300 -0300">
+    <title lang="es">El Día de la Marmota</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261027215300 -0300" stop="20261027233000 -0300">
+    <title lang="es">Enseñanza de Vida</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261027233000 -0300" stop="20261028000000 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261028010000 -0300" stop="20261028090000 -0300">
+    <title lang="es">Conociendo a los Black</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261028090000 -0300" stop="20261028104500 -0300">
+    <title lang="es">Angry Birds La película</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261028104500 -0300" stop="20261028130300 -0300">
+    <title lang="es">Rápidos y Furiosos 6</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261028130300 -0300" stop="20261028140300 -0300">
+    <title lang="es">Película</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261028140300 -0300" stop="20261028161600 -0300">
+    <title lang="es">El Rey Arturo: La leyenda de la espada</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261028161600 -0300" stop="20261028184800 -0300">
+    <title lang="es">Flash</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261028184800 -0300" stop="20261028205200 -0300">
+    <title lang="es">Mortal Kombat II</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261028205200 -0300" stop="20261028225800 -0300">
+    <title lang="es">Jumanji: En la Selva</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261028225800 -0300" stop="20261029010000 -0300">
+    <title lang="es">Barbie</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261028003000 -0300" stop="20261028090000 -0300">
+    <title lang="es">Bad boys 2</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261028090000 -0300" stop="20261028114900 -0300">
+    <title lang="es">Harry Potter y la Cámara Secreta</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261028114900 -0300" stop="20261028133900 -0300">
+    <title lang="es">El Alma de la Fiesta</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261028133900 -0300" stop="20261028152700 -0300">
+    <title lang="es">Una Película de Minecraft</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261028152700 -0300" stop="20261028170900 -0300">
+    <title lang="es">Francotirador Sin Nación</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261028170900 -0300" stop="20261028194400 -0300">
+    <title lang="es">Matrix: Resurrecciones</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261028194400 -0300" stop="20261028213600 -0300">
+    <title lang="es">Cincuenta Sombras Liberadas</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261028213600 -0300" stop="20261029000000 -0300">
+    <title lang="es">Cumbres borrascosas</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261028000000 -0300" stop="20261028080500 -0300">
+    <title lang="es">El quinto elemento</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261028080500 -0300" stop="20261028100100 -0300">
+    <title lang="es">Bourne: El Ultimátum</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261028100100 -0300" stop="20261028113000 -0300">
+    <title lang="es">Cabezas Huecas</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261028113000 -0300" stop="20261028125100 -0300">
+    <title lang="es">Lilo y Stitch</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261028125100 -0300" stop="20261028150400 -0300">
+    <title lang="es">Argylle: Agente Secreto</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261028150400 -0300" stop="20261028162800 -0300">
+    <title lang="es">Dúplex</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261028162800 -0300" stop="20261028184000 -0300">
+    <title lang="es">Siete años en el Tibet</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261028184000 -0300" stop="20261028200600 -0300">
+    <title lang="es">Kim Possible</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261028200600 -0300" stop="20261028214000 -0300">
+    <title lang="es">Cars 3</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261028214000 -0300" stop="20261028233100 -0300">
+    <title lang="es">My Hero Academia: Ahora es tu turno</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261028233100 -0300" stop="20261029000000 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261029010000 -0300" stop="20261029090000 -0300">
+    <title lang="es">En el Tornado</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261029090000 -0300" stop="20261029110400 -0300">
+    <title lang="es">Luna de Miel en Familia</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261029110400 -0300" stop="20261029132100 -0300">
+    <title lang="es">Parque Jurásico 2: El Mundo Perdido</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261029132100 -0300" stop="20261029150800 -0300">
+    <title lang="es">Goat: La cabra que cambió el juego</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261029150800 -0300" stop="20261029170000 -0300">
+    <title lang="es">Beetlejuice Beetlejuice</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261029170000 -0300" stop="20261029190700 -0300">
+    <title lang="es">Escape bajo fuego</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261029190700 -0300" stop="20261029221200 -0300">
+    <title lang="es">Batman</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261029221200 -0300" stop="20261030000000 -0300">
+    <title lang="es">Tierras perdidas</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261029000000 -0300" stop="20261029090000 -0300">
+    <title lang="es">Hasta Que Amanezca</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261029090000 -0300" stop="20261029105500 -0300">
+    <title lang="es">Policias de repuesto</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261029105500 -0300" stop="20261029125500 -0300">
+    <title lang="es">Jack El Cazagigantes</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261029125500 -0300" stop="20261029132300 -0300">
+    <title lang="es">En busca de Harry</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261029132300 -0300" stop="20261029155300 -0300">
+    <title lang="es">Harry Potter y el Prisionero de Azkabán</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261029155300 -0300" stop="20261029172800 -0300">
+    <title lang="es">Tiburón de guerra</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261029172800 -0300" stop="20261029194000 -0300">
+    <title lang="es">Hamnet</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261029194000 -0300" stop="20261029222200 -0300">
+    <title lang="es">Duna</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261029222200 -0300" stop="20261030010000 -0300">
+    <title lang="es">Mujer Maravilla 1984</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261029000000 -0300" stop="20261029091700 -0300">
+    <title lang="es">Bichos: Una aventura en miniatura</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261029091700 -0300" stop="20261029105400 -0300">
+    <title lang="es">Rescate en el barrio chino</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261029105400 -0300" stop="20261029130700 -0300">
+    <title lang="es">El Planeta de los Simios 3: La Guerra</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261029130700 -0300" stop="20261029151800 -0300">
+    <title lang="es">Wolverine: Inmortal</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261029151800 -0300" stop="20261029172100 -0300">
+    <title lang="es">Titanes del Pacífico</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261029172100 -0300" stop="20261029192300 -0300">
+    <title lang="es">La momia regresa</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261029192300 -0300" stop="20261029214700 -0300">
+    <title lang="es">Harry Potter y el Cáliz de Fuego</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261029214700 -0300" stop="20261029232900 -0300">
+    <title lang="es">Los Cazafantasmas 2</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261029232900 -0300" stop="20261030000000 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261030000000 -0300" stop="20261030090000 -0300">
+    <title lang="es">Austin Powers 3: El miembro de oro</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261030090000 -0300" stop="20261030103700 -0300">
+    <title lang="es">Propuesta de Muerte</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261030103700 -0300" stop="20261030121500 -0300">
+    <title lang="es">Tienes que creer</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261030121500 -0300" stop="20261030134800 -0300">
+    <title lang="es">Matilda</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261030134800 -0300" stop="20261030153600 -0300">
+    <title lang="es">Los Increíbles 2</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261030153600 -0300" stop="20261030174000 -0300">
+    <title lang="es">El embajador del miedo</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261030174000 -0300" stop="20261030192200 -0300">
+    <title lang="es">Ip Man 3</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261030192200 -0300" stop="20261030205300 -0300">
+    <title lang="es">Elf, el duende</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261030205300 -0300" stop="20261030221300 -0300">
+    <title lang="es">Space Jam: El Juego del Siglo</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261030221300 -0300" stop="20261030233100 -0300">
+    <title lang="es">El Grinch</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261030233100 -0300" stop="20261031000000 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261031000000 -0300" stop="20261031094400 -0300">
+    <title lang="es">La Nueva Gran Estafa</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261031094400 -0300" stop="20261031113800 -0300">
+    <title lang="es">Thunderbolts</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261031113800 -0300" stop="20261031132900 -0300">
+    <title lang="es">E.T. El extraterrestre</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261031132900 -0300" stop="20261031151400 -0300">
+    <title lang="es">Thor</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261031151400 -0300" stop="20261031164500 -0300">
+    <title lang="es">(500) días con ella</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261031164500 -0300" stop="20261031192500 -0300">
+    <title lang="es">El curioso caso de Benjamin Button</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261031192500 -0300" stop="20261031211600 -0300">
+    <title lang="es">Gerónimo: Una leyenda</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261031211600 -0300" stop="20261031232900 -0300">
+    <title lang="es">Avengers: Los Vengadores</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261031232900 -0300" stop="20261101000000 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261101000000 -0300" stop="20261101094400 -0300">
+    <title lang="es">Una noche en el museo</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261101094400 -0300" stop="20261101114100 -0300">
+    <title lang="es">El Cliente</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261101114100 -0300" stop="20261101132900 -0300">
+    <title lang="es">Río Salvaje</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261101132900 -0300" stop="20261101151200 -0300">
+    <title lang="es">Los reyes de la calle Mulberry: ¡Que reine el amor!</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261101151200 -0300" stop="20261101171900 -0300">
+    <title lang="es">Wall Street: Money Never Sleeps</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261101171900 -0300" stop="20261101195800 -0300">
+    <title lang="es">Piratas del Caribe 3: En el fin del mundo</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261101195800 -0300" stop="20261101214100 -0300">
+    <title lang="es">Hannah Montana: La película</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261101214100 -0300" stop="20261101232900 -0300">
+    <title lang="es">En un lugar del corazón</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261101232900 -0300" stop="20261102000000 -0300">
+    <title lang="es">Los Simpson</title>
   </programme>
 </tv>
