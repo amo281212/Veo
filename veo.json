@@ -2282,7 +2282,14 @@
       ]
     },
     "ENTDrama.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "El planeta de los simios: (R)evolución",
+          "inicio": "16:31",
+          "fin": "18:10",
+          "descripcion": ""
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
