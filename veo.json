@@ -2112,7 +2112,14 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "El Rey León",
+          "inicio": "00:00",
+          "fin": "08:52",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
