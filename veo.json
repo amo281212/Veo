@@ -2056,7 +2056,14 @@
           "descripcion": ""
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Me casé con un boludo",
+          "inicio": "00:00",
+          "fin": "09:26",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
