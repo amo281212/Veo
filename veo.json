@@ -161,6 +161,12 @@
       "nombre": "ENT Comedy",
       "id": "ENTComedy.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20COMEDY.png"
+    },
+    {
+      "clave": "ENTMovies.cl",
+      "nombre": "ENT Movies",
+      "id": "ENTMovies.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20MOVIES.png"
     }
   ],
   "eliminados": [
@@ -1254,6 +1260,15 @@
       ]
     },
     "ENTComedy.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "ENTMovies.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
