@@ -2314,7 +2314,14 @@
           "descripcion": ""
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "La otra reina",
+          "inicio": "00:00",
+          "fin": "11:27",
+          "descripcion": ""
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
