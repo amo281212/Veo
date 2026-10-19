@@ -1818,7 +1818,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Monkeybone",
+          "inicio": "00:00",
+          "fin": "08:59",
+          "descripcion": ""
+        }
+      ]
     },
     "ENTMovies.cl": {
       "Lunes": [],
