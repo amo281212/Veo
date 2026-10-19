@@ -1512,7 +1512,14 @@
           "descripcion": ""
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Monster House: La casa de los sustos",
+          "inicio": "00:00",
+          "fin": "08:59",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
