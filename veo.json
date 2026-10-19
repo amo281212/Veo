@@ -942,7 +942,14 @@
           "descripcion": ""
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "El quinto elemento",
+          "inicio": "00:00",
+          "fin": "08:05",
+          "descripcion": ""
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
