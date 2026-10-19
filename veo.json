@@ -2230,6 +2230,12 @@
           "inicio": "00:00",
           "fin": "08:02",
           "descripcion": ""
+        },
+        {
+          "nombre": "La sirenita",
+          "inicio": "08:02",
+          "fin": "09:20",
+          "descripcion": ""
         }
       ]
     },
