@@ -1944,7 +1944,14 @@
           "descripcion": ""
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "X-Men: Primera generación",
+          "inicio": "00:00",
+          "fin": "09:25",
+          "descripcion": ""
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
