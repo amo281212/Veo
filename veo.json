@@ -2006,7 +2006,14 @@
           "descripcion": ""
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "Ángeles y demonios",
+          "inicio": "00:00",
+          "fin": "09:52",
+          "descripcion": ""
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
