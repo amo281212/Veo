@@ -2532,6 +2532,12 @@
           "inicio": "00:00",
           "fin": "09:15",
           "descripcion": ""
+        },
+        {
+          "nombre": "Sherlock: La novia abominable",
+          "inicio": "09:15",
+          "fin": "10:44",
+          "descripcion": ""
         }
       ],
       "Domingo": []
