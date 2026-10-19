@@ -2634,7 +2634,14 @@
       ]
     },
     "ENTExtreme.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Star Wars: El despertar de la fuerza",
+          "inicio": "17:11",
+          "fin": "19:19",
+          "descripcion": ""
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
