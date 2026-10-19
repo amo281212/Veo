@@ -133,6 +133,12 @@
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/UNIVERSAL.png"
     },
     {
+      "clave": "ENTComedy.cl",
+      "nombre": "ENT Comedy",
+      "id": "ENTComedy.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20COMEDY.png"
+    },
+    {
       "clave": "AXN.cl",
       "nombre": "AXN",
       "id": "AXN.cl",
@@ -155,12 +161,6 @@
       "nombre": "TNT Series",
       "id": "TNTSeries.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TNT%20SERIES.png"
-    },
-    {
-      "clave": "ENTComedy.cl",
-      "nombre": "ENT Comedy",
-      "id": "ENTComedy.cl",
-      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20COMEDY.png"
     },
     {
       "clave": "ENTMovies.cl",
