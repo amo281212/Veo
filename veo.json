@@ -838,38 +838,7 @@
           "descripcion": ""
         }
       ],
-      "Martes": [
-        {
-          "nombre": "El Señor de los Anillos: El Retorno del Rey",
-          "inicio": "14:11",
-          "fin": "17:24",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Jack Ryan: Código sombra",
-          "inicio": "17:24",
-          "fin": "19:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Siempre Alice",
-          "inicio": "19:10",
-          "fin": "20:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Interestelar",
-          "inicio": "20:45",
-          "fin": "23:29",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:29",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Thor: Amor y trueno",
