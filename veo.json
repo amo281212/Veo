@@ -1196,6 +1196,12 @@
           "inicio": "00:00",
           "fin": "09:44",
           "descripcion": ""
+        },
+        {
+          "nombre": "El Cliente",
+          "inicio": "09:44",
+          "fin": "11:41",
+          "descripcion": ""
         }
       ]
     }
