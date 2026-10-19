@@ -2470,7 +2470,14 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "El planeta de los simios: (R)evolución",
+          "inicio": "00:00",
+          "fin": "09:54",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
