@@ -2890,7 +2890,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Loca academia de pilotos 2",
+          "inicio": "01:00",
+          "fin": "09:10",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     }
   }
