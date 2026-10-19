@@ -843,68 +843,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "Hombres de Negro 3",
-          "inicio": "00:00",
-          "fin": "09:36",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El sorprendente hombre araña 2",
-          "inicio": "09:36",
-          "fin": "11:39",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rebelión de los excluidos",
-          "inicio": "11:39",
-          "fin": "13:08",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Loca Academia de Pilotos 2",
-          "inicio": "13:08",
-          "fin": "14:32",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Drácula: Muerto pero feliz",
-          "inicio": "14:32",
-          "fin": "15:57",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Más allá de los sueños",
-          "inicio": "15:57",
-          "fin": "17:43",
-          "descripcion": ""
-        },
-        {
-          "nombre": "DC Liga de Supermascotas",
-          "inicio": "17:43",
-          "fin": "19:22",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Misión Imposible 3",
-          "inicio": "19:22",
-          "fin": "21:28",
-          "descripcion": ""
-        },
-        {
-          "nombre": "A él no le gustas tanto",
-          "inicio": "21:28",
-          "fin": "23:29",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:29",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     }
   }
 }
