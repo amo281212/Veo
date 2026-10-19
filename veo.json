@@ -1866,6 +1866,12 @@
           "inicio": "11:59",
           "fin": "12:30",
           "descripcion": ""
+        },
+        {
+          "nombre": "Los Simpson",
+          "inicio": "12:30",
+          "fin": "12:59",
+          "descripcion": ""
         }
       ]
     },
