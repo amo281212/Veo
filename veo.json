@@ -954,6 +954,12 @@
           "inicio": "08:05",
           "fin": "10:01",
           "descripcion": ""
+        },
+        {
+          "nombre": "Cabezas Huecas",
+          "inicio": "10:01",
+          "fin": "11:30",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
