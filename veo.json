@@ -1016,6 +1016,12 @@
           "inicio": "00:00",
           "fin": "09:17",
           "descripcion": ""
+        },
+        {
+          "nombre": "Rescate en el barrio chino",
+          "inicio": "09:17",
+          "fin": "10:54",
+          "descripcion": ""
         }
       ],
       "Viernes": [],
