@@ -1872,6 +1872,12 @@
           "inicio": "12:30",
           "fin": "12:59",
           "descripcion": ""
+        },
+        {
+          "nombre": "Al caer la noche",
+          "inicio": "12:59",
+          "fin": "14:47",
+          "descripcion": ""
         }
       ]
     },
