@@ -841,68 +841,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "La leyenda del tesoro perdido 2",
-          "inicio": "00:00",
-          "fin": "10:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Luna de miel para tres",
-          "inicio": "10:00",
-          "fin": "11:32",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Moana",
-          "inicio": "11:32",
-          "fin": "13:08",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Socios y sabuesos",
-          "inicio": "13:08",
-          "fin": "14:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hombres de negro",
-          "inicio": "14:45",
-          "fin": "16:16",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hotel Transylvania",
-          "inicio": "16:16",
-          "fin": "17:39",
-          "descripcion": ""
-        },
-        {
-          "nombre": "A.I.: Inteligencia Artificial",
-          "inicio": "17:39",
-          "fin": "19:58",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ecos mortales",
-          "inicio": "19:58",
-          "fin": "21:33",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La Gran Estafa",
-          "inicio": "21:33",
-          "fin": "23:29",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:29",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "Indiana Jones 3: La última cruzada",
