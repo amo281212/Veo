@@ -1010,7 +1010,14 @@
           "descripcion": ""
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Bichos: Una aventura en miniatura",
+          "inicio": "00:00",
+          "fin": "09:17",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
