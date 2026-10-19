@@ -1134,7 +1134,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "La Nueva Gran Estafa",
+          "inicio": "00:00",
+          "fin": "09:44",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     }
   }
