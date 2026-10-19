@@ -2174,6 +2174,12 @@
           "inicio": "08:00",
           "fin": "10:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Harry Potter y la Cámara Secreta",
+          "inicio": "10:00",
+          "fin": "12:31",
+          "descripcion": ""
         }
       ],
       "Domingo": []
