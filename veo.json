@@ -1720,7 +1720,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Joe Dirt",
+          "inicio": "00:00",
+          "fin": "08:59",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "ENTMovies.cl": {
