@@ -2180,6 +2180,12 @@
           "inicio": "10:00",
           "fin": "12:31",
           "descripcion": ""
+        },
+        {
+          "nombre": "31 Minutos: Calurosa Navidad",
+          "inicio": "12:31",
+          "fin": "13:52",
+          "descripcion": ""
         }
       ],
       "Domingo": []
