@@ -2896,6 +2896,12 @@
           "inicio": "01:00",
           "fin": "09:10",
           "descripcion": ""
+        },
+        {
+          "nombre": "Señales",
+          "inicio": "09:10",
+          "fin": "10:51",
+          "descripcion": ""
         }
       ],
       "Domingo": []
