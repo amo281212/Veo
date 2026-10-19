@@ -2370,6 +2370,12 @@
           "inicio": "00:00",
           "fin": "09:42",
           "descripcion": ""
+        },
+        {
+          "nombre": "Agua para elefantes",
+          "inicio": "09:42",
+          "fin": "11:37",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
