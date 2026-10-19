@@ -1616,7 +1616,14 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Kim Possible: Todo un drama",
+          "inicio": "00:00",
+          "fin": "08:59",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
