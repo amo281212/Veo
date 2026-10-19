@@ -2168,6 +2168,12 @@
           "inicio": "00:00",
           "fin": "08:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "La suerte de los Logan",
+          "inicio": "08:00",
+          "fin": "10:00",
+          "descripcion": ""
         }
       ],
       "Domingo": []
