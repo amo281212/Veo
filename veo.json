@@ -2946,7 +2946,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "El infiltrado",
+          "inicio": "01:00",
+          "fin": "10:33",
+          "descripcion": ""
+        }
+      ]
     }
   }
 }
