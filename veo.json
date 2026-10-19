@@ -2652,6 +2652,12 @@
           "inicio": "21:18",
           "fin": "23:13",
           "descripcion": ""
+        },
+        {
+          "nombre": "Contratiempo",
+          "inicio": "23:13",
+          "fin": "00:59",
+          "descripcion": ""
         }
       ],
       "Martes": [],
