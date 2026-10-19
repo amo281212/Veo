@@ -1310,7 +1310,14 @@
           "descripcion": ""
         }
       ],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Mientras dormías",
+          "inicio": "00:00",
+          "fin": "07:40",
+          "descripcion": ""
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
