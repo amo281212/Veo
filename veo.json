@@ -1578,6 +1578,12 @@
           "inicio": "14:32",
           "fin": "16:03",
           "descripcion": ""
+        },
+        {
+          "nombre": "Red",
+          "inicio": "16:03",
+          "fin": "17:33",
+          "descripcion": ""
         }
       ],
       "Viernes": [],
