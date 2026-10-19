@@ -840,62 +840,7 @@
       ],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "El Código Da Vinci",
-          "inicio": "00:00",
-          "fin": "11:49",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Titanes del Pacífico: La Insurrección",
-          "inicio": "11:49",
-          "fin": "13:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Angry Birds: La Película",
-          "inicio": "13:30",
-          "fin": "15:01",
-          "descripcion": ""
-        },
-        {
-          "nombre": "X-Men: Días del futuro pasado",
-          "inicio": "15:01",
-          "fin": "17:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Joe Dirt",
-          "inicio": "17:30",
-          "fin": "18:57",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Wifi Ralph",
-          "inicio": "18:57",
-          "fin": "20:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Intensamente 2",
-          "inicio": "20:40",
-          "fin": "22:09",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Monster house: La casa de los sustos",
-          "inicio": "22:09",
-          "fin": "23:32",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:32",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Jueves": [],
       "Viernes": [
         {
           "nombre": "La leyenda del tesoro perdido 2",
