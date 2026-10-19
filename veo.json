@@ -2582,7 +2582,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "La teoría del todo",
+          "inicio": "00:00",
+          "fin": "09:45",
+          "descripcion": ""
+        }
+      ]
     },
     "ENTExtreme.cl": {
       "Lunes": [],
