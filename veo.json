@@ -2526,7 +2526,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Luna de miel para tres",
+          "inicio": "00:00",
+          "fin": "09:15",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "ENTExtreme.cl": {
