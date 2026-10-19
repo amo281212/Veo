@@ -1066,7 +1066,14 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Austin Powers 3: El miembro de oro",
+          "inicio": "00:00",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     }
