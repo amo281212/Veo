@@ -1930,6 +1930,12 @@
           "inicio": "18:30",
           "fin": "20:33",
           "descripcion": ""
+        },
+        {
+          "nombre": "Red",
+          "inicio": "20:33",
+          "fin": "22:02",
+          "descripcion": ""
         }
       ],
       "Martes": [],
