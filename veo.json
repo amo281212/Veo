@@ -1272,7 +1272,14 @@
       ]
     },
     "ENTComedy.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Los Cazafantasmas",
+          "inicio": "14:59",
+          "fin": "16:40",
+          "descripcion": ""
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
