@@ -2828,7 +2828,14 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Wolverine: Inmortal",
+          "inicio": "00:00",
+          "fin": "09:44",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     }
