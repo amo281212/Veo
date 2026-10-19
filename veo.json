@@ -1190,7 +1190,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Una noche en el museo",
+          "inicio": "00:00",
+          "fin": "09:44",
+          "descripcion": ""
+        }
+      ]
     }
   }
 }
