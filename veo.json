@@ -173,6 +173,12 @@
       "nombre": "ENT Drama",
       "id": "ENTDrama.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20DRAMA.png"
+    },
+    {
+      "clave": "ENTExtreme.cl",
+      "nombre": "ENT Extreme",
+      "id": "ENTExtreme.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20EXTREME.png"
     }
   ],
   "eliminados": [
@@ -1284,6 +1290,15 @@
       "Domingo": []
     },
     "ENTDrama.cl": {
+      "Lunes": [],
+      "Martes": [],
+      "Miércoles": [],
+      "Jueves": [],
+      "Viernes": [],
+      "Sábado": [],
+      "Domingo": []
+    },
+    "ENTExtreme.cl": {
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
