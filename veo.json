@@ -842,62 +842,7 @@
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
-      "Sábado": [
-        {
-          "nombre": "Indiana Jones 3: La última cruzada",
-          "inicio": "00:00",
-          "fin": "11:33",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Eternamente joven",
-          "inicio": "11:33",
-          "fin": "13:11",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Nueve reinas",
-          "inicio": "13:11",
-          "fin": "15:02",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El mundo perdido: Jurassic Park",
-          "inicio": "15:02",
-          "fin": "17:04",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rápido y furioso: Reto tokio",
-          "inicio": "17:04",
-          "fin": "18:42",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El tesoro del amazonas",
-          "inicio": "18:42",
-          "fin": "20:20",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Contratiempo",
-          "inicio": "20:20",
-          "fin": "22:06",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Viaje al centro de la Tierra",
-          "inicio": "22:06",
-          "fin": "23:33",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:33",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": [
         {
           "nombre": "Hombres de Negro 3",
