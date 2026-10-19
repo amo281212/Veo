@@ -2162,7 +2162,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "La gran estafa",
+          "inicio": "00:00",
+          "fin": "08:00",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "ENTDrama.cl": {
