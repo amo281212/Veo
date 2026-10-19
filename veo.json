@@ -2420,7 +2420,14 @@
           "descripcion": ""
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "En un lugar del corazón",
+          "inicio": "00:00",
+          "fin": "10:40",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
