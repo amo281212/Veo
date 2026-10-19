@@ -2778,7 +2778,14 @@
           "descripcion": ""
         }
       ],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Kingsman: El círculo dorado",
+          "inicio": "01:00",
+          "fin": "09:03",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
