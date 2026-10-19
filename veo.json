@@ -2722,7 +2722,14 @@
           "descripcion": ""
         }
       ],
-      "Miércoles": [],
+      "Miércoles": [
+        {
+          "nombre": "El señor de los anillos: El retorno del rey",
+          "inicio": "00:59",
+          "fin": "10:59",
+          "descripcion": ""
+        }
+      ],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
