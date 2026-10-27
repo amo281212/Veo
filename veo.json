@@ -859,62 +859,7 @@
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
-      "Sábado": [
-        {
-          "nombre": "La Nueva Gran Estafa",
-          "inicio": "00:00",
-          "fin": "09:44",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Thunderbolts",
-          "inicio": "09:44",
-          "fin": "11:38",
-          "descripcion": ""
-        },
-        {
-          "nombre": "E.T. El extraterrestre",
-          "inicio": "11:38",
-          "fin": "13:29",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Thor",
-          "inicio": "13:29",
-          "fin": "15:14",
-          "descripcion": ""
-        },
-        {
-          "nombre": "(500) días con ella",
-          "inicio": "15:14",
-          "fin": "16:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El curioso caso de Benjamin Button",
-          "inicio": "16:45",
-          "fin": "19:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Gerónimo: Una leyenda",
-          "inicio": "19:25",
-          "fin": "21:16",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Avengers: Los Vengadores",
-          "inicio": "21:16",
-          "fin": "23:29",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:29",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": [
         {
           "nombre": "Una noche en el museo",
