@@ -876,56 +876,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "El Rey León",
-          "inicio": "00:00",
-          "fin": "08:52",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Siete años en el Tibet",
-          "inicio": "08:52",
-          "fin": "11:04",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Golpes del destino",
-          "inicio": "11:04",
-          "fin": "13:13",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Sin tiempo para morir",
-          "inicio": "13:13",
-          "fin": "15:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Transformers 5: El último caballero",
-          "inicio": "15:50",
-          "fin": "18:26",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Thor: Un mundo oscuro",
-          "inicio": "18:26",
-          "fin": "20:12",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cars 2",
-          "inicio": "20:12",
-          "fin": "21:51",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Harry Potter y la Órden del Fénix",
-          "inicio": "21:51",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "La gran estafa",
