@@ -884,56 +884,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "En un lugar del corazón",
-          "inicio": "00:00",
-          "fin": "10:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Al caer la noche",
-          "inicio": "10:40",
-          "fin": "12:27",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ángeles inesperados",
-          "inicio": "12:27",
-          "fin": "14:21",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Más allá de los sueños",
-          "inicio": "14:21",
-          "fin": "16:08",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Everest",
-          "inicio": "16:08",
-          "fin": "18:09",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Interestelar",
-          "inicio": "18:09",
-          "fin": "20:53",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rocky Balboa",
-          "inicio": "20:53",
-          "fin": "22:35",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Armados y peligrosos",
-          "inicio": "22:35",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Jueves": [],
       "Viernes": [
         {
           "nombre": "El planeta de los simios: (R)evolución",
