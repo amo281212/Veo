@@ -874,56 +874,7 @@
     "ENTMovies.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Los reyes de la calle Mulberry: ¡Que reine el amor!",
-          "inicio": "00:00",
-          "fin": "09:52",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ángeles y demonios",
-          "inicio": "09:52",
-          "fin": "12:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El legado Bourne",
-          "inicio": "12:10",
-          "fin": "14:26",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Drácula: Muerto pero feliz",
-          "inicio": "14:26",
-          "fin": "15:51",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cars",
-          "inicio": "15:51",
-          "fin": "17:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Avengers: Endgame",
-          "inicio": "17:40",
-          "fin": "20:29",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hombres de Negro 3",
-          "inicio": "20:29",
-          "fin": "22:07",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Descendientes",
-          "inicio": "22:07",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [
         {
           "nombre": "Me casé con un boludo",
