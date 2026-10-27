@@ -891,68 +891,7 @@
     },
     "ENTExtreme.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Spider-Man: De regreso a casa",
-          "inicio": "00:59",
-          "fin": "09:28",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rápidos y furiosos: Hobbs y Shaw",
-          "inicio": "09:28",
-          "fin": "11:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Identidad desconocida",
-          "inicio": "11:45",
-          "fin": "13:44",
-          "descripcion": ""
-        },
-        {
-          "nombre": "My Hero Academia: Ahora es tu turno",
-          "inicio": "13:44",
-          "fin": "15:34",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Angry Birds: La Película",
-          "inicio": "15:34",
-          "fin": "17:06",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ecos mortales",
-          "inicio": "17:06",
-          "fin": "18:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los indestructibles 4",
-          "inicio": "18:40",
-          "fin": "20:18",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Eternamente joven",
-          "inicio": "20:18",
-          "fin": "21:56",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Bleach: Fade to black",
-          "inicio": "21:56",
-          "fin": "23:31",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Maléfica",
-          "inicio": "23:31",
-          "fin": "00:59",
-          "descripcion": ""
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "El señor de los anillos: El retorno del rey",
