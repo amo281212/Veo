@@ -854,50 +854,7 @@
       "Domingo": []
     },
     "ENTChannel.cl": {
-      "Lunes": [
-        {
-          "nombre": "Más allá de los sueños",
-          "inicio": "10:45",
-          "fin": "12:31",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rápidos y Furiosos: Hobbs y Shaw",
-          "inicio": "12:31",
-          "fin": "14:49",
-          "descripcion": ""
-        },
-        {
-          "nombre": "¿Conoces a Joe Black?",
-          "inicio": "14:49",
-          "fin": "17:43",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cars 2",
-          "inicio": "17:43",
-          "fin": "19:22",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Misión Imposible 3",
-          "inicio": "19:22",
-          "fin": "21:28",
-          "descripcion": ""
-        },
-        {
-          "nombre": "A él no le gustas tanto",
-          "inicio": "21:28",
-          "fin": "23:29",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:29",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "Capitán América: Civil War",
