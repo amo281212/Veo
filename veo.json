@@ -878,62 +878,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "Ágora: La caída del imperio romano",
-          "inicio": "00:00",
-          "fin": "08:02",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La sirenita",
-          "inicio": "08:02",
-          "fin": "09:20",
-          "descripcion": ""
-        },
-        {
-          "nombre": "X-Men: Apocalipsis",
-          "inicio": "09:20",
-          "fin": "11:35",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Maze Runner: La cura mortal",
-          "inicio": "11:35",
-          "fin": "13:53",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Misión Imposible 4: Protocolo Fantasma",
-          "inicio": "13:53",
-          "fin": "16:06",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Demon Slayer: Kimetsu no yaiba: Castillo infinito",
-          "inicio": "16:06",
-          "fin": "18:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Al filo del mañana",
-          "inicio": "18:40",
-          "fin": "20:26",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Maléfica 2: La dueña del mal",
-          "inicio": "20:26",
-          "fin": "22:18",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Whiplash: Música y obsesión",
-          "inicio": "22:18",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "ENTDrama.cl": {
       "Lunes": [
