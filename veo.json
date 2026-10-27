@@ -886,62 +886,7 @@
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
-      "Sábado": [
-        {
-          "nombre": "Luna de miel para tres",
-          "inicio": "00:00",
-          "fin": "09:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Sherlock: La novia abominable",
-          "inicio": "09:15",
-          "fin": "10:44",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Bleach: Fade to black",
-          "inicio": "10:44",
-          "fin": "12:18",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Wall Street: Money Never Sleeps",
-          "inicio": "12:18",
-          "fin": "14:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La bella y la bestia",
-          "inicio": "14:25",
-          "fin": "15:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El planeta de los simios 3: La Guerra",
-          "inicio": "15:50",
-          "fin": "18:03",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Creed III",
-          "inicio": "18:03",
-          "fin": "19:59",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Caballo de guerra",
-          "inicio": "19:59",
-          "fin": "22:18",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ip Man 3",
-          "inicio": "22:18",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": [
         {
           "nombre": "La teoría del todo",
