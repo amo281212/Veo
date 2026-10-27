@@ -895,62 +895,7 @@
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
-      "Sábado": [
-        {
-          "nombre": "Loca academia de pilotos 2",
-          "inicio": "01:00",
-          "fin": "09:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Señales",
-          "inicio": "09:10",
-          "fin": "10:51",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El fugitivo",
-          "inicio": "10:51",
-          "fin": "12:58",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Una tormenta perfecta",
-          "inicio": "12:58",
-          "fin": "15:01",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Wifi Ralph",
-          "inicio": "15:01",
-          "fin": "16:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Transformers 5: El último caballero",
-          "inicio": "16:45",
-          "fin": "19:21",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los cazadores del arca perdida",
-          "inicio": "19:21",
-          "fin": "21:17",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La trampa",
-          "inicio": "21:17",
-          "fin": "22:55",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Jason Bourne",
-          "inicio": "22:55",
-          "fin": "01:00",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": [
         {
           "nombre": "El infiltrado",
