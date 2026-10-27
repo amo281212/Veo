@@ -873,68 +873,7 @@
     },
     "ENTMovies.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "X-Men: Primera generación",
-          "inicio": "00:00",
-          "fin": "09:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Zootopia",
-          "inicio": "09:25",
-          "fin": "11:14",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Austin Powers 3: El miembro de oro",
-          "inicio": "11:14",
-          "fin": "12:44",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los increíbles",
-          "inicio": "12:44",
-          "fin": "14:32",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Godzilla Minus One",
-          "inicio": "14:32",
-          "fin": "16:39",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Misteriosa Obsesión",
-          "inicio": "16:39",
-          "fin": "18:06",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Luna de miel para tres",
-          "inicio": "18:06",
-          "fin": "19:38",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Grandes Héroes",
-          "inicio": "19:38",
-          "fin": "21:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ralph, el demoledor",
-          "inicio": "21:10",
-          "fin": "22:43",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Chicken Little",
-          "inicio": "22:43",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Los reyes de la calle Mulberry: ¡Que reine el amor!",
