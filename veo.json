@@ -877,68 +877,7 @@
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
-      "Sábado": [
-        {
-          "nombre": "La gran estafa",
-          "inicio": "00:00",
-          "fin": "08:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La suerte de los Logan",
-          "inicio": "08:00",
-          "fin": "10:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Harry Potter y la Cámara Secreta",
-          "inicio": "10:00",
-          "fin": "12:31",
-          "descripcion": ""
-        },
-        {
-          "nombre": "31 Minutos: Calurosa Navidad",
-          "inicio": "12:31",
-          "fin": "13:52",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El gran Gatsby",
-          "inicio": "13:52",
-          "fin": "16:02",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Horizonte profundo",
-          "inicio": "16:02",
-          "fin": "17:41",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Abracadabra",
-          "inicio": "17:41",
-          "fin": "19:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Shrek Tercero",
-          "inicio": "19:15",
-          "fin": "20:38",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Jack Reacher: Bajo la mira",
-          "inicio": "20:38",
-          "fin": "22:27",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Dr. Cable: El desastre llama a la puerta",
-          "inicio": "22:27",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": [
         {
           "nombre": "Ágora: La caída del imperio romano",
