@@ -894,68 +894,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Wolverine: Inmortal",
-          "inicio": "00:00",
-          "fin": "09:44",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Harry Potter y el Cáliz de Fuego",
-          "inicio": "09:44",
-          "fin": "12:08",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El sexto sentido",
-          "inicio": "12:08",
-          "fin": "13:51",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Bichos: Una aventura en miniatura",
-          "inicio": "13:51",
-          "fin": "15:24",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Volver al futuro 2",
-          "inicio": "15:24",
-          "fin": "17:08",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Thor: Amor y trueno",
-          "inicio": "17:08",
-          "fin": "18:56",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La sirenita",
-          "inicio": "18:56",
-          "fin": "20:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Sherlock: La novia abominable",
-          "inicio": "20:15",
-          "fin": "21:44",
-          "descripcion": ""
-        },
-        {
-          "nombre": "George de la selva",
-          "inicio": "21:44",
-          "fin": "23:11",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cars",
-          "inicio": "23:11",
-          "fin": "01:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "Loca academia de pilotos 2",
