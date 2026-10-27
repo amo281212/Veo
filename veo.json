@@ -882,56 +882,7 @@
     },
     "ENTDrama.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "La otra reina",
-          "inicio": "00:00",
-          "fin": "11:27",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Whiplash: Música y obsesión",
-          "inicio": "11:27",
-          "fin": "13:08",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Fantasmas del pasado",
-          "inicio": "13:08",
-          "fin": "15:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Aladdín",
-          "inicio": "15:15",
-          "fin": "16:41",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La gran estafa",
-          "inicio": "16:41",
-          "fin": "18:38",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Terremoto: La falla de San Andrés",
-          "inicio": "18:38",
-          "fin": "20:33",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Somnia: Antes de despertar",
-          "inicio": "20:33",
-          "fin": "22:05",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Agua para elefantes",
-          "inicio": "22:05",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Sintonía de amor",
