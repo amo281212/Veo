@@ -863,44 +863,7 @@
       "Domingo": []
     },
     "ENTComedy.cl": {
-      "Lunes": [
-        {
-          "nombre": "Los Cazafantasmas",
-          "inicio": "14:59",
-          "fin": "16:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El tesoro del Amazonas",
-          "inicio": "16:40",
-          "fin": "18:18",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La suerte de los Logan",
-          "inicio": "18:18",
-          "fin": "20:17",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ratatouille",
-          "inicio": "20:17",
-          "fin": "22:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Bolt: Un perro fuera de serie",
-          "inicio": "22:00",
-          "fin": "23:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Smiling Friends",
-          "inicio": "23:30",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "Mientras dormías",
