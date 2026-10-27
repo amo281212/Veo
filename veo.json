@@ -881,38 +881,7 @@
       "Domingo": []
     },
     "ENTDrama.cl": {
-      "Lunes": [
-        {
-          "nombre": "El planeta de los simios: (R)evolución",
-          "inicio": "16:31",
-          "fin": "18:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Tras líneas enemigas",
-          "inicio": "18:10",
-          "fin": "19:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Elementos",
-          "inicio": "19:50",
-          "fin": "21:22",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Al diablo con el diablo",
-          "inicio": "21:22",
-          "fin": "22:49",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Bambi",
-          "inicio": "22:49",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "La otra reina",
