@@ -875,62 +875,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Me casé con un boludo",
-          "inicio": "00:00",
-          "fin": "09:26",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Charlie y la fábrica de chocolate",
-          "inicio": "09:26",
-          "fin": "11:14",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Señales",
-          "inicio": "11:14",
-          "fin": "12:56",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Avengers: Los vengadores",
-          "inicio": "12:56",
-          "fin": "15:09",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Una mente brillante",
-          "inicio": "15:09",
-          "fin": "17:18",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Piratas del Caribe 4: Navegando aguas misteriosas",
-          "inicio": "17:18",
-          "fin": "19:26",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Asalto al camión blindado",
-          "inicio": "19:26",
-          "fin": "20:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rápido y furioso: Reto Tokio",
-          "inicio": "20:50",
-          "fin": "22:28",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Una noche en el museo 3",
-          "inicio": "22:28",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Jueves": [],
       "Viernes": [
         {
           "nombre": "El Rey León",
