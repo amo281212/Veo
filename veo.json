@@ -887,56 +887,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "La teoría del todo",
-          "inicio": "00:00",
-          "fin": "09:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El curioso caso de Benjamin Button",
-          "inicio": "09:45",
-          "fin": "12:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Golpes del destino",
-          "inicio": "12:25",
-          "fin": "14:33",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Por amor al juego",
-          "inicio": "14:33",
-          "fin": "16:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hitchcok, el maestro del suspenso",
-          "inicio": "16:45",
-          "fin": "18:17",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Creed 2: Defendiendo el legado",
-          "inicio": "18:17",
-          "fin": "20:27",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Una mente brillante",
-          "inicio": "20:27",
-          "fin": "22:36",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Asalto al camión blindado",
-          "inicio": "22:36",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "ENTExtreme.cl": {
       "Lunes": [
