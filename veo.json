@@ -896,50 +896,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "El infiltrado",
-          "inicio": "01:00",
-          "fin": "10:33",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El sorprendente hombre araña 2",
-          "inicio": "10:33",
-          "fin": "12:36",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Transformers: El lado oscuro de la luna",
-          "inicio": "12:36",
-          "fin": "15:12",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Inferno",
-          "inicio": "15:12",
-          "fin": "17:09",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El código Da Vinci",
-          "inicio": "17:09",
-          "fin": "19:56",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Misteriosa obsesión",
-          "inicio": "19:56",
-          "fin": "21:23",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Transformers 5: El último caballero",
-          "inicio": "21:23",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     }
   }
 }
