@@ -872,32 +872,7 @@
       "Domingo": []
     },
     "ENTMovies.cl": {
-      "Lunes": [
-        {
-          "nombre": "Soy Leyenda",
-          "inicio": "16:58",
-          "fin": "18:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Iron Man 3",
-          "inicio": "18:30",
-          "fin": "20:33",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Red",
-          "inicio": "20:33",
-          "fin": "22:02",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La momia",
-          "inicio": "22:02",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "X-Men: Primera generación",
