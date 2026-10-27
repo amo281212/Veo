@@ -893,56 +893,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Las aventuras de Winnie Pooh",
-          "inicio": "01:00",
-          "fin": "09:03",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Kingsman: El círculo dorado",
-          "inicio": "09:03",
-          "fin": "11:19",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Mundo Perdido: Jurassic Park",
-          "inicio": "11:19",
-          "fin": "13:21",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El señor de los anillos: Las dos torres",
-          "inicio": "13:21",
-          "fin": "16:13",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Misión Imposible 3",
-          "inicio": "16:13",
-          "fin": "18:19",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ant-Man 2: La avispa",
-          "inicio": "18:19",
-          "fin": "20:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La leyenda del tesoro perdido",
-          "inicio": "20:10",
-          "fin": "22:12",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Transformers: La era de la extinción",
-          "inicio": "22:12",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Jueves": [],
       "Viernes": [
         {
           "nombre": "Wolverine: Inmortal",
