@@ -883,62 +883,7 @@
     "ENTDrama.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Sintonía de amor",
-          "inicio": "00:00",
-          "fin": "09:42",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Agua para elefantes",
-          "inicio": "09:42",
-          "fin": "11:37",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Dr. Cable: El desastre llama a la puerta",
-          "inicio": "11:37",
-          "fin": "13:09",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Sonido de libertad",
-          "inicio": "13:09",
-          "fin": "15:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El ilusionista",
-          "inicio": "15:10",
-          "fin": "16:54",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Tras líneas enemigas",
-          "inicio": "16:54",
-          "fin": "18:34",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Bleach: Fade to black - Llamo tu nombre",
-          "inicio": "18:34",
-          "fin": "20:08",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La Supremacía Bourne",
-          "inicio": "20:08",
-          "fin": "21:58",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El planeta de los simios: Confrontación",
-          "inicio": "21:58",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [
         {
           "nombre": "En un lugar del corazón",
