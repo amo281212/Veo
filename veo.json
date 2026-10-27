@@ -855,74 +855,7 @@
     },
     "ENTChannel.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Capitán América: Civil War",
-          "inicio": "00:00",
-          "fin": "08:18",
-          "descripcion": ""
-        },
-        {
-          "nombre": "DC Liga de Supermascotas",
-          "inicio": "08:18",
-          "fin": "09:58",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La Bella Durmiente",
-          "inicio": "09:58",
-          "fin": "11:13",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Star Wars: Episodio II: El Ataque de los clones",
-          "inicio": "11:13",
-          "fin": "13:29",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Vuelo a la libertad",
-          "inicio": "13:29",
-          "fin": "15:17",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Kingsman: El Círculo Dorado",
-          "inicio": "15:17",
-          "fin": "17:33",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hombres de Negro 2",
-          "inicio": "17:33",
-          "fin": "18:54",
-          "descripcion": ""
-        },
-        {
-          "nombre": "¿Y dónde está el policía? 2 1/2: El Aroma del Miedo",
-          "inicio": "18:54",
-          "fin": "20:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Día de la Marmota",
-          "inicio": "20:15",
-          "fin": "21:53",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Enseñanza de Vida",
-          "inicio": "21:53",
-          "fin": "23:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:30",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "El quinto elemento",
