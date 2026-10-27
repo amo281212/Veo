@@ -854,7 +854,14 @@
       "Domingo": []
     },
     "ENTChannel.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Matilda",
+          "inicio": "21:49",
+          "fin": "23:29",
+          "descripcion": ""
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
