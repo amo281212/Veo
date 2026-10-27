@@ -858,74 +858,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Austin Powers 3: El miembro de oro",
-          "inicio": "00:00",
-          "fin": "09:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Propuesta de Muerte",
-          "inicio": "09:00",
-          "fin": "10:37",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Tienes que creer",
-          "inicio": "10:37",
-          "fin": "12:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Matilda",
-          "inicio": "12:15",
-          "fin": "13:48",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Increíbles 2",
-          "inicio": "13:48",
-          "fin": "15:36",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El embajador del miedo",
-          "inicio": "15:36",
-          "fin": "17:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ip Man 3",
-          "inicio": "17:40",
-          "fin": "19:22",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Elf, el duende",
-          "inicio": "19:22",
-          "fin": "20:53",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Space Jam: El Juego del Siglo",
-          "inicio": "20:53",
-          "fin": "22:13",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Grinch",
-          "inicio": "22:13",
-          "fin": "23:31",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:31",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "La Nueva Gran Estafa",
