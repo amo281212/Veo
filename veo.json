@@ -856,74 +856,7 @@
     "ENTChannel.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "El quinto elemento",
-          "inicio": "00:00",
-          "fin": "08:05",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Bourne: El Ultimátum",
-          "inicio": "08:05",
-          "fin": "10:01",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cabezas Huecas",
-          "inicio": "10:01",
-          "fin": "11:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Lilo y Stitch",
-          "inicio": "11:30",
-          "fin": "12:51",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Argylle: Agente Secreto",
-          "inicio": "12:51",
-          "fin": "15:04",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Dúplex",
-          "inicio": "15:04",
-          "fin": "16:28",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Siete años en el Tibet",
-          "inicio": "16:28",
-          "fin": "18:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Kim Possible",
-          "inicio": "18:40",
-          "fin": "20:06",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cars 3",
-          "inicio": "20:06",
-          "fin": "21:40",
-          "descripcion": ""
-        },
-        {
-          "nombre": "My Hero Academia: Ahora es tu turno",
-          "inicio": "21:40",
-          "fin": "23:31",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:31",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [
         {
           "nombre": "Bichos: Una aventura en miniatura",
