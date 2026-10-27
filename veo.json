@@ -890,32 +890,7 @@
       "Domingo": []
     },
     "ENTExtreme.cl": {
-      "Lunes": [
-        {
-          "nombre": "Star Wars: El despertar de la fuerza",
-          "inicio": "17:11",
-          "fin": "19:19",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Piratas del Caribe 5: La venganza de Salazar",
-          "inicio": "19:19",
-          "fin": "21:18",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Terminator: Salvación",
-          "inicio": "21:18",
-          "fin": "23:13",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Contratiempo",
-          "inicio": "23:13",
-          "fin": "00:59",
-          "descripcion": ""
-        }
-      ],
+      "Lunes": [],
       "Martes": [
         {
           "nombre": "Spider-Man: De regreso a casa",
