@@ -885,62 +885,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "El planeta de los simios: (R)evolución",
-          "inicio": "00:00",
-          "fin": "09:54",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rocky IV",
-          "inicio": "09:54",
-          "fin": "11:26",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Austin Powers 2: El espía seductor",
-          "inicio": "11:26",
-          "fin": "12:59",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Top Gun: Maverick",
-          "inicio": "12:59",
-          "fin": "15:02",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Sonido de libertad",
-          "inicio": "15:02",
-          "fin": "17:03",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El diablo viste a la moda",
-          "inicio": "17:03",
-          "fin": "18:49",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La increíble vida de Walter Mitty",
-          "inicio": "18:49",
-          "fin": "20:33",
-          "descripcion": ""
-        },
-        {
-          "nombre": "High School Musical",
-          "inicio": "20:33",
-          "fin": "22:12",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Río salvaje",
-          "inicio": "22:12",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "Luna de miel para tres",
