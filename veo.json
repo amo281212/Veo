@@ -855,62 +855,7 @@
     },
     "ENTChannel.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Austin Powers 3",
-          "inicio": "00:00",
-          "fin": "11:11",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Propuesta de muerte",
-          "inicio": "11:11",
-          "fin": "12:53",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Tienes que creer",
-          "inicio": "12:53",
-          "fin": "14:36",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Matilda",
-          "inicio": "14:36",
-          "fin": "16:13",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Increíbles 2",
-          "inicio": "16:13",
-          "fin": "18:06",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ace Ventura: Detective de mascotas",
-          "inicio": "18:06",
-          "fin": "19:33",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Cazafantasmas 2",
-          "inicio": "19:33",
-          "fin": "21:19",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El embajador del miedo",
-          "inicio": "21:19",
-          "fin": "23:29",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:29",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Sing: ¡Ven y canta!",
