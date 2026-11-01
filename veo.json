@@ -856,74 +856,7 @@
     "ENTChannel.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Sing: ¡Ven y canta!",
-          "inicio": "00:00",
-          "fin": "07:44",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ip Man 3",
-          "inicio": "07:44",
-          "fin": "09:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Zootopia 2",
-          "inicio": "09:30",
-          "fin": "11:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los pitufos en la aldea perdida",
-          "inicio": "11:10",
-          "fin": "12:57",
-          "descripcion": ""
-        },
-        {
-          "nombre": "¿Y... dónde están las rubias?",
-          "inicio": "12:57",
-          "fin": "14:44",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Thunderbolts",
-          "inicio": "14:44",
-          "fin": "16:42",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Dentro o fuera",
-          "inicio": "16:42",
-          "fin": "18:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Elf, el duende",
-          "inicio": "18:15",
-          "fin": "19:51",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Reportero 2: Al diablo con las noticias",
-          "inicio": "19:51",
-          "fin": "21:53",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Las aventuras de Sharkboy y Lavagirl",
-          "inicio": "21:53",
-          "fin": "23:29",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:29",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
