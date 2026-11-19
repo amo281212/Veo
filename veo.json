@@ -1354,7 +1354,14 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Batman Inicia",
+          "inicio": "00:00",
+          "fin": "09:58",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
