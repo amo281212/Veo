@@ -31,6 +31,12 @@
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/CINECANAL.png"
     },
     {
+      "clave": "ENTDrama.cl",
+      "nombre": "ENT Drama",
+      "id": "ENTDrama.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20DRAMA.png"
+    },
+    {
       "clave": "Cinemax.cl",
       "nombre": "Cinemax",
       "id": "Cinemax.cl",
@@ -71,12 +77,6 @@
       "nombre": "HBO Pop",
       "id": "HBOPop.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO%20POP.png"
-    },
-    {
-      "clave": "ENTDrama.cl",
-      "nombre": "ENT Drama",
-      "id": "ENTDrama.cl",
-      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20DRAMA.png"
     },
     {
       "clave": "HBOXtreme.cl",
