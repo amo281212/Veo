@@ -1271,6 +1271,12 @@
           "inicio": "12:01",
           "fin": "13:43",
           "descripcion": ""
+        },
+        {
+          "nombre": "Sin escalas",
+          "inicio": "13:43",
+          "fin": "15:28",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
