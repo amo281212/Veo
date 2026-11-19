@@ -25,16 +25,16 @@
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20DRAMA.png"
     },
     {
-      "clave": "AMC.cl",
-      "nombre": "AMC",
-      "id": "AMC.cl",
-      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/AMC.png"
-    },
-    {
       "clave": "ENTExtreme.cl",
       "nombre": "ENT Extreme",
       "id": "ENTExtreme.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20EXTREME.png"
+    },
+    {
+      "clave": "AMC.cl",
+      "nombre": "AMC",
+      "id": "AMC.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/AMC.png"
     },
     {
       "clave": "Cinecanal.cl",
