@@ -1233,6 +1233,12 @@
           "inicio": "18:00",
           "fin": "20:47",
           "descripcion": ""
+        },
+        {
+          "nombre": "Un viernes de locos",
+          "inicio": "20:47",
+          "fin": "22:22",
+          "descripcion": ""
         }
       ],
       "Viernes": [],
