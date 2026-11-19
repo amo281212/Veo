@@ -13,6 +13,12 @@
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/CINECANAL.png"
     },
     {
+      "clave": "ENTChannel.cl",
+      "nombre": "ENT Channel",
+      "id": "ENTChannel.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20Channel.png"
+    },
+    {
       "clave": "Cinemax.cl",
       "nombre": "Cinemax",
       "id": "Cinemax.cl",
@@ -35,12 +41,6 @@
       "nombre": "HBO",
       "id": "HBO.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO.png"
-    },
-    {
-      "clave": "ENTChannel.cl",
-      "nombre": "ENT Channel",
-      "id": "ENTChannel.cl",
-      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20Channel.png"
     },
     {
       "clave": "HBO2.cl",
