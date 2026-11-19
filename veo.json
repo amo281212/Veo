@@ -79,6 +79,12 @@
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/SONY%20MOVIES.png"
     },
     {
+      "clave": "ENTChannel.cl",
+      "nombre": "ENT Channel",
+      "id": "ENTChannel.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20Channel.png"
+    },
+    {
       "clave": "Sony.cl",
       "nombre": "Sony Channel",
       "id": "Sony.cl",
@@ -95,12 +101,6 @@
       "nombre": "Space",
       "id": "Space.cl",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/SPACE.png"
-    },
-    {
-      "clave": "ENTChannel.cl",
-      "nombre": "ENT Channel",
-      "id": "ENTChannel.cl",
-      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20Channel.png"
     },
     {
       "clave": "ENTComedy.cl",
