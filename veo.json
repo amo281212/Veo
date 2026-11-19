@@ -863,6 +863,12 @@
           "inicio": "00:00",
           "fin": "08:12",
           "descripcion": ""
+        },
+        {
+          "nombre": "El laberinto del fauno",
+          "inicio": "08:12",
+          "fin": "09:54",
+          "descripcion": ""
         }
       ],
       "Viernes": [],
