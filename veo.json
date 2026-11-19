@@ -919,7 +919,14 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Pasante de moda",
+          "inicio": "00:00",
+          "fin": "09:36",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
