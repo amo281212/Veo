@@ -37,6 +37,12 @@
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/HBO.png"
     },
     {
+      "clave": "ENTChannel.cl",
+      "nombre": "ENT Channel",
+      "id": "ENTChannel.cl",
+      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20Channel.png"
+    },
+    {
       "clave": "HBO2.cl",
       "nombre": "HBO 2",
       "id": "HBO2.cl",
@@ -77,12 +83,6 @@
       "nombre": "Sony Movies",
       "id": "SONYMOVIES.uy",
       "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/SONY%20MOVIES.png"
-    },
-    {
-      "clave": "ENTChannel.cl",
-      "nombre": "ENT Channel",
-      "id": "ENTChannel.cl",
-      "logo": "https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/ENT%20Channel.png"
     },
     {
       "clave": "Sony.cl",
