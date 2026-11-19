@@ -1197,7 +1197,14 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Star Wars: Episodio II: El Ataque de los Clones",
+          "inicio": "00:00",
+          "fin": "09:49",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
