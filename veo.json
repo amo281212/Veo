@@ -857,7 +857,14 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "El mensajero del miedo",
+          "inicio": "00:00",
+          "fin": "08:12",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
