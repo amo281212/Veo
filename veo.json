@@ -1247,7 +1247,14 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Apolo 13",
+          "inicio": "00:00",
+          "fin": "08:18",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
