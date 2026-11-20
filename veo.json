@@ -1394,7 +1394,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Top Gun: Pasión y Gloria",
+          "inicio": "00:00",
+          "fin": "09:39",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "ENTDrama.cl": {
