@@ -1281,6 +1281,12 @@
           "inicio": "11:30",
           "fin": "12:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "El chavo",
+          "inicio": "12:00",
+          "fin": "12:30",
+          "descripcion": ""
         }
       ],
       "Domingo": []
