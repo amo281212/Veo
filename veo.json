@@ -1562,6 +1562,12 @@
           "inicio": "09:35",
           "fin": "11:51",
           "descripcion": ""
+        },
+        {
+          "nombre": "Misión rescate",
+          "inicio": "11:51",
+          "fin": "14:22",
+          "descripcion": ""
         }
       ],
       "Domingo": []
