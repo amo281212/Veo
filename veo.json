@@ -1730,6 +1730,12 @@
           "inicio": "14:16",
           "fin": "16:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Escuadrón suicida",
+          "inicio": "16:00",
+          "fin": "18:13",
+          "descripcion": ""
         }
       ],
       "Domingo": []
