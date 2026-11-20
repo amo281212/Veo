@@ -1736,6 +1736,12 @@
           "inicio": "16:00",
           "fin": "18:13",
           "descripcion": ""
+        },
+        {
+          "nombre": "La momia",
+          "inicio": "18:13",
+          "fin": "20:15",
+          "descripcion": ""
         }
       ],
       "Domingo": []
