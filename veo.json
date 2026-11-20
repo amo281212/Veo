@@ -1600,7 +1600,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Ángeles inesperados",
+          "inicio": "00:00",
+          "fin": "10:09",
+          "descripcion": ""
+        }
+      ]
     },
     "ENTExtreme.cl": {
       "Lunes": [],
