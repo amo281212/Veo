@@ -976,7 +976,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Milagro en la calle 34",
+          "inicio": "00:00",
+          "fin": "10:30",
+          "descripcion": ""
+        }
+      ]
     },
     "ENTComedy.cl": {
       "Lunes": [],
