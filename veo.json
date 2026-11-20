@@ -1444,7 +1444,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "El planeta de los simios: Confrontación",
+          "inicio": "00:00",
+          "fin": "10:11",
+          "descripcion": ""
+        }
+      ]
     },
     "ENTDrama.cl": {
       "Lunes": [],
