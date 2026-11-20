@@ -1355,6 +1355,12 @@
           "inicio": "09:30",
           "fin": "10:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "El chapulín colorado",
+          "inicio": "10:00",
+          "fin": "10:30",
+          "descripcion": ""
         }
       ]
     },
