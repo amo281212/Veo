@@ -1337,7 +1337,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Las Guerreras K-pop",
+          "inicio": "00:00",
+          "fin": "09:00",
+          "descripcion": ""
+        }
+      ]
     },
     "ENTMovies.cl": {
       "Lunes": [],
