@@ -920,7 +920,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Mi Villano Favorito",
+          "inicio": "00:00",
+          "fin": "09:37",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "ENTComedy.cl": {
