@@ -1756,7 +1756,14 @@
           "descripcion": ""
         }
       ],
-      "Domingo": []
+      "Domingo": [
+        {
+          "nombre": "Los federales",
+          "inicio": "00:00",
+          "fin": "09:35",
+          "descripcion": ""
+        }
+      ]
     }
   }
 }
