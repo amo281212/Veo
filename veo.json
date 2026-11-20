@@ -1239,7 +1239,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "Austin Powers 3",
+          "inicio": "00:00",
+          "fin": "08:58",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "ENTMovies.cl": {
