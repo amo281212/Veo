@@ -1786,6 +1786,12 @@
           "inicio": "16:00",
           "fin": "17:34",
           "descripcion": ""
+        },
+        {
+          "nombre": "Contagio",
+          "inicio": "17:34",
+          "fin": "19:21",
+          "descripcion": ""
         }
       ]
     }
