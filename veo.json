@@ -1311,6 +1311,12 @@
           "inicio": "16:23",
           "fin": "18:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Robots",
+          "inicio": "18:00",
+          "fin": "19:27",
+          "descripcion": ""
         }
       ],
       "Domingo": []
