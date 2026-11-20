@@ -1499,50 +1499,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Titanic",
-          "inicio": "00:00",
-          "fin": "10:39",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Contratiempo",
-          "inicio": "10:39",
-          "fin": "12:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "En busca de la felicidad",
-          "inicio": "12:25",
-          "fin": "14:23",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Lo que el viento se llevó",
-          "inicio": "14:23",
-          "fin": "18:09",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Diario de una pasión",
-          "inicio": "18:09",
-          "fin": "20:13",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hannah Montana: La Película",
-          "inicio": "20:13",
-          "fin": "21:55",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Filadelfia",
-          "inicio": "21:55",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Jueves": [],
       "Viernes": [
         {
           "nombre": "Batman Inicia",
