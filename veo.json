@@ -1400,6 +1400,12 @@
           "inicio": "00:00",
           "fin": "09:39",
           "descripcion": ""
+        },
+        {
+          "nombre": "Toy Story 3",
+          "inicio": "09:39",
+          "fin": "11:19",
+          "descripcion": ""
         }
       ],
       "Domingo": []
