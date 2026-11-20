@@ -1337,56 +1337,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Star Wars: Episodio II: El Ataque de los Clones",
-          "inicio": "00:00",
-          "fin": "09:49",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Volver al futuro",
-          "inicio": "09:49",
-          "fin": "11:47",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Furia de Titanes 2",
-          "inicio": "11:47",
-          "fin": "13:22",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Black Widow",
-          "inicio": "13:22",
-          "fin": "15:31",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Transformers: La venganza de los caídos",
-          "inicio": "15:31",
-          "fin": "18:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Misión Imposible: Sentencia Final",
-          "inicio": "18:00",
-          "fin": "20:47",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Un viernes de locos",
-          "inicio": "20:47",
-          "fin": "22:22",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Mi Novia Polly",
-          "inicio": "22:22",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Jueves": [],
       "Viernes": [
         {
           "nombre": "Apolo 13",
