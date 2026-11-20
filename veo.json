@@ -1349,6 +1349,12 @@
           "inicio": "09:00",
           "fin": "09:30",
           "descripcion": ""
+        },
+        {
+          "nombre": "La niñera",
+          "inicio": "09:30",
+          "fin": "10:00",
+          "descripcion": ""
         }
       ]
     },
