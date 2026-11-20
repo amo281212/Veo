@@ -1655,56 +1655,7 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [
-        {
-          "nombre": "Jurassic World: Renace",
-          "inicio": "00:00",
-          "fin": "09:59",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rápidos y Furiosos: Hobbs y Shaw",
-          "inicio": "09:59",
-          "fin": "12:12",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Creed III",
-          "inicio": "12:12",
-          "fin": "14:09",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Batman: El Caballo de la Noche",
-          "inicio": "14:09",
-          "fin": "16:39",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Indiana Jones: Los cazadores del arca perdida",
-          "inicio": "16:39",
-          "fin": "18:35",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Río Salvaje",
-          "inicio": "18:35",
-          "fin": "20:28",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Popeye",
-          "inicio": "20:28",
-          "fin": "22:22",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Mujer Maravilla 1984",
-          "inicio": "22:22",
-          "fin": "01:00",
-          "descripcion": ""
-        }
-      ],
+      "Jueves": [],
       "Viernes": [
         {
           "nombre": "Thunderbolts*",
