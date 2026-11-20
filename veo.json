@@ -1245,6 +1245,12 @@
           "inicio": "00:00",
           "fin": "08:58",
           "descripcion": ""
+        },
+        {
+          "nombre": "Dinosaurios",
+          "inicio": "08:58",
+          "fin": "09:28",
+          "descripcion": ""
         }
       ],
       "Domingo": []
