@@ -1550,7 +1550,14 @@
           "descripcion": ""
         }
       ],
-      "Sábado": [],
+      "Sábado": [
+        {
+          "nombre": "La increíble vida de Walter Mitty",
+          "inicio": "00:00",
+          "fin": "09:35",
+          "descripcion": ""
+        }
+      ],
       "Domingo": []
     },
     "ENTExtreme.cl": {
