@@ -1718,6 +1718,12 @@
           "inicio": "09:56",
           "fin": "12:14",
           "descripcion": ""
+        },
+        {
+          "nombre": "Inferno",
+          "inicio": "12:14",
+          "fin": "14:16",
+          "descripcion": ""
         }
       ],
       "Domingo": []
