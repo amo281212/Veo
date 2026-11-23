@@ -886,56 +886,7 @@
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
-      "Sábado": [
-        {
-          "nombre": "La increíble vida de Walter Mitty",
-          "inicio": "00:00",
-          "fin": "09:35",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Batman inicia",
-          "inicio": "09:35",
-          "fin": "11:51",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Misión rescate",
-          "inicio": "11:51",
-          "fin": "14:22",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La llave maestra",
-          "inicio": "14:22",
-          "fin": "16:06",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Asalto al camión blindado",
-          "inicio": "16:06",
-          "fin": "17:34",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Enseñanza de vida",
-          "inicio": "17:34",
-          "fin": "19:14",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Loco y estúpido amor",
-          "inicio": "19:14",
-          "fin": "21:12",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El curioso caso de Benjamin Button",
-          "inicio": "21:12",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": [
         {
           "nombre": "Ángeles inesperados",
