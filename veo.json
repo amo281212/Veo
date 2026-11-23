@@ -1064,6 +1064,12 @@
           "inicio": "00:00",
           "fin": "10:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Ahora son 13",
+          "inicio": "10:00",
+          "fin": "12:02",
+          "descripcion": ""
         }
       ],
       "Martes": [],
