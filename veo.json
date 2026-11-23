@@ -876,62 +876,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Apolo 13",
-          "inicio": "00:00",
-          "fin": "08:18",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Shang-Chi y la leyenda de los Diez Anillos",
-          "inicio": "08:18",
-          "fin": "10:23",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Todopoderoso",
-          "inicio": "10:23",
-          "fin": "12:01",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Enséñame de vida",
-          "inicio": "12:01",
-          "fin": "13:43",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Sin escalas",
-          "inicio": "13:43",
-          "fin": "15:28",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Maze Runner: Correr o morir",
-          "inicio": "15:28",
-          "fin": "17:18",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Capitán América: El primer vengador",
-          "inicio": "17:18",
-          "fin": "19:16",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Mujer Maravilla 1984",
-          "inicio": "19:16",
-          "fin": "21:48",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ahora son 13",
-          "inicio": "21:48",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "Top Gun: Pasión y Gloria",
