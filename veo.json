@@ -894,56 +894,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Thunderbolts*",
-          "inicio": "01:00",
-          "fin": "09:44",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Señor de los Anillos: La comunidad del anillo",
-          "inicio": "09:44",
-          "fin": "13:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Megalodón",
-          "inicio": "13:10",
-          "fin": "14:59",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Jack Ryan: Código Sombra",
-          "inicio": "14:59",
-          "fin": "16:42",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Horizonte Profundo",
-          "inicio": "16:42",
-          "fin": "18:25",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Hombres de Negro",
-          "inicio": "18:25",
-          "fin": "20:01",
-          "descripcion": ""
-        },
-        {
-          "nombre": "007: Operación Skyfall",
-          "inicio": "20:01",
-          "fin": "22:24",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Guardianes de la Galaxia 3",
-          "inicio": "22:24",
-          "fin": "01:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "El hombre araña 2",
