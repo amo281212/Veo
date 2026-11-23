@@ -954,6 +954,12 @@
           "inicio": "12:30",
           "fin": "13:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Luca",
+          "inicio": "13:00",
+          "fin": "14:28",
+          "descripcion": ""
         }
       ],
       "Martes": [],
