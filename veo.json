@@ -885,56 +885,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Batman Inicia",
-          "inicio": "00:00",
-          "fin": "09:58",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ben-Hur",
-          "inicio": "09:58",
-          "fin": "13:46",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La edad de la inocencia",
-          "inicio": "13:46",
-          "fin": "16:04",
-          "descripcion": ""
-        },
-        {
-          "nombre": "En un lugar del corazón",
-          "inicio": "16:04",
-          "fin": "17:57",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El gran Showman",
-          "inicio": "17:57",
-          "fin": "19:39",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Contagio",
-          "inicio": "19:39",
-          "fin": "21:26",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Pocahontas",
-          "inicio": "21:26",
-          "fin": "22:47",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Bambi",
-          "inicio": "22:47",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "La increíble vida de Walter Mitty",
