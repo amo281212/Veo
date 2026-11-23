@@ -859,62 +859,7 @@
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
-      "Sábado": [
-        {
-          "nombre": "Mi Villano Favorito",
-          "inicio": "00:00",
-          "fin": "09:37",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Quinto Elemento",
-          "inicio": "09:37",
-          "fin": "11:44",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rocky II",
-          "inicio": "11:44",
-          "fin": "13:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Batman: El caballero de la noche",
-          "inicio": "13:45",
-          "fin": "16:16",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Bleach: Fade to black",
-          "inicio": "16:16",
-          "fin": "17:49",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Insomnia",
-          "inicio": "17:49",
-          "fin": "19:47",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ecos mortales",
-          "inicio": "19:47",
-          "fin": "21:26",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Goonies",
-          "inicio": "21:26",
-          "fin": "23:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:30",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": [
         {
           "nombre": "Milagro en la calle 34",
