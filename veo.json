@@ -860,62 +860,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "Milagro en la calle 34",
-          "inicio": "00:00",
-          "fin": "10:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rápido y furioso",
-          "inicio": "10:30",
-          "fin": "12:16",
-          "descripcion": ""
-        },
-        {
-          "nombre": "A él no le gustas tanto",
-          "inicio": "12:16",
-          "fin": "14:21",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La llegada",
-          "inicio": "14:21",
-          "fin": "16:17",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ant-man and the Wasp: Quantumania",
-          "inicio": "16:17",
-          "fin": "18:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Charlie y la fábrica de chocolate",
-          "inicio": "18:15",
-          "fin": "20:08",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La muerte le sienta bien",
-          "inicio": "20:08",
-          "fin": "21:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Angry Birds: La película",
-          "inicio": "21:50",
-          "fin": "23:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:30",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "ENTComedy.cl": {
       "Lunes": [],
