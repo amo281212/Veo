@@ -1058,7 +1058,14 @@
       "Domingo": []
     },
     "ENTDrama.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "Batman: El caballero de la noche",
+          "inicio": "00:00",
+          "fin": "10:00",
+          "descripcion": ""
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
