@@ -895,56 +895,7 @@
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
-      "Sábado": [
-        {
-          "nombre": "El hombre araña 2",
-          "inicio": "01:00",
-          "fin": "09:56",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Piratas del Caribe: La maldición del Perla Negra",
-          "inicio": "09:56",
-          "fin": "12:14",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Inferno",
-          "inicio": "12:14",
-          "fin": "14:16",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los agentes del destino",
-          "inicio": "14:16",
-          "fin": "16:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Escuadrón suicida",
-          "inicio": "16:00",
-          "fin": "18:13",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La momia",
-          "inicio": "18:13",
-          "fin": "20:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "007: Sin tiempo para morir",
-          "inicio": "20:15",
-          "fin": "22:58",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El planeta de los simios",
-          "inicio": "22:58",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": [
         {
           "nombre": "Los federales",
