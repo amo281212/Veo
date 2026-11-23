@@ -896,56 +896,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "Los federales",
-          "inicio": "00:00",
-          "fin": "09:35",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El quinto elemento",
-          "inicio": "09:35",
-          "fin": "11:42",
-          "descripcion": ""
-        },
-        {
-          "nombre": "The King'sMan: El origen",
-          "inicio": "11:42",
-          "fin": "13:51",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Una tormenta perfecta",
-          "inicio": "13:51",
-          "fin": "16:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los indestructibles 4",
-          "inicio": "16:00",
-          "fin": "17:34",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Contagio",
-          "inicio": "17:34",
-          "fin": "19:21",
-          "descripcion": ""
-        },
-        {
-          "nombre": "X-Men: Dark Phoenix",
-          "inicio": "19:21",
-          "fin": "21:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Misión Imposible: Sentencia Mortal - Parte 1",
-          "inicio": "21:10",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     }
   }
 }
