@@ -887,56 +887,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "Ángeles inesperados",
-          "inicio": "00:00",
-          "fin": "10:09",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El planeta de los simios 3: La guerra",
-          "inicio": "10:09",
-          "fin": "12:28",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rápidos y furiosos 6",
-          "inicio": "12:28",
-          "fin": "14:36",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ahora son 13",
-          "inicio": "14:36",
-          "fin": "16:38",
-          "descripcion": ""
-        },
-        {
-          "nombre": "¿Quién engañó a Roger Rabbit?",
-          "inicio": "16:38",
-          "fin": "18:20",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Batman: El caballero de la noche",
-          "inicio": "18:20",
-          "fin": "20:50",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Pocahontas",
-          "inicio": "20:50",
-          "fin": "22:11",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Dunkerque",
-          "inicio": "22:11",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "ENTExtreme.cl": {
       "Lunes": [],
