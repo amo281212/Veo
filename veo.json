@@ -858,68 +858,7 @@
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
-      "Viernes": [
-        {
-          "nombre": "Pasante de moda",
-          "inicio": "00:00",
-          "fin": "09:36",
-          "descripcion": ""
-        },
-        {
-          "nombre": "E.T. El Extraterrestre",
-          "inicio": "09:36",
-          "fin": "11:31",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Enredados",
-          "inicio": "11:31",
-          "fin": "13:07",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Aladdín",
-          "inicio": "13:07",
-          "fin": "14:37",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Unidos",
-          "inicio": "14:37",
-          "fin": "16:14",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Madagascar 3",
-          "inicio": "16:14",
-          "fin": "17:44",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Doctor Strange en el Multiverso de la Locura",
-          "inicio": "17:44",
-          "fin": "19:48",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Toy Story",
-          "inicio": "19:48",
-          "fin": "21:10",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Batman",
-          "inicio": "21:10",
-          "fin": "23:29",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:29",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Viernes": [],
       "Sábado": [
         {
           "nombre": "Mi Villano Favorito",
