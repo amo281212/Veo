@@ -860,6 +860,12 @@
           "inicio": "00:00",
           "fin": "10:14",
           "descripcion": ""
+        },
+        {
+          "nombre": "¿Conoces a Joe Black?",
+          "inicio": "10:14",
+          "fin": "13:14",
+          "descripcion": ""
         }
       ],
       "Martes": [],
