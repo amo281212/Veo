@@ -878,56 +878,7 @@
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
-      "Domingo": [
-        {
-          "nombre": "El planeta de los simios: Confrontación",
-          "inicio": "00:00",
-          "fin": "10:11",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cars 3",
-          "inicio": "10:11",
-          "fin": "11:51",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La Supremacía Bourne",
-          "inicio": "11:51",
-          "fin": "13:38",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Ilusionista",
-          "inicio": "13:38",
-          "fin": "15:27",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Mufasa: El rey león",
-          "inicio": "15:27",
-          "fin": "17:22",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Maze Runner: La cura mortal",
-          "inicio": "17:22",
-          "fin": "19:44",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Sherlock Holmes",
-          "inicio": "19:44",
-          "fin": "21:51",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rocky II",
-          "inicio": "21:51",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ]
+      "Domingo": []
     },
     "ENTDrama.cl": {
       "Lunes": [],
