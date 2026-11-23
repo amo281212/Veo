@@ -1012,6 +1012,12 @@
           "inicio": "00:00",
           "fin": "11:57",
           "descripcion": ""
+        },
+        {
+          "nombre": "Rocky II",
+          "inicio": "11:57",
+          "fin": "13:59",
+          "descripcion": ""
         }
       ],
       "Martes": [],
