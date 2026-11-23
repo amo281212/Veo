@@ -877,56 +877,7 @@
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
-      "Sábado": [
-        {
-          "nombre": "Top Gun: Pasión y Gloria",
-          "inicio": "00:00",
-          "fin": "09:39",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Toy Story 3",
-          "inicio": "09:39",
-          "fin": "11:19",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Operación Valquiria",
-          "inicio": "11:19",
-          "fin": "13:14",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Godzilla Minus One",
-          "inicio": "13:14",
-          "fin": "15:21",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Señor de los Anillos: La comunidad del anillo",
-          "inicio": "15:21",
-          "fin": "18:47",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Thunderbolts*",
-          "inicio": "18:47",
-          "fin": "20:46",
-          "descripcion": ""
-        },
-        {
-          "nombre": "En busca de la felicidad",
-          "inicio": "20:46",
-          "fin": "22:43",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Kim Possible: Todo un drama",
-          "inicio": "22:43",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Sábado": [],
       "Domingo": [
         {
           "nombre": "El planeta de los simios: Confrontación",
