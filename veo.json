@@ -912,7 +912,14 @@
       "Domingo": []
     },
     "ENTComedy.cl": {
-      "Lunes": [],
+      "Lunes": [
+        {
+          "nombre": "La niñera",
+          "inicio": "00:00",
+          "fin": "10:00",
+          "descripcion": ""
+        }
+      ],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
