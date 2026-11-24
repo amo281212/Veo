@@ -1206,7 +1206,14 @@
     },
     "ENTDrama.cl": {
       "Lunes": [],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Creed III",
+          "inicio": "13:48",
+          "fin": "15:44",
+          "descripcion": ""
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
