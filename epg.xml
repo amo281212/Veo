@@ -120,191 +120,95 @@
     <display-name>TNT Series</display-name>
     <icon src="https://raw.githubusercontent.com/amo281212/logos-iptv/refs/heads/main/TNT%20SERIES.png"/>
   </channel>
-  <programme channel="ENTChannel.cl" start="20261123000000 -0300" stop="20261123101400 -0300">
-    <title lang="es">Duna</title>
+  <programme channel="ENTChannel.cl" start="20261124131300 -0300" stop="20261124144700 -0300">
+    <title lang="es">Los Indestructibles 4</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261123101400 -0300" stop="20261123131400 -0300">
-    <title lang="es">¿Conoces a Joe Black?</title>
+  <programme channel="ENTChannel.cl" start="20261124144700 -0300" stop="20261124163400 -0300">
+    <title lang="es">007: Quantum</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261123131400 -0300" stop="20261123153200 -0300">
-    <title lang="es">Star Wars: Episodio III</title>
+  <programme channel="ENTChannel.cl" start="20261124163400 -0300" stop="20261124183400 -0300">
+    <title lang="es">Capitán América: El primer vengador</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261123153200 -0300" stop="20261123170600 -0300">
-    <title lang="es">Angry Birds: La película</title>
+  <programme channel="ENTChannel.cl" start="20261124183400 -0300" stop="20261124203800 -0300">
+    <title lang="es">Oblivion: El tiempo del olvido</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261123170600 -0300" stop="20261123192700 -0300">
-    <title lang="es">Superman</title>
+  <programme channel="ENTChannel.cl" start="20261124203800 -0300" stop="20261124220200 -0300">
+    <title lang="es">Frankenweenie</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261123192700 -0300" stop="20261123213400 -0300">
-    <title lang="es">Talentos ocultos</title>
+  <programme channel="ENTChannel.cl" start="20261124220200 -0300" stop="20261124233000 -0300">
+    <title lang="es">Lilo y Stitch</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261123213400 -0300" stop="20261123233000 -0300">
-    <title lang="es">Dónde estás, hermano?</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261123233000 -0300" stop="20261124000000 -0300">
+  <programme channel="ENTChannel.cl" start="20261124233000 -0300" stop="20261125000000 -0300">
     <title lang="es">Los Simpson</title>
   </programme>
-  <programme channel="ENTComedy.cl" start="20261123000000 -0300" stop="20261123100000 -0300">
-    <title lang="es">La niñera</title>
+  <programme channel="ENTComedy.cl" start="20261124125800 -0300" stop="20261124143200 -0300">
+    <title lang="es">La casa de muñecas de Gabby: La película</title>
   </programme>
-  <programme channel="ENTComedy.cl" start="20261123100000 -0300" stop="20261123103000 -0300">
-    <title lang="es">El chapulín colorado</title>
+  <programme channel="ENTComedy.cl" start="20261124143200 -0300" stop="20261124161000 -0300">
+    <title lang="es">Austin Powers 2: El espía seductor</title>
   </programme>
-  <programme channel="ENTComedy.cl" start="20261123103000 -0300" stop="20261123110000 -0300">
-    <title lang="es">ALF</title>
+  <programme channel="ENTComedy.cl" start="20261124161000 -0300" stop="20261124175500 -0300">
+    <title lang="es">Sing: ¡Ven y canta!</title>
   </programme>
-  <programme channel="ENTComedy.cl" start="20261123110000 -0300" stop="20261123113000 -0300">
-    <title lang="es">Malcolm</title>
+  <programme channel="ENTComedy.cl" start="20261124175500 -0300" stop="20261124193500 -0300">
+    <title lang="es">Toy Story 5</title>
   </programme>
-  <programme channel="ENTComedy.cl" start="20261123113000 -0300" stop="20261123120000 -0300">
-    <title lang="es">Friends</title>
+  <programme channel="ENTComedy.cl" start="20261124193500 -0300" stop="20261124212100 -0300">
+    <title lang="es">Sintonía de amor</title>
   </programme>
-  <programme channel="ENTComedy.cl" start="20261123120000 -0300" stop="20261123123000 -0300">
-    <title lang="es">El chavo</title>
+  <programme channel="ENTComedy.cl" start="20261124212100 -0300" stop="20261124233000 -0300">
+    <title lang="es">Cruella</title>
   </programme>
-  <programme channel="ENTComedy.cl" start="20261123123000 -0300" stop="20261123130000 -0300">
-    <title lang="es">Los Simpson</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261123130000 -0300" stop="20261123142800 -0300">
-    <title lang="es">Luca</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261123142800 -0300" stop="20261123160800 -0300">
-    <title lang="es">Corre, gordo, corre</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261123160800 -0300" stop="20261123174500 -0300">
-    <title lang="es">Solo falta el asesino</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261123174500 -0300" stop="20261123192200 -0300">
-    <title lang="es">Grandes héroes</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261123192200 -0300" stop="20261123211700 -0300">
-    <title lang="es">Locura de verano</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261123211700 -0300" stop="20261123233000 -0300">
-    <title lang="es">Mickey 17</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261123233000 -0300" stop="20261124000000 -0300">
+  <programme channel="ENTComedy.cl" start="20261124233000 -0300" stop="20261125000000 -0300">
     <title lang="es">Smiling Friends</title>
   </programme>
-  <programme channel="ENTMovies.cl" start="20261123000000 -0300" stop="20261123115700 -0300">
-    <title lang="es">Star Wars: El ascenso de Skywalker</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261123115700 -0300" stop="20261123135900 -0300">
-    <title lang="es">Rocky II</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261123135900 -0300" stop="20261123160500 -0300">
-    <title lang="es">Thor: Ragnarok</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261123160500 -0300" stop="20261123173700 -0300">
-    <title lang="es">Hércules</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261123173700 -0300" stop="20261123194000 -0300">
-    <title lang="es">Terminator: Génesis</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261123194000 -0300" stop="20261123214000 -0300">
-    <title lang="es">El hombre araña</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261123214000 -0300" stop="20261124000000 -0300">
+  <programme channel="ENTMovies.cl" start="20261124120100 -0300" stop="20261124141400 -0300">
     <title lang="es">El Legado Bourne</title>
   </programme>
-  <programme channel="ENTDrama.cl" start="20261123000000 -0300" stop="20261123100000 -0300">
-    <title lang="es">Batman: El caballero de la noche</title>
+  <programme channel="ENTMovies.cl" start="20261124141400 -0300" stop="20261124155500 -0300">
+    <title lang="es">Jack Frost</title>
   </programme>
-  <programme channel="ENTDrama.cl" start="20261123100000 -0300" stop="20261123120200 -0300">
-    <title lang="es">Ahora son 13</title>
+  <programme channel="ENTMovies.cl" start="20261124155500 -0300" stop="20261124180100 -0300">
+    <title lang="es">Sherlock Holmes: El juego de sombras</title>
   </programme>
-  <programme channel="ENTDrama.cl" start="20261123120200 -0300" stop="20261123134900 -0300">
-    <title lang="es">La Supremacía Bourne</title>
+  <programme channel="ENTMovies.cl" start="20261124180100 -0300" stop="20261124195900 -0300">
+    <title lang="es">Ant-Man and the Wasp: Quantumania</title>
   </programme>
-  <programme channel="ENTDrama.cl" start="20261123134900 -0300" stop="20261123155800 -0300">
-    <title lang="es">La intérprete</title>
+  <programme channel="ENTMovies.cl" start="20261124195900 -0300" stop="20261124222400 -0300">
+    <title lang="es">Misión Imposible 6: Repercusión</title>
   </programme>
-  <programme channel="ENTDrama.cl" start="20261123155800 -0300" stop="20261123180400 -0300">
-    <title lang="es">Moulin Rouge, amor en rojo</title>
+  <programme channel="ENTMovies.cl" start="20261124222400 -0300" stop="20261125000000 -0300">
+    <title lang="es">Loca Academia de Pilotos 2</title>
   </programme>
-  <programme channel="ENTDrama.cl" start="20261123180400 -0300" stop="20261123195200 -0300">
-    <title lang="es">Cantando bajo la lluvia</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261123195200 -0300" stop="20261123220000 -0300">
-    <title lang="es">Karate Kid</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261123220000 -0300" stop="20261124000000 -0300">
+  <programme channel="ENTDrama.cl" start="20261124134800 -0300" stop="20261124154400 -0300">
     <title lang="es">Creed III</title>
   </programme>
-  <programme channel="ENTExtreme.cl" start="20261123000000 -0300" stop="20261123121900 -0300">
-    <title lang="es">Misión Imposible: Sentencia mortal - Parte 1</title>
+  <programme channel="ENTDrama.cl" start="20261124154400 -0300" stop="20261124174200 -0300">
+    <title lang="es">Colateral</title>
   </programme>
-  <programme channel="ENTExtreme.cl" start="20261123121900 -0300" stop="20261123142100 -0300">
-    <title lang="es">Ronin</title>
+  <programme channel="ENTDrama.cl" start="20261124174200 -0300" stop="20261124193800 -0300">
+    <title lang="es">La Gran Estafa</title>
   </programme>
-  <programme channel="ENTExtreme.cl" start="20261123142100 -0300" stop="20261123160700 -0300">
-    <title lang="es">Titanes del Pacífico: La insurrección</title>
+  <programme channel="ENTDrama.cl" start="20261124193800 -0300" stop="20261124215800 -0300">
+    <title lang="es">Apolo 13</title>
   </programme>
-  <programme channel="ENTExtreme.cl" start="20261123160700 -0300" stop="20261123183600 -0300">
-    <title lang="es">Armageddon</title>
+  <programme channel="ENTDrama.cl" start="20261124215800 -0300" stop="20261125000000 -0300">
+    <title lang="es">Una esposa de mentira</title>
   </programme>
-  <programme channel="ENTExtreme.cl" start="20261123183600 -0300" stop="20261123204500 -0300">
-    <title lang="es">Maze Runner: Prueba de fuego</title>
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261123204500 -0300" stop="20261123225100 -0300">
-    <title lang="es">El planeta de los Simios: Confrontación</title>
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261123225100 -0300" stop="20261124000000 -0300">
+  <programme channel="ENTExtreme.cl" start="20261124121500 -0300" stop="20261124141500 -0300">
     <title lang="es">Insomnia</title>
   </programme>
-  <programme channel="HBO.cl" start="20261123000000 -0300" stop="20261123090000 -0300">
-    <title lang="es">Definitivamente, Tal Vez</title>
+  <programme channel="ENTExtreme.cl" start="20261124141500 -0300" stop="20261124164200 -0300">
+    <title lang="es">Eternals</title>
   </programme>
-  <programme channel="HBO.cl" start="20261123090000 -0300" stop="20261123105000 -0300">
-    <title lang="es">No me las Toquen</title>
+  <programme channel="ENTExtreme.cl" start="20261124164200 -0300" stop="20261124195900 -0300">
+    <title lang="es">El Señor de los Anillos: El retorno del rey</title>
   </programme>
-  <programme channel="HBO.cl" start="20261123105000 -0300" stop="20261123124700 -0300">
-    <title lang="es">¿Y dónde están las rubias?</title>
+  <programme channel="ENTExtreme.cl" start="20261124195900 -0300" stop="20261124220400 -0300">
+    <title lang="es">La guerra de las galaxias</title>
   </programme>
-  <programme channel="HBO.cl" start="20261123124700 -0300" stop="20261123150700 -0300">
-    <title lang="es">Song Sung Blue</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261123150700 -0300" stop="20261123171700 -0300">
-    <title lang="es">Tornados</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261123171700 -0300" stop="20261123181700 -0300">
-    <title lang="es">War</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261123181700 -0300" stop="20261123201700 -0300">
-    <title lang="es">Venom</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261123201700 -0300" stop="20261123225200 -0300">
-    <title lang="es">Furiosa: De la Saga Mad Max</title>
-  </programme>
-  <programme channel="HBO.cl" start="20261123225200 -0300" stop="20261124010000 -0300">
-    <title lang="es">Cónclave</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261123000000 -0300" stop="20261123090000 -0300">
-    <title lang="es">Van Helsing: El cazador de monstruos</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261123090000 -0300" stop="20261123103400 -0300">
-    <title lang="es">En el Tornado</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261123103400 -0300" stop="20261123122400 -0300">
-    <title lang="es">DC Liga de Súpermascotas</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261123122400 -0300" stop="20261123142400 -0300">
-    <title lang="es">Barbie</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261123142400 -0300" stop="20261123162700 -0300">
-    <title lang="es">Wonka</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261123162700 -0300" stop="20261123183800 -0300">
-    <title lang="es">Aquaman y el Reino Perdido</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261123183800 -0300" stop="20261123203600 -0300">
-    <title lang="es">Mortal kombat</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261123203600 -0300" stop="20261123224000 -0300">
-    <title lang="es">Mortal Kombat II</title>
-  </programme>
-  <programme channel="HBO2.cl" start="20261123224000 -0300" stop="20261124010000 -0300">
-    <title lang="es">Shazam!</title>
+  <programme channel="ENTExtreme.cl" start="20261124220400 -0300" stop="20261125010000 -0300">
+    <title lang="es">El Código Da Vinci</title>
   </programme>
   <programme channel="HBO.cl" start="20261124010000 -0300" stop="20261124090000 -0300">
     <title lang="es">Vivir de Noche</title>
@@ -365,6 +269,153 @@
   </programme>
   <programme channel="HBO2.cl" start="20261124223000 -0300" stop="20261125003000 -0300">
     <title lang="es">HBO Movies</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125000000 -0300" stop="20261125101800 -0300">
+    <title lang="es">Fantasmas del pasado</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125101800 -0300" stop="20261125123100 -0300">
+    <title lang="es">Ready Player One: Comienza el juego</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125123100 -0300" stop="20261125142700 -0300">
+    <title lang="es">Locura de verano</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125142700 -0300" stop="20261125160100 -0300">
+    <title lang="es">Un jefe en pañales</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125160100 -0300" stop="20261125175700 -0300">
+    <title lang="es">Nueve reinas</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125175700 -0300" stop="20261125200100 -0300">
+    <title lang="es">Orgullo y prejuicio</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125200100 -0300" stop="20261125213800 -0300">
+    <title lang="es">Luna de miel para tres</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125213800 -0300" stop="20261125233000 -0300">
+    <title lang="es">El Planeta de los Simios: (R)evolución</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261125233000 -0300" stop="20261126000000 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125000000 -0300" stop="20261125092900 -0300">
+    <title lang="es">Dinosaurios</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125092900 -0300" stop="20261125100000 -0300">
+    <title lang="es">La niñera</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125100000 -0300" stop="20261125103000 -0300">
+    <title lang="es">El chapulín colorado</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125103000 -0300" stop="20261125110000 -0300">
+    <title lang="es">ALF</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125110000 -0300" stop="20261125112800 -0300">
+    <title lang="es">Malcolm</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125112800 -0300" stop="20261125120000 -0300">
+    <title lang="es">Friends</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125120000 -0300" stop="20261125123000 -0300">
+    <title lang="es">El chavo</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125123000 -0300" stop="20261125130000 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125130000 -0300" stop="20261125142500 -0300">
+    <title lang="es">Frankenweenie</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125142500 -0300" stop="20261125160300 -0300">
+    <title lang="es">¡Cuidado: Bebé suelto!</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125160300 -0300" stop="20261125173300 -0300">
+    <title lang="es">Viaje al centro de la Tierra</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125173300 -0300" stop="20261125190900 -0300">
+    <title lang="es">Anaconda</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125190900 -0300" stop="20261125203800 -0300">
+    <title lang="es">Kung Fu Panda 2</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125203800 -0300" stop="20261125220700 -0300">
+    <title lang="es">Shrek 4: Para Siempre</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125220700 -0300" stop="20261125233400 -0300">
+    <title lang="es">31 Minutos: Calurosa Navidad</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261125233400 -0300" stop="20261126000000 -0300">
+    <title lang="es">Smiling Friends</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125000000 -0300" stop="20261125100800 -0300">
+    <title lang="es">Mary Poppins</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125100800 -0300" stop="20261125120100 -0300">
+    <title lang="es">Thor: Amor y trueno</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125120100 -0300" stop="20261125133200 -0300">
+    <title lang="es">Monsters, Inc.</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125133200 -0300" stop="20261125145700 -0300">
+    <title lang="es">Minions: Nace un villano</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125145700 -0300" stop="20261125172800 -0300">
+    <title lang="es">Batman: El caballero de la noche</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125172800 -0300" stop="20261125193600 -0300">
+    <title lang="es">Spider-Man: De regreso a casa</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125193600 -0300" stop="20261125212800 -0300">
+    <title lang="es">Barry Seal: Sólo en América</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261125212800 -0300" stop="20261126000000 -0300">
+    <title lang="es">Eternals</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261125000000 -0300" stop="20261125101600 -0300">
+    <title lang="es">Milagro en la calle 34</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261125101600 -0300" stop="20261125122000 -0300">
+    <title lang="es">Leyendas de vida</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261125122000 -0300" stop="20261125142400 -0300">
+    <title lang="es">Ágora: La caída del imperio romano</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261125142400 -0300" stop="20261125163100 -0300">
+    <title lang="es">El planeta de los simios: Confrontación</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261125163100 -0300" stop="20261125182100 -0300">
+    <title lang="es">El diablo viste a la moda</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261125182100 -0300" stop="20261125203100 -0300">
+    <title lang="es">El embajador del miedo</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261125203100 -0300" stop="20261125222700 -0300">
+    <title lang="es">Loco y Estúpido Amor</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261125222700 -0300" stop="20261126000000 -0300">
+    <title lang="es">Rebeldes</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125010000 -0300" stop="20261125093600 -0300">
+    <title lang="es">Jurassic World</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125093600 -0300" stop="20261125120300 -0300">
+    <title lang="es">007: Spectre</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125120300 -0300" stop="20261125134900 -0300">
+    <title lang="es">Thor: Un mundo oscuro</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125134900 -0300" stop="20261125155700 -0300">
+    <title lang="es">Pantera Negra</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125155700 -0300" stop="20261125180100 -0300">
+    <title lang="es">La nueva gran estafa</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125180100 -0300" stop="20261125201900 -0300">
+    <title lang="es">El hombre araña 3</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125201900 -0300" stop="20261125224500 -0300">
+    <title lang="es">El Origen</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261125224500 -0300" stop="20261126000000 -0300">
+    <title lang="es">X-Men 2</title>
   </programme>
   <programme channel="HBO.cl" start="20261125010000 -0300" stop="20261125090000 -0300">
     <title lang="es">Conociendo a los Black</title>
@@ -468,138 +519,6 @@
   <programme channel="HBO2.cl" start="20261126222200 -0300" stop="20261127010000 -0300">
     <title lang="es">Mujer Maravilla 1984</title>
   </programme>
-  <programme channel="ENTChannel.cl" start="20261130000000 -0300" stop="20261130101400 -0300">
-    <title lang="es">Duna</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261130101400 -0300" stop="20261130131400 -0300">
-    <title lang="es">¿Conoces a Joe Black?</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261130131400 -0300" stop="20261130153200 -0300">
-    <title lang="es">Star Wars: Episodio III</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261130153200 -0300" stop="20261130170600 -0300">
-    <title lang="es">Angry Birds: La película</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261130170600 -0300" stop="20261130192700 -0300">
-    <title lang="es">Superman</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261130192700 -0300" stop="20261130213400 -0300">
-    <title lang="es">Talentos ocultos</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261130213400 -0300" stop="20261130233000 -0300">
-    <title lang="es">Dónde estás, hermano?</title>
-  </programme>
-  <programme channel="ENTChannel.cl" start="20261130233000 -0300" stop="20261201000000 -0300">
-    <title lang="es">Los Simpson</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130000000 -0300" stop="20261130100000 -0300">
-    <title lang="es">La niñera</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130100000 -0300" stop="20261130103000 -0300">
-    <title lang="es">El chapulín colorado</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130103000 -0300" stop="20261130110000 -0300">
-    <title lang="es">ALF</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130110000 -0300" stop="20261130113000 -0300">
-    <title lang="es">Malcolm</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130113000 -0300" stop="20261130120000 -0300">
-    <title lang="es">Friends</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130120000 -0300" stop="20261130123000 -0300">
-    <title lang="es">El chavo</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130123000 -0300" stop="20261130130000 -0300">
-    <title lang="es">Los Simpson</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130130000 -0300" stop="20261130142800 -0300">
-    <title lang="es">Luca</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130142800 -0300" stop="20261130160800 -0300">
-    <title lang="es">Corre, gordo, corre</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130160800 -0300" stop="20261130174500 -0300">
-    <title lang="es">Solo falta el asesino</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130174500 -0300" stop="20261130192200 -0300">
-    <title lang="es">Grandes héroes</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130192200 -0300" stop="20261130211700 -0300">
-    <title lang="es">Locura de verano</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130211700 -0300" stop="20261130233000 -0300">
-    <title lang="es">Mickey 17</title>
-  </programme>
-  <programme channel="ENTComedy.cl" start="20261130233000 -0300" stop="20261201000000 -0300">
-    <title lang="es">Smiling Friends</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261130000000 -0300" stop="20261130115700 -0300">
-    <title lang="es">Star Wars: El ascenso de Skywalker</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261130115700 -0300" stop="20261130135900 -0300">
-    <title lang="es">Rocky II</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261130135900 -0300" stop="20261130160500 -0300">
-    <title lang="es">Thor: Ragnarok</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261130160500 -0300" stop="20261130173700 -0300">
-    <title lang="es">Hércules</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261130173700 -0300" stop="20261130194000 -0300">
-    <title lang="es">Terminator: Génesis</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261130194000 -0300" stop="20261130214000 -0300">
-    <title lang="es">El hombre araña</title>
-  </programme>
-  <programme channel="ENTMovies.cl" start="20261130214000 -0300" stop="20261201000000 -0300">
-    <title lang="es">El Legado Bourne</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130000000 -0300" stop="20261130100000 -0300">
-    <title lang="es">Batman: El caballero de la noche</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130100000 -0300" stop="20261130120200 -0300">
-    <title lang="es">Ahora son 13</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130120200 -0300" stop="20261130134900 -0300">
-    <title lang="es">La Supremacía Bourne</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130134900 -0300" stop="20261130155800 -0300">
-    <title lang="es">La intérprete</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130155800 -0300" stop="20261130180400 -0300">
-    <title lang="es">Moulin Rouge, amor en rojo</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130180400 -0300" stop="20261130195200 -0300">
-    <title lang="es">Cantando bajo la lluvia</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130195200 -0300" stop="20261130220000 -0300">
-    <title lang="es">Karate Kid</title>
-  </programme>
-  <programme channel="ENTDrama.cl" start="20261130220000 -0300" stop="20261201000000 -0300">
-    <title lang="es">Creed III</title>
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261130000000 -0300" stop="20261130121900 -0300">
-    <title lang="es">Misión Imposible: Sentencia mortal - Parte 1</title>
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261130121900 -0300" stop="20261130142100 -0300">
-    <title lang="es">Ronin</title>
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261130142100 -0300" stop="20261130160700 -0300">
-    <title lang="es">Titanes del Pacífico: La insurrección</title>
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261130160700 -0300" stop="20261130183600 -0300">
-    <title lang="es">Armageddon</title>
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261130183600 -0300" stop="20261130204500 -0300">
-    <title lang="es">Maze Runner: Prueba de fuego</title>
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261130204500 -0300" stop="20261130225100 -0300">
-    <title lang="es">El planeta de los Simios: Confrontación</title>
-  </programme>
-  <programme channel="ENTExtreme.cl" start="20261130225100 -0300" stop="20261201000000 -0300">
-    <title lang="es">Insomnia</title>
-  </programme>
   <programme channel="HBO.cl" start="20261130000000 -0300" stop="20261130090000 -0300">
     <title lang="es">Definitivamente, Tal Vez</title>
   </programme>
@@ -653,6 +572,96 @@
   </programme>
   <programme channel="HBO2.cl" start="20261130224000 -0300" stop="20261201010000 -0300">
     <title lang="es">Shazam!</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261201131300 -0300" stop="20261201144700 -0300">
+    <title lang="es">Los Indestructibles 4</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261201144700 -0300" stop="20261201163400 -0300">
+    <title lang="es">007: Quantum</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261201163400 -0300" stop="20261201183400 -0300">
+    <title lang="es">Capitán América: El primer vengador</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261201183400 -0300" stop="20261201203800 -0300">
+    <title lang="es">Oblivion: El tiempo del olvido</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261201203800 -0300" stop="20261201220200 -0300">
+    <title lang="es">Frankenweenie</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261201220200 -0300" stop="20261201233000 -0300">
+    <title lang="es">Lilo y Stitch</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261201233000 -0300" stop="20261202000000 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261201125800 -0300" stop="20261201143200 -0300">
+    <title lang="es">La casa de muñecas de Gabby: La película</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261201143200 -0300" stop="20261201161000 -0300">
+    <title lang="es">Austin Powers 2: El espía seductor</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261201161000 -0300" stop="20261201175500 -0300">
+    <title lang="es">Sing: ¡Ven y canta!</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261201175500 -0300" stop="20261201193500 -0300">
+    <title lang="es">Toy Story 5</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261201193500 -0300" stop="20261201212100 -0300">
+    <title lang="es">Sintonía de amor</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261201212100 -0300" stop="20261201233000 -0300">
+    <title lang="es">Cruella</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261201233000 -0300" stop="20261202000000 -0300">
+    <title lang="es">Smiling Friends</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261201120100 -0300" stop="20261201141400 -0300">
+    <title lang="es">El Legado Bourne</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261201141400 -0300" stop="20261201155500 -0300">
+    <title lang="es">Jack Frost</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261201155500 -0300" stop="20261201180100 -0300">
+    <title lang="es">Sherlock Holmes: El juego de sombras</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261201180100 -0300" stop="20261201195900 -0300">
+    <title lang="es">Ant-Man and the Wasp: Quantumania</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261201195900 -0300" stop="20261201222400 -0300">
+    <title lang="es">Misión Imposible 6: Repercusión</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261201222400 -0300" stop="20261202000000 -0300">
+    <title lang="es">Loca Academia de Pilotos 2</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261201134800 -0300" stop="20261201154400 -0300">
+    <title lang="es">Creed III</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261201154400 -0300" stop="20261201174200 -0300">
+    <title lang="es">Colateral</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261201174200 -0300" stop="20261201193800 -0300">
+    <title lang="es">La Gran Estafa</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261201193800 -0300" stop="20261201215800 -0300">
+    <title lang="es">Apolo 13</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261201215800 -0300" stop="20261202000000 -0300">
+    <title lang="es">Una esposa de mentira</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261201121500 -0300" stop="20261201141500 -0300">
+    <title lang="es">Insomnia</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261201141500 -0300" stop="20261201164200 -0300">
+    <title lang="es">Eternals</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261201164200 -0300" stop="20261201195900 -0300">
+    <title lang="es">El Señor de los Anillos: El retorno del rey</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261201195900 -0300" stop="20261201220400 -0300">
+    <title lang="es">La guerra de las galaxias</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261201220400 -0300" stop="20261202010000 -0300">
+    <title lang="es">El Código Da Vinci</title>
   </programme>
   <programme channel="HBO.cl" start="20261201010000 -0300" stop="20261201090000 -0300">
     <title lang="es">Vivir de Noche</title>
@@ -713,6 +722,153 @@
   </programme>
   <programme channel="HBO2.cl" start="20261201223000 -0300" stop="20261202003000 -0300">
     <title lang="es">HBO Movies</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202000000 -0300" stop="20261202101800 -0300">
+    <title lang="es">Fantasmas del pasado</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202101800 -0300" stop="20261202123100 -0300">
+    <title lang="es">Ready Player One: Comienza el juego</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202123100 -0300" stop="20261202142700 -0300">
+    <title lang="es">Locura de verano</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202142700 -0300" stop="20261202160100 -0300">
+    <title lang="es">Un jefe en pañales</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202160100 -0300" stop="20261202175700 -0300">
+    <title lang="es">Nueve reinas</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202175700 -0300" stop="20261202200100 -0300">
+    <title lang="es">Orgullo y prejuicio</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202200100 -0300" stop="20261202213800 -0300">
+    <title lang="es">Luna de miel para tres</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202213800 -0300" stop="20261202233000 -0300">
+    <title lang="es">El Planeta de los Simios: (R)evolución</title>
+  </programme>
+  <programme channel="ENTChannel.cl" start="20261202233000 -0300" stop="20261203000000 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202000000 -0300" stop="20261202092900 -0300">
+    <title lang="es">Dinosaurios</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202092900 -0300" stop="20261202100000 -0300">
+    <title lang="es">La niñera</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202100000 -0300" stop="20261202103000 -0300">
+    <title lang="es">El chapulín colorado</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202103000 -0300" stop="20261202110000 -0300">
+    <title lang="es">ALF</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202110000 -0300" stop="20261202112800 -0300">
+    <title lang="es">Malcolm</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202112800 -0300" stop="20261202120000 -0300">
+    <title lang="es">Friends</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202120000 -0300" stop="20261202123000 -0300">
+    <title lang="es">El chavo</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202123000 -0300" stop="20261202130000 -0300">
+    <title lang="es">Los Simpson</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202130000 -0300" stop="20261202142500 -0300">
+    <title lang="es">Frankenweenie</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202142500 -0300" stop="20261202160300 -0300">
+    <title lang="es">¡Cuidado: Bebé suelto!</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202160300 -0300" stop="20261202173300 -0300">
+    <title lang="es">Viaje al centro de la Tierra</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202173300 -0300" stop="20261202190900 -0300">
+    <title lang="es">Anaconda</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202190900 -0300" stop="20261202203800 -0300">
+    <title lang="es">Kung Fu Panda 2</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202203800 -0300" stop="20261202220700 -0300">
+    <title lang="es">Shrek 4: Para Siempre</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202220700 -0300" stop="20261202233400 -0300">
+    <title lang="es">31 Minutos: Calurosa Navidad</title>
+  </programme>
+  <programme channel="ENTComedy.cl" start="20261202233400 -0300" stop="20261203000000 -0300">
+    <title lang="es">Smiling Friends</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202000000 -0300" stop="20261202100800 -0300">
+    <title lang="es">Mary Poppins</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202100800 -0300" stop="20261202120100 -0300">
+    <title lang="es">Thor: Amor y trueno</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202120100 -0300" stop="20261202133200 -0300">
+    <title lang="es">Monsters, Inc.</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202133200 -0300" stop="20261202145700 -0300">
+    <title lang="es">Minions: Nace un villano</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202145700 -0300" stop="20261202172800 -0300">
+    <title lang="es">Batman: El caballero de la noche</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202172800 -0300" stop="20261202193600 -0300">
+    <title lang="es">Spider-Man: De regreso a casa</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202193600 -0300" stop="20261202212800 -0300">
+    <title lang="es">Barry Seal: Sólo en América</title>
+  </programme>
+  <programme channel="ENTMovies.cl" start="20261202212800 -0300" stop="20261203000000 -0300">
+    <title lang="es">Eternals</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202000000 -0300" stop="20261202101600 -0300">
+    <title lang="es">Milagro en la calle 34</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202101600 -0300" stop="20261202122000 -0300">
+    <title lang="es">Leyendas de vida</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202122000 -0300" stop="20261202142400 -0300">
+    <title lang="es">Ágora: La caída del imperio romano</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202142400 -0300" stop="20261202163100 -0300">
+    <title lang="es">El planeta de los simios: Confrontación</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202163100 -0300" stop="20261202182100 -0300">
+    <title lang="es">El diablo viste a la moda</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202182100 -0300" stop="20261202203100 -0300">
+    <title lang="es">El embajador del miedo</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202203100 -0300" stop="20261202222700 -0300">
+    <title lang="es">Loco y Estúpido Amor</title>
+  </programme>
+  <programme channel="ENTDrama.cl" start="20261202222700 -0300" stop="20261203000000 -0300">
+    <title lang="es">Rebeldes</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202010000 -0300" stop="20261202093600 -0300">
+    <title lang="es">Jurassic World</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202093600 -0300" stop="20261202120300 -0300">
+    <title lang="es">007: Spectre</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202120300 -0300" stop="20261202134900 -0300">
+    <title lang="es">Thor: Un mundo oscuro</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202134900 -0300" stop="20261202155700 -0300">
+    <title lang="es">Pantera Negra</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202155700 -0300" stop="20261202180100 -0300">
+    <title lang="es">La nueva gran estafa</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202180100 -0300" stop="20261202201900 -0300">
+    <title lang="es">El hombre araña 3</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202201900 -0300" stop="20261202224500 -0300">
+    <title lang="es">El Origen</title>
+  </programme>
+  <programme channel="ENTExtreme.cl" start="20261202224500 -0300" stop="20261203000000 -0300">
+    <title lang="es">X-Men 2</title>
   </programme>
   <programme channel="HBO.cl" start="20261202010000 -0300" stop="20261202090000 -0300">
     <title lang="es">Conociendo a los Black</title>
@@ -815,5 +971,59 @@
   </programme>
   <programme channel="HBO2.cl" start="20261203222200 -0300" stop="20261204010000 -0300">
     <title lang="es">Mujer Maravilla 1984</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261207000000 -0300" stop="20261207090000 -0300">
+    <title lang="es">Definitivamente, Tal Vez</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261207090000 -0300" stop="20261207105000 -0300">
+    <title lang="es">No me las Toquen</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261207105000 -0300" stop="20261207124700 -0300">
+    <title lang="es">¿Y dónde están las rubias?</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261207124700 -0300" stop="20261207150700 -0300">
+    <title lang="es">Song Sung Blue</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261207150700 -0300" stop="20261207171700 -0300">
+    <title lang="es">Tornados</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261207171700 -0300" stop="20261207181700 -0300">
+    <title lang="es">War</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261207181700 -0300" stop="20261207201700 -0300">
+    <title lang="es">Venom</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261207201700 -0300" stop="20261207225200 -0300">
+    <title lang="es">Furiosa: De la Saga Mad Max</title>
+  </programme>
+  <programme channel="HBO.cl" start="20261207225200 -0300" stop="20261208010000 -0300">
+    <title lang="es">Cónclave</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261207000000 -0300" stop="20261207090000 -0300">
+    <title lang="es">Van Helsing: El cazador de monstruos</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261207090000 -0300" stop="20261207103400 -0300">
+    <title lang="es">En el Tornado</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261207103400 -0300" stop="20261207122400 -0300">
+    <title lang="es">DC Liga de Súpermascotas</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261207122400 -0300" stop="20261207142400 -0300">
+    <title lang="es">Barbie</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261207142400 -0300" stop="20261207162700 -0300">
+    <title lang="es">Wonka</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261207162700 -0300" stop="20261207183800 -0300">
+    <title lang="es">Aquaman y el Reino Perdido</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261207183800 -0300" stop="20261207203600 -0300">
+    <title lang="es">Mortal kombat</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261207203600 -0300" stop="20261207224000 -0300">
+    <title lang="es">Mortal Kombat II</title>
+  </programme>
+  <programme channel="HBO2.cl" start="20261207224000 -0300" stop="20261208010000 -0300">
+    <title lang="es">Shazam!</title>
   </programme>
 </tv>
