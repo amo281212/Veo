@@ -962,7 +962,14 @@
     },
     "ENTComedy.cl": {
       "Lunes": [],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "La casa de muñecas de Gabby: La película",
+          "inicio": "12:58",
+          "fin": "14:32",
+          "descripcion": ""
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
