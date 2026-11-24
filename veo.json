@@ -1048,6 +1048,12 @@
           "inicio": "12:00",
           "fin": "12:30",
           "descripcion": ""
+        },
+        {
+          "nombre": "Los Simpson",
+          "inicio": "12:30",
+          "fin": "13:00",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
