@@ -1030,6 +1030,12 @@
           "inicio": "10:30",
           "fin": "11:00",
           "descripcion": ""
+        },
+        {
+          "nombre": "Malcolm",
+          "inicio": "11:00",
+          "fin": "11:28",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
