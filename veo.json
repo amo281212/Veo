@@ -905,6 +905,12 @@
           "inicio": "00:00",
           "fin": "10:18",
           "descripcion": ""
+        },
+        {
+          "nombre": "Ready Player One: Comienza el juego",
+          "inicio": "10:18",
+          "fin": "12:31",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
