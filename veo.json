@@ -1111,7 +1111,14 @@
     },
     "ENTMovies.cl": {
       "Lunes": [],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "El Legado Bourne",
+          "inicio": "12:01",
+          "fin": "14:14",
+          "descripcion": ""
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
