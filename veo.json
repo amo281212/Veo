@@ -881,56 +881,7 @@
       "Domingo": []
     },
     "ENTDrama.cl": {
-      "Lunes": [
-        {
-          "nombre": "Batman: El caballero de la noche",
-          "inicio": "00:00",
-          "fin": "10:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ahora son 13",
-          "inicio": "10:00",
-          "fin": "12:02",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La Supremacía Bourne",
-          "inicio": "12:02",
-          "fin": "13:49",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La intérprete",
-          "inicio": "13:49",
-          "fin": "15:58",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Moulin Rouge, amor en rojo",
-          "inicio": "15:58",
-          "fin": "18:04",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Cantando bajo la lluvia",
-          "inicio": "18:04",
-          "fin": "19:52",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Karate Kid",
-          "inicio": "19:52",
-          "fin": "22:00",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Creed III",
-          "inicio": "22:00",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Lunes": [],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
