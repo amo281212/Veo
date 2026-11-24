@@ -854,56 +854,7 @@
       "Domingo": []
     },
     "ENTChannel.cl": {
-      "Lunes": [
-        {
-          "nombre": "Duna",
-          "inicio": "00:00",
-          "fin": "10:14",
-          "descripcion": ""
-        },
-        {
-          "nombre": "¿Conoces a Joe Black?",
-          "inicio": "10:14",
-          "fin": "13:14",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Star Wars: Episodio III",
-          "inicio": "13:14",
-          "fin": "15:32",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Angry Birds: La película",
-          "inicio": "15:32",
-          "fin": "17:06",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Superman",
-          "inicio": "17:06",
-          "fin": "19:27",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Talentos ocultos",
-          "inicio": "19:27",
-          "fin": "21:34",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Dónde estás, hermano?",
-          "inicio": "21:34",
-          "fin": "23:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:30",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Lunes": [],
       "Martes": [],
       "Miércoles": [],
       "Jueves": [],
