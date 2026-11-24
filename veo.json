@@ -1295,7 +1295,14 @@
     },
     "ENTExtreme.cl": {
       "Lunes": [],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Insomnia",
+          "inicio": "12:15",
+          "fin": "14:15",
+          "descripcion": ""
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
