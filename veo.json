@@ -1060,6 +1060,12 @@
           "inicio": "13:00",
           "fin": "14:25",
           "descripcion": ""
+        },
+        {
+          "nombre": "¡Cuidado: Bebé suelto!",
+          "inicio": "14:25",
+          "fin": "16:03",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
