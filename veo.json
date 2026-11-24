@@ -855,7 +855,14 @@
     },
     "ENTChannel.cl": {
       "Lunes": [],
-      "Martes": [],
+      "Martes": [
+        {
+          "nombre": "Los Indestructibles 4",
+          "inicio": "13:13",
+          "fin": "14:47",
+          "descripcion": ""
+        }
+      ],
       "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
