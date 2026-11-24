@@ -1117,6 +1117,12 @@
           "inicio": "12:01",
           "fin": "14:14",
           "descripcion": ""
+        },
+        {
+          "nombre": "Jack Frost",
+          "inicio": "14:14",
+          "fin": "15:55",
+          "descripcion": ""
         }
       ],
       "Miércoles": [],
