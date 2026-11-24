@@ -1012,6 +1012,12 @@
           "inicio": "00:00",
           "fin": "09:29",
           "descripcion": ""
+        },
+        {
+          "nombre": "La niñera",
+          "inicio": "09:29",
+          "fin": "10:00",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
