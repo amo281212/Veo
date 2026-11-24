@@ -1024,6 +1024,12 @@
           "inicio": "10:00",
           "fin": "10:30",
           "descripcion": ""
+        },
+        {
+          "nombre": "ALF",
+          "inicio": "10:30",
+          "fin": "11:00",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
