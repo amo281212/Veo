@@ -1333,6 +1333,12 @@
           "inicio": "01:00",
           "fin": "09:36",
           "descripcion": ""
+        },
+        {
+          "nombre": "007: Spectre",
+          "inicio": "09:36",
+          "fin": "12:03",
+          "descripcion": ""
         }
       ],
       "Jueves": [],
