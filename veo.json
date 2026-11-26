@@ -883,56 +883,7 @@
     "ENTDrama.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Milagro en la calle 34",
-          "inicio": "00:00",
-          "fin": "10:16",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Leyendas de vida",
-          "inicio": "10:16",
-          "fin": "12:20",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ágora: La caída del imperio romano",
-          "inicio": "12:20",
-          "fin": "14:24",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El planeta de los simios: Confrontación",
-          "inicio": "14:24",
-          "fin": "16:31",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El diablo viste a la moda",
-          "inicio": "16:31",
-          "fin": "18:21",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El embajador del miedo",
-          "inicio": "18:21",
-          "fin": "20:31",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Loco y Estúpido Amor",
-          "inicio": "20:31",
-          "fin": "22:27",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Rebeldes",
-          "inicio": "22:27",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
