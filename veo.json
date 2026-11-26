@@ -1103,7 +1103,14 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Eternals",
+          "inicio": "00:00",
+          "fin": "10:38",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
