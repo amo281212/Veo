@@ -892,56 +892,7 @@
     "ENTExtreme.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Jurassic World",
-          "inicio": "01:00",
-          "fin": "09:36",
-          "descripcion": ""
-        },
-        {
-          "nombre": "007: Spectre",
-          "inicio": "09:36",
-          "fin": "12:03",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Thor: Un mundo oscuro",
-          "inicio": "12:03",
-          "fin": "13:49",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Pantera Negra",
-          "inicio": "13:49",
-          "fin": "15:57",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La nueva gran estafa",
-          "inicio": "15:57",
-          "fin": "18:01",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El hombre araña 3",
-          "inicio": "18:01",
-          "fin": "20:19",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Origen",
-          "inicio": "20:19",
-          "fin": "22:45",
-          "descripcion": ""
-        },
-        {
-          "nombre": "X-Men 2",
-          "inicio": "22:45",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
