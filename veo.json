@@ -1062,6 +1062,12 @@
           "inicio": "22:00",
           "fin": "23:30",
           "descripcion": ""
+        },
+        {
+          "nombre": "Smiling Friends",
+          "inicio": "23:30",
+          "fin": "00:00",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
