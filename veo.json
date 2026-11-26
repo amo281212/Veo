@@ -883,7 +883,14 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Tornados",
+          "inicio": "00:00",
+          "fin": "09:33",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
