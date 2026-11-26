@@ -1293,6 +1293,12 @@
           "inicio": "01:00",
           "fin": "10:46",
           "descripcion": ""
+        },
+        {
+          "nombre": "Iron Man",
+          "inicio": "10:46",
+          "fin": "12:49",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
