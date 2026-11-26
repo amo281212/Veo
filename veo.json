@@ -889,6 +889,12 @@
           "inicio": "00:00",
           "fin": "09:33",
           "descripcion": ""
+        },
+        {
+          "nombre": "Coco",
+          "inicio": "09:33",
+          "fin": "11:15",
+          "descripcion": ""
         }
       ],
       "Sábado": [],
