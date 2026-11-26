@@ -874,56 +874,7 @@
     "ENTMovies.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Mary Poppins",
-          "inicio": "00:00",
-          "fin": "10:08",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Thor: Amor y trueno",
-          "inicio": "10:08",
-          "fin": "12:01",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Monsters, Inc.",
-          "inicio": "12:01",
-          "fin": "13:32",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Minions: Nace un villano",
-          "inicio": "13:32",
-          "fin": "14:57",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Batman: El caballero de la noche",
-          "inicio": "14:57",
-          "fin": "17:28",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Spider-Man: De regreso a casa",
-          "inicio": "17:28",
-          "fin": "19:36",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Barry Seal: Sólo en América",
-          "inicio": "19:36",
-          "fin": "21:28",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Eternals",
-          "inicio": "21:28",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
