@@ -1101,6 +1101,12 @@
           "inicio": "22:12",
           "fin": "23:59",
           "descripcion": ""
+        },
+        {
+          "nombre": "Eternals",
+          "inicio": "23:59",
+          "fin": "10:38",
+          "descripcion": ""
         }
       ],
       "Viernes": [],
