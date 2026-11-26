@@ -891,38 +891,7 @@
     },
     "ENTExtreme.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Insomnia",
-          "inicio": "12:15",
-          "fin": "14:15",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Eternals",
-          "inicio": "14:15",
-          "fin": "16:42",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Señor de los Anillos: El retorno del rey",
-          "inicio": "16:42",
-          "fin": "19:59",
-          "descripcion": ""
-        },
-        {
-          "nombre": "La guerra de las galaxias",
-          "inicio": "19:59",
-          "fin": "22:04",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Código Da Vinci",
-          "inicio": "22:04",
-          "fin": "01:00",
-          "descripcion": ""
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Jurassic World",
