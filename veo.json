@@ -1192,7 +1192,14 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "El planeta de los simios: Confrontación",
+          "inicio": "00:00",
+          "fin": "09:28",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     },
