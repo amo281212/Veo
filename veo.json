@@ -873,44 +873,7 @@
     },
     "ENTMovies.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "El Legado Bourne",
-          "inicio": "12:01",
-          "fin": "14:14",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Jack Frost",
-          "inicio": "14:14",
-          "fin": "15:55",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Sherlock Holmes: El juego de sombras",
-          "inicio": "15:55",
-          "fin": "18:01",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ant-Man and the Wasp: Quantumania",
-          "inicio": "18:01",
-          "fin": "19:59",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Misión Imposible 6: Repercusión",
-          "inicio": "19:59",
-          "fin": "22:24",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Loca Academia de Pilotos 2",
-          "inicio": "22:24",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Mary Poppins",
