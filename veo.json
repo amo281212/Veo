@@ -855,50 +855,7 @@
     },
     "ENTChannel.cl": {
       "Lunes": [],
-      "Martes": [
-        {
-          "nombre": "Los Indestructibles 4",
-          "inicio": "13:13",
-          "fin": "14:47",
-          "descripcion": ""
-        },
-        {
-          "nombre": "007: Quantum",
-          "inicio": "14:47",
-          "fin": "16:34",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Capitán América: El primer vengador",
-          "inicio": "16:34",
-          "fin": "18:34",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Oblivion: El tiempo del olvido",
-          "inicio": "18:34",
-          "fin": "20:38",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Frankenweenie",
-          "inicio": "20:38",
-          "fin": "22:02",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Lilo y Stitch",
-          "inicio": "22:02",
-          "fin": "23:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:30",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Martes": [],
       "Miércoles": [
         {
           "nombre": "Fantasmas del pasado",
