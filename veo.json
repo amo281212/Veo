@@ -1255,7 +1255,14 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Titanes del Pacífico",
+          "inicio": "15:10",
+          "fin": "17:13",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
