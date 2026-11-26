@@ -856,62 +856,7 @@
     "ENTChannel.cl": {
       "Lunes": [],
       "Martes": [],
-      "Miércoles": [
-        {
-          "nombre": "Fantasmas del pasado",
-          "inicio": "00:00",
-          "fin": "10:18",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Ready Player One: Comienza el juego",
-          "inicio": "10:18",
-          "fin": "12:31",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Locura de verano",
-          "inicio": "12:31",
-          "fin": "14:27",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Un jefe en pañales",
-          "inicio": "14:27",
-          "fin": "16:01",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Nueve reinas",
-          "inicio": "16:01",
-          "fin": "17:57",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Orgullo y prejuicio",
-          "inicio": "17:57",
-          "fin": "20:01",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Luna de miel para tres",
-          "inicio": "20:01",
-          "fin": "21:38",
-          "descripcion": ""
-        },
-        {
-          "nombre": "El Planeta de los Simios: (R)evolución",
-          "inicio": "21:38",
-          "fin": "23:30",
-          "descripcion": ""
-        },
-        {
-          "nombre": "Los Simpson",
-          "inicio": "23:30",
-          "fin": "00:00",
-          "descripcion": ""
-        }
-      ],
+      "Miércoles": [],
       "Jueves": [],
       "Viernes": [],
       "Sábado": [],
