@@ -1160,7 +1160,14 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Cars 3",
+          "inicio": "15:31",
+          "fin": "17:09",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
