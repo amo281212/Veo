@@ -1077,7 +1077,14 @@
       "Lunes": [],
       "Martes": [],
       "Miércoles": [],
-      "Jueves": [],
+      "Jueves": [
+        {
+          "nombre": "Volver al Futuro 3",
+          "inicio": "16:31",
+          "fin": "18:27",
+          "descripcion": ""
+        }
+      ],
       "Viernes": [],
       "Sábado": [],
       "Domingo": []
