@@ -1287,7 +1287,14 @@
           "descripcion": ""
         }
       ],
-      "Viernes": [],
+      "Viernes": [
+        {
+          "nombre": "Maze Runner: La cura mortal",
+          "inicio": "01:00",
+          "fin": "10:46",
+          "descripcion": ""
+        }
+      ],
       "Sábado": [],
       "Domingo": []
     }
